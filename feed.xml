@@ -5,8 +5,8 @@
     <description>personal blog</description>
     <link>https://damaex17.github.io/</link>
     <atom:link href="https://damaex17.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Apr 2019 13:54:27 +0000</pubDate>
-    <lastBuildDate>Tue, 09 Apr 2019 13:54:27 +0000</lastBuildDate>
+    <pubDate>Tue, 09 Apr 2019 13:57:12 +0000</pubDate>
+    <lastBuildDate>Tue, 09 Apr 2019 13:57:12 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -28,45 +28,6 @@ Rolex’s Explorer grew out of the original 1930s-50s Oyster Perpetual “bubble
         <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://damaex17.github.io/2019/rolex-explorer-114270/</link>
         <guid isPermaLink="true">https://damaex17.github.io/2019/rolex-explorer-114270/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to Download or Use This Theme</title>
-        <description>&lt;h3 id=&quot;use-this-theme-as-you-main-site&quot;&gt;Use this theme as you main site&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Download or fork the master branch of this theme repo into your GitHub account.&lt;/li&gt;
-  &lt;li&gt;Rename the repo into something like &lt;code class=&quot;highlighter-rouge&quot;&gt;your_username.github.io&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file to your preferences.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;about.md&lt;/code&gt; file for your About page.&lt;/li&gt;
-  &lt;li&gt;Inside &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder, there are sample of blog entries. Learn from it and start yours.&lt;/li&gt;
-  &lt;li&gt;Now, visit &lt;code class=&quot;highlighter-rouge&quot;&gt;http://your_username.github.io&lt;/code&gt; and you should see your blog running.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;use-this-theme-as-a-project-page&quot;&gt;Use this theme as a project page&lt;/h3&gt;
-
-&lt;p&gt;If you want to use this theme as a project page blog, you don’t need to rename the theme repo into &lt;code class=&quot;highlighter-rouge&quot;&gt;your_username.github.io&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;All you need to do, open &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file, change &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt; to your project name which contains this theme, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl: &quot;/myproject&quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;cheers&quot;&gt;Cheers!&lt;/h4&gt;
-</description>
-        <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
-        <link>https://damaex17.github.io/2016/how-to-download-or-use-this-theme/</link>
-        <guid isPermaLink="true">https://damaex17.github.io/2016/how-to-download-or-use-this-theme/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>If you have a Guest post..</title>
-        <description>&lt;p&gt;If you think that you’re going to have a guest post… take a look on this post sample. Just add &lt;code class=&quot;highlighter-rouge&quot;&gt;author: GuestName&lt;/code&gt; to the YAML front matter. Then, the &lt;strong&gt;GuestName&lt;/strong&gt; will be appear on the next of post date. Oh, the guest name will be automatically uppercase.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 Jun 2016 00:00:00 +0000</pubDate>
-        <link>https://damaex17.github.io/2016/if-you-have-a-guest-post/</link>
-        <guid isPermaLink="true">https://damaex17.github.io/2016/if-you-have-a-guest-post/</guid>
         
         
       </item>
