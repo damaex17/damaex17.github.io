@@ -1,1 +1,1 @@
-Sitemap: https://damaex17.github.io/#%20site%20url/sitemap.xml
+Sitemap: https://damaex17.github.io/sitemap.xml
