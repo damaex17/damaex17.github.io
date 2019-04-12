@@ -5,8 +5,8 @@
     <description>personal blog</description>
     <link>https://damaex17.github.io/</link>
     <atom:link href="https://damaex17.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Apr 2019 07:02:17 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Apr 2019 07:02:17 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Apr 2019 07:08:55 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Apr 2019 07:08:55 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -148,7 +148,7 @@ Rolex is building watches that last a life time (or two, or three).&lt;/p&gt;
 
 &lt;h1 id=&quot;earth---the-united-nations&quot;&gt;Earth - The United Nations&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/expanse_un.jpg&quot; align=&quot;left&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;img style=”float: left; padding: 3px 3px 0px 3px;” src=”/assets/images/expanse_un.jpg”&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;By the mid and late 21st century, humanity’s national governments are confronted with overpopulation and the resulting difficult state of Earth’s ecosystem. They unite under a global government. The United Nations.&lt;/p&gt;
 
