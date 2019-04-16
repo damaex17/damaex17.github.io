@@ -5,8 +5,8 @@
     <description>blog about watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Apr 2019 14:02:53 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Apr 2019 14:02:53 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Apr 2019 14:04:57 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Apr 2019 14:04:57 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -132,6 +132,8 @@ Poor arithmetic, but very human. It runs through all our folklore, all human rel
         
         <category>scifi</category>
         
+        <category>book</category>
+        
         
       </item>
     
@@ -199,6 +201,8 @@ Poor arithmetic, but very human. It runs through all our folklore, all human rel
         
         <category>scifi</category>
         
+        <category>book</category>
+        
         
       </item>
     
@@ -258,6 +262,8 @@ Twenty years afterward, the remark didn’t seem funny.&lt;/p&gt;
         <guid isPermaLink="true">https://inversegravity.net/2019/rescue-party/</guid>
         
         <category>scifi</category>
+        
+        <category>book</category>
         
         
       </item>
@@ -452,6 +458,8 @@ Mars offers to share the revolutionary Epstein drive technology in exchange for 
         <category>expanse</category>
         
         <category>scifi</category>
+        
+        <category>book</category>
         
         
       </item>
