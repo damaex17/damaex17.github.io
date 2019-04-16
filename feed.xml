@@ -5,15 +5,15 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Apr 2019 14:41:18 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Apr 2019 14:41:18 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Apr 2019 21:51:36 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Apr 2019 21:51:36 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>'PKI' Public Key Infrastructure</title>
         <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
 
-&lt;p&gt;PKI is universal and can work accross multiple systems and vendors. It is a framework to create, manage, distribute, use, store, revoke digital certificates and manage public-key encryption. PKI is utilizing two key (asymmetric) encryption for secure communication. The concept provides confidentiality and authentication.&lt;/p&gt;
+&lt;p&gt;PKI is universal and can work accross multiple systems and vendors. It is a framework and not an implementation. PKI is utilizing two key (asymmetric) encryption for secure communication. The concept provides confidentiality and authentication.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Confidentiality: encrypts data transmissions and allows secure communication in a insecure network&lt;/li&gt;
