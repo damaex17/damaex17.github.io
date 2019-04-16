@@ -5,8 +5,8 @@
     <description>blog about watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Apr 2019 13:55:51 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Apr 2019 13:55:51 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Apr 2019 13:59:21 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Apr 2019 13:59:21 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -20,11 +20,11 @@
   &lt;li&gt;Authentication confirms the owner of the keys by using digital certificates (signatures)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;keys---confidentiality&quot;&gt;Keys - Confidentiality&lt;/h1&gt;
+&lt;h3 id=&quot;keys---confidentiality&quot;&gt;Keys - Confidentiality&lt;/h3&gt;
 
 &lt;p&gt;PKI uses a Public-Key Encryption (PKE) or asymmetric cryptography. A private and a public key are created at the same time. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Security only requires keeping the private key private; the public key can be openly distributed without compromising security.&lt;/p&gt;
 
-&lt;h1 id=&quot;trust---authentication&quot;&gt;Trust - Authentication&lt;/h1&gt;
+&lt;h3 id=&quot;trust---authentication&quot;&gt;Trust - Authentication&lt;/h3&gt;
 
 &lt;p&gt;There are multiple approaches for gaining trust: certificate authorities (CA), web of trust (WoT), simple public key infrastructure (SPKI) and the emering blockchain-based PKI (BPKI). 
 Let’s look at the CA approach. The primary role of the CA is to bind a given public key with respective identities of entities (like people and organizations). The binding is established through a process of registration (RA) and issuance of a certificate. Depending on the assurance level of the binding, the verification may be carried out by an automated process or under human supervision.&lt;/p&gt;
