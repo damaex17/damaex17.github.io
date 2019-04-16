@@ -5,9 +5,60 @@
     <description>blog about watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Apr 2019 12:15:47 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Apr 2019 12:15:47 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Apr 2019 13:55:51 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Apr 2019 13:55:51 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>'PKI' Public Key Infrastructure</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;PKI is universal and can work accross multiple systems and vendors. It is a framework to create, manage, distribute, use, store, revoke digital certificates and manage public-key encryption. PKI is utilizing two key (asymmetric) encryption for secure communication. The concept provides confidentiality and authentication.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Confidentiality: encrypts data transmissions and allows secure communication in a insecure network&lt;/li&gt;
+  &lt;li&gt;Authentication confirms the owner of the keys by using digital certificates (signatures)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;keys---confidentiality&quot;&gt;Keys - Confidentiality&lt;/h1&gt;
+
+&lt;p&gt;PKI uses a Public-Key Encryption (PKE) or asymmetric cryptography. A private and a public key are created at the same time. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Security only requires keeping the private key private; the public key can be openly distributed without compromising security.&lt;/p&gt;
+
+&lt;h1 id=&quot;trust---authentication&quot;&gt;Trust - Authentication&lt;/h1&gt;
+
+&lt;p&gt;There are multiple approaches for gaining trust: certificate authorities (CA), web of trust (WoT), simple public key infrastructure (SPKI) and the emering blockchain-based PKI (BPKI). 
+Let’s look at the CA approach. The primary role of the CA is to bind a given public key with respective identities of entities (like people and organizations). The binding is established through a process of registration (RA) and issuance of a certificate. Depending on the assurance level of the binding, the verification may be carried out by an automated process or under human supervision.&lt;/p&gt;
+
+&lt;h3 id=&quot;pki-design&quot;&gt;PKI Design&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A certificate authority (CA) that stores, issues and signs the digital certificates&lt;/li&gt;
+  &lt;li&gt;A registration authority (RA) which verifies the identity of entities requesting their digital certificates to be stored at the CA&lt;/li&gt;
+  &lt;li&gt;A central directory which is a secure location to store and index keys&lt;/li&gt;
+  &lt;li&gt;A certificate management system managing things like the access to stored certificates or the delivery of the certificates to be issued.&lt;/li&gt;
+  &lt;li&gt;A certificate policy stating the PKI’s requirements concerning its procedures. It allows to analyze the PKI’s trustworthiness.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is a system for the creation, storage, distribution and revokation of certificates. The certificates are used to verify that a particular public key belongs to a certain entity.&lt;/p&gt;
+
+&lt;h3 id=&quot;implementation-examples-of-pki&quot;&gt;Implementation examples of PKI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;E-mail encryption and sender authentication (S/MIME, OpenPgP)&lt;/li&gt;
+  &lt;li&gt;WebTraffic encryption and sender authentication (TLS/HTTPS)&lt;/li&gt;
+  &lt;li&gt;User authentication (SSL/OpenSSL)&lt;/li&gt;
+  &lt;li&gt;Creation electronic signatures using mobile devices (PKI and biometrics)&lt;/li&gt;
+  &lt;li&gt;Bootstrapping of secure communication&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/public-key-infrastructure/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/public-key-infrastructure/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>'Starship Troopers' by Robert A. Heinlein</title>
