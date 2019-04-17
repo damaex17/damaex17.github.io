@@ -5,8 +5,8 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 14:47:18 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 14:47:18 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 14:53:09 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 14:53:09 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -62,9 +62,9 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;This continued  until my bank account was empty.&lt;/p&gt;
+&lt;p&gt;This pattern continued until my bank account was empty.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;GA-Verfügung:&lt;/strong&gt; Customer is in front of a ATM machine (German: Geldautomat) and has removed the money&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GA-Verfügung:&lt;/strong&gt; Customer is at a ATM machine (German: Geldautomat) and has removed the money&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;EMV:&lt;/strong&gt; Europay, Mastercard or Visa Authorization with PIN&lt;/p&gt;
 
@@ -243,9 +243,9 @@ possible: nope
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;Fraud detection requires many approaches. Nowadays hopefully all banks utilize machine learning to get a good understanding of their customers behavior and flag potential fraud cases in real time. Batch processing once per day is no longer acceptable in my opinion. Customers deserve to be protected by modern real time fraud detection technology.&lt;/p&gt;
+&lt;p&gt;Fraud detection requires many approaches and is highly depending on the usecase. It’s important to look at fraud cases and analyse them. Nowadays hopefully all banks utilize machine learning to get a good understanding of their customers behavior and flag potential fraud cases in real time. Batch processing once per day is no longer acceptable in my opinion. Customers deserve to be protected by modern real time fraud detection technology.&lt;/p&gt;
 
-&lt;p&gt;My approach is simple and can help to preven fraud in certain cases.&lt;/p&gt;
+&lt;p&gt;My approach is simple and can help to preven fraud in cses of unrealistic distances between transactions.&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</link>
