@@ -5,8 +5,8 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 14:56:07 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 14:56:07 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 14:59:17 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 14:59:17 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -82,7 +82,7 @@
 
 &lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
 
-&lt;p&gt;Get the Latitude and Longitude of a given City/Country, &lt;a href=&quot;https://cloud.google.com/maps-platform/&quot;&gt;python geopy&lt;/a&gt; or query &lt;a href=&quot;https://simplemaps.com/resources/free-country-cities&quot;&gt;SimpleMaps&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Get the Latitude and Longitude of a given City/Country for example via &lt;a href=&quot;https://cloud.google.com/maps-platform/&quot;&gt;python geopy&lt;/a&gt; or &lt;a href=&quot;https://simplemaps.com/resources/free-country-cities&quot;&gt;SimpleMaps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -111,7 +111,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;With the &lt;a href=&quot;https://en.wikipedia.org/wiki/Haversine_formula&quot;&gt;Haversine Formula&lt;/a&gt; we can calculate the distance on a sphere (Earth) with a radius of 6371 km.&lt;/p&gt;
+&lt;p&gt;With the &lt;a href=&quot;https://en.wikipedia.org/wiki/Haversine_formula&quot;&gt;Haversine Formula&lt;/a&gt; we can calculate the distance on a sphere with a radius of 6371 km (Earth).&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = sin²(Δφ/2) + cos φ1 ⋅ cos φ2 ⋅ sin²(Δλ/2)
 
 c = 2 * atan2( √a, √(1−a) )
