@@ -5,15 +5,15 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 06:49:06 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 06:49:06 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 08:03:29 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 08:03:29 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>'PKI' Public Key Infrastructure</title>
         <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
 
-&lt;p&gt;PKI is universal and can work accross multiple systems and vendors. It is a framework and not an implementation. PKI is utilizing two key (asymmetric) encryption for secure communication. The concept provides confidentiality and authentication.&lt;/p&gt;
+&lt;p&gt;PKI is universal and can work accross multiple systems and vendors. It is a framework and not an implementation. PKI is an approach to prevent alteration (man-in-the-middle-attack) of public keys in untrusted networks like the internet. The framework is enabling secure public-key (asymmetric) encryption. PKI provides confidentiality and authentication.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Confidentiality: encrypts data transmissions and allows secure communication in a insecure network&lt;/li&gt;
@@ -22,12 +22,15 @@
 
 &lt;h3 id=&quot;keys---confidentiality&quot;&gt;Keys - Confidentiality&lt;/h3&gt;
 
-&lt;p&gt;PKI uses a Public-Key Encryption (PKE) or asymmetric cryptography. A private and a public key are created at the same time. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Security only requires keeping the private key private; the public key can be openly distributed without compromising security.&lt;/p&gt;
+&lt;p&gt;Public-Key Encryption or asymmetric cryptography. A private and a public key are created at the same time. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Security only requires keeping the private key private; the public key can be openly distributed without compromising security. Any person can encrypt a message using the receiver’s public key, but that encrypted message can only be decrypted with the receiver’s private key.
+Public-Key cryptography is a fundamental security component of modern applications and protocols assuring the confidentiality, non-repudiation (undeniability) and authenticity of electronic communications and data storage.&lt;/p&gt;
 
 &lt;h3 id=&quot;trust---authentication&quot;&gt;Trust - Authentication&lt;/h3&gt;
 
-&lt;p&gt;There are multiple approaches for gaining trust: certificate authorities (CA), web of trust (WoT), simple public key infrastructure (SPKI) and the emering blockchain-based PKI (BPKI). 
+&lt;p&gt;Trust in the public key can be gained by multiple approaches: certificate authorities (CA), web of trust (WoT), simple public key infrastructure (SPKI) and the emering blockchain-based PKI (BPKI). 
 Let’s look at the CA approach. The primary role of the CA is to bind a given public key with respective identities of entities (like people and organizations). The binding is established through a process of registration (RA) and issuance of a certificate. Depending on the assurance level of the binding, the verification may be carried out by an automated process or under human supervision.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/pki_1.jpg&quot; alt=&quot;picture of a keyboard&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;pki-design&quot;&gt;PKI Design&lt;/h3&gt;
 
@@ -47,9 +50,10 @@ Let’s look at the CA approach. The primary role of the CA is to bind a given p
   &lt;li&gt;E-mail encryption and sender authentication (S/MIME, OpenPgP)&lt;/li&gt;
   &lt;li&gt;WebTraffic encryption and sender authentication (TLS/HTTPS)&lt;/li&gt;
   &lt;li&gt;User authentication (SSL/OpenSSL)&lt;/li&gt;
-  &lt;li&gt;Creation electronic signatures using mobile devices (PKI and biometrics)&lt;/li&gt;
+  &lt;li&gt;Creation of electronic signatures using mobile devices (PKI and biometrics)&lt;/li&gt;
   &lt;li&gt;Bootstrapping of secure communication&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/public-key-infrastructure/</link>
