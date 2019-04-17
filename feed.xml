@@ -5,8 +5,8 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 13:11:12 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 13:11:12 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 13:23:45 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 13:23:45 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -44,12 +44,6 @@
       &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;08.05.2012-14:34&lt;/td&gt;
-      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 7,50 CAD 500 &lt;code class=&quot;highlighter-rouge&quot;&gt;TORONTO&lt;/code&gt; MCU WELLESLEY B CAN&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;€ -394,01&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
       &lt;td&gt;08.05.2012-15:03&lt;/td&gt;
       &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 363,60 &lt;code class=&quot;highlighter-rouge&quot;&gt;CANCUN&lt;/code&gt; TKUKULKAN K MEXGA MXN&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;€ -21,60&lt;/td&gt;
@@ -65,12 +59,6 @@
       &lt;td&gt;08.05.2012-15:03&lt;/td&gt;
       &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 657,60 &lt;code class=&quot;highlighter-rouge&quot;&gt;CANCUN&lt;/code&gt; TKUKULKAN K MEXGA MXN&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;€ -39,06&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;08.05.2012-15:15&lt;/td&gt;
-      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 1539,60 &lt;code class=&quot;highlighter-rouge&quot;&gt;CANCUN&lt;/code&gt; TKUKULKAN K MEXGA MXN&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;€ -91,04&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -100,9 +88,9 @@
 
 &lt;h3 id=&quot;detection&quot;&gt;Detection&lt;/h3&gt;
 
-&lt;p&gt;Banks check your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fradulent transaction and prevent the money withdrawal, lock the compromised card or ask the user for verification via a mobile app.&lt;/p&gt;
+&lt;p&gt;Banks check your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fradulent transaction and prevent the money withdrawal, lock the compromised card or ask the user for additional verification via a mobile app.&lt;/p&gt;
 
-&lt;h3 id=&quot;idea&quot;&gt;Idea&lt;/h3&gt;
+&lt;h3 id=&quot;fraud-detection&quot;&gt;Fraud detection&lt;/h3&gt;
 
 &lt;p&gt;Calculate the distance between two given cities and check if it’s realistic to travel the distance in the given time via airplane.&lt;/p&gt;
 
@@ -262,6 +250,11 @@ delta time1 and time2: 1980.0 seconds
 possible: nope
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;At this point the fraud detection would report an issue and the transaction would be declined. So the damage to the bank would be just the first transaction instead of multiple thousand Euro.&lt;/p&gt;
+
+&lt;h3 id=&quot;production&quot;&gt;Production&lt;/h3&gt;
+
+&lt;p&gt;Time is money here and the decision regarding accepting or declining a transaction has to be made quickly. I would utilize a redis based cache to hold the time and lat/long pair of the last transactions of all customers. A TTL of one day should be enough because in one day our airplane can go anywhere on this planet. Military personal traveling by fighter jets will trigger the implementation.&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</link>
