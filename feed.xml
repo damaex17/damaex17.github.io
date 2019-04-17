@@ -5,8 +5,8 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 14:53:09 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 14:53:09 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 14:56:07 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 14:56:07 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -74,7 +74,7 @@
 
 &lt;h3 id=&quot;detection&quot;&gt;Detection&lt;/h3&gt;
 
-&lt;p&gt;Banks check your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fraudulent transactions and prevent the money withdrawal, lock the compromised card or ask the user for additional verification via a mobile app.&lt;/p&gt;
+&lt;p&gt;Banks check your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives from payment networks or vendor terminals, has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fraudulent transactions and prevent the money withdrawal, lock the compromised card or ask the user for additional verification via a mobile app.&lt;/p&gt;
 
 &lt;h3 id=&quot;how-to-detect&quot;&gt;How to detect&lt;/h3&gt;
 
