@@ -5,9 +5,181 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 10:47:44 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 10:47:44 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 12:31:09 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 12:31:09 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>'Fraud Detection' with GPS and airplanes</title>
+        <description>&lt;h3 id=&quot;fraud-case&quot;&gt;Fraud Case&lt;/h3&gt;
+
+&lt;p&gt;I was the victim of credit card fraud case in 2012. Criminals skimmed my debit card and emptied the bank account in a matter of hours. My bank fully refunded me. The pattern of the transactions cought my attention.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date UTC&lt;/th&gt;
+      &lt;th&gt;Transaction Text&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Value&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Fraud&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-02:47&lt;/td&gt;
+      &lt;td&gt;GA Verfügung EMV GEB.EU 5,99 EU 100,00 BERLIN Backshop GER&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -105,99&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;no&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-14:30&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 7,50 CAD 300 TORONTO MCU WELLESLEY B CAN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -239,41&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-15:03&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 363,60 CANCUN TKUKULKAN K MEXGA MXN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -21,60&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-14:34&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 7,50 CAD 500 TORONTO MCU WELLESLEY B CAN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -394,01&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-15:03&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 363,60 CANCUN TKUKULKAN K MEXGA MXN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -21,60&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-15:31&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 7,50 CAD 500 TORONTO MCU WELLESLEY B CAN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -394,01&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-15:03&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 657,60 CANCUN TKUKULKAN K MEXGA MXN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -39,06&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-15:15&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 1539,60 CANCUN TKUKULKAN K MEXGA MXN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -91,04&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-15:16&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 7419,60 CANCUN TKUKULKAN K MEXGA MXN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -440,68&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-15:20&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 1524,60 CANCUN TKUKULKAN K MEXGA MXN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -89,97&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-15:23&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 7419,60 CANCUN TKUKULKAN K MEXGA MXN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -440,68&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-16:15&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 7419,60 CANCUN TKUKULKAN K MEXGA MXN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -440,68&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08.05.2012-17:31&lt;/td&gt;
+      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 7,50 CAD 280 TORONTO MCU WELLESLEY B CAN&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;€ -222,56&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This goes on until my bank account was empty.&lt;/p&gt;
+
+&lt;p&gt;GA-Verfügung: Customer is in front of a ATM machine (German: Geldautomat) and has removed the money
+EMV: Europay, Mastercard or Visa Authorization with PIN
+EC-GA MAGNET0: Authorization via the magnetic strip of the card&lt;/p&gt;
+
+&lt;p&gt;The first transaction at 02:47 (I partied in 2012) was a real ATM withdrawl by me and this wasn’t necessary the machine where my card data was stolen. Then the fraudulent transactions start from Toronoto Canada and Cancun Mexico.&lt;/p&gt;
+
+&lt;h3 id=&quot;detection&quot;&gt;Detection&lt;/h3&gt;
+
+&lt;p&gt;Banks check your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fradulent transaction and prevent the money withdrawal, lock the compromised card or ask the user for verification via a mobile app.&lt;/p&gt;
+
+&lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
+
+&lt;p&gt;Get the Latitude and Longitude of a given City/Country, &lt;a href=&quot;https://cloud.google.com/maps-platform/&quot;&gt;python geopy&lt;/a&gt; or query &lt;a href=&quot;https://simplemaps.com/resources/free-country-cities&quot;&gt;SimpleMaps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;City&lt;/th&gt;
+      &lt;th&gt;latitude&lt;/th&gt;
+      &lt;th&gt;lonitude&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Berlin&lt;/td&gt;
+      &lt;td&gt;52.516667&lt;/td&gt;
+      &lt;td&gt;13.4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cancun&lt;/td&gt;
+      &lt;td&gt;21.172361&lt;/td&gt;
+      &lt;td&gt;-86.829546&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Toronto&lt;/td&gt;
+      &lt;td&gt;43.666667&lt;/td&gt;
+      &lt;td&gt;-79.416667&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;With the &lt;a href=&quot;https://en.wikipedia.org/wiki/Haversine_formula&quot;&gt;Haversine Formula&lt;/a&gt; we can now calculate the distance on a sphere (Earth) with a radius of 6371 km.&lt;/p&gt;
+
+&lt;p&gt;a = sin²(Δφ/2) + cos φ1 ⋅ cos φ2 ⋅ sin²(Δλ/2)
+c = 2 * atan2( √a, √(1−a) )
+d = R * c&lt;/p&gt;
+
+&lt;p&gt;Where φ represent the latitudes, and λ represent the longitudes.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calc_dist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;R&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6371&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#radius of earth
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;lat1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;lon1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;lat2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;lon2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;dlon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lon2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lon1&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;dlat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lat2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lat1&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dlat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lat1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lat2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dlon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;atan2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;R&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>'PKI' Public Key Infrastructure</title>
