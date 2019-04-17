@@ -5,8 +5,8 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 13:09:13 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 13:09:13 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 13:11:12 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 13:11:12 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -217,7 +217,6 @@ d = R * c
     &lt;tr&gt;
       &lt;td&gt;08.05.2012-02:47&lt;/td&gt;
       &lt;td&gt;Berlin&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
       &lt;td&gt;52.516667&lt;/td&gt;
       &lt;td&gt;13.4&lt;/td&gt;
     &lt;/tr&gt;
@@ -226,7 +225,6 @@ d = R * c
       &lt;td&gt;Toronto&lt;/td&gt;
       &lt;td&gt;43.666667&lt;/td&gt;
       &lt;td&gt;-79.416667&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
