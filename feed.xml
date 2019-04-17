@@ -5,8 +5,8 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 13:23:45 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 13:23:45 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 13:27:35 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 13:27:35 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -84,7 +84,7 @@
 
 &lt;p&gt;&lt;strong&gt;EC-GA MAGNET0:&lt;/strong&gt; Authorization via the magnetic strip of the card&lt;/p&gt;
 
-&lt;p&gt;The first transaction at 02:47 (I still partied in 2012) was a real ATM withdrawl by me and this wasn’t necessarily the machine where my card data was stolen. Then the fraudulent transactions start from Toronoto Canada and Cancun Mexico.&lt;/p&gt;
+&lt;p&gt;The first transaction at 02:47 was a real ATM withdrawl by me and this wasn’t necessarily the machine where my card data was stolen. Then the fraudulent transactions start from Toronoto Canada and Cancun Mexico.&lt;/p&gt;
 
 &lt;h3 id=&quot;detection&quot;&gt;Detection&lt;/h3&gt;
 
@@ -125,7 +125,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;With the &lt;a href=&quot;https://en.wikipedia.org/wiki/Haversine_formula&quot;&gt;Haversine Formula&lt;/a&gt; we can now calculate the distance on a sphere (Earth) with a radius of 6371 km.&lt;/p&gt;
+&lt;p&gt;With the &lt;a href=&quot;https://en.wikipedia.org/wiki/Haversine_formula&quot;&gt;Haversine Formula&lt;/a&gt; we can calculate the distance on a sphere (Earth) with a radius of 6371 km.&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = sin²(Δφ/2) + cos φ1 ⋅ cos φ2 ⋅ sin²(Δλ/2)
 
 c = 2 * atan2( √a, √(1−a) )
@@ -254,7 +254,7 @@ possible: nope
 
 &lt;h3 id=&quot;production&quot;&gt;Production&lt;/h3&gt;
 
-&lt;p&gt;Time is money here and the decision regarding accepting or declining a transaction has to be made quickly. I would utilize a redis based cache to hold the time and lat/long pair of the last transactions of all customers. A TTL of one day should be enough because in one day our airplane can go anywhere on this planet. Military personal traveling by fighter jets will trigger the implementation.&lt;/p&gt;
+&lt;p&gt;I would utilize a microservice to run the fraud detection. The decision regarding accepting or declining a transaction has to be made quickly. I would optimize the code for this and utilize a redis based cache to hold the time and lat/long pair of the last transactions of all customers. A TTL of one day should be enough because in one day our airplane can go anywhere on this planet. Military personal traveling by fighter jets will trigger the implementation.&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</link>
