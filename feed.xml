@@ -5,8 +5,8 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 14:33:20 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 14:33:20 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 14:40:56 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 14:40:56 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -78,12 +78,12 @@
 
 &lt;h3 id=&quot;fraud-detection&quot;&gt;Fraud detection&lt;/h3&gt;
 
-&lt;p&gt;Calculate the distance between two given cities and check if it’s realistic to travel the distance in the given time in a commercial airplane.&lt;/p&gt;
+&lt;p&gt;Calculate the distance between two given cities and check if it’s realistic to travel the distance in the given time via airplane.
+&lt;img src=&quot;/assets/images/fraud_1.png&quot; alt=&quot;Haversine&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
 
-&lt;p&gt;Get the Latitude and Longitude of a given City/Country, &lt;a href=&quot;https://cloud.google.com/maps-platform/&quot;&gt;python geopy&lt;/a&gt; or query &lt;a href=&quot;https://simplemaps.com/resources/free-country-cities&quot;&gt;SimpleMaps&lt;/a&gt;.
-&lt;img src=&quot;/assets/images/fraud_2.png&quot; alt=&quot;Earth&quot; style=&quot;float: right; padding: 10px 10px 10px 0px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Get the Latitude and Longitude of a given City/Country, &lt;a href=&quot;https://cloud.google.com/maps-platform/&quot;&gt;python geopy&lt;/a&gt; or query &lt;a href=&quot;https://simplemaps.com/resources/free-country-cities&quot;&gt;SimpleMaps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -119,11 +119,8 @@ c = 2 * atan2( √a, √(1−a) )
 
 d = R * c
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/fraud_1.svg&quot; alt=&quot;Arthur C. Clarke&quot; style=&quot;float: left; padding: 10px 10px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Where φ represent the latitudes, and λ represent the longitudes.&lt;/p&gt;
-
-&lt;p&gt;We then need to calculate the delta between the time of the two transactions and check if an airplane (max 925km/h) could actually make it.&lt;/p&gt;
+&lt;p&gt;Where φ represent the latitudes, and λ represent the longitudes.
+We then need to calculate the delta between the time of the two transactions and check if an airplane (max 925km/h) could actually make it.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/python3
 &lt;/span&gt;
@@ -249,7 +246,7 @@ possible: nope
 
 &lt;p&gt;Fraud detection requires many approaches. Nowadays hopefully all banks utilize machine learning to get a good understanding of their customers behavior and flag potential fraud cases in real time. Batch processing once per day is no longer acceptable in my opinion. Customers deserve to be protected by modern real time fraud detection technology.&lt;/p&gt;
 
-&lt;p&gt;My approach is simple and can help to prevent fraud in certain cases by using simple math.&lt;/p&gt;
+&lt;p&gt;My approach is simple and can help to preven fraud in certain cases.&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</link>
