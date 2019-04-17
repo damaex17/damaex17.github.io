@@ -5,15 +5,15 @@
     <description>blog about technology, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 13:27:35 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 13:27:35 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 14:09:44 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 14:09:44 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>'Fraud Detection' with GPS and airplanes</title>
         <description>&lt;h3 id=&quot;fraud-case&quot;&gt;Fraud Case&lt;/h3&gt;
 
-&lt;p&gt;I was the victim of credit card fraud case in 2012. Criminals skimmed my debit card and emptied the bank account in a matter of hours. My bank fully refunded me but I felt victimized. The pattern of the transactions cought my attention.&lt;/p&gt;
+&lt;p&gt;I was the victim of credit card fraud case in 2012. Criminals skimmed my debit card and emptied the bank account in a matter of hours. My bank fully refunded me but when checking the transactions, I figured that this was preventable.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -21,7 +21,6 @@
       &lt;th&gt;Date UTC&lt;/th&gt;
       &lt;th&gt;Transaction Text&lt;/th&gt;
       &lt;th style=&quot;text-align: right&quot;&gt;Value&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Fraud&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -29,49 +28,36 @@
       &lt;td&gt;08.05.2012-02:47&lt;/td&gt;
       &lt;td&gt;GA Verfügung EMV GEB.EU 5,99 EU 100,00 &lt;code class=&quot;highlighter-rouge&quot;&gt;BERLIN&lt;/code&gt; Backshop GER&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;€ -105,99&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;n&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;08.05.2012-14:30&lt;/td&gt;
       &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 7,50 CAD 300 &lt;code class=&quot;highlighter-rouge&quot;&gt;TORONTO&lt;/code&gt; MCU WELLESLEY B CAN&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;€ -239,41&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;08.05.2012-15:03&lt;/td&gt;
       &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 363,60 &lt;code class=&quot;highlighter-rouge&quot;&gt;CANCUN&lt;/code&gt; TKUKULKAN K MEXGA MXN&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;€ -21,60&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;08.05.2012-15:03&lt;/td&gt;
-      &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 363,60 &lt;code class=&quot;highlighter-rouge&quot;&gt;CANCUN&lt;/code&gt; TKUKULKAN K MEXGA MXN&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;€ -21,60&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;08.05.2012-15:31&lt;/td&gt;
       &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 7,50 CAD 500 &lt;code class=&quot;highlighter-rouge&quot;&gt;TORONTO&lt;/code&gt; MCU WELLESLEY B CAN&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;€ -394,01&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;08.05.2012-15:03&lt;/td&gt;
       &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 657,60 &lt;code class=&quot;highlighter-rouge&quot;&gt;CANCUN&lt;/code&gt; TKUKULKAN K MEXGA MXN&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;€ -39,06&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;08.05.2012-15:16&lt;/td&gt;
       &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 0,00 MXN 7419,60 &lt;code class=&quot;highlighter-rouge&quot;&gt;CANCUN&lt;/code&gt; TKUKULKAN K MEXGA MXN&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;€ -440,68&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;08.05.2012-17:31&lt;/td&gt;
       &lt;td&gt;GA-Verfügung EC-GA MAGNET0 GEB.EU 7,50 CAD 280 &lt;code class=&quot;highlighter-rouge&quot;&gt;TORONTO&lt;/code&gt; MCU WELLESLEY B CAN&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;€ -222,56&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -84,11 +70,11 @@
 
 &lt;p&gt;&lt;strong&gt;EC-GA MAGNET0:&lt;/strong&gt; Authorization via the magnetic strip of the card&lt;/p&gt;
 
-&lt;p&gt;The first transaction at 02:47 was a real ATM withdrawl by me and this wasn’t necessarily the machine where my card data was stolen. Then the fraudulent transactions start from Toronoto Canada and Cancun Mexico.&lt;/p&gt;
+&lt;p&gt;The first transaction at 02:47 was a ATM withdrawl by me and this wasn’t necessarily the machine where my card data was stolen. Later the fraudulent transactions start from Toronto Canada and Cancun Mexico.&lt;/p&gt;
 
 &lt;h3 id=&quot;detection&quot;&gt;Detection&lt;/h3&gt;
 
-&lt;p&gt;Banks check your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fradulent transaction and prevent the money withdrawal, lock the compromised card or ask the user for additional verification via a mobile app.&lt;/p&gt;
+&lt;p&gt;Banks check your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fraudulent transactions and prevent the money withdrawal, lock the compromised card or ask the user for additional verification via a mobile app.&lt;/p&gt;
 
 &lt;h3 id=&quot;fraud-detection&quot;&gt;Fraud detection&lt;/h3&gt;
 
@@ -250,11 +236,17 @@ delta time1 and time2: 1980.0 seconds
 possible: nope
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;At this point the fraud detection would report an issue and the transaction would be declined. So the damage to the bank would be just the first transaction instead of multiple thousand Euro.&lt;/p&gt;
+&lt;p&gt;At this point the fraud detection would report an issue and the bank could declined the transaction. So the damage to the bank would be just the first transaction instead of multiple thousand Euro.&lt;/p&gt;
 
 &lt;h3 id=&quot;production&quot;&gt;Production&lt;/h3&gt;
 
-&lt;p&gt;I would utilize a microservice to run the fraud detection. The decision regarding accepting or declining a transaction has to be made quickly. I would optimize the code for this and utilize a redis based cache to hold the time and lat/long pair of the last transactions of all customers. A TTL of one day should be enough because in one day our airplane can go anywhere on this planet. Military personal traveling by fighter jets will trigger the implementation.&lt;/p&gt;
+&lt;p&gt;I would utilize a microservice to run the detection. The decision regarding accepting or declining a transaction has to be made quickly. I would optimize the code for this and utilize a redis based cache to hold the time and lat/long pair of the last transactions of all customers. A TTL of one day should be enough because in one day our airplane can go anywhere on this planet. Military personal traveling by fighter jets will unfortunately trigger the implementation.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Fraud detection requires many approaches. Nowadays hopefully all banks utilize machine learning to get a good understanding of their customers behavior and flag potential fraud cases in real time. Batch processing once per day is no longer acceptable in my opinion. Customers deserve to be protected by modern real time fraud detection technology.&lt;/p&gt;
+
+&lt;p&gt;My approach is simple and can help to preven fraud in certain cases.&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</link>
