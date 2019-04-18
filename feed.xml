@@ -5,15 +5,15 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Apr 2019 17:34:20 +0000</pubDate>
-    <lastBuildDate>Thu, 18 Apr 2019 17:34:20 +0000</lastBuildDate>
+    <pubDate>Thu, 18 Apr 2019 17:36:28 +0000</pubDate>
+    <lastBuildDate>Thu, 18 Apr 2019 17:36:28 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>'Responsible Disclosure' at SignUp</title>
         <description>&lt;h3 id=&quot;the-issue&quot;&gt;The Issue&lt;/h3&gt;
 
-&lt;p&gt;A single E-Mail address and a limited password portfolio of users are a security threat to all applications. I want to suggest an approach to responsibly disclose the issue to users during signup. This can help users to get a better understanding of the situation and hopefully motivates them to use a new password during the signup for a new service&lt;/p&gt;
+&lt;p&gt;A single E-Mail address and limited password portfolios of users are a security threat to all applications. I want to suggest an approach to responsibly disclose the issue to users during signup. This can help users to get a better understanding of the situation and hopefully motivates them to use a new password during the signup for a new service&lt;/p&gt;
 
 &lt;h3 id=&quot;e-mail-address&quot;&gt;E-Mail Address&lt;/h3&gt;
 
