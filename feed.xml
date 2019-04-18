@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Apr 2019 17:55:11 +0000</pubDate>
-    <lastBuildDate>Thu, 18 Apr 2019 17:55:11 +0000</lastBuildDate>
+    <pubDate>Thu, 18 Apr 2019 19:55:03 +0000</pubDate>
+    <lastBuildDate>Thu, 18 Apr 2019 19:55:03 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -155,11 +155,11 @@ The service also providess a &lt;a href=&quot;https://haveibeenpwned.com/API/Con
 
 &lt;h3 id=&quot;detection&quot;&gt;Detection&lt;/h3&gt;
 
-&lt;p&gt;Banks check your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives from payment networks or vendor terminals, has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fraudulent transactions and prevent the money withdrawal, lock the compromised card or ask the user for additional verification via a mobile app.&lt;/p&gt;
+&lt;p&gt;Banks verify your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives from payment networks or vendor terminals, has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fraudulent transactions and prevent the money withdrawal, lock the compromised card or ask the user for additional verification via a mobile app.&lt;/p&gt;
 
 &lt;h3 id=&quot;how-to-detect&quot;&gt;How to detect&lt;/h3&gt;
 
-&lt;p&gt;Calculate the distance between two given cities and check if it’s realistic to travel the distance in the given time via airplane.&lt;/p&gt;
+&lt;p&gt;Calculate the distance between two given cities and calculate if it’s realistic to travel the distance in the given time via airplane.&lt;/p&gt;
 
 &lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
 
@@ -200,7 +200,7 @@ c = 2 * atan2( √a, √(1−a) )
 d = R * c
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Where φ represent the latitudes, and λ represent the longitudes.
-We then need to calculate the delta between the time of the two transactions and check if an airplane (max 925km/h) could actually make it.&lt;/p&gt;
+We then need to calculate the delta between the time of the two transactions and calculate if an airplane (max 925kph/0.26kps) could actually make it.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/python3
 &lt;/span&gt;
