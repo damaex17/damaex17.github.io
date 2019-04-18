@@ -5,9 +5,90 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Apr 2019 21:19:19 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 21:19:19 +0000</lastBuildDate>
+    <pubDate>Thu, 18 Apr 2019 17:34:20 +0000</pubDate>
+    <lastBuildDate>Thu, 18 Apr 2019 17:34:20 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>'Responsible Disclosure' at SignUp</title>
+        <description>&lt;h3 id=&quot;the-issue&quot;&gt;The Issue&lt;/h3&gt;
+
+&lt;p&gt;A single E-Mail address and a limited password portfolio of users are a security threat to all applications. I want to suggest an approach to responsibly disclose the issue to users during signup. This can help users to get a better understanding of the situation and hopefully motivates them to use a new password during the signup for a new service&lt;/p&gt;
+
+&lt;h3 id=&quot;e-mail-address&quot;&gt;E-Mail Address&lt;/h3&gt;
+
+&lt;p&gt;Services require a customer to provide at least a E-Mail address and a password. The E-Mail address is essential for login, password recovery and all communication between service provider and customer. &lt;a href=&quot;http://radicati.com/wp/wp-content/uploads/2015/02/Email-Statistics-Report-2015-2019-Executive-Summary.pdf&quot;&gt;Consumer reseach&lt;/a&gt; shows an average of 1.7 to 1.9 E-Mail accounts per user. This means that there is a high probability that a user will use the same address over years and for multiple service signups.&lt;/p&gt;
+
+&lt;h3 id=&quot;password&quot;&gt;Password&lt;/h3&gt;
+
+&lt;p&gt;The password should be distinctive per service but &lt;a href=&quot;https://securingtomorrow.mcafee.com/consumer/consumer-threat-notices/security-world-password-day/&quot;&gt;31% of customers&lt;/a&gt; use only two to three different passwords. The question is also how different those passwords are. &lt;a href=&quot;https://www.cyclonis.com/report-83-percent-users-surveyed-use-same-password-multiple-sites/&quot;&gt;83% of users&lt;/a&gt; admit to re-use passwords. Password managers are very helpful to provide unique passwords for each account but hardly anybody uses them if not forced by company policy.&lt;/p&gt;
+
+&lt;h3 id=&quot;issue&quot;&gt;Issue&lt;/h3&gt;
+
+&lt;p&gt;Companies get hacked and databases with millions of accounts are leaked. Password hashing in account databases is not as common as we would wish and sometimes no salt and weak algorithms are used for the hash of the passwords. Attackers use those data breaches and try known E-Mail Address and Password combinations on any service.&lt;/p&gt;
+
+&lt;p&gt;Security aware people use password manager and two-factor authentication, but the majority of users doesn’t. Service providers are afraid to enforce hard requirements in fear of the user not signing up or the usability of a service degrading.&lt;/p&gt;
+
+&lt;h3 id=&quot;personal&quot;&gt;Personal&lt;/h3&gt;
+
+&lt;p&gt;I use the same E-Mail since 2005. The address has been leaked in the following hacks:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;verifications.io&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In February 2019, the email address validation service verifications.io suffered a data breach. Discovered by Bob Diachenko and Vinny Troia, the breach was due to the data being stored in a MongoDB instance left publicly facing without a password and resulted in 763 million unique email addresses being exposed. Many records within the data also included additional personal attributes such as names, phone numbers, IP addresses, dates of birth and genders. No passwords were included in the data. The Verifications.io website went offline during the disclosure process, although an archived copy remains viewable.&lt;/p&gt;
+
+&lt;p&gt;Compromised data: Dates of birth, Email addresses, Employers, Genders, Geographic locations, IP addresses, Job titles, Names, Phone numbers, Physical addresses&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;tumblr&lt;/strong&gt;
+In early 2013, tumblr suffered a data breach which resulted in the exposure of over 65 million accounts. The data was later put up for sale on a dark market website and included email addresses and passwords stored as salted SHA1 hashes.&lt;/p&gt;
+
+&lt;p&gt;Compromised data: Email addresses, Passwords&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MySpace&lt;/strong&gt;
+In approximately 2008, MySpace suffered a data breach that exposed almost 360 million accounts. In May 2016 the data was offered up for sale on the “Real Deal” dark market website and included email addresses, usernames and SHA1 hashes of the first 10 characters of the password converted to lowercase and stored without a salt. The exact breach date is unknown, but analysis of the data suggests it was 8 years before being made public.&lt;/p&gt;
+
+&lt;p&gt;Compromised data: Email addresses, Passwords, Usernames&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt; 
+In May 2016, LinkedIn had 164 million email addresses and passwords exposed. Originally hacked in 2012, the data remained out of sight until being offered for sale on a dark market site 4 years later. The passwords in the breach were stored as SHA1 hashes without salt, the vast majority of which were quickly cracked in the days following the release of the data.&lt;/p&gt;
+
+&lt;p&gt;Compromised data: Email addresses, Passwords&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dropbox&lt;/strong&gt; 
+In mid-2012, Dropbox suffered a data breach which exposed the stored credentials of tens of millions of their customers. In August 2016, they forced password resets for customers they believed may be at risk. A large volume of data totalling over 68 million records was subsequently traded online and included email addresses and salted hashes of passwords (half of them SHA1, half of them bcrypt).&lt;/p&gt;
+
+&lt;p&gt;Compromised data: Email addresses, Passwords&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disqus&lt;/strong&gt;
+In October 2017, the blog commenting service Disqus announced they’d suffered a data breach. The breach dated back to July 2012 but wasn’t identified until years later when the data finally surfaced. The breach contained over 17.5 million unique email addresses and usernames. Users who created logins on Disqus had salted SHA1 hashes of passwords whilst users who logged in via social providers only had references to those accounts.&lt;/p&gt;
+
+&lt;p&gt;Compromised data: Email addresses, Passwords, Usernames&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;My E-Mail address was also in the the Collection #1. Ths data set contained multiple data breaches and almost 2.7 billion records including 773 million unique email addresses alongside passwords.&lt;/p&gt;
+
+&lt;p&gt;I am not in possession of all breached databases but the fantastic service &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;’;–have i been pwned?&lt;/a&gt; is. And you can check your E-Mail address via their web interface right now.
+The service also providess a &lt;a href=&quot;https://haveibeenpwned.com/API/Consumers&quot;&gt;public API&lt;/a&gt; which can also be used in any web or app based signup process.&lt;/p&gt;
+
+&lt;h3 id=&quot;responsible-disclosure&quot;&gt;Responsible Disclosure&lt;/h3&gt;
+
+&lt;p&gt;Users need to be guided while this information is disclosed to them. Displaying a big red “You have been hacked” during signup might not be the best idea. You should also tell the user beforehand about sharing his E-Mail address with a third party like &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;haveibeenpwned&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After the disclosure the user should be given suggestions on how to improve the account security (eg. two-factor authentication). Service owners can increase the security features on this account.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;We need to take non technical people with us to improve security. Disclosing information responsibly to those users is a great way to increase awareness and help them to harden their account. Service providers should not shy away from this and instead make users understand that security is taken serious in their new shiny mobile app.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/responsible-disclosure-at-signup/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/responsible-disclosure-at-signup/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>'Fraud Detection' with GPS and airplanes</title>
@@ -127,8 +208,8 @@ We then need to calculate the delta between the time of the two transactions and
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;atan2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calc_dist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pos2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;R&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6371&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#radius of earth
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;lat1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;R&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6371&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;lat1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;lon1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;lat2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;lon2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;radians&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pos2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
