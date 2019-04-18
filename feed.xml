@@ -5,12 +5,12 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Apr 2019 17:36:28 +0000</pubDate>
-    <lastBuildDate>Thu, 18 Apr 2019 17:36:28 +0000</lastBuildDate>
+    <pubDate>Thu, 18 Apr 2019 17:47:38 +0000</pubDate>
+    <lastBuildDate>Thu, 18 Apr 2019 17:47:38 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>'Responsible Disclosure' at SignUp</title>
+        <title>Responsible Disclosure at SignUp</title>
         <description>&lt;h3 id=&quot;the-issue&quot;&gt;The Issue&lt;/h3&gt;
 
 &lt;p&gt;A single E-Mail address and limited password portfolios of users are a security threat to all applications. I want to suggest an approach to responsibly disclose the issue to users during signup. This can help users to get a better understanding of the situation and hopefully motivates them to use a new password during the signup for a new service&lt;/p&gt;
@@ -91,7 +91,7 @@ The service also providess a &lt;a href=&quot;https://haveibeenpwned.com/API/Con
       </item>
     
       <item>
-        <title>'Fraud Detection' with GPS and airplanes</title>
+        <title>Fraud Detection with GPS and airplanes</title>
         <description>&lt;h3 id=&quot;fraud-case&quot;&gt;Fraud Case&lt;/h3&gt;
 
 &lt;p&gt;I was the victim of credit card fraud in 2012. Criminals skimmed my debit card and emptied the bank account in a matter of hours. My bank fully refunded me but when checking the transactions, I figured that this was preventable.&lt;/p&gt;
@@ -338,7 +338,7 @@ possible: nope
       </item>
     
       <item>
-        <title>'PKI' Public Key Infrastructure</title>
+        <title>PKI - Public Key Infrastructure</title>
         <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
 
 &lt;p&gt;PKI is universal and can work accross multiple systems and vendors. It is a framework and not an implementation. PKI is an approach to prevent alteration (man-in-the-middle-attack) of public keys in untrusted networks like the internet. The framework is enabling secure public-key (asymmetric) encryption. PKI provides confidentiality and authentication.&lt;/p&gt;
@@ -393,7 +393,7 @@ Let’s look at the CA approach. The primary role of the CA is to bind a given p
       </item>
     
       <item>
-        <title>'Starship Troopers' by Robert A. Heinlein</title>
+        <title>Starship Troopers by Robert A. Heinlein</title>
         <description>&lt;h3 id=&quot;author&quot;&gt;Author&lt;/h3&gt;
 
 &lt;p&gt;Robert A. Heinlein was born in July 1907 in Missouri and died in May 1988 aged 80 years. He was a science-fiction author, aeronautical engineer, and retired navy officer. He fought aboard an aircraft carrier during Wold War II and this time is considered to have had a strong influence on his writing.&lt;/p&gt;
@@ -470,7 +470,7 @@ Poor arithmetic, but very human. It runs through all our folklore, all human rel
       </item>
     
       <item>
-        <title>'Old Man's War' by John Scalzi</title>
+        <title>Old Man's War by John Scalzi</title>
         <description>&lt;h3 id=&quot;author&quot;&gt;Author&lt;/h3&gt;
 
 &lt;p&gt;Scalzi was born in May 10, 1969 in California. Scalzi’s books are known for their humor. His style of writing has been influenced by Robert Heinlein (eg. Starship Troopers) and Joe Haldeman (eg. The Forever War) which are both masters and celebrities of the scifi genre.&lt;/p&gt;
@@ -539,7 +539,7 @@ Poor arithmetic, but very human. It runs through all our folklore, all human rel
       </item>
     
       <item>
-        <title>'Rescue Party' by Arthur C. Clarke</title>
+        <title>Rescue Party by Arthur C. Clarke</title>
         <description>&lt;h3 id=&quot;author&quot;&gt;Author&lt;/h3&gt;
 
 &lt;p&gt;Sir Arthur Charles Clarke was a British science fiction and science writer, futurist, explorer and tv host. He was born 16 December 1917 in England and died on 19 March 2008 in Sri Lanka aged 90 years.&lt;/p&gt;
@@ -601,7 +601,7 @@ Twenty years afterward, the remark didn’t seem funny.&lt;/p&gt;
       </item>
     
       <item>
-        <title>'Rolex Explorer II' Ref. 216570</title>
+        <title>Rolex Explorer II - Ref. 216570</title>
         <description>&lt;h3 id=&quot;history&quot;&gt;History&lt;/h3&gt;
 
 &lt;p&gt;In 1971, Rolex unveiled the Explorer II as the larger sibling to the original &lt;a href=&quot;/2019/rolex-explorer-114270/&quot;&gt;Explorer I&lt;/a&gt;. The new line of watches were created specifically for speleologist. Rolex has a history of watches for specific purposes. The Rolex Submariner as the iconic dive watch. The Rolex Daytona as a watch for race car drivers and the Rolex GMT for commerzial airline pilots. The Rolex Explorer II has features that make it a particularly practical item for cave exploration.&lt;/p&gt;
@@ -643,7 +643,7 @@ Twenty years afterward, the remark didn’t seem funny.&lt;/p&gt;
       </item>
     
       <item>
-        <title>'Jaeger-LeCoultre Grande Reverso Tribute to 1931' Ref. 2788570</title>
+        <title>Jaeger-LeCoultre Grande Reverso Tribute to 1931 - Ref. 2788570</title>
         <description>&lt;h3 id=&quot;heritage&quot;&gt;Heritage&lt;/h3&gt;
 
 &lt;p&gt;The history of the Reverso starts in the year of 1931. The legends tells that Cesar de Trey, a Swiss businessman and watch aficionado, was attending a polo match of British army officers while travelling India. One of the players had just broken the glass of his watch. De Trey discussed the idea of a watch model robust enough to survive the hard knocks of a polo game with Jacques-David LeCoultre.&lt;/p&gt;
@@ -682,7 +682,7 @@ Twenty years afterward, the remark didn’t seem funny.&lt;/p&gt;
       </item>
     
       <item>
-        <title>'Rolex Explorer' Ref. 114270</title>
+        <title>Rolex Explorer - Ref. 114270</title>
         <description>&lt;h3 id=&quot;the-stealth-rolex&quot;&gt;The stealth rolex&lt;/h3&gt;
 
 &lt;p&gt;Created in 1953 to honor the adventures of the Everest conquerors Norgay and Hillary, the Rolex Explorer was the first of a long line of Rolex tool watches designed to go anywhere.
@@ -727,7 +727,7 @@ Rolex is building watches that last a life time (or two, or three).&lt;/p&gt;
       </item>
     
       <item>
-        <title>'The Expanse' by James S.A. Corey</title>
+        <title>The Expanse by James S.A. Corey</title>
         <description>&lt;h3 id=&quot;setting&quot;&gt;Setting&lt;/h3&gt;
 
 &lt;p&gt;The Expanse is a science fiction novel by James S. A. Corey, the pseudonym of Daniel Abraham and Ty Franck. It is set in the near future in which humanity has colonized most of the solar system, but does not have faster than light travel. The setting was orininaly developed as a pitch for a MMO computer game but was later adoped into a series of books and a successful tv show.&lt;/p&gt;
