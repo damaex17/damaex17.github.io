@@ -1,1 +1,3 @@
+User-agent: *
 Sitemap: https://inversegravity.net/sitemap.xml
+Disallow: /tag/
