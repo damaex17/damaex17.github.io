@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 11:11:09 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 11:11:09 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 11:17:04 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 11:17:04 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -324,7 +324,7 @@ We then need to calculate the delta between the time of the two transactions and
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Let’s try my MVP with the first and second transaction.&lt;/p&gt;
+&lt;p&gt;Let’s try my MVP with the first transaction.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -350,7 +350,7 @@ delta time1 and time2: 42180.0 seconds
 possible: yes
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;So this is a possible situation. Let’s check the next pair.&lt;/p&gt;
+&lt;p&gt;So this is a possible transaction. Let’s check the next pair.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -376,7 +376,7 @@ delta time1 and time2: 1980.0 seconds
 possible: nope
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;At this point the fraud detection would report an issue and the bank could declined the transaction. So the damage to the bank would be just the first transaction instead of multiple thousand Euro.&lt;/p&gt;
+&lt;p&gt;At this point the fraud detection would report an issue and the bank could declined the transaction. The damage to the bank would be just the first transaction instead of multiple ones and a damage of thousands of Euros.&lt;/p&gt;
 
 &lt;h3 id=&quot;production&quot;&gt;Production&lt;/h3&gt;
 
