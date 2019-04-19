@@ -5,9 +5,92 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 11:27:32 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 11:27:32 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 15:14:29 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 15:14:29 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Software Supply Chain Security</title>
+        <description>&lt;h3 id=&quot;the-supply-chain&quot;&gt;The Supply Chain&lt;/h3&gt;
+
+&lt;p&gt;Software development, platform technology and delivery pipelines are a mission-critical element in every modern enterprise - and a place for security incidents. Increased velocity in software development, delivery and the removal of manual steps create additional security risks.&lt;/p&gt;
+
+&lt;p&gt;Other industries have long understood the need to manage risk along the supply chain. Documenting the origin of raw materials, testing the quality of supplied materials and ensuring the integrity of their supply chains. Examples are the medical, automotive, aerospace and mechanical engineering industry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/supply_1.jpg&quot; alt=&quot;picture of a container harbor&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s look at the traditional supply chain security of the cargo industry. Threats are terrorism, theft and piracy.
+The activities to protect the supply chain include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Credentialing of participants in the supply chain&lt;/li&gt;
+  &lt;li&gt;Screening and validating of the contents of cargo being shipped&lt;/li&gt;
+  &lt;li&gt;Advance notification of the contents to the destination country&lt;/li&gt;
+  &lt;li&gt;Ensuring the security of cargo while in-transit via the use of locks and tamper-proof seals&lt;/li&gt;
+  &lt;li&gt;Realtime tracking of the cargo whhile in-transit via GPS&lt;/li&gt;
+  &lt;li&gt;Inspecting cargo on entry&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Comparing those efforts with the care being taken for the software supply chain in even big companies, illustrates the gap. Attackers have shifted their focus from operating systems and networks directly to applications and they don’t care how the weakness got there in the first place.&lt;/p&gt;
+
+&lt;h3 id=&quot;excuses-are-plenty---opportunities-are-rare&quot;&gt;Excuses are plenty - Opportunities are rare&lt;/h3&gt;
+
+&lt;p&gt;Especially in the startup industry there is a lot of pressure for delivery and little for security. Customer growth, agility, automation or product delivery are the key performance indicators. &lt;strong&gt;Ain’t nobody got time for software supply chain security&lt;/strong&gt; attitude has even been seen in the fintech and medtech industry. Nobody would admit this of course. Everybody takes security serious unless it collides the mentioned above KPIs. It’s important to explain to non technical decission makers the importance of risk reduction in the supply chain of the software product. Leaking data and industrial espionage are just two of many threats to companies with unchecked or weak software supply chains.&lt;/p&gt;
+
+&lt;h3 id=&quot;attack-vectors&quot;&gt;Attack vectors&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;injecting malicious code in public repositories for common libraries, modules and images&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sofware consists nowadays up to &lt;a href=&quot;https://finance.yahoo.com/news/sonatype-reduces-licensing-risks-nuget-135123418.html&quot;&gt;90% of open source components&lt;/a&gt; and only 10% of custom code. Modern software development relies on large communities of open source developers to deliver building blocks of their own software development. I believe open source being superior to closed source software but companies have to understand that they can’t outsource their own risk to open source development teams and repositories.&lt;/p&gt;
+
+&lt;p&gt;There are no enforced code reviews, commit right reviews or background checks on developers in open source. Companies need to start taking responsibility for the third party software they use.&lt;/p&gt;
+
+&lt;p&gt;Malicious code has been found in:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;github&lt;/li&gt;
+  &lt;li&gt;dockerhub&lt;/li&gt;
+  &lt;li&gt;maven repository&lt;/li&gt;
+  &lt;li&gt;npm&lt;/li&gt;
+  &lt;li&gt;pip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;outdated libraries, modules and images&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another vector is the lack of tracking for software component versions. While third party libraries with weaknesses are disclosed and updated, it’s frightening to know that most utilizing software of the components is not updated. Known CVEs (Common Vulnerabilities and Exposures) have been found in &lt;a href=&quot;https://www.zdnet.com/article/study-more-than-50-of-global-500-use-vulnerable-open-source-components/&quot;&gt;more than 50%&lt;/a&gt; of companies. The microservice architecture is counter productive. Small specialized services are developed once and then left deserted for months.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;third party failure&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Today IT companies and startups are very specialized on a core business model and outsource to SaaS providers or insource specialized software. This is understandable from an efficiency and finanicial perspective. One doesn’t need to reinvent the wheel. But this also means that the vendors security becomes the security of the own company. Data breaches happen even with the big players. (&lt;a href=&quot;https://www.theinquirer.net/inquirer/news/3031566/github-bug-exposed-user-passwords-in-plaintext&quot;&gt;Github&lt;/a&gt;, &lt;a href=&quot;https://nakedsecurity.sophos.com/2018/07/03/typeform-data-breach-hits-thousands-of-survey-accounts/&quot;&gt;Typeform&lt;/a&gt;). This exposes data and user accounts without having done anything wrong.&lt;/p&gt;
+
+&lt;p&gt;After a breach companies struggle to determine the impact and the affected data. Remmidation actions are delayed or wrongly planned.&lt;/p&gt;
+
+&lt;h3 id=&quot;ok-what-now&quot;&gt;Ok, what now?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Companies need to understand how their respective software supply chain is structured.&lt;/li&gt;
+  &lt;li&gt;Pipelines and Systems need to be documented and governed.&lt;/li&gt;
+  &lt;li&gt;Code components needs to be scanned during deployment against common vulnerabilities (&lt;a href=&quot;https://www.owasp.org/index.php/OWASP_Dependency_Check&quot;&gt;OWASP dependency check&lt;/a&gt;, &lt;a href=&quot;https://jfrog.com/xray/&quot;&gt;Jfrog X-Ray&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Public repositories access needs to be restricted and monitored. Local repositories or proxies are preferred.&lt;/li&gt;
+  &lt;li&gt;Vetting of components and base images is required.&lt;/li&gt;
+  &lt;li&gt;Software and component versions need to be documented and automatically checked against CVE databases.&lt;/li&gt;
+  &lt;li&gt;Third party software and partners have to be checked and their own software supply security needs to be verified. Due diligence of partners must involve a security assessment. A good name or a reference is not enough.&lt;/li&gt;
+  &lt;li&gt;Document vendors and the data that is shared with them.&lt;/li&gt;
+  &lt;li&gt;Deployments have to be monitored and the code change has to be referenced with each change.&lt;/li&gt;
+  &lt;li&gt;Technical debt of your partner is your technical debt.&lt;/li&gt;
+  &lt;li&gt;Strong security controlls need to be implemented across the supply chain.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most important action is to raise awarenes with managers and decision makers. A data leak, prolonged downtime or a company breach can bring an end to all the ambitious growth goals company founders have. IT companies need to step up their game. We owe it to our customers.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/software-supply-chain-security/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/software-supply-chain-security/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Nomos Tangente - Ref. 101</title>
@@ -765,65 +848,6 @@ Twenty years afterward, the remark didn’t seem funny.&lt;/p&gt;
         <category>jlc</category>
         
         <category>jaeger-lecoultre</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Rolex Explorer - Ref. 114270</title>
-        <description>&lt;h3 id=&quot;the-stealth-rolex&quot;&gt;The stealth rolex&lt;/h3&gt;
-
-&lt;p&gt;Created in 1953 to honor the adventures of the Everest conquerors Norgay and Hillary, the Rolex Explorer was the first of a long line of Rolex tool watches designed to go anywhere.
-The Explorer was developed from the original 1930s Oyster Perpetual “bubblebacks” and the first water-resistant and self-winding wristwatches to achieve technical and commercial success. Norgay and Hillary immortalized the Rolex Explorer and the continuous incremental improvements by Rolex led to the Explorer 114270 produced from 2002 until 2010.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/114270_5.jpg&quot; alt=&quot;rolex explorer stock picture&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Even the average “man on the street” understands that the brand stands as a synonym for quality. And in the Explorer, Rolex delivers. The Geneva watchmaker ranks among the exclusive club of true manufactures that produce virtually every part of their watches by themselves.&lt;/p&gt;
-
-&lt;p&gt;The 36mm stainless steel case itself is a great example about Rolex’s eye for detail.&lt;/p&gt;
-
-&lt;p&gt;The steel itself; Rolex makes it in its own company foundry. It is of the 904L type, not the lesser resilient 316L employed by the majority of watchmakers. 904L is more expensive to produce and harder to work with. The payoff is the watch’s lifetime and scratch resistance. The steel preserves the polished and brushed finishes and the corrosion resistance is higher than with conventional stainless steel. 
-Rolex is building watches that last a life time (or two, or three).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/114270_4.jpg&quot; alt=&quot;rolex explorer advertisement&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Inside the case is the Rolex Cal. 3130 chronometer grade movement which beats at 28.800 vibrations per hour. The movement is COSC certified in a two-week evaluation process. This certification tests the movement in different positions and temperatures. Another testament to the quality requirements of Rolex watches.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/114270_1.jpg&quot; alt=&quot;picture of the rolex explorer&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;More than any other aspect of the watch, the dial is what makes the Explorer unique.&lt;/p&gt;
-
-&lt;p&gt;Three Arabic numerals at 3, 6, and 9 o’clock combines with the triangular marker at 12 and intermediate stick indexes, no date, smooth bezel. Signature “Mercedes” cathedral hands are, like all indexes, rendered in white gold for enduring resistance to corrosion and tarnish. The rich black lacquer dial provides a beautiful gloss backdrop to the white gold elements.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/114270_2.jpg&quot; alt=&quot;picture of the rolex explorer&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;specifications&quot;&gt;Specifications&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Model Number:&lt;/strong&gt; Rolex Explorer Ref. 114270&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Movement:&lt;/strong&gt; Rolex Cal. 3130&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Case Material:&lt;/strong&gt; 904L Stainless Steel&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Glass Material:&lt;/strong&gt; Sapphire Crystal&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lug Width:&lt;/strong&gt; 20mm&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Diameter/Height:&lt;/strong&gt; 36 mm/12 mm&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;The Rolex Explorer Ref. 114270 is the last of the 36mm Explorers. It represents a time where Rolex built tools rather than jewellery and investment pieces. But make no mistake… the Explorer can be worn with a suite to a evening in the opera. If there is one lesson learned from history, it’s that a Rolex Explorer is your companion anywhere.&lt;/p&gt;
-
-&lt;p&gt;I bought the 114270 in 2016 and since then it has become my daily companion. It might just be the perfect Rolex. The Explorer is durable, accurate and doesn’t get in your way. The design is timeless and blends in perfectly. People don’t associate the brand Rolex with this inconspicuous watch. This Ref. 114270 is for me the ultimate Oyster Professional model in the history of the company.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/rolex-explorer-114270/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/rolex-explorer-114270/</guid>
-        
-        <category>watch</category>
-        
-        <category>rolex</category>
         
         
       </item>
