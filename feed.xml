@@ -5,15 +5,15 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 01:24:50 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 01:24:50 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 01:31:28 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 01:31:28 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Vulnerability Disclosure at SignUp</title>
         <description>&lt;h3 id=&quot;the-issue&quot;&gt;The Issue&lt;/h3&gt;
 
-&lt;p&gt;A single E-Mail address and limited password portfolios of users are a security threat to all applications. I want to suggest an approach to responsibly disclose breached accounts to users during signup. This can help users to get a better understanding of the situation and hopefully motivates them to use a new password or activate two-factor authentication during the signup for a new service.&lt;/p&gt;
+&lt;p&gt;Limited password portfolios of users are a security threat to all applications. I am suggesting an approach to responsibly disclose breached accounts to users during signup. This can help users to get a better understanding of the situation and hopefully motivates them to use a new password or activate two-factor authentication.&lt;/p&gt;
 
 &lt;h3 id=&quot;e-mail-address&quot;&gt;E-Mail Address&lt;/h3&gt;
 
@@ -23,11 +23,11 @@
 
 &lt;p&gt;The password should be distinctive per service but &lt;a href=&quot;https://securingtomorrow.mcafee.com/consumer/consumer-threat-notices/security-world-password-day/&quot;&gt;31% of customers&lt;/a&gt; use only two to three different passwords. The question is also how different those passwords are. &lt;a href=&quot;https://www.cyclonis.com/report-83-percent-users-surveyed-use-same-password-multiple-sites/&quot;&gt;83% of users&lt;/a&gt; admit to re-use passwords. Password managers are very helpful to provide unique passwords for each account but hardly anybody uses them if not forced by company policy.&lt;/p&gt;
 
-&lt;h3 id=&quot;issue&quot;&gt;Issue&lt;/h3&gt;
+&lt;h3 id=&quot;data-breaches&quot;&gt;Data Breaches&lt;/h3&gt;
 
-&lt;p&gt;Companies get hacked and databases with millions of accounts are leaked. Password hashing in account databases is not as common as we would wish and sometimes no salt and weak algorithms are used for the hash of the passwords. Attackers use those data breaches and try known E-Mail Address and Password combinations on service to take over accounts.&lt;/p&gt;
+&lt;p&gt;Companies get hacked and databases with millions of accounts are leaked. Information is unintentionally exposed to the public. Password hashing in account databases is not as common as we think and hashes without salt and weak algorithms are not uncommon. Attackers use data sets of the breaches and try known E-Mail address and password combinations on other services to take over accounts.&lt;/p&gt;
 
-&lt;p&gt;Security aware users use password manager and two-factor authentication, but the majority of users doesn’t. Service providers are afraid to enforce hard requirements in fear of the user not signing up or the usability of a service degrading.&lt;/p&gt;
+&lt;p&gt;Security aware users counter this with the use of password managers and two-factor authentication, but the majority of users doesn’t. Service providers are afraid to enforce hard requirements in fear of customers not signing up or the usability of a service degrading.&lt;/p&gt;
 
 &lt;h3 id=&quot;personal&quot;&gt;Personal&lt;/h3&gt;
 
