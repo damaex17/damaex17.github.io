@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 15:53:48 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 15:53:48 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 16:00:30 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 16:00:30 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -71,7 +71,7 @@ The activities to protect the supply chain include:&lt;/p&gt;
   &lt;li&gt;Companies need to understand how their respective software supply chain is structured.&lt;/li&gt;
   &lt;li&gt;Pipelines and Systems need to be documented and governed.&lt;/li&gt;
   &lt;li&gt;Code components needs to be scanned during deployment against common vulnerabilities (&lt;a href=&quot;https://www.owasp.org/index.php/OWASP_Dependency_Check&quot;&gt;OWASP dependency check&lt;/a&gt;, &lt;a href=&quot;https://jfrog.com/xray/&quot;&gt;Jfrog X-Ray&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Public repositories access needs to be restricted and monitored. Local repositories or proxies are preferred.&lt;/li&gt;
+  &lt;li&gt;Access to public repositories needs to be restricted and monitored. Local repositories or proxies are preferred.&lt;/li&gt;
   &lt;li&gt;Vetting of components and base images is required.&lt;/li&gt;
   &lt;li&gt;Software and component versions need to be documented and automatically checked against CVE databases.&lt;/li&gt;
   &lt;li&gt;Third party software and partners have to be checked and their own software supply security needs to be verified. Due diligence of partners must involve a security assessment. A good name or a reference is not enough.&lt;/li&gt;
