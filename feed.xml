@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 16:59:12 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 16:59:12 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 20:28:14 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 20:28:14 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;p&gt;Software development, platform technology and delivery pipelines are a mission-critical element in every modern enterprise - and a place for security incidents. Increased velocity in software development, delivery and the removal of manual steps create additional security risks.&lt;/p&gt;
 
-&lt;p&gt;Other industries have long understood the need to manage risk along the supply chain. Documenting the origin of raw materials, testing the quality of supplied materials and ensuring the integrity of their supply chains. Examples are the medical, automotive, aerospace and mechanical engineering industry.&lt;/p&gt;
+&lt;p&gt;Other industries have understood a long time ago the need to manage risk along the supply chain. Documenting the origin of raw materials, testing the quality of supplied materials and ensuring the integrity of their supply chains. Examples are the medical, automotive, aerospace and mechanical engineering industry.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/supply_1.jpg&quot; alt=&quot;picture of a container harbor&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
@@ -35,7 +35,7 @@ The activities to protect the supply chain include:&lt;/p&gt;
 
 &lt;h3 id=&quot;excuses-are-plenty---opportunities-are-rare&quot;&gt;Excuses are plenty - Opportunities are rare&lt;/h3&gt;
 
-&lt;p&gt;Especially in the startup industry there is a lot of pressure for delivery and little for security. Customer growth, agility, automation or product delivery are the key performance indicators. &lt;strong&gt;Ain’t nobody got time for software supply chain security&lt;/strong&gt; attitude has even been seen in the fintech and medtech industry. Nobody would admit this of course. Everybody takes security serious unless it collides with the mentioned above KPIs. It’s important to explain to non technical decision makers the importance of risk reduction in the supply chain of the software product. Leaking data and industrial espionage are just two of many threats to companies with unchecked or weak software supply chains.&lt;/p&gt;
+&lt;p&gt;Especially in the startup industry there is a lot of pressure for delivery and little for security. Customer growth, agility, automation or product delivery are the key performance indicators. &lt;strong&gt;Ain’t nobody got time for software supply chain security&lt;/strong&gt; attitude has even been seen in the fintech and medtech industry. Nobody would admit this of course. Everybody takes security serious unless it collides with the mentioned above KPIs. It’s important to explain to non technical decision makers the importance of risk reduction in the supply chain of the software product. Leaking data and industrial espionage are just two of many threats to companies with unchecked or weak software supply chain security.&lt;/p&gt;
 
 &lt;h3 id=&quot;attack-vectors&quot;&gt;Attack vectors&lt;/h3&gt;
 
@@ -68,20 +68,20 @@ The activities to protect the supply chain include:&lt;/p&gt;
 &lt;h3 id=&quot;ok-what-now&quot;&gt;Ok, what now?&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Companies need to understand how their respective software supply chain is structured.&lt;/li&gt;
+  &lt;li&gt;Companies have to understand how their respective software supply chain is structured.&lt;/li&gt;
   &lt;li&gt;Pipelines and Systems need to be documented and governed.&lt;/li&gt;
-  &lt;li&gt;Code components needs to be scanned during deployment against common vulnerabilities (&lt;a href=&quot;https://www.owasp.org/index.php/OWASP_Dependency_Check&quot;&gt;OWASP dependency check&lt;/a&gt;, &lt;a href=&quot;https://jfrog.com/xray/&quot;&gt;Jfrog X-Ray&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;Access to public repositories needs to be restricted and monitored. Local repositories or proxies are preferred.&lt;/li&gt;
+  &lt;li&gt;Code components should be scanned during deployment against common vulnerabilities (&lt;a href=&quot;https://www.owasp.org/index.php/OWASP_Dependency_Check&quot;&gt;OWASP dependency check&lt;/a&gt;, &lt;a href=&quot;https://jfrog.com/xray/&quot;&gt;Jfrog X-Ray&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Access to public repositories has to be restricted and monitored. Local repositories or proxies are preferred.&lt;/li&gt;
   &lt;li&gt;Vetting of components and base images is required.&lt;/li&gt;
-  &lt;li&gt;Software and component versions need to be documented and automatically checked against CVE databases.&lt;/li&gt;
+  &lt;li&gt;Software and component versions require documentation and automatic checks against CVE databases.&lt;/li&gt;
   &lt;li&gt;Third party software and partners have to be checked and their own software supply security needs to be verified. Due diligence of partners must involve a security assessment. A good name or a reference is not enough.&lt;/li&gt;
-  &lt;li&gt;Ingress and egress traffic monitoring has to be performed on a per host basis&lt;/li&gt;
-  &lt;li&gt;Document vendors and the data that is shared with them.&lt;/li&gt;
-  &lt;li&gt;Deployments have to be monitored and the code change has to be referenced with each change.&lt;/li&gt;
-  &lt;li&gt;Technical debt of your partner is your technical debt.&lt;/li&gt;
+  &lt;li&gt;Ingress and egress traffic monitoring needs to be performed on a per host basis.&lt;/li&gt;
+  &lt;li&gt;Documentation of vendors and the data that is shared with them is a must.&lt;/li&gt;
+  &lt;li&gt;Deployments have to be monitored and the code change requires reference to the source code changes.&lt;/li&gt;
+  &lt;li&gt;Technical debt of your partner is your technical debt!&lt;/li&gt;
   &lt;li&gt;Strong security controls need to be implemented across the supply chain.&lt;/li&gt;
-  &lt;li&gt;Detected vulnerabilities need to be addressed or whitelisted as non applicable for the own use case&lt;/li&gt;
-  &lt;li&gt;Strengthen your QA specialists&lt;/li&gt;
+  &lt;li&gt;Detected vulnerabilities require swift remediation or whitelistng by experts as non applicable for the use case.&lt;/li&gt;
+  &lt;li&gt;Strengthen your QA specialists!&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The most important action is to raise awareness with managers and decision makers. A data leak, prolonged downtime or a company breach can bring an end to all the ambitious growth goals company founders have. IT companies need to step up their game. We owe it to our customers.&lt;/p&gt;
@@ -494,15 +494,16 @@ possible: nope
   &lt;li&gt;Authentication confirms the owner of the keys by using digital certificates (signatures)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;keys---confidentiality&quot;&gt;Keys - Confidentiality&lt;/h3&gt;
+&lt;h3 id=&quot;confidentiality---keys&quot;&gt;Confidentiality - Keys&lt;/h3&gt;
 
 &lt;p&gt;Public-Key Encryption or asymmetric cryptography. A private and a public key are created at the same time. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Security only requires keeping the private key private; the public key can be openly distributed without compromising security. Any person can encrypt a message using the receiver’s public key, but that encrypted message can only be decrypted with the receiver’s private key.
 Public-Key cryptography is a fundamental security component of modern applications and protocols assuring the confidentiality, non-repudiation (undeniability) and authenticity of electronic communications and data storage.&lt;/p&gt;
 
-&lt;h3 id=&quot;trust---authentication&quot;&gt;Trust - Authentication&lt;/h3&gt;
+&lt;h3 id=&quot;authentication---trust&quot;&gt;Authentication - Trust&lt;/h3&gt;
 
-&lt;p&gt;Trust in the public key can be gained by multiple approaches: certificate authorities (CA), web of trust (WoT), simple public key infrastructure (SPKI) and the emering blockchain-based PKI (BPKI). 
-Let’s look at the CA approach. The primary role of the CA is to bind a given public key with respective identities of entities (like people and organizations). The binding is established through a process of registration (RA) and issuance of a certificate. Depending on the assurance level of the binding, the verification may be carried out by an automated process or under human supervision.&lt;/p&gt;
+&lt;p&gt;Trust in the public keys can be gained by multiple approaches: certificate authorities (CA), web of trust (WoT), simple public key infrastructure (SPKI) and the emering blockchain-based PKI (BPKI).&lt;/p&gt;
+
+&lt;p&gt;Let’s look at the CA approach. The primary role of the CA is to bind a given public key with respective identities of entities (like people and organizations). The binding is established through a process of registration (RA) and issuance of a certificate. Depending on the assurance level of the binding, the verification may be carried out by an automated process or under human supervision.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/pki_1.jpg&quot; alt=&quot;picture of a keyboard&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
 
