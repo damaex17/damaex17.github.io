@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 00:45:56 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 00:45:56 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 00:59:58 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 00:59:58 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -69,17 +69,18 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
 &lt;p&gt;My E-Mail address was also in the the Collection #1. Ths data set contained multiple data breaches and almost 2.7 billion records including 773 million unique email addresses alongside passwords.&lt;/p&gt;
 
 &lt;p&gt;I am not in possession of all breached databases but the fantastic service &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;’;–have i been pwned?&lt;/a&gt; is. And you can check your E-Mail address via their web interface right now.
-The service also providess a &lt;a href=&quot;https://haveibeenpwned.com/API/Consumers&quot;&gt;public API&lt;/a&gt; which can also be used in any web or app based signup process.&lt;/p&gt;
+The service also providess a &lt;a href=&quot;https://haveibeenpwned.com/API/Consumers&quot;&gt;public API&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;disclosure-to-the-user&quot;&gt;Disclosure to the user&lt;/h3&gt;
 
-&lt;p&gt;Users need to be guided while this information is disclosed to them. Displaying a big red “You have been hacked” during signup might not be the best idea. You should also tell the user beforehand about sharing his E-Mail address with a third party like &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;haveibeenpwned&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During signup to a service, the owner can check the provided address against the public API of HIBP. The user needs to agree that the E-Mail address is shared with the third party &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;haveibeenpwned&lt;/a&gt;. 
+Users need to be guided while the potentially positive result is shown to them. Displaying a big red “You have been hacked” during signup might not be the best idea.&lt;/p&gt;
 
-&lt;p&gt;After the disclosure the user should be given suggestions on how to improve the account security (eg. two-factor authentication). Service owners can increase the security features on this account.&lt;/p&gt;
+&lt;p&gt;After the disclosure the user should be given suggestions on how to improve the account security (eg. two-factor authentication). Service owners can also increase the security features on the account.&lt;/p&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;We need to take non technical people with us to improve security. Disclosing information responsibly to those users is a great way to increase awareness and help them to harden their account. Service providers should not shy away from this and instead make users understand that security is taken serious in their new shiny mobile app.&lt;/p&gt;
+&lt;p&gt;We need to involve non technical people to improve security. Disclosing information responsibly to those users is a great way to increase awareness and help them to harden their account. Service providers should not shy away from this and instead make users understand that security is taken serious in the service they sign up for.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</link>
