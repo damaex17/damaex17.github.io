@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 21:06:07 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 21:06:07 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 21:20:01 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 21:20:01 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -308,6 +308,8 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
 &lt;h3 id=&quot;how-to-detect&quot;&gt;How to detect&lt;/h3&gt;
 
 &lt;p&gt;Calculate the distance between two given cities and calculate if it’s realistic to travel the distance in the given time via airplane.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/airplane.jpg&quot; alt=&quot;picture of an airplane&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
 
