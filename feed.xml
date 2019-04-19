@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 20:28:14 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 20:28:14 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 21:06:07 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 21:06:07 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -175,6 +175,8 @@ I have worn this watch for extended times and like the varity it provides to my 
 &lt;p&gt;Companies get hacked or information is unintentionally exposed to the public. Data sets with millions of accounts have been seen in the wild. Clear text passwords or hashing without salt are not uncommon in user databases. Attackers use the information of those exposed data sets in attacks against other services. Known E-Mail address and password combinations are used for account takeovers.&lt;/p&gt;
 
 &lt;p&gt;Security aware users counter this with the use of password managers and two-factor authentication, but the majority of users doesn’t. Service providers are afraid to enforce hard requirements in fear of customers not signing up or the usability of a service degrading.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/pki_1.jpg&quot; alt=&quot;picture of a keyboard&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;myself&quot;&gt;Myself&lt;/h3&gt;
 
