@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 01:31:28 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 01:31:28 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 01:46:10 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 01:46:10 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -25,7 +25,7 @@
 
 &lt;h3 id=&quot;data-breaches&quot;&gt;Data Breaches&lt;/h3&gt;
 
-&lt;p&gt;Companies get hacked and databases with millions of accounts are leaked. Information is unintentionally exposed to the public. Password hashing in account databases is not as common as we think and hashes without salt and weak algorithms are not uncommon. Attackers use data sets of the breaches and try known E-Mail address and password combinations on other services to take over accounts.&lt;/p&gt;
+&lt;p&gt;Companies get hacked or information is unintentionally exposed to the public. Data sets with millions of accounts are known. Clear text passwords and hashes without salt or weak algorithms are not uncommon in user databases. Attackers use the information of those exposed data sets in attacks against other services. Known E-Mail address and password combinations are used for account takeovers.&lt;/p&gt;
 
 &lt;p&gt;Security aware users counter this with the use of password managers and two-factor authentication, but the majority of users doesn’t. Service providers are afraid to enforce hard requirements in fear of customers not signing up or the usability of a service degrading.&lt;/p&gt;
 
@@ -68,11 +68,11 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
 
 &lt;p&gt;My E-Mail address was also in the the Collection #1. Ths data set contains multiple data breaches and almost 2.7 billion records including 773 million unique email addresses alongside passwords.&lt;/p&gt;
 
-&lt;p&gt;I am not in possession of all breached databases but the service &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;’;–have i been pwned?&lt;/a&gt; is. And you can check your E-Mail address via their web interface or the &lt;a href=&quot;https://haveibeenpwned.com/API/Consumers&quot;&gt;public API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am not in possession of all breached databases but the service &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;’;–have i been pwned?&lt;/a&gt; does a great job in collecting this information. HIBP allows to check E-Mail address via their web interface and with a &lt;a href=&quot;https://haveibeenpwned.com/API/Consumers&quot;&gt;public API&lt;/a&gt; against those databases.&lt;/p&gt;
 
 &lt;h3 id=&quot;disclosure-to-the-user&quot;&gt;Disclosure to the user&lt;/h3&gt;
 
-&lt;p&gt;Check of the provided address in the signup process against the public API of HIBP. The user needs to agree to the sharing of the address with the third party.&lt;/p&gt;
+&lt;p&gt;At signup the customer provides his E-Mail address. We can check this address with the API of HIBP (make sure the users agrees to the third party sharing of his data) for prior exposure.&lt;/p&gt;
 
 &lt;p&gt;Users then need to be guided while the potentiale positive results are shared with them and suggestions on how to improve the account security (eg. two-factor authentication) should be shown. Service providers can also require tougher security features on the account. This could be a different password policy or a more secure policy regarding changes to the account.&lt;/p&gt;
 
