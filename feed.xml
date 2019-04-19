@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 16:38:16 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 16:38:16 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 16:49:39 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 16:49:39 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -75,11 +75,13 @@ The activities to protect the supply chain include:&lt;/p&gt;
   &lt;li&gt;Vetting of components and base images is required.&lt;/li&gt;
   &lt;li&gt;Software and component versions need to be documented and automatically checked against CVE databases.&lt;/li&gt;
   &lt;li&gt;Third party software and partners have to be checked and their own software supply security needs to be verified. Due diligence of partners must involve a security assessment. A good name or a reference is not enough.&lt;/li&gt;
+  &lt;li&gt;Ingress and egress traffic monitoring has to be performed on a per host basis&lt;/li&gt;
   &lt;li&gt;Document vendors and the data that is shared with them.&lt;/li&gt;
   &lt;li&gt;Deployments have to be monitored and the code change has to be referenced with each change.&lt;/li&gt;
   &lt;li&gt;Technical debt of your partner is your technical debt.&lt;/li&gt;
   &lt;li&gt;Strong security controls need to be implemented across the supply chain.&lt;/li&gt;
   &lt;li&gt;Detected vulnerabilities need to be addressed or whitelisted as non applicable for the own use case&lt;/li&gt;
+  &lt;li&gt;Strengthen your QA specialists&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The most important action is to raise awareness with managers and decision makers. A data leak, prolonged downtime or a company breach can bring an end to all the ambitious growth goals company founders have. IT companies need to step up their game. We owe it to our customers.&lt;/p&gt;
