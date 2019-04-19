@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 16:04:34 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 16:04:34 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 16:38:16 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 16:38:16 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -41,7 +41,7 @@ The activities to protect the supply chain include:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;injecting malicious code in public repositories for common libraries, modules and images&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Software consists nowadays up to &lt;a href=&quot;https://finance.yahoo.com/news/sonatype-reduces-licensing-risks-nuget-135123418.html&quot;&gt;90% of open source components&lt;/a&gt; and only 10% of custom code. Modern software development relies on large communities of open source developers to deliver building blocks of their own software development. I believe open source being superior to closed source software but companies have to understand that they can’t outsource their own risk to open source development teams and repositories.&lt;/p&gt;
+&lt;p&gt;Software consists nowadays up to &lt;a href=&quot;https://finance.yahoo.com/news/sonatype-reduces-licensing-risks-nuget-135123418.html&quot;&gt;90% of open source components&lt;/a&gt; and only 10% of custom code. Modern software development relies on large communities of open source developers to deliver building blocks for the companies own software product. I believe open source being superior to closed source software but companies have to understand that they can’t outsource their own risk to open source development teams and repositories.&lt;/p&gt;
 
 &lt;p&gt;There are no enforced code reviews, commit right reviews or background checks on developers in open source. Companies need to start taking responsibility for the third party software they use.&lt;/p&gt;
 
@@ -79,6 +79,7 @@ The activities to protect the supply chain include:&lt;/p&gt;
   &lt;li&gt;Deployments have to be monitored and the code change has to be referenced with each change.&lt;/li&gt;
   &lt;li&gt;Technical debt of your partner is your technical debt.&lt;/li&gt;
   &lt;li&gt;Strong security controls need to be implemented across the supply chain.&lt;/li&gt;
+  &lt;li&gt;Detected vulnerabilities need to be addressed or whitelisted as non applicable for the own use case&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The most important action is to raise awareness with managers and decision makers. A data leak, prolonged downtime or a company breach can bring an end to all the ambitious growth goals company founders have. IT companies need to step up their game. We owe it to our customers.&lt;/p&gt;
