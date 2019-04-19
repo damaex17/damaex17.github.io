@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 15:44:44 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 15:44:44 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 15:53:48 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 15:53:48 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -27,7 +27,7 @@ The activities to protect the supply chain include:&lt;/p&gt;
   &lt;li&gt;Screening and validating of the contents of cargo being shipped&lt;/li&gt;
   &lt;li&gt;Advance notification of the contents to the destination country&lt;/li&gt;
   &lt;li&gt;Ensuring the security of cargo while in-transit via the use of locks and tamper-proof seals&lt;/li&gt;
-  &lt;li&gt;Realtime tracking of the cargo whhile in-transit via GPS&lt;/li&gt;
+  &lt;li&gt;Realtime tracking of the cargo while in-transit via GPS&lt;/li&gt;
   &lt;li&gt;Inspecting cargo on entry&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -35,13 +35,13 @@ The activities to protect the supply chain include:&lt;/p&gt;
 
 &lt;h3 id=&quot;excuses-are-plenty---opportunities-are-rare&quot;&gt;Excuses are plenty - Opportunities are rare&lt;/h3&gt;
 
-&lt;p&gt;Especially in the startup industry there is a lot of pressure for delivery and little for security. Customer growth, agility, automation or product delivery are the key performance indicators. &lt;strong&gt;Ain’t nobody got time for software supply chain security&lt;/strong&gt; attitude has even been seen in the fintech and medtech industry. Nobody would admit this of course. Everybody takes security serious unless it collides the mentioned above KPIs. It’s important to explain to non technical decission makers the importance of risk reduction in the supply chain of the software product. Leaking data and industrial espionage are just two of many threats to companies with unchecked or weak software supply chains.&lt;/p&gt;
+&lt;p&gt;Especially in the startup industry there is a lot of pressure for delivery and little for security. Customer growth, agility, automation or product delivery are the key performance indicators. &lt;strong&gt;Ain’t nobody got time for software supply chain security&lt;/strong&gt; attitude has even been seen in the fintech and medtech industry. Nobody would admit this of course. Everybody takes security serious unless it collides the mentioned above KPIs. It’s important to explain to non technical decision makers the importance of risk reduction in the supply chain of the software product. Leaking data and industrial espionage are just two of many threats to companies with unchecked or weak software supply chains.&lt;/p&gt;
 
 &lt;h3 id=&quot;attack-vectors&quot;&gt;Attack vectors&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;injecting malicious code in public repositories for common libraries, modules and images&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Sofware consists nowadays up to &lt;a href=&quot;https://finance.yahoo.com/news/sonatype-reduces-licensing-risks-nuget-135123418.html&quot;&gt;90% of open source components&lt;/a&gt; and only 10% of custom code. Modern software development relies on large communities of open source developers to deliver building blocks of their own software development. I believe open source being superior to closed source software but companies have to understand that they can’t outsource their own risk to open source development teams and repositories.&lt;/p&gt;
+&lt;p&gt;Software consists nowadays up to &lt;a href=&quot;https://finance.yahoo.com/news/sonatype-reduces-licensing-risks-nuget-135123418.html&quot;&gt;90% of open source components&lt;/a&gt; and only 10% of custom code. Modern software development relies on large communities of open source developers to deliver building blocks of their own software development. I believe open source being superior to closed source software but companies have to understand that they can’t outsource their own risk to open source development teams and repositories.&lt;/p&gt;
 
 &lt;p&gt;There are no enforced code reviews, commit right reviews or background checks on developers in open source. Companies need to start taking responsibility for the third party software they use.&lt;/p&gt;
 
@@ -61,9 +61,9 @@ The activities to protect the supply chain include:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;third party failure&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Today IT companies and startups are very specialized on a core business model and outsource to SaaS providers or insource specialized software. This is understandable from an efficiency and finanicial perspective. One doesn’t need to reinvent the wheel. But this also means that the vendors security becomes the security of the own company. Data breaches happen even with the big players. (&lt;a href=&quot;https://www.theinquirer.net/inquirer/news/3031566/github-bug-exposed-user-passwords-in-plaintext&quot;&gt;Github&lt;/a&gt;, &lt;a href=&quot;https://nakedsecurity.sophos.com/2018/07/03/typeform-data-breach-hits-thousands-of-survey-accounts/&quot;&gt;Typeform&lt;/a&gt;). This exposes data and user accounts without having done anything wrong.&lt;/p&gt;
+&lt;p&gt;Today IT companies and startups are very specialized on a core business model and outsource to SaaS providers or insource specialized software. This is understandable from an efficiency and financial perspective. One doesn’t need to reinvent the wheel. But this also means that the vendors security becomes the security of the own company. Data breaches happen even with the big players. (&lt;a href=&quot;https://www.theinquirer.net/inquirer/news/3031566/github-bug-exposed-user-passwords-in-plaintext&quot;&gt;Github&lt;/a&gt;, &lt;a href=&quot;https://nakedsecurity.sophos.com/2018/07/03/typeform-data-breach-hits-thousands-of-survey-accounts/&quot;&gt;Typeform&lt;/a&gt;). This exposes data and user accounts without having done anything wrong.&lt;/p&gt;
 
-&lt;p&gt;After a breach companies struggle to determine the impact and the affected data. Remmidation actions are delayed or wrongly planned.&lt;/p&gt;
+&lt;p&gt;After a breach companies struggle to determine the impact and the affected data. Remediation actions are delayed or wrongly planned.&lt;/p&gt;
 
 &lt;h3 id=&quot;ok-what-now&quot;&gt;Ok, what now?&lt;/h3&gt;
 
@@ -78,10 +78,10 @@ The activities to protect the supply chain include:&lt;/p&gt;
   &lt;li&gt;Document vendors and the data that is shared with them.&lt;/li&gt;
   &lt;li&gt;Deployments have to be monitored and the code change has to be referenced with each change.&lt;/li&gt;
   &lt;li&gt;Technical debt of your partner is your technical debt.&lt;/li&gt;
-  &lt;li&gt;Strong security controlls need to be implemented across the supply chain.&lt;/li&gt;
+  &lt;li&gt;Strong security controls need to be implemented across the supply chain.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The most important action is to raise awarenes with managers and decision makers. A data leak, prolonged downtime or a company breach can bring an end to all the ambitious growth goals company founders have. IT companies need to step up their game. We owe it to our customers.&lt;/p&gt;
+&lt;p&gt;The most important action is to raise awareness with managers and decision makers. A data leak, prolonged downtime or a company breach can bring an end to all the ambitious growth goals company founders have. IT companies need to step up their game. We owe it to our customers.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/software-supply-chain-security/</link>
