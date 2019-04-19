@@ -5,12 +5,12 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 00:09:04 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 00:09:04 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 00:45:56 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 00:45:56 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Responsible Disclosure at SignUp</title>
+        <title>Vulnerability Disclosure at SignUp</title>
         <description>&lt;h3 id=&quot;the-issue&quot;&gt;The Issue&lt;/h3&gt;
 
 &lt;p&gt;A single E-Mail address and limited password portfolios of users are a security threat to all applications. I want to suggest an approach to responsibly disclose the issue to users during signup. This can help users to get a better understanding of the situation and hopefully motivates them to use a new password during the signup for a new service&lt;/p&gt;
@@ -71,7 +71,7 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
 &lt;p&gt;I am not in possession of all breached databases but the fantastic service &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;’;–have i been pwned?&lt;/a&gt; is. And you can check your E-Mail address via their web interface right now.
 The service also providess a &lt;a href=&quot;https://haveibeenpwned.com/API/Consumers&quot;&gt;public API&lt;/a&gt; which can also be used in any web or app based signup process.&lt;/p&gt;
 
-&lt;h3 id=&quot;responsible-disclosure&quot;&gt;Responsible Disclosure&lt;/h3&gt;
+&lt;h3 id=&quot;disclosure-to-the-user&quot;&gt;Disclosure to the user&lt;/h3&gt;
 
 &lt;p&gt;Users need to be guided while this information is disclosed to them. Displaying a big red “You have been hacked” during signup might not be the best idea. You should also tell the user beforehand about sharing his E-Mail address with a third party like &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;haveibeenpwned&lt;/a&gt;.&lt;/p&gt;
 
@@ -82,8 +82,8 @@ The service also providess a &lt;a href=&quot;https://haveibeenpwned.com/API/Con
 &lt;p&gt;We need to take non technical people with us to improve security. Disclosing information responsibly to those users is a great way to increase awareness and help them to harden their account. Service providers should not shy away from this and instead make users understand that security is taken serious in their new shiny mobile app.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/responsible-disclosure-at-signup/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/responsible-disclosure-at-signup/</guid>
+        <link>https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</guid>
         
         <category>security</category>
         
