@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 01:46:10 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 01:46:10 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2019 01:51:17 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2019 01:51:17 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -74,11 +74,11 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
 
 &lt;p&gt;At signup the customer provides his E-Mail address. We can check this address with the API of HIBP (make sure the users agrees to the third party sharing of his data) for prior exposure.&lt;/p&gt;
 
-&lt;p&gt;Users then need to be guided while the potentiale positive results are shared with them and suggestions on how to improve the account security (eg. two-factor authentication) should be shown. Service providers can also require tougher security features on the account. This could be a different password policy or a more secure policy regarding changes to the account.&lt;/p&gt;
+&lt;p&gt;While the potentiale positive results are shared with them we can make suggestions on how to improve the account security (eg. two-factor authentication). Service providers can also require tougher security features on the account. This could be a more complex password policy or a more secure policy regarding changes to the account.&lt;/p&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;We need to involve non technical people to improve security. Disclosing information to users about past breaches is a great way to help them to harden their account and change behavior regarding password recycling. Service providers should not shy away from this and instead make users understand that security is taken serious in the service they sign up for.&lt;/p&gt;
+&lt;p&gt;We need to involve non technical people to improve security. Disclosing information to users about past breaches is a great way to help them to harden their account and change behavior regarding password recycling. Service providers should not shy away from this and instead make users understand that security is taken serious in the service they are signing up for.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</link>
