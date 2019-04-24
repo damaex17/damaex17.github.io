@@ -5,15 +5,15 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Apr 2019 12:56:13 +0200</pubDate>
-    <lastBuildDate>Wed, 24 Apr 2019 12:56:13 +0200</lastBuildDate>
+    <pubDate>Wed, 24 Apr 2019 15:31:17 +0200</pubDate>
+    <lastBuildDate>Wed, 24 Apr 2019 15:31:17 +0200</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>GDPR, Passwords, Hashing and You</title>
         <description>&lt;h3 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h3&gt;
 
-&lt;p&gt;I am not a legal expert. This article is my interpretation of the law. GDPR is big topic and does not contain any specifics about passwords. The &lt;a href=&quot;https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/passwords-in-online-services/&quot;&gt;UK Information Commissioner’s Office - ICO&lt;/a&gt; published a useful guide for the development of password protection systems after GDPR.&lt;/p&gt;
+&lt;p&gt;I am not a legal expert. This article is my interpretation of the law. GDPR does not contain any specifics about passwords. The &lt;a href=&quot;https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/passwords-in-online-services/&quot;&gt;UK Information Commissioner’s Office - ICO&lt;/a&gt; published a useful guide for the development of password protection systems after GDPR.&lt;/p&gt;
 
 &lt;h3 id=&quot;password-systems-and-the-gdpr&quot;&gt;Password systems and the GDPR&lt;/h3&gt;
 
