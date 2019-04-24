@@ -5,9 +5,136 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Apr 2019 21:20:01 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2019 21:20:01 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Apr 2019 12:56:13 +0200</pubDate>
+    <lastBuildDate>Wed, 24 Apr 2019 12:56:13 +0200</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>GDPR, Passwords, Hashing and You</title>
+        <description>&lt;h3 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h3&gt;
+
+&lt;p&gt;I am not a legal expert. This article is my interpretation of the law. GDPR is big topic and does not contain any specifics about passwords. The &lt;a href=&quot;https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/passwords-in-online-services/&quot;&gt;UK Information Commissioner’s Office - ICO&lt;/a&gt; published a useful guide for the development of password protection systems after GDPR.&lt;/p&gt;
+
+&lt;h3 id=&quot;password-systems-and-the-gdpr&quot;&gt;Password systems and the GDPR&lt;/h3&gt;
+
+&lt;p&gt;Passwords (low-entropy secrets) play a critical role in keeping information safe. For this reason, ensuring password security is critical. GDPR not only introduces the principles of &lt;strong&gt;privacy by design&lt;/strong&gt; and &lt;strong&gt;privacy by default&lt;/strong&gt;, in &lt;a href=&quot;https://www.imperva.com/learn/data-security/gdpr-article-32/&quot;&gt;Article 32&lt;/a&gt; it also defines the obligation for data security and data loss prevention.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Access to personal data is protected by passwords. In order to protect personal data, passwords have to be protected&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Any password system developed or deployed has to be protected against &lt;strong&gt;brute force&lt;/strong&gt;, &lt;strong&gt;dictionary&lt;/strong&gt;, &lt;strong&gt;guessing&lt;/strong&gt; and &lt;a href=&quot;/2019/vulnerability-disclosure-at-signup/&quot;&gt;&lt;strong&gt;credential stuffing&lt;/strong&gt;&lt;/a&gt; attacks. The password itself is treated like personal data and requires appropriate state of the art protection.&lt;/p&gt;
+
+&lt;p&gt;Shortly after the introduction of GDPR a German company reported a data breach in accordance with Article 33 GDRP to the authorities. During the investigation it was discovered that the passwords have been stored in clear text. This was intepreted as a violation of Article 32 GDRP and the company was fined &lt;a href=&quot;https://www.theregister.co.uk/2018/11/23/knuddels_fined_for_plain_text_passwords/&quot;&gt;EUR 20.000&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“By storing the passwords in clear text, the company knowingly violated its duty to ensure data security in the processing of personal data.” the authority said.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The company wasn’t fined for the breach but because of the password storage strategy!&lt;/p&gt;
+
+&lt;h3 id=&quot;state-of-the-art-methods-for-password-storage&quot;&gt;State of the art methods for password storage&lt;/h3&gt;
+
+&lt;p&gt;Under GDPR a strong password storage strategy is critical in mitigating data breaches. 
+Hashing passwords is no longer just an option and the hashing method should be &lt;em&gt;state of the art&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Requirements for the hashing method:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The honest player needs to be able to compute a single instance of the algorithm on standard hardware for moderate costs.&lt;/li&gt;
+  &lt;li&gt;The adversary should not be able to reduce costs by calculating multiple instances of the algorithm on customized hardware.&lt;/li&gt;
+  &lt;li&gt;The time for calculating the hash should not depend on the length of the password.&lt;/li&gt;
+  &lt;li&gt;Identical input has to produce different output (nondeterministic).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;One way function&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is better than clear text but attackers have found ways around this implementation. If a couple of users were to use the same password, their hash would be identical. Multiple accounts mapped to the same hash indicate a commonly used password. With this knowledge hackers can considerably narrow down the number of passwords used in an attack. Attackers can also utilize databases of pre-computed hashes (&lt;a href=&quot;https://en.wikipedia.org/wiki/Rainbow_table&quot;&gt;rainbow table attacks&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The salt&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Salting the input increases the complexity of the output without increasing user requirements. A salt is a fixed-length cryptographically strong value added to the input. But fixed salt strings can get exposed in a data breach and the attacker can neglect the advantage of using a salt. This implementation also produce deterministic outcomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BCrypt, PBKDF2 or SCrypt - key stretching&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a great improvement over the mentioned above methods but I do not recommend the commonly implemented BCrypt, PBKDF2 or SCrypt methods for newly designed systems anymore.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;BCrypt and PBKDF2&lt;/em&gt; are key stretching or key derivation functions and do not offer memory hardness. This means those methods are CPU bound and prone to password cracking by Application Specific Integrated Circuits (ASICs). Whitepapers have emerged regarding &lt;a href=&quot;https://www.usenix.org/system/files/conference/woot14/woot14-malvoni.pdf&quot;&gt;Energy-Efficient Bcrypt Cracking with Low-CostParallel Hardware&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;SCrypt&lt;/em&gt; adds memory hard functions (MHFs). It is CPU and Memory intensive to calculate. But I see an issue with the usage in &lt;a href=&quot;https://coinpaprika.com/tag/scrypt?all=true&quot;&gt;cryptocurrencies&lt;/a&gt;. Mining solutions for SCrypt are &lt;a href=&quot;https://cryptomining-blog.com/10810-new-innosilicon-a6-ltc-master-2-2-ghs-scrypt-asic-miner/&quot;&gt;available&lt;/a&gt; and these could be repurposed for &lt;em&gt;offline cracking&lt;/em&gt;. SCrypt also doesn’t give much options to configure parameters to balance parameters. In my opinion this is a important feature to tailor the method to your use case.&lt;/p&gt;
+
+&lt;h3 id=&quot;argon2---appropriate-hashing&quot;&gt;Argon2 - appropriate hashing&lt;/h3&gt;
+
+&lt;p&gt;My recommendation for a newly designed password storage system is argon2.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;open source implementations in all commonly used languages&lt;/li&gt;
+  &lt;li&gt;has been around for a while&lt;/li&gt;
+  &lt;li&gt;withstood studies to accelerate the algorithm on dedicated hardware&lt;/li&gt;
+  &lt;li&gt;parameters to control execution time, memory requirements and degree of parallelism&lt;/li&gt;
+  &lt;li&gt;won the &lt;a href=&quot;https://password-hashing.net/&quot;&gt;Password Hashing Competition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/gdpr_1.jpg&quot; alt=&quot;GDPR symbolic picture&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;preventing-a-data-breach&quot;&gt;Preventing a data breach&lt;/h3&gt;
+
+&lt;p&gt;Hashing will protect passwords after a data breach. Other privacy information is usually stored in clear text.
+The risk for a data breach can be reduced by implementing processes, controls and audits.&lt;/p&gt;
+
+&lt;p&gt;Consider the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;User rights management - Access control&lt;/li&gt;
+  &lt;li&gt;Privileged user monitoring&lt;/li&gt;
+  &lt;li&gt;Immutable audit trail for machines and humans&lt;/li&gt;
+  &lt;li&gt;Secure archiving for forensics&lt;/li&gt;
+  &lt;li&gt;Data access auditing&lt;/li&gt;
+  &lt;li&gt;Data discovery and classification&lt;/li&gt;
+  &lt;li&gt;Change management&lt;/li&gt;
+  &lt;li&gt;Rate limiting&lt;/li&gt;
+  &lt;li&gt;Employee background checks&lt;/li&gt;
+  &lt;li&gt;Consider hashing beyond the password&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;evaluation-process-with-gdpr&quot;&gt;Evaluation process with GDPR&lt;/h3&gt;
+
+&lt;p&gt;GDPR changes the requirements for engineers and we need to put more thought into designing a system.
+Evaluation processes and decision making has to be documented along the following criteria:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;State of the Art&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the most advanced approach and meassure it against the ever evolving cyber security threat landscape.
+Keep on learning, educate youself, assess risks and anticipate attacks. Be aware of threats relevant for your use case.
+A successful security strategy is never “done”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Risk Profile&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Know your companies unique risk profile and customize your solutions accordingly. Risk profiles include core requirements for systems.
+This profile has to be re evaluated according to company changes or changes to the threat level.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Processing Profile&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Evaluate the nature, scope, context, and purposes of the processing of personal data. It is essential to understand what data is where and for which purpose.
+Data might be the oil of the 21st century but minimizing the amount of collected data is required. Collect only data you need for business and legal reasons.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cost&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Evaluate the costs of an implementation according to the risk profile.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;In this post I wanted to show how to satisfy GDRP requirements for password storage and what to take into consideration.
+It’s fine to run a legacy system with BCrypt but when designing a new system we need to use technology with a high probability to stand the test of time. Or at least the next decade. It’s on us engineers to stay informed about the continuous evolution of cybersecurity threats and adapt our approach.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Apr 2019 00:00:00 +0200</pubDate>
+        <link>https://inversegravity.net/2019/gdpr-passwords-hashing-you/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/gdpr-passwords-hashing-you/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Software Supply Chain Security</title>
@@ -86,7 +213,7 @@ The activities to protect the supply chain include:&lt;/p&gt;
 
 &lt;p&gt;The most important action is to raise awareness with managers and decision makers. A data leak, prolonged downtime or a company breach can bring an end to all the ambitious growth goals company founders have. IT companies need to step up their game. We owe it to our customers.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 19 Apr 2019 00:00:00 +0200</pubDate>
         <link>https://inversegravity.net/2019/software-supply-chain-security/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/software-supply-chain-security/</guid>
         
@@ -145,7 +272,7 @@ The stock strap is a black Horween shell cordovan strap. The buckle is a tang-st
 &lt;p&gt;This watch has rightly earned many awards but design is also polarizing. The minimalistic Bauhaus style doesn’t sit well with everybody.
 I have worn this watch for extended times and like the varity it provides to my &lt;a href=&quot;https://inversegravity.net/tag/watch/&quot;&gt;collection&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 19 Apr 2019 00:00:00 +0200</pubDate>
         <link>https://inversegravity.net/2019/nomos-tangente-101/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/nomos-tangente-101/</guid>
         
@@ -172,7 +299,7 @@ I have worn this watch for extended times and like the varity it provides to my 
 
 &lt;h3 id=&quot;data-breaches&quot;&gt;Data Breaches&lt;/h3&gt;
 
-&lt;p&gt;Companies get hacked or information is unintentionally exposed to the public. Data sets with millions of accounts have been seen in the wild. Clear text passwords or hashing without salt are not uncommon in user databases. Attackers use the information of those exposed data sets in attacks against other services. Known E-Mail address and password combinations are used for account takeovers.&lt;/p&gt;
+&lt;p&gt;Companies get hacked or information is unintentionally exposed to the public. Data sets with millions of accounts have been seen in the wild. Clear text passwords or hashing without salt are not uncommon in user databases. Attackers use the information of those exposed data sets in attacks against other services. Known E-Mail address and password combinations are used for account takeovers. The method is called &lt;strong&gt;credential stuffing attack&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Security aware users counter this with the use of password managers and two-factor authentication, but the majority of users doesn’t. Service providers are afraid to enforce hard requirements in fear of customers not signing up or the usability of a service degrading.&lt;/p&gt;
 
@@ -229,7 +356,7 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
 
 &lt;p&gt;We need to involve non technical people to improve security. Disclosing information to users about past breaches is a great way to help them to harden their account and change behavior regarding password recycling. Service providers should not shy away from this and instead make users understand that security is taken serious in the service they are signing up for. Building trust in a zero trust world.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 18 Apr 2019 00:00:00 +0200</pubDate>
         <link>https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</guid>
         
@@ -478,7 +605,7 @@ possible: nope
 
 &lt;p&gt;My approach is simple and can help to prevent fraud in cases of unrealistic distances between transactions.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 17 Apr 2019 00:00:00 +0200</pubDate>
         <link>https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</guid>
         
@@ -534,7 +661,7 @@ Public-Key cryptography is a fundamental security component of modern applicatio
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 16 Apr 2019 00:00:00 +0200</pubDate>
         <link>https://inversegravity.net/2019/public-key-infrastructure/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/public-key-infrastructure/</guid>
         
@@ -609,7 +736,7 @@ Poor arithmetic, but very human. It runs through all our folklore, all human rel
 &lt;p&gt;Starship Troopers has been influential for the sci-fi genre and praised by reviewers for its scenes of training and combat and its visualization of a future militaristic society.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Apr 2019 00:00:00 +0200</pubDate>
         <link>https://inversegravity.net/2019/starship-troopers/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/starship-troopers/</guid>
         
@@ -678,7 +805,7 @@ Poor arithmetic, but very human. It runs through all our folklore, all human rel
 
 &lt;p&gt;Old Man’s War is a conscious homage to &lt;a href=&quot;/2019/starship-troopers/&quot;&gt;Robert Heinlein’s Starship Troopers&lt;/a&gt;. He wanted to make the story in a way that the reader can understand the events of the book - such as being in a war or moving on after losing someone you love.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 14 Apr 2019 00:00:00 +0200</pubDate>
         <link>https://inversegravity.net/2019/old-mans-war/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/old-mans-war/</guid>
         
@@ -740,7 +867,7 @@ Twenty years afterward, the remark didn’t seem funny.&lt;/p&gt;
 
 &lt;p&gt;I don’t believe I’ve reread it since its original appearance, and I refuse to do so now — for fear of discovering how little I have improved in almost four decades. Those who claim that it’s their favorite story get a cooler and cooler reception over the passing years.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 12 Apr 2019 00:00:00 +0200</pubDate>
         <link>https://inversegravity.net/2019/rescue-party/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/rescue-party/</guid>
         
@@ -796,66 +923,13 @@ Twenty years afterward, the remark didn’t seem funny.&lt;/p&gt;
 &lt;p&gt;The latest version of the Explorer II with the polar dial is a big watch and joined my collection in 2018. While the GMT line is made out of “unobtainium”, the X2 is the most accessible entry into a Rolex watch with GMT function. The white dial differentiates it from the commonly seen black Rolex Submariners and watch goes well with casual or smart cassual attire.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 11 Apr 2019 00:00:00 +0200</pubDate>
         <link>https://inversegravity.net/2019/rolex-explorer-II-216570/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/rolex-explorer-II-216570/</guid>
         
         <category>watch</category>
         
         <category>rolex</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jaeger-LeCoultre Grande Reverso Tribute to 1931 - Ref. 2788570</title>
-        <description>&lt;h3 id=&quot;heritage&quot;&gt;Heritage&lt;/h3&gt;
-
-&lt;p&gt;The history of the Reverso starts in the year of 1931. The legends tells that Cesar de Trey, a Swiss businessman and watch aficionado, was attending a polo match of British army officers while travelling India. One of the players had just broken the glass of his watch. De Trey discussed the idea of a watch model robust enough to survive the hard knocks of a polo game with Jacques-David LeCoultre.&lt;/p&gt;
-
-&lt;p&gt;LeCoultre tasked the firm Jaeger S.A with the creation of a reversible case. The case can be swivelled in its carrier to protect the watch glass. The Reverso was born. The name is inspired by the Latin “I turn around”. The well proportioned rectangular shape with the three grooves at the top and bottom of case is considered a classic of Art Deco design. To this day the Reverso is still produced and is a statement of Jaeger-LeCoultre’s relationship with polo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/reverso_2.jpg&quot; alt=&quot;reverso advertisement&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;reverso-tribute-to-1931&quot;&gt;Reverso Tribute to 1931&lt;/h3&gt;
-
-&lt;p&gt;In 2011, Jaeger-LeCoultre celebrated the 80th anniversary of the Reverso and during SIHH 2011, JCL commorated this anniversary with the Grande Reverso Ultra Thin Tribute to 1931 model. This authentic model comes with the original dial and hands and is presented in an extremely flat and large case, measuring 46.8mm x 27.4mm wide and 7.3 mm thick. There is no brand name on the dial, just the word “Reverso” which is of course well known and closely related to JLC itself. The lugs are thick and downward sloped to make the watch comfortable on the wrist. On the black dial is a rectangular minute with aged hour markers and a double mark at the 12 o’clock position. The watch uses aged baton hands to tell the time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/reverso_1.jpg&quot; alt=&quot;picture of my reverso&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Inside the watch ticks the manually wound Jaeger-LeCoultre Calibre 822 (21 jewels) which beats at 21.600 vibrations per hour. It has a power reserve of 45 hours. Most rectangular and tonneau shaped cases in the industry contain a round movement. But this is a JLC watch, the movement is shaped to the dimensions of the watch itself (true case movement).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/reverso_4.jpg&quot; alt=&quot;picture of the Calibre 822&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Comparing the modern watch to the original, it’s clear that Jaeger-LeCoultre was successful in developing a honorable tribute to the 1931 icon. The watch captures the essential elements of the original Reverso. Perhaps the best example of staying true to it’s origin is the the solid caseback. Imposing a sapphire caseback would have damaged the credibility of the watch as a re-edition of an iconic sports watch.&lt;/p&gt;
-
-&lt;h3 id=&quot;specifications&quot;&gt;Specifications&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Model Number:&lt;/strong&gt; Jaeger Le-Coultre Grande Reverso Ultra Thin Tribute to 1931 Ref. 2788570&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Movement:&lt;/strong&gt; Jaeger Le-Coultre Cal. 822&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Case Material:&lt;/strong&gt; Steel&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Glass Material:&lt;/strong&gt; Sapphire Crystal&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lug Width:&lt;/strong&gt; 20mm&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Length/Height/Thick:&lt;/strong&gt; 46.8 mm / 27.4 mm / 7.2 mm&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;The Reverso Tribute joined my collection in 2017 as a present from my mother. I equipped the JLC with an aftermarket strap from Casa Fagliano, a historical Polo leather workshop from Argentina. The watch is certainly not meant for daily use and abuse but whenever the circumstances allow, it is a pleasure to wear. A solid movement, vintage looks, outstanding quality and a significance to history makes this watch a modern classic.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/jlc-reverso-tribute-1931/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/jlc-reverso-tribute-1931/</guid>
-        
-        <category>watch</category>
-        
-        <category>jlc</category>
-        
-        <category>jaeger-lecoultre</category>
         
         
       </item>
