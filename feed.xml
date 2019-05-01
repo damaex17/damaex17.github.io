@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 May 2019 17:30:43 +0000</pubDate>
-    <lastBuildDate>Wed, 01 May 2019 17:30:43 +0000</lastBuildDate>
+    <pubDate>Wed, 01 May 2019 17:31:26 +0000</pubDate>
+    <lastBuildDate>Wed, 01 May 2019 17:31:26 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -252,7 +252,7 @@ It’s fine to run a legacy system with BCrypt but when designing a new system w
 
 &lt;p&gt;Software development, platform technology, and delivery pipelines are a mission-critical element in every modern enterprise - and a place for security incidents. Increased velocity in software development, delivery and the removal of manual steps create additional security risks.&lt;/p&gt;
 
-&lt;p&gt;Other industries have understood a long time ago the need to manage risk along the supply chain. Documenting the origin of raw materials, testing the quality of supplied materials and ensuring the integrity of their supply chains. Examples are the medical, automotive, aerospace and mechanical engineering industry.&lt;/p&gt;
+&lt;p&gt;Other industries have understood the need to manage risk along the supply chain a long time ago. Documenting the origin of raw materials, testing the quality of supplied materials and ensuring the integrity of their supply chains. Examples are the medical, automotive, aerospace and mechanical engineering industry.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/supply_1.jpg&quot; alt=&quot;picture of a container harbor&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
