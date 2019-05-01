@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 May 2019 16:45:42 +0000</pubDate>
-    <lastBuildDate>Wed, 01 May 2019 16:45:42 +0000</lastBuildDate>
+    <pubDate>Wed, 01 May 2019 16:56:41 +0000</pubDate>
+    <lastBuildDate>Wed, 01 May 2019 16:56:41 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -476,7 +476,7 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
       </item>
     
       <item>
-        <title>Fraud Detection with GPS and airplanes</title>
+        <title>Fraud Detection with GPS and Airplanes</title>
         <description>&lt;h3 id=&quot;fraud-case&quot;&gt;Fraud Case&lt;/h3&gt;
 
 &lt;p&gt;I was the victim of credit card fraud in 2012. Criminals skimmed my debit card and emptied the bank account in a matter of hours. My bank fully refunded me but when checking the transactions, I figured that this was preventable.&lt;/p&gt;
@@ -530,17 +530,17 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
 
 &lt;p&gt;This pattern continued until my bank account was empty.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;GA-Verfügung:&lt;/strong&gt; Customer is at a ATM machine (German: Geldautomat) and has removed the money&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GA-Verfügung:&lt;/strong&gt; Customer is at an ATM machine (German: Geldautomat) and has removed the money&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;EMV:&lt;/strong&gt; Europay, Mastercard or Visa Authorization with PIN&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;EC-GA MAGNET0:&lt;/strong&gt; Authorization via the magnetic strip of the card&lt;/p&gt;
 
-&lt;p&gt;The first transaction at 02:47 was a ATM withdrawl by me and this wasn’t necessarily the machine where my card data was stolen. Later the fraudulent transactions start from Toronto Canada and Cancun Mexico.&lt;/p&gt;
+&lt;p&gt;The first transaction at 02:47 was an ATM withdrawal by me and this wasn’t necessarily the machine where my card data was stolen. Later the fraudulent transactions start from Toronto Canada and Cancun Mexico.&lt;/p&gt;
 
 &lt;h3 id=&quot;detection&quot;&gt;Detection&lt;/h3&gt;
 
-&lt;p&gt;Banks verify your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives from payment networks or vendor terminals, has the same content as the transaction list above. During this check the following fraud detection algorithm could be implemented to block the fraudulent transactions and prevent the money withdrawal, lock the compromised card or ask the user for additional verification via a mobile app.&lt;/p&gt;
+&lt;p&gt;Banks verify your account balance almost in real time on every withdrawal to prevent you from breaking your credit limits. The information the bank receives from payment networks or vendor terminals has the same content as the transaction list above. During this check, the following fraud detection algorithm could be implemented to block the fraudulent transactions and prevent the money withdrawal, lock the compromised card or ask the user for additional verification via a mobile app.&lt;/p&gt;
 
 &lt;h3 id=&quot;how-to-detect&quot;&gt;How to detect&lt;/h3&gt;
 
@@ -579,7 +579,7 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;With the &lt;a href=&quot;https://en.wikipedia.org/wiki/Haversine_formula&quot;&gt;Haversine Formula&lt;/a&gt; we can calculate the distance on a sphere with a radius of 6371 km (Earth).&lt;/p&gt;
+&lt;p&gt;With the &lt;a href=&quot;https://en.wikipedia.org/wiki/Haversine_formula&quot;&gt;Haversine Formula&lt;/a&gt;, we can calculate the distance on a sphere with a radius of 6371 km (Earth).&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a = sin²(Δφ/2) + cos φ1 ⋅ cos φ2 ⋅ sin²(Δλ/2)
 
 c = 2 * atan2( √a, √(1−a) )
@@ -703,15 +703,15 @@ delta time1 and time2: 1980.0 seconds
 possible: nope
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;At this point the fraud detection would report an issue and the bank could declined the transaction. The damage to the bank would be just the first transaction instead of multiple ones and a damage of thousands of Euros.&lt;/p&gt;
+&lt;p&gt;At this point, the fraud detection would report an issue and the bank could decline the transaction. The damage to the bank would be just the first transaction instead of multiple ones and the damage of thousands of Euros.&lt;/p&gt;
 
 &lt;h3 id=&quot;production&quot;&gt;Production&lt;/h3&gt;
 
-&lt;p&gt;I would utilize a microservice to run the detection. The decision regarding accepting or declining a transaction has to be made quickly. I would optimize the code for this and utilize a redis based cache to hold the time and lat/long pair of the last transactions of all customers. A TTL of one day should be enough because in one day our airplane can go anywhere on this planet. Military personal traveling by fighter jets will unfortunately trigger the implementation.&lt;/p&gt;
+&lt;p&gt;I would utilize a microservice to run the detection. The decision regarding accepting or declining a transaction has to be made quickly. I would optimize the code for this and utilize a Redis based cache to hold the time and lat/long pair of the last transactions of all customers. A TTL of one day should be enough because in one day our airplane can go anywhere on this planet. Military personnel traveling by fighter jets will, unfortunately, trigger the fraud implementation.&lt;/p&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;Fraud detection requires many approaches and is highly depending on the use case. It’s important to look at fraud cases and analyse them. Nowadays hopefully all banks utilize machine learning to get a good understanding of their customers behavior and flag potential fraud in real time. Batch processing once per day is no longer acceptable in my opinion. Customers deserve to be protected by modern real time fraud detection technology.&lt;/p&gt;
+&lt;p&gt;Fraud detection requires many approaches and is highly depending on the use case. It’s important to look at fraud cases and analyze them. Nowadays hopefully all banks utilize machine learning to get a good understanding of their customers behavior and flag potential fraud in real-time. Batch processing once per day is no longer acceptable in my opinion. Customers deserve to be protected by modern real time fraud detection technology.&lt;/p&gt;
 
 &lt;p&gt;My approach is simple and can help to prevent fraud in cases of unrealistic distances between transactions.&lt;/p&gt;
 </description>
