@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 May 2019 17:11:57 +0000</pubDate>
-    <lastBuildDate>Wed, 01 May 2019 17:11:57 +0000</lastBuildDate>
+    <pubDate>Wed, 01 May 2019 17:30:43 +0000</pubDate>
+    <lastBuildDate>Wed, 01 May 2019 17:30:43 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -127,15 +127,15 @@ It is important to document the justification or rationale for each impact asses
 
 &lt;h3 id=&quot;password-systems-and-the-gdpr&quot;&gt;Password systems and the GDPR&lt;/h3&gt;
 
-&lt;p&gt;Passwords (low-entropy secrets) play a critical role in keeping information safe. For this reason, ensuring password security is critical. GDPR not only introduces the principles of &lt;strong&gt;privacy by design&lt;/strong&gt; and &lt;strong&gt;privacy by default&lt;/strong&gt;, in &lt;a href=&quot;https://www.imperva.com/learn/data-security/gdpr-article-32/&quot;&gt;Article 32&lt;/a&gt; it also defines the obligation for data security and data loss prevention.&lt;/p&gt;
+&lt;p&gt;Passwords (low-entropy secrets) play a critical role in keeping information safe. For this reason, ensuring password security is critical. GDPR not only introduces the principles of &lt;strong&gt;privacy by design&lt;/strong&gt; and &lt;strong&gt;privacy by default&lt;/strong&gt;, but in &lt;a href=&quot;https://www.imperva.com/learn/data-security/gdpr-article-32/&quot;&gt;Article 32&lt;/a&gt; it also defines the obligation for data security and data loss prevention.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Access to personal data is protected by passwords. In order to protect personal data, passwords have to be protected&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Any password system developed or deployed has to be protected against &lt;strong&gt;brute force&lt;/strong&gt;, &lt;strong&gt;dictionary&lt;/strong&gt;, &lt;strong&gt;guessing&lt;/strong&gt; and &lt;a href=&quot;/2019/vulnerability-disclosure-at-signup/&quot;&gt;&lt;strong&gt;credential stuffing&lt;/strong&gt;&lt;/a&gt; attacks. The password itself is treated like personal data and requires appropriate state of the art protection.&lt;/p&gt;
+&lt;p&gt;Any password system developed or deployed has to be protected against &lt;strong&gt;brute force&lt;/strong&gt;, &lt;strong&gt;dictionary&lt;/strong&gt;, &lt;strong&gt;guessing&lt;/strong&gt; and &lt;a href=&quot;/2019/vulnerability-disclosure-at-signup/&quot;&gt;&lt;strong&gt;credential stuffing&lt;/strong&gt;&lt;/a&gt; attacks. The password itself is treated as personal data and requires state of the art protection.&lt;/p&gt;
 
-&lt;p&gt;Shortly after the introduction of GDPR a German company reported a data breach in accordance with Article 33 GDRP to the authorities. During the investigation it was discovered that the passwords have been stored in clear text. This was intepreted as a violation of Article 32 GDRP and the company was fined &lt;a href=&quot;https://www.theregister.co.uk/2018/11/23/knuddels_fined_for_plain_text_passwords/&quot;&gt;EUR 20.000&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Shortly after the introduction of GDPR a German company reported a data breach in accordance with Article 33 GDRP to the authorities. During the investigation, it was discovered that the passwords have been stored in clear text. This was interpreted as a violation of Article 32 GDRP and the company was fined &lt;a href=&quot;https://www.theregister.co.uk/2018/11/23/knuddels_fined_for_plain_text_passwords/&quot;&gt;EUR 20.000&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“By storing the passwords in clear text, the company knowingly violated its duty to ensure data security in the processing of personal data.” the authority said.&lt;/p&gt;
@@ -154,16 +154,16 @@ Hashing passwords is no longer just an option and the hashing method should be &
   &lt;li&gt;The honest player needs to be able to compute a single instance of the algorithm on standard hardware for moderate costs.&lt;/li&gt;
   &lt;li&gt;The adversary should not be able to reduce costs by calculating multiple instances of the algorithm on customized hardware.&lt;/li&gt;
   &lt;li&gt;The time for calculating the hash should not depend on the length of the password.&lt;/li&gt;
-  &lt;li&gt;Identical input has to produce different output (nondeterministic).&lt;/li&gt;
+  &lt;li&gt;Identical input has to produce a different output (nondeterministic).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;One way function&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;This is better than clear text but attackers have found ways around this implementation. If a couple of users were to use the same password, their hash would be identical. Multiple accounts mapped to the same hash indicate a commonly used password. With this knowledge hackers can considerably narrow down the number of passwords used in an attack. Attackers can also utilize databases of pre-computed hashes (&lt;a href=&quot;https://en.wikipedia.org/wiki/Rainbow_table&quot;&gt;rainbow table attacks&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;This is better than clear text but attackers have found ways around this implementation. If a couple of users were to use the same password, their hash would be identical. Multiple accounts mapped to the same hash indicate a commonly used password. With this knowledge, hackers can considerably narrow down the number of passwords used in an attack. Attackers can also utilize databases of pre-computed hashes (&lt;a href=&quot;https://en.wikipedia.org/wiki/Rainbow_table&quot;&gt;rainbow table attacks&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The salt&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Salting the input increases the complexity of the output without increasing user requirements. A salt is a fixed-length cryptographically strong value added to the input. But fixed salt strings can get exposed in a data breach and the attacker can neglect the advantage of using a salt. This implementation also produce deterministic outcomes.&lt;/p&gt;
+&lt;p&gt;Salting the input increases the complexity of the output without increasing user requirements. A salt is a fixed-length cryptographically strong value added to the input. But fixed salt strings can get exposed in a data breach and the attacker can neglect the advantage of using a salt. This implementation also produces deterministic outcomes.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;BCrypt, PBKDF2 or SCrypt - key stretching&lt;/strong&gt;&lt;/p&gt;
 
@@ -171,7 +171,7 @@ Hashing passwords is no longer just an option and the hashing method should be &
 
 &lt;p&gt;&lt;em&gt;BCrypt and PBKDF2&lt;/em&gt; are key stretching or key derivation functions and do not offer memory hardness. This means those methods are CPU bound and prone to password cracking by Application Specific Integrated Circuits (ASICs). Whitepapers have emerged regarding &lt;a href=&quot;https://www.usenix.org/system/files/conference/woot14/woot14-malvoni.pdf&quot;&gt;Energy-Efficient Bcrypt Cracking with Low-CostParallel Hardware&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;SCrypt&lt;/em&gt; adds memory hard functions (MHFs). It is CPU and Memory intensive to calculate. But I see an issue with the usage in &lt;a href=&quot;https://coinpaprika.com/tag/scrypt?all=true&quot;&gt;cryptocurrencies&lt;/a&gt;. Mining solutions for SCrypt are &lt;a href=&quot;https://cryptomining-blog.com/10810-new-innosilicon-a6-ltc-master-2-2-ghs-scrypt-asic-miner/&quot;&gt;available&lt;/a&gt; and these could be repurposed for &lt;em&gt;offline cracking&lt;/em&gt;. SCrypt also doesn’t give much options to configure parameters to balance parameters. In my opinion this is a important feature to tailor the method to your use case.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;SCrypt&lt;/em&gt; adds memory-hard functions (MHFs). It is CPU and Memory intensive to calculate. But I see an issue with the usage in &lt;a href=&quot;https://coinpaprika.com/tag/scrypt?all=true&quot;&gt;cryptocurrencies&lt;/a&gt;. Mining solutions for SCrypt are &lt;a href=&quot;https://cryptomining-blog.com/10810-new-innosilicon-a6-ltc-master-2-2-ghs-scrypt-asic-miner/&quot;&gt;available&lt;/a&gt; and these could be repurposed for &lt;em&gt;offline cracking&lt;/em&gt;. SCrypt also doesn’t give many options to configure parameters to balance parameters. In my opinion, this is an important feature to tailor the method to your use case.&lt;/p&gt;
 
 &lt;h3 id=&quot;argon2---appropriate-hashing&quot;&gt;Argon2 - appropriate hashing&lt;/h3&gt;
 
@@ -190,7 +190,7 @@ Hashing passwords is no longer just an option and the hashing method should be &
 &lt;h3 id=&quot;preventing-a-data-breach&quot;&gt;Preventing a data breach&lt;/h3&gt;
 
 &lt;p&gt;Hashing will protect passwords after a data breach. Other privacy information is usually stored in clear text.
-The risk for a data breach can be reduced by implementing processes, controls and audits.&lt;/p&gt;
+The risk for a data breach can be reduced by implementing processes, controls, and audits.&lt;/p&gt;
 
 &lt;p&gt;Consider the following:&lt;/p&gt;
 
@@ -214,14 +214,14 @@ Evaluation processes and decision making has to be documented along the followin
 
 &lt;p&gt;&lt;strong&gt;State of the Art&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Use the most advanced approach and meassure it against the ever evolving cyber security threat landscape.
-Keep on learning, educate youself, assess risks and anticipate attacks. Be aware of threats relevant for your use case.
+&lt;p&gt;Use the most advanced approach and measure it against the ever-evolving cybersecurity threat landscape.
+Keep on learning, educate yourself, assess risks and anticipate attacks. Be aware of threats relevant for your use case.
 A successful security strategy is never “done”.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Risk Profile&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Know your companies unique risk profile and customize your solutions accordingly. Risk profiles include core requirements for systems.
-This profile has to be re evaluated according to company changes or changes to the threat level.&lt;/p&gt;
+This profile has to be re-evaluated according to company changes or changes to the threat level.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Processing Profile&lt;/strong&gt;&lt;/p&gt;
 
@@ -234,7 +234,7 @@ Data might be the oil of the 21st century but minimizing the amount of collected
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;In this post I wanted to show how to satisfy GDRP requirements for password storage and what to take into consideration.
+&lt;p&gt;In this post, I wanted to show how to satisfy GDRP requirements for password storage and what to take into consideration.
 It’s fine to run a legacy system with BCrypt but when designing a new system we need to use technology with a high probability to stand the test of time. Or at least the next decade. It’s on us engineers to stay informed about the continuous evolution of cybersecurity threats and adapt our approach.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
