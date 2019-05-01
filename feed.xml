@@ -5,9 +5,119 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Apr 2019 21:43:03 +0200</pubDate>
-    <lastBuildDate>Thu, 25 Apr 2019 21:43:03 +0200</lastBuildDate>
+    <pubDate>Wed, 01 May 2019 16:45:42 +0000</pubDate>
+    <lastBuildDate>Wed, 01 May 2019 16:45:42 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Security Risk Assessment</title>
+        <description>&lt;p&gt;Risk is a consequence of an action taken and can have a positive or negative outcome. It can be managed in 5 distinct ways.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Accepting&lt;/strong&gt; a risk means there are no actions. This is a valid approach but requires identification and documentation of the risk. The acceptance of a risk has to be done by a qualified person. Real-life example: Smoking, drinking or base jumping&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Avoiding&lt;/strong&gt; is a change of plans and not executing on a strategy, investment or software project because of the risk. Real-life example: Stick to the speed limit, not go bungee jumping&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Transfer&lt;/strong&gt; of risk means another party, person or organization is taking the risk instead. Real-life example: insurance industry&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt; against a risk is the most common approach. One can mitigate against the impact and or mitigate by reducing the likelihood. Real-life example: audits, backup, redundancy, error-tolerant design&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exploiting&lt;/strong&gt; is an option if the risk has a positive impact. Looking for ways to increase the likelihood and/or impact of a risk. Real-life example: using new technologies&lt;/p&gt;
+
+&lt;p&gt;All mentioned risk management approaches rely on a prior assessment. The assessment of the risk for an organization has to follow a structured approach.  Risk assessment and management is an essential part of security management. Security assessment methodologies like &lt;a href=&quot;https://en.wikipedia.org/wiki/CRAMM&quot;&gt;CRAMM&lt;/a&gt; contain risk assessment modules. Risk assessment methodologies like &lt;a href=&quot;https://en.wikipedia.org/wiki/MEHARI&quot;&gt;Mehari&lt;/a&gt; have evolved to be security assessment methodologies. A systematic approach to security risk assessment is necessary to identify security requirements and to create an effective Information Security Management System (&lt;a href=&quot;https://en.wikipedia.org/wiki/ISO/IEC_27001&quot;&gt;ISMS&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Security risk assessments identify, quantify, and prioritize risks against defined criteria for risk management and objectives relevant to the organization.
+&lt;img src=&quot;/assets/images/risk_1.jpg&quot; alt=&quot;symbolic picture for risk&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;when-to-run-security-risk-assessment&quot;&gt;When to run Security Risk Assessment&lt;/h3&gt;
+
+&lt;p&gt;Whenever a new system, software, process or partner is connected to the organization. It’s essential to understand for example what data is shared and which privileged rights are implemented. A decision has to be made conscious and has to be aligned with the risk profile of a company.
+Existing assessments have to be revisited on a regular basis to adapt to the ever-evolving security threat landscape.&lt;/p&gt;
+
+&lt;p&gt;Each risk assessment has to be tailored to the subject of the assessment.&lt;/p&gt;
+
+&lt;h3 id=&quot;stories-from-the-trenches&quot;&gt;Stories from the trenches&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A designer finds this new productivity tool on the internet and installs it on the company notebook. The tool turns out to be malware.&lt;/li&gt;
+  &lt;li&gt;A manager is doing a test run with a new vendor and shares production data that turns out to include privacy protected data. The vendor is in a territory not bound to EU privacy laws and does not comply with GDPR&lt;/li&gt;
+  &lt;li&gt;Development teams use third-party modules for a software project. One module has malicious code injected (&lt;a href=&quot;/2019/software-supply-chain-security/&quot;&gt;software supply chain attack&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;A company decides to go global without a global security framework. Later a foreign branch is hacked and the HQ is affected.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;example-cyber-security-risk-assessment&quot;&gt;Example Cyber Security Risk Assessment&lt;/h3&gt;
+
+&lt;p&gt;A bank is evaluating a new Customer Relationship Management (CRM) system. The new system is a browser-based SaaS (Software as a service) solution. The new CRM software is part of a digitalization project in the bank with the purpose to reduce costs and improve customer relationship. The vendor of the SaaS solution was successfully approved after a vendor risk assessment. The contract with the SaaS provider includes SLA definitions and SLA monitoring metrics.&lt;/p&gt;
+
+&lt;p&gt;We scope this risk assessment to only look at the Data, Network and Client. People and Client hardware availability has to be covered in a disaster recovery plan and according to corporate security requirements. Customer and Support Agent interaction has to follow security approved processes.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-no-1-identify-assets-and-define-the-scope&quot;&gt;Step No. 1: Identify Assets and define the scope&lt;/h4&gt;
+
+&lt;p&gt;The identification of the assets can includes hardware, software, data, and personnel. It’s important to work with business users and management to create a list of all valuable assets. A tech person might not have all the information necessary to identify the assets or potential consequences.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It’s possible to define the scope of the assessment and recommend further assessments.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_1.png&quot; alt=&quot;asset table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-no-2-identify-potential-consequences&quot;&gt;Step No. 2: Identify potential consequences&lt;/h4&gt;
+
+&lt;p&gt;Determine what financial and reputational losses the organization would suffer if a given asset were damaged. This will later be used to determine the impact of loss or unavailability of an asset.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Customer Data&lt;/strong&gt;
+As a financial institute the partial or complete loss of customer data has legal implications and has to be reported to the authorities. The reputational consequences are a loss of trust in the organization. A full or partial data breach has legal, reputational and financial implications.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Client&lt;/strong&gt;
+Because of the SaaS solution the agents only require a browser. Browsers have evolved into cloud-based password managers and provide access to extensions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Network&lt;/strong&gt;
+A stable network connection with low latency is required for the SaaS solution to work. Loss of the connection means downtime for the customer support department which implies reputational consequences. Prolonged downtimes will have financial impact on the organiziation.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-no-3-identify-threats&quot;&gt;Step No. 3: Identify Threats&lt;/h4&gt;
+
+&lt;p&gt;A threat is anything that might exploit a vulnerability to breach your security and cause harm to your assets. Threats are specific to the company and derive from the company threat assessment. A bank of a certain size is considered critical infrastructure and is facing threats from computer criminals and state players. Natural disasters are also considered a threat but out of scope for this assessment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_2.png&quot; alt=&quot;threat table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-no-4-identify-vulnerabilities&quot;&gt;Step No. 4: Identify Vulnerabilities&lt;/h4&gt;
+
+&lt;p&gt;This step is probably one of the most challenging aspects of the security risk assessment. Vulnerability analysis requires technical understanding, up to date knowledge about the security threat landscape and the ability to tie it all together on the use case. I am giving some examples here without claim for completeness.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_3.png&quot; alt=&quot;vulnerability table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-no-5-assess-the-risk&quot;&gt;Step No. 5: Assess the risk&lt;/h4&gt;
+
+&lt;p&gt;Risk is the potential that a given threat will exploit the vulnerabilities of the environment and cause harm to one or more assets. 
+It is important to document the justification or rationale for each impact assessment and probability of occurrence rating. If the conditions or environment change, the assessment might need to be revisited. The rationale helps to communicate the significance of the risk.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Risk = Threat Likelihood x Magnitude of Impact&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The likelihood of an event to occur can be defined by factoring in the capability and motivation of a threat and the existing controls to prevent a threat.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_4.png&quot; alt=&quot;Likelihood table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The definition of the impact by the value of the data or service and the impact a loss has for the organization.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_5.png&quot; alt=&quot;Impact table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Risk model&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_6.png&quot; alt=&quot;Risk table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The resulting risk management plan&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_7.png&quot; alt=&quot;Risk management plan&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With this simplified risk assessment we can now decide on how the risk is managed. Most companies will try to mitigate the risk and quantification helps to justify the costs.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/risk-assessment/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/risk-assessment/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>GDPR, Passwords, Hashing and You</title>
@@ -94,7 +204,7 @@ The risk for a data breach can be reduced by implementing processes, controls an
   &lt;li&gt;Change management&lt;/li&gt;
   &lt;li&gt;Rate limiting&lt;/li&gt;
   &lt;li&gt;Employee background checks&lt;/li&gt;
-  &lt;li&gt;Consider hashing beyond the password&lt;/li&gt;
+  &lt;li&gt;Encryption of private information&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;evaluation-process-with-gdpr&quot;&gt;Evaluation process with GDPR&lt;/h3&gt;
@@ -127,7 +237,7 @@ Data might be the oil of the 21st century but minimizing the amount of collected
 &lt;p&gt;In this post I wanted to show how to satisfy GDRP requirements for password storage and what to take into consideration.
 It’s fine to run a legacy system with BCrypt but when designing a new system we need to use technology with a high probability to stand the test of time. Or at least the next decade. It’s on us engineers to stay informed about the continuous evolution of cybersecurity threats and adapt our approach.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 24 Apr 2019 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/gdpr-passwords-hashing-you/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/gdpr-passwords-hashing-you/</guid>
         
@@ -213,7 +323,7 @@ The activities to protect the supply chain include:&lt;/p&gt;
 
 &lt;p&gt;The most important action is to raise awareness with managers and decision makers. A data leak, prolonged downtime or a company breach can bring an end to all the ambitious growth goals company founders have. IT companies need to step up their game. We owe it to our customers.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 19 Apr 2019 00:00:00 +0200</pubDate>
+        <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/software-supply-chain-security/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/software-supply-chain-security/</guid>
         
@@ -272,7 +382,7 @@ The stock strap is a black Horween shell cordovan strap. The buckle is a tang-st
 &lt;p&gt;This watch has rightly earned many awards but design is also polarizing. The minimalistic Bauhaus style doesn’t sit well with everybody.
 I have worn this watch for extended times and like the varity it provides to my &lt;a href=&quot;https://inversegravity.net/tag/watch/&quot;&gt;collection&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 19 Apr 2019 00:00:00 +0200</pubDate>
+        <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/nomos-tangente-101/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/nomos-tangente-101/</guid>
         
@@ -356,7 +466,7 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
 
 &lt;p&gt;We need to involve non technical people to improve security. Disclosing information to users about past breaches is a great way to help them to harden their account and change behavior regarding password recycling. Service providers should not shy away from this and instead make users understand that security is taken serious in the service they are signing up for. Building trust in a zero trust world.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 18 Apr 2019 00:00:00 +0200</pubDate>
+        <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</guid>
         
@@ -434,7 +544,7 @@ In October 2017, the blog commenting service Disqus announced they’d suffered 
 
 &lt;h3 id=&quot;how-to-detect&quot;&gt;How to detect&lt;/h3&gt;
 
-&lt;p&gt;Calculate the distance between two given cities and calculate if it’s realistic to travel the distance in the given time via airplane.&lt;/p&gt;
+&lt;p&gt;Calculate the distance between two given cities and make sure it’s realistic to travel the distance in the given time via airplane.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/airplane.jpg&quot; alt=&quot;picture of an airplane&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
@@ -605,7 +715,7 @@ possible: nope
 
 &lt;p&gt;My approach is simple and can help to prevent fraud in cases of unrealistic distances between transactions.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 17 Apr 2019 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/fraud-detection-with-GPS-and-airplanes/</guid>
         
@@ -661,7 +771,7 @@ Public-Key cryptography is a fundamental security component of modern applicatio
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Tue, 16 Apr 2019 00:00:00 +0200</pubDate>
+        <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/public-key-infrastructure/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/public-key-infrastructure/</guid>
         
@@ -736,7 +846,7 @@ Poor arithmetic, but very human. It runs through all our folklore, all human rel
 &lt;p&gt;Starship Troopers has been influential for the sci-fi genre and praised by reviewers for its scenes of training and combat and its visualization of a future militaristic society.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 15 Apr 2019 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/starship-troopers/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/starship-troopers/</guid>
         
@@ -805,7 +915,7 @@ Poor arithmetic, but very human. It runs through all our folklore, all human rel
 
 &lt;p&gt;Old Man’s War is a conscious homage to &lt;a href=&quot;/2019/starship-troopers/&quot;&gt;Robert Heinlein’s Starship Troopers&lt;/a&gt;. He wanted to make the story in a way that the reader can understand the events of the book - such as being in a war or moving on after losing someone you love.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 14 Apr 2019 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/old-mans-war/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/old-mans-war/</guid>
         
@@ -867,69 +977,13 @@ Twenty years afterward, the remark didn’t seem funny.&lt;/p&gt;
 
 &lt;p&gt;I don’t believe I’ve reread it since its original appearance, and I refuse to do so now — for fear of discovering how little I have improved in almost four decades. Those who claim that it’s their favorite story get a cooler and cooler reception over the passing years.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 12 Apr 2019 00:00:00 +0200</pubDate>
+        <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/rescue-party/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/rescue-party/</guid>
         
         <category>scifi</category>
         
         <category>book</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Rolex Explorer II - Ref. 216570</title>
-        <description>&lt;h3 id=&quot;history&quot;&gt;History&lt;/h3&gt;
-
-&lt;p&gt;In 1971, Rolex unveiled the Explorer II as the larger sibling to the original &lt;a href=&quot;/2019/rolex-explorer-114270/&quot;&gt;Explorer I&lt;/a&gt;. The new line of watches were created specifically for speleologist. Rolex has a history of watches for specific purposes. The Rolex Submariner as the iconic dive watch. The Rolex Daytona as a watch for race car drivers and the Rolex GMT for commerzial airline pilots. The Rolex Explorer II has features that make it a particularly practical item for cave exploration.&lt;/p&gt;
-
-&lt;p&gt;There is a extra 24-hour hand that points to a fixed bezel with 24-hour markings. The logic behind this is that cave explorers are often in the dark and therefore, can’t tell the difference between AM and PM. The 24-hour hand points to either 10:00 or 22:00, the wearer can now know whether it’s day or night.&lt;/p&gt;
-
-&lt;p&gt;The Ref. 216570 is also heavily lumed on all hour markers and all 4 hands. The watch does a great job of telling the wearer the exact time of day (and night) even in complete darkness.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/216570_3.jpg&quot; alt=&quot;picture of the explorer II&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;rolex-explorer-ii-ref-216570&quot;&gt;Rolex Explorer II Ref. 216570&lt;/h3&gt;
-
-&lt;p&gt;To celebrate the 40th anniversary of the model, Rolex presented the Explorer II ref. 216570 in 2011. Although it’s a modern model, it pays fitting tribute to the inaugural ref. 1655.&lt;/p&gt;
-
-&lt;p&gt;The new Explorer ref. 216570 comes with an increased case size of 42mm, making it the largest version of the Explorer II. To balance the large case, hands, lume markers and the date disc also grew in size for even better legibility.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/216570_2.jpg&quot; alt=&quot;picture of the explorer II&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In honor of the original Explorer II, Rolex outfitted the latest X2 with a orange arrow-tipped 24-hour hand. Unlike the original reference, the new model is a GMT watch with a second time zone display. Adding the date window at 3 o’clock makes this now the ideal watch for adventurers and global travelers. Powering the Explorer II ref. 216570 is the Caliber 3187.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/216570_1.jpg&quot; alt=&quot;picture of the explorer II&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Honoring the original Explorer II, the Ref. 216570 performs great in the dark thanks to the Chromalight display. The blue hue that comes alive in low light lasts up to eight hours, which is double that of standard luminescent material.&lt;/p&gt;
-
-&lt;h3 id=&quot;specifications&quot;&gt;Specifications&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Model Number:&lt;/strong&gt; Rolex Explorer II Ref. 216570&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Movement:&lt;/strong&gt; Rolex Cal. 3187&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Case Material:&lt;/strong&gt; 904L Stainless Steel&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Glass Material:&lt;/strong&gt; Sapphire Crystal&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lug Width:&lt;/strong&gt; 21mm&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Diameter/Height:&lt;/strong&gt; 42 mm/12.5 mm&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;The latest version of the Explorer II with the polar dial is a big watch and joined my collection in 2018. While the GMT line is made out of “unobtainium”, the X2 is the most accessible entry into a Rolex watch with GMT function. The white dial differentiates it from the commonly seen black Rolex Submariners and watch goes well with casual or smart cassual attire.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 11 Apr 2019 00:00:00 +0200</pubDate>
-        <link>https://inversegravity.net/2019/rolex-explorer-II-216570/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/rolex-explorer-II-216570/</guid>
-        
-        <category>watch</category>
-        
-        <category>rolex</category>
         
         
       </item>
