@@ -5,9 +5,127 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 May 2019 12:24:17 +0000</pubDate>
-    <lastBuildDate>Fri, 03 May 2019 12:24:17 +0000</lastBuildDate>
+    <pubDate>Sat, 04 May 2019 11:41:28 +0000</pubDate>
+    <lastBuildDate>Sat, 04 May 2019 11:41:28 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>The CIA Triad - Confidentiality, Integrity, and Availability</title>
+        <description>&lt;p&gt;Security must start somewhere. This somewhere is a list of security principles. Confidentiality, Integrity, and Availability are considered the primary goals and objectives of a security infrastructure. Security controls are measured on how well they address those core principles. How important each principle is to an organization depends on the security goals and requirements of a company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cia_1.jpg&quot; alt=&quot;Mexican pyramid&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;confidentiality&quot;&gt;Confidentiality&lt;/h3&gt;
+
+&lt;p&gt;Confidentiality protects the secrecy of data, objects, or resources. The goal is to prevent or minimize unauthorized access to data. An authorized user can access or interact with objects while Confidentiality actively prevents unauthorized users from doing so. Many security measures or controls support Confidentiality. Examples are encryption, access control, authentication.&lt;/p&gt;
+
+&lt;p&gt;An object is the passive part in a security relationship, such as files, applications, computers, and network connections.
+A subject is the active part in a security relationship, such as users, programs or computers.
+The management of the relationship between object and subject is access control.&lt;/p&gt;
+
+&lt;p&gt;For confidentiality to be maintained in a network, data needs to be protected from unauthorized access and disclosure while in transit, in program, and in storage.&lt;/p&gt;
+
+&lt;p&gt;Specific controls are required for each of these states of data, resources, and objects to maintain confidentiality.&lt;/p&gt;
+
+&lt;p&gt;Numerous attacks focus on the violation of confidentiality. Examples are capturing network traffic, stealing passwords, port scanning, privilege escalation, and social engineering. Violation of confidentiality (disclosure) is not limited to intentional attacks. Many times the cause for unauthorized disclosure are the result of human error and oversight. Events leading to disclosure include failing to encrypt a transmission, accessing malicious code, walking away from a computer while sensitive data is displayed on the screen, misconfigured security control, or oversight in a security policy.&lt;/p&gt;
+
+&lt;p&gt;Numerous countermeasures help to ensure confidentiality. These include encryption, network traffic monitoring, strict access control, authentication, data classification, and ownership, or training of personnel.&lt;/p&gt;
+
+&lt;p&gt;Confidentiality and Integrity are depending on each other. Without object integrity, confidentiality cannot be maintained. Integrity means the inability of an object to be modified without permission.&lt;/p&gt;
+
+&lt;p&gt;Confidentiality concepts, conditions, and aspects include:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sensitivity&lt;/strong&gt; refers to the damage caused by the disclosure of data&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Criticality&lt;/strong&gt; defines how important an object is for the functionality of an organization&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Secrecy&lt;/strong&gt; describes the act of preventing disclosure&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Privacy&lt;/strong&gt; refers to keeping personally identifiable data confidential&lt;/p&gt;
+
+&lt;p&gt;Organizations need to evaluate the level of confidentiality they wish to enforce on objects.&lt;/p&gt;
+
+&lt;h3 id=&quot;integrity&quot;&gt;Integrity&lt;/h3&gt;
+
+&lt;p&gt;Integrity is the concept of protecting the reliability and correctness of data. Integrity protection prevents unauthorized changes to data. It ensures that data remains correct, unaltered, and preserved. Well implemented integrity provides the functionality of authenticated change while it prevents intended and malicious unauthorized activities as well as mistakes by authorized users.&lt;/p&gt;
+
+&lt;p&gt;Objects must retain their correctness and can only be intentionally changed by authenticated users, in order to maintain integrity. Integrity mechanism and protection provide a high level of assurance that the data, object, and resources are unaltered from their original protected state.&lt;/p&gt;
+
+&lt;p&gt;Unauthorized and unwanted changes should not occur while an object is in storage, in transit, or in process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cia_2.jpg&quot; alt=&quot;integrity right wrong&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Integrity is checked from three perspectives:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Preventing unauthorized subjects from making modifications&lt;/li&gt;
+  &lt;li&gt;Preventing authorized subjects from making unauthorized changes (mistakes)&lt;/li&gt;
+  &lt;li&gt;Maintaining consistency of objects so that their data is correct&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In order to maintain integrity on a system, controls must be in place to restrict access to data, objects, and resources. Activity logging must be employed to verify that only authorized users are able to access their respective resources&lt;/p&gt;
+
+&lt;p&gt;Some example of attacks against the violation of integrity are viruses, coding errors, malicious modifications, and backdoors.&lt;/p&gt;
+
+&lt;p&gt;As in confidentiality, the attacks on integrity are not always intentional. Human errors, lack of oversight, or improperness can cause unauthorized alteration of information.&lt;/p&gt;
+
+&lt;p&gt;There are many countermeasures to support the integrity approach in security. Access control, authentication, intrusion detection, encryption, hashing, interface restrictions, input verification, training of personnel. Integrity is depending on confidentiality and vice versa.&lt;/p&gt;
+
+&lt;p&gt;Integrity concepts, conditions, and aspects&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Accuracy&lt;/strong&gt; is correct and precise&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Truthfulness&lt;/strong&gt; is a true reflection of reality&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Authenticity&lt;/strong&gt; refers to genuine and authentic&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Accountability&lt;/strong&gt; means being responsible for actions and results&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Responsibility&lt;/strong&gt; refers to being in charge of having control over a subject or object&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comprehensiveness&lt;/strong&gt; the complete scope of all elements&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nonrepudiation&lt;/strong&gt; is not being able to deny having performed an activity or action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Validity&lt;/strong&gt; is factual and logically correct&lt;/p&gt;
+
+&lt;h3 id=&quot;availability&quot;&gt;Availability&lt;/h3&gt;
+
+&lt;p&gt;The last principle of the triad is availability. It refers to authorized subjects have timely and uninterrupted access to objects. Availability implies that infrastructure, like network services or authentication systems, is functional and allows authorized users to gain authorized access.&lt;/p&gt;
+
+&lt;p&gt;For availability to be maintained, controls need to be in place to ensure an acceptable level of performance, to handle interruption, to be redundant, to maintain functional backups, and to prevent data loss.&lt;/p&gt;
+
+&lt;p&gt;Example threats to availability are device failure, environmental issues, software and hardware errors, (D)DoS ((Distributed) Denial of Service) attacks, and communication interruptions. As with confidentiality and integrity, violations of availability are not limited to intentional attacks. Examples are overutilizing hardware or software component, mislabeling or incorrectly classifying objects, or accidentally deleting files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cia_3.jpg&quot; alt=&quot;mexicani pyramid&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Countermeasures to support availability are numerous and include monitoring of performance, monitoring of network traffic, monitoring of network bandwidth, redundancy for critical systems, maintaining and testing backup systems, (D)DoS protection systems, designing fault-tolerant systems, testing access control systems, removing single points of failure, and business continuity planning.&lt;/p&gt;
+
+&lt;p&gt;Availability depends on confidentiality and integrity and cannot be maintained without the two.&lt;/p&gt;
+
+&lt;p&gt;Availability concepts and aspects:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Usability&lt;/strong&gt; refers to easy to learn, understand, control, and apply&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt; is the concept of a wide range of subjects can interact with an object&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Timeliness&lt;/strong&gt; means to provide low latency response or being within a reasonable timeframe.&lt;/p&gt;
+
+&lt;h3 id=&quot;cia-priority&quot;&gt;CIA Priority&lt;/h3&gt;
+
+&lt;p&gt;Every organization has unique security requirements and the security needs have to be prioritized. Knowing which assets are more important than others guides the development of a dedicated security stance and the deployment of a security solution.&lt;/p&gt;
+
+&lt;p&gt;Prioritizing with the CIA Triad is a good start and can be replicated for design, architecture, deployment, maintenance, and development.
+The prioritization focuses the effort of an organization on one aspect over the others. It doesn’t mean that the second or third prioritised items are ignored or improperly addressed. Each individual organization decides its own security priorities.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/cia-triad/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/cia-triad/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Security Risk Assessment</title>
@@ -918,68 +1036,6 @@ Poor arithmetic, but very human. It runs through all our folklore, all human rel
         <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/old-mans-war/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/old-mans-war/</guid>
-        
-        <category>scifi</category>
-        
-        <category>book</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Rescue Party by Arthur C. Clarke</title>
-        <description>&lt;h3 id=&quot;author&quot;&gt;Author&lt;/h3&gt;
-
-&lt;p&gt;Sir Arthur Charles Clarke was a British science fiction and science writer, futurist, explorer and tv host. He was born on 16th of December 1917 in England and passed on 19th of March 2008 in Sri Lanka aged 90 years.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/rescue_3.jpg&quot; alt=&quot;Arthur C. Clarke&quot; style=&quot;float: center; padding: 10px 10px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;He is known to the broader public for co-writing the screenplay for the 1968 Stanley Kubrick film classic &lt;strong&gt;2001: A Space Odyssey&lt;/strong&gt;, widely considered to be one of the most influential films of all time. An possibly the best sci-fi movie ever produced.&lt;/p&gt;
-
-&lt;p&gt;His science fiction writings earned him a number of awards and one of the founding figures of contemporary science fiction. For many years Clarke, Robert Heinlein and Isaac Asimov were known as the “Big Three” of science fiction. Arthur C. Clarke was also nicknamed the “Prophet of the Space Age”.&lt;/p&gt;
-
-&lt;p&gt;Resuce Party was first published in “Astounding Science Fiction” in May 1946. It was the first story Clarke sold and gives us a insight into the beginnings of this titan of science fiction. He is one of my all time favorite writers.&lt;/p&gt;
-
-&lt;h3 id=&quot;story&quot;&gt;Story&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/rescue_1.jpg&quot; alt=&quot;Astounding Science Fiction magazine from 1946&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The story begins with an alien ship visiting Earth only a few hours before the sun explodes and destroy the planet. The mission of the aliens is to save as many humans as possible. The galactic civilization does surveys of planets every one million years for new intelligent species, but the human race did not exist the last time the survey was done four hundred thousand years before. However, radio signals had been detected, indicating intelligent life had arisen on Earth.&lt;/p&gt;
-
-&lt;p&gt;When the aliens arrive on the blue planet they are surprised by the planet being empty of intelligent life, except for deserted cities and other remnants of the civilization.&lt;/p&gt;
-
-&lt;p&gt;We find out during the exploration of the cities by the aliens that it is unusual for civilizations to develop space travel so quickly after radio communication.&lt;/p&gt;
-
-&lt;p&gt;The aliens find a communication tower pointing into space. They follow the towers direction and find an enormous fleet of human ships, powered by rockets. The aliens, equipped with faster-than-light ships, are amazed that humans dared to cross interstellar space with rockets. Humans have taken the audacious tactic of using generational starships, in the hopes that their descendants will one day arrive at a new planet.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/rescue_2.jpg&quot; alt=&quot;Cover of 'Rescue Party'&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;ending&quot;&gt;Ending&lt;/h3&gt;
-
-&lt;p&gt;“I wonder what they’ll be like?” he mused. “Will they be nothing but wonderful engineers, with no art or philosophy? They’re going to have such a surprise when Orostron reaches them—I expect it will be rather a blow to their pride. It’s funny how all isolated races think they’re the only people in the Universe. But they should be grateful to us; we’re going to save them a good many hundred years of travel.”&lt;/p&gt;
-
-&lt;p&gt;Alveron glanced at the Milky Way, lying like a veil of silver mist across the vision screen. He waved toward it with a sweep of a tentacle that embraced the whole circle of the galaxy, from the Central Planets to the lonely suns of the Rim.&lt;/p&gt;
-
-&lt;p&gt;“You know,” he said to Rugon, “I feel rather afraid of these people. Suppose they don’t like our little Federation?” He waved once more toward the star-clouds that lay massed across the screen, glowing with the light of their countless suns.
-“Something tells me they’ll be very determined people,” he added. “We had better be polite to them. After all, we only outnumber them about a thousand million to one.”
-Rugon laughed at his captain’s little joke.
-Twenty years afterward, the remark didn’t seem funny.&lt;/p&gt;
-
-&lt;h3 id=&quot;audio-book&quot;&gt;Audio Book&lt;/h3&gt;
-
-&lt;p&gt;There is a excellent narrated episode of “Escape Pod” about this magnificient short story of Arthur C. Clarke.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://escapepod.org/2013/06/18/ep400-rescue-party/&quot;&gt;Escape Pod Ep400: Rescue Party&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;reception-and-foreword-by-arthur-c-clarke&quot;&gt;Reception and Foreword by Arthur C. Clarke&lt;/h3&gt;
-
-&lt;p&gt;“Rescue Party,” written in March 1945, while I was still in the Royal Air Force, was the first story I sold to the legendary John W. Campbell, Jr., editor of Astounding Science Fiction.&lt;/p&gt;
-
-&lt;p&gt;I don’t believe I’ve reread it since its original appearance, and I refuse to do so now — for fear of discovering how little I have improved in almost four decades. Those who claim that it’s their favorite story get a cooler and cooler reception over the passing years.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/rescue-party/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/rescue-party/</guid>
         
         <category>scifi</category>
         
