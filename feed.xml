@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 May 2019 16:31:19 +0000</pubDate>
-    <lastBuildDate>Fri, 10 May 2019 16:31:19 +0000</lastBuildDate>
+    <pubDate>Fri, 10 May 2019 16:39:58 +0000</pubDate>
+    <lastBuildDate>Fri, 10 May 2019 16:39:58 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;h3 id=&quot;why-is-the-classification-of-data-important&quot;&gt;Why is the classification of data important?&lt;/h3&gt;
 
-&lt;p&gt;It is inefficient to treat all data the same way when implementing protection for the data assets of an organization. Securing everything with few or none safeguards (controls) means sensitive data might get exposed. Securing everything at a high-security level is expensive and restricts access to noncritical data.&lt;/p&gt;
+&lt;p&gt;It is inefficient to treat all data the same way when implementing protection for the data assets of an organization. Securing everything with few or no safeguards (controls) means sensitive data might get exposed. Securing everything at a high-security level is expensive and restricts access to noncritical data.&lt;/p&gt;
 
 &lt;p&gt;The classification of data is helpful to determine how much effort, resources, and money is allocated to protect data and control access to it. It is important to classify the protection level of data with the input from legal, regulatory, business, and technical experts.&lt;/p&gt;
 
