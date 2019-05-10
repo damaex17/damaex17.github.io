@@ -5,9 +5,135 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 May 2019 11:07:22 +0000</pubDate>
-    <lastBuildDate>Tue, 07 May 2019 11:07:22 +0000</lastBuildDate>
+    <pubDate>Fri, 10 May 2019 16:31:19 +0000</pubDate>
+    <lastBuildDate>Fri, 10 May 2019 16:31:19 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Data Classification</title>
+        <description>&lt;p&gt;Data is called the oil of the 21st century. Data, information, knowledge, and wisdom are closely related concepts, but each has its own role in relation to the other, and each term has its own meaning [&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;].&lt;/p&gt;
+
+&lt;h3 id=&quot;why-is-the-classification-of-data-important&quot;&gt;Why is the classification of data important?&lt;/h3&gt;
+
+&lt;p&gt;It is inefficient to treat all data the same way when implementing protection for the data assets of an organization. Securing everything with few or none safeguards (controls) means sensitive data might get exposed. Securing everything at a high-security level is expensive and restricts access to noncritical data.&lt;/p&gt;
+
+&lt;p&gt;The classification of data is helpful to determine how much effort, resources, and money is allocated to protect data and control access to it. It is important to classify the protection level of data with the input from legal, regulatory, business, and technical experts.&lt;/p&gt;
+
+&lt;p&gt;Categorization is the process of organizing objects into groups with similarities. The similarities can be value, sensitivity, risk, vulnerability, or damage upon loss. Classification is used to provide mechanisms for processing, storing, or transferring data and also defines how data is removed or destroyed.&lt;/p&gt;
+
+&lt;p&gt;Declassification is required once an object no longer matches the similarities of other objects in the same category. Without declassification, resources are wasted.&lt;/p&gt;
+
+&lt;p&gt;The benefits of using data classification schemes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It assists in identifying assets that are most critical and valuable to an organization&lt;/li&gt;
+  &lt;li&gt;It demonstrates an organizations commitment to protecting valuable resources and assets&lt;/li&gt;
+  &lt;li&gt;It helps in the selection of protection mechanisms&lt;/li&gt;
+  &lt;li&gt;It is often required for regulatory and legal compliance&lt;/li&gt;
+  &lt;li&gt;It assists in defining access levels for authorized users&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/data.jpg&quot; alt=&quot;picture representing data&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The two commonly used classification schemes are government/military and commercial business/private sector classification levels.&lt;/p&gt;
+
+&lt;h3 id=&quot;government-and-military-classification-scheme&quot;&gt;Government and Military Classification Scheme&lt;/h3&gt;
+
+&lt;p&gt;There are five levels of classification in this scheme. This scheme varies from country to country. [&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;]&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;High&lt;/td&gt;
+      &lt;td&gt;Top Secret&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Secret&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Confidential&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Sensitive but unclassified&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Low&lt;/td&gt;
+      &lt;td&gt;Unclassified&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Top Secret&lt;/strong&gt; is the highest level of classification. The disclosure of top-secret data will cause &lt;em&gt;serious&lt;/em&gt; damage to national security. This category of data/information is only provided on a need-to-know basis to users. Even users with top-secret clearance will not get access to data until the user has to know.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Secret&lt;/strong&gt; is used for data of a restricted category. Disclosure of secret data will have a &lt;em&gt;significant&lt;/em&gt; effect on national security.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Confidential&lt;/strong&gt; classification is used for all data between secret and sensitive but unclassified. The disclosure of confidential data will have a &lt;em&gt;serious&lt;/em&gt; effect on national security.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sensitive But Unclassified&lt;/strong&gt; is used for data that is for internal use or office use only. SBU is often used for data that violates the privacy rights of individuals.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unclassified&lt;/strong&gt; is data that is neither sensitive nor classified.&lt;/p&gt;
+
+&lt;p&gt;Revealing the classification label of classified data is already considered a violation of the protection level. Top Secret, Secret and Confidential data are therefore commonly called &lt;em&gt;classified data&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;commercial-business-and-private-sector-classification-levels&quot;&gt;Commercial Business And Private Sector Classification Levels&lt;/h3&gt;
+
+&lt;p&gt;There are only 3 levels in this classification scheme. The scheme can be adapted to a specific use-case. The University of Berkley is, for example, categorizing data in 4 levels [&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;].&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;High&lt;/td&gt;
+      &lt;td&gt;Confidential/Private&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Sensitive&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Low&lt;/td&gt;
+      &lt;td&gt;Public&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Confidential&lt;/strong&gt; is used for data that is extremely sensitive and for internal use only. A &lt;em&gt;significant&lt;/em&gt; negative impact for the organization will occur upon disclosure of data in this category. Another term for this level of classification is &lt;strong&gt;proprietary&lt;/strong&gt;. If proprietary data is lost, it can have an effect on the competitive advantage of a company.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Private&lt;/strong&gt; is used for data that is of a private or personal nature. It is intended for internal use only. The disclosure of private data will have a negative impact on the company or individuals.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sensitive&lt;/strong&gt; is used for data that is not intended for the public.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Public&lt;/strong&gt; is the lowest classification level. It is used for all data that does not match the higher levels.&lt;/p&gt;
+
+&lt;h3 id=&quot;ownership-of-data&quot;&gt;Ownership of Data&lt;/h3&gt;
+
+&lt;p&gt;Ownership has to be considered in the context of data classification. It can override all other forms of access control. Any operating system or application where files or other types of objects can be assigned to an owner has to be taken into consideration and a security policy has to be enforced to help categorize the content. An owner has full capabilities and privileges over an object they own. The ability to take ownership is often only granted to the most powerful user in an operating system (eg Linux root user or Windows Administrator) or to the creator of an object/file (Goole Docs).&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;1: &lt;a href=&quot;https://en.wikipedia.org/wiki/Data&quot;&gt;Data - From Wikipedia, the free encyclopedia&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;2: &lt;a href=&quot;https://en.wikipedia.org/wiki/Classified_information&quot;&gt;Classified information - From Wikipedia, the free encyclopedia&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;3: &lt;a href=&quot;https://security.berkeley.edu/data-classification-standard&quot;&gt;Berkely Information Security and Policy&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/data-classification/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/data-classification/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Sci-Fi Reality - Cyberwar</title>
@@ -1034,83 +1160,6 @@ Public-Key cryptography is a fundamental security component of modern applicatio
         <guid isPermaLink="true">https://inversegravity.net/2019/public-key-infrastructure/</guid>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Starship Troopers by Robert A. Heinlein</title>
-        <description>&lt;h3 id=&quot;author&quot;&gt;Author&lt;/h3&gt;
-
-&lt;p&gt;Robert A. Heinlein was born in July 1907 in Missouri and died in May 1988 aged 80 years. He was a science-fiction author, aeronautical engineer, and retired navy officer. He fought aboard an aircraft carrier during Wold War II and this time is considered to have had a strong influence on his writing.&lt;/p&gt;
-
-&lt;p&gt;He is the pioneer of hard science fiction, a sub genre which emphasizes scentific accuracy. His work continues to have an influence on the science-fiction genre, and on modern culture more generally. Heinlein repeatedly addressed social themes in his science-fiction stories. The importance of liberty and self-reliance, the individuals obligation to societies or societies repression of nonconfrom thoughts.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/troopers_1.jpg&quot; alt=&quot;picture of Robert A. Heinlein&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Heinlein was named the Science Fiction Grand Master in 1974 and won many awards during his career. In his books he predicted later inventions like the cell phone or computer aided design. Robert also coined terms that have become part of the English language. “There ain’t no such thing as a free lunch” or “Space Marine” are commonly used even by the President of the United States.&lt;/p&gt;
-
-&lt;p&gt;Let’s take a look at his most famous book. This is one of my personal all time favorite reads.&lt;/p&gt;
-
-&lt;h3 id=&quot;setting&quot;&gt;Setting&lt;/h3&gt;
-
-&lt;p&gt;The future society of Earth is ruled by the Terran Federation, a global government dominated by the military elite. The rights of a “full citizen” are not universally granted, but must be earned through Federal Service. Only “full citizens” can vote or hold a public office. At the age of 18 people of either gender are expected to enlist in the Terran Federation. This structure arose ad hoc after the collapse of the 20th century Western democracies.&lt;/p&gt;
-
-&lt;p&gt;Two alien civilizations are known. The “Skinnies” a humanoide species with thin appearance. And the “Arachnids” or “Bugs” an insectoid species and main antagonists of the story. The Bugs have multiple castes; workers, soldiers, brains, and queens and their society is similar to ants and termites. The Skinnies are initially allies of the Arachnids, but switch to being allies of the humans midway through the novel. Faster than light travel exists in the novel.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/troopers_2.jpg&quot; alt=&quot;Book cover of Starship Troopers&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Starship Troopers main character is Johnny Rico a member of the TF Mobile Infrantry. Rico is from a wealthy family, whose members did not serve in the army and see the military drive society critical.&lt;/p&gt;
-
-&lt;p&gt;The story is loosened up by a series of flashbacks into Rico’s time at school.&lt;/p&gt;
-
-&lt;h3 id=&quot;story&quot;&gt;Story&lt;/h3&gt;
-
-&lt;p&gt;The novel opens with Rico aboard the corvette Rodger Young, platoon transport for the “Rasczak’s Roughnecks”, about to embark on a raid against the planet of the “Skinnies”, allies of the Arachnids. The raid is relatively brief: the platoon lands on the planet, destroys its targets, and retreats, suffering two casualties in the process. The story then flashes back to Rico’s graduation from high school and his decision to not attend Harvard University, but rather sign up for Federal Service, despite the objections of his wealthy father. This chapter is mostly monologues of two people: retired Lt. Colonel Jean V. Dubois, Rico’s school instructor in the subjects of History and Moral Philosophy, and Fleet Sergeant Ho, a recruiter for the Armed forces of the Terran Federation.&lt;/p&gt;
-
-&lt;p&gt;Dubois delivers one of the famous statements of the book on how Violence “has settled more issues in history than has any other factor”.&lt;/p&gt;
-
-&lt;p&gt;Rico is assigned to the Mobile Infantry, and moves to Camp Arthur Currie for his training under Sergeant Charles Zim. He receives combat training of all types, including simulated fights in armored suits. During his training a Arachnid attack destroys the city of Buenos Aires, Rico’s mother is killed in the attack. The “Bug War” changes from border skirmishes to a full-scale war. His first assignment is the Battle of Klendathu, an attack on the Arachnid’s home world, which turns into a disastrous defeat for the Terran Federation with many casualties. With his unit decimated, he is assigned to the “Razak’s Roughnecks” onboard the TF Rodger Young.&lt;/p&gt;
-
-&lt;p&gt;Several battles with the Arachnids follow and Rico is promoted to corporal and later lieutenant. In the final battle of the book, Rico commands a platoon during “Operation Royalty”, a raid to capture members of the Arachnid brain caste and queens. This operation is a success and a “Brain Bug” is captured. The novel ends with his platoon renaming to “Rico’s Roughnecks”.&lt;/p&gt;
-
-&lt;h3 id=&quot;quotes&quot;&gt;Quotes&lt;/h3&gt;
-
-&lt;p&gt;“There are no dangerous weapons; there are only dangerous men.”&lt;/p&gt;
-
-&lt;p&gt;“Liberty is never unalienable; it must be redeemed regularly with the blood of patriots or it always vanishes. Of all the so-called natural human rights that have ever been invented, liberty is least likely to be cheap and is never free of cost.”&lt;/p&gt;
-
-&lt;p&gt;“Happiness consists in getting enough sleep. Just that, nothing more.”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/troopers_3.jpg&quot; alt=&quot;Starship Troopers fan art&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;“Our behavior is different. How often have you seen a headline like this?–TWO DIE ATTEMPTING RESCUE OF DROWNING CHILD. If a man gets lost in the mountains, hundreds will search and often two or three searchers are killed. But the next time somebody gets lost just as many volunteers turn out.
-Poor arithmetic, but very human. It runs through all our folklore, all human religions, all our literature–a racial conviction that when one human needs rescue, others should not count the price.”&lt;/p&gt;
-
-&lt;p&gt;“Any group is weaker than a man alone unless they are perfectly trained to work together.”&lt;/p&gt;
-
-&lt;p&gt;“To permit irresponsible authority is to sell disaster.”&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Commentators have stated that Starship Troopers is not driven by its plot, it contains only few desciptions of military combat. Instead much of the novel’s content is the discussion of ideas. The book is based on the social Darwinist idea of society as a struggle for survival based on military strength. It suggests that some conflicts must be resolved by force: one of the lessons Rico is repeatedly taught is that violence can be an effective method of settling conflict.&lt;/p&gt;
-
-&lt;p&gt;Ricos transformation from boy to soldier is another major theme and the book can be considered a “coming of age” novel.&lt;/p&gt;
-
-&lt;p&gt;Heinlein also ridicules the idea of inalienable rights, such as “Life, Liberty, and the Pursuit of Happiness”, arguing that people only have the rights that they are willing to fight and die for to protect.&lt;/p&gt;
-
-&lt;p&gt;Critics of the book and the author accused him of glorification of militarism and facism. To me those allegations are refuted by the satirical undertone of the book.&lt;/p&gt;
-
-&lt;p&gt;Starship Troopers has been influential for the sci-fi genre and praised by reviewers for its scenes of training and combat and its visualization of a future militaristic society.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/starship-troopers/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/starship-troopers/</guid>
-        
-        <category>scifi</category>
-        
-        <category>book</category>
         
         
       </item>
