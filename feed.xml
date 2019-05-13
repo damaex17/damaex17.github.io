@@ -5,9 +5,115 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 May 2019 19:17:35 +0000</pubDate>
-    <lastBuildDate>Fri, 10 May 2019 19:17:35 +0000</lastBuildDate>
+    <pubDate>Mon, 13 May 2019 17:39:02 +0000</pubDate>
+    <lastBuildDate>Mon, 13 May 2019 17:39:02 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Cryptography - History &amp; Basics</title>
+        <description>&lt;p&gt;This post is the first in a series about cryptography. In this article, I look at the evolution of crypto and famous historical implementations.&lt;/p&gt;
+
+&lt;h3 id=&quot;history-of-cryptography&quot;&gt;History of Cryptography&lt;/h3&gt;
+
+&lt;p&gt;Speech and written communication defined the early civilizations and continuously evolved with human societies. In the beginning, humans used &lt;a href=&quot;https://en.wikipedia.org/wiki/Petroglyph&quot;&gt;Petroglyphs&lt;/a&gt;, which evolved into &lt;a href=&quot;https://en.wikipedia.org/wiki/Pictogram&quot;&gt;Pictograms&lt;/a&gt; (Hieroglyphs), and finally &lt;a href=&quot;https://en.wikipedia.org/wiki/Ideograms&quot;&gt;Ideograms&lt;/a&gt; and today we use flash storage devices stuffed with the information of the &lt;a href=&quot;https://www.amazon.com/Scholastic-Flash-Drive-Encyclopedia-Britannica/dp/B003DKK9KK&quot;&gt;Encyclopedia Britannica&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_1.jpg&quot; alt=&quot;a picture representing encrypted data&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As long as humans have been communicating, they tried to hide the true meaning of the written word from their enemies. Ancient civilizations used complex systems of secret symbols. The evolution of those systems are the codes and ciphers we facilitate to enable private communication in our times.&lt;/p&gt;
+
+&lt;h3 id=&quot;substitution-cipher-caesar-cipher&quot;&gt;Substitution Cipher: Caesar Cipher&lt;/h3&gt;
+
+&lt;p&gt;In crypto, the Caesar cipher is one of the earliest known systems and was used by Julus Caesar to communicate with Cicero in Rome while he was conquering Europe. It is a substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a right shift of 3, A would be replaced by D, B would become E, and so on.&lt;/p&gt;
+
+&lt;p&gt;This is called ROT3 (Rotate 3) cipher and encrypted/decrypted is mathematically implemented by converting each letter to its decimal equivalent. A is 0 and Z is 25. The wrap-around is done by using the modulo function. (C = ciphertext, P = plaintext)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_4.png&quot; alt=&quot;a picture representing Alphabet to Number relation&quot; style=&quot;middle; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;decrypted message: &lt;strong&gt;WINTER_IS_COMING&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;math to encrypt: C = (P+3) mod 26&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_6.png&quot; alt=&quot;a picture representing Alphabet to Number relation&quot; style=&quot;middle; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;encrypted message: &lt;strong&gt;ZLQWHU_LV_FRPLQJ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;math to decrypt: P = (C-3) mod 26&lt;/p&gt;
+
+&lt;p&gt;This cipher is easy to use but also easy to crack. The cipher is vulnerable to &lt;em&gt;frequency analysis&lt;/em&gt; since the most common letters in the English language are E, T, A, O, N, R, I, S, and H. Attackers just need to find the common letters in the encrypted text (in my example the letter “I”) and experiment with substitution to break the cipher.&lt;/p&gt;
+
+&lt;h3 id=&quot;transposition-cipher-rail-fence-cipher-zigzag-cipher&quot;&gt;Transposition cipher: Rail Fence Cipher (ZigZag Cipher)&lt;/h3&gt;
+
+&lt;p&gt;The rail fence cipher was used by the ancient Greeks in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Scytale&quot;&gt;scytale&lt;/a&gt;, a mechanical system of producing a transposition cipher. The system consisted of a cylinder and a ribbon that was wrapped around the cylinder. The message to be encrypted was written on the coiled ribbon. The letters of the original message would be rearranged when the ribbon was uncoiled from the cylinder.&lt;/p&gt;
+
+&lt;p&gt;Another approach is to write the plain text downwards and diagonally on successive “rails” of an imaginary fence, then moving up when the bottom rail is reached. When the top rail is reached, the message is written downwards again until the whole plaintext is written out.&lt;/p&gt;
+
+&lt;p&gt;message: &lt;strong&gt;JON_SNOW_IS_A_TARGARYEN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3 rail fence:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_3.png&quot; alt=&quot;a picture representing Rail Fence Cypher&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;encryption with a 3 rail fence:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_2.png&quot; alt=&quot;a picture representing Rail Fence Cypher&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;encrypted message: &lt;strong&gt;JS_ARYO_NWI__AGRENOSTAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The message was easily decrypted when the ribbon was recoiled on a cylinder of the same diameter or by trying out multiple fence methods.&lt;/p&gt;
+
+&lt;h3 id=&quot;advanced-substitution-one-time-pads&quot;&gt;Advanced Substitution: One-Time Pads&lt;/h3&gt;
+
+&lt;p&gt;A one-time pad is an extremely powerful type of cipher and uses a different substitution alphabet for each letter of the plaintext message. It can be represented by the following function. (C = ciphertext, P = plaintext, K = encryption key)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_4.png&quot; alt=&quot;a picture representing Alphabet to Number relation&quot; style=&quot;middle; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;decrypted message: &lt;strong&gt;WINTER_IS_COMING&lt;/strong&gt; 22 08 13 19 04 17 08 18 02 14 12 08 13 06&lt;/p&gt;
+
+&lt;p&gt;one-time pad: &lt;strong&gt;ZVFXZVFXZVFXZV&lt;/strong&gt; 25 21 05 23 25 21 05 23 25 21 05 23 25 21&lt;/p&gt;
+
+&lt;p&gt;math to encrypt: C = (P+K) mod 26&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_5.png&quot; alt=&quot;a picture representing Alphabet to Number relation&quot; style=&quot;middle; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;encrypted message: &lt;strong&gt;VDSQDM_NP_BJRFNMB&lt;/strong&gt; 21 03 18 16 03 12 13 15 01 09 17 05 12 01&lt;/p&gt;
+
+&lt;p&gt;math to encrypt: P = (C-K) mod 26&lt;/p&gt;
+
+&lt;p&gt;The advantage of one-time pads is that there is no repeating pattern of alphabetic substitution. This cipher is called &lt;a href=&quot;https://en.wikipedia.org/wiki/Information-theoretic_security&quot;&gt;Information-theoretical-secure&lt;/a&gt;. It is an unbreakable encryption scheme if the following requirements are met.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The one-time pad must be randomly generated without the use of a reoccurring pattern.&lt;/li&gt;
+  &lt;li&gt;The one-time pad must be protected against disclosure. The message can be easily decrypted if the adversary has a copy of the pad.&lt;/li&gt;
+  &lt;li&gt;Each pad can only be used once (one-time). Reusing the same pad on multiple messages makes it possible to determine the key value used.&lt;/li&gt;
+  &lt;li&gt;The key must be at least as long as the message so each character of the key is used to encrypt one character of the message.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The advantage of the one-time pad as soon as one of those requirements is not met. One of the major intelligence successes of the United States during the Cold War was when US cryptoanalysts broke the top-secret Soviet cryptosystem that relied on a one-time pad. The project called &lt;a href=&quot;https://en.wikipedia.org/wiki/Venona_project&quot;&gt;VENONA&lt;/a&gt; discovered a pattern in the key values. The Soviets violated rule number one of one-time pad crypto.&lt;/p&gt;
+
+&lt;p&gt;My example does it as well by just repeating the same key (ZVFX).&lt;/p&gt;
+
+&lt;p&gt;One-time pads have been used throughout history to protect sensitive communication. The major challenge of the system is the generation, distribution and, safeguarding of the key.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-breaking&quot;&gt;Code Breaking&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Frequency_analysis&quot;&gt;Frequency analysis&lt;/a&gt; is the basic tool for breaking most classical ciphers. It utilizes the fact that in languages, certain letters of the alphabet appear more often than others. With a long enough ciphertext a reasonable representation count of letters can be created and ultimately the code be broken. In the 15th century the &lt;a href=&quot;https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher&quot;&gt;Vigenère cipher&lt;/a&gt; (one-time pad with repeated key) was invented and considered to be completely secure (le chiffre indéchiffrable—”the indecipherable cipher”).&lt;/p&gt;
+
+&lt;p&gt;During World War I and World War II the deciphering of messages played a significant part in the success of a campaign. The US/UK broke the &lt;a href=&quot;https://en.wikipedia.org/wiki/Lorenz_cipher&quot;&gt;Lorenz Cipher&lt;/a&gt; and the &lt;a href=&quot;https://en.wikipedia.org/wiki/Enigma_machine&quot;&gt;Enigma Machine&lt;/a&gt; which is said to have played a decisive factor in the Allied victory. The Germans broke the &lt;a href=&quot;https://en.wikipedia.org/wiki/German_code_breaking_in_World_War_II&quot;&gt;Naval Code #3 and #5&lt;/a&gt; which enabled the early successes in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Battle_of_the_Atlantic&quot;&gt;Battle of the Atlantic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Today the Information or &lt;a href=&quot;/2019/cyber-warfare-domain/&quot;&gt;Cyber Domain&lt;/a&gt; is an official dimension of modern warfare. Intercepting the enemies communication and deciphering the information is a common theme with all major military powers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/crypto.jpg&quot; alt=&quot;a picture representing encrypted data&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/crypto-history-basics/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/crypto-history-basics/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>Data Classification</title>
@@ -1106,62 +1212,6 @@ possible: nope
         <category>security</category>
         
         <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>PKI - Public Key Infrastructure</title>
-        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
-
-&lt;p&gt;PKI is universal and can work accross multiple systems and vendors. It is a framework and not an implementation. PKI is an approach to prevent alteration (man-in-the-middle-attack) of public keys in untrusted networks like the internet. The framework is enabling secure public-key (asymmetric) encryption. PKI provides confidentiality and authentication.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Confidentiality: encrypts data transmissions and allows secure communication in a insecure network&lt;/li&gt;
-  &lt;li&gt;Authentication confirms the owner of the keys by using digital certificates (signatures)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;confidentiality---keys&quot;&gt;Confidentiality - Keys&lt;/h3&gt;
-
-&lt;p&gt;Public-Key Encryption or asymmetric cryptography. A private and a public key are created at the same time. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Security only requires keeping the private key private; the public key can be openly distributed without compromising security. Any person can encrypt a message using the receiver’s public key, but that encrypted message can only be decrypted with the receiver’s private key.
-Public-Key cryptography is a fundamental security component of modern applications and protocols assuring the confidentiality, non-repudiation (undeniability) and authenticity of electronic communications and data storage.&lt;/p&gt;
-
-&lt;h3 id=&quot;authentication---trust&quot;&gt;Authentication - Trust&lt;/h3&gt;
-
-&lt;p&gt;Trust in the public keys can be gained by multiple approaches: certificate authorities (CA), web of trust (WoT), simple public key infrastructure (SPKI) and the emering blockchain-based PKI (BPKI).&lt;/p&gt;
-
-&lt;p&gt;Let’s look at the CA approach. The primary role of the CA is to bind a given public key with respective identities of entities (like people and organizations). The binding is established through a process of registration (RA) and issuance of a certificate. Depending on the assurance level of the binding, the verification may be carried out by an automated process or under human supervision.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/pki_1.jpg&quot; alt=&quot;picture of a keyboard&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;pki-design&quot;&gt;PKI Design&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A certificate authority (CA) that stores, issues and signs the digital certificates&lt;/li&gt;
-  &lt;li&gt;A registration authority (RA) which verifies the identity of entities requesting their digital certificates to be stored at the CA&lt;/li&gt;
-  &lt;li&gt;A central directory which is a secure location to store and index keys&lt;/li&gt;
-  &lt;li&gt;A certificate management system managing things like the access to stored certificates or the delivery of the certificates to be issued.&lt;/li&gt;
-  &lt;li&gt;A certificate policy stating the PKI’s requirements concerning its procedures. It allows to analyze the PKI’s trustworthiness.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It is a system for the creation, storage, distribution and revokation of certificates. The certificates are used to verify that a particular public key belongs to a certain entity.&lt;/p&gt;
-
-&lt;h3 id=&quot;implementation-examples-of-pki&quot;&gt;Implementation examples of PKI&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;E-mail encryption and sender authentication (S/MIME, OpenPgP)&lt;/li&gt;
-  &lt;li&gt;WebTraffic encryption and sender authentication (TLS/HTTPS)&lt;/li&gt;
-  &lt;li&gt;User authentication (SSL/OpenSSL)&lt;/li&gt;
-  &lt;li&gt;Creation of electronic signatures using mobile devices (PKI and biometrics)&lt;/li&gt;
-  &lt;li&gt;Bootstrapping of secure communication&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/public-key-infrastructure/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/public-key-infrastructure/</guid>
-        
-        <category>security</category>
         
         
       </item>
