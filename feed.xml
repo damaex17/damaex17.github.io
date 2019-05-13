@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 May 2019 17:46:40 +0000</pubDate>
-    <lastBuildDate>Mon, 13 May 2019 17:46:40 +0000</lastBuildDate>
+    <pubDate>Mon, 13 May 2019 17:48:29 +0000</pubDate>
+    <lastBuildDate>Mon, 13 May 2019 17:48:29 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -88,7 +88,7 @@
   &lt;li&gt;The key must be at least as long as the message so each character of the key is used to encrypt one character of the message.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The advantage of the one-time pad as soon as one of those requirements is not met. One of the major intelligence successes of the United States during the Cold War was when US cryptoanalysts broke the top-secret Soviet cryptosystem that relied on a one-time pad. The project called &lt;a href=&quot;https://en.wikipedia.org/wiki/Venona_project&quot;&gt;VENONA&lt;/a&gt; discovered a pattern in the key values. The Soviets violated rule number one of one-time pad crypto.&lt;/p&gt;
+&lt;p&gt;The advantage of the one-time pad is broken as soon as one of those requirements is not met. One of the major intelligence successes of the United States during the Cold War was when US cryptoanalysts broke the top-secret Soviet cryptosystem that relied on a one-time pad. The project called &lt;a href=&quot;https://en.wikipedia.org/wiki/Venona_project&quot;&gt;VENONA&lt;/a&gt; discovered a pattern in the key values. The Soviets violated rule number one of one-time pad crypto.&lt;/p&gt;
 
 &lt;p&gt;My example does it as well by just repeating the same key (ZVFX).&lt;/p&gt;
 
