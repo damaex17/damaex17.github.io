@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 May 2019 17:48:29 +0000</pubDate>
-    <lastBuildDate>Mon, 13 May 2019 17:48:29 +0000</lastBuildDate>
+    <pubDate>Mon, 13 May 2019 17:52:25 +0000</pubDate>
+    <lastBuildDate>Mon, 13 May 2019 17:52:25 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -96,7 +96,7 @@
 
 &lt;h3 id=&quot;code-breaking&quot;&gt;Code Breaking&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Frequency_analysis&quot;&gt;Frequency analysis&lt;/a&gt; is the basic tool for breaking most classical ciphers. It utilizes the fact that in languages, certain letters of the alphabet appear more often than others. With a long enough ciphertext a reasonable representation count of letters can be created and ultimately the code be broken. In the 15th century the &lt;a href=&quot;https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher&quot;&gt;Vigenère cipher&lt;/a&gt; (one-time pad with repeated key) was invented and considered to be completely secure (le chiffre indéchiffrable—”the indecipherable cipher”).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Frequency_analysis&quot;&gt;Frequency analysis&lt;/a&gt; is the basic tool for breaking most classical ciphers. It utilizes the fact that in languages, certain letters of the alphabet appear more often than others. With a long enough ciphertext a reasonable representation count of letters can be created and ultimately the code be broken. In the 15th century the &lt;a href=&quot;https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher&quot;&gt;Vigenère cipher&lt;/a&gt; (polyalphabetic substitution aka series of interwoven Caesar ciphers) was invented and considered to be completely secure (le chiffre indéchiffrable—”the indecipherable cipher”).&lt;/p&gt;
 
 &lt;p&gt;During World War I and World War II the deciphering of messages played a significant part in the success of a campaign. The US/UK broke the &lt;a href=&quot;https://en.wikipedia.org/wiki/Lorenz_cipher&quot;&gt;Lorenz Cipher&lt;/a&gt; and the &lt;a href=&quot;https://en.wikipedia.org/wiki/Enigma_machine&quot;&gt;Enigma Machine&lt;/a&gt; which is said to have played a decisive factor in the Allied victory. The Germans broke the &lt;a href=&quot;https://en.wikipedia.org/wiki/German_code_breaking_in_World_War_II&quot;&gt;Naval Code #3 and #5&lt;/a&gt; which enabled the early successes in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Battle_of_the_Atlantic&quot;&gt;Battle of the Atlantic&lt;/a&gt;.&lt;/p&gt;
 
