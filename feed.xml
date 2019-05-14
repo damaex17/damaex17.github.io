@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 May 2019 16:33:01 +0000</pubDate>
-    <lastBuildDate>Tue, 14 May 2019 16:33:01 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2019 18:48:30 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2019 18:48:30 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -43,9 +43,9 @@
 
 &lt;h3 id=&quot;des---data-encryption-standard&quot;&gt;DES - Data Encryption Standard&lt;/h3&gt;
 
-&lt;p&gt;The Data Encryption Standard or DES is a symmetric-key algorithm and was developed in the early 1970s. Its short key length of 56-bit (+8 bit parity) was criticized from the beginning. Nowadays this algorithm is no longer recommended and intelligence agencies are believed to routinely decrypt DES-encrypted information. This algorithm is nevertheless important to understand because of it being highly influential in the advanced modern cryptography.&lt;/p&gt;
+&lt;p&gt;The Data Encryption Standard or DES is a symmetric-key algorithm that was developed in the early 1970s. Its short key length of 56-bit (+8 bit parity) was criticized from the beginning. Nowadays this algorithm is no longer recommended for use since intelligence agencies are believed to routinely decrypt DES-encrypted information. This algorithm is nevertheless important to understand because it is highly influential for the more advanced modern cryptography algorithms.&lt;/p&gt;
 
-&lt;p&gt;DES is the archetypal block cipher - an algorithm that takes a fixed-length string of plaintext bits (DES: 64-bit) and transforms it, in the case of DES, through a series of exclusive OR (XOR) operations into a ciphertext bitstring of the same length. This process is repeated 16 times for each encryption/decryption operation.DES performs 16 rounds of encryption&lt;/p&gt;
+&lt;p&gt;DES is the archetypal block cipher - an algorithm that takes a fixed-length string of plaintext bits (DES: 64-bit) and transforms it into a ciphertext string of the same length. In the case of DES, the transformation is accomplished by an exclusive OR (XOR) operation. This process is repeated 16 times for each encryption/decryption operation.&lt;/p&gt;
 
 &lt;p&gt;It supports 5 different modes:&lt;/p&gt;
 
