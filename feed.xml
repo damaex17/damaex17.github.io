@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 May 2019 18:48:30 +0000</pubDate>
-    <lastBuildDate>Tue, 14 May 2019 18:48:30 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2019 18:52:00 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2019 18:52:00 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -94,12 +94,14 @@
 
 &lt;p&gt;This is a symmetric key algorithm patented by Rivest-Shamir-Adleman (RSA) Data Security and is found in commercial products.&lt;/p&gt;
 
-&lt;p&gt;RC2 uses a block size of 64-bit and a key size of 128-bit.
-RC5 uses a block size of 32, 64, or 128-bit and a variable key size ranging from 0 - 2040-bit&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;RC2 uses a block size of 64-bit and a key size of 128-bit.&lt;/li&gt;
+  &lt;li&gt;RC5 uses a block size of 32, 64, or 128-bit and a variable key size ranging from 0 - 2040-bit&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;aesrijndael---advanced-encryption-standard&quot;&gt;AES/Rijndael - Advanced Encryption Standard&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Encryption_Standard&quot;&gt;AES&lt;/a&gt; allows three key strengths: 128 bits, 192 bits, and 256 bits and encrypts 128-bit blocks of text. The underlying block-cipher Rijndael exceeds the AES specification and allows to use a block size equal to the key length. The number of encryption rounds in AWS depends on the key length:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Encryption_Standard&quot;&gt;AES&lt;/a&gt; allows three key strengths: 128 bits, 192 bits, and 256 bits and encrypts 128-bit blocks of text. The underlying block-cipher Rijndael exceeds the AES specification and allows to use a block size equal to the key length. The number of encryption rounds in AES depends on the key length:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;128-bit key -&amp;gt; 10 rounds of encryption&lt;/li&gt;
