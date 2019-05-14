@@ -5,13 +5,13 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 May 2019 15:28:51 +0000</pubDate>
-    <lastBuildDate>Tue, 14 May 2019 15:28:51 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2019 16:23:26 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2019 16:23:26 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Cryptography - Symmetric Key Algorithms</title>
-        <description>&lt;p&gt;This post is the second post in a series about cryptography. This time we look at symmetric cryptography, the advantages, disadvantages, and implementations.&lt;/p&gt;
+        <description>&lt;p&gt;This post is the second in a series about cryptography. This time we look at symmetric cryptography, the advantages, disadvantages, and implementations.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;First Part: Cryptography - History and Basics&lt;/a&gt;&lt;/p&gt;
 
@@ -19,7 +19,7 @@
 
 &lt;p&gt;Symmetric Key Algorithms are based on a shared secret key which is distributed to all members participating in the encrypted communication. The key is used to encrypted and decrypt the message. The sender and receiver are both in the possession of a copy of the shared key.&lt;/p&gt;
 
-&lt;p&gt;When large keys are used, the symmetric encryption is very difficult to break. The primary use case for it is bulk encryption (eg. hard drives).&lt;/p&gt;
+&lt;p&gt;When large keys are used, the symmetric encryption is very difficult to break. The primary use case for it is bulk encryption (eg. hard drives) with a high speed.&lt;/p&gt;
 
 &lt;p&gt;Alternative terms: &lt;em&gt;private key cryptography&lt;/em&gt; or &lt;em&gt;shared private key&lt;/em&gt;&lt;/p&gt;
 
@@ -27,7 +27,7 @@
 
 &lt;h3 id=&quot;advantage-of-symmetric-key-cryptography&quot;&gt;Advantage of Symmetric Key Cryptography&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Secure&lt;/strong&gt; Symmetric Key Cryptography is extremely secure if it is used with a secure algorithm.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Secure&lt;/strong&gt; Symmetric Key Cryptography is extremely secure if it is used with a secure algorithm, and a large key.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Fast&lt;/strong&gt; Encrypting and Decrypting symmetric key data is considerably faster than in asymmetric key algorithms&lt;/p&gt;
 
