@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 May 2019 13:38:27 +0000</pubDate>
-    <lastBuildDate>Thu, 16 May 2019 13:38:27 +0000</lastBuildDate>
+    <pubDate>Thu, 16 May 2019 13:46:17 +0000</pubDate>
+    <lastBuildDate>Thu, 16 May 2019 13:46:17 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -112,8 +112,6 @@ Bob then send &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; to 
 &lt;p&gt;Mathematicians believe that it is extremely difficult to find &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;, even if &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Q&lt;/code&gt; are known. It is widely accepted that this problem is harder to solve than both the &lt;em&gt;prime factorization problem&lt;/em&gt; of RSA and the &lt;em&gt;standard discrete logarithm problem&lt;/em&gt; of Diffie-Hellman/El Gamal. Because of this, a 160-bit ECC key is cryptographically equivalent to a 1024-bit RSA key.&lt;/p&gt;
 
 &lt;p&gt;For further reading on the detailed mathematics behind ECC, I can recommend the following &lt;a href=&quot;https://certicom.com/content/certicom/en/ecc-tutorial.html&quot;&gt;tutorial&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
 
 &lt;h3 id=&quot;alteration-of-public-keys&quot;&gt;Alteration of public keys&lt;/h3&gt;
 
