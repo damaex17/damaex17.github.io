@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 May 2019 19:27:10 +0000</pubDate>
-    <lastBuildDate>Tue, 14 May 2019 19:27:10 +0000</lastBuildDate>
+    <pubDate>Thu, 16 May 2019 07:55:55 +0000</pubDate>
+    <lastBuildDate>Thu, 16 May 2019 07:55:55 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -33,7 +33,7 @@
 
 &lt;h3 id=&quot;disadvantages-of-symmetric-key-cryptography&quot;&gt;Disadvantages of Symmetric Key Cryptography&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Key distribution&lt;/strong&gt; is a major problem since parties must have a secure method of exchanging the secret key before communication can be established. Out-of-band exchange is the method of offline key distribution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key distribution&lt;/strong&gt; is a major problem since parties must have a secure method of exchanging the secret key before communication can be established. The method of offline key distribution is called out-of-band exchange.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Nonrepudiation&lt;/strong&gt; is not given since each party uses the same key to encrypt and decrypt. There is no way to prove the origin of a message.&lt;/p&gt;
 
@@ -61,7 +61,7 @@
 
 &lt;h3 id=&quot;3des---triple-des&quot;&gt;3DES - Triple DES&lt;/h3&gt;
 
-&lt;p&gt;The 56-bit key of DES is no longer considered adequate in the times of modern cryptoanalytic and in the abundance of computational power (cloud). An adapted version of called Triple DES or 3DES uses the same algorithm to produce more secure encryption.&lt;/p&gt;
+&lt;p&gt;The 56-bit key of DES is no longer considered adequate in the times of modern cryptoanalytic and the availability of almost endless computational power (cloud). An adapted version of called Triple DES or 3DES uses the same algorithm to produce more secure encryption.&lt;/p&gt;
 
 &lt;p&gt;There are four versions of 3DES:&lt;/p&gt;
 
@@ -80,15 +80,15 @@
 
 &lt;h3 id=&quot;idea---international-data-encryption-algorithm&quot;&gt;IDEA - International Data Encryption Algorithm&lt;/h3&gt;
 
-&lt;p&gt;IDEA was developed in response to the criticism of the insufficient key length of DES. Like DES it operates on 64-bit block or buffers of plaintext/ciphertext. It begins the operation with a 128-bit key which is broken up in 56x 16-bit subkeys. The subkeys are then used in a combination of XOR and modulus to produce the encrypted/decrypted version of the input message. IDEA is operating with the same five modes of DES: ECB, CBC, CFB, OFC, and CTR. One well-known implementation of IDEA is Phil Zimmerman’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Pretty_Good_Privacy&quot;&gt;&lt;em&gt;Pretty Good Privacy (PGP)&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;IDEA was developed in response to the criticism of the insufficient key length of DES. Like DES it operates on 64-bit blocks or buffers of plaintext/ciphertext. It begins the operation with a 128-bit key which is broken up in 56x 16-bit subkeys. The subkeys are then used in a combination of XOR and modulus to produce the encrypted/decrypted version of the input message. IDEA is operating with the same five modes of DES: ECB, CBC, CFB, OFC, and CTR. One well-known implementation of IDEA is Phil Zimmerman’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Pretty_Good_Privacy&quot;&gt;&lt;em&gt;Pretty Good Privacy (PGP)&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;blowfish&quot;&gt;Blowfish&lt;/h3&gt;
 
-&lt;p&gt;Another alternative to DES and IDEA is Bruce Schneier’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Blowfish_(cipher)&quot;&gt;Blowfish&lt;/a&gt; block cipher. It also operates of 64-bit blocks of text but allows to define the key length ranging from a relative insecure 32-bit to an extremely strong 448-bit. With longer key, the encryption/decryption time increases obviously. Blowfish was released for public use and is built in a number of commercial products and open source products (eg. SSH, or Linux).&lt;/p&gt;
+&lt;p&gt;Another alternative to DES and IDEA is Bruce Schneier’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Blowfish_(cipher)&quot;&gt;Blowfish&lt;/a&gt; block cipher. It also operates with 64-bit blocks of text but allows to define the key length ranging from a relative insecure 32-bit to an extremely strong 448-bit. With longer keys, the encryption/decryption time obviously increases. Blowfish was released for public use and is built in a number of commercial and open source products (eg. SSH, or Linux).&lt;/p&gt;
 
 &lt;h3 id=&quot;skipjack&quot;&gt;Skipjack&lt;/h3&gt;
 
-&lt;p&gt;This algorithm also works on 64-bit blocks of text and uses an 80-bit key. It supports all modes of operation of DES and was adopted by the U.S. government. It has an added &lt;em&gt;feature&lt;/em&gt; of supporting the escrow of encryption keys. Two government agencies (National Institute of Standards and Technology - NIST and Department of Treasury - DOT), hold a portion of the information required to reconstruct a Skipjack key. Law enforcements can obtain the pieces of keys, and decrypt Skipjack communication. This algorithm was obviously not embraced by the cryptographic community but is in wide use with the U.S. government.&lt;/p&gt;
+&lt;p&gt;This algorithm uses 64-bit blocks of text and an 80-bit key. It supports all modes of operation of DES and was adopted by the U.S. government. It has an added &lt;em&gt;feature&lt;/em&gt; of supporting the escrow of encryption keys. Two government agencies (National Institute of Standards and Technology - NIST and Department of Treasury - DOT), hold a portion of the information required to reconstruct a Skipjack key. Law enforcements can obtain the pieces of keys, and decrypt Skipjack communication. This algorithm was obviously not embraced by the cryptographic community but is in wide use with the U.S. government.&lt;/p&gt;
 
 &lt;h3 id=&quot;rc2rc5---rivest-cipher-rsa&quot;&gt;RC2/RC5 - Rivest Cipher (RSA)&lt;/h3&gt;
 
@@ -111,7 +111,7 @@
 
 &lt;h3 id=&quot;twofish&quot;&gt;Twofish&lt;/h3&gt;
 
-&lt;p&gt;The Twofish was also developed by Bruce Schneier and was a finalist of the AES contest. Twofish is a block cipher and operates on 128-bit blocks of data. It is capable of using key sizes of 1 - 256-bit in length. Twofish introduces two new techniques which are not found in other algorithms:&lt;/p&gt;
+&lt;p&gt;The Twofish was also developed by Bruce Schneier and was a finalist in the AES contest. Twofish is a block cipher and operates on 128-bit blocks of data. It is capable of using key sizes ranging from 1 - 256-bit in length. Twofish introduces two new techniques which are not found in other algorithms:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Prewhitening&lt;/strong&gt; is the process of XORing the plaintext with a separate subkey before the first round of encryption.&lt;/p&gt;
 
@@ -121,7 +121,7 @@
 
 &lt;h3 id=&quot;distribution-of-symmetric-keys&quot;&gt;Distribution of Symmetric Keys&lt;/h3&gt;
 
-&lt;p&gt;One of the major challenges of symmetric encryption algorithms is the secure distribution of the secret keys. There are three general methods used to exchange secret keys securely.&lt;/p&gt;
+&lt;p&gt;One of the major challenges of symmetric encryption algorithms is the secure distribution the secret keys. There are three general methods used to exchange keys securely.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Offline Distribution&lt;/strong&gt; This is the technically most simple method and requires the physical exchange of the key material in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Real_life#Related_terminology&quot;&gt;meatspace&lt;/a&gt;. One party provides the other with a medium (e.g. sheet of paper, or flash drive) which contains the secret key.&lt;/p&gt;
 
@@ -398,7 +398,7 @@
     
       <item>
         <title>Sci-Fi Reality - Cyberwar</title>
-        <description>&lt;p&gt;Hackers of a terrorist group get bombed just minutes after they start a cyber attack. Sounds like science fiction but the cyber domain just received its first immediate kinetic response. This sounds more like a science fiction book - what the cyber?&lt;/p&gt;
+        <description>&lt;p&gt;Hackers of a terrorist group are killed by a smart bomb just minutes after they start a cyber attack. Sounds like science fiction but the cyber domain just received its first immediate kinetic response. This sounds like a science fiction story - what the cyber?&lt;/p&gt;
 
 &lt;h3 id=&quot;art-sci-fi-military-doctrine&quot;&gt;Art, Sci-Fi, Military Doctrine&lt;/h3&gt;
 
