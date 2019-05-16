@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 May 2019 13:46:17 +0000</pubDate>
-    <lastBuildDate>Thu, 16 May 2019 13:46:17 +0000</lastBuildDate>
+    <pubDate>Thu, 16 May 2019 20:44:20 +0000</pubDate>
+    <lastBuildDate>Thu, 16 May 2019 20:44:20 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -52,9 +52,11 @@
 
 &lt;p&gt;&lt;strong&gt;2:&lt;/strong&gt; compute the product of those two numbers &lt;code class=&quot;highlighter-rouge&quot;&gt;n = pq&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;3:&lt;/strong&gt; compute &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n)&lt;/code&gt; Since &lt;code class=&quot;highlighter-rouge&quot;&gt;n = pq&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n) = lcm(λ(p),λ(q))&lt;/code&gt;, and since &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;q&lt;/code&gt; are prime, &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(p) = p − 1&lt;/code&gt; and likewise &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(q) = q − 1&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3:&lt;/strong&gt; now we need the &lt;a href=&quot;https://en.wikipedia.org/wiki/Carmichael%27s_totient_function&quot;&gt;Carmichael function  &lt;/a&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;λ&lt;/code&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Least_common_multiple&quot;&gt;the least common multiple&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;lcm&lt;/code&gt; to compute:&lt;/p&gt;
 
-&lt;p&gt;Hence &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n) = lcm(p − 1, q − 1)&lt;/code&gt;. &lt;a href=&quot;https://en.wikipedia.org/wiki/Carmichael%27s_totient_function&quot;&gt;λ is is is Carmichael’s totient function&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Least_common_multiple&quot;&gt;lcm is the least common multiple&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n) = lcm(λ(p),λ(q))&lt;/code&gt;,  since &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;q&lt;/code&gt; are prime, &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(p) = p − 1&lt;/code&gt; and likewise &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(q) = q − 1&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hence &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n) = lcm(p − 1, q − 1)&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;(p - 1)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;(q -1)&lt;/code&gt; are relatively prime, the two numbers have no common factors other than 1.&lt;/p&gt;
 
