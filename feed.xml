@@ -5,9 +5,145 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 May 2019 07:55:55 +0000</pubDate>
-    <lastBuildDate>Thu, 16 May 2019 07:55:55 +0000</lastBuildDate>
+    <pubDate>Thu, 16 May 2019 13:38:27 +0000</pubDate>
+    <lastBuildDate>Thu, 16 May 2019 13:38:27 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Cryptography - Asymmetric Key Algorithms</title>
+        <description>&lt;p&gt;This post is the third in my series about cryptography. We will be diving into public-key cryptography with all its strength, weaknesses and implementations.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;First Part: Cryptography - History and Basics&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2019/crypto-symmetric/&quot;&gt;Second Part: Cryptography - Symmetric Key Algorithms&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;asymmetric-key-algorithms-public-key---definition&quot;&gt;Asymmetric Key Algorithms (Public-Key) - Definition&lt;/h3&gt;
+
+&lt;p&gt;Public-Key cryptography is a relatively new system (compared to symmetric cryptography) and relies on the usage of a pair of keys. This pair is the private key and the public key. The generation of the key pair is based on cryptographic algorithms to produce a mathematical one-way function.&lt;/p&gt;
+
+&lt;p&gt;In this system, any person can encrypt a message using the receivers public key. The encrypted message can then only be decrypted with the receivers private key. Authentication is also possible when the sender is encrypting a &lt;em&gt;digital signature&lt;/em&gt; with his private key. Receivers with the matching public key can verify this signature to be valid by decrypting with the public key.&lt;/p&gt;
+
+&lt;p&gt;Alternative terms: &lt;em&gt;public key cryptography&lt;/em&gt; or &lt;em&gt;Asymmetric key cryptography&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/key.jpg&quot; alt=&quot;a picture representing keys&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;advantage-of-asymmetric-key-cryptography&quot;&gt;Advantage of Asymmetric Key Cryptography&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Key distribution&lt;/strong&gt; is not an issue. Public Keys are meant to be made publicly available. There is no overhead for secret key distribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nonrepudiation&lt;/strong&gt; is ensured because a party cannot dispute its authorship of a document or communication.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scalability&lt;/strong&gt; the number of keys is directly proportional to the number of participants in the system. Each party has two keys.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Number of Keys = n * 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;disadvantages-of-asymmetric-key-cryptography&quot;&gt;Disadvantages of Asymmetric Key Cryptography&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Slow&lt;/strong&gt; public-key cryptography is notable slower than symmetric key cryptography&lt;/p&gt;
+
+&lt;h3 id=&quot;rsa---rivest-shamir-and-adleman&quot;&gt;RSA - Rivest, Shamir, and Adleman&lt;/h3&gt;
+
+&lt;p&gt;Invented in 1977, the most famous public-key cryptosystem is named after its creators. They patented the algorithm and formed a commercial organization (RSA Security). Today, the RSA algorithm has been released into the public domain and is widely used in commercial and opensource products to archieve secure communication. RSA depends on the computational difficulty in factoring large prime numbers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Generation&lt;/strong&gt;[&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1:&lt;/strong&gt; two large prime numbers (approximately 200 digits each) are required -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;q&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2:&lt;/strong&gt; compute the product of those two numbers &lt;code class=&quot;highlighter-rouge&quot;&gt;n = pq&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3:&lt;/strong&gt; compute &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n)&lt;/code&gt; Since &lt;code class=&quot;highlighter-rouge&quot;&gt;n = pq&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n) = lcm(λ(p),λ(q))&lt;/code&gt;, and since &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;q&lt;/code&gt; are prime, &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(p) = p − 1&lt;/code&gt; and likewise &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(q) = q − 1&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hence &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n) = lcm(p − 1, q − 1)&lt;/code&gt;. &lt;a href=&quot;https://en.wikipedia.org/wiki/Carmichael%27s_totient_function&quot;&gt;λ is is is Carmichael’s totient function&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Least_common_multiple&quot;&gt;lcm is the least common multiple&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;(p - 1)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;(q -1)&lt;/code&gt; are relatively prime, the two numbers have no common factors other than 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4:&lt;/strong&gt; choose an integer &lt;code class=&quot;highlighter-rouge&quot;&gt;e&lt;/code&gt; such that &lt;code class=&quot;highlighter-rouge&quot;&gt;1 &amp;lt; e &amp;lt; λ(n)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;gcd(e, λ(n)) = 1&lt;/code&gt;. &lt;a href=&quot;https://en.wikipedia.org/wiki/Greatest_common_divisor&quot;&gt;gcd is greatest common divisor&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5:&lt;/strong&gt; compute &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt; as &lt;code class=&quot;highlighter-rouge&quot;&gt;d ≡ e−1 (mod λ(n))&lt;/code&gt;. This means &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt; is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Modular_multiplicative_inverse&quot;&gt;modular multiplicative inverse&lt;/a&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;e modulo λ(n)&lt;/code&gt;`.&lt;/p&gt;
+
+&lt;p&gt;The public key consists of &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;e&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The private key is &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;q&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;λ(n)&lt;/code&gt; must be kept secret or have to be discarded because they can be used to calculate &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Distribution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Bob wants to send a secret message to Alice. Bob needs to know the public key of Alice to encrypt the message. Alice sends Bob her public key (&lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;e&lt;/code&gt;) in a reliable, but not necessarily secret way. Alice keeps her private key (&lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;) and will never distribute it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Encryption&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The message Bob wants to send is &lt;code class=&quot;highlighter-rouge&quot;&gt;m&lt;/code&gt; and he is in the possession of Alices public-key &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;e&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;c = m^e mod n&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This can be done rather quickly using &lt;a href=&quot;https://en.wikipedia.org/wiki/Modular_exponentiation&quot;&gt;modular exponentiation&lt;/a&gt;.
+Bob then send &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; to Alice.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Decryption&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Alice can recover Bobs message &lt;code class=&quot;highlighter-rouge&quot;&gt;m&lt;/code&gt; by using her private key &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;m = c^d mod n&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;el-gamal&quot;&gt;El Gamal&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/ElGamal_encryption&quot;&gt;El Gamal encryption system&lt;/a&gt; is an asymmetric key encryption algorithm for public-key cryptography which is based on the Diffie–Hellman key exchange. Dr. Taher El Gamal published an article in 1985, describing how the mathematics behind the Diffie-Hellman algorithm could be extended to support an entire public-key cryptosystem. El Gamal did not obtain a patent for his extension of Diffie-Hellman, unlike the then patented RSA technology.&lt;/p&gt;
+
+&lt;p&gt;El Gamal has a major disadvantage which is that it produces a 2:1 expansion in size from plaintext to ciphertext. This presents an issue when encrypting long messages.&lt;/p&gt;
+
+&lt;h3 id=&quot;ecc---elliptic-curve-cryptography&quot;&gt;ECC - Elliptic Curve Cryptography&lt;/h3&gt;
+
+&lt;p&gt;In 1985, two mathematicians independently proposed the application of &lt;a href=&quot;https://en.wikipedia.org/wiki/Elliptic-curve_cryptography&quot;&gt;elliptic curve cryptography&lt;/a&gt; to develop a secure cryptographic system. Neal Koblitz from the University of Washington and Victor Miller from IBM, suggested to use the &lt;a href=&quot;https://wstein.org/edu/2007/spring/ent/ent-html/node89.html&quot;&gt;elliptic curve discrete logarithm problem&lt;/a&gt; as the basis for this system.&lt;/p&gt;
+
+&lt;p&gt;Any elliptic curve can be defined by the following equation:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;y^2 = x^3 + ax + b&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In this equation &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt; are all real numbers. Each elliptic curve has a matching &lt;em&gt;elliptic curve group&lt;/em&gt; made up of the points of the elliptic curve along with the point &lt;code class=&quot;highlighter-rouge&quot;&gt;O&lt;/code&gt;, which is located in infinity. Two points within in the same elliptic curve group (&lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Q&lt;/code&gt;) can be added with an elliptic curve addition algorithm.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;P + Q&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem is extended by assuming that &lt;code class=&quot;highlighter-rouge&quot;&gt;Q&lt;/code&gt; is a multiple of &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Q = x^P&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Mathematicians believe that it is extremely difficult to find &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;, even if &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Q&lt;/code&gt; are known. It is widely accepted that this problem is harder to solve than both the &lt;em&gt;prime factorization problem&lt;/em&gt; of RSA and the &lt;em&gt;standard discrete logarithm problem&lt;/em&gt; of Diffie-Hellman/El Gamal. Because of this, a 160-bit ECC key is cryptographically equivalent to a 1024-bit RSA key.&lt;/p&gt;
+
+&lt;p&gt;For further reading on the detailed mathematics behind ECC, I can recommend the following &lt;a href=&quot;https://certicom.com/content/certicom/en/ecc-tutorial.html&quot;&gt;tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;alteration-of-public-keys&quot;&gt;Alteration of public keys&lt;/h3&gt;
+
+&lt;p&gt;As mentioned earlier in this posting, public keys are meant to be in the public domain. The advantage of the systems is that communication can be encrypted between parties without previous interaction or knowledge. One common attack vector to public-key cryptography is exactly targeting this strength.&lt;/p&gt;
+
+&lt;p&gt;In a so-called &lt;em&gt;man in the middle&lt;/em&gt; attack, the communication of public keys is intercepted by a third party and then modified public keys are provided instead. Intercepted messages are decrypted and re-encrypted by the attacker to avoid suspicion.&lt;/p&gt;
+
+&lt;p&gt;This is possible on all insecure media (e.g. wireless, public networks). One approach to prevent such attacks involves the usage of a &lt;a href=&quot;/2019/public-key-infrastructure/&quot;&gt;PKI&lt;/a&gt;. It describes a set of policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption.&lt;/p&gt;
+
+&lt;p&gt;PKI has potential weaknesses like the correctness of a public key when a certificate is issued or the overall security resistance of an authority organization.&lt;/p&gt;
+
+&lt;p&gt;The PKI system is commonly used to provide encryption for web traffic via &lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security&quot;&gt;TLS&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;1: &lt;a href=&quot;https://en.wikipedia.org/wiki/RSA_(cryptosystem)&quot;&gt;RSA (cryptosystem) - From Wikipedia, the free encyclopedia&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/public-key/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/public-key/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>Cryptography - Symmetric Key Algorithms</title>
@@ -38,6 +174,9 @@
 &lt;p&gt;&lt;strong&gt;Nonrepudiation&lt;/strong&gt; is not given since each party uses the same key to encrypt and decrypt. There is no way to prove the origin of a message.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Not scalable&lt;/strong&gt; secure communication in a group can only be achieved if each possible combination of users exchanges a shared private key.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Number of Keys = (n(n-1)/2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Key regeneration&lt;/strong&gt; all keys must be regenerated if one user leaves the group.&lt;/p&gt;
 
@@ -129,19 +268,19 @@
 
 &lt;p&gt;&lt;strong&gt;Diffie-Hellman&lt;/strong&gt; There are use-cases where offline distribution is not feasible (no physical means) and public key encryption is not available (lack of &lt;a href=&quot;/2019/public-key-infrastructure/&quot;&gt;public key infrastructure&lt;/a&gt;). In a situation like this so-called key exchange algorithms like Diffie-Hellmann are useful mechanisms to exchange the secret key to enable symmetric key communication.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Bob and Alice have to agree on two large numbers. P (prime number) and G (integer) such that:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Bob and Alice have to agree on two large numbers. &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt; (prime number) and &lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt; (integer) such that:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1 &amp;lt; G &amp;lt; P&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Bob now chooses a random large integer R and performs the following calculation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Bob now chooses a random large integer &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; and performs the following calculation:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;B = G^R mod P&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Alice chooses a random large integer S and performs the following calculation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Alice chooses a random large integer &lt;code class=&quot;highlighter-rouge&quot;&gt;S&lt;/code&gt; and performs the following calculation:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;A = G^S mod P&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Bob sends B to Alice and she sends A to Bob.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Bob sends &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; to Alice and she sends &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; to Bob.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Bob performs the following calculation:&lt;/p&gt;
 
@@ -151,7 +290,7 @@
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;K = B^S mod P&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;At this point both Bob and Alice have the same value &lt;strong&gt;K&lt;/strong&gt;, and can use this for communication with a symmetric key algorithm.&lt;/p&gt;
+&lt;p&gt;At this point both Bob and Alice have the same value &lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt;, and can use this for communication with a symmetric key algorithm.&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/crypto-symmetric/</link>
@@ -1030,90 +1169,6 @@ I have worn this watch for extended times and like the varity it provides to my 
         <category>watch</category>
         
         <category>nomos</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Vulnerability Disclosure at SignUp</title>
-        <description>&lt;h3 id=&quot;the-issue&quot;&gt;The Issue&lt;/h3&gt;
-
-&lt;p&gt;Limited password portfolios of users are a security threat to all applications. I am suggesting an approach to responsibly disclose breached accounts to users during signup. This can help users to get a better understanding of the situation and hopefully motivates them to use a new password or activate two-factor authentication.&lt;/p&gt;
-
-&lt;h3 id=&quot;e-mail-address&quot;&gt;E-Mail Address&lt;/h3&gt;
-
-&lt;p&gt;Services require a customer to provide an E-Mail address and a password during signup. The E-Mail address is essential for login, password recovery and all communication between service provider and customer. &lt;a href=&quot;http://radicati.com/wp/wp-content/uploads/2015/02/Email-Statistics-Report-2015-2019-Executive-Summary.pdf&quot;&gt;Consumer research&lt;/a&gt; shows an average of 1.7 to 1.9 E-Mail accounts per user. This means that there is a high probability that a user will use the same address over years and for multiple service signups.&lt;/p&gt;
-
-&lt;h3 id=&quot;password&quot;&gt;Password&lt;/h3&gt;
-
-&lt;p&gt;The password should be distinctive per service but &lt;a href=&quot;https://securingtomorrow.mcafee.com/consumer/consumer-threat-notices/security-world-password-day/&quot;&gt;31% of customers&lt;/a&gt; use only two to three different passwords. The question is also how different those passwords are. &lt;a href=&quot;https://www.cyclonis.com/report-83-percent-users-surveyed-use-same-password-multiple-sites/&quot;&gt;83% of users&lt;/a&gt; admit to re-using passwords. Password managers are very helpful to provide unique passwords for each account but hardly anybody uses them if not forced by company policy.&lt;/p&gt;
-
-&lt;h3 id=&quot;data-breaches&quot;&gt;Data Breaches&lt;/h3&gt;
-
-&lt;p&gt;Companies get hacked or information is unintentionally exposed to the public. Data sets with millions of accounts have been seen in the wild. Clear text passwords or hashing without salt are not uncommon in user databases. Attackers use the information of those exposed data sets in attacks against other services. The known E-Mail address and password combinations are used for account takeovers. The method is called &lt;strong&gt;credential stuffing attack&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Security aware users counter this with the use of password managers and two-factor authentication, but the majority of users doesn’t. Service providers are afraid to enforce hard requirements in fear of customers not signing up or the usability of a service degrading.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/pki_1.jpg&quot; alt=&quot;picture of a keyboard&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;myself&quot;&gt;Myself&lt;/h3&gt;
-
-&lt;p&gt;I use the same E-Mail address since 2005. The address has been leaked in the following hacks:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;verifications.io&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In February 2019, the email address validation service verifications.io suffered a data breach. Discovered by Bob Diachenko and Vinny Troia, the breach was due to the data being stored in a MongoDB instance left publicly facing without a password and resulted in 763 million unique email addresses being exposed. Many records within the data also included additional personal attributes such as names, phone numbers, IP addresses, dates of birth and genders. No passwords were included in the data. The Verifications.io website went offline during the disclosure process, although an archived copy remains viewable.&lt;/p&gt;
-
-&lt;p&gt;Compromised data: Dates of birth, Email addresses, Employers, Genders, Geographic locations, IP addresses, Job titles, Names, Phone numbers, Physical addresses&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tumblr&lt;/strong&gt;
-In early 2013, Tumblr suffered a data breach which resulted in the exposure of over 65 million accounts. The data was later put up for sale on a dark market website and included email addresses and passwords stored as salted SHA1 hashes.&lt;/p&gt;
-
-&lt;p&gt;Compromised data: Email addresses, Passwords&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MySpace&lt;/strong&gt;
-In approximately 2008, MySpace suffered a data breach that exposed almost 360 million accounts. In May 2016 the data was offered up for sale on the “Real Deal” dark market website and included email addresses, usernames and SHA1 hashes of the first 10 characters of the password converted to lowercase and stored without a salt. The exact breach date is unknown, but analysis of the data suggests it was 8 years before being made public.&lt;/p&gt;
-
-&lt;p&gt;Compromised data: Email addresses, Passwords, Usernames&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt; 
-In May 2016, LinkedIn had 164 million email addresses and passwords exposed. Originally hacked in 2012, the data remained out of sight until being offered for sale on a dark market site 4 years later. The passwords in the breach were stored as SHA1 hashes without salt, the vast majority of which were quickly cracked in the days following the release of the data.&lt;/p&gt;
-
-&lt;p&gt;Compromised data: Email addresses, Passwords&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dropbox&lt;/strong&gt; 
-In mid-2012, Dropbox suffered a data breach which exposed the stored credentials of tens of millions of their customers. In August 2016, they forced password resets for customers they believed may be at risk. A large volume of data totaling over 68 million records was subsequently traded online and included email addresses and salted hashes of passwords (half of them SHA1, half of them bcrypt).&lt;/p&gt;
-
-&lt;p&gt;Compromised data: Email addresses, Passwords&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Disqus&lt;/strong&gt;
-In October 2017, the blog commenting service Disqus announced they’d suffered a data breach. The breach dated back to July 2012 but wasn’t identified until years later when the data finally surfaced. The breach contained over 17.5 million unique email addresses and usernames. Users who created logins on Disqus had salted SHA1 hashes of passwords whilst users who logged in via social providers only had references to those accounts.&lt;/p&gt;
-
-&lt;p&gt;Compromised data: Email addresses, Passwords, Usernames&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;My E-Mail address was also in the Collection #1. This data set contains multiple data breaches and almost 2.7 billion records including 773 million unique email addresses alongside passwords.&lt;/p&gt;
-
-&lt;p&gt;I am not in possession of all breached databases but the service &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;’;–have i been pwned?&lt;/a&gt; does a great job of collecting this information. HIBP allows to check E-Mail address via their web interface and with a &lt;a href=&quot;https://haveibeenpwned.com/API/Consumers&quot;&gt;public API&lt;/a&gt; against those databases.&lt;/p&gt;
-
-&lt;h3 id=&quot;disclosure-to-the-user&quot;&gt;Disclosure to the user&lt;/h3&gt;
-
-&lt;p&gt;At signup, the customer provides his E-Mail address. We can check this address with the API of HIBP (make sure the users agrees to the third party sharing of his data) for prior exposure.&lt;/p&gt;
-
-&lt;p&gt;While the potential positive results are shared with them we can make suggestions on how to improve the account security (eg. two-factor authentication). Service providers can also require tougher security features on the account. This could be a more complex password policy or a more secure policy regarding changes to the account.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;We need to involve non-technical people to improve security. Disclosing information to users about past breaches is a great way to help them to harden their account and change behavior regarding password recycling. Service providers should not shy away from this and instead make users understand that security is taken seriously in the service they are signing up for. Building trust in a zero trust world.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/vulnerability-disclosure-at-signup/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
         
         
       </item>
