@@ -5,9 +5,79 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 May 2019 20:44:20 +0000</pubDate>
-    <lastBuildDate>Thu, 16 May 2019 20:44:20 +0000</lastBuildDate>
+    <pubDate>Sun, 19 May 2019 10:11:48 +0000</pubDate>
+    <lastBuildDate>Sun, 19 May 2019 10:11:48 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Personnel Security</title>
+        <description>&lt;p&gt;Humans are the weakest element in any security solution. No matter what physical or logical controls are deployed, humans will discover ways to avoid, circumvent, subvert or disable them. Insider threats originate from past or present employees, contractors or business partners. They can misuse their inside knowledge or access to harm people, customers, assets or reputation.&lt;/p&gt;
+
+&lt;p&gt;To apply security governance, an organization has to address the weakest link in the security chain - people.&lt;/p&gt;
+
+&lt;p&gt;Issues, compromises, and problems related to humans occur at all stages and on all levels of an organization. People are involved throughout the development, implementation, and administration of a security solution and therefore have to be evaluated regarding their effect on the process.&lt;/p&gt;
+
+&lt;p&gt;A strong relationship between the security department and human resources is essential to maintain control and minimize risks in an organization. 
+&lt;img src=&quot;/assets/images/personnel.jpg&quot; alt=&quot;a picture representing employees&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;hiring-people&quot;&gt;Hiring People&lt;/h3&gt;
+
+&lt;p&gt;In a secure environment, the first step of hiring new personnel is to create a &lt;em&gt;job description&lt;/em&gt; or &lt;em&gt;position description&lt;/em&gt;. Without this description, there is no consensus on what type of individual should be hired. Personnel should only be added to an organization because there is a need for their specific skills and experience.&lt;/p&gt;
+
+&lt;p&gt;The description also has to include potential security issues originating from the position (e.g. handling of sensitive material or classified information). This classification of the position includes the type of access required (e.g. secure network) to perform the intended tasks.&lt;/p&gt;
+
+&lt;p&gt;With this information, the &lt;em&gt;screening of candidates&lt;/em&gt; can be performed. This involves background checks, verified reference calls, checking police and government records, and screening of social media accounts.&lt;/p&gt;
+
+&lt;p&gt;After hiring an individual, they need to sign an employment agreement. This document outlines the rules and restrictions of the organization, the security policies, and consequences of violations.&lt;/p&gt;
+
+&lt;h3 id=&quot;separation-of-duties&quot;&gt;Separation of Duties&lt;/h3&gt;
+
+&lt;p&gt;The &lt;em&gt;Separation of duties&lt;/em&gt; is a security concept in which sensitive, critical and significant work is divided among individuals. This prevents undermining or subversion of security mechanisms by an individual. It also reduces the risk of collusion which is the occurrence of negative activity by two or more people. Collusion is often performed for the purpose of fraud, theft, or espionage.&lt;/p&gt;
+
+&lt;p&gt;Limiting the power of individuals requires employees to work with others to commit large violations of security. Finding others to assist in a violation is more likely to leave behind detectable evidence.&lt;/p&gt;
+
+&lt;h3 id=&quot;job-rotation&quot;&gt;Job Rotation&lt;/h3&gt;
+
+&lt;p&gt;Rotating employees among multiple job positions help an organization to improve its overall security. Job rotation servers two functions. It provides knowledge redundancy and reduces the risk of fraud, data modification, theft, sabotage, and misuse of information. The longer a person works in a specific position, the more likely they are to be assigned additional tasks and therefore expand their privileges and access.&lt;/p&gt;
+
+&lt;p&gt;Job rotation requires that privileges and access rights have to be reviewed regularly to maintain the principle of &lt;em&gt;least privilege&lt;/em&gt;. In failure to do so, the employee will accumulate privileges over time. This is called &lt;em&gt;privilege creep&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Onboarding&lt;/em&gt; is the process of adding a new employee to the identity and access management (IAM) system of an organization. The onboarding process is also performed when an employee’s role or position changes or when the person is awarded additional privilege or access rights.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/personnel_2.jpg&quot; alt=&quot;a picture representing employees&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Onboarding also refers to organizational socialization. In this process, the new employee is properly prepared for performing their job responsibilities. It includes training, job skill acquisition, and behavioral adaptation in order to integrate the employee efficiently into the existing processes and procedures.&lt;/p&gt;
+
+&lt;h3 id=&quot;offboarding-and-termination&quot;&gt;Offboarding and Termination&lt;/h3&gt;
+
+&lt;p&gt;The personnel security lifecycle includes the &lt;em&gt;Termination&lt;/em&gt; or &lt;em&gt;Offboarding&lt;/em&gt; of the employee. This stage is very critical and numerous issues must be addressed in order to maintain a secure environment. Termination should be handled in a private and respectful manner but this does not mean that no precautions should be taken. Once the employee has been informed of their release, they need to be escorted off the premises and are no longer allowed to return to their work area without an escort.&lt;/p&gt;
+
+&lt;p&gt;Before the release, all keys, badges, cards, tokens, and the work equipment have to be collected. When possible an &lt;em&gt;exit interview&lt;/em&gt; should be performed. In this conversation, the liabilities and restrictions should be reviewed. This includes obligations based on the employment agreement, nondisclosure agreement, and any other security-related documents.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/personnel_1.jpg&quot; alt=&quot;a picture representing employees&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is essential to offboard the employee from the IAM system shortly before or while informing the employee about the termination. Botched termination processes can cause critical damage to the organization. The completeness of information in the IAM system is critical for this process of disabling network access and removing company accounts from the individual.&lt;/p&gt;
+
+&lt;h3 id=&quot;vendor-consultant-and-contractors&quot;&gt;Vendor, Consultant, and Contractors&lt;/h3&gt;
+
+&lt;p&gt;Controls have to be defined for vendors, consultants, and contractors in order to define the expectation, compensation, and consequences for external entities to the own organization. These controls are defined and documented in a &lt;em&gt;service-level-agreement&lt;/em&gt; or SLA.&lt;/p&gt;
+
+&lt;p&gt;It is best practice to put an SLA in place not only for external personnel but for all applications, connections, database, information systems, and any other critical part of an organizations infrastructure.&lt;/p&gt;
+
+&lt;p&gt;By clearly defining the expectations and penalties for external parties, everyone involved knows what is expected of them and what the consequences are in case of a failure to meet the expectations.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;onboarding&lt;/em&gt; and &lt;em&gt;offboarding&lt;/em&gt; of external personnel have to follow the same procedures as the ones for regular staff.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/personnel-security/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/personnel-security/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Cryptography - Asymmetric Key Algorithms</title>
@@ -1108,67 +1178,6 @@ The activities to protect the supply chain include:&lt;/p&gt;
         <guid isPermaLink="true">https://inversegravity.net/2019/software-supply-chain-security/</guid>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Nomos Tangente - Ref. 101</title>
-        <description>&lt;h3 id=&quot;history&quot;&gt;History&lt;/h3&gt;
-
-&lt;p&gt;Nomos Glashütte is a German watchmaking company based in Glashütte, Saxony. The company was founded in 1990, only two months after the fall of the Berlin Wall. The designs of the collection are influenced by the minimalist &lt;a href=&quot;https://en.wikipedia.org/wiki/Bauhaus&quot;&gt;Bauhaus&lt;/a&gt; style. The absence of centuries of watchmaking experience has helped the brand to create modern and minimalist designs that are unlike anything else on the market. In 2005 Nomos started to use only inhouse manufactured movements.&lt;/p&gt;
-
-&lt;h3 id=&quot;tangente&quot;&gt;Tangente&lt;/h3&gt;
-
-&lt;p&gt;The Tangente is considered the flagship model of Nomos. The watch was introduced in 1992 and is available in multiple dimensions and special editions. The Ref. 101 is considered the classic version and comes in a 35mm size. The large lugs make up for the small diameter in contemporary standards.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/101_1.jpg&quot; alt=&quot;picture of the nomos tangente&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The watch is very slender and sits very low to the wrist, an refreshing aesthetic in the times of &lt;a href=&quot;/2019/rolex-explorer-II-216570/&quot;&gt;bigger contemporary watches&lt;/a&gt;. The case is light very comfortable to wear for an extended period of time. The case is polished all over. This makes the watch stand out on the wrist despite the small size as it reflects light. However, the watch attracts scratches that tarnishes the polishing. The relative softness of 316L steel does not help with this.&lt;/p&gt;
-
-&lt;p&gt;With the lugs extending far out from the case, the Tangente looks much bigger on the wrist than its 35mm diameter would indicate.&lt;/p&gt;
-
-&lt;p&gt;The watch is very versatile when it comes to strap options. Hipster suede, chill nato or business cordovan.. anything goes. The simple design helps the watch to adapt.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/101_2.jpg&quot; alt=&quot;3d picture of the nomos tangente&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The dial is made out of galvanized steel plated in silver, which gives it a nice texture when viewed from certain angles. The Tangente reacts to light in different angles. The arabic numerals and stick markers support the well spaced typography. The Nomos own design team in the hipster district of Berlin (Kreuzberg) shows.&lt;/p&gt;
-
-&lt;p&gt;The hands of the watch are all “heat-blued” and add some color to the otherwise monochrome dial. The hands are also perfectly dimensioned and pass over the respective markes without blocking the view.&lt;/p&gt;
-
-&lt;p&gt;The dial design is a distinctly Nomos one and I’m a big fan of it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/101_3.jpg&quot; alt=&quot;picture of myself wearing a nomos tangente&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The movement of the watch is inhouse manufactured and called α by Nomos. The design of the movement is however a manual wind ETA 7001.
-The stock strap is a black Horween shell cordovan strap. The buckle is a tang-styled one with a engraved Nomos insignia.&lt;/p&gt;
-
-&lt;h3 id=&quot;specifications&quot;&gt;Specifications&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Model Number:&lt;/strong&gt; Nomos Tangente 35 Ref. 101&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Movement:&lt;/strong&gt; Nomos Alpha&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Case Material:&lt;/strong&gt; 316L Stainless Steel&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Glass Material:&lt;/strong&gt; Sapphire Crystal&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lug Width:&lt;/strong&gt; 18mm&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Diameter/Height:&lt;/strong&gt; 35 mm/6.6 mm&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;This watch has rightly earned many awards but design is also polarizing. The minimalistic Bauhaus style doesn’t sit well with everybody.
-I have worn this watch for extended times and like the varity it provides to my &lt;a href=&quot;https://inversegravity.net/tag/watch/&quot;&gt;collection&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/nomos-tangente-101/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/nomos-tangente-101/</guid>
-        
-        <category>watch</category>
-        
-        <category>nomos</category>
         
         
       </item>
