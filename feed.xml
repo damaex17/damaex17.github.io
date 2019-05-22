@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 May 2019 12:38:03 +0000</pubDate>
-    <lastBuildDate>Tue, 21 May 2019 12:38:03 +0000</lastBuildDate>
+    <pubDate>Wed, 22 May 2019 06:26:32 +0000</pubDate>
+    <lastBuildDate>Wed, 22 May 2019 06:26:32 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -186,7 +186,7 @@
     &lt;p&gt;You digitally sign a message with your own private key.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;You verify the signature os a message with the senders public key.&lt;/p&gt;
+    &lt;p&gt;You verify the signature of a message with the senders public key.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
