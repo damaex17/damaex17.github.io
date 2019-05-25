@@ -5,9 +5,274 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 May 2019 06:26:32 +0000</pubDate>
-    <lastBuildDate>Wed, 22 May 2019 06:26:32 +0000</lastBuildDate>
+    <pubDate>Sat, 25 May 2019 10:28:41 +0000</pubDate>
+    <lastBuildDate>Sat, 25 May 2019 10:28:41 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Cryptography - Applications</title>
+        <description>&lt;p&gt;This is the last article in my series about cryptography. Now that we covered the crypto basics with various cryptographic algorithms, digital signatures, and public-key infrastructure, we can take a look at applied cryptography.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;First Part: Cryptography - History and Basics&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2019/crypto-symmetric/&quot;&gt;Second Part: Cryptography - Symmetric Key Algorithms&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2019/public-key/&quot;&gt;Third Part: Cryptography - Asymmetric Key Algorithms&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2019/crypto-hash-digital-signature/&quot;&gt;Fourth Part: Cryptography - Hash Functions &amp;amp; Digital Signatures&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;web-appications---tlsssl&quot;&gt;Web Appications - TLS/SSL&lt;/h3&gt;
+
+&lt;p&gt;Web traffic is widely protected by encryption. There are many reasons for it but the main topics are the protection of user privacy, secure logins (username/password), and the exchange of financial information over the web. There ware two technologies responsible for the small lock icon in the web browser. Secure Sockets Layer (SSL) and Transport Layer Security (TLS).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/https.jpg&quot; alt=&quot;a picture showing a web browser&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SSL&lt;/strong&gt; was developed by Netscape to provide encrypted web traffic between client and server. Hypertext Transfer Protocol Secure (HTTPS) is using port 443 to communicate sessions between browser clients and web servers. When Microsoft adopted SSL into its popular Internet Explorer browser in 1995, it became the de facto standard for secure web communication.&lt;/p&gt;
+
+&lt;p&gt;SSL depends on the exchange of server digital certificates to negotiate encryption/decryption parameters between the browser and the web server. The goal of the protocol is to create a secure channel that remains open for an entire web browsing session. SSL uses a combination of symmetric and asymmetric cryptography.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1:&lt;/strong&gt; The browser retrieves the web server certificate and extracts the public key from it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2:&lt;/strong&gt; The browser creates a random symmetric key, encrypts it with the servers public key and sends it back to the server.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3:&lt;/strong&gt; The server decrypts the symmetric key with its own private key and the two systems exchange all future messages using symmetric key encryption.&lt;/p&gt;
+
+&lt;p&gt;SSL utilizes the advanced functionality of asymmetric cryptography for the exchange of the secret key while the majority of data is exchanged using the faster symmetric algorithm.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TLS&lt;/strong&gt; was proposed by security engineers in 1991 as a replacement for the SSL standard. As with SSL, TLS uses TCP port 443 but incorporated many security enhancements. While the early version of TLS supported a downgrade to SSL, this backward compatibility was dropped in 2011 with TLS v1.2.&lt;/p&gt;
+
+&lt;p&gt;In 2014, an attack known as &lt;a href=&quot;https://en.wikipedia.org/wiki/POODLE&quot;&gt;POODLE&lt;/a&gt; demonstrated a flaw in the SSL 3.0 fallback mechanism of TLS. Many organizations have since completely dropped SSL support and solely rely on TLS now.&lt;/p&gt;
+
+&lt;p&gt;TLS is also utilized to encrypt communication between mobile applications and API endpoints. Apple even enforces this since January 2017.&lt;/p&gt;
+
+&lt;h3 id=&quot;email---pgp-openpgp-and-smime&quot;&gt;Email - PGP, OpenPGP and S/MIME&lt;/h3&gt;
+
+&lt;p&gt;Electronic mail (email or e-mail) is a method of exchanging messages between people using electronic devices. It first entered limited use in the 1960s and by the mid-1970s had taken the form now recognized as email. Email may travel and be stored on networks and computers without the sender’s or the recipient’s control. During the transit, it is possible that third parties read or even modify the content.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Email messages not encrypted by default.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Email messages have to go through intermediate computers before reaching their destination, meaning it is relatively easy for others to intercept and read messages.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Email messages are stored on servers and can be accessed by IT personnel.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/email.png&quot; alt=&quot;a picture representing email&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are solutions to protect emails in transit (e.g. SMTP over TLS) but for sensitive email messages, it is recommended to use end-to-end encryption and not rely on email providers goodwill.&lt;/p&gt;
+
+&lt;p&gt;Here are some recommendations for email usage:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Confidentiality can be achieved by &lt;em&gt;message encryption&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Integrity and nonrepudiation require to &lt;em&gt;hash the message&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Authentication, integrity and non repudiation can be implemented by &lt;em&gt;digitally signing the message&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Confidentiality, authentication, integrity, and nonrepudiation requires &lt;em&gt;encrypting and digitally signing the message&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;PGP - Pretty Good Privacy&lt;/strong&gt; was invented by &lt;a href=&quot;https://en.wikipedia.org/wiki/Phil_Zimmermann&quot;&gt;Phil Zimmerman&lt;/a&gt; in 1991 and made available to the public. It initially encountered a number of hurdles by the U.S. government regarding its distribution (export regulation). Those restrictions have been repealed, and PGP may be freely distributed to most countries.&lt;/p&gt;
+
+&lt;p&gt;The commercial version of PGP uses RSA for key exchange, IDEA for encryption/decryption, and MD5 as the hash function for message digest creation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OpenPGP&lt;/strong&gt; is the freeware version of PGP and uses Diffie-Hellman for key exchange, &lt;a href=&quot;https://en.wikipedia.org/wiki/CAST-128&quot;&gt;CAST 128-bit&lt;/a&gt; for encryption/decryption, and the SHA-1 algorithm as the hash function.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;S/MIME&lt;/strong&gt; is the Secure/Multipurpose Internet Mail Extension protocol and has emerged as a de facto standard for encrypted email. It has been incorporated in a large number of commercial products and relies on the usage of X.509 certificates (see my posting about &lt;a href=&quot;/2019/public-key-infrastructure/&quot;&gt;PKI&lt;/a&gt;). S/MIME extracts the public key from the certificate (same as TLS) and uses it for digital signing and the exchange of symmetric keys. RSA is the public key cryptographic protocol of S/MIME and AES or 3DES is used for symmetric encryption.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-encryption-on-portable-devices---notebooks-smartphones-and-tablets&quot;&gt;Data Encryption on Portable Devices - Notebooks, Smartphones, and Tablets&lt;/h3&gt;
+
+&lt;p&gt;The wide usage of portable devices brings new risks to organizations. Notebooks, Smartphones, and Tablets often contain highly sensitive information that could cause serious harm if the device is lost or stolen. Many organizations turn to encryption to protect the data on these devices.&lt;/p&gt;
+
+&lt;p&gt;Current versions of all operating systems now include disk encryption capabilities that make it easy to manage encryption on all devices. Microsoft Windows includes BitLocker and Encrypting File System (EFS), MacOSX includes FileVault encryption and the open-source &lt;a href=&quot;https://www.veracrypt.fr/en/Home.html&quot;&gt;VeraCrypt&lt;/a&gt; allows disk encryption on Linux, MacOSX, and Windows.&lt;/p&gt;
+
+&lt;p&gt;There is a variety of commercial tools to provide added features and device management capabilities. The differentiators of those tools are how they protect the keys stored in memory, whether they encrypt full disk (FDE) or only volumes, and if they support hardware-based &lt;a href=&quot;https://en.wikipedia.org/wiki/Trusted_Platform_Module&quot;&gt;Trusted Platform Modules (TPMs)&lt;/a&gt;. A TPM is a chip that can often be found in modern computer devices. It provides the operating system with access to the keys and prevents the decryption of a disk device in case the drive is removed from the computer.&lt;/p&gt;
+
+&lt;p&gt;Any selection of an encryption software must include an analysis of the capabilities during the due diligence process.&lt;/p&gt;
+
+&lt;h3 id=&quot;networking&quot;&gt;Networking&lt;/h3&gt;
+
+&lt;p&gt;Providing secure networking services is an important application of cryptography. Generally, there are two different concepts at play. &lt;em&gt;Link encryption&lt;/em&gt; and &lt;em&gt;End-to-end encryption&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Link encryption&lt;/strong&gt; is the concept of creating a secure tunnel between two points using either a hardware or software solution. In this concept, all traffic entering one side of the tunnel is encrypted and decrypted on the other side. Link encryption is protocol independent and encrypts all the traffic including data, header, address, or routing information. An example is the VPN connection between two offices. Link encryption usually happens at the lower layers of the OSI model.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;End-to-end encryption&lt;/strong&gt; protects the communication between two parties like a client and a server and is performed independently from the network link. It is found in the higher layers of the OSI model.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SSH - Secure Shell&lt;/strong&gt; is an example of &lt;em&gt;end-to-end encryption&lt;/em&gt; and provides encrypted alternatives to common internet applications such as FTP, Telnet, and rlogin. SSH1 supports DES, 3DES, IDEA, and Blowfish and is considered insecure. SSH2 drops the support of DES and IDEA and adds several other algorithms like Diffie-Hellman for key exchange.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IPSec&lt;/strong&gt; is a security architecture that supports secure communications and is a standard of the Internet Engineering Task Force (IETF). The Internet Protocol Security (IPSec) secures the communication between two entities. Those entities can be routers, gateways, or any combination of those. Generally, IPSec is used to connect two networks but it can also connect one computer to a network or two computers.&lt;/p&gt;
+
+&lt;p&gt;It uses public-key encryption to provide access control, nonrepudiation, and message authenticity. IPSec is primarily used for virtual private networks (VPN) and can operate in either a tunnel or transport mode.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tunnel mode encrypts the entire packet (including the header) and is designed for securing gateway to gateway communication.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Transport mode encrypts only the payload and is designed for securing peer-to-peer communication.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;IPSec is commonly paired with the Layer 2 Tunneling Protocol (L2TP) and then known as L2TP/IPSec. The protocol provides a complete infrastructure to secure network communication and has gained widespread acceptance in all major operating systems. It relies on two components.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Authentication Header (AH) provides message integrity, nonrepudiation, authentication, and access control.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Encapsulating Security Payload (ESP) provides confidentiality and integrity of packet content. It has limited authentication features but not to the extent of AH.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;IPSec is creating a &lt;em&gt;security association&lt;/em&gt; (SA) during runtime. This SA represents a simplex communication session and configuration. Two-way communication requires two SAs and for using both AH and ESP in two-way communication, the requirement is four SAs. The advantage is that each SA can be filtered or managed independently which gives IPSec its flexibility.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ISAKMP&lt;/strong&gt; provides the background security support services of IPSec by negotiating, establishing, modifying, and deleting security associations. ISKMP is described in detail in &lt;a href=&quot;https://tools.ietf.org/html/rfc2408&quot;&gt;RFC 2408&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;wireless-networking&quot;&gt;Wireless Networking&lt;/h3&gt;
+
+&lt;p&gt;The widespread adoption of wireless networks creates a tremendous security risk. Traditional wired networks do not implement encryption for routine communication between host because of the assumption that it would be too difficult for an attacker to gain physical access to the network equipment. Wireless networks transmit data through the air, leaving them extremely vulnerable to interception. There are two types of wireless security implementations:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WEP - Wireless Equivalent Privacy&lt;/strong&gt; provides 64- and 128-bit encryption options to protect wireless communication. WEP is described in IEE 802.11 as an optional component of the wireless networking standard. Cryptanalysis has demonstrated significant flaws in the WEP algorithm. This makes it possible to completely undermine the security features of a WEP protected network.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WPA - WiFi Protected Access&lt;/strong&gt; improves on WEP encryption by implementing a Temporal Key Integrity Protocol (TKIP). WPA2 is adding AES cryptography to the protocol, improving it even further. WPA2 is the de facto standard for protecting wireless networks.&lt;/p&gt;
+
+&lt;h3 id=&quot;cryptography-key-sizes-and-recommendations&quot;&gt;Cryptography Key Sizes and Recommendations&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://paragonie.com/blog/2019/03/definitive-2019-guide-cryptographic-key-sizes-and-algorithm-recommendations&quot;&gt;Paragon Guide&lt;/a&gt; holds some good advice for Cryptographic Key Sizes and Algorithm Recommendations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Symmetric Algorithms&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Block Size&lt;/th&gt;
+      &lt;th&gt;Key Size&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Advanced Encryption Standard (AES)&lt;/td&gt;
+      &lt;td&gt;128&lt;/td&gt;
+      &lt;td&gt;128, 192, 256&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rijndael&lt;/td&gt;
+      &lt;td&gt;Variable&lt;/td&gt;
+      &lt;td&gt;128, 192, 256&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Blowfish&lt;/td&gt;
+      &lt;td&gt;64&lt;/td&gt;
+      &lt;td&gt;32 - 448&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Data Encryption Standard (DES)&lt;/td&gt;
+      &lt;td&gt;64&lt;/td&gt;
+      &lt;td&gt;56&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IDEA&lt;/td&gt;
+      &lt;td&gt;64&lt;/td&gt;
+      &lt;td&gt;128&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rivest Cipher 2 (RC2)&lt;/td&gt;
+      &lt;td&gt;64&lt;/td&gt;
+      &lt;td&gt;128&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rivest Cipher 5 (RC5)&lt;/td&gt;
+      &lt;td&gt;32, 64, 128&lt;/td&gt;
+      &lt;td&gt;0 - 2,040&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Skipjack&lt;/td&gt;
+      &lt;td&gt;64&lt;/td&gt;
+      &lt;td&gt;80&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Triple DES (3DES)&lt;/td&gt;
+      &lt;td&gt;64&lt;/td&gt;
+      &lt;td&gt;112, 168&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Twofish&lt;/td&gt;
+      &lt;td&gt;128&lt;/td&gt;
+      &lt;td&gt;1 - 256&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Hash Algorithms&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Digest Size&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SHA-1&lt;/td&gt;
+      &lt;td&gt;160&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SHA-256, SHA3-256&lt;/td&gt;
+      &lt;td&gt;256&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SHA-224, SHA3-224&lt;/td&gt;
+      &lt;td&gt;224&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SHA-512, SHA3-512&lt;/td&gt;
+      &lt;td&gt;512&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SHA-384, SHA3-384&lt;/td&gt;
+      &lt;td&gt;384&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;MD2&lt;/td&gt;
+      &lt;td&gt;128&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;MD4&lt;/td&gt;
+      &lt;td&gt;128&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;MD5&lt;/td&gt;
+      &lt;td&gt;160&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;HMAC&lt;/td&gt;
+      &lt;td&gt;Variable&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/applied-cryptography/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/applied-cryptography/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>Cryptography - Hash Functions &amp; Digital Signatures</title>
@@ -1155,135 +1420,6 @@ It is important to document the justification or rationale for each impact asses
         <guid isPermaLink="true">https://inversegravity.net/2019/risk-assessment/</guid>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>GDPR, Passwords, Hashing and You</title>
-        <description>&lt;h3 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h3&gt;
-
-&lt;p&gt;I am not a legal expert and this article is my interpretation of the law and personal opinion. GDPR does not contain any specifics about passwords. The &lt;a href=&quot;https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/security/passwords-in-online-services/&quot;&gt;UK Information Commissioner’s Office - ICO&lt;/a&gt; published a useful guide for the development of password protection systems after GDPR.&lt;/p&gt;
-
-&lt;h3 id=&quot;password-systems-and-the-gdpr&quot;&gt;Password systems and the GDPR&lt;/h3&gt;
-
-&lt;p&gt;Passwords (low-entropy secrets) play a critical role in keeping information safe. For this reason, ensuring password security is critical. GDPR not only introduces the principles of &lt;strong&gt;privacy by design&lt;/strong&gt; and &lt;strong&gt;privacy by default&lt;/strong&gt;, but in &lt;a href=&quot;https://www.imperva.com/learn/data-security/gdpr-article-32/&quot;&gt;Article 32&lt;/a&gt; it also defines the obligation for data security and data loss prevention.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Access to personal data is protected by passwords. In order to protect personal data, passwords have to be protected&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Any password system developed or deployed has to be protected against &lt;strong&gt;brute force&lt;/strong&gt;, &lt;strong&gt;dictionary&lt;/strong&gt;, &lt;strong&gt;guessing&lt;/strong&gt; and &lt;a href=&quot;/2019/vulnerability-disclosure-at-signup/&quot;&gt;&lt;strong&gt;credential stuffing&lt;/strong&gt;&lt;/a&gt; attacks. The password itself is treated as personal data and requires state of the art protection.&lt;/p&gt;
-
-&lt;p&gt;Shortly after the introduction of GDPR a German company reported a data breach in accordance with Article 33 GDRP to the authorities. During the investigation, it was discovered that the passwords have been stored in clear text. This was interpreted as a violation of Article 32 GDRP and the company was fined &lt;a href=&quot;https://www.theregister.co.uk/2018/11/23/knuddels_fined_for_plain_text_passwords/&quot;&gt;EUR 20.000&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“By storing the passwords in clear text, the company knowingly violated its duty to ensure data security in the processing of personal data.” the authority said.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The company wasn’t fined for the breach but because of the password storage strategy!&lt;/p&gt;
-
-&lt;h3 id=&quot;state-of-the-art-methods-for-password-storage&quot;&gt;State of the art methods for password storage&lt;/h3&gt;
-
-&lt;p&gt;Under GDPR a strong password storage strategy is critical in mitigating data breaches. 
-Hashing passwords is no longer just an option and the hashing method should be &lt;em&gt;state of the art&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Requirements for the hashing method:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The honest player needs to be able to compute a single instance of the algorithm on standard hardware for moderate costs.&lt;/li&gt;
-  &lt;li&gt;The adversary should not be able to reduce costs by calculating multiple instances of the algorithm on customized hardware.&lt;/li&gt;
-  &lt;li&gt;The time for calculating the hash should not depend on the length of the password.&lt;/li&gt;
-  &lt;li&gt;Identical input has to produce a different output (nondeterministic).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;One way function&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This is better than clear text but attackers have found ways around this implementation. If a couple of users were to use the same password, their hash would be identical. Multiple accounts mapped to the same hash indicate a commonly used password. With this knowledge, hackers can considerably narrow down the number of passwords used in an attack. Attackers can also utilize databases of pre-computed hashes (&lt;a href=&quot;https://en.wikipedia.org/wiki/Rainbow_table&quot;&gt;rainbow table attacks&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The salt&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Salting the input increases the complexity of the output without increasing user requirements. A salt is a fixed-length cryptographically strong value added to the input. But fixed salt strings can get exposed in a data breach and the attacker can neglect the advantage of using a salt. This implementation also produces deterministic outcomes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;BCrypt, PBKDF2 or SCrypt - key stretching&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a great improvement over the mentioned above methods but I do not recommend the commonly implemented BCrypt, PBKDF2 or SCrypt methods for newly designed systems anymore.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;BCrypt and PBKDF2&lt;/em&gt; are key stretching or key derivation functions and do not offer memory hardness. This means those methods are CPU bound and prone to password cracking by Application Specific Integrated Circuits (ASICs). Whitepapers have emerged regarding &lt;a href=&quot;https://www.usenix.org/system/files/conference/woot14/woot14-malvoni.pdf&quot;&gt;Energy-Efficient Bcrypt Cracking with Low-CostParallel Hardware&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;SCrypt&lt;/em&gt; adds memory-hard functions (MHFs). It is CPU and Memory intensive to calculate. But I see an issue with the usage in &lt;a href=&quot;https://coinpaprika.com/tag/scrypt?all=true&quot;&gt;cryptocurrencies&lt;/a&gt;. Mining solutions for SCrypt are &lt;a href=&quot;https://cryptomining-blog.com/10810-new-innosilicon-a6-ltc-master-2-2-ghs-scrypt-asic-miner/&quot;&gt;available&lt;/a&gt; and these could be repurposed for &lt;em&gt;offline cracking&lt;/em&gt;. SCrypt also doesn’t give many options to configure parameters to balance parameters. In my opinion, this is an important feature to tailor the method to your use case.&lt;/p&gt;
-
-&lt;h3 id=&quot;argon2---appropriate-hashing&quot;&gt;Argon2 - appropriate hashing&lt;/h3&gt;
-
-&lt;p&gt;My recommendation for a newly designed password storage system is argon2.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;open source implementations in all commonly used languages&lt;/li&gt;
-  &lt;li&gt;has been around for a while&lt;/li&gt;
-  &lt;li&gt;withstood studies to accelerate the algorithm on dedicated hardware&lt;/li&gt;
-  &lt;li&gt;parameters to control execution time, memory requirements and degree of parallelism&lt;/li&gt;
-  &lt;li&gt;won the &lt;a href=&quot;https://password-hashing.net/&quot;&gt;Password Hashing Competition&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/gdpr_1.jpg&quot; alt=&quot;GDPR symbolic picture&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;preventing-a-data-breach&quot;&gt;Preventing a data breach&lt;/h3&gt;
-
-&lt;p&gt;Hashing will protect passwords after a data breach. Other privacy information is usually stored in clear text.
-The risk for a data breach can be reduced by implementing processes, controls, and audits.&lt;/p&gt;
-
-&lt;p&gt;Consider the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;User rights management - Access control&lt;/li&gt;
-  &lt;li&gt;Privileged user monitoring&lt;/li&gt;
-  &lt;li&gt;Immutable audit trail for machines and humans&lt;/li&gt;
-  &lt;li&gt;Secure archiving for forensics&lt;/li&gt;
-  &lt;li&gt;Data access auditing&lt;/li&gt;
-  &lt;li&gt;Data discovery and classification&lt;/li&gt;
-  &lt;li&gt;Change management&lt;/li&gt;
-  &lt;li&gt;Rate limiting&lt;/li&gt;
-  &lt;li&gt;Employee background checks&lt;/li&gt;
-  &lt;li&gt;Encryption of private information&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;evaluation-process-with-gdpr&quot;&gt;Evaluation process with GDPR&lt;/h3&gt;
-
-&lt;p&gt;GDPR changes the requirements for engineers and we need to put more thought into designing a system.
-Evaluation processes and decision making has to be documented along the following criteria:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;State of the Art&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Use the most advanced approach and measure it against the ever-evolving cybersecurity threat landscape.
-Keep on learning, educate yourself, assess risks and anticipate attacks. Be aware of threats relevant for your use case.
-A successful security strategy is never “done”.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Risk Profile&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Know your companies unique risk profile and customize your solutions accordingly. Risk profiles include core requirements for systems.
-This profile has to be re-evaluated according to company changes or changes to the threat level.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Processing Profile&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Evaluate the nature, scope, context, and purposes of the processing of personal data. It is essential to understand what data is where and for which purpose.
-Data might be the oil of the 21st century but minimizing the amount of collected data is required. Collect only data you need for business and legal reasons.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cost&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Evaluate the costs of an implementation according to the risk profile.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;In this post, I wanted to show how to satisfy GDRP requirements for password storage and what to take into consideration.
-It’s fine to run a legacy system with BCrypt but when designing a new system we need to use technology with a high probability to stand the test of time. Or at least the next decade. It’s on us engineers to stay informed about the continuous evolution of cybersecurity threats and adapt our approach.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/gdpr-passwords-hashing-you/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/gdpr-passwords-hashing-you/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
         
         
       </item>
