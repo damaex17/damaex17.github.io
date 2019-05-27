@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 May 2019 10:22:16 +0000</pubDate>
-    <lastBuildDate>Mon, 27 May 2019 10:22:16 +0000</lastBuildDate>
+    <pubDate>Mon, 27 May 2019 10:26:47 +0000</pubDate>
+    <lastBuildDate>Mon, 27 May 2019 10:26:47 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -67,7 +67,7 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;Historically, effective security came at the expense of usability and vice versa. Today we have technologies that present the user with appropriate security solutions to match the task and real world situation. Organizations need to start looking at the historical data and use it to tailor security around it. Smart risk management models can be applied to benefit the user.&lt;/p&gt;
+&lt;p&gt;Historically, effective security came at the expense of usability and vice versa. Today we have technologies that present the user with appropriate security solutions to match the task, risk, and real world scenario. Organizations need to start looking at the historical data and use it to tailor security around it. Smart risk management models can be applied to benefit the user.&lt;/p&gt;
 
 &lt;p&gt;Nobody will question strong authentication when a first-time transaction is made to a vendor in a foreign country. But having the same requirements whenever sending money to siblings, parents, or friends just doesn’t make any sense. Using the frequency of interaction with other people can help to accomplish security features that adapt to the situation.&lt;/p&gt;
 </description>
