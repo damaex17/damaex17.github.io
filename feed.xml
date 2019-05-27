@@ -5,9 +5,82 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 May 2019 10:28:41 +0000</pubDate>
-    <lastBuildDate>Sat, 25 May 2019 10:28:41 +0000</lastBuildDate>
+    <pubDate>Mon, 27 May 2019 10:22:16 +0000</pubDate>
+    <lastBuildDate>Mon, 27 May 2019 10:22:16 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Adaptive Transaction Security by Contact Frequency</title>
+        <description>&lt;h3 id=&quot;adaptive-security&quot;&gt;Adaptive Security&lt;/h3&gt;
+
+&lt;p&gt;Adaptive security is traditionally a network security model to accommodate for the increasing complexity of threats targeting the network of organizations. &lt;a href=&quot;https://en.wikipedia.org/wiki/Intrusion_detection_system&quot;&gt;Intrusion Detection Systems&lt;/a&gt;, for example, are one application of adaptive security and use a heuristic system that correlates information to make recommendations rather than using hard blocking rules as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Firewall_(computing)&quot;&gt;Firewall&lt;/a&gt; does.&lt;/p&gt;
+
+&lt;p&gt;Generally, Adaptive Security is an approach to cybersecurity that analyzes behaviors and events to continuously assess risk and automatically provide proportional enforcement that can be dialed up or down.&lt;/p&gt;
+
+&lt;p&gt;I suggest this model to adopt the transaction security features for an imaginary online bank.&lt;/p&gt;
+
+&lt;h3 id=&quot;traditional-transaction-security-in-banking&quot;&gt;Traditional Transaction Security in Banking&lt;/h3&gt;
+
+&lt;p&gt;Financial information is surely near the top of the list of all the things people want to keep safe. The login to the online system of a bank is usually only protected by username (identification) and password (&lt;a href=&quot;https://en.wikipedia.org/wiki/Authentication&quot;&gt;authentication&lt;/a&gt;) and gives access to the account in a read-only mode. Past transaction and account information can only be looked at.&lt;/p&gt;
+
+&lt;p&gt;The second layer of security (&lt;a href=&quot;https://en.wikipedia.org/wiki/Multi-factor_authentication&quot;&gt;two-factor authentication&lt;/a&gt;) is necessary once the user intends to do an online change to the account. This change could be a new standing order, a money transaction, or the change of the address.&lt;/p&gt;
+
+&lt;p&gt;Additional authentication methods vary from bank to bank and include one-time passwords from a tan list (classic TAN), SMS or push notifications to mobile devices (mobileTAN or pushTAN), or the use of a &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:SmartTAN_optic-Gadget.jpg&quot;&gt;device to create the TAN&lt;/a&gt; (cardTAN or chipTAN).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/adaptive.jpg&quot; alt=&quot;a picture showing a chameleon&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;adaptive-transaction-security&quot;&gt;Adaptive Transaction Security&lt;/h3&gt;
+
+&lt;p&gt;I want to suggest a security model where the frequency of interaction between people can be used to remove the enforcement of a second factor for future transactions between those people. This model is improving the usability for the customer while it manages the risk of fraud for the bank.&lt;/p&gt;
+
+&lt;p&gt;A malicious player who hacks the account could not benefit from the removal of 2FA for those transactions because it would only whitelist accounts with a strong transaction relationship.&lt;/p&gt;
+
+&lt;h3 id=&quot;graph-database&quot;&gt;Graph Database&lt;/h3&gt;
+
+&lt;p&gt;Graph Databases allow to represent related data as it is as a set of objects connected by a set of relationships. Graph theory dates back to 1735, when Leonard Euler solved the &lt;a href=&quot;https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg&quot;&gt;Seven Bridges of Königsberg&lt;/a&gt; problem by devising a topology consisting of nodes and relationships.&lt;/p&gt;
+
+&lt;p&gt;In computing, a graph database uses graph structures for semantic queries with nodes, edges, and properties to represent and store data. A key concept of the system is the graph (relationship). The graph relates the data items in the store to a collection of nodes and edges, the edges representing the relationships between the nodes.&lt;/p&gt;
+
+&lt;p&gt;Graph databases, by design, allow simple and fast retrieval of complex hierarchical structures that are difficult to model in relational systems. A graph is essentially an index data structure. It never needs to load or touch unrelated data for a given query. They’re an excellent solution for real-time big data analytical queries.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at some example transactions between four people. Each customer and transaction is an object and the transaction flow is represented by a graph.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;_:bob &amp;lt;first.name&amp;gt; &quot;Bob&quot; .
+_:alice &amp;lt;first.name&amp;gt; &quot;Alice&quot; .
+_:chuck &amp;lt;first.name&amp;gt; &quot;Chuck&quot; .
+_:rudi &amp;lt;first.name&amp;gt; &quot;Rudi&quot; .
+_:bob &amp;lt;sends&amp;gt; _:tn1 .
+_:alice &amp;lt;receives&amp;gt; _:tn1 .
+_:bob &amp;lt;sends&amp;gt; _:tn2 .
+_:alice &amp;lt;receives&amp;gt; _:tn2 .
+...
+_:bob &amp;lt;receives&amp;gt; _:tn19 .
+_:alice &amp;lt;sends&amp;gt; _:tn20 .
+_:bob &amp;lt;receives&amp;gt; _:tn20 .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I inject the data into &lt;a href=&quot;https://dgraph.io/&quot;&gt;dgraph&lt;/a&gt; and visualize the amount of nodes (transactions) between people:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/graph.png&quot; alt=&quot;a picture showing the relationship&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can see a strong relationship between Alice and Bob. Alice is sending money on a regular basis to Bob. We could suggest her to remove 2FA when initiating new transactions to Bob. A more advanced data model with additional parameters, like the transaction value and the date, would help to consider only certain transactions between Alice and Bob.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Historically, effective security came at the expense of usability and vice versa. Today we have technologies that present the user with appropriate security solutions to match the task and real world situation. Organizations need to start looking at the historical data and use it to tailor security around it. Smart risk management models can be applied to benefit the user.&lt;/p&gt;
+
+&lt;p&gt;Nobody will question strong authentication when a first-time transaction is made to a vendor in a foreign country. But having the same requirements whenever sending money to siblings, parents, or friends just doesn’t make any sense. Using the frequency of interaction with other people can help to accomplish security features that adapt to the situation.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/adaptive-transaction-security/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/adaptive-transaction-security/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>Cryptography - Applications</title>
@@ -1308,116 +1381,6 @@ The prioritization focuses the effort of an organization on one aspect over the 
         <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/cia-triad/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/cia-triad/</guid>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Security Risk Assessment</title>
-        <description>&lt;p&gt;Risk is a consequence of an action taken and can have a positive or negative outcome. It can be managed in 5 distinct ways.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Accepting&lt;/strong&gt; a risk means there are no actions. This is a valid approach but requires identification and documentation of the risk. The acceptance of a risk has to be done by a qualified person. Real-life example: Smoking, drinking or base jumping&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Avoiding&lt;/strong&gt; is a change of plans and not executing on a strategy, investment or software project because of the risk. Real-life example: Stick to the speed limit, not go bungee jumping&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Transfer&lt;/strong&gt; of risk means another party, person or organization is taking the risk instead. Real-life example: insurance industry&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt; against a risk is the most common approach. One can mitigate against the impact and or mitigate by reducing the likelihood. Real-life example: audits, backup, redundancy, error-tolerant design&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Exploiting&lt;/strong&gt; is an option if the risk has a positive impact. Looking for ways to increase the likelihood and/or impact of a risk. Real-life example: using new technologies&lt;/p&gt;
-
-&lt;p&gt;All mentioned risk management approaches rely on a prior assessment. The assessment of the risk for an organization has to follow a structured approach.  Risk assessment and management is an essential part of security management. Security assessment methodologies like &lt;a href=&quot;https://en.wikipedia.org/wiki/CRAMM&quot;&gt;CRAMM&lt;/a&gt; contain risk assessment modules. Risk assessment methodologies like &lt;a href=&quot;https://en.wikipedia.org/wiki/MEHARI&quot;&gt;Mehari&lt;/a&gt; have evolved to be security assessment methodologies. A systematic approach to security risk assessment is necessary to identify security requirements and to create an effective Information Security Management System (&lt;a href=&quot;https://en.wikipedia.org/wiki/ISO/IEC_27001&quot;&gt;ISMS&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Security risk assessments identify, quantify, and prioritize risks against defined criteria for risk management and objectives relevant to the organization.
-&lt;img src=&quot;/assets/images/risk_1.jpg&quot; alt=&quot;symbolic picture for risk&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;when-to-run-security-risk-assessment&quot;&gt;When to run Security Risk Assessment&lt;/h3&gt;
-
-&lt;p&gt;Whenever a new system, software, process or partner is connected to the organization. It’s essential to understand for example what data is shared and which privileged rights are implemented. A decision has to be made conscious and has to be aligned with the risk profile of a company.
-Existing assessments have to be revisited on a regular basis to adapt to the ever-evolving security threat landscape.&lt;/p&gt;
-
-&lt;p&gt;Each risk assessment has to be tailored to the subject of the assessment.&lt;/p&gt;
-
-&lt;h3 id=&quot;stories-from-the-trenches&quot;&gt;Stories from the trenches&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A designer finds this new productivity tool on the internet and installs it on the company notebook. The tool turns out to be malware.&lt;/li&gt;
-  &lt;li&gt;A manager is doing a test run with a new vendor and shares production data that turns out to include privacy protected data. The vendor is in a territory not bound to EU privacy laws and does not comply with GDPR&lt;/li&gt;
-  &lt;li&gt;Development teams use third-party modules for a software project. One module has malicious code injected (&lt;a href=&quot;/2019/software-supply-chain-security/&quot;&gt;software supply chain attack&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;A company decides to go global without a global security framework. Later a foreign branch is hacked and the HQ is affected.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;example-cyber-security-risk-assessment&quot;&gt;Example Cyber Security Risk Assessment&lt;/h3&gt;
-
-&lt;p&gt;A bank is evaluating a new Customer Relationship Management (CRM) system. The new system is a browser-based SaaS (Software as a service) solution. The new CRM software is part of a digitalization project in the bank with the purpose to reduce costs and improve customer relationship. The vendor of the SaaS solution was successfully approved after a vendor risk assessment. The contract with the SaaS provider includes SLA definitions and SLA monitoring metrics.&lt;/p&gt;
-
-&lt;p&gt;We scope this risk assessment to only look at the Data, Network and Client. People and Client hardware availability has to be covered in a disaster recovery plan and according to corporate security requirements. Customer and Support Agent interaction has to follow security approved processes.&lt;/p&gt;
-
-&lt;h4 id=&quot;step-no-1-identify-assets-and-define-the-scope&quot;&gt;Step No. 1: Identify Assets and define the scope&lt;/h4&gt;
-
-&lt;p&gt;The identification of the assets can includes hardware, software, data, and personnel. It’s important to work with business users and management to create a list of all valuable assets. A tech person might not have all the information necessary to identify the assets or potential consequences.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It’s possible to define the scope of the assessment and recommend further assessments.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_1.png&quot; alt=&quot;asset table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;step-no-2-identify-potential-consequences&quot;&gt;Step No. 2: Identify potential consequences&lt;/h4&gt;
-
-&lt;p&gt;Determine what financial and reputational losses the organization would suffer if a given asset were damaged. This will later be used to determine the impact of loss or unavailability of an asset.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Customer Data&lt;/strong&gt;
-As a financial institute the partial or complete loss of customer data has legal implications and has to be reported to the authorities. The reputational consequences are a loss of trust in the organization. A full or partial data breach has legal, reputational and financial implications.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Client&lt;/strong&gt;
-Because of the SaaS solution the agents only require a browser. Browsers have evolved into cloud-based password managers and provide access to extensions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Network&lt;/strong&gt;
-A stable network connection with low latency is required for the SaaS solution to work. Loss of the connection means downtime for the customer support department which implies reputational consequences. Prolonged downtimes will have financial impact on the organiziation.&lt;/p&gt;
-
-&lt;h4 id=&quot;step-no-3-identify-threats&quot;&gt;Step No. 3: Identify Threats&lt;/h4&gt;
-
-&lt;p&gt;A threat is anything that might exploit a vulnerability to breach your security and cause harm to your assets. Threats are specific to the company and derive from the company threat assessment. A bank of a certain size is considered critical infrastructure and is facing threats from computer criminals and state players. Natural disasters are also considered a threat but out of scope for this assessment.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_2.png&quot; alt=&quot;threat table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;step-no-4-identify-vulnerabilities&quot;&gt;Step No. 4: Identify Vulnerabilities&lt;/h4&gt;
-
-&lt;p&gt;This step is probably one of the most challenging aspects of the security risk assessment. Vulnerability analysis requires technical understanding, up to date knowledge about the security threat landscape and the ability to tie it all together on the use case. I am giving some examples here without claim for completeness.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_3.png&quot; alt=&quot;vulnerability table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;step-no-5-assess-the-risk&quot;&gt;Step No. 5: Assess the risk&lt;/h4&gt;
-
-&lt;p&gt;Risk is the potential that a given threat will exploit the vulnerabilities of the environment and cause harm to one or more assets. 
-It is important to document the justification or rationale for each impact assessment and probability of occurrence rating. If the conditions or environment change, the assessment might need to be revisited. The rationale helps to communicate the significance of the risk.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Risk = Threat Likelihood x Magnitude of Impact&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The likelihood of an event to occur can be defined by factoring in the capability and motivation of a threat and the existing controls to prevent a threat.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_4.png&quot; alt=&quot;Likelihood table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The definition of the impact by the value of the data or service and the impact a loss has for the organization.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_5.png&quot; alt=&quot;Impact table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Risk model&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_6.png&quot; alt=&quot;Risk table&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The resulting risk management plan&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/risk_table_7.png&quot; alt=&quot;Risk management plan&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With this simplified risk assessment we can now decide on how the risk is managed. Most organizations will try to mitigate the risk and quantification helps to justify the costs.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/risk-assessment/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/risk-assessment/</guid>
         
         <category>security</category>
         
