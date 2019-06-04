@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 May 2019 10:26:47 +0000</pubDate>
-    <lastBuildDate>Mon, 27 May 2019 10:26:47 +0000</lastBuildDate>
+    <pubDate>Tue, 04 Jun 2019 05:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 04 Jun 2019 05:00:00 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -919,7 +919,7 @@ Bob then send &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; to 
 
 &lt;p&gt;In crypto, the Caesar cipher is one of the earliest known systems and was used by Julus Caesar to communicate with Cicero in Rome while he was conquering Europe. It is a substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a right shift of 3, A would be replaced by D, B would become E, and so on.&lt;/p&gt;
 
-&lt;p&gt;This is called ROT3 (Rotate 3) cipher and encrypted/decrypted is mathematically implemented by converting each letter to its decimal equivalent. A is 0 and Z is 25. The wrap-around is done by using the modulo function. (C = ciphertext, P = plaintext)&lt;/p&gt;
+&lt;p&gt;This is called ROT3 (Rotate 3) cipher and encryption/decryption is mathematically implemented by converting each letter to its decimal equivalent. A is 0 and Z is 25. The wrap-around is done by using the modulo function. (C = ciphertext, P = plaintext)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/crypto_4.png&quot; alt=&quot;a picture representing Alphabet to Number relation&quot; style=&quot;middle; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
@@ -933,7 +933,7 @@ Bob then send &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; to 
 
 &lt;p&gt;math to decrypt: P = (C-3) mod 26&lt;/p&gt;
 
-&lt;p&gt;This cipher is easy to use but also easy to crack. The cipher is vulnerable to &lt;em&gt;frequency analysis&lt;/em&gt; since the most common letters in the English language are E, T, A, O, N, R, I, S, and H. Attackers just need to find the common letters in the encrypted text (in my example the letter “I”) and experiment with substitution to break the cipher.&lt;/p&gt;
+&lt;p&gt;This cipher is easy to use but also easy to crack. It is vulnerable to &lt;em&gt;frequency analysis&lt;/em&gt; since the most common letters in the English language are E, T, A, O, N, R, I, S, and H. Attackers just need to find the common letters in the encrypted text (in my example the letter “I”) and experiment with substitution to break the cipher.&lt;/p&gt;
 
 &lt;h3 id=&quot;transposition-cipher-rail-fence-cipher-zigzag-cipher&quot;&gt;Transposition cipher: Rail Fence Cipher (ZigZag Cipher)&lt;/h3&gt;
 
