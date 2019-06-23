@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Jun 2019 19:32:42 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Jun 2019 19:32:42 +0000</lastBuildDate>
+    <pubDate>Sun, 23 Jun 2019 09:38:16 +0000</pubDate>
+    <lastBuildDate>Sun, 23 Jun 2019 09:38:16 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -1035,11 +1035,11 @@ Bob then send &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; to 
 
 &lt;h3 id=&quot;history-of-cryptography&quot;&gt;History of Cryptography&lt;/h3&gt;
 
-&lt;p&gt;Speech and written communication defined the early civilizations and continuously evolved with human societies. In the beginning, humans used &lt;a href=&quot;https://en.wikipedia.org/wiki/Petroglyph&quot;&gt;Petroglyphs&lt;/a&gt;, which evolved into &lt;a href=&quot;https://en.wikipedia.org/wiki/Pictogram&quot;&gt;Pictograms&lt;/a&gt; (Hieroglyphs), and finally &lt;a href=&quot;https://en.wikipedia.org/wiki/Ideograms&quot;&gt;Ideograms&lt;/a&gt; and today we use flash storage devices stuffed with the information of the &lt;a href=&quot;https://www.amazon.com/Scholastic-Flash-Drive-Encyclopedia-Britannica/dp/B003DKK9KK&quot;&gt;Encyclopedia Britannica&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Speech and written communication defined the early civilizations and continuously evolved with human societies. In the beginning, humans used &lt;a href=&quot;https://en.wikipedia.org/wiki/Petroglyph&quot;&gt;Petroglyphs&lt;/a&gt;, which evolved into &lt;a href=&quot;https://en.wikipedia.org/wiki/Pictogram&quot;&gt;Pictograms&lt;/a&gt; (Hieroglyphs), and finally &lt;a href=&quot;https://en.wikipedia.org/wiki/Ideograms&quot;&gt;Ideograms&lt;/a&gt;. Today we use flash storage devices stuffed with the information of the &lt;a href=&quot;https://www.amazon.com/Scholastic-Flash-Drive-Encyclopedia-Britannica/dp/B003DKK9KK&quot;&gt;Encyclopedia Britannica&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/crypto_1.jpg&quot; alt=&quot;a picture representing encrypted data&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As long as humans have been communicating, they tried to hide the true meaning of the written word from their enemies. Ancient civilizations used complex systems of secret symbols. The evolution of those systems are the codes and ciphers we facilitate to enable private communication in our times.&lt;/p&gt;
+&lt;p&gt;As long as humans have been communicating, they tried to hide the true meaning of the written word from their enemies. Ancient civilizations used complex systems of secret symbols and the evolution of those systems are the codes and ciphers we facilitate to enable private communication in our times.&lt;/p&gt;
 
 &lt;h3 id=&quot;substitution-cipher-caesar-cipher&quot;&gt;Substitution Cipher: Caesar Cipher&lt;/h3&gt;
 
