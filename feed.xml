@@ -5,9 +5,52 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Jun 2019 09:51:46 +0000</pubDate>
-    <lastBuildDate>Sun, 23 Jun 2019 09:51:46 +0000</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Tue, 06 Aug 2019 11:32:12 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Aug 2019 11:32:12 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>PGP - The Web of Trust is Dead</title>
+        <description>&lt;p&gt;Pretty Good Privacy was committed to making good encryption available to everyone. The used crypto was revolutinary and groundbreaking at the time. But one of the big problem with key encryption persisted: How do I get the right key from the person I don’t know?&lt;/p&gt;
+
+&lt;h3 id=&quot;web-of-trust&quot;&gt;Web of Trust&lt;/h3&gt;
+
+&lt;p&gt;The Web of Trust was intended for this exact purpose but only ever worked in a small community of PGP fans. The promise of “encryption for the masses” could never be kept. The inflationary signing of keys now causes serious problems and is, therefore, removed step by step. GnuPG in version 2.2.17 is now by default ignoring all signatures coming from a key server.&lt;/p&gt;
+
+&lt;p&gt;The basis of the Web of Trust was that “no two people are more than six degrees apart”. So everybody knows everyone and if you authenticate the key of your acquaintances, you’ll eventually reach a state where you can trust the key of person X that came down from a central key server. Alter all, the sister of a friends’ boyfriend confirmed that the key actually belonged to X and wasn’t placed there by some malicious actor.&lt;/p&gt;
+
+&lt;p&gt;Anyone can sign any key and upload the signed version to the keyserver - of course only after verifying its authenticity. To prevent state actors from forcing key server operators to replace real keys with fake ones, the Synchronizing Key Server (SKS) is designed in such a way that no keys or signatures can be deleted. This, however, enabled a range of abuse scenarios. Currently, unknown people load keys onto keyservers again and again, which carry hundreds of thousands of signatures. Read the crisis communication by &lt;a href=&quot;https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f&quot;&gt;Robert J. Hansen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Whoever imports such a key will stall their PGP installation. There is currently no known fix on the side of the SKS servers. So other options to rescue PGP had to be found.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We’ve known for a decade this attack is possible. It’s now here and it’s devastating” rjh&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-end-of-key-signatures&quot;&gt;The end of key signatures&lt;/h3&gt;
+
+&lt;p&gt;In a direct response, GnuPG from version 2.2.17 added a new option &lt;code class=&quot;highlighter-rouge&quot;&gt;self-sign-only&lt;/code&gt;, which is now a default option. It ensures that only the key servers own signatures are retained when a key is imported. The spam signatures and also those of the sister of a friends’ boyfriend - are no longer imported into the local keychain. This doesn’t affect manually imported keys.&lt;/p&gt;
+
+&lt;p&gt;This solves the signature spam problem for GPG users. But it comes with a hefty price tag. You no longer have any indication as to whether the imported key from a server is real or not. This problem is real because anyone can upload a key for any identity to the key servers.&lt;/p&gt;
+
+&lt;p&gt;OpenPGP enthusiasts introduced a new keyserver a few weeks ago. It verifies the e-mail address given in the key and only publishes it after successful verification. As things currently stand, there are a lot of arguments for using &lt;code class=&quot;highlighter-rouge&quot;&gt;keys.openpgp.org&lt;/code&gt; instead of the SKS servers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mailbox.jpg&quot; alt=&quot;a picture showing a mailbox&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-future&quot;&gt;The future&lt;/h3&gt;
+
+&lt;p&gt;The Web of Trust is practically dead and can be considered a failure. The question arises on how the trust in PGP keys can be restored. Some people argue the community should look at messengers like Signal and Threema. They provide a convenient way of key verification and do not require any user actions or signatures. Those services provide basic trust in the genuineness of the delivered keys.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/web-of-trust-dead/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/web-of-trust-dead/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>Password Entropy</title>
@@ -1257,140 +1300,6 @@ Bob then send &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; to 
         <guid isPermaLink="true">https://inversegravity.net/2019/data-classification/</guid>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sci-Fi Reality - Cyberwar</title>
-        <description>&lt;p&gt;Hackers of a terrorist group are killed by a smart bomb just minutes after they start a cyber attack. Sounds like science fiction but the cyber domain just received its first immediate kinetic response. This sounds like a science fiction story - what the cyber?&lt;/p&gt;
-
-&lt;h3 id=&quot;art-sci-fi-military-doctrine&quot;&gt;Art, Sci-Fi, Military Doctrine&lt;/h3&gt;
-
-&lt;p&gt;The word Cyber became popular when internet, digital communication, and digital identities were all emerging and the term “Cyberspace” was able to describe the new phenomena and ideas. It has been called the largest unregulated and uncontrolled domain in the history of mankind[&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;] and is also unique because it is a domain created by people contrary to the traditional physical domains.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Art&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The term Cyberspace was coined when Danish artist Susanne Ussing (1940-1998) and her partner architect Carsten Hoff (b. 1934) founded Atelier Cyberspace. The two made a series of installations and images entitled “sensory spaces” that were based on the principle of open systems adaptable to various influences, such as human movement and the behavior of new materials[&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;].&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Science Fiction&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The first usage of Cyberspace in the context of online computer networks was in the 1980s when science fiction author William Gibson used the term in his cyberpunk books &lt;a href=&quot;https://en.wikipedia.org/wiki/Burning_Chrome&quot;&gt;&lt;em&gt;Burning Chrome&lt;/em&gt; (1982)&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Neuromancer&quot;&gt;&lt;em&gt;Neuromancer&lt;/em&gt; (1984)&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/cyber.jpg&quot; alt=&quot;picture of hacker&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Cyberspace. A consensual hallucination experienced daily by billions of legitimate operators, in every nation, by children being taught mathematical concepts… A graphic representation of data abstracted from the banks of every computer in the human system. Unthinkable complexity. Lines of light ranged in the nonspace of the mind, clusters, and constellations of data. Like city lights, receding. (Neuromancer)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Neuromancer is a cult classic of the science fiction subgenre cyberpunk. The story of Case, Molly, Armitage, the AIs Wintermute and Neuromancer, and the Turing Police are unforgotten and quickly became an underground hit.
-Today the book is considered “the archetypal cyberpunk work”.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Military Doctrine&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In 1995 General Ronald R. Fogleman, Air Force chief of staff delivered a speech to the Armed Forces Communications-Electronics Association [&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;].&lt;/p&gt;
-
-&lt;p&gt;In this speech, he defined a new dimension of Warfare. Information. Later the scope was extended beyond the original information operations background, focusing on “the advanced space-time manipulating capabilities cyberspace offers” and resulting in “Advanced Battlespace and Cybermaneuver Concepts” [&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;].&lt;/p&gt;
-
-&lt;p&gt;Today all major military contenders and alliances [&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;] operate in the 5 dimensions (domains) of warfare:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Land&lt;/li&gt;
-  &lt;li&gt;Sea&lt;/li&gt;
-  &lt;li&gt;Air&lt;/li&gt;
-  &lt;li&gt;Space&lt;/li&gt;
-  &lt;li&gt;Cyber&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The domains are not seen as silos of their own but are connected and operations are carried out in multiple dimensions to form the battlefields of our time.&lt;/p&gt;
-
-&lt;h3 id=&quot;cyberwarfare&quot;&gt;Cyberwarfare&lt;/h3&gt;
-
-&lt;p&gt;Cyberwarfare consists of both offensive and defensive operations like espionage, sabotage, and cyber attacks. Powers have been developing cyber capabilities and have engaged in offensive and defensive activities.&lt;/p&gt;
-
-&lt;p&gt;Richard A. Clarke defines it as “actions by a nation-state to penetrate another nation’s computers or networks for the purposes of causing damage or disruption.”[&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;] Martin Libicki defines two types of cyberwarfare: Strategic and operational, with strategic being “a campaign of cyberattacks one entity carries out on another”, whilst operational cyberwarfare “involves the use of cyberattacks on the other side’s military in the context of a physical war.”[&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;]&lt;/p&gt;
-
-&lt;p&gt;Other definitions include non-state actors, such as companies, terrorist groups, political or ideological extremist groups, terrorist hacktivists, and transnational organizations.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Espionage&lt;/strong&gt; or Cyber-espionage is generally assumed ongoing between all major powers. One example is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)#Disclosures&quot;&gt;massive spying&lt;/a&gt; of the US in many countries as it was revealed by Edward Snowden. Espionage is not considered an act of war but the word attack is often used in this context.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sabotage&lt;/strong&gt; Cyber attacks with the goal of interruption or interception is a major threat to the functionality of the military and civilian infrastructure. Examples are the attack of US/Israel against Iran with the &lt;a href=&quot;https://en.wikipedia.org/wiki/Stuxnet&quot;&gt;Stuxnet worm&lt;/a&gt; or the attack of Russia against the &lt;a href=&quot;https://en.wikipedia.org/wiki/December_2015_Ukraine_power_grid_cyberattack&quot;&gt;Ukrainian power grid&lt;/a&gt;. The attack surface of nation-states will increase with a broader adaption of &lt;a href=&quot;https://en.wikipedia.org/wiki/Internet_of_things&quot;&gt;IOT&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Industry_4.0&quot;&gt;Industry 4.0&lt;/a&gt;. State player attacks against banks with the purpose of disrupting the economy of adversaries is an option.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Propaganda&lt;/strong&gt; Cyber-propaganda is an effort to control or manipulate public opinion. It utilizes social-media, fake websites, and other digital channels to de-legitimize the political system. The internet provides low-cost access to a wide audience and provides a feedback loop regarding the efficiency of propaganda. Countermeasures are affecting the freedom of speech principle of liberal societies and can turn into the perception of censorship.&lt;/p&gt;
-
-&lt;h3 id=&quot;latest-development&quot;&gt;Latest Development&lt;/h3&gt;
-
-&lt;p&gt;There has been controversy over whether cyber operations can be called a declaration of war. The US moved forward in 2011 and made clear that a kinetic response to cyberattacks is a viable option [&lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;].&lt;/p&gt;
-
-&lt;p&gt;In 2015 the US became the first country to respond with military force to a cyberattack. A remote-controlled drone killed a &lt;a href=&quot;https://dod.defense.gov/News/Article/Article/615305/iraq-progresses-in-isil-fight-key-extremist-confirmed-dead/&quot;&gt;British citizen&lt;/a&gt; who was involved in the release of personally identifiable information of about 1,300 U.S. military and government employees.&lt;/p&gt;
-
-&lt;p&gt;An now in 2019 Israel became the first country to respond with &lt;strong&gt;immediate&lt;/strong&gt; military force to a cyberattack. The Hamas cyber-units headquarters in Gaza was destroyed in a so-called “bomb-back” mission[&lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;]. This is a turning point in modern warfare.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Here is the video released by the IDF showing the air-strike against the building housing Hamas cyber forces. &lt;a href=&quot;https://t.co/uHm2ZYa4AP&quot;&gt;pic.twitter.com/uHm2ZYa4AP&lt;/a&gt;&lt;/p&gt;Catalin Cimpanu (@campuscodi) &lt;a href=&quot;https://twitter.com/campuscodi/status/1125122680267603968?ref_src=twsrc%5Etfw&quot;&gt;May 5, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;The attack was executed by an F-16 fighter airplane. It is currently unknown if the cyberattack was pinpointed to this location or if the IDF used previously acquired knowledge of the location to attack the cyber forces of Hamas.&lt;/p&gt;
-
-&lt;p&gt;For future development and more details on the topic I want to refer to two of the thought leaders on cyber warfare: &lt;a href=&quot;https://twitter.com/thegrugq&quot;&gt;the grugq&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gvS4efEakpY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;and &lt;a href=&quot;https://twitter.com/mikko&quot;&gt;mikko&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/l2rIVdpMToM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;cyberpeace&quot;&gt;Cyberpeace&lt;/h3&gt;
-
-&lt;p&gt;The rise of the cyberspace as a domain of fighting wars has led to multiple efforts to control cyberweapons and surveillance technology. Initiatives include the disclosure of vulnerabilities, decentralization, encryption, and education. Policymakers in Europe are developing rules and norms for modern warfare including cyber. It has to be seen how the results of Cyberpeace efforts will affect the wars on this new battlefield of the 21st century.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Many of the topics of Neuromancer have become a reality of our time and we see the beginning of developments that have been anticipated in the book. &lt;a href=&quot;https://en.wikipedia.org/wiki/Artificial_intelligence&quot;&gt;AI&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Cyborg&quot;&gt;Cyborgs&lt;/a&gt; and Genetic Modifications are all on the horizon.&lt;/p&gt;
-
-&lt;p&gt;We live in interesting times of Sci-Fi reality.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;1: &lt;a href=&quot;https://www.tandfonline.com/doi/abs/10.1080/10570319909374648&quot;&gt;The varieties of cyberspace: Problems in definition and delimitation&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;2: &lt;a href=&quot;https://kunstkritikk.com/the-reinvention-of-cyberspace/&quot;&gt;The (Re)invention of Cyberspace&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;3: &lt;a href=&quot;http://www.iwar.org.uk/iwar/resources/5th-dimension/iw.htm&quot;&gt;The Fifth Dimension of Warfare&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;4: &lt;a href=&quot;https://worldview.stratfor.com/article/virtual-reality-changing-nature-war#axzz38BcIZKVM&quot;&gt;Is Virtual Reality Changing the Nature of War?&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;5: &lt;a href=&quot;https://news.softpedia.com/news/nato-declares-cyber-as-official-battleground-next-to-air-sea-and-land-505388.shtml&quot;&gt;NATO Declares Cyber an Official Warfare Battleground&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;6: &lt;a href=&quot;https://www.harpercollins.com/9780061962233/cyber-war/&quot;&gt;Cyber War&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:7&quot;&gt;
-      &lt;p&gt;7: &lt;a href=&quot;https://www.amazon.com/Cyberdeterrence-Cyberwar-Martin-C-Libicki/dp/0833047345&quot;&gt;Cyberdeterrence and Cyberwar&lt;/a&gt; &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:8&quot;&gt;
-      &lt;p&gt;8: &lt;a href=&quot;https://apps.dtic.mil/dtic/tr/fulltext/u2/a600813.pdf&quot;&gt;International Acceptance of Kinetic Operations in Response to a Cyber Attack&lt;/a&gt; &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:9&quot;&gt;
-      &lt;p&gt;9: &lt;a href=&quot;https://www.zdnet.com/article/in-a-first-israel-responds-to-hamas-hackers-with-an-air-strike/&quot;&gt;In a first, Israel responds to Hamas hackers with an air strike&lt;/a&gt; &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/cyber-warfare-domain/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/cyber-warfare-domain/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
-        
-        <category>scifi</category>
         
         
       </item>
