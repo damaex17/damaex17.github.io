@@ -5,13 +5,13 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Aug 2019 12:03:28 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Aug 2019 12:03:28 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Aug 2019 06:20:30 +0000</pubDate>
+    <lastBuildDate>Thu, 08 Aug 2019 06:20:30 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>PGP - The Web of Trust is Dead</title>
-        <description>&lt;p&gt;Pretty Good Privacy was committed to making good encryption available to everyone. The used crypto was revolutinary the time. But one of the big problems with key encryption persisted: How do I get the right key from the person I don’t know?&lt;/p&gt;
+        <description>&lt;p&gt;Pretty Good Privacy was committed to making good encryption available to everyone. The used crypto was revolutinary at the time. But one of the big problems with key encryption persisted: How do I get the right key from the person I don’t know?&lt;/p&gt;
 
 &lt;h3 id=&quot;web-of-trust&quot;&gt;Web of Trust&lt;/h3&gt;
 
