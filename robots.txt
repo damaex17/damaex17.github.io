@@ -1,1 +1,2 @@
 Sitemap: https://inversegravity.net/sitemap.xml
+User-Agent: *
