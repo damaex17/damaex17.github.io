@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Oct 2019 18:43:23 +0000</pubDate>
-    <lastBuildDate>Tue, 08 Oct 2019 18:43:23 +0000</lastBuildDate>
+    <pubDate>Tue, 08 Oct 2019 18:45:40 +0000</pubDate>
+    <lastBuildDate>Tue, 08 Oct 2019 18:45:40 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -113,25 +113,25 @@
       &lt;td style=&quot;text-align: right&quot;&gt;32&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Case insensitive Latin alphabet (a–z or A–Z)&lt;/td&gt;
+      &lt;td&gt;case insensitive Latin alphabet (a–z or A–Z)&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;26&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;4.700 bits&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;28&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Case sensitive Latin alphabet (a–z, A–Z)&lt;/td&gt;
+      &lt;td&gt;case sensitive Latin alphabet (a–z, A–Z)&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;52&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;5.700 bits&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;23&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Case sensitive alphanumeric (a–z, A–Z, 0–9)&lt;/td&gt;
+      &lt;td&gt;case sensitive alphanumeric (a–z, A–Z, 0–9)&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;62&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;5.954 bits&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;22&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;All ASCII printable characters&lt;/td&gt;
+      &lt;td&gt;all ASCII printable characters&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;95&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;6.570 bits&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;20&lt;/td&gt;
