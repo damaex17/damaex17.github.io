@@ -5,9 +5,75 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Oct 2019 18:47:38 +0000</pubDate>
-    <lastBuildDate>Tue, 08 Oct 2019 18:47:38 +0000</lastBuildDate>
+    <pubDate>Wed, 09 Oct 2019 18:50:38 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Oct 2019 18:50:38 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Cryptographic Deletion</title>
+        <description>&lt;p&gt;Recent advances in privacy laws and regulations like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Right_to_be_forgotten&quot;&gt;right to be forgotten&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/General_Data_Protection_Regulation&quot;&gt;GDPR&lt;/a&gt; show that secure deletion is becoming a requirement in many areas.&lt;/p&gt;
+
+&lt;p&gt;Companies and organizations usually don’t consider this when using today’s cloud storage services. Established processes for the &lt;a href=&quot;https://www.simsrecycling.com/reuse/data-destruction/&quot;&gt;secure deletion of on-site storage&lt;/a&gt; do not apply to the cloud storage service of choice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/deletion.jpg&quot; alt=&quot;a picture showing a person burning a paper&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;deletion-of-data&quot;&gt;Deletion of Data&lt;/h3&gt;
+
+&lt;p&gt;In a unix-style filesystem, every file or directory (technically there is no difference between them) has an inode. This inode contains all of the metadata like the owner or the creation date. The inode also contains a list of all the blocks in which a file is stored. Those blocks are called data blocks.&lt;/p&gt;
+
+&lt;p&gt;The deletion of data means that the inode information is removed. The data blocks remain - but no inode is pointing to them and the filesystem will overwrite them eventually. This means that the actual data is recoverable until the data blocks are used again by a new file.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-sanitization&quot;&gt;Data Sanitization&lt;/h3&gt;
+
+&lt;p&gt;Data sanitization is the process of deliberately, permanently and irreversibly removing or destroying the data stored on a device and make it unrecoverable. A device that has been sanitized has no usable data. Even advanced forensic tools will not be able to recover any data.&lt;/p&gt;
+
+&lt;p&gt;There are three methods to achieve &lt;a href=&quot;https://www.datasanitization.org/data-sanitization-terminology/#data-sanitization&quot;&gt;data sanitization&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;physical destruction&lt;/li&gt;
+  &lt;li&gt;cryptographic erasure&lt;/li&gt;
+  &lt;li&gt;data erasure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;deletion-in-the-cloud&quot;&gt;Deletion in the cloud&lt;/h3&gt;
+
+&lt;p&gt;Cloud providers use abstraction to map physical resources to logical endpoints. The resulting pool of virtual resources is used for servers, storage systems, or networks. This enables customers to scale their workload easily across multiple physical devices but makes it very difficult to verify the location and absolute state of an object.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;a picture showing a operation centre&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cloud-based storage solutions are a popular service today. But the adoption of such storage services challenges organizations in regards to secure data deletion.&lt;/p&gt;
+
+&lt;p&gt;In a cloud storage scenario, the data sanitization methods of physical destruction and data erasure are no longer applicable. Physical devices are shared amongst different applications or even customers and cloud providers use complex tiered-storage setups.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://help.dropbox.com/files-folders/restore-delete/delete-files&quot;&gt;Dropbox&lt;/a&gt; or &lt;a href=&quot;https://cloud.google.com/security/deletion/&quot;&gt;google cloud storage&lt;/a&gt; inform about their secure deletion and hardware decommission concepts. None are deleting immediate or verifiable.&lt;/p&gt;
+
+&lt;h3 id=&quot;cryptographic-deletion&quot;&gt;Cryptographic Deletion&lt;/h3&gt;
+
+&lt;p&gt;Cryptographic deletion or crypto-shredding is the practice of deliberately deleting or overwriting the decryption key for encrypted data. Effectively making the data unreadable until the encryption protocol used is broken or being brute-forced.&lt;/p&gt;
+
+&lt;p&gt;Crypto-shredding is an effective technique for the cloud since it ensures that any data in storage that’s outside of an organization’s physical control is unreadable once the keys are unavailable.&lt;/p&gt;
+
+&lt;p&gt;Consider the following for cryptographic deletion:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a strong &lt;a href=&quot;/2019/crypto-symmetric/&quot;&gt;symmetric encryption algorithm&lt;/a&gt; like AES-256-CBC&lt;/li&gt;
+  &lt;li&gt;only store sensitive data that you need (&lt;a href=&quot;https://gdpr-info.eu/art-5-gdpr/&quot;&gt;Art. 5 GDRP 1c&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;consider BYOE (&lt;a href=&quot;https://en.wikipedia.org/wiki/Bring_your_own_encryption&quot;&gt;bring your own encryption&lt;/a&gt;) and vendor lock-in with cloud providers crypto services&lt;/li&gt;
+  &lt;li&gt;document your approach for the authorities&lt;/li&gt;
+  &lt;li&gt;crypto-shredding is only as good as the deletion of the key (consider backups)&lt;/li&gt;
+  &lt;li&gt;the unpredictable pace of technological development could render many encryption methods unreliable in the future&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/cryptographic-deletion/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/cryptographic-deletion/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>PGP - The Web of Trust is Dead</title>
@@ -1180,132 +1246,6 @@ Bob then send &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; to 
         <category>security</category>
         
         <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Data Classification</title>
-        <description>&lt;p&gt;Data is the oil of the 21st century. Information, knowledge, and data are all closely related concepts, but each has its own role in relation to the other. In this article I will treat them as one. [&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;].&lt;/p&gt;
-
-&lt;h3 id=&quot;why-is-the-classification-of-data-important&quot;&gt;Why is the classification of data important?&lt;/h3&gt;
-
-&lt;p&gt;It is inefficient to treat all data the same way when implementing protection for the data assets of an organization. Securing everything with few or no safeguards (controls) means sensitive data might get exposed. Securing everything at a high-security level is expensive and restricts access to noncritical data.&lt;/p&gt;
-
-&lt;p&gt;The classification of data is helpful to determine how much effort, resources, and money is allocated to protect data and control access to it. It is important to classify the protection level of data with the input from legal, regulatory, business, and technical experts.&lt;/p&gt;
-
-&lt;p&gt;Categorization is the process of organizing objects into groups with similarities. The similarities can be value, sensitivity, risk, vulnerability, or damage upon loss. Classification is used to provide mechanisms for processing, storing, or transferring data and also defines how data is removed or destroyed.&lt;/p&gt;
-
-&lt;p&gt;Declassification is required once an object no longer matches the similarities of other objects in the same category. Without declassification, resources are wasted.&lt;/p&gt;
-
-&lt;p&gt;The benefits of using data classification schemes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;It assists in identifying assets that are most critical and valuable to an organization&lt;/li&gt;
-  &lt;li&gt;It demonstrates an organizations commitment to protecting valuable resources and assets&lt;/li&gt;
-  &lt;li&gt;It helps in the selection of protection mechanisms&lt;/li&gt;
-  &lt;li&gt;It is often required for regulatory and legal compliance&lt;/li&gt;
-  &lt;li&gt;It assists in defining access levels for authorized users&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/data.jpg&quot; alt=&quot;picture representing data&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The two commonly used classification schemes are government/military and commercial business/private sector classification levels.&lt;/p&gt;
-
-&lt;h3 id=&quot;government-and-military-classification-scheme&quot;&gt;Government and Military Classification Scheme&lt;/h3&gt;
-
-&lt;p&gt;There are five levels of classification in this scheme. This scheme varies from country to country. [&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;]&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;High&lt;/td&gt;
-      &lt;td&gt;Top Secret&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;Secret&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;Confidential&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;Sensitive but unclassified&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Low&lt;/td&gt;
-      &lt;td&gt;Unclassified&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Top Secret&lt;/strong&gt; is the highest level of classification. The disclosure of top-secret data will cause &lt;em&gt;serious&lt;/em&gt; damage to national security. This category of data/information is only provided on a need-to-know basis to users. Even users with top-secret clearance will not get access to data until the user has to know.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Secret&lt;/strong&gt; is used for data of a restricted category. Disclosure of secret data will have a &lt;em&gt;significant&lt;/em&gt; effect on national security.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Confidential&lt;/strong&gt; classification is used for all data between secret and sensitive but unclassified. The disclosure of confidential data will have a &lt;em&gt;serious&lt;/em&gt; effect on national security.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sensitive But Unclassified&lt;/strong&gt; is used for data that is for internal use or office use only. SBU is often used for data that violates the privacy rights of individuals.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Unclassified&lt;/strong&gt; is data that is neither sensitive nor classified.&lt;/p&gt;
-
-&lt;p&gt;Revealing the classification label of classified data is already considered a violation of the protection level. Top Secret, Secret and Confidential data are therefore commonly called &lt;em&gt;classified data&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;commercial-business-and-private-sector-classification-levels&quot;&gt;Commercial Business And Private Sector Classification Levels&lt;/h3&gt;
-
-&lt;p&gt;There are only 3 levels in this classification scheme. The scheme can be adapted to a specific use-case. The University of Berkley is, for example, categorizing data in 4 levels [&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;].&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;High&lt;/td&gt;
-      &lt;td&gt;Confidential/Private&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;Sensitive&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Low&lt;/td&gt;
-      &lt;td&gt;Public&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Confidential&lt;/strong&gt; is used for data that is extremely sensitive and for internal use only. A &lt;em&gt;significant&lt;/em&gt; negative impact for the organization will occur upon disclosure of data in this category. Another term for this level of classification is &lt;strong&gt;proprietary&lt;/strong&gt;. If proprietary data is lost, it can have an effect on the competitive advantage of a company.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Private&lt;/strong&gt; is used for data that is of a private or personal nature. It is intended for internal use only. The disclosure of private data will have a negative impact on the company or individuals.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sensitive&lt;/strong&gt; is used for data that is not intended for the public.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Public&lt;/strong&gt; is the lowest classification level. It is used for all data that does not match the higher levels.&lt;/p&gt;
-
-&lt;h3 id=&quot;ownership-of-data&quot;&gt;Ownership of Data&lt;/h3&gt;
-
-&lt;p&gt;Ownership has to be considered in the context of data classification. It can override all other forms of access control. Any operating system or application where files or other types of objects can be assigned to an owner has to be taken into consideration and a security policy has to be enforced to help categorize the content. An owner has full capabilities and privileges over an object they own. The ability to take ownership is often only granted to the most powerful user in an operating system (eg Linux root user or Windows Administrator) or to the creator of an object/file (Goole Docs).&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;1: &lt;a href=&quot;https://en.wikipedia.org/wiki/Data&quot;&gt;Data - From Wikipedia, the free encyclopedia&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;2: &lt;a href=&quot;https://en.wikipedia.org/wiki/Classified_information&quot;&gt;Classified information - From Wikipedia, the free encyclopedia&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;3: &lt;a href=&quot;https://security.berkeley.edu/data-classification-standard&quot;&gt;Berkely Information Security and Policy&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/data-classification/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/data-classification/</guid>
-        
-        <category>security</category>
         
         
       </item>
