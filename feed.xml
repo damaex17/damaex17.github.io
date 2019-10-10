@@ -5,15 +5,15 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Oct 2019 18:50:38 +0000</pubDate>
-    <lastBuildDate>Wed, 09 Oct 2019 18:50:38 +0000</lastBuildDate>
+    <pubDate>Thu, 10 Oct 2019 05:34:12 +0000</pubDate>
+    <lastBuildDate>Thu, 10 Oct 2019 05:34:12 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Cryptographic Deletion</title>
-        <description>&lt;p&gt;Recent advances in privacy laws and regulations like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Right_to_be_forgotten&quot;&gt;right to be forgotten&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/General_Data_Protection_Regulation&quot;&gt;GDPR&lt;/a&gt; show that secure deletion is becoming a requirement in many areas.&lt;/p&gt;
+        <description>&lt;p&gt;Recent advances in privacy laws and regulations like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Right_to_be_forgotten&quot;&gt;right to be forgotten&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/General_Data_Protection_Regulation&quot;&gt;GDPR&lt;/a&gt; show that secure deletion is becoming a requirement for organizations.&lt;/p&gt;
 
-&lt;p&gt;Companies and organizations usually don’t consider this when using today’s cloud storage services. Established processes for the &lt;a href=&quot;https://www.simsrecycling.com/reuse/data-destruction/&quot;&gt;secure deletion of on-site storage&lt;/a&gt; do not apply to the cloud storage service of choice.&lt;/p&gt;
+&lt;p&gt;But companies usually don’t consider this when using today’s cloud storage services. Established processes for the &lt;a href=&quot;https://www.simsrecycling.com/reuse/data-destruction/&quot;&gt;secure deletion of on-site storage&lt;/a&gt; do not apply to the cloud storage service of choice.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/deletion.jpg&quot; alt=&quot;a picture showing a person burning a paper&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
@@ -21,7 +21,7 @@
 
 &lt;p&gt;In a unix-style filesystem, every file or directory (technically there is no difference between them) has an inode. This inode contains all of the metadata like the owner or the creation date. The inode also contains a list of all the blocks in which a file is stored. Those blocks are called data blocks.&lt;/p&gt;
 
-&lt;p&gt;The deletion of data means that the inode information is removed. The data blocks remain - but no inode is pointing to them and the filesystem will overwrite them eventually. This means that the actual data is recoverable until the data blocks are used again by a new file.&lt;/p&gt;
+&lt;p&gt;The deletion command of data removes the inode information. The data blocks remain - no inode is pointing to them and the filesystem will overwrite them eventually. This means that the actual data is recoverable until the data blocks are used again by a new file.&lt;/p&gt;
 
 &lt;h3 id=&quot;data-sanitization&quot;&gt;Data Sanitization&lt;/h3&gt;
 
@@ -49,7 +49,7 @@
 
 &lt;h3 id=&quot;cryptographic-deletion&quot;&gt;Cryptographic Deletion&lt;/h3&gt;
 
-&lt;p&gt;Cryptographic deletion or crypto-shredding is the practice of deliberately deleting or overwriting the decryption key for encrypted data. Effectively making the data unreadable until the encryption protocol used is broken or being brute-forced.&lt;/p&gt;
+&lt;p&gt;Cryptographic deletion or crypto-shredding is the practice of deliberately deleting or overwriting the decryption key for encrypted data. Effectively making the data unreadable until the deployed encryption protocol is broken or being brute-forced.&lt;/p&gt;
 
 &lt;p&gt;Crypto-shredding is an effective technique for the cloud since it ensures that any data in storage that’s outside of an organization’s physical control is unreadable once the keys are unavailable.&lt;/p&gt;
 
@@ -57,10 +57,10 @@
 
 &lt;ul&gt;
   &lt;li&gt;a strong &lt;a href=&quot;/2019/crypto-symmetric/&quot;&gt;symmetric encryption algorithm&lt;/a&gt; like AES-256-CBC&lt;/li&gt;
-  &lt;li&gt;only store sensitive data that you need (&lt;a href=&quot;https://gdpr-info.eu/art-5-gdpr/&quot;&gt;Art. 5 GDRP 1c&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;consider BYOE (&lt;a href=&quot;https://en.wikipedia.org/wiki/Bring_your_own_encryption&quot;&gt;bring your own encryption&lt;/a&gt;) and vendor lock-in with cloud providers crypto services&lt;/li&gt;
-  &lt;li&gt;document your approach for the authorities&lt;/li&gt;
-  &lt;li&gt;crypto-shredding is only as good as the deletion of the key (consider backups)&lt;/li&gt;
+  &lt;li&gt;only store the sensitive data that you need (&lt;a href=&quot;https://gdpr-info.eu/art-5-gdpr/&quot;&gt;Art. 5 GDRP 1c&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;consider BYOE (&lt;a href=&quot;https://en.wikipedia.org/wiki/Bring_your_own_encryption&quot;&gt;bring your own encryption&lt;/a&gt;) and avoid vendor lock-in with cloud providers crypto services&lt;/li&gt;
+  &lt;li&gt;document your approach for the authorities and verify the key deletion&lt;/li&gt;
+  &lt;li&gt;crypto-shredding is only as good as the deletion of the key (consider key backups)&lt;/li&gt;
   &lt;li&gt;the unpredictable pace of technological development could render many encryption methods unreliable in the future&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -208,7 +208,8 @@
 &lt;p&gt;I wrote a short python script to calculate the entropy of a random password:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/python3
-&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;argparse&lt;/span&gt;
+&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;argparse&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argparse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ArgumentParser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
