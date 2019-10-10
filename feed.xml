@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Oct 2019 05:34:12 +0000</pubDate>
-    <lastBuildDate>Thu, 10 Oct 2019 05:34:12 +0000</lastBuildDate>
+    <pubDate>Thu, 10 Oct 2019 05:39:21 +0000</pubDate>
+    <lastBuildDate>Thu, 10 Oct 2019 05:39:21 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -205,7 +205,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;I wrote a short python script to calculate the entropy of a random password:&lt;/p&gt;
+&lt;p&gt;I wrote a short python script to calculate the theoretical entropy of a random password:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/python3
 &lt;/span&gt;
