@@ -5,15 +5,15 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Oct 2019 07:29:57 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Oct 2019 07:29:57 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Oct 2019 09:15:42 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Oct 2019 09:15:42 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Cryptographic Deletion</title>
-        <description>&lt;p&gt;Recent advances in privacy laws and regulations like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Right_to_be_forgotten&quot;&gt;right to be forgotten&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/General_Data_Protection_Regulation&quot;&gt;GDPR&lt;/a&gt; show that secure deletion is becoming a requirement for organizations.&lt;/p&gt;
+        <description>&lt;h5 id=&quot;recent-advances-in-privacy-laws-and-regulations-like-the-right-to-be-forgotten-or-gdpr-show-that-secure-deletion-is-becoming-a-requirement-for-organizations&quot;&gt;Recent advances in privacy laws and regulations like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Right_to_be_forgotten&quot;&gt;right to be forgotten&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/General_Data_Protection_Regulation&quot;&gt;GDPR&lt;/a&gt; show that secure deletion is becoming a requirement for organizations.&lt;/h5&gt;
 
-&lt;p&gt;Most companies don’t consider this when using today’s cloud storage services. Established processes for the &lt;a href=&quot;https://www.simsrecycling.com/reuse/data-destruction/&quot;&gt;secure deletion of on-site storage&lt;/a&gt; do not apply to the cloud storage service of choice.&lt;/p&gt;
+&lt;h5 id=&quot;most-companies-dont-consider-this-when-using-todays-cloud-storage-services-established-processes-for-the-secure-deletion-of-on-site-storage-do-not-apply-to-the-cloud-storage-service-of-choice&quot;&gt;Most companies don’t consider this when using today’s cloud storage services. Established processes for the &lt;a href=&quot;https://www.simsrecycling.com/reuse/data-destruction/&quot;&gt;secure deletion of on-site storage&lt;/a&gt; do not apply to the cloud storage service of choice.&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/deletion.jpg&quot; alt=&quot;a picture showing a person burning a paper&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
@@ -77,7 +77,7 @@
     
       <item>
         <title>PGP - The Web of Trust is Dead</title>
-        <description>&lt;p&gt;Pretty Good Privacy was committed to making good encryption available to everyone. The used crypto was revolutinary at the time. But one of the big problems with key encryption persisted: How do I get the right key from the person I don’t know?&lt;/p&gt;
+        <description>&lt;h5 id=&quot;pretty-good-privacy-was-committed-to-making-good-encryption-available-to-everyone-the-used-crypto-was-revolutinary-at-the-time-but-one-of-the-big-problems-with-key-encryption-persisted-how-do-i-get-the-right-key-from-the-person-i-dont-know&quot;&gt;Pretty Good Privacy was committed to making good encryption available to everyone. The used crypto was revolutinary at the time. But one of the big problems with key encryption persisted: How do I get the right key from the person I don’t know?&lt;/h5&gt;
 
 &lt;h3 id=&quot;web-of-trust&quot;&gt;Web of Trust&lt;/h3&gt;
 
@@ -120,7 +120,7 @@
     
       <item>
         <title>Password Entropy</title>
-        <description>&lt;p&gt;Entropy is a way to express the unpredictability of a character or string. It is based on the number of characters (the set) and the length of a given string.&lt;/p&gt;
+        <description>&lt;h5 id=&quot;entropy-is-a-way-to-express-the-unpredictability-of-a-character-or-string-it-is-based-on-the-number-of-characters-the-set-and-the-length-of-a-given-string&quot;&gt;Entropy is a way to express the unpredictability of a character or string. It is based on the number of characters (the set) and the length of a given string.&lt;/h5&gt;
 
 &lt;p&gt;One can think of entropy as the randomness of a string. A password with high entropy is theoretically harder to brute force.&lt;/p&gt;
 
@@ -253,9 +253,7 @@
     
       <item>
         <title>Adaptive Transaction Security by Contact Frequency</title>
-        <description>&lt;h3 id=&quot;adaptive-security&quot;&gt;Adaptive Security&lt;/h3&gt;
-
-&lt;p&gt;Adaptive security is traditionally a network security model to accommodate for the increasing complexity of threats targeting the network of organizations. &lt;a href=&quot;https://en.wikipedia.org/wiki/Intrusion_detection_system&quot;&gt;Intrusion Detection Systems&lt;/a&gt;, for example, are one application of adaptive security and use a heuristic system that correlates information to make recommendations rather than using hard blocking rules as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Firewall_(computing)&quot;&gt;Firewall&lt;/a&gt; does.&lt;/p&gt;
+        <description>&lt;h5 id=&quot;adaptive-security-is-traditionally-a-network-security-model-to-accommodate-for-the-increasing-complexity-of-threats-targeting-the-network-of-organizations-intrusion-detection-systems-for-example-are-one-application-of-adaptive-security-and-use-a-heuristic-system-that-correlates-information-to-make-recommendations-rather-than-using-hard-blocking-rules-as-a-firewall-does&quot;&gt;Adaptive security is traditionally a network security model to accommodate for the increasing complexity of threats targeting the network of organizations. &lt;a href=&quot;https://en.wikipedia.org/wiki/Intrusion_detection_system&quot;&gt;Intrusion Detection Systems&lt;/a&gt;, for example, are one application of adaptive security and use a heuristic system that correlates information to make recommendations rather than using hard blocking rules as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Firewall_(computing)&quot;&gt;Firewall&lt;/a&gt; does.&lt;/h5&gt;
 
 &lt;p&gt;Generally, Adaptive Security is an approach to cybersecurity that analyzes behaviors and events to continuously assess risk and automatically provide proportional enforcement that can be dialed up or down.&lt;/p&gt;
 
@@ -326,7 +324,7 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
     
       <item>
         <title>Cryptography - Applications</title>
-        <description>&lt;p&gt;This is the last article in my series about cryptography. Now that we covered the crypto basics with various cryptographic algorithms, digital signatures, and public-key infrastructure, we can take a look at applied cryptography.&lt;/p&gt;
+        <description>&lt;h5 id=&quot;this-is-the-last-article-in-my-series-about-cryptography-now-that-we-covered-the-crypto-basics-with-various-cryptographic-algorithms-digital-signatures-and-public-key-infrastructure-we-can-take-a-look-at-applied-cryptography&quot;&gt;This is the last article in my series about cryptography. Now that we covered the crypto basics with various cryptographic algorithms, digital signatures, and public-key infrastructure, we can take a look at applied cryptography.&lt;/h5&gt;
 
 &lt;p&gt;&lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;First Part: Cryptography - History and Basics&lt;/a&gt;&lt;/p&gt;
 
@@ -591,7 +589,7 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
     
       <item>
         <title>Cryptography - Hash Functions &amp; Digital Signatures</title>
-        <description>&lt;p&gt;Welcome to the fourth posting in a series about cryptography. This article is about hash functions and digital signatures.&lt;/p&gt;
+        <description>&lt;h5 id=&quot;welcome-to-the-fourth-posting-in-a-series-about-cryptography-this-article-is-about-hash-functions-and-digital-signatures&quot;&gt;Welcome to the fourth posting in a series about cryptography. This article is about hash functions and digital signatures.&lt;/h5&gt;
 
 &lt;p&gt;&lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;First Part: Cryptography - History and Basics&lt;/a&gt;&lt;/p&gt;
 
@@ -783,9 +781,9 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
     
       <item>
         <title>Personnel Security</title>
-        <description>&lt;p&gt;Humans are the weakest element in any security solution. No matter what physical or logical controls are deployed, humans will discover ways to avoid, circumvent, subvert or disable them. Insider threats originate from past or present employees, contractors or business partners. They can misuse their inside knowledge or access to harm people, customers, assets or reputation.&lt;/p&gt;
+        <description>&lt;h5 id=&quot;humans-are-the-weakest-element-in-any-security-solution-no-matter-what-physical-or-logical-controls-are-deployed-humans-will-discover-ways-to-avoid-circumvent-subvert-or-disable-them-insider-threats-originate-from-past-or-present-employees-contractors-or-business-partners-they-can-misuse-their-inside-knowledge-or-access-to-harm-people-customers-assets-or-reputation&quot;&gt;Humans are the weakest element in any security solution. No matter what physical or logical controls are deployed, humans will discover ways to avoid, circumvent, subvert or disable them. Insider threats originate from past or present employees, contractors or business partners. They can misuse their inside knowledge or access to harm people, customers, assets or reputation.&lt;/h5&gt;
 
-&lt;p&gt;To apply security governance, an organization has to address the weakest link in the security chain - people.&lt;/p&gt;
+&lt;h5 id=&quot;to-apply-security-governance-an-organization-has-to-address-the-weakest-link-in-the-security-chain---people&quot;&gt;To apply security governance, an organization has to address the weakest link in the security chain - people.&lt;/h5&gt;
 
 &lt;p&gt;Issues, compromises, and problems related to humans occur at all stages and on all levels of an organization. People are involved throughout the development, implementation, and administration of a security solution and therefore have to be evaluated regarding their effect on the process.&lt;/p&gt;
 
@@ -853,7 +851,7 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
     
       <item>
         <title>Cryptography - Asymmetric Key Algorithms</title>
-        <description>&lt;p&gt;This post is the third in my series about cryptography. We will be diving into public-key cryptography with all its strength, weaknesses and implementations.&lt;/p&gt;
+        <description>&lt;h5 id=&quot;this-post-is-the-third-in-my-series-about-cryptography-we-will-be-diving-into-public-key-cryptography-with-all-its-strength-weaknesses-and-implementations&quot;&gt;This post is the third in my series about cryptography. We will be diving into public-key cryptography with all its strength, weaknesses and implementations.&lt;/h5&gt;
 
 &lt;p&gt;&lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;First Part: Cryptography - History and Basics&lt;/a&gt;&lt;/p&gt;
 
@@ -989,7 +987,7 @@ Bob then send &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; to 
     
       <item>
         <title>Cryptography - Symmetric Key Algorithms</title>
-        <description>&lt;p&gt;This post is the second in a series about cryptography. This time we look at symmetric cryptography, the advantages, disadvantages, and implementations.&lt;/p&gt;
+        <description>&lt;h5 id=&quot;this-post-is-the-second-in-a-series-about-cryptography-this-time-we-look-at-symmetric-cryptography-the-advantages-disadvantages-and-implementations&quot;&gt;This post is the second in a series about cryptography. This time we look at symmetric cryptography, the advantages, disadvantages, and implementations.&lt;/h5&gt;
 
 &lt;p&gt;&lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;First Part: Cryptography - History and Basics&lt;/a&gt;&lt;/p&gt;
 
