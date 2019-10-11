@@ -5,15 +5,15 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Oct 2019 14:22:03 +0000</pubDate>
-    <lastBuildDate>Thu, 10 Oct 2019 14:22:03 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Oct 2019 07:29:57 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Oct 2019 07:29:57 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Cryptographic Deletion</title>
         <description>&lt;p&gt;Recent advances in privacy laws and regulations like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Right_to_be_forgotten&quot;&gt;right to be forgotten&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/General_Data_Protection_Regulation&quot;&gt;GDPR&lt;/a&gt; show that secure deletion is becoming a requirement for organizations.&lt;/p&gt;
 
-&lt;p&gt;But companies usually don’t consider this when using today’s cloud storage services. Established processes for the &lt;a href=&quot;https://www.simsrecycling.com/reuse/data-destruction/&quot;&gt;secure deletion of on-site storage&lt;/a&gt; do not apply to the cloud storage service of choice.&lt;/p&gt;
+&lt;p&gt;Most companies don’t consider this when using today’s cloud storage services. Established processes for the &lt;a href=&quot;https://www.simsrecycling.com/reuse/data-destruction/&quot;&gt;secure deletion of on-site storage&lt;/a&gt; do not apply to the cloud storage service of choice.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/deletion.jpg&quot; alt=&quot;a picture showing a person burning a paper&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
@@ -21,7 +21,7 @@
 
 &lt;p&gt;In a unix-style filesystem, every file or directory (technically there is no difference between them) has an inode. This inode contains all of the metadata like the owner or the creation date. The inode also contains a list of all the blocks in which a file is stored. Those blocks are called data blocks.&lt;/p&gt;
 
-&lt;p&gt;The deletion command of data removes the inode information. The data blocks remain - no inode is pointing to them and the filesystem will overwrite them eventually. This means that the actual data is recoverable until the data blocks are used again by a new file.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://linux.die.net/man/1/rm&quot;&gt;default linux delete command&lt;/a&gt; removes just the inode information. The data blocks remain - no inode is pointing to them and the filesystem will overwrite them eventually. This means that the actual data is recoverable until the data blocks are used again by a new file.&lt;/p&gt;
 
 &lt;h3 id=&quot;data-sanitization&quot;&gt;Data Sanitization&lt;/h3&gt;
 
