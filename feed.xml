@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Oct 2019 14:31:40 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Oct 2019 14:31:40 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Oct 2019 14:40:19 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Oct 2019 14:40:19 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -21,7 +21,7 @@
 
 &lt;h3 id=&quot;the-goal-of-the-top-10&quot;&gt;The Goal of the Top 10&lt;/h3&gt;
 
-&lt;p&gt;The goal of the list is to raise awareness of security issue application development. Avoiding common mistakes people make when they’re inexperienced, or don’t know any better.&lt;/p&gt;
+&lt;p&gt;The goal of the list is to raise awareness of security issues in application development. Avoiding common mistakes people make when they’re inexperienced, or don’t know any better.&lt;/p&gt;
 
 &lt;p&gt;SQL injection, and cross-site scripting vulnerabilities are regularly exploited and there is no sign of that changing anytime soon. The Top 10 makes people aware of those threats when writing code or auditing others.&lt;/p&gt;
 
