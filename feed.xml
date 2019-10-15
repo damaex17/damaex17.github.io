@@ -5,9 +5,83 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Oct 2019 09:15:42 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Oct 2019 09:15:42 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Oct 2019 14:21:26 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Oct 2019 14:21:26 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>OWASP Top 10 Application Security Risks</title>
+        <description>&lt;h5 id=&quot;the-open-web-application-security-project-owasp-a-nonprofit-was-founded-in-2001-and-is-a-community-that-produces-freely-available-documentation-tools-articles-and-methodologies-in-the-field-of-security-and-risk-the-owasp-top-10-application-security-risk-list-was-first-published-in-2003-and-is-probably-the-closest-that-the-development-community-has-ever-come-to-a-set-of-rules-on-how-to-keep-their-products-secure&quot;&gt;The Open Web Application Security Project (&lt;a href=&quot;https://www.owasp.org/index.php/Main_Page&quot;&gt;OWASP&lt;/a&gt;), a nonprofit, was founded in 2001 and is a community that produces freely-available documentation, tools, articles, and methodologies in the field of security and risk. The “&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks&quot;&gt;OWASP Top 10 Application Security Risk&lt;/a&gt;” list was first published in 2003 and is probably the closest that the development community has ever come to a set of rules on how to keep their products secure.&lt;/h5&gt;
+
+&lt;p&gt;The Top 10 list focuses on identifying the most serious web application security risks for a broad array of organizations. For each of these risks, generic information about the likelihood and technical impact is provided which is based on the &lt;a href=&quot;https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology&quot;&gt;OWASP Risk Rating Methodology&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/owasp_1.jpg&quot; alt=&quot;a picture showing a wasp&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many standards and organizations reference the Top 10 project, including but not limited to &lt;a href=&quot;https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard&quot;&gt;PCI DSS&lt;/a&gt; or the &lt;a href=&quot;https://en.wikipedia.org/wiki/Federal_Trade_Commission&quot;&gt;FTC&lt;/a&gt;. The latest version of the list was released in 2017.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-goal-of-the-top-10&quot;&gt;The Goal of the Top 10&lt;/h3&gt;
+
+&lt;p&gt;The goal of the list is to raise awareness of security issue application development. Avoiding common mistakes people make when they’re inexperienced, or don’t know any better.&lt;/p&gt;
+
+&lt;p&gt;SQL injection, and cross-site scripting vulnerabilities are regularly exploited and there is no sign of that changing anytime soon. The Top 10 makes people aware of those threats when writing code or auditing others.&lt;/p&gt;
+
+&lt;p&gt;OWASP’s Top 10 shouldn’t be used as a tick box exercise after the code is written and ready to be rolled out.&lt;/p&gt;
+
+&lt;p&gt;The approach of discrediting developers who fail to follow the teachings of OWASP is counterproductive and misses the goal of encouraging people to be more knowledgable about security.&lt;/p&gt;
+
+&lt;h3 id=&quot;team-culture-and-composition&quot;&gt;Team Culture and Composition&lt;/h3&gt;
+
+&lt;p&gt;Good security culture is about educating people. Giving them the knowledge and processes to stay secure. While it is always important to run QA and security checks before going live with a release, security is best baked into the product instead of built on top.&lt;/p&gt;
+
+&lt;p&gt;One increasingly trendy approach for bringing security into the heart of product development is in embedding security folks into cross-functional teams. This enables people to learn from each other and address security best practices in a less confrontational way. The OWASP Top 10 list will naturally be part of discussions in the team and awareness for common vulnerabilities will increase. The list is a great start for conversations.&lt;/p&gt;
+
+&lt;h3 id=&quot;improving-the-technologies&quot;&gt;Improving the Technologies&lt;/h3&gt;
+
+&lt;p&gt;Implementing tools along the deployment pipelines will help to amplify developers’ capabilities in addressing the OWASP Top 10 list.
+Some examples are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Software Composition Analysis to address the Security of the  &lt;a href=&quot;/2019/software-supply-chain-security/&quot;&gt;Software Supply Chain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Static Code Analysis&lt;/li&gt;
+  &lt;li&gt;Dynamic Code Analysis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Continuously applied tests and analysis provide quick feedback and is helping teams to build better and more secure products.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-2017-list&quot;&gt;The 2017 List&lt;/h3&gt;
+
+&lt;p&gt;Let’s take a look at the latest list and the meaning of the risks. The list is created from gathering the data from hundreds of organizations and over 100,000 real-world applications and APIs. The Top 10 items are selected and prioritized according to this prevalence data, in combination with consensus estimates of exploitability, detectability, and impact.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/owasp_2.png&quot; alt=&quot;owasp logo&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A1-Injection&quot;&gt;A1:2017-Injection&lt;/a&gt;&lt;/strong&gt; - Injection flaws, such as SQL, NoSQL, OS, and LDAP injection, occur when untrusted data is sent to an interpreter as part of a command or query. The attacker’s hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication&quot;&gt;A2:2017-Broken Authentication&lt;/a&gt;&lt;/strong&gt; - Application functions related to authentication and session management are often implemented incorrectly, allowing attackers to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users’ identities temporarily or permanently.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A3-Sensitive_Data_Exposure&quot;&gt;A3:2017-Sensitive Data Exposure&lt;/a&gt;&lt;/strong&gt; - Many web applications and APIs do not properly protect sensitive data, such as financial, healthcare, and PII. Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes. Sensitive data may be compromised without extra protection, such as encryption at rest or in transit, and requires special precautions when exchanged with the browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A4-XML_External_Entities_(XXE)&quot;&gt;A4:2017-XML External Entities (XXE)&lt;/a&gt;&lt;/strong&gt; - Many older or poorly configured XML processors evaluate external entity references within XML documents. External entities can be used to disclose internal files using the file URI handler, internal file shares, internal port scanning, remote code execution, and denial of service attacks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A5-Broken_Access_Control&quot;&gt;A5:2017-Broken Access Control&lt;/a&gt;&lt;/strong&gt; - Restrictions on what authenticated users are allowed to do are often not properly enforced. Attackers can exploit these flaws to access unauthorized functionality and/or data, such as access other users’ accounts, view sensitive files, modify other users’ data, change access rights, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A6-Security_Misconfiguration&quot;&gt;A6:2017-Security Misconfiguration&lt;/a&gt;&lt;/strong&gt; - Security misconfiguration is the most commonly seen issue. This is commonly a result of insecure default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages containing sensitive information. Not only must all operating systems, frameworks, libraries, and applications be securely configured, but they must be patched/upgraded in a timely fashion.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A7-Cross-Site_Scripting_(XSS)&quot;&gt;A7:2017-Cross-Site Scripting (XSS)&lt;/a&gt;&lt;/strong&gt; - XSS flaws occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript. XSS allows attackers to execute scripts in the victim’s browser which can hijack user sessions, deface web sites, or redirect the user to malicious sites.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A8-Insecure_Deserialization&quot;&gt;A8:2017-Insecure Deserialization&lt;/a&gt;&lt;/strong&gt; - Insecure deserialization often leads to remote code execution. Even if deserialization flaws do not result in remote code execution, they can be used to perform attacks, including replay attacks, injection attacks, and privilege escalation attacks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities&quot;&gt;A9:2017-Using Components with Known Vulnerabilities&lt;/a&gt;&lt;/strong&gt; - Components, such as libraries, frameworks, and other software modules, run with the same privileges as the application. If a vulnerable component is exploited, such an attack can facilitate serious data loss or server takeover. Applications and APIs using components with known vulnerabilities may undermine application defenses and enable various attacks and impacts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A10-Insufficient_Logging%26Monitoring&quot;&gt;A10:2017-Insufficient Logging&amp;amp;Monitoring&lt;/a&gt;&lt;/strong&gt; - Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/owasp-top-10/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/owasp-top-10/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Cryptographic Deletion</title>
@@ -1135,112 +1209,6 @@ Bob then send &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; to 
         <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/crypto-symmetric/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/crypto-symmetric/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cryptography - History &amp; Basics</title>
-        <description>&lt;p&gt;This post is the first in a series about cryptography. In this article, I look at the evolution of crypto and famous historical implementations.&lt;/p&gt;
-
-&lt;h3 id=&quot;history-of-cryptography&quot;&gt;History of Cryptography&lt;/h3&gt;
-
-&lt;p&gt;Speech and written communication defined the early civilizations and continuously evolved with human societies. In the beginning, humans used &lt;a href=&quot;https://en.wikipedia.org/wiki/Petroglyph&quot;&gt;Petroglyphs&lt;/a&gt;, which evolved into &lt;a href=&quot;https://en.wikipedia.org/wiki/Pictogram&quot;&gt;Pictograms&lt;/a&gt; (Hieroglyphs), and finally &lt;a href=&quot;https://en.wikipedia.org/wiki/Ideograms&quot;&gt;Ideograms&lt;/a&gt;. Today we use flash storage devices stuffed with the information of the &lt;a href=&quot;https://www.amazon.com/Scholastic-Flash-Drive-Encyclopedia-Britannica/dp/B003DKK9KK&quot;&gt;Encyclopedia Britannica&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_1.jpg&quot; alt=&quot;a picture representing encrypted data&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As long as humans have been communicating, they tried to hide the true meaning of the written word from their enemies. Ancient civilizations used complex systems of secret symbols and the evolution of those systems are the codes and ciphers we facilitate to enable private communication in our times.&lt;/p&gt;
-
-&lt;h3 id=&quot;substitution-cipher-caesar-cipher&quot;&gt;Substitution Cipher: Caesar Cipher&lt;/h3&gt;
-
-&lt;p&gt;In crypto, the Caesar cipher is one of the earliest known systems and was used by Julus Caesar to communicate with Cicero in Rome while he was conquering Europe. It is a substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a right shift of 3, A would be replaced by D, B would become E, and so on.&lt;/p&gt;
-
-&lt;p&gt;This is called ROT3 (Rotate 3) cipher and encryption/decryption is mathematically implemented by converting each letter to its decimal equivalent. A is 0 and Z is 25. The wrap-around is done by using the modulo function. (C = ciphertext, P = plaintext)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_4.png&quot; alt=&quot;a picture representing Alphabet to Number relation&quot; style=&quot;middle; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;decrypted message: &lt;strong&gt;WINTER_IS_COMING&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;math to encrypt: C = (P+3) mod 26&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_6.png&quot; alt=&quot;a picture representing Alphabet to Number relation&quot; style=&quot;middle; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;encrypted message: &lt;strong&gt;ZLQWHU_LV_FRPLQJ&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;math to decrypt: P = (C-3) mod 26&lt;/p&gt;
-
-&lt;p&gt;This cipher is easy to use but also easy to crack. It is vulnerable to &lt;em&gt;frequency analysis&lt;/em&gt; since the most common letters in the English language are E, T, A, O, N, R, I, S, and H. Attackers just need to find the common letters in the encrypted text (in my example the letter “I”) and experiment with substitution to break the cipher.&lt;/p&gt;
-
-&lt;h3 id=&quot;transposition-cipher-rail-fence-cipher-zigzag-cipher&quot;&gt;Transposition cipher: Rail Fence Cipher (ZigZag Cipher)&lt;/h3&gt;
-
-&lt;p&gt;The rail fence cipher was used by the ancient Greeks in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Scytale&quot;&gt;scytale&lt;/a&gt;, a mechanical system of producing a transposition cipher. The system consisted of a cylinder and a ribbon that was wrapped around the cylinder. The message to be encrypted was written on the coiled ribbon. The letters of the original message would be rearranged when the ribbon was uncoiled from the cylinder.&lt;/p&gt;
-
-&lt;p&gt;Another approach is to write the plain text downwards and diagonally on successive “rails” of an imaginary fence, then moving up when the bottom rail is reached. When the top rail is reached, the message is written downwards again until the whole plaintext is written out.&lt;/p&gt;
-
-&lt;p&gt;message: &lt;strong&gt;JON_SNOW_IS_A_TARGARYEN&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;3 rail fence:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_3.png&quot; alt=&quot;a picture representing Rail Fence Cypher&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;encryption with a 3 rail fence:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_2.png&quot; alt=&quot;a picture representing Rail Fence Cypher&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;encrypted message: &lt;strong&gt;JS_ARYO_NWI__AGRENOSTAN&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The message was easily decrypted when the ribbon was recoiled on a cylinder of the same diameter or by trying out multiple fence methods.&lt;/p&gt;
-
-&lt;h3 id=&quot;advanced-substitution-one-time-pads&quot;&gt;Advanced Substitution: One-Time Pads&lt;/h3&gt;
-
-&lt;p&gt;A one-time pad is an extremely powerful type of cipher and uses a different substitution alphabet for each letter of the plaintext message. It can be represented by the following function. (C = ciphertext, P = plaintext, K = encryption key)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_4.png&quot; alt=&quot;a picture representing Alphabet to Number relation&quot; style=&quot;middle; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;decrypted message: &lt;strong&gt;WINTER_IS_COMING&lt;/strong&gt; 22 08 13 19 04 17 08 18 02 14 12 08 13 06&lt;/p&gt;
-
-&lt;p&gt;one-time pad: &lt;strong&gt;ZVFXZVFXZVFXZV&lt;/strong&gt; 25 21 05 23 25 21 05 23 25 21 05 23 25 21&lt;/p&gt;
-
-&lt;p&gt;math to encrypt: C = (P+K) mod 26&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/crypto_5.png&quot; alt=&quot;a picture representing Alphabet to Number relation&quot; style=&quot;middle; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;encrypted message: &lt;strong&gt;VDSQDM_NP_BJRFNMB&lt;/strong&gt; 21 03 18 16 03 12 13 15 01 09 17 05 12 01&lt;/p&gt;
-
-&lt;p&gt;math to decrypt: P = (C-K) mod 26&lt;/p&gt;
-
-&lt;p&gt;The advantage of one-time pads is that there is no repeating pattern of alphabetic substitution. This cipher is called &lt;a href=&quot;https://en.wikipedia.org/wiki/Information-theoretic_security&quot;&gt;Information-theoretical-secure&lt;/a&gt;. It is an unbreakable encryption scheme if the following requirements are met.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The one-time pad must be randomly generated without the use of a reoccurring pattern.&lt;/li&gt;
-  &lt;li&gt;The one-time pad must be protected against disclosure. The message can be easily decrypted if the adversary has a copy of the pad.&lt;/li&gt;
-  &lt;li&gt;Each pad can only be used once (one-time). Reusing the same pad on multiple messages makes it possible to determine the key value used.&lt;/li&gt;
-  &lt;li&gt;The key must be at least as long as the message so each character of the key is used to encrypt one character of the message.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The advantage of the one-time pad is broken as soon as one of those requirements is not met. One of the major intelligence successes of the United States during the Cold War was when US cryptoanalysts broke the top-secret Soviet cryptosystem that relied on a one-time pad. The project called &lt;a href=&quot;https://en.wikipedia.org/wiki/Venona_project&quot;&gt;VENONA&lt;/a&gt; discovered a pattern in the key values. The Soviets violated rule number one of one-time pad crypto.&lt;/p&gt;
-
-&lt;p&gt;My example does it as well by just repeating the same key (ZVFX).&lt;/p&gt;
-
-&lt;p&gt;One-time pads have been used throughout history to protect sensitive communication. The major challenge of the system is the generation, distribution and, safeguarding of the key.&lt;/p&gt;
-
-&lt;h3 id=&quot;code-breaking&quot;&gt;Code Breaking&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Frequency_analysis&quot;&gt;Frequency analysis&lt;/a&gt; is the basic tool for breaking most classical ciphers. It utilizes the fact that in languages, certain letters of the alphabet appear more often than others. With a long enough ciphertext a reasonable representation count of letters can be created and ultimately the code be broken. In the 15th century the &lt;a href=&quot;https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher&quot;&gt;Vigenère cipher&lt;/a&gt; (polyalphabetic substitution aka series of interwoven Caesar ciphers) was invented and considered to be completely secure (le chiffre indéchiffrable—”the indecipherable cipher”).&lt;/p&gt;
-
-&lt;p&gt;During World War I and World War II the deciphering of messages played a significant part in the success of a campaign. The US/UK broke the &lt;a href=&quot;https://en.wikipedia.org/wiki/Lorenz_cipher&quot;&gt;Lorenz Cipher&lt;/a&gt; and the &lt;a href=&quot;https://en.wikipedia.org/wiki/Enigma_machine&quot;&gt;Enigma Machine&lt;/a&gt; which is said to have played a decisive factor in the Allied victory. The Germans broke the &lt;a href=&quot;https://en.wikipedia.org/wiki/German_code_breaking_in_World_War_II&quot;&gt;Naval Code #3 and #5&lt;/a&gt; which enabled the early successes in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Battle_of_the_Atlantic&quot;&gt;Battle of the Atlantic&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Today the Information or &lt;a href=&quot;/2019/cyber-warfare-domain/&quot;&gt;Cyber Domain&lt;/a&gt; is an official dimension of modern warfare. Intercepting the enemies communication and deciphering the information is a common theme with all major military powers.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/crypto.jpg&quot; alt=&quot;a picture representing encrypted data&quot; style=&quot;float: center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/crypto-history-basics/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/crypto-history-basics/</guid>
         
         <category>security</category>
         
