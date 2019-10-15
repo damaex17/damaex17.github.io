@@ -5,13 +5,13 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Oct 2019 14:21:26 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Oct 2019 14:21:26 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Oct 2019 14:31:40 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Oct 2019 14:31:40 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>OWASP Top 10 Application Security Risks</title>
-        <description>&lt;h5 id=&quot;the-open-web-application-security-project-owasp-a-nonprofit-was-founded-in-2001-and-is-a-community-that-produces-freely-available-documentation-tools-articles-and-methodologies-in-the-field-of-security-and-risk-the-owasp-top-10-application-security-risk-list-was-first-published-in-2003-and-is-probably-the-closest-that-the-development-community-has-ever-come-to-a-set-of-rules-on-how-to-keep-their-products-secure&quot;&gt;The Open Web Application Security Project (&lt;a href=&quot;https://www.owasp.org/index.php/Main_Page&quot;&gt;OWASP&lt;/a&gt;), a nonprofit, was founded in 2001 and is a community that produces freely-available documentation, tools, articles, and methodologies in the field of security and risk. The “&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks&quot;&gt;OWASP Top 10 Application Security Risk&lt;/a&gt;” list was first published in 2003 and is probably the closest that the development community has ever come to a set of rules on how to keep their products secure.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;the-open-web-application-security-project-owasp-was-founded-in-2001-and-is-a-community-that-produces-freely-available-documentation-tools-articles-and-methodologies-in-the-field-of-security-and-risk-the-owasp-top-10-application-security-risk-list-was-first-published-in-2003-and-is-probably-the-closest-that-the-development-community-has-ever-come-to-a-set-of-rules-on-how-to-keep-products-secure&quot;&gt;The Open Web Application Security Project (&lt;a href=&quot;https://www.owasp.org/index.php/Main_Page&quot;&gt;OWASP&lt;/a&gt;) was founded in 2001 and is a community that produces freely-available documentation, tools, articles, and methodologies in the field of security and risk. The “&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_Application_Security_Risks&quot;&gt;OWASP Top 10 Application Security Risk&lt;/a&gt;” list was first published in 2003 and is probably the closest that the development community has ever come to a set of rules on how to keep products secure.&lt;/h5&gt;
 
 &lt;p&gt;The Top 10 list focuses on identifying the most serious web application security risks for a broad array of organizations. For each of these risks, generic information about the likelihood and technical impact is provided which is based on the &lt;a href=&quot;https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology&quot;&gt;OWASP Risk Rating Methodology&lt;/a&gt;.&lt;/p&gt;
 
