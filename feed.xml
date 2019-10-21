@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Oct 2019 12:42:47 +0000</pubDate>
-    <lastBuildDate>Fri, 18 Oct 2019 12:42:47 +0000</lastBuildDate>
+    <pubDate>Mon, 21 Oct 2019 08:44:22 +0000</pubDate>
+    <lastBuildDate>Mon, 21 Oct 2019 08:44:22 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -21,9 +21,9 @@
 
 &lt;h3 id=&quot;the-goal-of-the-top-10&quot;&gt;The Goal of the Top 10&lt;/h3&gt;
 
-&lt;p&gt;The goal of the list is to raise awareness of security issues in application development. Avoiding common mistakes people make when they’re inexperienced, or don’t know any better.&lt;/p&gt;
+&lt;p&gt;The goal of the list is to raise awareness for security issues in application development. It’s a guideline for avoiding common mistakes people make when they’re inexperienced, or don’t know any better.&lt;/p&gt;
 
-&lt;p&gt;SQL injection, and cross-site scripting vulnerabilities are regularly exploited and there is no sign of that changing anytime soon. The Top 10 makes people aware of those threats when writing code or auditing others.&lt;/p&gt;
+&lt;p&gt;SQL injection and cross-site scripting vulnerabilities are regularly exploited and there is no sign of that changing anytime soon. The Top 10 makes people aware of those threats when writing code or auditing others.&lt;/p&gt;
 
 &lt;p&gt;OWASP’s Top 10 shouldn’t be used as a tick box exercise after the code is written and ready to be rolled out.&lt;/p&gt;
 
