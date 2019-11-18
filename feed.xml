@@ -5,15 +5,15 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Nov 2019 20:11:12 +0000</pubDate>
-    <lastBuildDate>Mon, 18 Nov 2019 20:11:12 +0000</lastBuildDate>
+    <pubDate>Mon, 18 Nov 2019 20:43:23 +0000</pubDate>
+    <lastBuildDate>Mon, 18 Nov 2019 20:43:23 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>U2F - Universal 2nd Factor Authentication</title>
         <description>&lt;h5 id=&quot;the-universal-2nd-factor-is-one-of-the-most-secure-authentication-methods-currently-available-its-advantages-are-based-on-hardware-isolation-physical-ownership-and-interaction-with-a-device-are-mandatory&quot;&gt;The “Universal 2nd Factor” is one of the most secure authentication methods currently available. Its advantages are based on hardware isolation. Physical ownership and interaction with a device are mandatory.&lt;/h5&gt;
 
-&lt;p&gt;U2F is an open standard that improves and simplifies traditional two-factor authentication (2FA), like one-time password (OTP). U2F is utilizing a Universal Serial Bus (USB) or near-field communication (NFC) device and was initially developed by Google and &lt;a href=&quot;https://www.yubico.com/&quot;&gt;Yubico&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;U2F is an open standard that improves and simplifies traditional two-factor authentication, like one-time passwords. It is utilizing a Universal Serial Bus (USB) or near-field communication (NFC) device in combination with cryptography to achieve better authentication and was initially developed by Google and &lt;a href=&quot;https://www.yubico.com/&quot;&gt;Yubico&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_3.png&quot; alt=&quot;picture of the bb58&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
