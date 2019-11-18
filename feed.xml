@@ -5,9 +5,70 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Nov 2019 14:36:34 +0000</pubDate>
-    <lastBuildDate>Thu, 14 Nov 2019 14:36:34 +0000</lastBuildDate>
+    <pubDate>Mon, 18 Nov 2019 20:00:33 +0000</pubDate>
+    <lastBuildDate>Mon, 18 Nov 2019 20:00:33 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>U2F - Universal 2nd Factor Authentication</title>
+        <description>&lt;h5 id=&quot;using-a-universal-2nd-factor-is-one-of-the-most-secure-authentication-methods-currently-available-its-advantages-are-based-on-hardware-isolation-physical-ownership-and-interaction-with-a-device-are-mandatory&quot;&gt;Using a Universal 2nd Factor is one of the most secure authentication methods currently available. Its advantages are based on hardware isolation. Physical ownership and interaction with a device are mandatory.&lt;/h5&gt;
+
+&lt;p&gt;U2F is an open standard that improves and simplifies traditional two-factor authentication (2FA), like one-time password (OTP). U2F is utilizing a Universal Serial Bus (USB) or near-field communication (NFC) device and was initially developed by Google and &lt;a href=&quot;https://www.yubico.com/&quot;&gt;Yubico&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_3.png&quot; alt=&quot;picture of the bb58&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;otp&quot;&gt;OTP&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/One-time_password&quot;&gt;one-time password&lt;/a&gt; (OTP) or &lt;a href=&quot;https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm&quot;&gt;time-based one-time password&lt;/a&gt; (TOTP) provides a relatively secure second factor to millions of users. The popularity and good propagation are related to the simplicity of the concept. But there are shortcomings to this method.&lt;/p&gt;
+
+&lt;p&gt;So what is 2FA OTP? In addition to a static user name/password credential, a user adds another authentication factor — one that is dynamically generated. By definition, this OTP credential is only valid for one login before it becomes obsolete.&lt;/p&gt;
+
+&lt;p&gt;OTP technology is compatible with all major platforms (desktop, laptop, mobile) and even legacy environments. It is the most popular choice among second-factor protocols.&lt;/p&gt;
+
+&lt;p&gt;One-time credentials are delivered in different ways, usually via a physical object, such as a mobile phone (using SMS or an app), a token with an LCD-display, or a &lt;a href=&quot;https://amzn.to/2qrTNEa&quot;&gt;YubiKey (amazon affiliate link)&lt;/a&gt;. Concrete OTP algorithms vary greatly but they have one thing in common: a shared secret between client and server.&lt;/p&gt;
+
+&lt;p&gt;TOTP implementations, like &lt;a href=&quot;https://en.wikipedia.org/wiki/Google_Authenticator&quot;&gt;Google Authenticator&lt;/a&gt;, require time-synchronization and a shared secret between the authentication server and the device providing the password.&lt;/p&gt;
+
+&lt;p&gt;Second-factor one-time passwords offer protection against password replay but it’s not designed to counter a &lt;em&gt;man-in-the-middle&lt;/em&gt; or &lt;em&gt;phishing&lt;/em&gt; attack. The shared secret between client and server is the main weakness of OTP and TOTP.&lt;/p&gt;
+
+&lt;p&gt;A theoretical attack is quite simple: token codes or shared secrets can get intercepted during authentication or stolen during the initialization of OTP. This is significant since it is the principal threat most users believe they are solving with this technology.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/totp.png&quot; alt=&quot;picture of a totp login&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;u2f&quot;&gt;U2F&lt;/h3&gt;
+
+&lt;p&gt;U2F improves on OTP vulnerabilities such as &lt;em&gt;phishing&lt;/em&gt; and &lt;em&gt;man-in-the-middle attacks&lt;/em&gt; by implementing a real-time challenge-response scheme with &lt;a href=&quot;/2019/public-key/&quot;&gt;public-key encryption&lt;/a&gt; and &lt;a href=&quot;/2019/crypto-hash-digital-signature/&quot;&gt;digital signatures&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When a user registers a U2F device with an online service, a public/private key pair is generated on the client and the public key is shared with the server.&lt;/p&gt;
+
+&lt;p&gt;After registration, when the user attempts to log in, the service provider sends a challenge to the client. The client compiles at least the information about the source of the challenge into the response and signs it with the private key before sending it back to the server.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/u2f.png&quot; alt=&quot;picture of a u2f login&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The server can detect an abnormality in the response (since it is issuing the challenge) and deny the transaction if a rogue site or middle-man manipulates the flow.&lt;/p&gt;
+
+&lt;p&gt;U2F is resistant to phishing by design too. For instance, the user cannot be tricked into pressing the key and authenticate with a “fake” web page since the authentication origin is part of the process and the communication between the device and the web browser. A malicious person cannot ask for your “U2F codes” because there are no codes in play.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-future&quot;&gt;The future…&lt;/h3&gt;
+
+&lt;p&gt;Nowadays most people use biometrics-based methods of authentication on personal mobile devices to unlock them. Fingerprint and facial recognition have been around for a while now but they’re not exactly foolproof. It’s possible to trick fingerprint sensors and basic facial recognition systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_1.png&quot; alt=&quot;picture of a totp login&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since most consumer OTP solutions are depending on mobile phones as the second factor, it opens up the question of future dependability of this system.&lt;/p&gt;
+
+&lt;p&gt;U2F devices will become cheaper and more common to be accepted by service providers. I predict a future of adaptive security with many potential factors for authentication. Shared secret knowledge, physical ownership of a secure device, location, and behavior are all factors, that if combined, will convince machines that we are who we say we are.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2019/universal-2nd-factor/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/universal-2nd-factor/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>Tudor Black Bay Fifty-Eight - Ref. 79030N</title>
@@ -968,7 +1029,7 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
 
 &lt;h3 id=&quot;key-confusion&quot;&gt;Key Confusion&lt;/h3&gt;
 
-&lt;p&gt;Public-Key Cryptography and Digital Signatures can be confusing. Encryption, Decryptio, message signing, and signature verification all use the same algorithms with different key inputs. Here are a few simple rules:&lt;/p&gt;
+&lt;p&gt;Public-Key Cryptography and Digital Signatures can be confusing. Encryption, Decryption, Digtital Signatures, and Signature verification all use the same algorithms with different key inputs. Here are a few simple rules:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -992,76 +1053,6 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
         <category>security</category>
         
         <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Personnel Security</title>
-        <description>&lt;h5 id=&quot;humans-are-the-weakest-element-in-any-security-solution-no-matter-what-physical-or-logical-controls-are-deployed-humans-will-discover-ways-to-avoid-circumvent-subvert-or-disable-them-insider-threats-originate-from-past-or-present-employees-contractors-or-business-partners-they-can-misuse-their-inside-knowledge-or-access-to-harm-people-customers-assets-or-reputation&quot;&gt;Humans are the weakest element in any security solution. No matter what physical or logical controls are deployed, humans will discover ways to avoid, circumvent, subvert or disable them. Insider threats originate from past or present employees, contractors or business partners. They can misuse their inside knowledge or access to harm people, customers, assets or reputation.&lt;/h5&gt;
-
-&lt;h5 id=&quot;to-apply-security-governance-an-organization-has-to-address-the-weakest-link-in-the-security-chain---people&quot;&gt;To apply security governance, an organization has to address the weakest link in the security chain - people.&lt;/h5&gt;
-
-&lt;p&gt;Issues, compromises, and problems related to humans occur at all stages and on all levels of an organization. People are involved throughout the development, implementation, and administration of a security solution and therefore have to be evaluated regarding their effect on the process.&lt;/p&gt;
-
-&lt;p&gt;A strong relationship between the security department and human resources is essential to maintain control and minimize risks in an organization. 
-&lt;img src=&quot;/assets/images/personnel.jpg&quot; alt=&quot;a picture representing employees&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;hiring-people&quot;&gt;Hiring People&lt;/h3&gt;
-
-&lt;p&gt;In a secure environment, the first step of hiring new personnel is to create a &lt;em&gt;job description&lt;/em&gt; or &lt;em&gt;position description&lt;/em&gt;. Without this description, there is no consensus on what type of individual should be hired. Personnel should only be added to an organization because there is a need for their specific skills and experience.&lt;/p&gt;
-
-&lt;p&gt;The description also has to include potential security issues originating from the position (e.g. handling of sensitive material or classified information). This classification of the position includes the type of access required (e.g. secure network) to perform the intended tasks.&lt;/p&gt;
-
-&lt;p&gt;With this information, the &lt;em&gt;screening of candidates&lt;/em&gt; can be performed. This involves background checks, verified reference calls, checking police and government records, and screening of social media accounts.&lt;/p&gt;
-
-&lt;p&gt;After hiring an individual, they need to sign an employment agreement. This document outlines the rules and restrictions of the organization, the security policies, and consequences of violations.&lt;/p&gt;
-
-&lt;h3 id=&quot;separation-of-duties&quot;&gt;Separation of Duties&lt;/h3&gt;
-
-&lt;p&gt;The &lt;em&gt;Separation of duties&lt;/em&gt; is a security concept in which sensitive, critical and significant work is divided among individuals. This prevents undermining or subversion of security mechanisms by an individual. It also reduces the risk of collusion which is the occurrence of negative activity by two or more people. Collusion is often performed for the purpose of fraud, theft, or espionage.&lt;/p&gt;
-
-&lt;p&gt;Limiting the power of individuals requires employees to work with others to commit large violations of security. Finding others to assist in a violation is more likely to leave behind detectable evidence.&lt;/p&gt;
-
-&lt;h3 id=&quot;job-rotation&quot;&gt;Job Rotation&lt;/h3&gt;
-
-&lt;p&gt;Rotating employees among multiple job positions help an organization to improve its overall security. Job rotation servers two functions. It provides knowledge redundancy and reduces the risk of fraud, data modification, theft, sabotage, and misuse of information. The longer a person works in a specific position, the more likely they are to be assigned additional tasks and therefore expand their privileges and access.&lt;/p&gt;
-
-&lt;p&gt;Job rotation requires that privileges and access rights have to be reviewed regularly to maintain the principle of &lt;em&gt;least privilege&lt;/em&gt;. In failure to do so, the employee will accumulate privileges over time. This is called &lt;em&gt;privilege creep&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Onboarding&lt;/em&gt; is the process of adding a new employee to the identity and access management (IAM) system of an organization. The onboarding process is also performed when an employee’s role or position changes or when the person is awarded additional privilege or access rights.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/personnel_2.jpg&quot; alt=&quot;a picture representing employees&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Onboarding also refers to organizational socialization. In this process, the new employee is properly prepared for performing their job responsibilities. It includes training, job skill acquisition, and behavioral adaptation in order to integrate the employee efficiently into the existing processes and procedures.&lt;/p&gt;
-
-&lt;h3 id=&quot;offboarding-and-termination&quot;&gt;Offboarding and Termination&lt;/h3&gt;
-
-&lt;p&gt;The personnel security lifecycle includes the &lt;em&gt;Termination&lt;/em&gt; or &lt;em&gt;Offboarding&lt;/em&gt; of the employee. This stage is very critical and numerous issues must be addressed in order to maintain a secure environment. Termination should be handled in a private and respectful manner but this does not mean that no precautions should be taken. Once the employee has been informed of their release, they need to be escorted off the premises and are no longer allowed to return to their work area without an escort.&lt;/p&gt;
-
-&lt;p&gt;Before the release, all keys, badges, cards, tokens, and the work equipment have to be collected. When possible an &lt;em&gt;exit interview&lt;/em&gt; should be performed. In this conversation, the liabilities and restrictions should be reviewed. This includes obligations based on the employment agreement, nondisclosure agreement, and any other security-related documents.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/personnel_1.jpg&quot; alt=&quot;a picture representing employees&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It is essential to offboard the employee from the IAM system shortly before or while informing the employee about the termination. Botched termination processes can cause critical damage to the organization. The completeness of information in the IAM system is critical for this process of disabling network access and removing company accounts from the individual.&lt;/p&gt;
-
-&lt;h3 id=&quot;vendor-consultant-and-contractors&quot;&gt;Vendor, Consultant, and Contractors&lt;/h3&gt;
-
-&lt;p&gt;Controls have to be defined for vendors, consultants, and contractors in order to define the expectation, compensation, and consequences for external entities to the own organization. These controls are defined and documented in a &lt;em&gt;service-level-agreement&lt;/em&gt; or SLA.&lt;/p&gt;
-
-&lt;p&gt;It is best practice to put an SLA in place not only for external personnel but for all applications, connections, database, information systems, and any other critical part of an organizations infrastructure.&lt;/p&gt;
-
-&lt;p&gt;By clearly defining the expectations and penalties for external parties, everyone involved knows what is expected of them and what the consequences are in case of a failure to meet the expectations.&lt;/p&gt;
-
-&lt;p&gt;The &lt;em&gt;onboarding&lt;/em&gt; and &lt;em&gt;offboarding&lt;/em&gt; of external personnel have to follow the same procedures as the ones for regular staff.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/personnel-security/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/personnel-security/</guid>
-        
-        <category>security</category>
         
         
       </item>
