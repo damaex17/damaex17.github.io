@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Nov 2019 13:07:07 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Nov 2019 13:07:07 +0000</lastBuildDate>
+    <pubDate>Tue, 19 Nov 2019 19:43:08 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Nov 2019 19:43:08 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -19,9 +19,9 @@
 
 &lt;h3 id=&quot;otp&quot;&gt;OTP&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/One-time_password&quot;&gt;One-time passwords&lt;/a&gt; (OTP) or &lt;a href=&quot;https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm&quot;&gt;time-based one-time passwords&lt;/a&gt; (TOTP) provides a relatively secure second factor to millions of users. The popularity and good propagation are related to the simplicity of the concept. But there are shortcomings to this method.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/One-time_password&quot;&gt;One-time passwords&lt;/a&gt; (OTP) or &lt;a href=&quot;https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm&quot;&gt;time-based one-time passwords&lt;/a&gt; (TOTP) provide a relatively secure second factor to millions of users. The popularity and good propagation are related to the simplicity of the concept. But there are shortcomings to this method.&lt;/p&gt;
 
-&lt;p&gt;So what is 2FA OTP? In addition to a static user name/password credential, a user adds another authentication factor — one that is dynamically generated. By definition, this OTP credential is only valid for one login before it becomes obsolete.&lt;/p&gt;
+&lt;p&gt;So what is 2FA OTP? In addition to a static user name/password credential, a user adds another authentication factor - one that is dynamically generated. By definition, this OTP credential is only valid for one login before it becomes obsolete.&lt;/p&gt;
 
 &lt;p&gt;OTP technology is compatible with all major platforms (desktop, laptop, mobile) and even legacy environments. It is the most popular choice among second-factor protocols.&lt;/p&gt;
 
