@@ -5,21 +5,21 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Nov 2019 12:57:40 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Nov 2019 12:57:40 +0000</lastBuildDate>
+    <pubDate>Tue, 19 Nov 2019 13:07:07 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Nov 2019 13:07:07 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>U2F - Universal 2nd Factor Authentication</title>
-        <description>&lt;h5 id=&quot;the-universal-2nd-factor-is-one-of-the-most-secure-authentication-methods-currently-available-its-advantages-are-based-on-hardware-isolation-physical-ownership-and-interaction-with-a-device-are-mandatory&quot;&gt;The “Universal 2nd Factor” is one of the most secure authentication methods currently available. Its advantages are based on hardware isolation. Physical ownership and interaction with a device are mandatory.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;the-universal-2nd-factor-is-one-of-the-most-secure-authentication-methods-currently-available-its-advantages-are-based-on-hardware-isolation-and-modern-cryptography&quot;&gt;The “Universal 2nd Factor” is one of the most secure authentication methods currently available. Its advantages are based on hardware isolation and modern cryptography.&lt;/h5&gt;
 
-&lt;p&gt;U2F is an open standard that improves and simplifies traditional two-factor authentication, like one-time passwords. It is utilizing a Universal Serial Bus (USB) or near-field communication (NFC) device in combination with cryptography to achieve better authentication and was initially developed by Google and &lt;a href=&quot;https://www.yubico.com/&quot;&gt;Yubico&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;U2F is an open standard that improves and simplifies traditional two-factor authentication. It is utilizing a Universal Serial Bus (USB) or near-field communication (NFC) device to achieve secure authentication and was initially developed by Google and &lt;a href=&quot;https://www.yubico.com/&quot;&gt;Yubico&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_3.png&quot; alt=&quot;picture of the bb58&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;otp&quot;&gt;OTP&lt;/h3&gt;
 
-&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/One-time_password&quot;&gt;one-time password&lt;/a&gt; (OTP) or &lt;a href=&quot;https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm&quot;&gt;time-based one-time password&lt;/a&gt; (TOTP) provides a relatively secure second factor to millions of users. The popularity and good propagation are related to the simplicity of the concept. But there are shortcomings to this method.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/One-time_password&quot;&gt;One-time passwords&lt;/a&gt; (OTP) or &lt;a href=&quot;https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm&quot;&gt;time-based one-time passwords&lt;/a&gt; (TOTP) provides a relatively secure second factor to millions of users. The popularity and good propagation are related to the simplicity of the concept. But there are shortcomings to this method.&lt;/p&gt;
 
 &lt;p&gt;So what is 2FA OTP? In addition to a static user name/password credential, a user adds another authentication factor — one that is dynamically generated. By definition, this OTP credential is only valid for one login before it becomes obsolete.&lt;/p&gt;
 
