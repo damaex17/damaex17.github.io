@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Nov 2019 19:47:51 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Nov 2019 19:47:51 +0000</lastBuildDate>
+    <pubDate>Tue, 19 Nov 2019 19:52:15 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Nov 2019 19:52:15 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -57,7 +57,7 @@
 
 &lt;p&gt;Since most consumer OTP solutions are depending on mobile phones as the second factor, it opens up the question of future dependability of this system.&lt;/p&gt;
 
-&lt;p&gt;U2F devices will become cheaper and more common to be accepted by service providers. I predict a future of adaptive security with many potential factors for authentication. Shared secret knowledge, physical ownership of a secure device, location, and behavior are all factors, that if combined, will convince machines that we are who we say we are.&lt;/p&gt;
+&lt;p&gt;U2F devices, on the other hand, will become cheaper and more common to be accepted by service providers. I predict a future of adaptive security with many potential factors for authentication. Shared secret knowledge, physical ownership of a secure device, location, and behavior are all factors, that if combined, will convince machines that we are who we say we are.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/universal-2nd-factor/</link>
