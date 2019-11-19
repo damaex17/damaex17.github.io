@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Nov 2019 19:43:08 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Nov 2019 19:43:08 +0000</lastBuildDate>
+    <pubDate>Tue, 19 Nov 2019 19:47:51 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Nov 2019 19:47:51 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -51,7 +51,7 @@
 
 &lt;h3 id=&quot;the-future&quot;&gt;The future…&lt;/h3&gt;
 
-&lt;p&gt;Nowadays most people use biometrics-based methods of authentication on personal mobile devices to unlock them. Fingerprint and facial recognition have been around for a while now but they’re not exactly foolproof. It’s possible to trick fingerprint sensors and basic facial recognition systems.&lt;/p&gt;
+&lt;p&gt;Nowadays most people use biometrics-based methods for authentication on personal mobile devices to unlock them. Fingerprint and facial recognition have been around for a while now but they’re not exactly foolproof. It’s possible to trick fingerprint sensors and basic facial recognition systems.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_1.png&quot; alt=&quot;picture of a totp login&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
