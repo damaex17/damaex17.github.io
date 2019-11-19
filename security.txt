@@ -1,3 +1,0 @@
-Contact: inversegravity.net@gmail.com
-Preferred-Languages: en
-Canonical: https://inversegravity.net/security.txt
