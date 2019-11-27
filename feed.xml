@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>technology, security, watch and book reviews</description>
-    <link>http://10.0.1.71:4000/</link>
-    <atom:link href="http://10.0.1.71:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Nov 2019 10:26:43 +0000</pubDate>
-    <lastBuildDate>Wed, 27 Nov 2019 10:26:43 +0000</lastBuildDate>
+    <link>https://inversegravity.net/</link>
+    <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 27 Nov 2019 10:33:37 +0000</pubDate>
+    <lastBuildDate>Wed, 27 Nov 2019 10:33:37 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -76,8 +76,8 @@
 &lt;p&gt;That was my guide and all that’s left for me is to wish my readers a relaxed end of the year and a good time with your loved ones.&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/holiday-gift-guide/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/holiday-gift-guide/</guid>
+        <link>https://inversegravity.net/2019/holiday-gift-guide/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/holiday-gift-guide/</guid>
         
         <category>security</category>
         
@@ -139,8 +139,8 @@
 &lt;p&gt;U2F devices, on the other hand, will become cheaper and more common to be accepted by service providers. I predict a future of adaptive security with many potential factors for authentication. Shared secret knowledge, physical ownership of a secure device, location, and behavior are all factors, that if combined, will convince machines that we are who we say we are.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/universal-2nd-factor/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/universal-2nd-factor/</guid>
+        <link>https://inversegravity.net/2019/universal-2nd-factor/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/universal-2nd-factor/</guid>
         
         <category>security</category>
         
@@ -211,8 +211,8 @@ This means one can easily leave the watch on the nightstand over the weekend and
 &lt;p&gt;The Black Bay Fifty-Eight is a good looking dive watch and comes at a fair price.&lt;/p&gt;
 </description>
         <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/tudor-blackbay-fityeight/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/tudor-blackbay-fityeight/</guid>
+        <link>https://inversegravity.net/2019/tudor-blackbay-fityeight/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/tudor-blackbay-fityeight/</guid>
         
         <category>watch</category>
         
@@ -282,8 +282,8 @@ The exact methodology for the rating is a secret but examples of infrations incl
 &lt;p&gt;Do we want to live in a world as predicted in the Black Mirror episode? Our societies have to be made aware of what algorithms really can, and cannot, do. Education is the answer.&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/social-scoring-system/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/social-scoring-system/</guid>
+        <link>https://inversegravity.net/2019/social-scoring-system/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/social-scoring-system/</guid>
         
         <category>technology</category>
         
@@ -358,8 +358,8 @@ Some examples are:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A10-Insufficient_Logging%26Monitoring&quot;&gt;A10:2017-Insufficient Logging&amp;amp;Monitoring&lt;/a&gt;&lt;/strong&gt; - Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/owasp-top-10/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/owasp-top-10/</guid>
+        <link>https://inversegravity.net/2019/owasp-top-10/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/owasp-top-10/</guid>
         
         <category>security</category>
         
@@ -422,8 +422,8 @@ Some examples are:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/cryptographic-deletion/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/cryptographic-deletion/</guid>
+        <link>https://inversegravity.net/2019/cryptographic-deletion/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/cryptographic-deletion/</guid>
         
         <category>security</category>
         
@@ -465,8 +465,8 @@ Some examples are:&lt;/p&gt;
 &lt;p&gt;The Web of Trust is practically dead and can be considered a failure. The question arises on how the trust in PGP keys can be restored. Some people argue the community should look at messengers like Signal and Threema. They provide a convenient way of key verification and do not require any user actions or signatures. Those services provide basic trust in the genuineness of the delivered keys.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/web-of-trust-dead/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/web-of-trust-dead/</guid>
+        <link>https://inversegravity.net/2019/web-of-trust-dead/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/web-of-trust-dead/</guid>
         
         <category>security</category>
         
@@ -598,8 +598,8 @@ Some examples are:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/password-entropy/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/password-entropy/</guid>
+        <link>https://inversegravity.net/2019/password-entropy/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/password-entropy/</guid>
         
         <category>security</category>
         
@@ -669,8 +669,8 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
 &lt;p&gt;Nobody will question strong authentication when a first-time transaction is made to a vendor in a foreign country. But having the same requirements whenever sending money to siblings, parents, or friends just doesn’t make any sense. Using the frequency of interaction with other people can help to accomplish security features that adapt to the situation.&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/adaptive-transaction-security/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/adaptive-transaction-security/</guid>
+        <link>https://inversegravity.net/2019/adaptive-transaction-security/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/adaptive-transaction-security/</guid>
         
         <category>security</category>
         
@@ -934,8 +934,8 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
 &lt;/table&gt;
 </description>
         <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
-        <link>http://10.0.1.71:4000/2019/applied-cryptography/</link>
-        <guid isPermaLink="true">http://10.0.1.71:4000/2019/applied-cryptography/</guid>
+        <link>https://inversegravity.net/2019/applied-cryptography/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2019/applied-cryptography/</guid>
         
         <category>security</category>
         
