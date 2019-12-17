@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 Dec 2019 10:10:37 +0000</pubDate>
-    <lastBuildDate>Sun, 01 Dec 2019 10:10:37 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Dec 2019 11:58:38 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Dec 2019 11:58:38 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -94,7 +94,7 @@
 
 &lt;p&gt;U2F is an open standard that improves and simplifies traditional two-factor authentication. It is utilizing a Universal Serial Bus (USB) or near-field communication (NFC) device to achieve secure authentication and was initially developed by Google and &lt;a href=&quot;https://www.yubico.com/&quot;&gt;Yubico&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_3.png&quot; alt=&quot;picture of the bb58&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_3.png&quot; alt=&quot;picture of the bb58&quot; style=&quot; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;otp&quot;&gt;OTP&lt;/h3&gt;
 
@@ -112,7 +112,7 @@
 
 &lt;p&gt;A theoretical attack is quite simple: token codes or shared secrets can get intercepted during authentication or stolen during the initialization of OTP. This is significant since it is the principal threat most users believe they are solving with this technology.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/totp.png&quot; alt=&quot;picture of a totp login&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/totp.png&quot; alt=&quot;picture of a totp login&quot; style=&quot; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;u2f&quot;&gt;U2F&lt;/h3&gt;
 
@@ -122,7 +122,7 @@
 
 &lt;p&gt;After registration, when the user attempts to log in, the service provider sends a challenge to the client. The client compiles at least the information about the source of the challenge into the response and signs it with the private key before sending it back to the server.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/u2f.png&quot; alt=&quot;picture of a u2f login&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/u2f.png&quot; alt=&quot;picture of a u2f login&quot; style=&quot; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The server can detect an abnormality in the response (since it is issuing the challenge) and deny the transaction if a rogue site or middle-man manipulates the flow.&lt;/p&gt;
 
@@ -132,7 +132,7 @@
 
 &lt;p&gt;Nowadays most people use biometrics-based methods for authentication on personal mobile devices to unlock them. Fingerprint and facial recognition have been around for a while now but they’re not exactly foolproof. It’s possible to trick fingerprint sensors and basic facial recognition systems.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_1.png&quot; alt=&quot;picture of a totp login&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_1.png&quot; alt=&quot;picture of a totp login&quot; style=&quot; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since most consumer OTP solutions are depending on mobile phones as the second factor, it opens up the question of future dependability of this system.&lt;/p&gt;
 
