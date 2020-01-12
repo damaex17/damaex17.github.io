@@ -5,9 +5,130 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Dec 2019 11:58:38 +0000</pubDate>
-    <lastBuildDate>Tue, 17 Dec 2019 11:58:38 +0000</lastBuildDate>
+    <pubDate>Sun, 12 Jan 2020 13:43:57 +0000</pubDate>
+    <lastBuildDate>Sun, 12 Jan 2020 13:43:57 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>OSI Model - Open Systems Interconnection</title>
+        <description>&lt;h6 id=&quot;to-properly-implement-secure-design-principles-in-network-architectures-it-is-important-to-fully-understand-all-of-the-technologies-involved-in-computer-communications-from-software-and-hardware-to-encryption-and-beyond-there-are-many-standards-to-know-and-procedures-to-follow-the-osi-model-has-become-a-common-reference-against-which-all-protocols-can-be-compared&quot;&gt;To properly implement secure design principles in network architectures, it is important to fully understand all of the technologies involved in computer communications. From software and hardware to encryption and beyond, there are many standards to know and procedures to follow. The OSI model has become a common reference against which all protocols can be compared.&lt;/h6&gt;
+
+&lt;p&gt;The actual OSI protocol was developed to establish a common communication structure for all computer systems but was never widely adopted. Instead, the theory behind the protocol serves nowadays as a theoretical model for how protocols should function in an ideal world on ideal hardware.&lt;/p&gt;
+
+&lt;p&gt;The Open Systems Interconnection (OSI) model is a guiding principle in networking and related protocols.&lt;/p&gt;
+
+&lt;p&gt;Communication between computers and over networks is made possible by protocols which are simply a set of rules and restrictions that define how data is transmitted over a network medium (whether that connection is electrons over copper, photons over fiber, or radio signals through the air).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/osi_2.jpg&quot; alt=&quot;light shining from fiber cables&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-layers-of-the-model&quot;&gt;The Layers of the Model&lt;/h3&gt;
+
+&lt;p&gt;The model partitions a communication system into seven abstraction layers. A layer serves the layer above it and is served by the layer below it.&lt;/p&gt;
+
+&lt;p&gt;Understanding the functions and responsibilities of each layer of the OSI Model is essential to understand how network communications function, how attacks work, and how to security can be implemented to protect network communications.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/osi_table_1.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;layer-7-application&quot;&gt;Layer 7: Application&lt;/h6&gt;
+
+&lt;p&gt;The Application layer allows applications to communicate with the protocol stack. It ensures that sufficient resources are available to support the requested communication and is responsible for interfacing user applications, network services, or the operating system with the protocol stack.&lt;/p&gt;
+
+&lt;p&gt;The application is not located in this layer but rather the protocols and services required for it to work.&lt;/p&gt;
+
+&lt;h6 id=&quot;layer-6-presentation&quot;&gt;Layer 6: Presentation&lt;/h6&gt;
+
+&lt;p&gt;Layer 6 imposes common or standardized structure and formatting rules onto the data from the application layer. It acts as an interface between applications and the network and therefore allows various applications to interact over a network. It does so by ensuring that the data formats are supported by both systems. Most data and file formats operate within this layer.&lt;/p&gt;
+
+&lt;p&gt;The formats include support for images, video, sound, digital rights, documents, emails, or text.&lt;/p&gt;
+
+&lt;h6 id=&quot;layer-5-session&quot;&gt;Layer 5: Session&lt;/h6&gt;
+
+&lt;p&gt;The Session layer is establishing, maintaining, and terminating communication sessions between two computers. It manages dialogue discipline and control (simplex (one-way), half-duplex (two-way one-directional), full-duplex (two-way bi-directional)), establishes checkpoints for recovery, and can retransmit PDUs that have failed to the Transport layer.&lt;/p&gt;
+
+&lt;h6 id=&quot;layer-4-transport&quot;&gt;Layer 4: Transport&lt;/h6&gt;
+
+&lt;p&gt;This layer is responsible for managing the integrity of a connection and controlling the session. It accepts a PDU (Protocol Data Unit) from the Session layer and converts into segments. The Transport layer defines the rules of a session, how much data a segment can contain, how to verify the segment integrity, and how to determine if data has been lost. Rules are established through a handshake process (SYNC/ACK three-way handshake for TCP/IP).&lt;/p&gt;
+
+&lt;p&gt;Layer 4 establishes a logical connection between two devices and provides end-to-end transport services for data delivery. Mechanisms in this layer include sequencing, segmentation, error checking, controlling the data flow, error correction, multiplexing, and optimization.&lt;/p&gt;
+
+&lt;h6 id=&quot;layer-3-network&quot;&gt;Layer 3: Network&lt;/h6&gt;
+
+&lt;p&gt;The Network layer is responsible for adding routing and addressing information to the data. It accepts the segments from the Transport layer and adds information to it to create a packet. The packer includes the source and destination IP address.&lt;/p&gt;
+
+&lt;p&gt;Layer 3 is responsible for providing routing and delivery information, but it’s not responsible for verifying guaranteed delivery. It also manages error detection and traffic control.&lt;/p&gt;
+
+&lt;p&gt;Routers are an example of network hardware devices functioning on this layer. Routers can determine the best logical path for transmission of packets based on speed, hops, preferences or priority. They use the destination IP address to guide the transmission of packets.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Non-IP Protocols are protocols that serve as an alternative to IP at the OSI Network layer. With the dominance of TCP/IP, non-IP protocols have become limited to special-purpose networks. Recognizable non-IP protocols are AppleTalk, NetBEUI or IPX&lt;/em&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;layer-2-data-link&quot;&gt;Layer 2: Data Link&lt;/h6&gt;
+
+&lt;p&gt;The Data Link layer is formatting the packet from the Network layer into the proper format for transmission. The proper format is determined by the hardware and network technology. Ethernet remains a common Data Link layer technology in modern networks. Within the Data Link layer resides the protocol that converts the packet into a properly formated frame. Once the frame is formatted, it’s sent to the Physical layer for transmission.&lt;/p&gt;
+
+&lt;p&gt;Part of the processing performed on this layer includes adding the hardware source and destination address to the frame. This address is the Media Access Control (MAC) address. Network hardware functioning on layer 2 are switches and bridges. Switches support MAC-based traffic routing and receive a frame on one port and sent it out to another port based on the destination MAC address.&lt;/p&gt;
+
+&lt;h6 id=&quot;layer-1-physical&quot;&gt;Layer 1: Physical&lt;/h6&gt;
+
+&lt;p&gt;The Physical layer is responsible for receiving bits from the physical connection medium and converting them into a frame to be used by the Data Link layer. It also works the other way around by converting the frame into bits for transmission over the physical medium.&lt;/p&gt;
+
+&lt;p&gt;This layer contains the device drivers that tell the protocol how to employ the hardware for transmission and reception of bits. Located in this layer are electrical specifications, interface standards, and protocols. Layer 1 controls throughput rates, manages line noise and medium access, handles synchronization and also determines whether to use digital or analog signals.&lt;/p&gt;
+
+&lt;p&gt;Hardware devices that function at this layer are network interface cards (NIC), hubs or repeaters. These devices perform hardware-based signal operations. One example is a network hub that is sending a signal from one connection port to all other ports. A network repeater is amplifying a signal to support greater transmission distances.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/osi_1.jpg&quot; alt=&quot;layers of pancakes&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;encapsulation-and-de-encapsulation&quot;&gt;Encapsulation and De-encapsulation&lt;/h3&gt;
+
+&lt;p&gt;Protocols based on the OSI Model utilize a mechanism called encapsulation. It is the addition of a header, and possibly a footer, to the data received by each layer from the layer above before it is handed over to the layer below. As a message traverses the layers, it is enriched with additional data. The previous layers header and payload becomes the payload of the current layer.&lt;/p&gt;
+
+&lt;p&gt;Encapsulation occurs as data moves down through the OSI Model layers from Application to Physical. When data moves up through the layers from Physical to Application the action occurring is known as de-encapsulation.&lt;/p&gt;
+
+&lt;p&gt;The process is as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; The Application layer creates the message&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; The Application layer passes the message to the Presentation layer&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; The Presentation layer encapsulates the message by adding layer-specific information to it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; The process continues as the original message travels down the layers. Each layer adds additional information to the message&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; The message reaches the Physical layer and is converted into electrical impulses that represent bits and is transmitted over the physical connection&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; The receiving computer captures the bits from the physical medium and re-creates the message in the Physical layer&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; The Physical layer converts the message from bits into a Data Link frame and sends the message up to the Data Link layer&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt; The Data Link layer strips the layer-specific information from the message and sends it up to the Network layer&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9.&lt;/strong&gt; The process of de-encapsulation is performed on each layer until the message reaches the Application layer&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10.&lt;/strong&gt; On the Application layer, the data is extracted from the message and is sent to the intended software recipient&lt;/p&gt;
+
+&lt;p&gt;The information added and removed by each layer contains instructions, checksums, and others and can only be understood by the peer layer that added or created the information. This creates the logical channel that enables the peer layer on different computers to communicate.&lt;/p&gt;
+
+&lt;h3 id=&quot;tcpip-and-osi-comparison&quot;&gt;TCP/IP and OSI comparison&lt;/h3&gt;
+
+&lt;p&gt;The TCP/IP or DARPA Model was developed before the OSI Model. The designers of the OSI Reference Model made sure that both fit together because TCP/IP was already an established deployment in networking.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/osi_table_2.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;TCP/IP is the most widely used protocol stack with dozens of individual protocols. It is platform-independent and based on open standards and can be found in every available modern operating system. The drawbacks of TCP/IP are its significant consumption of resources and the lack of security by design.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;The theory behind the OSI model is abstract at first but it serves as a model to understand and compare protocols. It also helps vendors and developers to create digital communication products that interoperate. Lastly, the structure of the OSI model helps to frame discussions of protocols and contrast various technologies.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/osi-model/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/osi-model/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>The Holiday Gift Guide</title>
@@ -671,271 +792,6 @@ _:bob &amp;lt;receives&amp;gt; _:tn20 .
         <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/adaptive-transaction-security/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/adaptive-transaction-security/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cryptography - Applications</title>
-        <description>&lt;h5 id=&quot;this-is-the-last-article-in-my-series-about-cryptography-now-that-we-covered-the-crypto-basics-with-various-cryptographic-algorithms-digital-signatures-and-public-key-infrastructure-we-can-take-a-look-at-applied-cryptography&quot;&gt;This is the last article in my series about cryptography. Now that we covered the crypto basics with various cryptographic algorithms, digital signatures, and public-key infrastructure, we can take a look at applied cryptography.&lt;/h5&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;First Part: Cryptography - History and Basics&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2019/crypto-symmetric/&quot;&gt;Second Part: Cryptography - Symmetric Key Algorithms&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2019/public-key/&quot;&gt;Third Part: Cryptography - Asymmetric Key Algorithms&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2019/crypto-hash-digital-signature/&quot;&gt;Fourth Part: Cryptography - Hash Functions &amp;amp; Digital Signatures&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;web-appications---tlsssl&quot;&gt;Web Appications - TLS/SSL&lt;/h3&gt;
-
-&lt;p&gt;Web traffic is widely protected by encryption. There are many reasons for it but the main topics are the protection of user privacy, secure logins (username/password), and the exchange of financial information over the web. There ware two technologies responsible for the small lock icon in the web browser. Secure Sockets Layer (SSL) and Transport Layer Security (TLS).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/https.jpg&quot; alt=&quot;a picture showing a web browser&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SSL&lt;/strong&gt; was developed by Netscape to provide encrypted web traffic between client and server. Hypertext Transfer Protocol Secure (HTTPS) is using port 443 to communicate sessions between browser clients and web servers. When Microsoft adopted SSL into its popular Internet Explorer browser in 1995, it became the de facto standard for secure web communication.&lt;/p&gt;
-
-&lt;p&gt;SSL depends on the exchange of server digital certificates to negotiate encryption/decryption parameters between the browser and the web server. The goal of the protocol is to create a secure channel that remains open for an entire web browsing session. SSL uses a combination of symmetric and asymmetric cryptography.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1:&lt;/strong&gt; The browser retrieves the web server certificate and extracts the public key from it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2:&lt;/strong&gt; The browser creates a random symmetric key, encrypts it with the servers public key and sends it back to the server.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3:&lt;/strong&gt; The server decrypts the symmetric key with its own private key and the two systems exchange all future messages using symmetric key encryption.&lt;/p&gt;
-
-&lt;p&gt;SSL utilizes the advanced functionality of asymmetric cryptography for the exchange of the secret key while the majority of data is exchanged using the faster symmetric algorithm.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TLS&lt;/strong&gt; was proposed by security engineers in 1991 as a replacement for the SSL standard. As with SSL, TLS uses TCP port 443 but incorporated many security enhancements. While the early version of TLS supported a downgrade to SSL, this backward compatibility was dropped in 2011 with TLS v1.2.&lt;/p&gt;
-
-&lt;p&gt;In 2014, an attack known as &lt;a href=&quot;https://en.wikipedia.org/wiki/POODLE&quot;&gt;POODLE&lt;/a&gt; demonstrated a flaw in the SSL 3.0 fallback mechanism of TLS. Many organizations have since completely dropped SSL support and solely rely on TLS now.&lt;/p&gt;
-
-&lt;p&gt;TLS is also utilized to encrypt communication between mobile applications and API endpoints. Apple even enforces this since January 2017.&lt;/p&gt;
-
-&lt;h3 id=&quot;email---pgp-openpgp-and-smime&quot;&gt;Email - PGP, OpenPGP and S/MIME&lt;/h3&gt;
-
-&lt;p&gt;Electronic mail (email or e-mail) is a method of exchanging messages between people using electronic devices. It first entered limited use in the 1960s and by the mid-1970s had taken the form now recognized as email. Email may travel and be stored on networks and computers without the sender’s or the recipient’s control. During the transit, it is possible that third parties read or even modify the content.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Email messages not encrypted by default.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Email messages have to go through intermediate computers before reaching their destination, meaning it is relatively easy for others to intercept and read messages.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Email messages are stored on servers and can be accessed by IT personnel.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/email.png&quot; alt=&quot;a picture representing email&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are solutions to protect emails in transit (e.g. SMTP over TLS) but for sensitive email messages, it is recommended to use end-to-end encryption and not rely on email providers goodwill.&lt;/p&gt;
-
-&lt;p&gt;Here are some recommendations for email usage:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Confidentiality can be achieved by &lt;em&gt;message encryption&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Integrity and nonrepudiation require to &lt;em&gt;hash the message&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Authentication, integrity and non repudiation can be implemented by &lt;em&gt;digitally signing the message&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Confidentiality, authentication, integrity, and nonrepudiation requires &lt;em&gt;encrypting and digitally signing the message&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;PGP - Pretty Good Privacy&lt;/strong&gt; was invented by &lt;a href=&quot;https://en.wikipedia.org/wiki/Phil_Zimmermann&quot;&gt;Phil Zimmerman&lt;/a&gt; in 1991 and made available to the public. It initially encountered a number of hurdles by the U.S. government regarding its distribution (export regulation). Those restrictions have been repealed, and PGP may be freely distributed to most countries.&lt;/p&gt;
-
-&lt;p&gt;The commercial version of PGP uses RSA for key exchange, IDEA for encryption/decryption, and MD5 as the hash function for message digest creation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;OpenPGP&lt;/strong&gt; is the freeware version of PGP and uses Diffie-Hellman for key exchange, &lt;a href=&quot;https://en.wikipedia.org/wiki/CAST-128&quot;&gt;CAST 128-bit&lt;/a&gt; for encryption/decryption, and the SHA-1 algorithm as the hash function.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;S/MIME&lt;/strong&gt; is the Secure/Multipurpose Internet Mail Extension protocol and has emerged as a de facto standard for encrypted email. It has been incorporated in a large number of commercial products and relies on the usage of X.509 certificates (see my posting about &lt;a href=&quot;/2019/public-key-infrastructure/&quot;&gt;PKI&lt;/a&gt;). S/MIME extracts the public key from the certificate (same as TLS) and uses it for digital signing and the exchange of symmetric keys. RSA is the public key cryptographic protocol of S/MIME and AES or 3DES is used for symmetric encryption.&lt;/p&gt;
-
-&lt;h3 id=&quot;data-encryption-on-portable-devices---notebooks-smartphones-and-tablets&quot;&gt;Data Encryption on Portable Devices - Notebooks, Smartphones, and Tablets&lt;/h3&gt;
-
-&lt;p&gt;The wide usage of portable devices brings new risks to organizations. Notebooks, Smartphones, and Tablets often contain highly sensitive information that could cause serious harm if the device is lost or stolen. Many organizations turn to encryption to protect the data on these devices.&lt;/p&gt;
-
-&lt;p&gt;Current versions of all operating systems now include disk encryption capabilities that make it easy to manage encryption on all devices. Microsoft Windows includes BitLocker and Encrypting File System (EFS), MacOSX includes FileVault encryption and the open-source &lt;a href=&quot;https://www.veracrypt.fr/en/Home.html&quot;&gt;VeraCrypt&lt;/a&gt; allows disk encryption on Linux, MacOSX, and Windows.&lt;/p&gt;
-
-&lt;p&gt;There is a variety of commercial tools to provide added features and device management capabilities. The differentiators of those tools are how they protect the keys stored in memory, whether they encrypt full disk (FDE) or only volumes, and if they support hardware-based &lt;a href=&quot;https://en.wikipedia.org/wiki/Trusted_Platform_Module&quot;&gt;Trusted Platform Modules (TPMs)&lt;/a&gt;. A TPM is a chip that can often be found in modern computer devices. It provides the operating system with access to the keys and prevents the decryption of a disk device in case the drive is removed from the computer.&lt;/p&gt;
-
-&lt;p&gt;Any selection of an encryption software must include an analysis of the capabilities during the due diligence process.&lt;/p&gt;
-
-&lt;h3 id=&quot;networking&quot;&gt;Networking&lt;/h3&gt;
-
-&lt;p&gt;Providing secure networking services is an important application of cryptography. Generally, there are two different concepts at play. &lt;em&gt;Link encryption&lt;/em&gt; and &lt;em&gt;End-to-end encryption&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Link encryption&lt;/strong&gt; is the concept of creating a secure tunnel between two points using either a hardware or software solution. In this concept, all traffic entering one side of the tunnel is encrypted and decrypted on the other side. Link encryption is protocol independent and encrypts all the traffic including data, header, address, or routing information. An example is the VPN connection between two offices. Link encryption usually happens at the lower layers of the OSI model.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;End-to-end encryption&lt;/strong&gt; protects the communication between two parties like a client and a server and is performed independently from the network link. It is found in the higher layers of the OSI model.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SSH - Secure Shell&lt;/strong&gt; is an example of &lt;em&gt;end-to-end encryption&lt;/em&gt; and provides encrypted alternatives to common internet applications such as FTP, Telnet, and rlogin. SSH1 supports DES, 3DES, IDEA, and Blowfish and is considered insecure. SSH2 drops the support of DES and IDEA and adds several other algorithms like Diffie-Hellman for key exchange.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;IPSec&lt;/strong&gt; is a security architecture that supports secure communications and is a standard of the Internet Engineering Task Force (IETF). The Internet Protocol Security (IPSec) secures the communication between two entities. Those entities can be routers, gateways, or any combination of those. Generally, IPSec is used to connect two networks but it can also connect one computer to a network or two computers.&lt;/p&gt;
-
-&lt;p&gt;It uses public-key encryption to provide access control, nonrepudiation, and message authenticity. IPSec is primarily used for virtual private networks (VPN) and can operate in either a tunnel or transport mode.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Tunnel mode encrypts the entire packet (including the header) and is designed for securing gateway to gateway communication.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Transport mode encrypts only the payload and is designed for securing peer-to-peer communication.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;IPSec is commonly paired with the Layer 2 Tunneling Protocol (L2TP) and then known as L2TP/IPSec. The protocol provides a complete infrastructure to secure network communication and has gained widespread acceptance in all major operating systems. It relies on two components.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Authentication Header (AH) provides message integrity, nonrepudiation, authentication, and access control.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Encapsulating Security Payload (ESP) provides confidentiality and integrity of packet content. It has limited authentication features but not to the extent of AH.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;IPSec is creating a &lt;em&gt;security association&lt;/em&gt; (SA) during runtime. This SA represents a simplex communication session and configuration. Two-way communication requires two SAs and for using both AH and ESP in two-way communication, the requirement is four SAs. The advantage is that each SA can be filtered or managed independently which gives IPSec its flexibility.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ISAKMP&lt;/strong&gt; provides the background security support services of IPSec by negotiating, establishing, modifying, and deleting security associations. ISKMP is described in detail in &lt;a href=&quot;https://tools.ietf.org/html/rfc2408&quot;&gt;RFC 2408&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;wireless-networking&quot;&gt;Wireless Networking&lt;/h3&gt;
-
-&lt;p&gt;The widespread adoption of wireless networks creates a tremendous security risk. Traditional wired networks do not implement encryption for routine communication between host because of the assumption that it would be too difficult for an attacker to gain physical access to the network equipment. Wireless networks transmit data through the air, leaving them extremely vulnerable to interception. There are two types of wireless security implementations:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;WEP - Wireless Equivalent Privacy&lt;/strong&gt; provides 64- and 128-bit encryption options to protect wireless communication. WEP is described in IEE 802.11 as an optional component of the wireless networking standard. Cryptanalysis has demonstrated significant flaws in the WEP algorithm. This makes it possible to completely undermine the security features of a WEP protected network.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;WPA - WiFi Protected Access&lt;/strong&gt; improves on WEP encryption by implementing a Temporal Key Integrity Protocol (TKIP). WPA2 is adding AES cryptography to the protocol, improving it even further. WPA2 is the de facto standard for protecting wireless networks.&lt;/p&gt;
-
-&lt;h3 id=&quot;cryptography-key-sizes-and-recommendations&quot;&gt;Cryptography Key Sizes and Recommendations&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://paragonie.com/blog/2019/03/definitive-2019-guide-cryptographic-key-sizes-and-algorithm-recommendations&quot;&gt;Paragon Guide&lt;/a&gt; holds some good advice for Cryptographic Key Sizes and Algorithm Recommendations.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Symmetric Algorithms&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Block Size&lt;/th&gt;
-      &lt;th&gt;Key Size&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Advanced Encryption Standard (AES)&lt;/td&gt;
-      &lt;td&gt;128&lt;/td&gt;
-      &lt;td&gt;128, 192, 256&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Rijndael&lt;/td&gt;
-      &lt;td&gt;Variable&lt;/td&gt;
-      &lt;td&gt;128, 192, 256&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Blowfish&lt;/td&gt;
-      &lt;td&gt;64&lt;/td&gt;
-      &lt;td&gt;32 - 448&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Data Encryption Standard (DES)&lt;/td&gt;
-      &lt;td&gt;64&lt;/td&gt;
-      &lt;td&gt;56&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;IDEA&lt;/td&gt;
-      &lt;td&gt;64&lt;/td&gt;
-      &lt;td&gt;128&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Rivest Cipher 2 (RC2)&lt;/td&gt;
-      &lt;td&gt;64&lt;/td&gt;
-      &lt;td&gt;128&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Rivest Cipher 5 (RC5)&lt;/td&gt;
-      &lt;td&gt;32, 64, 128&lt;/td&gt;
-      &lt;td&gt;0 - 2,040&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Skipjack&lt;/td&gt;
-      &lt;td&gt;64&lt;/td&gt;
-      &lt;td&gt;80&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Triple DES (3DES)&lt;/td&gt;
-      &lt;td&gt;64&lt;/td&gt;
-      &lt;td&gt;112, 168&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Twofish&lt;/td&gt;
-      &lt;td&gt;128&lt;/td&gt;
-      &lt;td&gt;1 - 256&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Hash Algorithms&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Digest Size&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;SHA-1&lt;/td&gt;
-      &lt;td&gt;160&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;SHA-256, SHA3-256&lt;/td&gt;
-      &lt;td&gt;256&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;SHA-224, SHA3-224&lt;/td&gt;
-      &lt;td&gt;224&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;SHA-512, SHA3-512&lt;/td&gt;
-      &lt;td&gt;512&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;SHA-384, SHA3-384&lt;/td&gt;
-      &lt;td&gt;384&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MD2&lt;/td&gt;
-      &lt;td&gt;128&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MD4&lt;/td&gt;
-      &lt;td&gt;128&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MD5&lt;/td&gt;
-      &lt;td&gt;160&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;HMAC&lt;/td&gt;
-      &lt;td&gt;Variable&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/applied-cryptography/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/applied-cryptography/</guid>
         
         <category>security</category>
         
