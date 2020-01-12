@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Jan 2020 13:43:57 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Jan 2020 13:43:57 +0000</lastBuildDate>
+    <pubDate>Sun, 12 Jan 2020 13:56:00 +0000</pubDate>
+    <lastBuildDate>Sun, 12 Jan 2020 13:56:00 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -105,7 +105,7 @@
 
 &lt;p&gt;&lt;strong&gt;10.&lt;/strong&gt; On the Application layer, the data is extracted from the message and is sent to the intended software recipient&lt;/p&gt;
 
-&lt;p&gt;The information added and removed by each layer contains instructions, checksums, and others and can only be understood by the peer layer that added or created the information. This creates the logical channel that enables the peer layer on different computers to communicate.&lt;/p&gt;
+&lt;p&gt;The information added and removed by each layer contains instructions, checksums, and  can only be understood by the peer layer that added or created the information. This creates the logical channel that enables the peer layer on different computers to communicate.&lt;/p&gt;
 
 &lt;h3 id=&quot;tcpip-and-osi-comparison&quot;&gt;TCP/IP and OSI comparison&lt;/h3&gt;
 
