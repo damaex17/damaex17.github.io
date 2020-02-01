@@ -5,9 +5,94 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jan 2020 09:07:27 +0000</pubDate>
-    <lastBuildDate>Wed, 29 Jan 2020 09:07:27 +0000</lastBuildDate>
+    <pubDate>Sat, 01 Feb 2020 15:56:37 +0000</pubDate>
+    <lastBuildDate>Sat, 01 Feb 2020 15:56:37 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>TCP/IP - Internet Protocol Suite</title>
+        <description>&lt;h6 id=&quot;the-internet-protocol-suite-is-commonly-known-as-tcpip-because-of-the-central-protocols-in-the-suite-transmission-control-protocol-tcp-and-internet-protocol-ip&quot;&gt;The Internet Protocol Suite is commonly known as TCP/IP because of the central protocols in the suite: Transmission Control Protocol (TCP) and Internet Protocol (IP).&lt;/h6&gt;
+
+&lt;h6 id=&quot;tcpip-is-the-foundation-of-all-global-internet-communication-and-dominates-networks-around-the-world-the-technical-standards-are-maintained-by-the-internet-engineering-task-force-ietf&quot;&gt;TCP/IP is the foundation of all global internet communication and dominates networks around the world. The technical standards are maintained by the Internet Engineering Task Force (IETF).&lt;/h6&gt;
+
+&lt;p&gt;The Internet Protocol Suite predates the &lt;a href=&quot;/2020/osi-model/&quot;&gt;OSI Reference Model&lt;/a&gt; which is a more comprehensive framework for general networking systems.&lt;/p&gt;
+
+&lt;p&gt;TCP/IP originates from research conducted by &lt;a href=&quot;https://en.wikipedia.org/wiki/DARPA&quot;&gt;DARPA&lt;/a&gt; in the 1960s. The design included a fundamental change to existing protocols as the network would only provide functions to efficiently transmitting and routing traffic between end nodes and that all other intelligence would be located at the edge of the network. This design is known as the &lt;a href=&quot;https://en.wikipedia.org/wiki/End-to-end_principle&quot;&gt;end-to-end principle&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_02.jpg&quot; alt=&quot;computer racks&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In 1982 the US Department of Defense declared TCP/IP as the standard for all computer networking and Universities followed in the same year. The promotion of the protocol by large corporations like IBM and DEC led to increasing commercial use.&lt;/p&gt;
+
+&lt;p&gt;The dominance of TCP/IP as the standard for network communication was cemented when the University of California, Berkeley placed the TCP/IP code developed for &lt;a href=&quot;https://en.wikipedia.org/wiki/BSD_UNIX&quot;&gt;BSD UNIX&lt;/a&gt; into the public domain in 1989. More and more vendors included the code in commercial software releases and more people joined Internet protocol suite based networks.&lt;/p&gt;
+
+&lt;h3 id=&quot;layers-of-tcpip&quot;&gt;Layers of TCP/IP&lt;/h3&gt;
+
+&lt;p&gt;The defining specification of the suite is found in &lt;a href=&quot;https://tools.ietf.org/html/rfc1122&quot;&gt;RFC 1122&lt;/a&gt; and &lt;a href=&quot;https://tools.ietf.org/html/rfc1123&quot;&gt;RFC 1123&lt;/a&gt;. A four-layer model is outlined as follows.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_01.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Application&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this layer applications or processes, create user data and communicate this data to other applications on the same host or a remote one. The applications make use of the services provided by the underlying lower layers, especially the transport layer which provides reliable or unreliable communication protocols to other processes. Application architecture is characterized by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Client%E2%80%93server_model&quot;&gt;client-server model&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Peer-to-peer&quot;&gt;peer-to-peer computing&lt;/a&gt;. This is the layer in which all application protocols, such as SMTP, FTP, SSH, HTTPS, operate.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Transport&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The transport layer performs host-to-host communication on local or remote networks. The two primary protocols in this layer are the simplex connectionless UDP or User Datagram Protocol and the full-duplex connection-oriented TCP or Transmission Control Protocol.&lt;/p&gt;
+
+&lt;p&gt;Data exchange between two systems on this layer is performed via ports. Both TCP and UDP support 65536 ports which are just an address number that both ends of the communication link agree to use when transferring data on the transport layer. A single IP address can support multiple simultaneous communications by utilizing multiple ports.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at TCP which is connection-oriented and performs a handshake process to establish a communication session. The three-way-handshake is a prerequisite for data transmission between server and client and goes as follows:&lt;/p&gt;
+
+&lt;p&gt;The client sends a &lt;strong&gt;SYN&lt;/strong&gt; (synchronize) flagged packet to the server. The server responds with a &lt;strong&gt;SYN/ACK&lt;/strong&gt; (synchronize and acknowledge) flagged packet back to the client. The client sends an &lt;strong&gt;ACK&lt;/strong&gt; (acknowledge) flagged packet back to the server.&lt;/p&gt;
+
+&lt;p&gt;There are two methods to disconnect a TCP session once a communication session is complete. The most common one is to use a &lt;strong&gt;FIN&lt;/strong&gt; (finish) flagged packet which both sides of the communication have to send once all data is transmitted. The other side has to reply with an &lt;strong&gt;ACK&lt;/strong&gt; flagged packet. It takes 4 packets to gracefully shut down a TCP session.&lt;/p&gt;
+
+&lt;p&gt;The alternative disconnect method is to send a &lt;strong&gt;RST&lt;/strong&gt; (reset) flagged packet, this causes an abrupt and immediate termination of the session.&lt;/p&gt;
+
+&lt;p&gt;UDP, the other player in the transport layer, is a connectionless best-effort protocol and offers no error detection and correction. It also doesn’t require a pre-established session and is therefore considered unreliable. With its low overhead, it can transmit data quickly but should only be used for non-essential data delivery.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_01.jpg&quot; alt=&quot;a city by night&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Internet&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Internet Protocol or IP operates on the Network layer of the &lt;a href=&quot;/2020/osi-model/&quot;&gt;OSI Model&lt;/a&gt;. IP provides route addressing for data packets and it is this route addressing that makes TCP/IP the foundation of global internet communications because it provides a way to identify and prescribe transmission paths.&lt;/p&gt;
+
+&lt;p&gt;The Internet Protocol is connectionless and acts as an unreliable datagram service. It doesn’t guarantee that packets are delivered in the right order or tht they are delivered at all. Only when TCP and IP work together a reliable and controlled communication session is established.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/IPv4&quot;&gt;IPv4&lt;/a&gt; is the most widely used version of the Internet Protocol. A new version known as &lt;a href=&quot;https://en.wikipedia.org/wiki/IPv6_address&quot;&gt;IPv6&lt;/a&gt; is being adopted for private and public network use and offers new features and new challenges for Administrators and Security Engineers.&lt;/p&gt;
+
+&lt;p&gt;ICMP or Internet Control Message Protocol is also working on the Internet layer and provides a way to determine the health of a network or a specific link. Commands like ping, traceroute and other network management tools utilize ICMP to send echo packets to remote hosts. With ICMP it is possible to determine whether a remote system is online, how fast it responds and if intermediary systems support the communication.&lt;/p&gt;
+
+&lt;p&gt;Many attacks exploited the features of ICMP in forms of denial-of-service (DoS) attacks like &lt;a href=&quot;https://en.wikipedia.org/wiki/Ping_flood&quot;&gt;ping floods&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Smurf_attack&quot;&gt;smurf attacks&lt;/a&gt;. This has affected the way how networks handle ICMP today, resulting in many limiting the use of ICMP or the throughput rate of this protocol.&lt;/p&gt;
+
+&lt;p&gt;The Internet Group Management Protocol or IGMP allows systems to support multicasting in an IPv4 network. Multicast management on IPv6 networks is handled by Multicast Listener Discovery (MLD). Both protocols support the transmission of data to multiple specific recipients.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Link&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The link layer defines the networking methods within the scope of the local network link on which hosts communicate. This layer includes the protocols used to describe the local network topology and the interfaces needed for the transmission of Internet layer datagrams to next-neighbor hosts.&lt;/p&gt;
+
+&lt;p&gt;ARP or Address Resolution Protocol is enabling the interoperability of logical and physical addressing of interfaces. It resolves IP addresses into Medica Access Control (MAC) addresses.&lt;/p&gt;
+
+&lt;p&gt;Traffic on a network is directed from its source to its destination using MAC addresses. ARP uses broadcasting and caching to perform the intended purpose. If the cache doesn’t contain the necessary information, an ARP request is broadcasted into the network.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;TCP/IP follows principles that helped the model to adapt to new requirements and stay meaningful. Robustness, Adaptability and Continuous Evolution are core values mentioned in the defining RFCs of the Internet Protocol Suite.&lt;/p&gt;
+
+&lt;p&gt;But TCP/IP vulnerabilities are numerous and range from improperly implemented stacks in operating systems to buffer overflows, denial-of-service or spoofing attacks. It is also subject to passive attacks via monitoring traffic patterns or sniffing the content of communication by man-in-the-middle attacks. Deep knowledge of TCP/IP is a must for any security professional to mitigate the risk of attacks.&lt;/p&gt;
+
+&lt;p&gt;The Internet Protocol Suite is the underlying fabric of the internet and I could only provide a quick overview in this posting. Understanding the basics of networking should be in the interests of any Internet user.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/tcp-ip-model/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/tcp-ip-model/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>OSI Model - Open Systems Interconnection</title>
@@ -721,77 +806,6 @@ Some examples are:&lt;/p&gt;
         <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/password-entropy/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/password-entropy/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Adaptive Transaction Security by Contact Frequency</title>
-        <description>&lt;h5 id=&quot;adaptive-security-is-traditionally-a-network-security-model-to-accommodate-for-the-increasing-complexity-of-threats-targeting-the-network-of-organizations-intrusion-detection-systems-for-example-are-one-application-of-adaptive-security-and-use-a-heuristic-system-that-correlates-information-to-make-recommendations-rather-than-using-hard-blocking-rules-as-a-firewall-does&quot;&gt;Adaptive security is traditionally a network security model to accommodate for the increasing complexity of threats targeting the network of organizations. &lt;a href=&quot;https://en.wikipedia.org/wiki/Intrusion_detection_system&quot;&gt;Intrusion Detection Systems&lt;/a&gt;, for example, are one application of adaptive security and use a heuristic system that correlates information to make recommendations rather than using hard blocking rules as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Firewall_(computing)&quot;&gt;Firewall&lt;/a&gt; does.&lt;/h5&gt;
-
-&lt;p&gt;Generally, Adaptive Security is an approach to cybersecurity that analyzes behaviors and events to continuously assess risk and automatically provide proportional enforcement that can be dialed up or down.&lt;/p&gt;
-
-&lt;p&gt;I suggest this model to adopt the transaction security features for an imaginary online bank.&lt;/p&gt;
-
-&lt;h3 id=&quot;traditional-transaction-security-in-banking&quot;&gt;Traditional Transaction Security in Banking&lt;/h3&gt;
-
-&lt;p&gt;Financial information is surely near the top of the list of all the things people want to keep safe. The login to the online system of a bank is usually only protected by username (identification) and password (&lt;a href=&quot;https://en.wikipedia.org/wiki/Authentication&quot;&gt;authentication&lt;/a&gt;) and gives access to the account in a read-only mode. Past transaction and account information can only be looked at.&lt;/p&gt;
-
-&lt;p&gt;The second layer of security (&lt;a href=&quot;https://en.wikipedia.org/wiki/Multi-factor_authentication&quot;&gt;two-factor authentication&lt;/a&gt;) is necessary once the user intends to do an online change to the account. This change could be a new standing order, a money transaction, or the change of the address.&lt;/p&gt;
-
-&lt;p&gt;Additional authentication methods vary from bank to bank and include one-time passwords from a tan list (classic TAN), SMS or push notifications to mobile devices (mobileTAN or pushTAN), or the use of a &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:SmartTAN_optic-Gadget.jpg&quot;&gt;device to create the TAN&lt;/a&gt; (cardTAN or chipTAN).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/adaptive.jpg&quot; alt=&quot;a picture showing a chameleon&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;adaptive-transaction-security&quot;&gt;Adaptive Transaction Security&lt;/h3&gt;
-
-&lt;p&gt;I want to suggest a security model where the frequency of interaction between people can be used to remove the enforcement of a second factor for future transactions between those people. This model is improving the usability for the customer while it manages the risk of fraud for the bank.&lt;/p&gt;
-
-&lt;p&gt;A malicious player who hacks the account could not benefit from the removal of 2FA for those transactions because it would only whitelist accounts with a strong transaction relationship.&lt;/p&gt;
-
-&lt;h3 id=&quot;graph-database&quot;&gt;Graph Database&lt;/h3&gt;
-
-&lt;p&gt;Graph Databases allow to represent related data as it is as a set of objects connected by a set of relationships. Graph theory dates back to 1735, when Leonard Euler solved the &lt;a href=&quot;https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg&quot;&gt;Seven Bridges of Königsberg&lt;/a&gt; problem by devising a topology consisting of nodes and relationships.&lt;/p&gt;
-
-&lt;p&gt;In computing, a graph database uses graph structures for semantic queries with nodes, edges, and properties to represent and store data. A key concept of the system is the graph (relationship). The graph relates the data items in the store to a collection of nodes and edges, the edges representing the relationships between the nodes.&lt;/p&gt;
-
-&lt;p&gt;Graph databases, by design, allow simple and fast retrieval of complex hierarchical structures that are difficult to model in relational systems. A graph is essentially an index data structure. It never needs to load or touch unrelated data for a given query. They’re an excellent solution for real-time big data analytical queries.&lt;/p&gt;
-
-&lt;p&gt;Let’s look at some example transactions between four people. Each customer and transaction is an object and the transaction flow is represented by a graph.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;_:bob &amp;lt;first.name&amp;gt; &quot;Bob&quot; .
-_:alice &amp;lt;first.name&amp;gt; &quot;Alice&quot; .
-_:chuck &amp;lt;first.name&amp;gt; &quot;Chuck&quot; .
-_:rudi &amp;lt;first.name&amp;gt; &quot;Rudi&quot; .
-_:bob &amp;lt;sends&amp;gt; _:tn1 .
-_:alice &amp;lt;receives&amp;gt; _:tn1 .
-_:bob &amp;lt;sends&amp;gt; _:tn2 .
-_:alice &amp;lt;receives&amp;gt; _:tn2 .
-...
-_:bob &amp;lt;receives&amp;gt; _:tn19 .
-_:alice &amp;lt;sends&amp;gt; _:tn20 .
-_:bob &amp;lt;receives&amp;gt; _:tn20 .
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;I inject the data into &lt;a href=&quot;https://dgraph.io/&quot;&gt;dgraph&lt;/a&gt; and visualize the amount of nodes (transactions) between people:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/graph.png&quot; alt=&quot;a picture showing the relationship&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We can see a strong relationship between Alice and Bob. Alice is sending money on a regular basis to Bob. We could suggest her to remove 2FA when initiating new transactions to Bob. A more advanced data model with additional parameters, like the transaction value and the date, would help to consider only certain transactions between Alice and Bob.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Historically, effective security came at the expense of usability and vice versa. Today we have technologies that present the user with appropriate security solutions to match the task, risk, and real world scenario. Organizations need to start looking at the historical data and use it to tailor security around it. Smart risk management models can be applied to benefit the user.&lt;/p&gt;
-
-&lt;p&gt;Nobody will question strong authentication when a first-time transaction is made to a vendor in a foreign country. But having the same requirements whenever sending money to siblings, parents, or friends just doesn’t make any sense. Using the frequency of interaction with other people can help to accomplish security features that adapt to the situation.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/adaptive-transaction-security/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/adaptive-transaction-security/</guid>
         
         <category>security</category>
         
