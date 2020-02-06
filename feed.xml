@@ -5,9 +5,148 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Feb 2020 10:33:28 +0000</pubDate>
-    <lastBuildDate>Mon, 03 Feb 2020 10:33:28 +0000</lastBuildDate>
+    <pubDate>Thu, 06 Feb 2020 12:12:45 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Feb 2020 12:12:45 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>GDPR - The Minimum</title>
+        <description>&lt;h6 id=&quot;entrepreneurs-are-busy-people-having-to-distribute-their-precious-time-between-technical-implementation-marketing-and-monetization-data-privacy-is-not-very-high-on-the-list-of-things-that-need-to-get-done-but-the-gdpr-knows-no-mercy-or-the-concept-of-a-test-or-beta-phase&quot;&gt;Entrepreneurs are busy people having to distribute their precious time between technical implementation, marketing and monetization. Data privacy is not very high on the list of things that need to get done but the GDPR knows no mercy or the concept of a test or beta phase.&lt;/h6&gt;
+
+&lt;h6 id=&quot;as-soon-as-the-data-of-real-people-is-processed-the-rules-of-gdpr-apply-looking-into-data-privacy-early-prevents-bad-decisions-and-can-ultimately-shape-a-more-sustainable-business-plan&quot;&gt;As soon as the data of real people is processed, the rules of GDPR apply. Looking into data privacy early prevents bad decisions and can ultimately shape a more sustainable business plan.&lt;/h6&gt;
+
+&lt;p&gt;In this guide, I want to provide basic requirements and actions for young businesses to avoid privacy debt. Ignoring GDPR responsibilities can result in fines, invalidate the business case, leave organizations open to legal action and negatively affect the credibility of the startup.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-this-is-important&quot;&gt;Why this is important&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/General_Data_Protection_Regulation&quot;&gt;GDPR&lt;/a&gt; became enforceable on 25 May of 2018 and is a regulation for all member states of the EU. It affects all organizations that collect data from EU residents and has become a model for many national laws outside of the EU.&lt;/p&gt;
+
+&lt;p&gt;Violators of the GDPR may be fined up to €20 million or up to 4% of the annual turnover of the business. Solid investors will check if the paperwork of a startup includes the necessary documents regarding data privacy.&lt;/p&gt;
+
+&lt;p&gt;GDPR compliance should be seen as an advantage, adding value to the business and giving customers the security that their rights are taken seriously&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/gdpr.png&quot; alt=&quot;gdpr is here to stay&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lawyer-up&quot;&gt;Lawyer up&lt;/h3&gt;
+
+&lt;p&gt;The GDPR was written by lawyers and is filled with legal terms. To understand it requires to decipher the language and terms. Here are some basic explanations for common wording in the data privacy regulation law.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Subjects&lt;/strong&gt; are individuals. The natural person whose data is being processed. This can be a customer or an employee.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Controller&lt;/strong&gt; describes the entity that “determines the purpose, condition and means” of the processing of personal data. This is the entrepreneurs’ startup or small company.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Processor&lt;/strong&gt; is the entity that processes data on behalf of the Data Controller. Sometimes companies are the Controller and Processor at the same time but the Processor role can also be outsourced to a third party.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Personal Data&lt;/strong&gt; is any information relating to an identified or identifiable natural person. Examples are e-mail addresses, names, birth dates, financial data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sensitive Personal Data&lt;/strong&gt; is a set of “special categories” that must be treated with extra caution. This category includes racial or ethnic origin, political opinions, religious beliefs, health data and more.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/personnel_2.jpg&quot; alt=&quot;welcome&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;data-privacy-mindset&quot;&gt;Data Privacy Mindset&lt;/h3&gt;
+
+&lt;p&gt;With the right approach and by following a few rules it is possible for small businesses to implement a robust approach to data privacy. Collecting data of users is a responsibility that startups and entrepreneurs need to prioritize. The following points are by no means a GDRP compliance guide but a good foundation to build on top.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data classification&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A good way to start the process is by performing &lt;a href=&quot;/2019/data-classification/&quot;&gt;data classification&lt;/a&gt;. This must involve the data directly requested from users (e.g. name, email address, day of birth, password) and also data that is collected during the use of a service (e.g. log files, browser information, IP address). Documenting the categories of all data collected is the base for the next steps.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data flow&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The data flow of data provides the ability to implement appropriate protective measures. Those can be technical, organizational or contractual. Documentation of where data is stored and which services are involved is essential. Data classification and data flow documentation underline the purpose of data processing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Third-party screening&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can’t outsource risk nor responsibility. Startups need to choose third-party services not only by features but also with regards to their data privacy policy. A list of all service providers to a company has to be compiled and the data and data categories shared with them have to be documented. The data flow is helpful to understand what data is shared with which provider.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Transparency and consent&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Personal data can only be processed and stored with the consent of the user. The purpose of the data collection has to be made clear to the user and any change to it requires new consent. Being transparent about data processing is a major goal of the GDPR. Creating a transparent message of how customer data will be used builds company integrity and emphasizes the commitment to GDPR compliance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Point of Contact&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Customers have the right to request information about their data usage (data subject access requests) and can also request the erasure of their data. Every data processor needs to provide therefore a point of contact. Please keep in mind to properly authenticate a person before handing out information.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-newsletter-example&quot;&gt;The Newsletter Example&lt;/h3&gt;
+
+&lt;p&gt;Our startup develops a mobile application and has a promotional website where interested people can sign-up for a newsletter.&lt;/p&gt;
+
+&lt;p&gt;Operating a website and a newsletter are powerful tools to build and maintain relationships with customers. But it requires a comprehensive &lt;strong&gt;privacy policy&lt;/strong&gt; and &lt;strong&gt;user consent&lt;/strong&gt; as personal data is being collected. The involvement of any &lt;strong&gt;third-party&lt;/strong&gt; has to be disclosed to the customer as well.&lt;/p&gt;
+
+&lt;p&gt;Let’s recap. The collection and processing of data from EU residents require the following disclosure of information:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;What data is processed? Just the e-mail address or is the startup collecting more information like IP address, country, and gender?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the purpose of the collection? In our case this is market analysis, sending out newsletters and maybe selecting early adopters for the application. It’s important to be specific about the purpose and changes to the purpose require additional consent.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The involvement of third parties has to be disclosed to the user. Which other companies receive the e-mail address? Where is the data stored and processed?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How can the user contact the data processor and request the erasure of the data? Keep in mind that this includes the deletion of the data from third-parties.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;applied-data-privacy-for-the-newsletter&quot;&gt;Applied Data Privacy for the Newsletter&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Draft a comprehensive yet simple Privacy Policy and make it accessible to your users. With the collection of the above information, it will be easy to meet the obligations.&lt;/p&gt;
+
+&lt;p&gt;The following information has to be included:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;What personal information you collect&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What you use it for&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Whether you use third-party service&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The controls users have and how they can get into contact&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Consent&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The privacy policy is a passive document that gives information to the interested user, consent, on the other hand, is a clear affirmative action that signifies agreement to the processing of personal data.&lt;/p&gt;
+
+&lt;p&gt;Implied consent is no longer an option. Consent under GDPR has to be expressed - to ask for consent, the user has to understand the question and implication and then make a genuine choice.&lt;/p&gt;
+
+&lt;p&gt;Here is an appropriate example of newsletter signup. The user is made aware of the purpose and a link to the privacy policy is provided.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/consent.png&quot; alt=&quot;good consent&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The following example is non-compliant with GDPR. It implies consent to the processing activities and the user is not made aware of what the signup means, what the data is used for or how to get more information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/consent2.png&quot; alt=&quot;bad consent&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The rights and freedoms of the user are violated by providing a non-transparent sign-up.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;With a good foundation, it is possible to gradually mature the data privacy processes and supporting documents.&lt;/p&gt;
+
+&lt;p&gt;Writing a &lt;a href=&quot;https://gdpr-info.eu/art-30-gdpr/&quot;&gt;Record of processing activities&lt;/a&gt;, performing a &lt;a href=&quot;https://gdpr-info.eu/art-35-gdpr/&quot;&gt;Data protection impact assessment&lt;/a&gt;, or &lt;a href=&quot;https://gdpr-info.eu/art-36-gdpr&quot;&gt;consulting with the authorities&lt;/a&gt; are the next steps a company needs to take in accordance with GDPR.&lt;/p&gt;
+
+&lt;p&gt;Data privacy is never done but instead a continuous process and has to be part of the DNA of any successful company.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/gdpr-minimum/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/gdpr-minimum/</guid>
+        
+        <category>technology</category>
+        
+        <category>privacy</category>
+        
+        
+      </item>
     
       <item>
         <title>TCP/IP - Internet Protocol Suite</title>
@@ -635,6 +774,8 @@ Some examples are:&lt;/p&gt;
         
         <category>technology</category>
         
+        <category>privacy</category>
+        
         
       </item>
     
@@ -673,139 +814,6 @@ Some examples are:&lt;/p&gt;
         <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2019/web-of-trust-dead/</link>
         <guid isPermaLink="true">https://inversegravity.net/2019/web-of-trust-dead/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Password Entropy</title>
-        <description>&lt;h5 id=&quot;entropy-is-a-way-to-express-the-unpredictability-of-a-character-or-string-it-is-based-on-the-number-of-characters-the-set-and-the-length-of-a-given-string&quot;&gt;Entropy is a way to express the unpredictability of a character or string. It is based on the number of characters (the set) and the length of a given string.&lt;/h5&gt;
-
-&lt;p&gt;One can think of entropy as the randomness of a string. A password with high entropy is theoretically harder to brute force.&lt;/p&gt;
-
-&lt;h3 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h3&gt;
-
-&lt;p&gt;Security features should be seen as sequential measures, where one failing safeguard is protected by another one. Weakening one link in the security chain reduces the overall security. I am therefore a strong supporter of password policies with a high entropy potential, rate-limits, multi-factor authentication, and &lt;a href=&quot;/2019/gdpr-passwords-hashing-you/&quot;&gt;strong hashing functions&lt;/a&gt; for password storage.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/complex.jpg&quot; alt=&quot;a picture showing chaos&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;random-passwords&quot;&gt;Random Passwords&lt;/h3&gt;
-
-&lt;p&gt;In computer science, it is common to specify the password strength of a random password in bits of entropy. This approach is derived from &lt;a href=&quot;https://en.wikipedia.org/wiki/Entropy_(information_theory)&quot;&gt;information theory&lt;/a&gt;. Instead of the number of guesses needed to find the password with certainty, the base-2 logarithm of that number is used, which is the number of “entropy bits” in a password.&lt;/p&gt;
-
-&lt;p&gt;The formula to calculate the entropy is&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;H = log2(N^L)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;H&lt;/strong&gt; = entropy, &lt;strong&gt;N&lt;/strong&gt; = character set or number of possible symbols, &lt;strong&gt;L&lt;/strong&gt; = string length or number of characters&lt;/p&gt;
-
-&lt;p&gt;A password with an entropy of 128 bits calculated in this way would be as strong as a string of 128 bits chosen randomly, for example by a &lt;a href=&quot;https://en.wikipedia.org/wiki/Fair_coin&quot;&gt;fair coin toss&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To find the length, &lt;strong&gt;L&lt;/strong&gt;, needed to achieve the desired strength &lt;strong&gt;H&lt;/strong&gt;, with a password, created randomly from a set of &lt;strong&gt;N&lt;/strong&gt; symbols, one computes (rounded up to the next largest whole number)&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;L = H/(log2N)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Here is a table with some character sets and how many digits are required for 128 bit of entropy:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;character set&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;symbol count &lt;strong&gt;N&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;entropy per symbol &lt;strong&gt;H&lt;/strong&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;symbols required for 128 bits of entropy&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;fair coin 0/1&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;1.000 bits&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;128&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;arabic numerals (0-9)&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;10&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;3.322 bits&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;39&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;hexadecimal numerals (0–9, A–F) (e.g. WEP keys)&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;16&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;4.000 bits&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;32&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;case insensitive Latin alphabet (a–z or A–Z)&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;26&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;4.700 bits&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;28&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;case sensitive Latin alphabet (a–z, A–Z)&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;52&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;5.700 bits&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;23&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;case sensitive alphanumeric (a–z, A–Z, 0–9)&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;62&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;5.954 bits&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;22&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;all ASCII printable characters&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;95&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;6.570 bits&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;20&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;I wrote a short python script to calculate the theoretical entropy of a random password:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/python3
-&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;argparse&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argparse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ArgumentParser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_argument&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;num_symbols&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;character set or number of symbols&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_argument&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;length&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;password length in characters&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parse_args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_symbols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;human-generated-passwords&quot;&gt;Human-generated Passwords&lt;/h3&gt;
-
-&lt;p&gt;People are notoriously poor at achieving sufficient entropy to produce satisfactory passwords. According to one study involving half a million users &lt;a href=&quot;https://www.microsoft.com/en-us/research/wp-content/uploads/2006/11/www2007.pdf&quot;&gt;PDF&lt;/a&gt;, the average password entropy was estimated at 40.54 bits.&lt;/p&gt;
-
-&lt;p&gt;It gets worse with the most common number used is “1”, and the most common letters are a, e, o, and r. Users don’t make full use of larger character sets when forming passwords. For example, hacking results obtained from a &lt;a href=&quot;https://www.wired.com/2006/12/myspace-passwords-arent-so-dumb/?currentPage=all&quot;&gt;MySpace phishing scheme in 2006&lt;/a&gt; revealed 34,000 passwords, of which only 8.3% used mixed case, numbers, and symbols.&lt;/p&gt;
-
-&lt;p&gt;The full strength associated with using a certain character set is only achieved if each possible password is equally likely. The human behavior is a reduction of the theoretical password “strength”. A better requirement would be to require a password &lt;strong&gt;not&lt;/strong&gt; to contain words from dictionaries or names. If patterned choices are required, humans are likely to use them in predictable ways, such a capitalizing a letter, adding only one or two numbers, and a special character. This predictability means that the increase in password strength is minor when compared to random passwords.&lt;/p&gt;
-
-&lt;h3 id=&quot;common-password-guidelines-in-2019&quot;&gt;Common Password Guidelines in 2019&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Use a password manager to generate truly random passwords.&lt;/li&gt;
-  &lt;li&gt;Use a minimum password length of 12 or more characters.&lt;/li&gt;
-  &lt;li&gt;Use lowercase, uppercase alphabetic characters, numbers and symbols if permitted.&lt;/li&gt;
-  &lt;li&gt;Avoid using the same password twice.&lt;/li&gt;
-  &lt;li&gt;Avoid using information that is or could be publicly associated with the user.&lt;/li&gt;
-  &lt;li&gt;Avoid character repetition, keyboard patterns, dictionary words, letter or number sequences (e.g. dates), usernames, names (ancestors, pets, [ex]partners), biographical information (e.g. ID number)&lt;/li&gt;
-  &lt;li&gt;Check passwords against those obtained from previous data breaches (e.g. &lt;a href=&quot;https://haveibeenpwned.com/Passwords&quot;&gt;HIBP&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/password-entropy/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/password-entropy/</guid>
         
         <category>security</category>
         
