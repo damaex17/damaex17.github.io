@@ -1,1 +1,1 @@
-Sitemap: http://10.0.1.71:4000/sitemap.xml
+Sitemap: https://inversegravity.net/sitemap.xml
