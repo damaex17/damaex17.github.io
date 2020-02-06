@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>technology, security, watch and book reviews</description>
-    <link>https://inversegravity.net/</link>
-    <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Feb 2020 12:12:45 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Feb 2020 12:12:45 +0000</lastBuildDate>
+    <link>http://10.0.1.71:4000/</link>
+    <atom:link href="http://10.0.1.71:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 06 Feb 2020 12:18:06 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Feb 2020 12:18:06 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -23,7 +23,7 @@
 
 &lt;p&gt;Violators of the GDPR may be fined up to €20 million or up to 4% of the annual turnover of the business. Solid investors will check if the paperwork of a startup includes the necessary documents regarding data privacy.&lt;/p&gt;
 
-&lt;p&gt;GDPR compliance should be seen as an advantage, adding value to the business and giving customers the security that their rights are taken seriously&lt;/p&gt;
+&lt;p&gt;GDPR compliance is an advantage, adding value to the business and giving customers the security that their rights are taken seriously.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/gdpr.png&quot; alt=&quot;gdpr is here to stay&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
@@ -138,8 +138,8 @@
 &lt;p&gt;Data privacy is never done but instead a continuous process and has to be part of the DNA of any successful company.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/gdpr-minimum/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/gdpr-minimum/</guid>
+        <link>http://10.0.1.71:4000/2020/gdpr-minimum/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2020/gdpr-minimum/</guid>
         
         <category>technology</category>
         
@@ -223,8 +223,8 @@
 &lt;p&gt;The Internet Protocol Suite is the underlying fabric of the internet and I could only provide a quick overview in this posting. Understanding the basics of networking should be in the interests of any Internet user.&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/tcp-ip-model/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/tcp-ip-model/</guid>
+        <link>http://10.0.1.71:4000/2020/tcp-ip-model/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2020/tcp-ip-model/</guid>
         
         <category>security</category>
         
@@ -344,8 +344,8 @@
 &lt;p&gt;The theory behind the OSI model is abstract at first but it serves as a model to understand and compare protocols. It also helps vendors and developers to create digital communication products that interoperate. Lastly, the structure of the OSI model helps to frame discussions of protocols and contrast various technologies.&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/osi-model/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/osi-model/</guid>
+        <link>http://10.0.1.71:4000/2020/osi-model/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2020/osi-model/</guid>
         
         <category>security</category>
         
@@ -421,8 +421,8 @@
 &lt;p&gt;That was my guide and all that’s left for me is to wish my readers a relaxed end of the year and a good time with your loved ones.&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/holiday-gift-guide/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/holiday-gift-guide/</guid>
+        <link>http://10.0.1.71:4000/2019/holiday-gift-guide/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2019/holiday-gift-guide/</guid>
         
         <category>security</category>
         
@@ -484,8 +484,8 @@
 &lt;p&gt;U2F devices, on the other hand, will become cheaper and more common to be accepted by service providers. I predict a future of adaptive security with many potential factors for authentication. Shared secret knowledge, physical ownership of a secure device, location, and behavior are all factors, that if combined, will convince machines that we are who we say we are.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/universal-2nd-factor/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/universal-2nd-factor/</guid>
+        <link>http://10.0.1.71:4000/2019/universal-2nd-factor/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2019/universal-2nd-factor/</guid>
         
         <category>security</category>
         
@@ -556,8 +556,8 @@ This means one can easily leave the watch on the nightstand over the weekend and
 &lt;p&gt;The Black Bay Fifty-Eight is a good looking dive watch and comes at a fair price.&lt;/p&gt;
 </description>
         <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/tudor-blackbay-fityeight/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/tudor-blackbay-fityeight/</guid>
+        <link>http://10.0.1.71:4000/2019/tudor-blackbay-fityeight/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2019/tudor-blackbay-fityeight/</guid>
         
         <category>watch</category>
         
@@ -627,8 +627,8 @@ The exact methodology for the rating is a secret but examples of infrations incl
 &lt;p&gt;Do we want to live in a world as predicted in the Black Mirror episode? Our societies have to be made aware of what algorithms really can, and cannot, do. Education is the answer.&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/social-scoring-system/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/social-scoring-system/</guid>
+        <link>http://10.0.1.71:4000/2019/social-scoring-system/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2019/social-scoring-system/</guid>
         
         <category>technology</category>
         
@@ -703,8 +703,8 @@ Some examples are:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Top_10-2017_A10-Insufficient_Logging%26Monitoring&quot;&gt;A10:2017-Insufficient Logging&amp;amp;Monitoring&lt;/a&gt;&lt;/strong&gt; - Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/owasp-top-10/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/owasp-top-10/</guid>
+        <link>http://10.0.1.71:4000/2019/owasp-top-10/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2019/owasp-top-10/</guid>
         
         <category>security</category>
         
@@ -767,8 +767,8 @@ Some examples are:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/cryptographic-deletion/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/cryptographic-deletion/</guid>
+        <link>http://10.0.1.71:4000/2019/cryptographic-deletion/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2019/cryptographic-deletion/</guid>
         
         <category>security</category>
         
@@ -812,8 +812,8 @@ Some examples are:&lt;/p&gt;
 &lt;p&gt;The Web of Trust is practically dead and can be considered a failure. The question arises on how the trust in PGP keys can be restored. Some people argue the community should look at messengers like Signal and Threema. They provide a convenient way of key verification and do not require any user actions or signatures. Those services provide basic trust in the genuineness of the delivered keys.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/web-of-trust-dead/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/web-of-trust-dead/</guid>
+        <link>http://10.0.1.71:4000/2019/web-of-trust-dead/</link>
+        <guid isPermaLink="true">http://10.0.1.71:4000/2019/web-of-trust-dead/</guid>
         
         <category>security</category>
         
