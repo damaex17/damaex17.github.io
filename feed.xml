@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Feb 2020 10:22:06 +0000</pubDate>
-    <lastBuildDate>Fri, 07 Feb 2020 10:22:06 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Feb 2020 11:54:53 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Feb 2020 11:54:53 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -781,13 +781,13 @@ Some examples are:&lt;/p&gt;
     
       <item>
         <title>PGP - The Web of Trust is Dead</title>
-        <description>&lt;h5 id=&quot;pretty-good-privacy-was-committed-to-making-good-encryption-available-to-everyone-the-used-crypto-was-revolutinary-at-the-time-but-one-of-the-big-problems-with-key-encryption-persisted-how-do-i-get-the-right-key-from-the-person-i-dont-know&quot;&gt;Pretty Good Privacy was committed to making good encryption available to everyone. The used crypto was revolutinary at the time. But one of the big problems with key encryption persisted: How do I get the right key from the person I don’t know?&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;pretty-good-privacy-was-committed-to-making-good-encryption-available-to-everyone-the-used-crypto-was-revolutinary-at-the-time-but-one-of-the-big-problems-with-public-key-encryption-persisted-how-do-i-get-the-right-key-from-the-person-i-dont-know&quot;&gt;Pretty Good Privacy was committed to making good encryption available to everyone. The used crypto was revolutinary at the time. But one of the big problems with public key encryption persisted: How do I get the right key from the person I don’t know?&lt;/h5&gt;
 
 &lt;h3 id=&quot;web-of-trust&quot;&gt;Web of Trust&lt;/h3&gt;
 
-&lt;p&gt;The Web of Trust was intended for this exact purpose but only ever worked in a small community of PGP fans. The promise of “encryption for the masses” could never be kept. The inflationary signing of keys causes serious problems and is, therefore, removed in GnuPG in version 2.2.17. By default this version is ignoring all signatures coming from a key server.&lt;/p&gt;
+&lt;p&gt;The Web of Trust was intended for this exact purpose but only ever worked in a small community of PGP enthusiasts. The promise of “encryption for the masses” could never be kept. The inflationary signing of keys causes serious problems and is, therefore, removed in GnuPG in version 2.2.17. By default this version is ignoring all signatures coming from a key server.&lt;/p&gt;
 
-&lt;p&gt;The basis of the Web of Trust is that “no two people are more than six degrees apart”. Everybody knows everyone. If you authenticate the key of your acquaintances, you’ll eventually reach a state where you can trust the key of person X that came from a central key server. Alter all, the sister of your uncles friend confirmed that the key actually belonged to X and wasn’t placed there by some malicious actor.&lt;/p&gt;
+&lt;p&gt;The basis of the Web of Trust is that “no two people are more than six degrees apart”. Everybody knows everyone. If you authenticate the key of your acquaintances, you’ll eventually reach a state where you can trust the key of person X that came from a central key server. Alter all, the sister of your uncles friend confirmed that the key actually belongs to X and wasn’t placed there by some malicious actor.&lt;/p&gt;
 
 &lt;p&gt;Anyone can sign any key and upload the signed version to the keyserver - in theory only after verifying its authenticity. To prevent state actors from forcing key server operators to replace real keys with fake ones, the Synchronizing Key Server (SKS) was designed in such a way that no key or signatures can be deleted. This, however, enabled a range of abuse scenarios. Currently, unknown people load keys onto keyservers again and again, which carry hundreds of thousands of signatures. Read the crisis communication by &lt;a href=&quot;https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f&quot;&gt;Robert J. Hansen&lt;/a&gt;.&lt;/p&gt;
 
