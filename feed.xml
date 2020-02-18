@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Feb 2020 20:25:03 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Feb 2020 20:25:03 +0000</lastBuildDate>
+    <pubDate>Tue, 18 Feb 2020 20:34:59 +0000</pubDate>
+    <lastBuildDate>Tue, 18 Feb 2020 20:34:59 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -43,7 +43,7 @@
 
 &lt;p&gt;The average symptom checker takes user input and sends it to a backend server where the data is processed in clear text and the results are stored. This means that the correlation between medical and personal data is possible for anyone with access (intended or not) to those systems.&lt;/p&gt;
 
-&lt;p&gt;The data cluster of a symptom checker is considered sensitive personal data and is located in the highest data protection category. Appropriate technical and organizational measures have to be implemented to satisfy privacy laws like GDPR. This will be challenging for small to medium-sized organizations, especially when utilizing cloud computing.&lt;/p&gt;
+&lt;p&gt;The data cluster of a symptom checker is considered sensitive personal data and is located in the &lt;a href=&quot;https://gdpr-info.eu/art-9-gdpr/&quot;&gt;highest data protection category&lt;/a&gt;. Appropriate technical and organizational measures have to be implemented to satisfy privacy laws like GDPR. This will be challenging for small to medium-sized organizations, especially when utilizing cloud computing.&lt;/p&gt;
 
 &lt;p&gt;It might be time to re-think the approach since privacy laws emphasize user rights over company interests, the purpose of processing, and data minimization.&lt;/p&gt;
 
