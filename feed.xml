@@ -5,9 +5,82 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Feb 2020 11:54:53 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Feb 2020 11:54:53 +0000</lastBuildDate>
+    <pubDate>Tue, 18 Feb 2020 20:22:34 +0000</pubDate>
+    <lastBuildDate>Tue, 18 Feb 2020 20:22:34 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>System Architecture - Shift To The Client</title>
+        <description>&lt;h6 id=&quot;the-network-dependency-of-an-ibm-terminal-user-of-the-70s-is-surprisingly-familiar-to-a-mobile-phone-user-in-the-2020s-without-a-connection-to-the-network-and-a-centralized-server-infrastructure-the-applications-are-not-working&quot;&gt;The network dependency of an IBM terminal user of the 70s is surprisingly familiar to a mobile phone user in the 2020s. Without a connection to the network and a centralized server infrastructure, the applications are not working.&lt;/h6&gt;
+
+&lt;h6 id=&quot;having-its-roots-in-the-thin-clients-of-mainframe-multi-user-systems-the-server-centric-approach-was-challenged-by-the-emergence-of-powerful-personal-computers-in-the-80s-only-to-become-the-de-facto-standard-once-again-with-the-smartphone-revolution&quot;&gt;Having its roots in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Thin_client&quot;&gt;thin clients&lt;/a&gt; of mainframe multi-user systems, the server-centric approach was challenged by the emergence of powerful personal computers in the 80s, only to become the de facto standard once again with the smartphone revolution.&lt;/h6&gt;
+
+&lt;p&gt;With the recent advances in privacy laws and regulations, we might see another shift to the client as the place of data processing.&lt;/p&gt;
+
+&lt;h3 id=&quot;client-server-architecture&quot;&gt;Client Server Architecture&lt;/h3&gt;
+
+&lt;p&gt;The client-server model introduces two roles: the service user (client) and the service provider (server). The client requests a resource and the server provides that resource.&lt;/p&gt;
+
+&lt;p&gt;During the design process of a client-server application, it is decided which parts of the task should be executed on the client, and which on the server. This decision can crucially affect the cost of clients and servers, the robustness and security of the application as a whole, and the flexibility of the design for later modification.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;control room&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mobile-applications&quot;&gt;Mobile Applications&lt;/h3&gt;
+
+&lt;p&gt;Early smartphones had limited storage capacity and processing power. Hence mobile application development focused heavily on degrading the smartphone to a pure front-end experience while scalable backend systems provided computational power and storage.&lt;/p&gt;
+
+&lt;p&gt;Business interests like analyzing usage patterns or digital rights management further pushed the server-centric agenda of mobile application architecture. End-users received device independence and cloud storage in return for giving up data to organizations.&lt;/p&gt;
+
+&lt;p&gt;Today companies implement server-centric architecture without a second thought and mobile application development is mostly reduced to work fancy UX design and backend API integrations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/smartphone.jpg&quot; alt=&quot;control room&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enough of the theory and let’s look at a mobile application in the default server-centric setup and how it could be transformed.&lt;/p&gt;
+
+&lt;h3 id=&quot;symptom-checker-app-10&quot;&gt;Symptom Checker App 1.0&lt;/h3&gt;
+
+&lt;p&gt;A symptom checker is the attempt to replace a doctor visit with an algorithm supported self-diagnosis. After providing some base information like the age and answering a couple of questions, the diagnosis is made. I will not go into the reliability of this kind of diagnosis but rather focus on the technical implementation.&lt;/p&gt;
+
+&lt;p&gt;The average symptom checker takes user input and sends it to a backend server where the data is processed in clear text and the results are stored. This means that the correlation between medical and personal data is possible for anyone with access (intended or not) to those systems.&lt;/p&gt;
+
+&lt;p&gt;The data cluster of a symptom checker is considered sensitive personal data and is located in the highest data protection category. Appropriate technical and organizational measures have to be implemented to satisfy privacy laws like GDPR. This will be challenging for small to medium-sized organizations, especially when utilizing cloud computing.&lt;/p&gt;
+
+&lt;p&gt;It might be time to re-think the approach since privacy laws emphasize user rights over company interests, the purpose of processing, and data minimization.&lt;/p&gt;
+
+&lt;h3 id=&quot;shift-to-the-client&quot;&gt;Shift To The Client&lt;/h3&gt;
+
+&lt;p&gt;Handheld devices are also rapidly catching up to desktop computers in terms of computing power and memory. While the performance gap will never be completely closed, the additional abilities of smartphones open up the possibility for more flexibility in system design.&lt;/p&gt;
+
+&lt;p&gt;So the question is how a different approach could look like and where to make the trade-offs? For an understanding of the future, I suggest looking to the past.&lt;/p&gt;
+
+&lt;p&gt;In the 80s the PC revolution set the trend from server-centric to client-centric. The mainframe was forecasted to be replaced by personal computers with locally installed business logic. The only thing a centralized server was required for was the sharing of files and as a backup solution.&lt;/p&gt;
+
+&lt;h3 id=&quot;symptom-checker-app-20&quot;&gt;Symptom Checker App 2.0&lt;/h3&gt;
+
+&lt;p&gt;The algorithm behind a symptom checker is reflected in a &lt;a href=&quot;https://en.wikipedia.org/wiki/Decision_tree&quot;&gt;decision tree&lt;/a&gt; since it only contains conditional control statements. It is therefore small in size and could easily be executed on a smartphone.&lt;/p&gt;
+
+&lt;p&gt;By creating an application framework for different downloadable decision trees it is possible to run the logic entirely on the client and reduce the server involvement of a symptom checker app to that of a simple file service.&lt;/p&gt;
+
+&lt;p&gt;No critical data would be centralized processed or stored. The user will stay in control and can make a conscious decision about donating data to improve the app or share the results with others.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Let’s be honest, most users don’t care or know whether the application they are using runs locally or remotely.&lt;/p&gt;
+
+&lt;p&gt;It’s the responsibility of architects and engineers to make good decisions. Privacy laws force us to think about the data criticality and consider alternative approaches to the well-known default of server-centric applications.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/privacy-client-shift/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/privacy-client-shift/</guid>
+        
+        <category>technology</category>
+        
+        <category>privacy</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>GDPR - The Minimum</title>
@@ -775,49 +848,6 @@ Some examples are:&lt;/p&gt;
         <category>technology</category>
         
         <category>privacy</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>PGP - The Web of Trust is Dead</title>
-        <description>&lt;h5 id=&quot;pretty-good-privacy-was-committed-to-making-good-encryption-available-to-everyone-the-used-crypto-was-revolutinary-at-the-time-but-one-of-the-big-problems-with-public-key-encryption-persisted-how-do-i-get-the-right-key-from-the-person-i-dont-know&quot;&gt;Pretty Good Privacy was committed to making good encryption available to everyone. The used crypto was revolutinary at the time. But one of the big problems with public key encryption persisted: How do I get the right key from the person I don’t know?&lt;/h5&gt;
-
-&lt;h3 id=&quot;web-of-trust&quot;&gt;Web of Trust&lt;/h3&gt;
-
-&lt;p&gt;The Web of Trust was intended for this exact purpose but only ever worked in a small community of PGP enthusiasts. The promise of “encryption for the masses” could never be kept. The inflationary signing of keys causes serious problems and is, therefore, removed in GnuPG in version 2.2.17. By default this version is ignoring all signatures coming from a key server.&lt;/p&gt;
-
-&lt;p&gt;The basis of the Web of Trust is that “no two people are more than six degrees apart”. Everybody knows everyone. If you authenticate the key of your acquaintances, you’ll eventually reach a state where you can trust the key of person X that came from a central key server. Alter all, the sister of your uncles friend confirmed that the key actually belongs to X and wasn’t placed there by some malicious actor.&lt;/p&gt;
-
-&lt;p&gt;Anyone can sign any key and upload the signed version to the keyserver - in theory only after verifying its authenticity. To prevent state actors from forcing key server operators to replace real keys with fake ones, the Synchronizing Key Server (SKS) was designed in such a way that no key or signatures can be deleted. This, however, enabled a range of abuse scenarios. Currently, unknown people load keys onto keyservers again and again, which carry hundreds of thousands of signatures. Read the crisis communication by &lt;a href=&quot;https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f&quot;&gt;Robert J. Hansen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Whoever imports such a key will stall their PGP installation. There is currently no known fix on the side of the SKS servers. Other options to rescue PGP had to be found.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We’ve known for a decade this attack is possible. It’s now here and it’s devastating” rjh&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;the-end-of-key-signatures&quot;&gt;The end of key signatures&lt;/h3&gt;
-
-&lt;p&gt;In a direct response, GnuPG from version 2.2.17 added a new option &lt;code class=&quot;highlighter-rouge&quot;&gt;self-sign-only&lt;/code&gt;, which is now a default option. It ensures that only the key servers own signatures are retained when a key is imported. The spam signatures and also those of the sister of your uncles friend - are no longer imported into the local keychain. This doesn’t affect manually imported keys.&lt;/p&gt;
-
-&lt;p&gt;This solves the signature spam problem for GPG users. But it comes with a hefty price tag. You no longer have any indication as to whether the imported key from a server is real or not. This problem is real because anyone can upload a key for any identity to the key servers.&lt;/p&gt;
-
-&lt;p&gt;OpenPGP enthusiasts introduced a new keyserver a few weeks ago. It verifies the e-mail address given in the key and only publishes it after successful verification. As things currently stand, there are a lot of arguments for using &lt;code class=&quot;highlighter-rouge&quot;&gt;keys.openpgp.org&lt;/code&gt; instead of the SKS servers.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/mailbox.jpg&quot; alt=&quot;a picture showing a mailbox&quot; style=&quot;left; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-future&quot;&gt;The future&lt;/h3&gt;
-
-&lt;p&gt;The Web of Trust is practically dead and can be considered a failure. The question arises on how the trust in PGP keys can be restored. Some people argue the community should look at messengers like Signal and Threema. They provide a convenient way of key verification and do not require any user actions or signatures. Those services provide basic trust in the genuineness of the delivered keys.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/web-of-trust-dead/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/web-of-trust-dead/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
         
         
       </item>
