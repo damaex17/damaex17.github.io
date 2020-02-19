@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>technology, security, watch and book reviews</description>
+    <description>a blog about technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Feb 2020 11:46:18 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2020 11:46:18 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2020 11:49:44 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2020 11:49:44 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -231,7 +231,7 @@
 
 &lt;p&gt;TCP/IP originates from research conducted by &lt;a href=&quot;https://en.wikipedia.org/wiki/DARPA&quot;&gt;DARPA&lt;/a&gt; in the 1960s. The design included a fundamental change to existing protocols as the network would only provide functions to efficiently transmitting and routing traffic between end nodes and that all other intelligence would be located at the edge of the network. This design is known as the &lt;a href=&quot;https://en.wikipedia.org/wiki/End-to-end_principle&quot;&gt;end-to-end principle&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_02.jpg&quot; alt=&quot;computer racks&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_02.jpg&quot; alt=&quot;computer racks&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In 1982 the US Department of Defense declared TCP/IP as the standard for all computer networking and Universities followed in the same year. The promotion of the protocol by large corporations like IBM and DEC led to increasing commercial use.&lt;/p&gt;
 
@@ -241,7 +241,7 @@
 
 &lt;p&gt;The defining specification of the suite is found in &lt;a href=&quot;https://tools.ietf.org/html/rfc1122&quot;&gt;RFC 1122&lt;/a&gt; and &lt;a href=&quot;https://tools.ietf.org/html/rfc1123&quot;&gt;RFC 1123&lt;/a&gt;. A four-layer model is outlined as follows.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_01.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_01.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Application&lt;/strong&gt;&lt;/p&gt;
 
@@ -263,7 +263,7 @@
 
 &lt;p&gt;UDP, the other player in the transport layer, is a connectionless best-effort protocol and offers no error detection and correction. It also doesn’t require a pre-established session and is therefore considered unreliable. With its low overhead, it can transmit data quickly but should only be used for non-essential data delivery.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_01.jpg&quot; alt=&quot;a city by night&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_01.jpg&quot; alt=&quot;a city by night&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Internet&lt;/strong&gt;&lt;/p&gt;
 
@@ -316,7 +316,7 @@
 
 &lt;p&gt;Communication between computers and over networks is made possible by protocols which are simply a set of rules and restrictions that define how data is transmitted over a network medium (whether that connection is electrons over copper, photons over fiber, or radio signals through the air).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/osi_2.jpg&quot; alt=&quot;light shining from fiber cables&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/osi_2.jpg&quot; alt=&quot;light shining from fiber cables&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;the-layers-of-the-model&quot;&gt;The Layers of the Model&lt;/h3&gt;
 
@@ -324,7 +324,7 @@
 
 &lt;p&gt;Understanding the functions and responsibilities of each layer of the OSI Model is essential to understand how network communications function, how attacks work, and how to security can be implemented to protect network communications.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/osi_table_1.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/osi_table_1.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;layer-7-application&quot;&gt;Layer 7: Application&lt;/h6&gt;
 
@@ -372,7 +372,7 @@
 
 &lt;p&gt;Hardware devices that function at this layer are network interface cards (NIC), hubs or repeaters. These devices perform hardware-based signal operations. One example is a network hub that is sending a signal from one connection port to all other ports. A network repeater is amplifying a signal to support greater transmission distances.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/osi_1.jpg&quot; alt=&quot;layers of pancakes&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/osi_1.jpg&quot; alt=&quot;layers of pancakes&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;encapsulation-and-de-encapsulation&quot;&gt;Encapsulation and De-encapsulation&lt;/h3&gt;
 
@@ -408,7 +408,7 @@
 
 &lt;p&gt;The TCP/IP or DARPA Model was developed before the OSI Model. The designers of the OSI Reference Model made sure that both fit together because TCP/IP was already an established deployment in networking.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/osi_table_2.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/osi_table_2.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;TCP/IP is the most widely used protocol stack with dozens of individual protocols. It is platform-independent and based on open standards and can be found in every available modern operating system. The drawbacks of TCP/IP are its significant consumption of resources and the lack of security by design.&lt;/p&gt;
 
@@ -512,7 +512,7 @@
 
 &lt;p&gt;U2F is an open standard that improves and simplifies traditional two-factor authentication. It is utilizing a Universal Serial Bus (USB) or near-field communication (NFC) device to achieve secure authentication and was initially developed by Google and &lt;a href=&quot;https://www.yubico.com/&quot;&gt;Yubico&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_3.png&quot; alt=&quot;picture of the bb58&quot; style=&quot; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_3.png&quot; alt=&quot;picture of the bb58&quot; style=&quot; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;otp&quot;&gt;OTP&lt;/h3&gt;
 
@@ -530,7 +530,7 @@
 
 &lt;p&gt;A theoretical attack is quite simple: token codes or shared secrets can get intercepted during authentication or stolen during the initialization of OTP. This is significant since it is the principal threat most users believe they are solving with this technology.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/totp.png&quot; alt=&quot;picture of a totp login&quot; style=&quot; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/totp.png&quot; alt=&quot;picture of a totp login&quot; style=&quot; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;u2f&quot;&gt;U2F&lt;/h3&gt;
 
@@ -540,7 +540,7 @@
 
 &lt;p&gt;After registration, when the user attempts to log in, the service provider sends a challenge to the client. The client compiles at least the information about the source of the challenge into the response and signs it with the private key before sending it back to the server.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/u2f.png&quot; alt=&quot;picture of a u2f login&quot; style=&quot; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/u2f.png&quot; alt=&quot;picture of a u2f login&quot; style=&quot; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The server can detect an abnormality in the response (since it is issuing the challenge) and deny the transaction if a rogue site or middle-man manipulates the flow.&lt;/p&gt;
 
@@ -550,7 +550,7 @@
 
 &lt;p&gt;Nowadays most people use biometrics-based methods for authentication on personal mobile devices to unlock them. Fingerprint and facial recognition have been around for a while now but they’re not exactly foolproof. It’s possible to trick fingerprint sensors and basic facial recognition systems.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_1.png&quot; alt=&quot;picture of a totp login&quot; style=&quot; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_1.png&quot; alt=&quot;picture of a totp login&quot; style=&quot; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since most consumer OTP solutions are depending on mobile phones as the second factor, it opens up the question of future dependability of this system.&lt;/p&gt;
 
