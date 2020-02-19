@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Feb 2020 11:36:23 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2020 11:36:23 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2020 11:46:18 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2020 11:46:18 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -23,7 +23,7 @@
 
 &lt;p&gt;During the design process of a client-server application, it is decided which parts of the task should be executed on the client, and which on the server. This decision can crucially affect the cost of clients and servers, the robustness and security of the application as a whole, and the flexibility of the design for later modification.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;mobile-applications&quot;&gt;Mobile Applications&lt;/h3&gt;
 
@@ -33,7 +33,7 @@
 
 &lt;p&gt;Today companies implement server-centric architecture without a second thought and mobile application development is mostly reduced to work fancy UX design and backend API integrations.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/smartphone.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/smartphone.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Enough of the theory and let’s look at a mobile application in the default server-centric setup and how it could be transformed.&lt;/p&gt;
 
@@ -98,7 +98,7 @@
 
 &lt;p&gt;GDPR compliance is an advantage, adding value to the business and giving customers the security that their rights are taken seriously.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/gdpr.png&quot; alt=&quot;gdpr is here to stay&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/gdpr.png&quot; alt=&quot;gdpr is here to stay&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;lawyer-up&quot;&gt;Lawyer up&lt;/h3&gt;
 
@@ -114,7 +114,7 @@
 
 &lt;p&gt;&lt;strong&gt;Sensitive Personal Data&lt;/strong&gt; is a set of “special categories” that must be treated with extra caution. This category includes racial or ethnic origin, political opinions, religious beliefs, health data and more.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/personnel_2.jpg&quot; alt=&quot;welcome&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/personnel_2.jpg&quot; alt=&quot;welcome&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;data-privacy-mindset&quot;&gt;Data Privacy Mindset&lt;/h3&gt;
 
@@ -194,11 +194,11 @@
 
 &lt;p&gt;Here is an appropriate example of newsletter signup. The user is made aware of the purpose and a link to the privacy policy is provided.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/consent.png&quot; alt=&quot;good consent&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/consent.png&quot; alt=&quot;good consent&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The following example is non-compliant with GDPR. It implies consent to the processing activities and the user is not made aware of what the signup means, what the data is used for or how to get more information.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/consent2.png&quot; alt=&quot;bad consent&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/consent2.png&quot; alt=&quot;bad consent&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The rights and freedoms of the user are violated by providing a non-transparent sign-up.&lt;/p&gt;
 
