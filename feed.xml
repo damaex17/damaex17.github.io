@@ -5,8 +5,8 @@
     <description>technology, security, watch and book reviews</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Feb 2020 20:47:17 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Feb 2020 20:47:17 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2020 11:36:23 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2020 11:36:23 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -23,7 +23,7 @@
 
 &lt;p&gt;During the design process of a client-server application, it is decided which parts of the task should be executed on the client, and which on the server. This decision can crucially affect the cost of clients and servers, the robustness and security of the application as a whole, and the flexibility of the design for later modification.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;control room&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;mobile-applications&quot;&gt;Mobile Applications&lt;/h3&gt;
 
@@ -33,7 +33,7 @@
 
 &lt;p&gt;Today companies implement server-centric architecture without a second thought and mobile application development is mostly reduced to work fancy UX design and backend API integrations.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/smartphone.jpg&quot; alt=&quot;control room&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/smartphone.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Enough of the theory and let’s look at a mobile application in the default server-centric setup and how it could be transformed.&lt;/p&gt;
 
