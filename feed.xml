@@ -5,8 +5,8 @@
     <description>a blog about technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Feb 2020 11:49:44 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2020 11:49:44 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Feb 2020 05:32:31 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Feb 2020 05:32:31 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -45,7 +45,7 @@
 
 &lt;p&gt;The data cluster of a symptom checker is considered sensitive personal data and is located in the &lt;a href=&quot;https://gdpr-info.eu/art-9-gdpr/&quot;&gt;highest data protection category&lt;/a&gt;. Appropriate technical and organizational measures have to be implemented to satisfy privacy laws like GDPR. This will be challenging for small to medium-sized organizations, especially when utilizing cloud computing.&lt;/p&gt;
 
-&lt;p&gt;It might be time to re-think the approach since privacy laws emphasize user rights over company interests, the purpose of processing, and data minimization.&lt;/p&gt;
+&lt;p&gt;It might be time to re-think the approach since privacy laws emphasize user rights over company interests.&lt;/p&gt;
 
 &lt;h3 id=&quot;shift-to-the-client&quot;&gt;Shift To The Client&lt;/h3&gt;
 
@@ -130,7 +130,7 @@
 
 &lt;p&gt;&lt;strong&gt;Third-party screening&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;You can’t outsource risk nor responsibility. Startups need to choose third-party services not only by features but also with regards to their data privacy policy. A list of all service providers to a company has to be compiled and the data and data categories shared with them have to be documented. The data flow is helpful to understand what data is shared with which provider.&lt;/p&gt;
+&lt;p&gt;You can’t outsource risk nor responsibility. Startups need to choose third-party services not only by features but also with regards to their data privacy policy. A list of all service providers of a company has to be compiled and the data and data categories shared with them have to be documented. The data flow diagram reveals what data is shared with which provider.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Transparency and consent&lt;/strong&gt;&lt;/p&gt;
 
@@ -142,7 +142,7 @@
 
 &lt;h3 id=&quot;the-newsletter-example&quot;&gt;The Newsletter Example&lt;/h3&gt;
 
-&lt;p&gt;Our startup develops a mobile application and has a promotional website where interested people can sign-up for a newsletter.&lt;/p&gt;
+&lt;p&gt;Our example startup develops a mobile application and has a promotional website where interested people can sign-up for a newsletter.&lt;/p&gt;
 
 &lt;p&gt;Operating a website and a newsletter are powerful tools to build and maintain relationships with customers. But it requires a comprehensive &lt;strong&gt;privacy policy&lt;/strong&gt; and &lt;strong&gt;user consent&lt;/strong&gt; as personal data is being collected. The involvement of any &lt;strong&gt;third-party&lt;/strong&gt; has to be disclosed to the customer as well.&lt;/p&gt;
 
