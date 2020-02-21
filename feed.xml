@@ -5,8 +5,8 @@
     <description>a blog about technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Feb 2020 05:32:31 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Feb 2020 05:32:31 +0000</lastBuildDate>
+    <pubDate>Fri, 21 Feb 2020 09:29:40 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Feb 2020 09:29:40 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -35,7 +35,9 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/smartphone.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Enough of the theory and let’s look at a mobile application in the default server-centric setup and how it could be transformed.&lt;/p&gt;
+&lt;p&gt;It might be time to re-think this approach since privacy laws emphasize user rights over company interests.&lt;/p&gt;
+
+&lt;p&gt;But enough of the theory and let’s look at a mobile application in the default server-centric setup, the privacy law implications and how it could be transformed.&lt;/p&gt;
 
 &lt;h3 id=&quot;symptom-checker-app-10&quot;&gt;Symptom Checker App 1.0&lt;/h3&gt;
 
@@ -44,8 +46,6 @@
 &lt;p&gt;The average symptom checker takes user input and sends it to a backend server where the data is processed in clear text and the results are stored. This means that the correlation between medical and personal data is possible for anyone with access (intended or not) to those systems.&lt;/p&gt;
 
 &lt;p&gt;The data cluster of a symptom checker is considered sensitive personal data and is located in the &lt;a href=&quot;https://gdpr-info.eu/art-9-gdpr/&quot;&gt;highest data protection category&lt;/a&gt;. Appropriate technical and organizational measures have to be implemented to satisfy privacy laws like GDPR. This will be challenging for small to medium-sized organizations, especially when utilizing cloud computing.&lt;/p&gt;
-
-&lt;p&gt;It might be time to re-think the approach since privacy laws emphasize user rights over company interests.&lt;/p&gt;
 
 &lt;h3 id=&quot;shift-to-the-client&quot;&gt;Shift To The Client&lt;/h3&gt;
 
