@@ -5,8 +5,8 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2020 09:40:12 +0000</pubDate>
-    <lastBuildDate>Wed, 13 May 2020 09:40:12 +0000</lastBuildDate>
+    <pubDate>Wed, 13 May 2020 11:15:38 +0000</pubDate>
+    <lastBuildDate>Wed, 13 May 2020 11:15:38 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -119,7 +119,7 @@
 
 &lt;h5 id=&quot;hacktivists&quot;&gt;Hacktivists&lt;/h5&gt;
 
-&lt;p&gt;Hacktivism is hacking for political and social change. It is mainly portrayed as the evolution of meatspace demonstrations and civil disobedience into cyberspace.&lt;/p&gt;
+&lt;p&gt;Hacktivism is mainly portrayed as the evolution of meatspace civil disobedience into cyberspace.&lt;/p&gt;
 
 &lt;p&gt;The common motivation is the fight against censorship and the support for the freedom of information but some hacktivists work for personal and or political gains.&lt;/p&gt;
 
@@ -127,7 +127,7 @@
 
 &lt;h5 id=&quot;industrial-espionage&quot;&gt;Industrial Espionage&lt;/h5&gt;
 
-&lt;p&gt;Industrial espionage aims at stealing intellectual property and trade secrets to use them for a competitive advantage.&lt;/p&gt;
+&lt;p&gt;Industrial espionage aims at stealing intellectual property, data, and secrets to use them for a competitive advantage.&lt;/p&gt;
 
 &lt;p&gt;Actors in this category are usually well-financed and use a mix of cyber and physical actions to achieve their goals.&lt;/p&gt;
 
@@ -135,9 +135,9 @@
 
 &lt;h5 id=&quot;organized-crime&quot;&gt;Organized Crime&lt;/h5&gt;
 
-&lt;p&gt;Criminals are motivated by making money. The digital equivalent of kidnapping or robbery offers far greater scalability and much lower risks.&lt;/p&gt;
+&lt;p&gt;Criminals are motivated by making money. The digital equivalent of kidnapping or robbery offers greater scalability and much lower risks.&lt;/p&gt;
 
-&lt;p&gt;The organized crime has been quick in adapting themselves to the opportunities of making money with online activities. &lt;a href=&quot;https://en.wikipedia.org/wiki/Ransomware&quot;&gt;Ransomeware&lt;/a&gt; and cryptojacking allow criminals to hide their identity and digital currencies make money laundering easier than ever before.&lt;/p&gt;
+&lt;p&gt;The organized crime has been quick in adapting themselves to the opportunities of making money with online activities. &lt;a href=&quot;https://en.wikipedia.org/wiki/Ransomware&quot;&gt;Ransomeware&lt;/a&gt; and cryptojacking allow criminals to hide their true identity and digital currencies make money laundering easier than ever before.&lt;/p&gt;
 
 &lt;h5 id=&quot;insider-threats&quot;&gt;Insider Threats&lt;/h5&gt;
 
@@ -147,7 +147,7 @@
 
 &lt;h5 id=&quot;nation-states&quot;&gt;Nation States&lt;/h5&gt;
 
-&lt;p&gt;State-backed hackers are not exclusively focused on hacking into military or diplomatic systems. Nation-state attacks have been documented against critical infrastructures like financial institutes or energy providers.&lt;/p&gt;
+&lt;p&gt;State-backed hackers are not exclusively focused on hacking into military systems. Nation-state attacks have been documented against critical infrastructures like financial institutes or energy providers with the intent to destabilize another country.&lt;/p&gt;
 
 &lt;p&gt;With almost unlimited financial potential these attackers use sophisticated techniques to disrupt organizations by leaking confidential information or attacking the availability of critical systems.&lt;/p&gt;
 
@@ -177,7 +177,7 @@
 
 &lt;p&gt;These include open-source or commercial computer intrusion technologies, but can also extend to a state financed intelligence and intrusion program. APTs use continuous monitoring and interaction to achieve defined objectives.&lt;/p&gt;
 
-&lt;p&gt;APT attacks are coordinated human activities, rather than the execution of automated code. The operators have a specific objective and are skilled, motivated, organized, and well funded.&lt;/p&gt;
+&lt;p&gt;APT attacks are coordinated human activities, rather than the execution of automated code. The operators have a specific objective and are organized, motivated, skilled, and potentially well funded.&lt;/p&gt;
 
 &lt;h5 id=&quot;phishing&quot;&gt;Phishing&lt;/h5&gt;
 
@@ -206,7 +206,7 @@
     
       <item>
         <title>System Architecture - Shift To The Client</title>
-        <description>&lt;h6 id=&quot;the-network-dependency-of-an-ibm-terminal-user-of-the-70s-is-surprisingly-familiar-to-a-mobile-phone-user-in-the-2020s-without-a-connection-to-the-network-and-a-centralized-server-infrastructure-the-applications-are-not-working&quot;&gt;The network dependency of an IBM terminal user of the 70s is surprisingly familiar to a mobile phone user in the 2020s. Without a connection to the network and a centralized server infrastructure, the applications are not working.&lt;/h6&gt;
+        <description>&lt;h6 id=&quot;the-network-dependency-of-an-terminal-user-of-the-70s-is-surprisingly-familiar-to-a-mobile-phone-user-in-the-2020s-without-a-connection-to-the-network-and-the-centralized-server-infrastructure-the-applications-are-not-working&quot;&gt;The network dependency of an terminal user of the 70s is surprisingly familiar to a mobile phone user in the 2020s. Without a connection to the network and the centralized server infrastructure, the applications are not working.&lt;/h6&gt;
 
 &lt;h6 id=&quot;having-its-roots-in-the-thin-clients-of-mainframe-multi-user-systems-the-server-centric-approach-was-challenged-by-the-emergence-of-powerful-personal-computers-in-the-80s-only-to-become-the-de-facto-standard-once-again-with-the-smartphone-revolution&quot;&gt;Having its roots in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Thin_client&quot;&gt;thin clients&lt;/a&gt; of mainframe multi-user systems, the server-centric approach was challenged by the emergence of powerful personal computers in the 80s, only to become the de facto standard once again with the smartphone revolution.&lt;/h6&gt;
 
@@ -214,7 +214,7 @@
 
 &lt;h3 id=&quot;client-server-architecture&quot;&gt;Client Server Architecture&lt;/h3&gt;
 
-&lt;p&gt;The client-server model introduces two roles: the service user (client) and the service provider (server). The client requests a resource and the server provides that resource.&lt;/p&gt;
+&lt;p&gt;The client-server model has two roles: the service user (client) and the service provider (server). The client requests and the server provides.&lt;/p&gt;
 
 &lt;p&gt;During the design process of a client-server application, it is decided which parts of the task should be executed on the client, and which on the server. This decision can crucially affect the cost of clients and servers, the robustness and security of the application as a whole, and the flexibility of the design for later modification.&lt;/p&gt;
 
