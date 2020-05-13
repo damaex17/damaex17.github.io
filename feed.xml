@@ -5,8 +5,8 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2020 17:08:45 +0000</pubDate>
-    <lastBuildDate>Wed, 13 May 2020 17:08:45 +0000</lastBuildDate>
+    <pubDate>Wed, 13 May 2020 17:59:09 +0000</pubDate>
+    <lastBuildDate>Wed, 13 May 2020 17:59:09 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -181,7 +181,7 @@
 
 &lt;h5 id=&quot;phishing&quot;&gt;Phishing&lt;/h5&gt;
 
-&lt;p&gt;This is an attempt to obtain sensitive information such as usernames and passwords by disguising oneself as a entity of trust in an electronic communication.&lt;/p&gt;
+&lt;p&gt;This is an attempt to gather sensitive information such as email addresses and passwords by disguising oneself as a entity of trust.&lt;/p&gt;
 
 &lt;p&gt;Phishing is a social engineering technique used to deceive users. Users are lured by communications purporting to be from trusted parties such as social web sites, auction sites, banks, online payment processors or IT administrators.&lt;/p&gt;
 
