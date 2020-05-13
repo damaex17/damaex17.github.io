@@ -5,31 +5,31 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2020 11:15:38 +0000</pubDate>
-    <lastBuildDate>Wed, 13 May 2020 11:15:38 +0000</lastBuildDate>
+    <pubDate>Wed, 13 May 2020 12:39:26 +0000</pubDate>
+    <lastBuildDate>Wed, 13 May 2020 12:39:26 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Security Awareness - Security Culture</title>
         <description>&lt;h5 id=&quot;many-organizations-incorrectly-assume-that-a-team-of-security-experts-can-protect-the-other-99-of-the-companys-workforce-from-exposing-critical-information-to-malicious-external-actors&quot;&gt;Many organizations incorrectly assume that a team of security experts can protect the other 99% of the company’s workforce from exposing critical information to malicious external actors.&lt;/h5&gt;
 
-&lt;h5 id=&quot;this-dangerous-mindset-persists-in-many-technical-product-and-development-teams-too-and-members-take-it-for-granted-that-the-security-team-will-keep-them-out-of-trouble&quot;&gt;This dangerous mindset persists in many technical product and development teams too and members take it for granted that the security team will keep them out of trouble.&lt;/h5&gt;
+&lt;h5 id=&quot;this-dangerous-mindset-persists-in-many-technical-product-and-development-teams-too-and-members-take-it-for-granted-that-the-security-team-will-keep-them-out-of-trouble&quot;&gt;This dangerous mindset persists in many technical product and development teams too, and members take it for granted that the security team will keep them out of trouble.&lt;/h5&gt;
 
-&lt;p&gt;But the robust security posture of an enterprise doesn’t only consist of obvious components like policies, operational controls, work rules, monitoring tools, and a team of security specialists, the most important factor is the daily informed decision making of employees.&lt;/p&gt;
+&lt;p&gt;But the robust security posture of an enterprise doesn’t only consist of obvious components like policies, operational controls, work rules, monitoring tools, and a team of security specialists; the most critical factor is the daily informed decision making of employees.&lt;/p&gt;
 
 &lt;p&gt;Security awareness as a concept aims at employees knowing about these procedures, rules, and touchpoints with the security experts. Security culture, however, goes beyond that and emphasizes a healthy mix of knowledge and follow-through by all members of an organization.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/culture_1.jpg&quot; alt=&quot;artistic picture of a hackers hiding&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In this article, we want to take a look at some examples of how to increase awareness and more specifically create a strong cybersecurity culture.&lt;/p&gt;
+&lt;p&gt;In this article, we want to take a look at some examples of how to increase awareness and, more specifically, create an impactful cybersecurity culture.&lt;/p&gt;
 
 &lt;h3 id=&quot;leadership---top-down-approach&quot;&gt;Leadership - Top-Down Approach&lt;/h3&gt;
 
-&lt;p&gt;Major shifts in an organization start at the highest level, the support of the executive team is therefore essential in building a security culture. The top management has to communicate cybersecurity as an organization-wide priority.&lt;/p&gt;
+&lt;p&gt;Significant shifts in an organization start at the highest level; the support of the executive team is, thereforei, essential in building a security culture. The top management has to communicate cybersecurity as an organization-wide priority.&lt;/p&gt;
 
 &lt;p&gt;Regular reporting regarding the security situation of the organization and clear communication about the benefits of initiatives will help to build trust between the security team and management. Face to face meetings help to clearly explain why security matters to the success of the business.&lt;/p&gt;
 
-&lt;p&gt;Middle managers work directly with employees and are naturally an important driver of security culture. By properly explaining requirements to their team and leading by example, team leads will get the security mindset transported to all departments. Getting middle management on board with security has a major effect on cultural change. They are the multipliers of the program.&lt;/p&gt;
+&lt;p&gt;Middle managers work directly with employees and are naturally an essential driver of security culture. By properly explaining requirements to their team and leading by example, team leads will get the security mindset transported to all departments. Getting middle management on board with security has a significant effect on cultural change. They are the multipliers of the program.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“I’ve seen a lot of incidents where the management says that cybersecurity is important, but then they turn around and ask for exceptions—and that is the death knell of any cybersecurity program.”
@@ -44,11 +44,11 @@
 
 &lt;p&gt;Educating the work-force requires different approaches depending on the specific needs of the target group. For example, it makes sense to run all newcomers through a basic security program with information on common social engineering attacks like phishing or malware, introducing them to secure behavior expectations, and how to report an incident.&lt;/p&gt;
 
-&lt;p&gt;More tailored training for development teams can be for example introducing them to the &lt;a href=&quot;/2020/threat-landscape/&quot;&gt;Threat Landscape&lt;/a&gt;, the &lt;a href=&quot;/2019/owasp-top-10/&quot;&gt;OWASP Top 10 Application Security Risks&lt;/a&gt;, or maybe refresh some &lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;crypto&lt;/a&gt; knowledge.&lt;/p&gt;
+&lt;p&gt;More tailored training for development teams can be, for example, introducing them to the &lt;a href=&quot;/2020/threat-landscape/&quot;&gt;Threat Landscape&lt;/a&gt;, the &lt;a href=&quot;/2019/owasp-top-10/&quot;&gt;OWASP Top 10 Application Security Risks&lt;/a&gt;, or maybe refresh some &lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;crypto&lt;/a&gt; knowledge.&lt;/p&gt;
 
 &lt;p&gt;Departments, like HR, on the other hand, require awareness of the importance of &lt;a href=&quot;/2019/personnel-security/&quot;&gt;Personnel Security&lt;/a&gt; and how they can help with keeping the workplace safe.&lt;/p&gt;
 
-&lt;p&gt;Transporting knowledge can be done in workshops, via videos or, maybe by introducing a &lt;a href=&quot;https://www.csoonline.com/article/3444488/equifax-data-breach-faq-what-happened-who-was-affected-what-was-the-impact.html&quot;&gt;famous data-leak case&lt;/a&gt; to a broader group in the organization and how it could have prevented by aligning with the policy framework. Showing that threats are close is a good way to encourage employees to follow security policies and best practices.&lt;/p&gt;
+&lt;p&gt;Transporting knowledge can be done in workshops, via videos or, maybe by introducing a &lt;a href=&quot;https://www.csoonline.com/article/3444488/equifax-data-breach-faq-what-happened-who-was-affected-what-was-the-impact.html&quot;&gt;famous data-leak case&lt;/a&gt; to a broader group in the organization and how it could have prevented by aligning with the policy framework. Showing that threats are close is an excellent way to encourage employees to follow security policies and best practices.&lt;/p&gt;
 
 &lt;p&gt;Security teams should also consider collecting feedback after training to ensure the continuous improvement of the education program.&lt;/p&gt;
 
@@ -62,31 +62,31 @@
 
 &lt;p&gt;The origin of most industry SDL implementations is the &lt;a href=&quot;https://www.microsoft.com/en-us/securityengineering/sdl/practices&quot;&gt;Microsoft program&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;SDL is sustainable security culture in action and answers the how for embedding security culture in development and product teams.&lt;/p&gt;
+&lt;p&gt;SDL is sustainable security culture in action and answers the how to embed security culture in development and product teams.&lt;/p&gt;
 
 &lt;h3 id=&quot;rewards&quot;&gt;Rewards&lt;/h3&gt;
 
-&lt;p&gt;Celebrate success and recognize the people that do the right thing for security. Positive reinforcement is a good practice to support the effort to build a community of security-aware employees.&lt;/p&gt;
+&lt;p&gt;Celebrate success and recognize the people that do the right thing for security. Positive reinforcement is an excellent practice to support the effort to build a community of security-aware employees.&lt;/p&gt;
 
-&lt;p&gt;By adding security-related goals to performance reviews will make good security practices mandatory. A positive message to the entire organization can be sent by giving employees with good risk awareness more freedom when making decisions.&lt;/p&gt;
+&lt;p&gt;By adding security-related goals to performance reviews, will make reasonable security practices mandatory. A positive message to the entire organization can be sent by giving employees with good risk awareness more freedom when making decisions.&lt;/p&gt;
 
-&lt;p&gt;Distributing the responsibility for security and giving more freedom is a major goal of security culture and therefore has to be embedded in the program.&lt;/p&gt;
+&lt;p&gt;Distributing the responsibility for security and giving more freedom is a significant goal of security culture and therefore has to be embedded in the program.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/culture_2.jpg&quot; alt=&quot;artistic picture with data privacy message &quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;automation&quot;&gt;Automation&lt;/h3&gt;
 
-&lt;p&gt;Organizations can support employees by adding security automation to software development and daily processes. This will not only make the employee’s job easier but can also significantly improve the security posture.&lt;/p&gt;
+&lt;p&gt;Organizations can support employees by adding security automation to software development and daily processes. This will not only make the employee’s job more comfortable but can also significantly improve the security posture.&lt;/p&gt;
 
 &lt;p&gt;Examples of good automation are security scanners, static code analysis, or automatically generated governance documents.&lt;/p&gt;
 
 &lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
 
-&lt;p&gt;Security culture is an important part of a broader corporate culture that encourages people to make good decisions in alignment with the organization’s security policies.&lt;/p&gt;
+&lt;p&gt;Security culture is an integral part of a broader corporate culture that encourages people to make correct decisions in alignment with the organization’s security policies.&lt;/p&gt;
 
 &lt;p&gt;It’s a long-term and never-ending endeavor to break down silos. A sense of ownership needs to be communicated companywide and not end at the security department.&lt;/p&gt;
 
-&lt;p&gt;Employees have to be seen as assets in this approach, they are the first line of defense.&lt;/p&gt;
+&lt;p&gt;Employees have to be seen as assets in this approach; they are the first line of defense.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2020/security-culture/</link>
@@ -279,11 +279,11 @@
     
       <item>
         <title>GDPR - The Minimum</title>
-        <description>&lt;h6 id=&quot;entrepreneurs-are-busy-people-having-to-distribute-their-precious-time-between-technical-implementation-marketing-and-monetization-data-privacy-is-not-very-high-on-the-list-of-things-that-need-to-get-done-but-the-gdpr-knows-no-mercy-or-the-concept-of-a-test-or-beta-phase&quot;&gt;Entrepreneurs are busy people having to distribute their precious time between technical implementation, marketing and monetization. Data privacy is not very high on the list of things that need to get done but the GDPR knows no mercy or the concept of a test or beta phase.&lt;/h6&gt;
+        <description>&lt;h6 id=&quot;entrepreneurs-are-busy-people-having-to-distribute-their-precious-time-between-technical-implementation-marketing-and-monetization-data-privacy-is-not-very-high-on-the-list-of-things-that-need-to-get-done-but-the-gdpr-knows-no-mercy-or-the-concept-of-a-test-or-beta-phase&quot;&gt;Entrepreneurs are busy people having to distribute their precious time between technical implementation, marketing, and monetization. Data privacy is not very high on the list of things that need to get done, but the GDPR knows no mercy or the concept of a test or beta phase.&lt;/h6&gt;
 
-&lt;h6 id=&quot;as-soon-as-the-data-of-real-people-is-processed-the-rules-of-gdpr-apply-looking-into-data-privacy-early-prevents-bad-decisions-and-can-ultimately-shape-a-more-sustainable-business-plan&quot;&gt;As soon as the data of real people is processed, the rules of GDPR apply. Looking into data privacy early prevents bad decisions and can ultimately shape a more sustainable business plan.&lt;/h6&gt;
+&lt;h6 id=&quot;as-soon-as-the-data-of-real-people-is-processed-the-rules-of-gdpr-apply-looking-into-data-privacy-in-the-early-stages-of-a-venture-prevents-bad-decisions-and-can-ultimately-shape-a-more-sustainable-business-plan&quot;&gt;As soon as the data of real people is processed, the rules of GDPR apply. Looking into data privacy in the early stages of a venture prevents bad decisions and can ultimately shape a more sustainable business plan.&lt;/h6&gt;
 
-&lt;p&gt;In this guide, I want to provide basic requirements and actions for young businesses to avoid privacy debt. Ignoring GDPR responsibilities can result in fines, invalidate the business case, leave organizations open to legal action and negatively affect the credibility of the startup.&lt;/p&gt;
+&lt;p&gt;In this guide, I want to provide basic requirements and actions for young businesses to avoid privacy debt. Ignoring GDPR responsibilities can result in fines, invalidate the business case, leave organizations open to legal action, and negatively affect the credibility of the startup.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-this-is-important&quot;&gt;Why this is important&lt;/h3&gt;
 
@@ -301,57 +301,57 @@
 
 &lt;p&gt;&lt;strong&gt;Data Subjects&lt;/strong&gt; are individuals. The natural person whose data is being processed. This can be a customer or an employee.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Data Controller&lt;/strong&gt; describes the entity that “determines the purpose, condition and means” of the processing of personal data. This is the entrepreneurs’ startup or small company.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data Controller&lt;/strong&gt; describes the entity that “determines the purpose, condition, and means” of the processing of personal data. This is the entrepreneurs’ startup or a small company.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Data Processor&lt;/strong&gt; is the entity that processes data on behalf of the Data Controller. Sometimes companies are the Controller and Processor at the same time but the Processor role can also be outsourced to a third party.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data Processor&lt;/strong&gt; is the entity that processes data on behalf of the Data Controller. Sometimes companies are the Controller and Processor at the same time, but the Processor role can also be outsourced to a third party.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Personal Data&lt;/strong&gt; is any information relating to an identified or identifiable natural person. Examples are e-mail addresses, names, birth dates, financial data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Personal Data&lt;/strong&gt; is any information relating to an identified or identifiable natural person. Examples are email addresses, names, birth dates, financial data.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Sensitive Personal Data&lt;/strong&gt; is a set of “special categories” that must be treated with extra caution. This category includes racial or ethnic origin, political opinions, religious beliefs, health data and more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sensitive Personal Data&lt;/strong&gt; is a set of “special categories” that must be treated with extra caution. This category includes racial or ethnic origin, political opinions, religious beliefs, health data, and more.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/personnel_2.jpg&quot; alt=&quot;welcome&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;data-privacy-mindset&quot;&gt;Data Privacy Mindset&lt;/h3&gt;
 
-&lt;p&gt;With the right approach and by following a few rules it is possible for small businesses to implement a robust approach to data privacy. Collecting data of users is a responsibility that startups and entrepreneurs need to prioritize. The following points are by no means a GDRP compliance guide but a good foundation to build on top.&lt;/p&gt;
+&lt;p&gt;With the right approach, and by following a few rules, it is possible for small businesses to implement a robust strategy for data privacy. Collecting data of users is a responsibility that startups and entrepreneurs need to prioritize. The following points are by no means a GDRP compliance guide but a good foundation to build on top.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Data classification&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;A good way to start the process is by performing &lt;a href=&quot;/2019/data-classification/&quot;&gt;data classification&lt;/a&gt;. This must involve the data directly requested from users (e.g. name, email address, day of birth, password) and also data that is collected during the use of a service (e.g. log files, browser information, IP address). Documenting the categories of all data collected is the base for the next steps.&lt;/p&gt;
+&lt;p&gt;An excellent way to start the process is by performing &lt;a href=&quot;/2019/data-classification/&quot;&gt;data classification&lt;/a&gt;. This must involve the data directly requested from users (e.g. name, email address, day of birth, password) and also data that is collected during the use of a service (e.g. log files, browser information, IP address). Documenting the categories of all data collected is the base for the next steps.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Data flow&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The data flow of data provides the ability to implement appropriate protective measures. Those can be technical, organizational or contractual. Documentation of where data is stored and which services are involved is essential. Data classification and data flow documentation underline the purpose of data processing.&lt;/p&gt;
+&lt;p&gt;The data flow of data provides the ability to implement appropriate protective measures. Those can be technical, organizational, or contractual. Documentation of where data is stored and which services are involved is essential. Data classification and data flow documentation underline the purpose of data processing.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Third-party screening&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;You can’t outsource risk nor responsibility. Startups need to choose third-party services not only by features but also with regards to their data privacy policy. A list of all service providers of a company has to be compiled and the data and data categories shared with them have to be documented. The data flow diagram reveals what data is shared with which provider.&lt;/p&gt;
+&lt;p&gt;You can’t outsource risk nor responsibility. Startups need to choose third-party services not only by features but also with regards to their data privacy policy. A list of all service providers of a company has to be compiled, and the data and data categories shared with them have to be documented. The data flow diagram reveals what data is shared with which provider.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Transparency and consent&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Personal data can only be processed and stored with the consent of the user. The purpose of the data collection has to be made clear to the user and any change to it requires new consent. Being transparent about data processing is a major goal of the GDPR. Creating a transparent message of how customer data will be used builds company integrity and emphasizes the commitment to GDPR compliance.&lt;/p&gt;
+&lt;p&gt;Personal data can only be processed and stored with the consent of the user. The purpose of the data collection has to be made clear to the user, and any change to it requires new consent. Being transparent about data processing is a significant goal of the GDPR. Creating a transparent message of how customer data will be used builds company integrity and emphasizes the commitment to GDPR compliance.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Point of Contact&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Customers have the right to request information about their data usage (data subject access requests) and can also request the erasure of their data. Every data processor needs to provide therefore a point of contact. Please keep in mind to properly authenticate a person before handing out information.&lt;/p&gt;
+&lt;p&gt;Customers have the right to request information about their data usage (data subject access requests) and can also request the erasure of their data. Every data processor needs to provide, therefore, a point of contact. Please keep in mind to properly authenticate a person before handing out information.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-newsletter-example&quot;&gt;The Newsletter Example&lt;/h3&gt;
 
-&lt;p&gt;Our example startup develops a mobile application and has a promotional website where interested people can sign-up for a newsletter.&lt;/p&gt;
+&lt;p&gt;Our example startup develops a mobile application and has a promotional website where interested people can signup for a newsletter.&lt;/p&gt;
 
-&lt;p&gt;Operating a website and a newsletter are powerful tools to build and maintain relationships with customers. But it requires a comprehensive &lt;strong&gt;privacy policy&lt;/strong&gt; and &lt;strong&gt;user consent&lt;/strong&gt; as personal data is being collected. The involvement of any &lt;strong&gt;third-party&lt;/strong&gt; has to be disclosed to the customer as well.&lt;/p&gt;
+&lt;p&gt;Operating a website and a newsletter are potent tools to build and maintain relationships with customers. But it requires a comprehensive &lt;strong&gt;privacy policy&lt;/strong&gt; and &lt;strong&gt;user consent&lt;/strong&gt; as personal data is being collected. The involvement of any &lt;strong&gt;third-party&lt;/strong&gt; has to be disclosed to the customer as well.&lt;/p&gt;
 
 &lt;p&gt;Let’s recap. The collection and processing of data from EU residents require the following disclosure of information:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;What data is processed? Just the e-mail address or is the startup collecting more information like IP address, country, and gender?&lt;/p&gt;
+    &lt;p&gt;What data is processed? Just the email address, or is the startup collecting more information like IP address, country, and gender?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;What is the purpose of the collection? In our case this is market analysis, sending out newsletters and maybe selecting early adopters for the application. It’s important to be specific about the purpose and changes to the purpose require additional consent.&lt;/p&gt;
+    &lt;p&gt;What is the purpose of the collection? In our case, this is market analysis, sending out newsletters and maybe selecting early adopters for the application. It’s essential to be specific about the purpose, and changes to the purpose require additional consent.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;The involvement of third parties has to be disclosed to the user. Which other companies receive the e-mail address? Where is the data stored and processed?&lt;/p&gt;
+    &lt;p&gt;The involvement of third parties has to be disclosed to the user. Which other companies receive the email address? Where is the data stored and processed?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;How can the user contact the data processor and request the erasure of the data? Keep in mind that this includes the deletion of the data from third-parties.&lt;/p&gt;
@@ -383,19 +383,19 @@
 
 &lt;p&gt;&lt;strong&gt;Consent&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The privacy policy is a passive document that gives information to the interested user, consent, on the other hand, is a clear affirmative action that signifies agreement to the processing of personal data.&lt;/p&gt;
+&lt;p&gt;The privacy policy is a passive document that gives information to the interested user, consent, on the other hand, is an explicit affirmative action that signifies agreement to the processing of personal data.&lt;/p&gt;
 
-&lt;p&gt;Implied consent is no longer an option. Consent under GDPR has to be expressed - to ask for consent, the user has to understand the question and implication and then make a genuine choice.&lt;/p&gt;
+&lt;p&gt;Implied consent is no longer an option. Consent under GDPR has to be expressed - to ask for consent; the user has to understand the question and implication and then make a genuine choice.&lt;/p&gt;
 
-&lt;p&gt;Here is an appropriate example of newsletter signup. The user is made aware of the purpose and a link to the privacy policy is provided.&lt;/p&gt;
+&lt;p&gt;Here is an appropriate example of newsletter signup. The user is made aware of the purpose, and a link to the privacy policy is provided.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/consent.png&quot; alt=&quot;good consent&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The following example is non-compliant with GDPR. It implies consent to the processing activities and the user is not made aware of what the signup means, what the data is used for or how to get more information.&lt;/p&gt;
+&lt;p&gt;The following example is non-compliant with GDPR. It implies consent to the processing activities, and the user is not made aware of what the signup means, what the data is used for or how to get more information.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/consent2.png&quot; alt=&quot;bad consent&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The rights and freedoms of the user are violated by providing a non-transparent sign-up.&lt;/p&gt;
+&lt;p&gt;The rights and freedoms of the user are violated by providing a non-transparent signup.&lt;/p&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
