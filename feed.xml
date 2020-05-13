@@ -5,8 +5,8 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2020 15:14:32 +0000</pubDate>
-    <lastBuildDate>Wed, 13 May 2020 15:14:32 +0000</lastBuildDate>
+    <pubDate>Wed, 13 May 2020 16:55:10 +0000</pubDate>
+    <lastBuildDate>Wed, 13 May 2020 16:55:10 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -216,7 +216,7 @@
 
 &lt;p&gt;The client-server model has two roles: the service user (client) and the service provider (server). The client requests and the server provides.&lt;/p&gt;
 
-&lt;p&gt;During the design process of a client-server application, it is decided which parts of the task should be executed on the client, and which on the server. This decision can crucially affect the cost of clients and servers, the robustness and security of the application as a whole, and the flexibility of the design for later modification.&lt;/p&gt;
+&lt;p&gt;During the design process of a client-server application, it is decided which parts of the task should be executed on the client, and which on the server. This decision can affect the robustness and security of the application as a whole. This will also have an effect on the cost of future modifications.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
