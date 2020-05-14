@@ -5,13 +5,13 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 May 2020 08:33:38 +0000</pubDate>
-    <lastBuildDate>Thu, 14 May 2020 08:33:38 +0000</lastBuildDate>
+    <pubDate>Thu, 14 May 2020 13:12:55 +0000</pubDate>
+    <lastBuildDate>Thu, 14 May 2020 13:12:55 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Security Awareness - Security Culture</title>
-        <description>&lt;h5 id=&quot;many-organizations-incorrectly-assume-that-a-team-of-security-experts-can-protect-the-other-99-of-the-companys-workforce-from-exposing-critical-information-to-malicious-external-actors&quot;&gt;Many organizations incorrectly assume that a team of security experts can protect the other 99% of the company’s workforce from exposing critical information to malicious external actors.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;many-organizations-incorrectly-assume-that-a-team-of-security-experts-can-protect-the-other-99-of-the-companys-workforce&quot;&gt;Many organizations incorrectly assume that a team of security experts can protect the other 99% of the company’s workforce.&lt;/h5&gt;
 
 &lt;h5 id=&quot;this-dangerous-mindset-persists-in-many-technical-product-and-development-teams-too-and-members-take-it-for-granted-that-the-security-team-will-keep-them-out-of-trouble&quot;&gt;This dangerous mindset persists in many technical product and development teams too, and members take it for granted that the security team will keep them out of trouble.&lt;/h5&gt;
 
