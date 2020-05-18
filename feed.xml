@@ -5,8 +5,8 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 May 2020 10:22:38 +0000</pubDate>
-    <lastBuildDate>Sat, 16 May 2020 10:22:38 +0000</lastBuildDate>
+    <pubDate>Mon, 18 May 2020 14:09:11 +0000</pubDate>
+    <lastBuildDate>Mon, 18 May 2020 14:09:11 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -82,9 +82,9 @@
 
 &lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
 
-&lt;p&gt;Security culture is an integral part of a broader corporate culture that encourages people to make correct decisions in alignment with the organization’s security policies.&lt;/p&gt;
+&lt;p&gt;Security culture is an integral part of a corporate culture that encourages people to make correct decisions in alignment with the organization’s best interest.&lt;/p&gt;
 
-&lt;p&gt;It’s a long-term and never-ending endeavor to break down silos. A sense of ownership needs to be communicated companywide and not end at the security department.&lt;/p&gt;
+&lt;p&gt;It’s a long-term and never-ending endeavor to break down silo thinking and create a sense of companywide ownership for security.&lt;/p&gt;
 
 &lt;p&gt;Employees have to be seen as assets in this approach; they are the first line of defense.&lt;/p&gt;
 </description>
@@ -234,7 +234,7 @@
 
 &lt;p&gt;But enough of the theory and let’s look at a mobile application in the default server-centric setup, the privacy law implications and how it could be transformed.&lt;/p&gt;
 
-&lt;h3 id=&quot;symptom-checker-app-10&quot;&gt;Symptom Checker App 1.0&lt;/h3&gt;
+&lt;h3 id=&quot;symptom-checker-10&quot;&gt;Symptom Checker 1.0&lt;/h3&gt;
 
 &lt;p&gt;A symptom checker is the attempt to replace a doctor visit with an algorithm supported self-diagnosis. After providing some base information like the age and answering a couple of questions, the diagnosis is made. I will not go into the reliability of this kind of diagnosis but rather focus on the technical implementation.&lt;/p&gt;
 
@@ -250,7 +250,7 @@
 
 &lt;p&gt;In the 80s the PC revolution set the trend from server-centric to client-centric. The mainframe was forecasted to be replaced by personal computers with locally installed business logic. The only thing a centralized server was required for was the sharing of files and as a backup solution.&lt;/p&gt;
 
-&lt;h3 id=&quot;symptom-checker-app-20&quot;&gt;Symptom Checker App 2.0&lt;/h3&gt;
+&lt;h3 id=&quot;symptom-checker-20&quot;&gt;Symptom Checker 2.0&lt;/h3&gt;
 
 &lt;p&gt;The algorithm behind a symptom checker is reflected in a &lt;a href=&quot;https://en.wikipedia.org/wiki/Decision_tree&quot;&gt;decision tree&lt;/a&gt; since it only contains conditional control statements. It is therefore small in size and could easily be executed on a smartphone.&lt;/p&gt;
 
