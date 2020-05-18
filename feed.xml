@@ -5,8 +5,8 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 May 2020 14:09:11 +0000</pubDate>
-    <lastBuildDate>Mon, 18 May 2020 14:09:11 +0000</lastBuildDate>
+    <pubDate>Mon, 18 May 2020 15:04:54 +0000</pubDate>
+    <lastBuildDate>Mon, 18 May 2020 15:04:54 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -263,6 +263,8 @@
 &lt;p&gt;Let’s be honest, most users don’t care or know whether the application they are using runs locally or remotely.&lt;/p&gt;
 
 &lt;p&gt;It’s the responsibility of architects and engineers to make good decisions. Privacy laws force us to think about the data criticality and consider alternative approaches to the well-known default of server-centric applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;UPDATE - May 2020: After successful protests of data protection advocates, the German government announced plans for a decentralized COVID-19 application. The contact tracing data will be store on the mobile devices of the users.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2020/privacy-client-shift/</link>
