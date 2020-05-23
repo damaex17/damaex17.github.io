@@ -5,8 +5,8 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 May 2020 15:04:54 +0000</pubDate>
-    <lastBuildDate>Mon, 18 May 2020 15:04:54 +0000</lastBuildDate>
+    <pubDate>Sat, 23 May 2020 18:36:41 +0000</pubDate>
+    <lastBuildDate>Sat, 23 May 2020 18:36:41 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -15,9 +15,11 @@
 
 &lt;h5 id=&quot;this-dangerous-mindset-persists-in-many-technical-product-and-development-teams-too-and-members-take-it-for-granted-that-the-security-team-will-keep-them-out-of-trouble&quot;&gt;This dangerous mindset persists in many technical product and development teams too, and members take it for granted that the security team will keep them out of trouble.&lt;/h5&gt;
 
-&lt;p&gt;But the robust security posture of an enterprise doesn’t only consist of obvious components like policies, operational controls, work rules, monitoring tools, and a team of security specialists; the most critical factor is the daily informed decision making of employees.&lt;/p&gt;
+&lt;p&gt;But it’s the daily informed decision making of all employees that makes the security posture of an enterprise.&lt;/p&gt;
 
-&lt;p&gt;Security awareness as a concept aims at employees knowing about these procedures, rules, and touchpoints with the security experts. Security culture, however, goes beyond that and emphasizes a healthy mix of knowledge and follow-through by all members of an organization.&lt;/p&gt;
+&lt;p&gt;Security awareness as a concept aims at employees knowing about these procedures, rules, and touchpoints with the security experts.&lt;/p&gt;
+
+&lt;p&gt;Security culture, however, goes beyond that and emphasizes a healthy mix of knowledge and follow-through by all members of an organization.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/culture_1.jpg&quot; alt=&quot;artistic picture of a hackers hiding&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
@@ -830,8 +832,6 @@ This means one can easily leave the watch on the nightstand over the weekend and
         <guid isPermaLink="true">https://inversegravity.net/2019/tudor-blackbay-fityeight/</guid>
         
         <category>watch</category>
-        
-        <category>tudor</category>
         
         
       </item>
