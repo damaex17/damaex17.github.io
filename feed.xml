@@ -5,8 +5,8 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Jun 2020 12:07:41 +0000</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2020 12:07:41 +0000</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2020 11:55:45 +0000</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2020 11:55:45 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -228,7 +228,7 @@
 
 &lt;p&gt;Business interests like analyzing usage patterns or digital rights management further pushed the server-centric agenda of mobile application architecture. End-users received device independence and cloud storage in return for giving up data to organizations.&lt;/p&gt;
 
-&lt;p&gt;Today companies implement server-centric architecture without a second thought and mobile application development is mostly reduced to work fancy UX design and backend API integrations.&lt;/p&gt;
+&lt;p&gt;Today companies implement server-centric architecture without a second thought and mobile application development is mostly reduced to work on fancy UX design and backend API integrations.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/smartphone.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
 
