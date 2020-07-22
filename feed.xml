@@ -5,9 +5,90 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jul 2020 12:42:59 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Jul 2020 12:42:59 +0000</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2020 10:52:50 +0000</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2020 10:52:50 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Network Vulnerability Scanner</title>
+        <description>&lt;h5 id=&quot;networks-are-the-enabler-of-organizations-in-the-digital-age-the-dynamic-nature-of-on-premises-and-cloud-network-environments-requires-continuous-vulnerability-management-to-defend-against-the-evolving-threat-landscape&quot;&gt;Networks are the enabler of organizations in the digital age. The dynamic nature of on-premises and cloud network environments requires continuous vulnerability management to defend against the evolving threat landscape.&lt;/h5&gt;
+
+&lt;p&gt;In this article, we’ll look at network vulnerability scanning which is the process to identify and classify weaknesses in the network. It is the prerequisite for the successful mitigation of known vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/radar.jpg&quot; alt=&quot;picture of a radar screen&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-a-vulnerability-scanner&quot;&gt;What is a vulnerability scanner?&lt;/h3&gt;
+
+&lt;p&gt;A vulnerability scanner is an application that detects all hosts in a network and attempts to identify the services that are exposed to the network by those systems. This is often considered the reconnaissance phase of a scan.&lt;/p&gt;
+
+&lt;p&gt;It then tries to identify the software version of detected services and checks them against databases of well-known vulnerabilities to identify security weaknesses.&lt;/p&gt;
+
+&lt;p&gt;Some scanners will also attempt to exploit services by using default or well-known credentials and or test for other &lt;a href=&quot;/2019/owasp-top-10/&quot;&gt;common security risks&lt;/a&gt;. This step is the vulnerability verification phase.&lt;/p&gt;
+
+&lt;p&gt;All network hosts and their vulnerabilities are stored in an inventory and once the scan is finished a report is created which can be used to improve the security posture of the organization.&lt;/p&gt;
+
+&lt;p&gt;There is a large number of commercial and open-source scanners available. Each comes with individual strengths and weaknesses and some companies run multiple scanners to protect their network.&lt;/p&gt;
+
+&lt;h3 id=&quot;external-and-internal&quot;&gt;External and internal&lt;/h3&gt;
+
+&lt;p&gt;A network scan for vulnerabilities can be performed from inside a network or from outside the protected perimeters. Both approaches aim to identify flaws that an attack can exploit.&lt;/p&gt;
+
+&lt;p&gt;The scan from external will document the services and potential vulnerabilities that are accessible directly from the internet.&lt;/p&gt;
+
+&lt;p&gt;With the common occurrence of insecure cloud-based configurations, the external scans are especially important to gain confidence in the security posture of the setup.&lt;/p&gt;
+
+&lt;p&gt;Internal scans, on the other hand, aim to identify weaknesses inside the network and support a defense in depth security approach. These scans protect against threat actors or hackers that have already gained access to the local networki and try to exploit more systems.&lt;/p&gt;
+
+&lt;h3 id=&quot;opensource---tsunami-network-security-scanner&quot;&gt;OpenSource - Tsunami network security scanner&lt;/h3&gt;
+
+&lt;p&gt;Google has released a general-purpose network security scanner for detecting vulnerabilities. The project is called &lt;a href=&quot;https://github.com/google/tsunami-security-scanner/blob/master/docs/index.md&quot;&gt;Tsunami&lt;/a&gt; and is maintained by the open-source community on &lt;a href=&quot;https://github.com/google/tsunami-security-scanner&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tsunami.jpg&quot; alt=&quot;Tsunami by hokusai 19th century&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It uses &lt;a href=&quot;https://nmap.org/&quot;&gt;nmap&lt;/a&gt; for the reconnaissance phase and tests for known passwords with &lt;a href=&quot;https://nmap.org/ncrack/&quot;&gt;ncrack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Currently, the &lt;a href=&quot;https://github.com/google/tsunami-security-scanner-plugins&quot;&gt;plugins&lt;/a&gt; for the exploitation of vulnerabilities are rather limited but this is expected to change in the coming months.&lt;/p&gt;
+
+&lt;p&gt;Tsunami is a great way to get started with scanning networks for vulnerabilities. The project encourages collaboration and anyone can support it by adding &lt;a href=&quot;https://github.com/google/tsunami-security-scanner/blob/master/docs/howto.md#create_plugins&quot;&gt;detectors&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-network-security-measures&quot;&gt;Other network security measures&lt;/h3&gt;
+
+&lt;p&gt;Scanning for known vulnerabilities is sometimes confused with other security measures. It is worthwhile to understand the different procedures and their purpose.&lt;/p&gt;
+
+&lt;h5 id=&quot;penetration-test&quot;&gt;Penetration Test&lt;/h5&gt;
+
+&lt;p&gt;It depends on the scope but in general a penetration test is a simulated cyberattack on computer systems, processes, and employees to evaluate the overall security posture of an organization. The tools and techniques used in such a pentest are the same a hacker would use.&lt;/p&gt;
+
+&lt;p&gt;Penetration tests can surface complex security weaknesses that require coordinated human activities, rather than the execution of automated code.&lt;/p&gt;
+
+&lt;h5 id=&quot;application-security-test&quot;&gt;Application Security Test&lt;/h5&gt;
+
+&lt;p&gt;A specialized vulnerability test for applications that include the analysis of the source code. Application security testing is effective in detecting known security issues with &lt;a href=&quot;/2019/software-supply-chain-security/&quot;&gt;software-components&lt;/a&gt; or hardcoded passwords.&lt;/p&gt;
+
+&lt;p&gt;There is static security testing (SAST) which aims in testing code before compilation and dynamic security testing (DAST) which examines the application during run-time.&lt;/p&gt;
+
+&lt;h5 id=&quot;threat-detection&quot;&gt;Threat Detection&lt;/h5&gt;
+
+&lt;p&gt;The goal of this activity is the detection of malicious activities in the network. It includes the search for compromised systems, discovering the exfiltration of data, and the unmasking of malicious user behavior.&lt;/p&gt;
+
+&lt;p&gt;The tools of the trade are a sophisticated &lt;a href=&quot;https://en.wikipedia.org/wiki/Security_information_and_event_management&quot;&gt;SIEM&lt;/a&gt; system, the monitoring of indicators and adaptive scanning for changes in the network.&lt;/p&gt;
+
+&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;Misconfigurations and security vulnerabilities are actively exploited by attackers. Knowledge about the weaknesses in a network is the first step in a successful mitigation.&lt;/p&gt;
+
+&lt;p&gt;Vulnerability scanning is therefore an important activity to improve the security of an organization’s network.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/vulnerability-scanner/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/vulnerability-scanner/</guid>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Security Awareness - Security Culture</title>
@@ -325,7 +406,7 @@
 
 &lt;p&gt;&lt;strong&gt;Data flow&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The data flow of data provides the ability to implement appropriate protective measures. Those can be technical, organizational, or contractual. Documentation of where data is stored and which services are involved is essential. Data classification and data flow documentation underline the purpose of data processing.&lt;/p&gt;
+&lt;p&gt;The flow of data provides the ability to implement appropriate protective measures. Those can be technical, organizational, or contractual. Documentation of where data is stored and which services are involved is essential. Data classification and data flow documentation underline the purpose of data processing.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Third-party screening&lt;/strong&gt;&lt;/p&gt;
 
@@ -832,77 +913,6 @@ This means one can easily leave the watch on the nightstand over the weekend and
         <guid isPermaLink="true">https://inversegravity.net/2019/tudor-blackbay-fityeight/</guid>
         
         <category>watch</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Social Credit Systems</title>
-        <description>&lt;h5 id=&quot;nosedive-is-a-episode-in-the-british-science-fiction-series-black-mirror-it-examines-the-idea-of-a-fictional-society-where-people-can-rate-each-other-from-one-to-five-stars-for-every-interaction-they-have-with-each-other-the-resulting-score-has-an-impact-on-the-social-and-economic-status-of-the-individual&quot;&gt;“Nosedive” is a episode in the British science fiction series &lt;a href=&quot;https://en.wikipedia.org/wiki/Black_Mirror&quot;&gt;Black Mirror&lt;/a&gt;. It examines the idea of a fictional society where people can rate each other from one to five stars for every interaction they have with each other. The resulting score has an impact on the social and economic status of the individual.&lt;/h5&gt;
-
-&lt;p&gt;The story follows Lacie, who is a young woman overly obsessed with her ratings; she finds an opportunity to improve her ratings greatly and move into a more luxurious residence after being chosen by her popular childhood friend as the maid of honour for her wedding. Her obsession leads to several mishaps on her journey to the wedding that culminate in a rapid reduction in her ratings.&lt;/p&gt;
-
-&lt;p&gt;Many critics noted the similarity of the episode to real-world Social Credit Systems. Indeed we already live in a world where the judgment of people is being replaced by numbers. Algorithms calculate the value of a human being and create digitally transparent people&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/scs_1.jpg&quot; alt=&quot;a picture showing a wall of CCTV&quot; style=&quot;center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;nudge-theory&quot;&gt;Nudge Theory&lt;/h3&gt;
-
-&lt;p&gt;Social Credit Systems belong to a behavioral science concept called Nudge Theory. It proposes positive reinforcement and indirect suggestions as a way to influence the behavior and decision making of groups or individuals.&lt;/p&gt;
-
-&lt;p&gt;Nudging contrasts with other ways to achieve compliance, such as education, legislation or enforcement.&lt;/p&gt;
-
-&lt;p&gt;The utilization of “nudging” has been widely criticized for diminishing autonomy, threatening dignity, and violating liberties. Some call it psychological manipulative.&lt;/p&gt;
-
-&lt;h3 id=&quot;china&quot;&gt;China&lt;/h3&gt;
-
-&lt;p&gt;The Chinese system uses a combination of mass surveillance and big data to score citizens. It is currently voluntary but will be made mandatory by 2020.&lt;/p&gt;
-
-&lt;p&gt;In the final stage, every citizen and company will be ranked whether they like it or not. The system will manage the punishments and rewards of citizens based on their economic and personal behavior.
-The exact methodology for the rating is a secret but examples of infrations include bad driving, smoking in non-smoking areas, or posting fake news.&lt;/p&gt;
-
-&lt;p&gt;Punishments include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;flight ban&lt;/li&gt;
-  &lt;li&gt;exclusion from schools&lt;/li&gt;
-  &lt;li&gt;slow internet connection&lt;/li&gt;
-  &lt;li&gt;public display of blacklisted individuals&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/scs_2.jpg&quot; alt=&quot;inside of a chinese airport&quot; style=&quot;center; padding: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;By the end of 2018, 5.5 million high-speed rail trips and 17.5 million flights had been denied to prospective travelers who were on a Chinese social scoring blacklist.&lt;/p&gt;
-
-&lt;h3 id=&quot;western-world&quot;&gt;Western World&lt;/h3&gt;
-
-&lt;p&gt;Germany has its own social scoring system. The universal credit rating system known as &lt;a href=&quot;https://en.wikipedia.org/wiki/Schufa&quot;&gt;Schufa&lt;/a&gt; is a private company that assesses the creditworthiness of the majority of the German citizens and that of over 5 million companies in the country. Factors like living in a low-income neighborhood (geo-scoring) can lower the Schufa score. There is mounting criticism in Germany of what some view as a lack of transparency in establishing Schufa scores.&lt;/p&gt;
-
-&lt;p&gt;Schufa has also been criticized for being a privately controlled central database that provides personality profiles for individuals. Having a bad score in the credit rating system will prevent people from getting a loan or renting an apartment.&lt;/p&gt;
-
-&lt;p&gt;Comparable credit systems are common in most western democracies. The US counterpart to Schufa is &lt;a href=&quot;https://en.wikipedia.org/wiki/FICO&quot;&gt;FICO&lt;/a&gt; and the UK has &lt;a href=&quot;https://en.wikipedia.org/wiki/Experian&quot;&gt;Experian&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;An increasing number of societal “privileges” related to transportation, accommodations, communications, and the rates we pay for services (like insurance) are controlled by algorithms and our behavior.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;We are in a critical phase of technological development and we need to discuss our values. Private companies will keep scoring people in areas like finance, criminality, rental housing, or mail-order businesses. It works like a charm and some citizens are even welcoming the ideal of “digitally transparent” people.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you have something that you don’t want anyone to know, maybe you shouldn’t be doing it in the first place -Eric Schmidt, Google&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;But it’s only a question of time until government institutions will pull all the information from different databases together and come up with a social score for each citizen. Arguments will be made for it improving the security of people and businesses.&lt;/p&gt;
-
-&lt;p&gt;Do we want to live in a world as predicted in the Black Mirror episode? Our societies have to be made aware of what algorithms really can, and cannot, do. Education is the answer.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/social-scoring-system/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/social-scoring-system/</guid>
-        
-        <category>technology</category>
-        
-        <category>politics</category>
         
         
       </item>
