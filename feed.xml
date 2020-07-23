@@ -5,13 +5,13 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2020 06:56:18 +0000</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2020 06:56:18 +0000</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2020 08:20:51 +0000</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2020 08:20:51 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Network Vulnerability Scanner</title>
-        <description>&lt;h5 id=&quot;networks-are-the-enabler-of-organizations-in-the-digital-age-the-dynamic-nature-of-on-premises-and-cloud-network-environments-requires-continuous-vulnerability-management-to-defend-against-the-evolving-threat-landscape&quot;&gt;Networks are the enabler of organizations in the digital age. The dynamic nature of on-premises and cloud network environments requires continuous vulnerability management to defend against the evolving threat landscape.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;networks-are-the-enabler-of-organizations-in-the-digital-age-the-dynamic-nature-of-on-premises-and-cloud-network-environments-requires-continuous-vulnerability-management-to-defend-against-the-ever-evolving-threat-landscape&quot;&gt;Networks are the enabler of organizations in the digital age. The dynamic nature of on-premises and cloud network environments requires continuous vulnerability management to defend against the ever evolving threat landscape.&lt;/h5&gt;
 
 &lt;p&gt;In this article, we’ll look at network scanning which is the process to identify and classify weaknesses in the network. It is a prerequisite for the successful mitigation of known vulnerabilities.&lt;/p&gt;
 
