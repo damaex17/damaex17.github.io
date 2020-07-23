@@ -5,23 +5,23 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jul 2020 12:34:09 +0000</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2020 12:34:09 +0000</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2020 06:56:18 +0000</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2020 06:56:18 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Network Vulnerability Scanner</title>
         <description>&lt;h5 id=&quot;networks-are-the-enabler-of-organizations-in-the-digital-age-the-dynamic-nature-of-on-premises-and-cloud-network-environments-requires-continuous-vulnerability-management-to-defend-against-the-evolving-threat-landscape&quot;&gt;Networks are the enabler of organizations in the digital age. The dynamic nature of on-premises and cloud network environments requires continuous vulnerability management to defend against the evolving threat landscape.&lt;/h5&gt;
 
-&lt;p&gt;In this article, we’ll look at network vulnerability scanning which is the process to identify and classify weaknesses in the network. It is a prerequisite for the successful mitigation of known vulnerabilities.&lt;/p&gt;
+&lt;p&gt;In this article, we’ll look at network scanning which is the process to identify and classify weaknesses in the network. It is a prerequisite for the successful mitigation of known vulnerabilities.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/radar.jpg&quot; alt=&quot;picture of a radar screen&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;what-is-a-vulnerability-scanner&quot;&gt;What is a vulnerability scanner?&lt;/h3&gt;
 
-&lt;p&gt;A vulnerability scanner is an application that detects all hosts in a network and attempts to identify the services that are exposed to the network by those systems. This is often considered the reconnaissance phase of a scan.&lt;/p&gt;
+&lt;p&gt;A vulnerability scanner is an application that detects the hosts in a network and attempts to identify the services that are exposed by those systems. This is often considered the reconnaissance phase of a scan.&lt;/p&gt;
 
-&lt;p&gt;It then tries to identify the software version of detected services and checks them against databases of well-known vulnerabilities to identify security weaknesses.&lt;/p&gt;
+&lt;p&gt;It then tries to catalog the software version of detected services and checks them against databases of vulnerabilities to identify security weaknesses.&lt;/p&gt;
 
 &lt;p&gt;Some scanners will also attempt to exploit services by using default or well-known credentials and or test for other &lt;a href=&quot;/2019/owasp-top-10/&quot;&gt;common security risks&lt;/a&gt;. This step is the vulnerability verification phase.&lt;/p&gt;
 
@@ -39,7 +39,7 @@
 
 &lt;p&gt;Internal scans, on the other hand, aim to identify weaknesses inside the network and support a defense in depth security approach. These scans protect against threat actors or hackers that have already gained access to the local networki and try to exploit more systems.&lt;/p&gt;
 
-&lt;h3 id=&quot;opensource---tsunami-network-security-scanner&quot;&gt;OpenSource - Tsunami network security scanner&lt;/h3&gt;
+&lt;h3 id=&quot;tsunami---a-open-source-network-security-scanner&quot;&gt;Tsunami - a open-source network security scanner&lt;/h3&gt;
 
 &lt;p&gt;Google has released a general-purpose network security scanner for detecting vulnerabilities. The project is called &lt;a href=&quot;https://github.com/google/tsunami-security-scanner/blob/master/docs/index.md&quot;&gt;Tsunami&lt;/a&gt; and is maintained by the open-source community on &lt;a href=&quot;https://github.com/google/tsunami-security-scanner&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 
