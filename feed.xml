@@ -5,8 +5,8 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2020 08:20:51 +0000</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2020 08:20:51 +0000</lastBuildDate>
+    <pubDate>Fri, 24 Jul 2020 08:28:28 +0000</pubDate>
+    <lastBuildDate>Fri, 24 Jul 2020 08:28:28 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -98,7 +98,7 @@
 
 &lt;p&gt;But in reality, it’s the daily informed decision making of all employees that makes the security posture of an enterprise.&lt;/p&gt;
 
-&lt;p&gt;Security awareness as a concept aims at employees knowing about procedures, rules, and touchpoints with the security experts.&lt;/p&gt;
+&lt;p&gt;Awareness as a concept aims at employees knowing about procedures, rules, and touchpoints with the security experts.&lt;/p&gt;
 
 &lt;p&gt;Security culture, however, goes beyond that and emphasizes a healthy mix of knowledge and follow-through by all members of an organization.&lt;/p&gt;
 
@@ -110,9 +110,9 @@
 
 &lt;p&gt;Significant shifts in an organization start at the highest level; the support of the executive team is, therefore, essential in building a security culture. The top management has to communicate cybersecurity as an organization-wide priority.&lt;/p&gt;
 
-&lt;p&gt;Regular reporting regarding the security situation of the organization and clear communication about the benefits of initiatives will help to build trust between the security team and management. Face to face meetings help to clearly explain why security matters to the success of the business.&lt;/p&gt;
+&lt;p&gt;Regular reporting regarding the security situation of the organization and clear communication about the benefits of initiatives will help to build trust between the security team and management.&lt;/p&gt;
 
-&lt;p&gt;Middle managers work directly with employees and are naturally an essential driver of security culture. By properly explaining requirements to their team and leading by example, team leads will get the security mindset transported to all departments. Getting middle management on board with security has a significant effect on cultural change. They are the multipliers of the program.&lt;/p&gt;
+&lt;p&gt;Middle managers work directly with employees and are therefore naturally an essential driver of security culture. By properly explaining requirements to their team and leading by example, team leads will get the security mindset transported to all departments. Getting middle management on board with security has a significant effect on cultural change. They are the multipliers of the program.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“I’ve seen a lot of incidents where the management says that cybersecurity is important, but then they turn around and ask for exceptions—and that is the death knell of any cybersecurity program.”
@@ -123,17 +123,17 @@
 
 &lt;h3 id=&quot;training-and-awareness&quot;&gt;Training and Awareness&lt;/h3&gt;
 
-&lt;p&gt;Security training is labor-intensive but an essential effort for growing and maintaining a security culture.&lt;/p&gt;
+&lt;p&gt;Security training is labor-intensive but a key effort for growing and maintaining security culture.&lt;/p&gt;
 
 &lt;p&gt;Educating the work-force requires different approaches depending on the specific needs of the target group. For example, it makes sense to run all newcomers through a basic security program with information on common social engineering attacks like phishing or malware, introducing them to secure behavior expectations, and how to report an incident.&lt;/p&gt;
 
 &lt;p&gt;More tailored training for development teams can be, for example, introducing them to the &lt;a href=&quot;/2020/threat-landscape/&quot;&gt;Threat Landscape&lt;/a&gt;, the &lt;a href=&quot;/2019/owasp-top-10/&quot;&gt;OWASP Top 10 Application Security Risks&lt;/a&gt;, or maybe refresh some &lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;crypto&lt;/a&gt; knowledge.&lt;/p&gt;
 
-&lt;p&gt;Departments, like HR, on the other hand, require awareness of the importance of &lt;a href=&quot;/2019/personnel-security/&quot;&gt;Personnel Security&lt;/a&gt; and how they can help with keeping the workplace safe.&lt;/p&gt;
+&lt;p&gt;Departments, like Human Ressources, on the other hand, require awareness of the importance of &lt;a href=&quot;/2019/personnel-security/&quot;&gt;Personnel Security&lt;/a&gt; and how they can help with keeping the workplace safe.&lt;/p&gt;
 
-&lt;p&gt;Transporting knowledge can be done in workshops, via videos or, maybe by introducing a &lt;a href=&quot;https://www.csoonline.com/article/3444488/equifax-data-breach-faq-what-happened-who-was-affected-what-was-the-impact.html&quot;&gt;famous data-leak case&lt;/a&gt; to a broader group in the organization and how it could have prevented by aligning with the policy framework. Showing that threats are close is an excellent way to encourage employees to follow security policies and best practices.&lt;/p&gt;
+&lt;p&gt;Knowledge transfer can take place in workshops, via videos or, maybe by introducing a &lt;a href=&quot;https://www.csoonline.com/article/3444488/equifax-data-breach-faq-what-happened-who-was-affected-what-was-the-impact.html&quot;&gt;famous data-leak case&lt;/a&gt; to a broader group in the organization and how it could have prevented by aligning with the policy framework. Showing that threats are close is an excellent way to encourage employees to follow security policies and best practices.&lt;/p&gt;
 
-&lt;p&gt;Security teams should also consider collecting feedback after training to ensure the continuous improvement of the education program.&lt;/p&gt;
+&lt;p&gt;Security teams should also consider collecting feedback after a training to ensure the continuous improvement of the education program.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/culture_4.jpg&quot; alt=&quot;artistic picture with data privacy message &quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
@@ -145,15 +145,15 @@
 
 &lt;p&gt;The origin of most industry SDL implementations is the &lt;a href=&quot;https://www.microsoft.com/en-us/securityengineering/sdl/practices&quot;&gt;Microsoft program&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;SDL is sustainable security culture in action and answers the how to embed security culture in development and product teams.&lt;/p&gt;
+&lt;p&gt;SDL is sustainable security culture in action and answers how to embed security culture in development and product teams.&lt;/p&gt;
 
 &lt;h3 id=&quot;rewards&quot;&gt;Rewards&lt;/h3&gt;
 
 &lt;p&gt;Celebrate success and recognize the people that do the right thing for security. Positive reinforcement is an excellent practice to support the effort to build a community of security-aware employees.&lt;/p&gt;
 
-&lt;p&gt;By adding security-related goals to performance reviews, will make reasonable security practices mandatory. A positive message to the entire organization can be sent by giving employees with good risk awareness more freedom when making decisions.&lt;/p&gt;
+&lt;p&gt;Adding security-related goals to performance reviews will make reasonable security practices mandatory to employees.&lt;/p&gt;
 
-&lt;p&gt;Distributing the responsibility for security and giving more freedom is a significant goal of security culture and therefore has to be embedded in the program.&lt;/p&gt;
+&lt;p&gt;A positive message to the entire organization is sent by giving employees with good risk awareness more freedom when making decisions. Distributing the responsibility for security is a significant goal of security culture and therefore has to be embedded in the program.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/culture_2.jpg&quot; alt=&quot;artistic picture with data privacy message &quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
@@ -161,7 +161,7 @@
 
 &lt;p&gt;Organizations can support employees by adding security automation to software development and daily processes. This will not only make the employee’s job more comfortable but can also significantly improve the security posture.&lt;/p&gt;
 
-&lt;p&gt;Examples of good automation are security scanners, static code analysis, or automatically generated governance documents.&lt;/p&gt;
+&lt;p&gt;Examples of good automation are security scanners, static code analysis, or automatically generated governance documents. Providing security plugins for the &lt;a href=&quot;https://en.wikipedia.org/wiki/Integrated_development_environment&quot;&gt;IDE&lt;/a&gt; of developers shifts the feedback to the left, and takes the frustration out of a later deployment process.&lt;/p&gt;
 
 &lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
 
