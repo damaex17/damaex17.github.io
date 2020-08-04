@@ -5,9 +5,108 @@
     <description>blog about technology, security, data-privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Aug 2020 08:37:30 +0000</pubDate>
-    <lastBuildDate>Tue, 04 Aug 2020 08:37:30 +0000</lastBuildDate>
+    <pubDate>Tue, 04 Aug 2020 12:23:56 +0000</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2020 12:23:56 +0000</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Data Anonymization</title>
+        <description>&lt;h5 id=&quot;companies-are-using-data-to-improve-their-services-and-products-it-makes-a-lot-of-sense-to-measure-what-users-like-and-only-build-what-people-want-to-use&quot;&gt;Companies are using data to improve their services and products. It makes a lot of sense to measure what users like and only build what people want to use.&lt;/h5&gt;
+
+&lt;p&gt;But the collected data can be very sensitive and undermine the rights of users if a data loss occurs. Data privacy laws, therefore, &lt;a href=&quot;https://gdpr-info.eu/art-32-gdpr/&quot;&gt;dictate&lt;/a&gt; appropriate technical and organizational measures to ensure a level of security appropriate to the risk.&lt;/p&gt;
+
+&lt;p&gt;Many organizations can’t afford highly restricted environments and are left with either limited data analytics or the risk of a data leak and resulting &lt;a href=&quot;https://gdpr-info.eu/issues/fines-penalties/&quot;&gt;penalties&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One way to protect data subjects and combine business needs with user rights is anonymization and in this article, we’ll gonna take a look at it.&lt;/p&gt;
+
+&lt;h3 id=&quot;history&quot;&gt;History&lt;/h3&gt;
+
+&lt;p&gt;One of the oldest methods of anonymization is the removal (suppression) of direct personal identifiers from the data such as names or phone numbers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/anon_1.png&quot; alt=&quot;anonymization by removing the name&quot; style=&quot;float: left; width:60%; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Until 1997, the resulting dataset was considered more or less anonymized and hospitals in the US, for example, released such data to the public.&lt;/p&gt;
+
+&lt;p&gt;But then &lt;a href=&quot;https://en.wikipedia.org/wiki/Latanya_Sweeney&quot;&gt;Latanya Sweeney&lt;/a&gt; entered the stage and conducted a re-identification experiment.&lt;/p&gt;
+
+&lt;p&gt;She &lt;a href=&quot;https://dataprivacylab.org/projects/identifiability/paper1.pdf&quot;&gt;successfully&lt;/a&gt; re-identified individuals by combining public medical records with other accessible records.&lt;/p&gt;
+
+&lt;p&gt;The “linkage attack” was born, where adversaries collect information from multiple data sources and then combine that data to re-create personally identifiable information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/anon_2.png&quot; alt=&quot;linkage attack&quot; style=&quot;float: left; width:45%; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Latanya Sweeney conducted more research on re-identification and was met with publication challenges. The fear was that she is publicly exposing a serious issue with no known solution.&lt;/p&gt;
+
+&lt;p&gt;In 2017, Forbes named Sweeney one of the most influential women in technology.&lt;/p&gt;
+
+&lt;p&gt;The concept of removing names and direct identifiers is considered pseudonymization if at all. Working with this data requires organizations to control the risk of a data breach since disclosure would affect the users rights.&lt;/p&gt;
+
+&lt;h3 id=&quot;anonymization&quot;&gt;Anonymization&lt;/h3&gt;
+
+&lt;p&gt;Today, organizations have to provide evidence for anonymization since it exempts the business from strict data-privacy requirements. It has to be clearly documented why data subjects can no longer be identified directly or indirectly from the dataset.&lt;/p&gt;
+
+&lt;p&gt;Most successful anonymization efforts involve the application of multiple techniques.&lt;/p&gt;
+
+&lt;h3 id=&quot;k-anonymity-protection-model&quot;&gt;K-Anonymity protection model&lt;/h3&gt;
+
+&lt;p&gt;The concept of k-anonymity was first introduced by Latanya Sweeney and Pierangela Samarati in a &lt;a href=&quot;https://dataprivacylab.org/dataprivacy/projects/kanonymity/kanonymity.pdf&quot;&gt;paper&lt;/a&gt; published in 1998.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Data is said to have the k-anonymity property if the information for each person contained in the release cannot be distinguished from at least k - 1 individuals whose information also appear in the release.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The more personal attributes in a dataset, the harder it is to accomplish k-anonymity over all the attributes combined. Let’s consider this table of fictitious patient records.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/anon_3.png&quot; alt=&quot;fictitious nonanonymized patient records&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The two common methods to support k-anonymity are:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Suppression&lt;/strong&gt; means that the values of attributes are replaced by a wildcard.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Generalization&lt;/strong&gt; describes the replacement of individual values of attributes to a broader category.&lt;/p&gt;
+
+&lt;p&gt;In the following table we accomplished a 2-anonymity with respect to ‘Age’ and “Gender’ since for any combination of these attributes there are always at least 2 rows with the same value.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/anon_4.png&quot; alt=&quot;patient records with 2-anonymity&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The attributes ‘Age’ and ‘Gender’ are quasi-identifiers and when combined, can support re-identification to yield personally-identifying information. Each tuple of quasi-identifiers has to occur at least in k records of a dataset to accomplish k-anonymity.&lt;/p&gt;
+
+&lt;p&gt;K-anonymity is a promising approach for group-based anonymization given its simplicity, it is however susceptible to attacks. When background knowledge is available an attacker can use it to re-identify people. In the above example, background knowledge about the disease can support an attack on the anonymity of individuals.&lt;/p&gt;
+
+&lt;p&gt;Given the existence of such attacks where sensitive attributes may be inferred from k-anonymity data, the following methods have been created to further k-anonymity by additionally maintaining the diversity and closeness of sensitive fields.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The l-diversity Principle&lt;/strong&gt; An equivalence class is said to have l-diversity if there are at least l “well-represented” values for the sensitive attribute. A table is said to have l-diversity if every equivalence class of the table has l-diversity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The t-closeness Principle&lt;/strong&gt; An equivalence class is said to have t-closeness if the distance between the distribution of a sensitive attribute in this class and the distribution of the attribute in the whole table is no more than a threshold t. A table is said to have t-closeness if all equivalence classes have t-closeness.&lt;/p&gt;
+
+&lt;h3 id=&quot;differential-privacy&quot;&gt;Differential Privacy&lt;/h3&gt;
+
+&lt;p&gt;This technique was developed by cryptographers and draws much of its language from cryptography. Simply put differential privacy introduces two methods to balance data usefulness and privacy protection.&lt;/p&gt;
+
+&lt;p&gt;First, an algorithm injects random noise into a data set to protect the privacy of an individual. The noise is small enough to enable analysts and researchers to provide useful insights.&lt;/p&gt;
+
+&lt;p&gt;Secondly, the amount of information revealed is calculated and deducted from a so-called privacy-loss budget. The reference book for differential privacy is “&lt;a href=&quot;https://www.amazon.de/Algorithmic-Foundations-Differential-Theoretical-Computer/dp/1601988184/ref=sr_1_1?dchild=1&amp;amp;keywords=Algorithmic+Foundations+of+Differential+Privacy%22&amp;amp;qid=1596537123&amp;amp;sr=8-1&quot;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;” by Aaron Roth.&lt;/p&gt;
+
+&lt;p&gt;Apple has released a &lt;a href=&quot;https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf&quot;&gt;whitepaper&lt;/a&gt; describing &lt;em&gt;local differential privacy&lt;/em&gt;. The interesting twist here is that the noise is added on the users’ smartphone even before the data is sent to the Apple backend servers.&lt;/p&gt;
+
+&lt;p&gt;An interesting approach we have been discussing in the posting &lt;a href=&quot;/2020/privacy-client-shift/&quot;&gt;System Architecture - Shift To The Client&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;The challenge of privacy-preserving data analysis has a long history. As data about individuals is more detailed than ever, the need for a robust approach to data anonymization is no longer optional.&lt;/p&gt;
+
+&lt;p&gt;The clever matching of different data collections and resulting de-anonymization threatens any approach. Organizations have to innovate and underline how they handle the obtained user data responsibly.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/data-anonymization/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/data-anonymization/</guid>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        <category>privacy</category>
+        
+        
+      </item>
     
       <item>
         <title>Network Vulnerability Scanner</title>
@@ -843,76 +942,6 @@
         <category>security</category>
         
         <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tudor Black Bay Fifty-Eight - Ref. 79030N</title>
-        <description>&lt;h5 id=&quot;the-black-bay-fifty-eight-was-introduced-at-baselworld-2018-it-is-an-anniversary-model-to-commemorate-60-years-of-the-tudor-submariner-which-was-released-in-1958&quot;&gt;The Black Bay Fifty-Eight was introduced at Baselworld 2018. It is an anniversary-model to commemorate 60 years of the Tudor Submariner which was released in 1958.&lt;/h5&gt;
-
-&lt;p&gt;The idea behind this watch is to go back to the original Big Crown models and create a vintage-inspired modern take on the Submariner-like dive watches.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tudor58.png&quot; alt=&quot;picture of the bb58&quot; style=&quot;float: left; margin: 10px 10px 10px 10px;&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;tudor-submariner-heritage&quot;&gt;Tudor Submariner Heritage&lt;/h3&gt;
-
-&lt;p&gt;The Tudor Oyster Prince Submariner ‘Big Crown’ reference 7924 used many parts from Rolex Submariners in those days. The crown and bracelet carried for exampled Rolex markings. The watch was water-resistant up to 200m (600 feet) and featured a large screw-down crown.&lt;/p&gt;
-
-&lt;p&gt;In the same year, the reference 7925 was released with a depth rating of 100m (300 feet) and the distinctive red triangle at the zero point of the diving bezel. The Marine nationale francaise (MN), the US Navy (USN) and other military organizations throughout the world equipped their elite personnel with the Tudor Sub.&lt;/p&gt;
-
-&lt;p&gt;Watches delivered to these military entities were neither custom-designed nor specially developed. They were just references listed in the Tudor cataloge. Their only distinction was an engraving on the screw-down case back. The Marine nationale francaise watches, for example, bear the initials M.N. accompanied by the last two digits of the year in which they were delivered.&lt;/p&gt;
-
-&lt;p&gt;Examples surviving to this day are rarely in perfect condition since they were used in extremely harsh conditions. The relative rarity of these watches and their respective stories make them a highly prized collectors item.&lt;/p&gt;
-
-&lt;h3 id=&quot;downsizing-the-original-black-bay&quot;&gt;Downsizing the original Black Bay&lt;/h3&gt;
-
-&lt;p&gt;Initially, the new Tudor Black Bay 58 looks just like another Black Bay, a Submariner-like dive watch with vintage inspiration. But the watch is an evolution and at the same time a return to the original dimensions of the Tudor Submariner.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tudor58_1.jpg&quot; alt=&quot;A modern Tudor Black Bay 58 vs. a vintage Tudor Submariner&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The alignment with the original Big Crown models – mainly the Tudor Submariner 7924 and 7925 means the 58 is a smaller and slimmer version of the bulky Black Bay.&lt;/p&gt;
-
-&lt;p&gt;The 58 is 39mm in diameter. While the original ref. 7924 was even smaller at 37mm, the effort taken by Tudor to reduce the case size from the original Black Bay is a nod to watch enthusiasts who have been asking for smaller watches for years. The lug width has also been reduced to 20mm, to keep the proportions balanced. The case was condensed in height to now only 11.9mm.&lt;/p&gt;
-
-&lt;p&gt;Overall the 58 ist a well-proportioned watch and sits nicely on the wrist.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tudor58_2.jpg&quot; alt=&quot;picture of the bb58&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;snowflakes-on-a-guilt-dial&quot;&gt;Snowflakes on a guilt dial&lt;/h3&gt;
-
-&lt;p&gt;As a modern interpretation of a classic, the Fifty-Eight has golden writing and minuteries. Also, a one-directional rotating bezel with gold lettering, classic with aluminum inlay and a red triangular marking at 12 adorns the watch.&lt;/p&gt;
-
-&lt;p&gt;Tudor went with golden snowflake hands which is a deviation from the original Submariner but it works surprisingly well.&lt;/p&gt;
-
-&lt;p&gt;The BB58 comes with the Tudor in-house MT5402 movement which is COSC certified. It has a power reserve of a whopping 70 hours.
-This means one can easily leave the watch on the nightstand over the weekend and pick it up on Monday without having to adjust the time.&lt;/p&gt;
-
-&lt;h3 id=&quot;specifications&quot;&gt;Specifications&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Model Number:&lt;/strong&gt; Tudor Black Bay Fifty-Eight Ref. 79030N&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Movement:&lt;/strong&gt; Tudor Calibre MT5402 (COSC)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Case Material:&lt;/strong&gt; Stainless Steel&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Glass Material:&lt;/strong&gt; Sapphire Crystal&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lug Width:&lt;/strong&gt; 20mm&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Diameter/Height:&lt;/strong&gt; 39 mm/11.9 mm&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Six years after the first Black Bay and 60 years after the first Big Crown Submariner, Tudor impressively shows how to use past models to create an equally modern and historically true watch.&lt;/p&gt;
-
-&lt;p&gt;The Black Bay Fifty-Eight is a good looking dive watch and comes at a fair price.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/tudor-blackbay-fityeight/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/tudor-blackbay-fityeight/</guid>
-        
-        <category>watch</category>
         
         
       </item>

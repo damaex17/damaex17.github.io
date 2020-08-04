@@ -2,7 +2,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox
 
 const CACHE = "pwabuilder-page";
 
-const offlineFallbackPage = "./index.html";
+const offlineFallbackPage = "/index.html";
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
