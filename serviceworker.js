@@ -1,4 +1,3 @@
-
 const CACHE = "pwabuilder-offline";
 
 const offlineFallbackPage = "./index.html";
