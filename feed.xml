@@ -5,8 +5,8 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Aug 2020 12:59:22 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Aug 2020 12:59:22 +0000</lastBuildDate>
+    <pubDate>Thu, 06 Aug 2020 13:50:31 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Aug 2020 13:50:31 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;p&gt;PWA is intended to work on any platform that uses a standard browser. Functionality includes working offline, push notifications, and even device hardware access, enabling user experiences similar to native applications on desktop and mobile devices.&lt;/p&gt;
 
-&lt;p&gt;There is no requirement for developers or users to install a PWA via digital distribution systems like Google Play or Apple App Store.&lt;/p&gt;
+&lt;p&gt;There is no need for developers or users to install a PWA via proprietary digital distribution systems like Google Play or Apple App Store.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-and-how-to-pwa&quot;&gt;Why And How To PWA&lt;/h3&gt;
 
