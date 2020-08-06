@@ -5,15 +5,15 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Aug 2020 17:14:54 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Aug 2020 17:14:54 +0000</lastBuildDate>
+    <pubDate>Thu, 06 Aug 2020 17:44:25 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Aug 2020 17:44:25 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
         <title>Progressive Web Application</title>
         <description>&lt;h5 id=&quot;we-are-living-in-the-age-of-the-smartphone-and-native-apps-are-often-built-in-a-programming-language-specific-to-the-mobile-operating-system-a-progressive-web-application-pwa-on-the-other-hand-is-delivered-through-the-web-and-based-on-common-web-technologies&quot;&gt;We are living in the age of the smartphone and native apps are often built in a programming language specific to the mobile operating system. A Progressive Web Application (PWA), on the other hand, is delivered through the web and based on common web technologies.&lt;/h5&gt;
 
-&lt;p&gt;PWA is intended to work on any platform and with any browser equally. Functionality includes working offline, push notifications, and even hardware access thus enabling user experiences similar to native applications on desktop and mobile devices.&lt;/p&gt;
+&lt;p&gt;PWA is intended to work on any platform and with any browser. The functionality includes working offline, push notifications, and even hardware access thus enabling user experiences similar to native applications on desktop and mobile devices.&lt;/p&gt;
 
 &lt;p&gt;There is no need for developers or users to install a PWA via proprietary distribution systems like Google Play or Apple App Store.&lt;/p&gt;
 
