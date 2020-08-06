@@ -2,12 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>blog about technology, security, data-privacy and gear</description>
+    <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Aug 2020 07:25:59 +0000</pubDate>
-    <lastBuildDate>Wed, 05 Aug 2020 07:25:59 +0000</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
+    <pubDate>Thu, 06 Aug 2020 12:18:28 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Aug 2020 12:18:28 +0000</lastBuildDate>
+    <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Progressive Web Application</title>
+        <description>&lt;h5 id=&quot;we-are-living-in-the-age-of-the-smartphone-and-native-apps-are-often-built-in-a-programming-language-specific-to-the-mobile-operating-system-progressive-web-applications-on-the-other-hand-are-delivered-through-the-web-and-rely-on-common-web-technologies&quot;&gt;We are living in the age of the smartphone and native apps are often built in a programming language specific to the mobile operating system. Progressive web applications, on the other hand, are delivered through the web and rely on common web technologies&lt;/h5&gt;
+
+&lt;p&gt;PWA is intended to work on any platform that users a standard browser. Functionality includes working offline, push notifications, and device hardware access, enabling user experiences similar to native applications on desktop and mobile devices.&lt;/p&gt;
+
+&lt;p&gt;There is no requirement for developers or users to install a PWA via digital distribution systems like Google Play or Apple App Store.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-and-how-to-pwa&quot;&gt;Why And How To PWA&lt;/h3&gt;
+
+&lt;p&gt;Apple iOS apps use Swift and Android apps are based on Java. Organizations who want to support both platforms are quickly confronted with having to build two dedicated teams. Keeping both applications align is a neverending endeavor. There is no easy way to build one application and publish it to all the stores.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/iphone.png&quot; alt=&quot;screenshot iOS screen&quot; style=&quot;float: left; width:45%; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Progressive web applications are a great way to have just a single app to rule them all and users might not even know that they are using a web-based app instead of a native one.&lt;/p&gt;
+
+&lt;p&gt;According to the &lt;a href=&quot;https://web.dev/what-are-pwas/&quot;&gt;Google Developers&lt;/a&gt; blog, the characteristics of a PWA are: capable, reliable, installable, and safe. Speed, network independence, and security are required for the PWA experience.&lt;/p&gt;
+
+&lt;p&gt;The building blocks are:&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;service worker&lt;/strong&gt; that handles network requests and the caching of assets to support an offline experience with the web application.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Transport encryption&lt;/strong&gt; of the network connection via TLS/HTTPS which should be standard anyway.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;manifest&lt;/strong&gt; file in JSON format to control the app appearance.&lt;/p&gt;
+
+&lt;p&gt;Any website can become a PWA by satisfying the &lt;a href=&quot;https://www.pwabuilder.com&quot;&gt;PWA checklist&lt;/a&gt;. Once all the requirements are met, the app can be downloaded to devices and mimics a native application.&lt;/p&gt;
+
+&lt;p&gt;Not having to maintain separate native applications makes PWA especially interesting for small organizations. Major web frameworks like Angular, React or Jekyll enable anyone to create a PWA.&lt;/p&gt;
+
+&lt;p&gt;Progressive web applications are supported on all major mobile and non-mobile operating systems and browsers.&lt;/p&gt;
+
+&lt;p&gt;Inversegravity is now also available as a PWA. We support the technology and like to evade any iOS vs. Android rivalry.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/progressive-web-app/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/progressive-web-app/</guid>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>Data Anonymization</title>
@@ -881,67 +924,6 @@
         <category>technology</category>
         
         <category>book</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>U2F - Universal 2nd Factor Authentication</title>
-        <description>&lt;h5 id=&quot;the-universal-2nd-factor-is-one-of-the-most-secure-authentication-methods-currently-available-its-advantages-are-based-on-hardware-isolation-and-modern-cryptography&quot;&gt;The “Universal 2nd Factor” is one of the most secure authentication methods currently available. Its advantages are based on hardware isolation and modern cryptography.&lt;/h5&gt;
-
-&lt;p&gt;U2F is an open standard that improves and simplifies traditional two-factor authentication. It is utilizing a Universal Serial Bus (USB) or near-field communication (NFC) device to achieve secure authentication and was initially developed by Google and &lt;a href=&quot;https://www.yubico.com/&quot;&gt;Yubico&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_3.png&quot; alt=&quot;picture of the bb58&quot; style=&quot; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;otp&quot;&gt;OTP&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/One-time_password&quot;&gt;One-time passwords&lt;/a&gt; (OTP) or &lt;a href=&quot;https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm&quot;&gt;time-based one-time passwords&lt;/a&gt; (TOTP) provide a relatively secure second factor to millions of users. The popularity and good propagation are related to the simplicity of the concept. But there are shortcomings to this method.&lt;/p&gt;
-
-&lt;p&gt;So what is 2FA OTP? In addition to a static user name/password credential, a user adds another authentication factor - one that is dynamically generated. By definition, this OTP credential is only valid for one login before it becomes obsolete.&lt;/p&gt;
-
-&lt;p&gt;OTP technology is compatible with all major platforms (desktop, laptop, mobile) and even legacy environments. It is the most popular choice among second-factor protocols.&lt;/p&gt;
-
-&lt;p&gt;One-time credentials are delivered in different ways, usually via a physical object, such as a mobile phone (using SMS or an app), a token with an LCD-display, or a &lt;a href=&quot;https://amzn.to/2qrTNEa&quot;&gt;YubiKey&lt;/a&gt;. Concrete OTP algorithms vary greatly but they have one thing in common: a shared secret between client and server.&lt;/p&gt;
-
-&lt;p&gt;TOTP implementations, like &lt;a href=&quot;https://en.wikipedia.org/wiki/Google_Authenticator&quot;&gt;Google Authenticator&lt;/a&gt;, require time-synchronization and a shared secret between the authentication server and the device providing the password.&lt;/p&gt;
-
-&lt;p&gt;Second-factor one-time passwords offer protection against password replay but it’s not designed to counter a &lt;em&gt;man-in-the-middle&lt;/em&gt; or &lt;em&gt;phishing&lt;/em&gt; attack. The shared secret between client and server is the main weakness of OTP and TOTP.&lt;/p&gt;
-
-&lt;p&gt;A theoretical attack is quite simple: token codes or shared secrets can get intercepted during authentication or stolen during the initialization of OTP. This is significant since it is the principal threat most users believe they are solving with this technology.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/totp.png&quot; alt=&quot;picture of a totp login&quot; style=&quot; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;u2f&quot;&gt;U2F&lt;/h3&gt;
-
-&lt;p&gt;U2F improves on OTP vulnerabilities such as &lt;em&gt;phishing&lt;/em&gt; and &lt;em&gt;man-in-the-middle attacks&lt;/em&gt; by implementing a real-time challenge-response scheme with &lt;a href=&quot;/2019/public-key/&quot;&gt;public-key encryption&lt;/a&gt; and &lt;a href=&quot;/2019/crypto-hash-digital-signature/&quot;&gt;digital signatures&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;When a user registers a U2F device with an online service, a public/private key pair is generated on the client and the public key is shared with the server.&lt;/p&gt;
-
-&lt;p&gt;After registration, when the user attempts to log in, the service provider sends a challenge to the client. The client compiles at least the information about the source of the challenge into the response and signs it with the private key before sending it back to the server.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/u2f.png&quot; alt=&quot;picture of a u2f login&quot; style=&quot; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The server can detect an abnormality in the response (since it is issuing the challenge) and deny the transaction if a rogue site or middle-man manipulates the flow.&lt;/p&gt;
-
-&lt;p&gt;U2F is resistant to phishing by design too. For instance, the user cannot be tricked into pressing the key and authenticate with a “fake” web page since the authentication origin is part of the process and the communication between the device and the web browser. A malicious person cannot ask for your “U2F codes” because there are no codes in play.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-future&quot;&gt;The future…&lt;/h3&gt;
-
-&lt;p&gt;Nowadays most people use biometrics-based methods for authentication on personal mobile devices to unlock them. Fingerprint and facial recognition have been around for a while now but they’re not exactly foolproof. It’s possible to trick fingerprint sensors and basic facial recognition systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/yubikey_1.png&quot; alt=&quot;picture of a totp login&quot; style=&quot; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Since most consumer OTP solutions are depending on mobile phones as the second factor, it opens up the question of future dependability of this system.&lt;/p&gt;
-
-&lt;p&gt;U2F devices, on the other hand, will become cheaper and more common to be accepted by service providers. I predict a future of adaptive security with many potential factors for authentication. Shared secret knowledge, physical ownership of a secure device, location, and behavior are all factors, that if combined, will convince machines that we are who we say we are.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/universal-2nd-factor/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/universal-2nd-factor/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
         
         
       </item>
