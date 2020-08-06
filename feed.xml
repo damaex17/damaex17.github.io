@@ -5,21 +5,21 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Aug 2020 12:41:37 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Aug 2020 12:41:37 +0000</lastBuildDate>
+    <pubDate>Thu, 06 Aug 2020 12:46:39 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Aug 2020 12:46:39 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
         <title>Progressive Web Application</title>
-        <description>&lt;h5 id=&quot;we-are-living-in-the-age-of-the-smartphone-and-native-apps-are-often-built-in-a-programming-language-specific-to-the-mobile-operating-system-progressive-web-applications-on-the-other-hand-are-delivered-through-the-web-and-rely-on-common-web-technologies&quot;&gt;We are living in the age of the smartphone and native apps are often built in a programming language specific to the mobile operating system. Progressive web applications, on the other hand, are delivered through the web and rely on common web technologies&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;we-are-living-in-the-age-of-the-smartphone-and-the-native-apps-for-it-are-often-built-in-a-programming-language-specific-to-the-mobile-operating-system-a-progressive-web-application-pwa-on-the-other-hand-is-delivered-through-the-web-and-based-on-common-web-technologies&quot;&gt;We are living in the age of the smartphone and the native apps for it are often built in a programming language specific to the mobile operating system. A Progressive Web Application (PWA), on the other hand, is delivered through the web and based on common web technologies.&lt;/h5&gt;
 
-&lt;p&gt;PWA is intended to work on any platform that users a standard browser. Functionality includes working offline, push notifications, and device hardware access, enabling user experiences similar to native applications on desktop and mobile devices.&lt;/p&gt;
+&lt;p&gt;PWA is intended to work on any platform that uses a standard browser. Functionality includes working offline, push notifications, and even device hardware access, enabling user experiences similar to native applications on desktop and mobile devices.&lt;/p&gt;
 
 &lt;p&gt;There is no requirement for developers or users to install a PWA via digital distribution systems like Google Play or Apple App Store.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-and-how-to-pwa&quot;&gt;Why And How To PWA&lt;/h3&gt;
 
-&lt;p&gt;Apple iOS apps use Swift and Android apps are based on Java. Organizations who want to support both platforms are quickly confronted with having to build two dedicated teams. Keeping both applications align is a neverending endeavor. There is no easy way to build one application and publish it to all the stores.&lt;/p&gt;
+&lt;p&gt;Apple iOS apps use Swift and Android apps are based on Java. Organizations that want to support both platforms are quickly confronted with having to build two dedicated teams. Keeping both applications align is a neverending endeavor. There is no easy way to build one application and publish it to all the stores.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/iphone.png&quot; alt=&quot;screenshot iOS screen&quot; style=&quot;float: left; width:45%; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
 
