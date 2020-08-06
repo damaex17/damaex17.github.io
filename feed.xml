@@ -5,8 +5,8 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Aug 2020 12:46:39 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Aug 2020 12:46:39 +0000</lastBuildDate>
+    <pubDate>Thu, 06 Aug 2020 12:59:22 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Aug 2020 12:59:22 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -19,29 +19,27 @@
 
 &lt;h3 id=&quot;why-and-how-to-pwa&quot;&gt;Why And How To PWA&lt;/h3&gt;
 
-&lt;p&gt;Apple iOS apps use Swift and Android apps are based on Java. Organizations that want to support both platforms are quickly confronted with having to build two dedicated teams. Keeping both applications align is a neverending endeavor. There is no easy way to build one application and publish it to all the stores.&lt;/p&gt;
+&lt;p&gt;Apple iOS apps use Swift and Android apps are based on Java. Organizations that want to support both platforms are quickly confronted with having to build two dedicated teams. Keeping both applications aligned is a neverending endeavor. There is no easy way to build one application and publish it to all the stores.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/iphone.png&quot; alt=&quot;screenshot iOS screen&quot; style=&quot;float: left; width:45%; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Progressive web applications are a great way to have just a single app to rule them all and users might not even know that they are using a web-based app instead of a native one.&lt;/p&gt;
 
-&lt;p&gt;According to the &lt;a href=&quot;https://web.dev/what-are-pwas/&quot;&gt;Google Developers&lt;/a&gt; blog, the characteristics of a PWA are: capable, reliable, installable, and safe. Speed, network independence, and security are required for the PWA experience.&lt;/p&gt;
+&lt;p&gt;According to the &lt;a href=&quot;https://web.dev/what-are-pwas/&quot;&gt;Google Developers&lt;/a&gt; blog, the characteristics of a PWA are: capable, reliable, installable, and safe. The PWA experience requires speed, network independence, and security.&lt;/p&gt;
 
 &lt;p&gt;The building blocks are:&lt;/p&gt;
 
-&lt;p&gt;A &lt;strong&gt;service worker&lt;/strong&gt; that handles network requests and the caching of assets to support an offline experience with the web application.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/serviceworker&quot;&gt;&lt;strong&gt;service worker&lt;/strong&gt;&lt;/a&gt; that handles network requests and the caching of assets to support an offline experience with the web application.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Transport encryption&lt;/strong&gt; of the network connection via TLS/HTTPS which should be standard anyway.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://letsencrypt.org/&quot;&gt;&lt;strong&gt;Transport encryption&lt;/strong&gt;&lt;/a&gt; of the network connection via TLS/HTTPS, which is considered a standard.&lt;/p&gt;
 
-&lt;p&gt;A &lt;strong&gt;manifest&lt;/strong&gt; file in JSON format to control the app appearance.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/generate&quot;&gt;&lt;strong&gt;manifest&lt;/strong&gt;&lt;/a&gt; file in JSON format to control the app appearance.&lt;/p&gt;
 
 &lt;p&gt;Any website can become a PWA by satisfying the &lt;a href=&quot;https://www.pwabuilder.com&quot;&gt;PWA checklist&lt;/a&gt;. Once all the requirements are met, the app can be downloaded to devices and mimics a native application.&lt;/p&gt;
 
-&lt;p&gt;Not having to maintain separate native applications makes PWA especially interesting for small organizations. Major web frameworks like Angular, React or Jekyll enable anyone to create a PWA.&lt;/p&gt;
+&lt;p&gt;Not having to maintain separate native applications makes PWA especially interesting for small organizations. Major web frameworks like Angular, React or Jekyll enable developers to easily create a PWA and all major mobile and non-mobile operating sytems support the technology.&lt;/p&gt;
 
-&lt;p&gt;Progressive web applications are supported on all major mobile and non-mobile operating systems and browsers.&lt;/p&gt;
-
-&lt;p&gt;Inversegravity is now also available as a PWA. We support the technology and like to evade any iOS vs. Android rivalry.&lt;/p&gt;
+&lt;p&gt;Inversegravity is now available as a PWA. We support web-applications and like to evade any iOS vs. Android rivalry.&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2020/progressive-web-app/</link>
