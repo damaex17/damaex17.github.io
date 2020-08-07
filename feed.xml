@@ -5,8 +5,8 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Aug 2020 17:44:25 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Aug 2020 17:44:25 +0000</lastBuildDate>
+    <pubDate>Fri, 07 Aug 2020 15:52:57 +0000</pubDate>
+    <lastBuildDate>Fri, 07 Aug 2020 15:52:57 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,13 +25,13 @@
 
 &lt;p&gt;Progressive web applications on the other hand are a great way to have just that, a single app to rule them all and users might not even know that they are using a web-based app instead of a native one.&lt;/p&gt;
 
-&lt;p&gt;According to the &lt;a href=&quot;https://web.dev/what-are-pwas/&quot;&gt;Google Developers&lt;/a&gt; blog, the characteristics of a PWA are: capable, reliable, installable, and safe. The experience requires speed, network independence, and security from the web-based application.&lt;/p&gt;
+&lt;p&gt;According to the Google &lt;a href=&quot;https://web.dev/what-are-pwas/&quot;&gt;web.dev&lt;/a&gt; blog, the characteristics of a PWA are: capable, reliable, installable, and safe. The experience requires speed, network independence, and security from the web-based application.&lt;/p&gt;
 
 &lt;p&gt;The building blocks are:&lt;/p&gt;
 
 &lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/serviceworker&quot;&gt;&lt;strong&gt;service worker&lt;/strong&gt;&lt;/a&gt; that handles network requests and the caching of assets to support an offline experience with the web application.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://letsencrypt.org/&quot;&gt;&lt;strong&gt;Transport encryption&lt;/strong&gt;&lt;/a&gt; of the network connection via TLS/HTTPS, which is considered a standard.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://letsencrypt.org/&quot;&gt;&lt;strong&gt;Transport encryption&lt;/strong&gt;&lt;/a&gt; for the network connection via TLS/HTTPS for all components of the website, which should be a standard today.&lt;/p&gt;
 
 &lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/generate&quot;&gt;&lt;strong&gt;manifest&lt;/strong&gt;&lt;/a&gt; file in JSON format to control the app appearance.&lt;/p&gt;
 
