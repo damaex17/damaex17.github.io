@@ -5,9 +5,76 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Aug 2020 15:49:53 +0000</pubDate>
-    <lastBuildDate>Sun, 23 Aug 2020 15:49:53 +0000</lastBuildDate>
+    <pubDate>Wed, 09 Sep 2020 07:46:34 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Sep 2020 07:46:34 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Zero Trust Security</title>
+        <description>&lt;h5 id=&quot;zero-trust-is-a-model-that-is-based-on-the-idea-that-nothing-should-be-trusted-without-verification&quot;&gt;Zero Trust is a model that is based on the idea that nothing should be trusted without verification.&lt;/h5&gt;
+
+&lt;p&gt;In traditional networks, security is based on perimeter defenses, a concept that can be best described with the metaphor of a medieval castle. It is hard to gain access from the outside, but everyone inside is trusted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;old computer&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem with this perimeter defense approach is that once attackers have overcome the initial boundary of the network, they can freely act on all systems. This is intensified by today’s world of complex interconnected networks, cloud-based environments, working from home (WFH), and bring your own device (BYOD).&lt;/p&gt;
+
+&lt;p&gt;Consequently, the concept of barricading your castle with a single (fire)wall alone is an inadequate security model.&lt;/p&gt;
+
+&lt;p&gt;Enter zero trust; a new way of thinking, driven by the assumption that threats are everywhere. Let’s take a look at some of the guiding principles.&lt;/p&gt;
+
+&lt;h3 id=&quot;microperimeter&quot;&gt;Microperimeter&lt;/h3&gt;
+
+&lt;p&gt;The zero trust model extends identity controls to all processes, systems, and people regardless of their group membership or by the location in the network.&lt;/p&gt;
+
+&lt;p&gt;Networks are therefore segmented into small zones and a person or program can’t access the resources in such a zone without prior authorization.&lt;/p&gt;
+
+&lt;p&gt;The resulting micro perimeter allow granular authentication that is tailored to an individual user/process/system combination.&lt;/p&gt;
+
+&lt;h3 id=&quot;principle-of-least-privilege&quot;&gt;Principle Of Least Privilege&lt;/h3&gt;
+
+&lt;p&gt;Another key element of the zero-trust philosophy is the Principle of Least Privilege (PoLP). People and processes receive only the amount of access rights they need to carry out their duty.&lt;/p&gt;
+
+&lt;p&gt;The framework of policies and technologies for ensuring the appropriate access to technology resources is called identity and access management (IAM). PoLP in conjunction with IAM  minimizes the exposure of services to malicious attempts with valid accounts.&lt;/p&gt;
+
+&lt;h3 id=&quot;multi-factor-authentication&quot;&gt;Multi-Factor Authentication&lt;/h3&gt;
+
+&lt;p&gt;In zero-trust security, a single password is not enough evidence for authentication. Multi-factor authentication is a method in which a user is granted access only after successfully presenting two or more pieces of evidence to an authentication mechanism.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2019/universal-2nd-factor/&quot;&gt;2FA&lt;/a&gt; is a subset of multi-factor authentication. It is a method of confirming users’ identities by using a combination of two different factors: something they know and something they have.&lt;/p&gt;
+
+&lt;p&gt;Utilizing MFA dramatically improves the security of the authentication process and prevents attacks with well-known or easy to brute-force passwords.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_02.jpg&quot; alt=&quot;a server rack&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;encryption-everywhere&quot;&gt;Encryption Everywhere&lt;/h3&gt;
+
+&lt;p&gt;Data in public networks is by default encrypted in today’s world. Zero-trust additionally requires the consistent usage of transport layer security (TLS) in internal networks and the cryptographic protection of data in storage.&lt;/p&gt;
+
+&lt;p&gt;Encryption algorithms and secure key sizes require regular assessments whether the chosen method remains sate of the art. But this effort is quickly compensated by the liberating knowledge that an attacker will have a hard time to move inside the network.&lt;/p&gt;
+
+&lt;h3 id=&quot;observability&quot;&gt;Observability&lt;/h3&gt;
+
+&lt;p&gt;Behavioral analytics, efficient incident response, and forensics are important building blocks to support a zero-trust environment. The ability to develop such a cohesive overview requires observability for all services and events.&lt;/p&gt;
+
+&lt;p&gt;Usually, logging and metrics come to mind first, but observability involves other processes like monitoring, tracing, analytics, and alerting. Good observability enables the organization to compile meaningful information from all systems.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Zero Trust can only function within the framework of an overall security concept. It is not an off-the-shelf product or tool but rather a vendor-neutral principle for approaching security in an organization.&lt;/p&gt;
+
+&lt;p&gt;It requires a cultural shift and flexible solutions to change the paradigms by which organizations secure their resources.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/zero-trust/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/zero-trust/</guid>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Progressive Web Application</title>
@@ -843,85 +910,6 @@
         <category>security</category>
         
         <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Holiday Gift Guide</title>
-        <description>&lt;h6 id=&quot;i-started-this-blog-in-2019-and-the-positive-feedback-from-you-readers-is-amazing-and-motivates-me-to-continue-writing-thank-you-i-promise-that-2020-will-bring-more-articles-about-security-books-watches-and-other-topics-that-spark-my-interest&quot;&gt;I started this blog in 2019 and the positive feedback from you readers is amazing and motivates me to continue writing. Thank you! I promise that 2020 will bring more articles about security, books, watches and other topics that spark my interest.&lt;/h6&gt;
-
-&lt;p&gt;Compiling this list of gift ideas was fun to do and the items are either things I already own or things I want. Let’s jump right in.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/gift_1.jpg&quot; alt=&quot;picture of a gift&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;whiskey&quot;&gt;Whiskey&lt;/h3&gt;
-
-&lt;p&gt;The first item from my list is a good bottle of Japanese Whiskey. &lt;a href=&quot;https://amzn.to/37zKvqr&quot;&gt;Nikka From The Barrel&lt;/a&gt; is a blended whiskey created to deliver full flavors and the iconic bottle is designed to reflect “a small block of whiskey” – embodying the rich, strong taste of the whiskey within. Masataka Taketsuru the founder of Nikka is also the ancestor of Japanese whiskey. The Nikka distillery won many prestigious international awards and has earned a reputation for quality.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/nikka.jpg&quot; alt=&quot;picture of a bottle of nikka&quot; style=&quot;float: center; margin: 10px 10px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you prefer a traditional Single Malt Scotch, then I’d recommend a &lt;a href=&quot;https://amzn.to/2pXgFve&quot;&gt;Laphroaig 10 y/o&lt;/a&gt;. Made in Scotland.&lt;/p&gt;
-
-&lt;p&gt;Fine Whiskey requires consumption from nice glasses. Probably the most famous one is the &lt;a href=&quot;https://amzn.to/2OERDZX&quot;&gt;Glencairn Whiskey Glass&lt;/a&gt;. It is built so your hands won’t warm the Whiskey. A classic &lt;a href=&quot;https://amzn.to/35r5KsO&quot;&gt;Whiskey Tumbler&lt;/a&gt; is a solid alternative.&lt;/p&gt;
-
-&lt;p&gt;Whiskey connoisseurs won’t allow ice cubes to water down their favorite drink. A nice set of &lt;a href=&quot;https://amzn.to/34gGuVV&quot;&gt;Whiskey Stones&lt;/a&gt; will make any aficionado happy and is my third item on this gift list. It’s by the way a centuries’ old Scandinavian tradition to use cold stones to cool liquids.&lt;/p&gt;
-
-&lt;h3 id=&quot;smoking-section&quot;&gt;Smoking Section&lt;/h3&gt;
-
-&lt;p&gt;The next item in the gift guide is something I tend to enjoy myself after a hard day of security work. A good cigar.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/montecristo.jpg&quot; alt=&quot;picture of a box of Montecristo Cigars&quot; style=&quot;float: left;width:60%; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My recommendation to people getting into the hobby is to try different brands and find their favorite taste. But a box of &lt;a href=&quot;https://www.cigarworld.de/en/zigarren/cuba/regulares/montecristo-01007&quot;&gt;Montecristo Cigars&lt;/a&gt; will satisfy the regular as much as the occasional smoker of fine Cubans. Their  strength is medium; in fact, it has become the standard by which all other Havanas are now judged.&lt;/p&gt;
-
-&lt;p&gt;I apologize to my readers from the United States but I think there is still a problem with importing Cuban goods to the US.&lt;/p&gt;
-
-&lt;p&gt;A fine crystal &lt;a href=&quot;https://amzn.to/2KSg19x&quot;&gt;ashtray&lt;/a&gt; and a nice cigar &lt;a href=&quot;https://amzn.to/2DkcNHv&quot;&gt;cutter&lt;/a&gt; go well with a box of cigars as a present and round off the list in this category.&lt;/p&gt;
-
-&lt;h3 id=&quot;library&quot;&gt;Library&lt;/h3&gt;
-
-&lt;p&gt;This chapter is something more universal and will also benefit people with a more healthy lifestyle. The holiday season is in the end also a good time to pick up a book or magazine.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://www.thewilliambrownproject.com/&quot;&gt;“WM Brown Magazine”&lt;/a&gt;, founded by style editor, explorer, filmmaker, and New Yorker Matt Hranek starts my recommendations in this category. WM Brown magazine is curated for the gentleman who seeks an off-the-beaten-track experience, in all aspects of life. The well-written articles are accompanied by amazing photography. The stories cover such things as food, fashion, watches, and yes.. even vintage whiskey flasks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/wmbrown.png&quot; alt=&quot;picture of a box of Montecristo Cigars&quot; style=&quot;float: left; width:50%; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Matt also wrote a fantastic book: &lt;a href=&quot;https://amzn.to/33iHGXA&quot;&gt;“A Man &amp;amp; His Watch”&lt;/a&gt;. While the watches in the book are interesting for sure, it’s the stories of people that make this a must-have for any watch collector. It’s a wonderful collection of stories and images representing a diverse and fascinating group of horological devotees.&lt;/p&gt;
-
-&lt;p&gt;Another recommended book about watches is &lt;a href=&quot;https://amzn.to/35BENTn&quot;&gt;“The Watch – Thoroughly Revisited”&lt;/a&gt;. It is not only a feast for the eyes but both a comprehensive and holistic resource in terms of horology that will appeal to any aficionado. It goes into great detail about a microcosm that has never been more popular than in the age of instagraming.&lt;/p&gt;
-
-&lt;p&gt;Enough of watches, the next book &lt;a href=&quot;https://amzn.to/2Db1KAF&quot;&gt;“How to Measure Anything in Cybersecurity Risk”&lt;/a&gt; is about security or better about risk management and governance and reads like an education in quantitative modeling and how to apply the methodology to cybersecurity. It truly challenges the current common practices of opinion-based risk frameworks. This is a must-have for anyone who has to manage and communicate risks.&lt;/p&gt;
-
-&lt;p&gt;Defense in depth is not only a military strategy but also helps in building a robust security posture. The book &lt;a href=&quot;https://amzn.to/2OpYo30&quot;&gt;“Zero Trust Networks: Building Secure Systems in Untrusted Networks”&lt;/a&gt; explains that perimeter defenses guarding your network aren’t as secure as you might think. The book introduces you to the zero trust model, a method that treats all hosts as if they’re internet-facing, and considers the entire network to be compromised and hostile. Strong authentication, authorization, and encryption throughout, while providing compartmentalized access and better operational agility.&lt;/p&gt;
-
-&lt;p&gt;My last book recommendation is a classic science-fiction book. &lt;a href=&quot;https://amzn.to/2XN91Qz&quot;&gt;“Neuromancer”&lt;/a&gt; surely sets the stage for many ideas, books, video games, and movies that followed. If your loved one is into tech-noire, corporate dominance, virtual reality, you might just as well have found the perfect present.&lt;/p&gt;
-
-&lt;h3 id=&quot;creation&quot;&gt;Creation&lt;/h3&gt;
-
-&lt;p&gt;Another great way to spend the holidays is to build something. And LEGO has something amazing in-store.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/landi.png&quot; alt=&quot;picture of the lego landrover&quot; style=&quot;float: left; width: 70%; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You might have heard that Land Rover will launch a new version of their vintage cult Defender model in 2020. During the holiday season, you can already start building your Defender with the &lt;a href=&quot;https://amzn.to/34kKTqL&quot;&gt;LEGO Technic Land Rover Defender&lt;/a&gt;. The set has over 2500 pieces and includes a 4-speed sequential gearbox, All Wheel Drive with 3 differentials, independent suspension on both axles, a detailed in-line 6-cylinder engine and a working winch.&lt;/p&gt;
-
-&lt;p&gt;The next item on my list is the &lt;a href=&quot;https://amzn.to/2DdeXJ5&quot;&gt;Canon EOS M50&lt;/a&gt;. It is an entry-level mirrorless camera that features an electronic viewfinder, fully articulating touchscreen and a 24MP APS-C sensor. It has Canon’s DIGIC 8 processor and offers 4K/24p video capture as well as Wi-Fi, Bluetooth and, NFC. The Camera also features Canons Dual Pixel Auto Focus, which is considered the best in the industry. As a perfect first lense, I recommend the &lt;a href=&quot;https://amzn.to/2OiVNrC&quot;&gt;Canon EF-M 22m F2 Pancake Lens&lt;/a&gt; which gives that nice background blur and does great in portraits, landscapes, low-light, and macro.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/22m.jpg&quot; alt=&quot;picture of a JLC Reverso showing some nice background blur&quot; style=&quot;margin: 15px 15px 10px 10px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I want to finish my holiday gift guide with a &lt;a href=&quot;https://amzn.to/2QNTi2e&quot;&gt;Yubikey&lt;/a&gt;. It’s the perfect present for anyone who enjoys a secure authentication method. The keys support OTP and U2F and come in different sizes and with all major connectors. I recently wrote an &lt;a href=&quot;/2019/universal-2nd-factor/&quot;&gt;article about U2F&lt;/a&gt; and its advantages.&lt;/p&gt;
-
-&lt;p&gt;That was my guide and all that’s left for me is to wish my readers a relaxed end of the year and a good time with your loved ones.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2019/holiday-gift-guide/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2019/holiday-gift-guide/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
-        
-        <category>book</category>
         
         
       </item>
