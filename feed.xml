@@ -5,8 +5,8 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Sep 2020 07:46:34 +0000</pubDate>
-    <lastBuildDate>Wed, 09 Sep 2020 07:46:34 +0000</lastBuildDate>
+    <pubDate>Thu, 10 Sep 2020 06:57:15 +0000</pubDate>
+    <lastBuildDate>Thu, 10 Sep 2020 06:57:15 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -29,19 +29,19 @@
 
 &lt;p&gt;Networks are therefore segmented into small zones and a person or program can’t access the resources in such a zone without prior authorization.&lt;/p&gt;
 
-&lt;p&gt;The resulting micro perimeter allow granular authentication that is tailored to an individual user/process/system combination.&lt;/p&gt;
+&lt;p&gt;The resulting micro perimeter allows granular authentication that is tailored to an individual user/process/system combination.&lt;/p&gt;
 
 &lt;h3 id=&quot;principle-of-least-privilege&quot;&gt;Principle Of Least Privilege&lt;/h3&gt;
 
-&lt;p&gt;Another key element of the zero-trust philosophy is the Principle of Least Privilege (PoLP). People and processes receive only the amount of access rights they need to carry out their duty.&lt;/p&gt;
+&lt;p&gt;Authentication within a zero-trust philosophy is based on the Principle of Least Privilege (PoLP). Meaningi, people and processes receive only the amount of access rights they need to carry out their duty.&lt;/p&gt;
 
-&lt;p&gt;The framework of policies and technologies for ensuring the appropriate access to technology resources is called identity and access management (IAM). PoLP in conjunction with IAM  minimizes the exposure of services to malicious attempts with valid accounts.&lt;/p&gt;
+&lt;p&gt;The framework of policies and technologies for enabling this appropriate access to resources is called Identity and Access Management (IAM) and in conjunction with PoLP, it minimizes the exposure of services to malicious login attempts with valid accounts.&lt;/p&gt;
 
 &lt;h3 id=&quot;multi-factor-authentication&quot;&gt;Multi-Factor Authentication&lt;/h3&gt;
 
-&lt;p&gt;In zero-trust security, a single password is not enough evidence for authentication. Multi-factor authentication is a method in which a user is granted access only after successfully presenting two or more pieces of evidence to an authentication mechanism.&lt;/p&gt;
+&lt;p&gt;In zero-trust security, knowledge of a password is not enough evidence for authentication. Multi-factor authentication is the recommended method in which a user is granted access only after successfully presenting two or more pieces of evidence to an authentication mechanism.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2019/universal-2nd-factor/&quot;&gt;2FA&lt;/a&gt; is a subset of multi-factor authentication. It is a method of confirming users’ identities by using a combination of two different factors: something they know and something they have.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2019/universal-2nd-factor/&quot;&gt;2FA&lt;/a&gt; as a subset of multi-factor authentication confirms identities by combining two different factors: something they know and something they have.&lt;/p&gt;
 
 &lt;p&gt;Utilizing MFA dramatically improves the security of the authentication process and prevents attacks with well-known or easy to brute-force passwords.&lt;/p&gt;
 
@@ -51,7 +51,7 @@
 
 &lt;p&gt;Data in public networks is by default encrypted in today’s world. Zero-trust additionally requires the consistent usage of transport layer security (TLS) in internal networks and the cryptographic protection of data in storage.&lt;/p&gt;
 
-&lt;p&gt;Encryption algorithms and secure key sizes require regular assessments whether the chosen method remains sate of the art. But this effort is quickly compensated by the liberating knowledge that an attacker will have a hard time to move inside the network.&lt;/p&gt;
+&lt;p&gt;Encryption algorithms and secure key sizes have to be assessed regular whether they remain sate of the art. But this effort is quickly compensated by the liberating knowledge that an attacker will have a harder time to move inside the network.&lt;/p&gt;
 
 &lt;h3 id=&quot;observability&quot;&gt;Observability&lt;/h3&gt;
 
