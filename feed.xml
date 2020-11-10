@@ -5,9 +5,77 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Sep 2020 07:10:57 +0000</pubDate>
-    <lastBuildDate>Thu, 10 Sep 2020 07:10:57 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2020 08:06:07 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2020 08:06:07 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>CVE - The Common Vulnerabilities and Exposures System</title>
+        <description>&lt;h5 id=&quot;the-common-vulnerabilities-and-exposures-system-provides-a-reference-method-for-publicly-known-information-security-vulnerabilities-and-exposures&quot;&gt;The Common Vulnerabilities and Exposures system provides a reference-method for publicly known information-security vulnerabilities and exposures.&lt;/h5&gt;
+
+&lt;p&gt;The system is maintained by the nonprofit organization &lt;a href=&quot;https://en.wikipedia.org/wiki/The_MITRE_Corporation&quot;&gt;MITRE&lt;/a&gt;, funded by &lt;a href=&quot;https://en.wikipedia.org/wiki/National_Cyber_Security_Division&quot;&gt;NCSD&lt;/a&gt;, and was officially launched in 1999. In this article, we explain what it is all about.&lt;/p&gt;
+
+&lt;p&gt;Before the CVE system, communication about security vulnerabilities was difficult. “The security issue in Windows” could refer to hundreds of individual bugs. Trying to narrow down the exact bug by adding the subsystem was not sufficient.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/digisign.jpg&quot; alt=&quot;picture of a city&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To improve communication and avoid misunderstandings a vendor-neutral and uniform system for the management of vulnerabilities was required.&lt;/p&gt;
+
+&lt;p&gt;In 1999, this consistent numbering system for vulnerabilities was introduced: the CVE (Common Vulnerabilities and Exposures) system, which has since become the industry standard.&lt;/p&gt;
+
+&lt;h3 id=&quot;vulnerabilities-and-exposures&quot;&gt;Vulnerabilities and Exposures&lt;/h3&gt;
+
+&lt;p&gt;Vulnerabilities are weaknesses in a software or system that can be used to gain unauthorized access or perform unauthorized actions on a computer system. Exposures are caused by vulnerabilities and misconfiguration and can be actively exploited in cyber attacks.&lt;/p&gt;
+
+&lt;h3 id=&quot;naming-scheme&quot;&gt;Naming Scheme&lt;/h3&gt;
+
+&lt;p&gt;The IDs in the CVE system follow the format &lt;strong&gt;CVE-YYYY-NNNNN&lt;/strong&gt;. The pattern is familiar to everyone who has dealt with vulnerabilities and describe the specific issue with a software. Software updates refer to the CVE number to explain what is addressed in the update.&lt;/p&gt;
+
+&lt;p&gt;The initial &lt;strong&gt;CVE&lt;/strong&gt; is always followed by the year &lt;strong&gt;YYYY&lt;/strong&gt; in which the number was assigned to the vulnerability.&lt;/p&gt;
+
+&lt;p&gt;The last part of the ID was limited to four digits when the system was introduced but the 9999 unique IDs per year were insufficient. Since 2014 there is no limit and the length is defined by the demand of the respective calendar year.&lt;/p&gt;
+
+&lt;h3 id=&quot;allocation&quot;&gt;Allocation&lt;/h3&gt;
+
+&lt;p&gt;The uniform syntax of the CVE system was the first step to find a common ground for vulnerabilities. But to prevent IDs from being created and assigned in an uncontrolled manner, only certain organizations and persons, so-called CVE Numbering Authorities (CNAs), have the authority to assign an ID to a specific vulnerability.&lt;/p&gt;
+
+&lt;p&gt;There are three types of CNA entities:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The MITRE itself functions as the primary CNA&lt;/li&gt;
+  &lt;li&gt;Various vendors assign CVE numbers for their products (e.g. Microsoft, Oracle, Google, etc.)&lt;/li&gt;
+  &lt;li&gt;Third-party coordinators such as CERT may assign CVE numbers for products not covered by other CNAs&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Independent researchers who discover a vulnerability and want to report it will find the relevant contact point in the &lt;a href=&quot;https://cve.mitre.org/cve/request_id.html&quot;&gt;CNA overview&lt;/a&gt; on MITRE’s website.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cvebanner.png&quot; alt=&quot;a server rack&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once a new vulnerability is reported, the CNA will reserve an ID and enter it into the MITRE maintained &lt;a href=&quot;https://cve.mitre.org/cve/&quot;&gt;CVE list&lt;/a&gt;. Once the vulnerability is confirmed and a detailed description is provided, the CVE is officially assigned.&lt;/p&gt;
+
+&lt;h3 id=&quot;additional-information-and-scoring&quot;&gt;Additional Information and Scoring&lt;/h3&gt;
+
+&lt;p&gt;The National Vulnerability Database (&lt;a href=&quot;https://nvd.nist.gov/&quot;&gt;NVD&lt;/a&gt;) is an independent project launched in 2005 by the National Institute of Standards and Technology (&lt;a href=&quot;https://www.nist.gov/&quot;&gt;NIST&lt;/a&gt;) and uses MITRE’s CVE list, but adds additional information to the rather brief descriptions, such as security risks or available updates.&lt;/p&gt;
+
+&lt;p&gt;For the infamous &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160&quot;&gt;Heartbleed CVE&lt;/a&gt; for example, the &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2014-0160&quot;&gt;NVD description&lt;/a&gt; provides information on how to fix it and a list of affected software versions.&lt;/p&gt;
+
+&lt;p&gt;One of the most important data the NVD provides is the so-called Common Vulnerability Scoring System (CVSS). Based on the path of attack and the complexity of the exploit, a scoring level from “Low” to “Critical” is assigned to each CVE.&lt;/p&gt;
+
+&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;CVE is free to use and publicly available to anyone interested in correlating data between different vulnerability or security tools, repositories, and services. Attackers only need to find a single vulnerability to gain unauthorized access to a system. Therefore, organizations need to protect themselves by swiftly addressing known vulnerabilities and exposures.&lt;/p&gt;
+
+&lt;p&gt;The CVE system provides the necessary infrastructure to match any software inventory against known weaknesses and the ID serves as the consistent identification characteristic for such vulnerability.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/cve-system/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/cve-system/</guid>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Zero Trust Security</title>
@@ -785,127 +853,6 @@
         <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2020/tcp-ip-model/</link>
         <guid isPermaLink="true">https://inversegravity.net/2020/tcp-ip-model/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>OSI Model - Open Systems Interconnection</title>
-        <description>&lt;h6 id=&quot;to-properly-implement-secure-design-principles-in-network-architectures-it-is-important-to-fully-understand-all-of-the-technologies-involved-in-computer-communications-from-software-and-hardware-to-encryption-and-beyond-there-are-many-standards-to-know-and-procedures-to-follow-the-osi-model-has-become-a-common-reference-against-which-all-protocols-can-be-compared&quot;&gt;To properly implement secure design principles in network architectures, it is important to fully understand all of the technologies involved in computer communications. From software and hardware to encryption and beyond, there are many standards to know and procedures to follow. The OSI model has become a common reference against which all protocols can be compared.&lt;/h6&gt;
-
-&lt;p&gt;The actual OSI protocol was developed to establish a common communication structure for all computer systems but was never widely adopted. Instead, the theory behind the protocol serves nowadays as a theoretical model for how protocols should function in an ideal world on ideal hardware.&lt;/p&gt;
-
-&lt;p&gt;The Open Systems Interconnection (OSI) model is a guiding principle in networking and related protocols.&lt;/p&gt;
-
-&lt;p&gt;Communication between computers and over networks is made possible by protocols which are simply a set of rules and restrictions that define how data is transmitted over a network medium (whether that connection is electrons over copper, photons over fiber, or radio signals through the air).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/osi_2.jpg&quot; alt=&quot;light shining from fiber cables&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-layers-of-the-model&quot;&gt;The Layers of the Model&lt;/h3&gt;
-
-&lt;p&gt;The model partitions a communication system into seven abstraction layers. A layer serves the layer above it and is served by the layer below it.&lt;/p&gt;
-
-&lt;p&gt;Understanding the functions and responsibilities of each layer of the OSI Model is essential to understand how network communications function, how attacks work, and how to security can be implemented to protect network communications.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/osi_table_1.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;layer-7-application&quot;&gt;Layer 7: Application&lt;/h6&gt;
-
-&lt;p&gt;The Application layer allows applications to communicate with the protocol stack. It ensures that sufficient resources are available to support the requested communication and is responsible for interfacing user applications, network services, or the operating system with the protocol stack.&lt;/p&gt;
-
-&lt;p&gt;The application is not located in this layer but rather the protocols and services required for it to work.&lt;/p&gt;
-
-&lt;h6 id=&quot;layer-6-presentation&quot;&gt;Layer 6: Presentation&lt;/h6&gt;
-
-&lt;p&gt;Layer 6 imposes common or standardized structure and formatting rules onto the data from the application layer. It acts as an interface between applications and the network and therefore allows various applications to interact over a network. It does so by ensuring that the data formats are supported by both systems. Most data and file formats operate within this layer.&lt;/p&gt;
-
-&lt;p&gt;The formats include support for images, video, sound, digital rights, documents, emails, or text.&lt;/p&gt;
-
-&lt;h6 id=&quot;layer-5-session&quot;&gt;Layer 5: Session&lt;/h6&gt;
-
-&lt;p&gt;The Session layer is establishing, maintaining, and terminating communication sessions between two computers. It manages dialogue discipline and control (simplex (one-way), half-duplex (two-way one-directional), full-duplex (two-way bi-directional)), establishes checkpoints for recovery, and can retransmit PDUs that have failed to the Transport layer.&lt;/p&gt;
-
-&lt;h6 id=&quot;layer-4-transport&quot;&gt;Layer 4: Transport&lt;/h6&gt;
-
-&lt;p&gt;This layer is responsible for managing the integrity of a connection and controlling the session. It accepts a PDU (Protocol Data Unit) from the Session layer and converts into segments. The Transport layer defines the rules of a session, how much data a segment can contain, how to verify the segment integrity, and how to determine if data has been lost. Rules are established through a handshake process (SYNC/ACK three-way handshake for TCP/IP).&lt;/p&gt;
-
-&lt;p&gt;Layer 4 establishes a logical connection between two devices and provides end-to-end transport services for data delivery. Mechanisms in this layer include sequencing, segmentation, error checking, controlling the data flow, error correction, multiplexing, and optimization.&lt;/p&gt;
-
-&lt;h6 id=&quot;layer-3-network&quot;&gt;Layer 3: Network&lt;/h6&gt;
-
-&lt;p&gt;The Network layer is responsible for adding routing and addressing information to the data. It accepts the segments from the Transport layer and adds information to it to create a packet. The packer includes the source and destination IP address.&lt;/p&gt;
-
-&lt;p&gt;Layer 3 is responsible for providing routing and delivery information, but it’s not responsible for verifying guaranteed delivery. It also manages error detection and traffic control.&lt;/p&gt;
-
-&lt;p&gt;Routers are an example of network hardware devices functioning on this layer. Routers can determine the best logical path for transmission of packets based on speed, hops, preferences or priority. They use the destination IP address to guide the transmission of packets.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Non-IP Protocols are protocols that serve as an alternative to IP at the OSI Network layer. With the dominance of TCP/IP, non-IP protocols have become limited to special-purpose networks. Recognizable non-IP protocols are AppleTalk, NetBEUI or IPX&lt;/em&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;layer-2-data-link&quot;&gt;Layer 2: Data Link&lt;/h6&gt;
-
-&lt;p&gt;The Data Link layer is formatting the packet from the Network layer into the proper format for transmission. The proper format is determined by the hardware and network technology. Ethernet remains a common Data Link layer technology in modern networks. Within the Data Link layer resides the protocol that converts the packet into a properly formated frame. Once the frame is formatted, it’s sent to the Physical layer for transmission.&lt;/p&gt;
-
-&lt;p&gt;Part of the processing performed on this layer includes adding the hardware source and destination address to the frame. This address is the Media Access Control (MAC) address. Network hardware functioning on layer 2 are switches and bridges. Switches support MAC-based traffic routing and receive a frame on one port and sent it out to another port based on the destination MAC address.&lt;/p&gt;
-
-&lt;h6 id=&quot;layer-1-physical&quot;&gt;Layer 1: Physical&lt;/h6&gt;
-
-&lt;p&gt;The Physical layer is responsible for receiving bits from the physical connection medium and converting them into a frame to be used by the Data Link layer. It also works the other way around by converting the frame into bits for transmission over the physical medium.&lt;/p&gt;
-
-&lt;p&gt;This layer contains the device drivers that tell the protocol how to employ the hardware for transmission and reception of bits. Located in this layer are electrical specifications, interface standards, and protocols. Layer 1 controls throughput rates, manages line noise and medium access, handles synchronization and also determines whether to use digital or analog signals.&lt;/p&gt;
-
-&lt;p&gt;Hardware devices that function at this layer are network interface cards (NIC), hubs or repeaters. These devices perform hardware-based signal operations. One example is a network hub that is sending a signal from one connection port to all other ports. A network repeater is amplifying a signal to support greater transmission distances.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/osi_1.jpg&quot; alt=&quot;layers of pancakes&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;encapsulation-and-de-encapsulation&quot;&gt;Encapsulation and De-encapsulation&lt;/h3&gt;
-
-&lt;p&gt;Protocols based on the OSI Model utilize a mechanism called encapsulation. It is the addition of a header, and possibly a footer, to the data received by each layer from the layer above before it is handed over to the layer below. As a message traverses the layers, it is enriched with additional data. The previous layers header and payload becomes the payload of the current layer.&lt;/p&gt;
-
-&lt;p&gt;Encapsulation occurs as data moves down through the OSI Model layers from Application to Physical. When data moves up through the layers from Physical to Application the action occurring is known as de-encapsulation.&lt;/p&gt;
-
-&lt;p&gt;The process is as follows:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; The Application layer creates the message&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; The Application layer passes the message to the Presentation layer&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; The Presentation layer encapsulates the message by adding layer-specific information to it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; The process continues as the original message travels down the layers. Each layer adds additional information to the message&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; The message reaches the Physical layer and is converted into electrical impulses that represent bits and is transmitted over the physical connection&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; The receiving computer captures the bits from the physical medium and re-creates the message in the Physical layer&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; The Physical layer converts the message from bits into a Data Link frame and sends the message up to the Data Link layer&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt; The Data Link layer strips the layer-specific information from the message and sends it up to the Network layer&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;9.&lt;/strong&gt; The process of de-encapsulation is performed on each layer until the message reaches the Application layer&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;10.&lt;/strong&gt; On the Application layer, the data is extracted from the message and is sent to the intended software recipient&lt;/p&gt;
-
-&lt;p&gt;The information added and removed by each layer contains instructions, checksums, and  can only be understood by the peer layer that added or created the information. This creates the logical channel that enables the peer layer on different computers to communicate.&lt;/p&gt;
-
-&lt;h3 id=&quot;tcpip-and-osi-comparison&quot;&gt;TCP/IP and OSI comparison&lt;/h3&gt;
-
-&lt;p&gt;The TCP/IP or DARPA Model was developed before the OSI Model. The designers of the OSI Reference Model made sure that both fit together because TCP/IP was already an established deployment in networking.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/osi_table_2.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;TCP/IP is the most widely used protocol stack with dozens of individual protocols. It is platform-independent and based on open standards and can be found in every available modern operating system. The drawbacks of TCP/IP are its significant consumption of resources and the lack of security by design.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;The theory behind the OSI model is abstract at first but it serves as a model to understand and compare protocols. It also helps vendors and developers to create digital communication products that interoperate. Lastly, the structure of the OSI model helps to frame discussions of protocols and contrast various technologies.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/osi-model/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/osi-model/</guid>
         
         <category>security</category>
         
