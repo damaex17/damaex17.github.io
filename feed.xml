@@ -5,12 +5,75 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Nov 2020 08:06:07 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2020 08:06:07 +0000</lastBuildDate>
+    <pubDate>Tue, 22 Dec 2020 15:54:14 +0000</pubDate>
+    <lastBuildDate>Tue, 22 Dec 2020 15:54:14 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
-        <title>CVE - The Common Vulnerabilities and Exposures System</title>
+        <title>Tor - 25 Years of Anonymization</title>
+        <description>&lt;h5 id=&quot;anonymization-technology-is-at-the-core-of-self-defense-in-the-digital-world-in-this-article-we-take-a-look-at-the-great-anonymization-project&quot;&gt;Anonymization technology is at the core of self-defense in the digital world. In this article, we take a look at the great anonymization project.&lt;/h5&gt;
+
+&lt;p&gt;The underlying principle of Tor was developed in the mid-1990s by the United States to protect U.S. intelligence communications online.&lt;/p&gt;
+
+&lt;p&gt;25 years after its inception as a state-funded project, Tor is the most important adversary of state surveillance and the leader in distributed anonymization technologies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tor-logo.png&quot; alt=&quot;the logo of the Tor project&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It allows users to protect their privacy and circumvent censorship but also allows selling or buying illicit drugs. The Tor Project has been full of contradictions since the beginning.&lt;/p&gt;
+
+&lt;h3 id=&quot;onion-routing&quot;&gt;Onion Routing&lt;/h3&gt;
+
+&lt;p&gt;Tor aims to conceal its users’ identities and their online activity from surveillance and traffic analysis by separating identification and routing. It is an implementation of a technique called onion routing.&lt;/p&gt;
+
+&lt;p&gt;In an onion network, messages are encapsulated in layers of encryption, analogous to several peels of an onion. The encrypted data is transmitted through a randomly selected series of network nodes called onion routers, each of which “peels” away a single layer, uncovering the data’s next destination.&lt;/p&gt;
+
+&lt;p&gt;When the final layer is decrypted, the message arrives at its destination. The user remains anonymous to the service provider because each intermediary knows only the location of the immediately preceding and following nodes.&lt;/p&gt;
+
+&lt;h3 id=&quot;deep-and-dark-onion&quot;&gt;Deep and Dark Onion&lt;/h3&gt;
+
+&lt;p&gt;The Tor software can be used in two ways: either as an anonymization service to accesses the regular internet or to access services in the virtual top-level domain “.onion”.&lt;/p&gt;
+
+&lt;p&gt;There are many misunderstandings and generalizations regarding the “.onion”. Let’s look at some subsets of the web and the naming first.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tor_users.png&quot; alt=&quot;tor users per day&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;SurfaceWeb&lt;/strong&gt; is everything publicly available and accessible through search engines. This is where we find news sites, blogs like inversegravity, or shopping sites. The &lt;strong&gt;DeepWeb&lt;/strong&gt; describes the parts of the internet that are hidden behind a login and therefore not publicly accessible. Examples are online banking sites or content behind a paywall.&lt;/p&gt;
+
+&lt;p&gt;The term &lt;strong&gt;DarkWeb&lt;/strong&gt; describes services that require specific software to access them. Tor is such software and the TLD “.onion” is a major player in the so-called DarkWeb.&lt;/p&gt;
+
+&lt;p&gt;The hostnames under “.onion” are not actual DNS names, and the TLD is not registered in the root of the regular internet domain services. The purpose of the network is to hide both the identity of the service provider and the person accessing the service.&lt;/p&gt;
+
+&lt;p&gt;The mutual anonymity and the emergence of anonymous digital currencies created the possibility to buy and sell services and goods in complete anonymity.&lt;/p&gt;
+
+&lt;h3 id=&quot;benefits-worth-the-costs&quot;&gt;Benefits worth the costs?&lt;/h3&gt;
+
+&lt;p&gt;It is not without reason that stories about the Darkweb are popular in the media. There is everything that makes a good story, anonymous criminals engaging in illegal activities including sex and drugs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tor_users_country.png&quot; alt=&quot;tor users per country&quot; style=&quot;float: left; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Outrage from politicians and calls for regulation accompany many of these stories.&lt;/p&gt;
+
+&lt;p&gt;Though, a recent &lt;a href=&quot;https://www.pnas.org/content/early/2020/11/24/2011893117/tab-article-info&quot;&gt;research article&lt;/a&gt; has shown that only ~6.7% of all Tor users are actually accessing Onion services for potentially illegal purposes.&lt;/p&gt;
+
+&lt;p&gt;The vast majority uses it as a privacy-enhancing tool to circumvent censorship or stay anonymous on the regular internet. Ultimately Tor is by its very nature dual-use and the question is if the benefits outweigh the costs.&lt;/p&gt;
+
+&lt;p&gt;On the 25th anniversary of Tor, there is no clear answer. The internet is a very young technology and we are grappling with the implications to personal freedom, censorship, human nature, social evil, and government policies.&lt;/p&gt;
+
+&lt;p&gt;Happy birthday Tor!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2020/tor-onion-anniversary/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2020/tor-onion-anniversary/</guid>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>CVE - Common Vulnerabilities and Exposures System</title>
         <description>&lt;h5 id=&quot;the-common-vulnerabilities-and-exposures-system-provides-a-reference-method-for-publicly-known-information-security-vulnerabilities-and-exposures&quot;&gt;The Common Vulnerabilities and Exposures system provides a reference-method for publicly known information-security vulnerabilities and exposures.&lt;/h5&gt;
 
 &lt;p&gt;The system is maintained by the nonprofit organization &lt;a href=&quot;https://en.wikipedia.org/wiki/The_MITRE_Corporation&quot;&gt;MITRE&lt;/a&gt;, funded by &lt;a href=&quot;https://en.wikipedia.org/wiki/National_Cyber_Security_Division&quot;&gt;NCSD&lt;/a&gt;, and was officially launched in 1999. In this article, we explain what it is all about.&lt;/p&gt;
@@ -772,91 +835,6 @@
         <category>technology</category>
         
         <category>privacy</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>TCP/IP - Internet Protocol Suite</title>
-        <description>&lt;h6 id=&quot;the-internet-protocol-suite-is-commonly-known-as-tcpip-because-of-the-central-protocols-in-the-suite-transmission-control-protocol-tcp-and-internet-protocol-ip&quot;&gt;The Internet Protocol Suite is commonly known as TCP/IP because of the central protocols in the suite: Transmission Control Protocol (TCP) and Internet Protocol (IP).&lt;/h6&gt;
-
-&lt;h6 id=&quot;tcpip-is-the-foundation-of-all-global-internet-communication-and-dominates-networks-around-the-world-the-technical-standards-are-maintained-by-the-internet-engineering-task-force-ietf&quot;&gt;TCP/IP is the foundation of all global internet communication and dominates networks around the world. The technical standards are maintained by the Internet Engineering Task Force (IETF).&lt;/h6&gt;
-
-&lt;p&gt;The Internet Protocol Suite predates the &lt;a href=&quot;/2020/osi-model/&quot;&gt;OSI Reference Model&lt;/a&gt; which is a more comprehensive framework for general networking systems.&lt;/p&gt;
-
-&lt;p&gt;TCP/IP originates from research conducted by &lt;a href=&quot;https://en.wikipedia.org/wiki/DARPA&quot;&gt;DARPA&lt;/a&gt; in the 1960s. The design included a fundamental change to existing protocols as the network would only provide functions to efficiently transmitting and routing traffic between end nodes and that all other intelligence would be located at the edge of the network. This design is known as the &lt;a href=&quot;https://en.wikipedia.org/wiki/End-to-end_principle&quot;&gt;end-to-end principle&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_02.jpg&quot; alt=&quot;computer racks&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In 1982 the US Department of Defense declared TCP/IP as the standard for all computer networking and Universities followed in the same year. The promotion of the protocol by large corporations like IBM and DEC led to increasing commercial use.&lt;/p&gt;
-
-&lt;p&gt;The dominance of TCP/IP as the standard for network communication was cemented when the University of California, Berkeley placed the TCP/IP code developed for &lt;a href=&quot;https://en.wikipedia.org/wiki/BSD_UNIX&quot;&gt;BSD UNIX&lt;/a&gt; into the public domain in 1989. More and more vendors included the code in commercial software releases and more people joined Internet protocol suite based networks.&lt;/p&gt;
-
-&lt;h3 id=&quot;layers-of-tcpip&quot;&gt;Layers of TCP/IP&lt;/h3&gt;
-
-&lt;p&gt;The defining specification of the suite is found in &lt;a href=&quot;https://tools.ietf.org/html/rfc1122&quot;&gt;RFC 1122&lt;/a&gt; and &lt;a href=&quot;https://tools.ietf.org/html/rfc1123&quot;&gt;RFC 1123&lt;/a&gt;. A four-layer model is outlined as follows.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_01.png&quot; alt=&quot;table presentation of the layers&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Application&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In this layer applications or processes, create user data and communicate this data to other applications on the same host or a remote one. The applications make use of the services provided by the underlying lower layers, especially the transport layer which provides reliable or unreliable communication protocols to other processes. Application architecture is characterized by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Client%E2%80%93server_model&quot;&gt;client-server model&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Peer-to-peer&quot;&gt;peer-to-peer computing&lt;/a&gt;. This is the layer in which all application protocols, such as SMTP, FTP, SSH, HTTPS, operate.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Transport&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The transport layer performs host-to-host communication on local or remote networks. The two primary protocols in this layer are the simplex connectionless UDP or User Datagram Protocol and the full-duplex connection-oriented TCP or Transmission Control Protocol.&lt;/p&gt;
-
-&lt;p&gt;Data exchange between two systems on this layer is performed via ports. Both TCP and UDP support 65536 ports which are just an address number that both ends of the communication link agree to use when transferring data on the transport layer. A single IP address can support multiple simultaneous communications by utilizing multiple ports.&lt;/p&gt;
-
-&lt;p&gt;Let’s look at TCP which is connection-oriented and performs a handshake process to establish a communication session. The three-way-handshake is a prerequisite for data transmission between server and client and goes as follows:&lt;/p&gt;
-
-&lt;p&gt;The client sends a &lt;strong&gt;SYN&lt;/strong&gt; (synchronize) flagged packet to the server. The server responds with a &lt;strong&gt;SYN/ACK&lt;/strong&gt; (synchronize and acknowledge) flagged packet back to the client. The client sends an &lt;strong&gt;ACK&lt;/strong&gt; (acknowledge) flagged packet back to the server.&lt;/p&gt;
-
-&lt;p&gt;There are two methods to disconnect a TCP session once a communication session is complete. The most common one is to use a &lt;strong&gt;FIN&lt;/strong&gt; (finish) flagged packet which both sides of the communication have to send once all data is transmitted. The other side has to reply with an &lt;strong&gt;ACK&lt;/strong&gt; flagged packet. It takes 4 packets to gracefully shut down a TCP session.&lt;/p&gt;
-
-&lt;p&gt;The alternative disconnect method is to send a &lt;strong&gt;RST&lt;/strong&gt; (reset) flagged packet, this causes an abrupt and immediate termination of the session.&lt;/p&gt;
-
-&lt;p&gt;UDP, the other player in the transport layer, is a connectionless best-effort protocol and offers no error detection and correction. It also doesn’t require a pre-established session and is therefore considered unreliable. With its low overhead, it can transmit data quickly but should only be used for non-essential data delivery.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_01.jpg&quot; alt=&quot;a city by night&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Internet&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The Internet Protocol or IP operates on the Network layer of the &lt;a href=&quot;/2020/osi-model/&quot;&gt;OSI Model&lt;/a&gt;. IP provides route addressing for data packets and it is this route addressing that makes TCP/IP the foundation of global internet communications because it provides a way to identify and prescribe transmission paths.&lt;/p&gt;
-
-&lt;p&gt;The Internet Protocol is connectionless and acts as an unreliable datagram service. It doesn’t guarantee that packets are delivered in the right order or tht they are delivered at all. Only when TCP and IP work together a reliable and controlled communication session is established.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/IPv4&quot;&gt;IPv4&lt;/a&gt; is the most widely used version of the Internet Protocol. A new version known as &lt;a href=&quot;https://en.wikipedia.org/wiki/IPv6_address&quot;&gt;IPv6&lt;/a&gt; is being adopted for private and public network use and offers new features and new challenges for Administrators and Security Engineers.&lt;/p&gt;
-
-&lt;p&gt;ICMP or Internet Control Message Protocol is also working on the Internet layer and provides a way to determine the health of a network or a specific link. Commands like ping, traceroute and other network management tools utilize ICMP to send echo packets to remote hosts. With ICMP it is possible to determine whether a remote system is online, how fast it responds and if intermediary systems support the communication.&lt;/p&gt;
-
-&lt;p&gt;Many attacks exploited the features of ICMP in forms of denial-of-service (DoS) attacks like &lt;a href=&quot;https://en.wikipedia.org/wiki/Ping_flood&quot;&gt;ping floods&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Smurf_attack&quot;&gt;smurf attacks&lt;/a&gt;. This has affected the way how networks handle ICMP today, resulting in many limiting the use of ICMP or the throughput rate of this protocol.&lt;/p&gt;
-
-&lt;p&gt;The Internet Group Management Protocol or IGMP allows systems to support multicasting in an IPv4 network. Multicast management on IPv6 networks is handled by Multicast Listener Discovery (MLD). Both protocols support the transmission of data to multiple specific recipients.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Link&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The link layer defines the networking methods within the scope of the local network link on which hosts communicate. This layer includes the protocols used to describe the local network topology and the interfaces needed for the transmission of Internet layer datagrams to next-neighbor hosts.&lt;/p&gt;
-
-&lt;p&gt;ARP or Address Resolution Protocol is enabling the interoperability of logical and physical addressing of interfaces. It resolves IP addresses into Medica Access Control (MAC) addresses.&lt;/p&gt;
-
-&lt;p&gt;Traffic on a network is directed from its source to its destination using MAC addresses. ARP uses broadcasting and caching to perform the intended purpose. If the cache doesn’t contain the necessary information, an ARP request is broadcasted into the network.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;TCP/IP follows principles that helped the model to adapt to new requirements and stay meaningful. Robustness, Adaptability and Continuous Evolution are core values mentioned in the defining RFCs of the Internet Protocol Suite.&lt;/p&gt;
-
-&lt;p&gt;But TCP/IP vulnerabilities are numerous and range from improperly implemented stacks in operating systems to buffer overflows, denial-of-service or spoofing attacks. It is also subject to passive attacks via monitoring traffic patterns or sniffing the content of communication by man-in-the-middle attacks. Deep knowledge of TCP/IP is a must for any security professional to mitigate the risk of attacks.&lt;/p&gt;
-
-&lt;p&gt;The Internet Protocol Suite is the underlying fabric of the internet and I could only provide a quick overview in this posting. Understanding the basics of networking should be in the interests of any Internet user.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/tcp-ip-model/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/tcp-ip-model/</guid>
-        
-        <category>security</category>
-        
-        <category>technology</category>
         
         
       </item>
