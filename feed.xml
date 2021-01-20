@@ -5,9 +5,85 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Dec 2020 15:54:14 +0000</pubDate>
-    <lastBuildDate>Tue, 22 Dec 2020 15:54:14 +0000</lastBuildDate>
+    <pubDate>Wed, 20 Jan 2021 12:32:58 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Jan 2021 12:32:58 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Secure Development - Programming Languages</title>
+        <description>&lt;h5 id=&quot;software-and-system-development-is-a-complex-and-demanding-activity-undertaken-by-people-with-different-skill-levels-and-varying-security-awareness&quot;&gt;Software and System development is a complex and demanding activity undertaken by people with different skill levels and varying security awareness.&lt;/h5&gt;
+
+&lt;h5 id=&quot;this-can-present-a-serious-risk-to-organizations---security-teams-must-understand-these-risks-balance-them-with-business-requirements-and-enforce-appropriate-mitigation-mechanisms&quot;&gt;This can present a serious risk to organizations - security teams must understand these risks, balance them with business requirements and enforce appropriate mitigation mechanisms.&lt;/h5&gt;
+
+&lt;p&gt;An in-house development team supports unique objectives in many organizations, tailored software is a competitive advantage and can ultimately decide on the success of a business.&lt;/p&gt;
+
+&lt;p&gt;Careless or even malicious development on the other hand can introduce vulnerabilities and backdoors to such software and leave the organization open to exploitation by &lt;a href=&quot;/2020/threat-landscape/&quot;&gt;malicious actors&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It’s, therefore, crucial to introduce controls and a structured process to the entire development process to protect against vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;This blog is the first in a series about security in software and system development.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;picture of an old control pannel&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;programming-languages&quot;&gt;Programming Languages&lt;/h3&gt;
+
+&lt;p&gt;Software Developers use programming languages to develop software. This chapter takes a look at the different types of languages and the security implications.&lt;/p&gt;
+
+&lt;p&gt;The instructions that a computer processes are a long series of binary digits in a language known as &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Machine_code&quot;&gt;machine code&lt;/a&gt;&lt;/em&gt;. It’s a language of 0s and 1s and no human can understand anything but the simplest instructions without the assistance of specialized software.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Assembly_language&quot;&gt;Assembler&lt;/a&gt;&lt;/em&gt; is a higher-level language to represent the machine code. It’s still a complex and obscure way of programming and requires specific knowledge about the hardware it will interact with.&lt;/p&gt;
+
+&lt;p&gt;While there are some &lt;a href=&quot;https://en.wikipedia.org/wiki/Assembly_language#Current_usage&quot;&gt;situations&lt;/a&gt; in which developers might choose to use assembly language, the preference is to use &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/High-level_programming_language&quot;&gt;high-level languages&lt;/a&gt;&lt;/em&gt;, such as Java, Ruby, Python, R, and C++.&lt;/p&gt;
+
+&lt;p&gt;These languages are feature-rich and provide standards for common tasks, permit debugging, and maintain architectural agnosticism.&lt;/p&gt;
+
+&lt;h3 id=&quot;compiled-vs-interpreted&quot;&gt;Compiled vs. Interpreted&lt;/h3&gt;
+
+&lt;p&gt;When using a &lt;em&gt;compiled language&lt;/em&gt; like C or Java, a tool known as a compiler converts the higher-level language into an executable file that is distributed and designed to be used on a specific operating system. It is not possible to directly view or modify the software instructions in such a compiled executable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The term reverse engineering describes the act of using a decompiler to reconstruct the source code from an executable. This is useful for malware analysis or intelligence gathering, where access to the original source code is not available.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Languages like Python, R, and JavaScript are &lt;em&gt;interpreted languages&lt;/em&gt;. Developers distribute these programs by sharing the source code with all instructions. End-users use an interpreter to execute the source code on their system.&lt;/p&gt;
+
+&lt;p&gt;Compiled and interpreted languages both have advantages and disadvantages from a security perspective. Compiled code is less likely to be manipulated by a third party, but security flaws or backdoors in the source code are harder to detect since the original instructions can’t be accessed by the end-user.&lt;/p&gt;
+
+&lt;p&gt;Interpreted code on the other hand is very transparent because the end-user can read the code before executing it in an interpreter. The disadvantage is that everyone who touches the software can introduce malicious instructions.&lt;/p&gt;
+
+&lt;h3 id=&quot;object-oriented-programming&quot;&gt;Object-Oriented Programming&lt;/h3&gt;
+
+&lt;p&gt;OOP is a standard based on the concept of “objects” and focuses on the interaction of such objects rather than on a series of steps as seen in &lt;a href=&quot;https://en.wikipedia.org/wiki/Functional_programming&quot;&gt;functional programming&lt;/a&gt;. Many modern programming languages (such as Java, Python, etc.) are multi-paradigm and support OOP.&lt;/p&gt;
+
+&lt;p&gt;Object-Oriented programming is generally speaking more reliable and reduces the propagation of errors in a system. From a security perspective, OOP is a black-box abstraction because users don’t need to know the inner working of an object but rather the details and abilities of the interface to an object.&lt;/p&gt;
+
+&lt;p&gt;The desired characteristic in OOP is the self-containment of an object or in other works the encapsulation. Below are some core concepts of object-oriented programming.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Message&lt;/strong&gt; is commonly used in OOP to describe the input of an object.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Method&lt;/strong&gt; this is the name for the instructions (or code) of an object. It specifies the actions in response to a message.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Class&lt;/strong&gt; is a collection of methods and acts as a template for the creation of objects.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Delegation&lt;/strong&gt; describes the forwarding of a request an object receives to another object. Objects delegate if they don’t have a method to handle certain requests.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Polymorphism&lt;/strong&gt; is the characteristic of an object to respond differently to the same message because of changes in external parameters. This can be static polymorphism during compile time or dynamic polymorphism during runtime (JVM).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cohesion&lt;/strong&gt; is the degree of focus of a method (or class). Low cohesion means an unfocused variety of actions and low specialization.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coupling&lt;/strong&gt; describes the level of interaction between objects. High coupling of objects means low independence.&lt;/p&gt;
+
+&lt;p&gt;High cohesion and loose coupling is an important principle in software engineering. It results in strong focus and high independence and is desired for objects (and development teams).&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2021/secure-development/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2021/secure-development/</guid>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Tor - 25 Years of Anonymization</title>
@@ -696,145 +772,6 @@
         <category>privacy</category>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>GDPR - The Minimum</title>
-        <description>&lt;h6 id=&quot;entrepreneurs-are-busy-people-having-to-distribute-their-precious-time-between-technical-implementation-marketing-and-monetization-data-privacy-is-not-very-high-on-the-list-of-things-that-need-to-get-done-but-the-gdpr-knows-no-mercy-or-the-concept-of-a-test-or-beta-phase&quot;&gt;Entrepreneurs are busy people having to distribute their precious time between technical implementation, marketing, and monetization. Data privacy is not very high on the list of things that need to get done, but the GDPR knows no mercy or the concept of a test or beta phase.&lt;/h6&gt;
-
-&lt;h6 id=&quot;as-soon-as-the-data-of-real-people-is-processed-the-rules-of-gdpr-apply-looking-into-data-privacy-in-the-early-stages-of-a-venture-prevents-bad-decisions-and-can-ultimately-shape-a-more-sustainable-business-plan&quot;&gt;As soon as the data of real people is processed, the rules of GDPR apply. Looking into data privacy in the early stages of a venture prevents bad decisions and can ultimately shape a more sustainable business plan.&lt;/h6&gt;
-
-&lt;p&gt;In this guide, I want to provide basic requirements and actions for young businesses to avoid privacy debt. Ignoring GDPR responsibilities can result in fines, invalidate the business case, leave organizations open to legal action, and negatively affect the credibility of the startup.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-this-is-important&quot;&gt;Why this is important&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/General_Data_Protection_Regulation&quot;&gt;GDPR&lt;/a&gt; became enforceable on 25 May of 2018 and is a regulation for all member states of the EU. It affects all organizations that collect data from EU residents and has become a model for many national laws outside of the EU.&lt;/p&gt;
-
-&lt;p&gt;Violators of the GDPR may be fined up to €20 million or up to 4% of the annual turnover of the business. Solid investors will check if the paperwork of a startup includes the necessary documents regarding data privacy.&lt;/p&gt;
-
-&lt;p&gt;GDPR compliance is an advantage, adding value to the business and giving customers the security that their rights are taken seriously.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/gdpr.png&quot; alt=&quot;gdpr is here to stay&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;lawyer-up&quot;&gt;Lawyer up&lt;/h3&gt;
-
-&lt;p&gt;The GDPR was written by lawyers and is filled with legal terms. To understand it requires to decipher the language and terms. Here are some basic explanations for common wording in the data privacy regulation law.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data Subjects&lt;/strong&gt; are individuals. The natural person whose data is being processed. This can be a customer or an employee.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data Controller&lt;/strong&gt; describes the entity that “determines the purpose, condition, and means” of the processing of personal data. This is the entrepreneurs’ startup or a small company.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data Processor&lt;/strong&gt; is the entity that processes data on behalf of the Data Controller. Sometimes companies are the Controller and Processor at the same time, but the Processor role can also be outsourced to a third party.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Personal Data&lt;/strong&gt; is any information relating to an identified or identifiable natural person. Examples are email addresses, names, birth dates, financial data.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sensitive Personal Data&lt;/strong&gt; is a set of “special categories” that must be treated with extra caution. This category includes racial or ethnic origin, political opinions, religious beliefs, health data, and more.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/personnel_2.jpg&quot; alt=&quot;welcome&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;data-privacy-mindset&quot;&gt;Data Privacy Mindset&lt;/h3&gt;
-
-&lt;p&gt;With the right approach, and by following a few rules, it is possible for small businesses to implement a robust strategy for data privacy. Collecting data of users is a responsibility that startups and entrepreneurs need to prioritize. The following points are by no means a GDRP compliance guide but a good foundation to build on top.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data classification&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;An excellent way to start the process is by performing &lt;a href=&quot;/2019/data-classification/&quot;&gt;data classification&lt;/a&gt;. This must involve the data directly requested from users (e.g. name, email address, day of birth, password) and also data that is collected during the use of a service (e.g. log files, browser information, IP address). Documenting the categories of all data collected is the base for the next steps.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data flow&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The flow of data provides the ability to implement appropriate protective measures. Those can be technical, organizational, or contractual. Documentation of where data is stored and which services are involved is essential. Data classification and data flow documentation underline the purpose of data processing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Third-party screening&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You can’t outsource risk nor responsibility. Startups need to choose third-party services not only by features but also with regards to their data privacy policy. A list of all service providers of a company has to be compiled, and the data and data categories shared with them have to be documented. The data flow diagram reveals what data is shared with which provider.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Transparency and consent&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Personal data can only be processed and stored with the consent of the user. The purpose of the data collection has to be made clear to the user, and any change to it requires new consent. Being transparent about data processing is a significant goal of the GDPR. Creating a transparent message of how customer data will be used builds company integrity and emphasizes the commitment to GDPR compliance.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Point of Contact&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Customers have the right to request information about their data usage (data subject access requests) and can also request the erasure of their data. Every data processor needs to provide, therefore, a point of contact. Please keep in mind to properly authenticate a person before handing out information.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-newsletter-example&quot;&gt;The Newsletter Example&lt;/h3&gt;
-
-&lt;p&gt;Our example startup develops a mobile application and has a promotional website where interested people can signup for a newsletter.&lt;/p&gt;
-
-&lt;p&gt;Operating a website and a newsletter are potent tools to build and maintain relationships with customers. But it requires a comprehensive &lt;strong&gt;privacy policy&lt;/strong&gt; and &lt;strong&gt;user consent&lt;/strong&gt; as personal data is being collected. The involvement of any &lt;strong&gt;third-party&lt;/strong&gt; has to be disclosed to the customer as well.&lt;/p&gt;
-
-&lt;p&gt;Let’s recap. The collection and processing of data from EU residents require the following disclosure of information:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;What data is processed? Just the email address, or is the startup collecting more information like IP address, country, and gender?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the purpose of the collection? In our case, this is market analysis, sending out newsletters and maybe selecting early adopters for the application. It’s essential to be specific about the purpose, and changes to the purpose require additional consent.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The involvement of third parties has to be disclosed to the user. Which other companies receive the email address? Where is the data stored and processed?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How can the user contact the data processor and request the erasure of the data? Keep in mind that this includes the deletion of the data from third-parties.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;applied-data-privacy-for-the-newsletter&quot;&gt;Applied Data Privacy for the Newsletter&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Draft a comprehensive yet simple Privacy Policy and make it accessible to your users. With the collection of the above information, it will be easy to meet the obligations.&lt;/p&gt;
-
-&lt;p&gt;The following information has to be included:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;What personal information you collect&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What you use it for&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Whether you use third-party service&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The controls users have and how they can get into contact&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Consent&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The privacy policy is a passive document that gives information to the interested user, consent, on the other hand, is an explicit affirmative action that signifies agreement to the processing of personal data.&lt;/p&gt;
-
-&lt;p&gt;Implied consent is no longer an option. Consent under GDPR has to be expressed - to ask for consent; the user has to understand the question and implication and then make a genuine choice.&lt;/p&gt;
-
-&lt;p&gt;Here is an appropriate example of newsletter signup. The user is made aware of the purpose, and a link to the privacy policy is provided.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/consent.png&quot; alt=&quot;good consent&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The following example is non-compliant with GDPR. It implies consent to the processing activities, and the user is not made aware of what the signup means, what the data is used for or how to get more information.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/consent2.png&quot; alt=&quot;bad consent&quot; style=&quot;float: center; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The rights and freedoms of the user are violated by providing a non-transparent signup.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;With a good foundation, it is possible to gradually mature the data privacy processes and supporting documents.&lt;/p&gt;
-
-&lt;p&gt;Writing a &lt;a href=&quot;https://gdpr-info.eu/art-30-gdpr/&quot;&gt;Record of processing activities&lt;/a&gt;, performing a &lt;a href=&quot;https://gdpr-info.eu/art-35-gdpr/&quot;&gt;Data protection impact assessment&lt;/a&gt;, or &lt;a href=&quot;https://gdpr-info.eu/art-36-gdpr&quot;&gt;consulting with the authorities&lt;/a&gt; are the next steps a company needs to take in accordance with GDPR.&lt;/p&gt;
-
-&lt;p&gt;Data privacy is never done but instead a continuous process and has to be part of the DNA of any successful company.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/gdpr-minimum/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/gdpr-minimum/</guid>
-        
-        <category>technology</category>
-        
-        <category>privacy</category>
         
         
       </item>
