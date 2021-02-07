@@ -5,15 +5,133 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jan 2021 12:32:58 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2021 12:32:58 +0000</lastBuildDate>
+    <pubDate>Sun, 07 Feb 2021 18:17:29 +0000</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2021 18:17:29 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Secure Development - Basic Principles</title>
+        <description>&lt;h5 id=&quot;in-the-first-part-of-this-series-we-have-been-taking-a-look-at-several-types-of-languages-and-the-resulting-security-implications&quot;&gt;In the first part of this series, we have been taking a look at several types of languages and the resulting security implications.&lt;/h5&gt;
+
+&lt;h5 id=&quot;this-time-we-focus-on-the-baseline-for-secure-development-we-will-cover-the-most-basic-principles-that-apply-independently-of-the-creation-of-a-more-specific-application&quot;&gt;This time, we focus on the baseline for secure development. We will cover the most basic principles that apply independently of the creation of a more specific application.&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Secure software is the result of a security-aware software development process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/risk_1.jpg&quot; alt=&quot;picture of a mountaineer&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;failure-management&quot;&gt;Failure Management&lt;/h3&gt;
+
+&lt;p&gt;Applications will fail at some point in time, no matter how cutting-edge and security-aware programmers, project managers, and product designers are.&lt;/p&gt;
+
+&lt;p&gt;A sense of how to handle failures is essential to stay in control of unpredictable situations for an application or system.&lt;/p&gt;
+
+&lt;p&gt;There are two general practices when planning for failure:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;strong&gt;fail-open state&lt;/strong&gt; allows a system to continue operations when failure conditions occur. This approach should only be taken in limited circumstances. It might be appropriate on the lower-layers of multilayered security concepts. A good example is an electronic locking door that unlocks in case of failure to ensure the exit in the event of a natural disaster.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;strong&gt;fail-closed state&lt;/strong&gt; puts a system into a high level of security or even shuts down a failing system. This strategy should be the default where there are security concerns. An example is when a forgotten password results in the denied entry to an account and multiple wrong password entries result in the lock of the account.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;authentication-and-session-management&quot;&gt;Authentication and Session Management&lt;/h3&gt;
+
+&lt;p&gt;Many applications require that users authenticate before accessing sensitive information or modify the data in an application. One of the most basic security tasks developers are facing is to ensure that those users are properly authenticated, that they perform only authorized activities, and that their sessions are securely tracked.&lt;/p&gt;
+
+&lt;p&gt;It is generally more secure to use an existing and hardened authentication system than to try to develop a system for a specific application.&lt;/p&gt;
+
+&lt;p&gt;Similarly, programmers should be encouraged to use established methods for session management. This includes the usage of encrypted channels and that identifiers used in sessions are long and randomly generated. Session tokens have to expire after a specific time and require reauthentication.&lt;/p&gt;
+
+&lt;h3 id=&quot;input-validation&quot;&gt;Input Validation&lt;/h3&gt;
+
+&lt;p&gt;Many applications receive data from potentially untrusted sources. This includes user input on internet-facing web applications or API communication with suppliers, partners, or other applications in the backend.&lt;/p&gt;
+
+&lt;p&gt;Developers often expect these values to fall within certain parameters. For example, if the programmer asks the user to enter a telephone number, the program may expect to see a chain of integer values. If the user enters a value outside the range or character set, a poorly written program may crash or even allow the user to gain control of the underlying system.&lt;/p&gt;
+
+&lt;p&gt;Input validation verifies that the values match the programmer’s expectation before allowing further processing.&lt;/p&gt;
+
+&lt;p&gt;Input escaping describes a check for unusual characters, such as quotation marks within a text field, which may indicate an attack. Escaping can be performed with a blacklisting or better whitelisting approach.&lt;/p&gt;
+
+&lt;p&gt;All input validation efforts should be performed on the server-side of a transaction and as early as possible in the processing of a request.&lt;/p&gt;
+
+&lt;h3 id=&quot;error-handling&quot;&gt;Error Handling&lt;/h3&gt;
+
+&lt;p&gt;Detailed error messages with in-depth information are crucial to debugging code and make it easier for developers to diagnose a problem.&lt;/p&gt;
+
+&lt;p&gt;However, those errors are exposing potentially sensitive information to attackers, including the address of internal servers, database schemas, and other data that may be useful in preparing an attack.&lt;/p&gt;
+
+&lt;p&gt;Therefore, developers have to disable detailed error messages on any publicly available application.&lt;/p&gt;
+
+&lt;h3 id=&quot;logging&quot;&gt;Logging&lt;/h3&gt;
+
+&lt;p&gt;While user-facing error messages may present a security threat, the information that those messages contain is quite useful. Not only to developers but also to security analysts.&lt;/p&gt;
+
+&lt;p&gt;Therefore, applications should be sending detailed logging messages to a centralized log repository.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf&quot;&gt;OWASP Secure Coding Guidelines&lt;/a&gt; suggest logging the following events.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Input validation failures&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Authentication events, especially failures&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Access control failures&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Apparent tampering events&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Attempts to connect with invalid or expired session tokens&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Exceptions by systems and applications&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use of administrative privileges&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;TLS connections failures&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cryptographic errors&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;The above topics are the most basic principles to guide stakeholders in creating secure software.&lt;/p&gt;
+
+&lt;p&gt;In the next article, we’ll take a look at several specific activities of a development process and how security can be applied in each of these.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2021/secure-development-baseline/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2021/secure-development-baseline/</guid>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Secure Development - Programming Languages</title>
         <description>&lt;h5 id=&quot;software-and-system-development-is-a-complex-and-demanding-activity-undertaken-by-people-with-different-skill-levels-and-varying-security-awareness&quot;&gt;Software and System development is a complex and demanding activity undertaken by people with different skill levels and varying security awareness.&lt;/h5&gt;
 
 &lt;h5 id=&quot;this-can-present-a-serious-risk-to-organizations---security-teams-must-understand-these-risks-balance-them-with-business-requirements-and-enforce-appropriate-mitigation-mechanisms&quot;&gt;This can present a serious risk to organizations - security teams must understand these risks, balance them with business requirements and enforce appropriate mitigation mechanisms.&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;An in-house development team supports unique objectives in many organizations, tailored software is a competitive advantage and can ultimately decide on the success of a business.&lt;/p&gt;
 
@@ -41,7 +159,7 @@
 
 &lt;p&gt;When using a &lt;em&gt;compiled language&lt;/em&gt; like C or Java, a tool known as a compiler converts the higher-level language into an executable file that is distributed and designed to be used on a specific operating system. It is not possible to directly view or modify the software instructions in such a compiled executable.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;The term reverse engineering describes the act of using a decompiler to reconstruct the source code from an executable. This is useful for malware analysis or intelligence gathering, where access to the original source code is not available.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reconstructing the source code from an executable with a decompiler is described with the term reverse engineering. This is useful for malware analysis or intelligence gathering, where access to the original source code is not available.&lt;/p&gt;
 
 &lt;p&gt;Languages like Python, R, and JavaScript are &lt;em&gt;interpreted languages&lt;/em&gt;. Developers distribute these programs by sharing the source code with all instructions. End-users use an interpreter to execute the source code on their system.&lt;/p&gt;
 
@@ -695,81 +813,6 @@
         <guid isPermaLink="true">https://inversegravity.net/2020/threat-landscape/</guid>
         
         <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>System Architecture - Shift To The Client</title>
-        <description>&lt;h6 id=&quot;the-network-dependency-of-an-terminal-user-of-the-70s-is-surprisingly-familiar-to-a-mobile-phone-user-in-the-2020s-without-a-connection-to-the-network-and-the-centralized-server-infrastructure-the-applications-are-not-working&quot;&gt;The network dependency of an terminal user of the 70s is surprisingly familiar to a mobile phone user in the 2020s. Without a connection to the network and the centralized server infrastructure, the applications are not working.&lt;/h6&gt;
-
-&lt;h6 id=&quot;having-its-roots-in-the-thin-clients-of-mainframe-multi-user-systems-the-server-centric-approach-was-challenged-by-the-emergence-of-powerful-personal-computers-in-the-80s-only-to-become-the-de-facto-standard-once-again-with-the-smartphone-revolution&quot;&gt;Having its roots in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Thin_client&quot;&gt;thin clients&lt;/a&gt; of mainframe multi-user systems, the server-centric approach was challenged by the emergence of powerful personal computers in the 80s, only to become the de facto standard once again with the smartphone revolution.&lt;/h6&gt;
-
-&lt;p&gt;With the recent advances in privacy laws and regulations, we might see another shift to the client as the place of data processing.&lt;/p&gt;
-
-&lt;h3 id=&quot;client-server-architecture&quot;&gt;Client Server Architecture&lt;/h3&gt;
-
-&lt;p&gt;The client-server model has two roles: the service user (client) and the service provider (server). The client requests and the server provides.&lt;/p&gt;
-
-&lt;p&gt;During the design process of a client-server application, it is decided which parts of the task should be executed on the client, and which on the server. This decision can affect the robustness and security of the application as a whole. This will also have an effect on the cost of future modifications.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;mobile-applications&quot;&gt;Mobile Applications&lt;/h3&gt;
-
-&lt;p&gt;Early smartphones had limited storage capacity and processing power. Hence mobile application development focused heavily on degrading the smartphone to a pure front-end experience while scalable backend systems provided computational power and storage.&lt;/p&gt;
-
-&lt;p&gt;Business interests like analyzing usage patterns or digital rights management further pushed the server-centric agenda of mobile application architecture. End-users received device independence and cloud storage in return for giving up data to organizations.&lt;/p&gt;
-
-&lt;p&gt;Today companies implement server-centric architecture without a second thought and mobile application development is mostly reduced to work on fancy UX design and backend API integrations.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/smartphone.jpg&quot; alt=&quot;control room&quot; style=&quot;float: left; margin: 10px 0px 10px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It might be time to re-think this approach since privacy laws emphasize user rights over company interests.&lt;/p&gt;
-
-&lt;p&gt;But enough of the theory and let’s look at a mobile application in the default server-centric setup, the privacy law implications and how it could be transformed.&lt;/p&gt;
-
-&lt;h3 id=&quot;symptom-checker-10&quot;&gt;Symptom Checker 1.0&lt;/h3&gt;
-
-&lt;p&gt;A symptom checker is the attempt to replace a doctor visit with an algorithm supported self-diagnosis. After providing some base information like the age and answering a couple of questions, the diagnosis is made. I will not go into the reliability of this kind of diagnosis but rather focus on the technical implementation.&lt;/p&gt;
-
-&lt;p&gt;The average symptom checker takes user input and sends it to a backend server where the data is processed in clear text and the results are stored. This means that the correlation between medical and personal data is possible for anyone with access (intended or not) to those systems.&lt;/p&gt;
-
-&lt;p&gt;The data cluster of a symptom checker is considered sensitive personal data and is located in the &lt;a href=&quot;https://gdpr-info.eu/art-9-gdpr/&quot;&gt;highest data protection category&lt;/a&gt;. Appropriate technical and organizational measures have to be implemented to satisfy privacy laws like GDPR. This will be challenging for small to medium-sized organizations, especially when utilizing cloud computing.&lt;/p&gt;
-
-&lt;h3 id=&quot;shift-to-the-client&quot;&gt;Shift To The Client&lt;/h3&gt;
-
-&lt;p&gt;Handheld devices are also rapidly catching up to desktop computers in terms of computing power and memory. While the performance gap will never be completely closed, the additional abilities of smartphones open up the possibility for more flexibility in system design.&lt;/p&gt;
-
-&lt;p&gt;So the question is how a different approach could look like and where to make the trade-offs? For an understanding of the future, I suggest looking to the past.&lt;/p&gt;
-
-&lt;p&gt;In the 80s the PC revolution set the trend from server-centric to client-centric. The mainframe was forecasted to be replaced by personal computers with locally installed business logic. The only thing a centralized server was required for was the sharing of files and as a backup solution.&lt;/p&gt;
-
-&lt;h3 id=&quot;symptom-checker-20&quot;&gt;Symptom Checker 2.0&lt;/h3&gt;
-
-&lt;p&gt;The algorithm behind a symptom checker is reflected in a &lt;a href=&quot;https://en.wikipedia.org/wiki/Decision_tree&quot;&gt;decision tree&lt;/a&gt; since it only contains conditional control statements. It is therefore small in size and could easily be executed on a smartphone.&lt;/p&gt;
-
-&lt;p&gt;By creating an application framework for different downloadable decision trees it is possible to run the logic entirely on the client and reduce the server involvement of a symptom checker app to that of a simple file service.&lt;/p&gt;
-
-&lt;p&gt;No critical data would be centralized processed or stored. The user will stay in control and can make a conscious decision about donating data to improve the app or share the results with others.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Let’s be honest, most users don’t care or know whether the application they are using runs locally or remotely.&lt;/p&gt;
-
-&lt;p&gt;It’s the responsibility of architects and engineers to make good decisions. Privacy laws force us to think about the data criticality and consider alternative approaches to the well-known default of server-centric applications.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;UPDATE - May 2020: After successful protests of data protection advocates, the German government announced plans for a decentralized COVID-19 application. The contact tracing data will be store on the mobile devices of the users.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/privacy-client-shift/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/privacy-client-shift/</guid>
-        
-        <category>technology</category>
-        
-        <category>privacy</category>
         
         <category>security</category>
         
