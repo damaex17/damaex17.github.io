@@ -5,8 +5,8 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Feb 2021 09:14:49 +0000</pubDate>
-    <lastBuildDate>Mon, 15 Feb 2021 09:14:49 +0000</lastBuildDate>
+    <pubDate>Mon, 15 Feb 2021 20:40:28 +0000</pubDate>
+    <lastBuildDate>Mon, 15 Feb 2021 20:40:28 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -17,15 +17,15 @@
 
 &lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Established engineering disciplines (such as electrical or mechanical), often complain that software engineering is not an engineering discipline at all.&lt;/p&gt;
+&lt;p&gt;Established engineering disciplines (such as electrical or mechanical) often complain that software engineering is not an engineering discipline at all.&lt;/p&gt;
 
-&lt;p&gt;They contend that software engineering is a simple combination of chaotic processes that sometimes manage to create a workable solution. It might not be fair to compare age-old disciplines to those of an industry that’s only a few decades old.&lt;/p&gt;
+&lt;p&gt;They contend that software engineering is a combination of chaotic processes that sometimes manages to create a workable solution. It might not be fair to compare age-old disciplines to those of an industry that’s only a few decades old.&lt;/p&gt;
 
-&lt;p&gt;The adoption of formalized lifecycle management processes in software development can help to mature the application engineering discipline. Nowadays, stakeholders often employ project management to keep development projects on target towards the goal of a refined product. The project management is organized around lifecycle models or frameworks to direct this process.&lt;/p&gt;
+&lt;p&gt;However, the adoption of formalized lifecycle management processes in software development can help to mature the application engineering discipline. Stakeholders often employ project management to implement those lifecycle models and keep development projects on target towards a refined product.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/wfh.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Development frameworks have several activities in common. The names are not necessarily shared but the following core activities are essential to the sound development of secure systems:&lt;/p&gt;
+&lt;p&gt;Development frameworks have several activities in common. The names are not necessarily consistent in each model, but the following core activities are essential to the sound development of secure systems:&lt;/p&gt;
 
 &lt;h3 id=&quot;conceptual-definition&quot;&gt;Conceptual Definition&lt;/h3&gt;
 
@@ -49,7 +49,7 @@
 
 &lt;p&gt;Organizations with security in mind ensure that adequate security controls are designed into every system. It’s therefore useful to have the definition of such control specifications in the product development lifecycle.&lt;/p&gt;
 
-&lt;p&gt;With the conceptual definition and the functional requirements, the security engineers can analyze the system from a security perspectives.&lt;/p&gt;
+&lt;p&gt;With the conceptual definition and the functional requirements, the security engineers can analyze the system from a security perspective.&lt;/p&gt;
 
 &lt;p&gt;Threat modeling on the public entry points and the trust boundaries is a great practice to surface the risks to the system. The product team can then mitigate those threats by implementing appropriate measures.&lt;/p&gt;
 
@@ -79,7 +79,7 @@
 
 &lt;h3 id=&quot;maintenance-and-change-management&quot;&gt;Maintenance and Change Management&lt;/h3&gt;
 
-&lt;p&gt;With the system being operational, a range of maintenance tasks is required to ensure stable operation in the face of real user traffic. At this point, the operations team will ensure the observability and reliability of the application and support the developers in opcltimizing the product.&lt;/p&gt;
+&lt;p&gt;With the system being operational, a range of maintenance tasks is required to ensure stable operation in the face of real user traffic. At this point, the operations team will ensure the observability and reliability of the application and support the developers in optimizing the product.&lt;/p&gt;
 
 &lt;p&gt;Once in production, any changes to the code are handled by a formalized change management process to ensure availability, confidentiality, and integrity.&lt;/p&gt;
 
@@ -129,7 +129,7 @@
 
 &lt;p&gt;Management models in application development support the software industry to mature and close the gap with established engineering disciplines. It’s important to constantly verify the adequacy of a framework to prevent failure in meeting business requirements.&lt;/p&gt;
 
-&lt;p&gt;The involvement of security experts into the development work at certain phases of the lifecycle will support the creation of a product that has security embedded.&lt;/p&gt;
+&lt;p&gt;The involvement of security experts during the phases of the lifecycle will support the creation of a product that has security embedded.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2021/secure-development-lifecycle/</link>
