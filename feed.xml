@@ -5,9 +5,144 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Feb 2021 18:31:17 +0000</pubDate>
-    <lastBuildDate>Sun, 07 Feb 2021 18:31:17 +0000</lastBuildDate>
+    <pubDate>Mon, 15 Feb 2021 08:39:17 +0000</pubDate>
+    <lastBuildDate>Mon, 15 Feb 2021 08:39:17 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Secure Development - Lifecycle Models</title>
+        <description>&lt;h5 id=&quot;in-this-article-we-cover-the-lifecycle-models-used-by-project-management-to-direct-the-development-process&quot;&gt;In this article, we cover the lifecycle models used by project management to direct the development process.&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Established engineering disciplines (such as electrical or mechanical), often complain that software engineering is not an engineering discipline at all.&lt;/p&gt;
+
+&lt;p&gt;They contend that software engineering is a simple combination of chaotic processes that sometimes manage to create a workable solution. It might not be fair to compare age-old disciplines to those of an industry that’s only a few decades old.&lt;/p&gt;
+
+&lt;p&gt;The adoption of formalized lifecycle management processes in software development can help to mature the application engineering discipline. Nowadays, stakeholders often employ project management to keep development projects on target towards the goal of a refined product. The project management is organized around lifecycle models or frameworks to direct this process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/wfh.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Development frameworks have several activities in common. The names are not necessarily shared but the following core activities are essential to the sound development of secure systems:&lt;/p&gt;
+
+&lt;h3 id=&quot;conceptual-definition&quot;&gt;Conceptual Definition&lt;/h3&gt;
+
+&lt;p&gt;This phase of development involves creating the basic concept statement for a system or application. In this very high-level contract that all interested stakeholders agree to the purpose of a project as well as the general requirements.&lt;/p&gt;
+
+&lt;p&gt;During all phases of the development process, the concept statement should be referred to in order to avoid getting lost in the details.&lt;/p&gt;
+
+&lt;h3 id=&quot;functional-requirements&quot;&gt;Functional Requirements&lt;/h3&gt;
+
+&lt;p&gt;Once all stakeholders have agreed on the concept, it’s time to start the functional requirement phase. Specific functionalities are listed and how deliverables from the development phase meet these requirements. The three major characteristics of a functional requirement are:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input&lt;/strong&gt; The data provided to a function&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Behavior&lt;/strong&gt; The business logic describing what actions the system should take in response to the input&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt; The data provided from a function&lt;/p&gt;
+
+&lt;p&gt;It’s again very important that all stakeholders agree on the functional requirements document before progressing. The document is used as a checklist to ensure all functional requirements in the testing and evaluation stages.&lt;/p&gt;
+
+&lt;h3 id=&quot;security-requirements&quot;&gt;Security Requirements&lt;/h3&gt;
+
+&lt;p&gt;Organizations with security in mind ensure that adequate security controls are designed into every system. It’s therefore useful to have the definition of such control specifications in the product development lifecycle.&lt;/p&gt;
+
+&lt;p&gt;With the conceptual definition and the functional requirements, the security engineers can analyze the system from a security perspectives.&lt;/p&gt;
+
+&lt;p&gt;Threat modeling on the public entry points and the trust boundaries is a great practice to surface the risks to the system. The product team can then mitigate those threats by implementing appropriate measures.&lt;/p&gt;
+
+&lt;p&gt;All too often, systems are designed without security planning, and then developers try to retrofit the system with security enhancements. These afterthought improvements do often not fully integrate with the system’s design and can leave gaping vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;Security requirements have to be revisited whenever a significant change is made to the design specifications.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-review&quot;&gt;Design Review&lt;/h3&gt;
+
+&lt;p&gt;With the functional and security specifications, the system designers can start doing their thing. The designers determine exactly how the various parts of the system will interoperate and how the system structure will be laid out.&lt;/p&gt;
+
+&lt;p&gt;Once the formal design document is finished, a review meeting will usually be held where all stakeholders ensure that everyone is in agrees with the desired functionality and security.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-review&quot;&gt;Code Review&lt;/h3&gt;
+
+&lt;p&gt;With the blessing of the stakeholders, the software developers can start writing code. Code reviews at various milestones throughout the coding process will ensure that flaws in the code or problems with the data flow are avoided.&lt;/p&gt;
+
+&lt;p&gt;Code reviews are an instrumental tool in ensuring that the code produced by development teams perform according to specifications.&lt;/p&gt;
+
+&lt;h3 id=&quot;acceptance-testing&quot;&gt;Acceptance Testing&lt;/h3&gt;
+
+&lt;p&gt;Once the developer puts in the final pieces of code and declares the system as complete (is a system ever complete?), it’s time to begin the acceptance testing phase.&lt;/p&gt;
+
+&lt;p&gt;Initial testing should seek for obvious errors and as the testing progresses more detailed input is provided to simulate predefined scenarios. A copy of the test plan and the results has to be kept for future review.&lt;/p&gt;
+
+&lt;p&gt;Once this phase is complete, the application can be deployed&lt;/p&gt;
+
+&lt;h3 id=&quot;maintenance-and-change-management&quot;&gt;Maintenance and Change Management&lt;/h3&gt;
+
+&lt;p&gt;With the system being operational, a range of maintenance tasks is required to ensure stable operation in the face of real user traffic. At this point, the operations team will ensure the observability and reliability of the application and support the developers in opcltimizing the product.&lt;/p&gt;
+
+&lt;p&gt;Once in production, any changes to the code are handled by a formalized change management process to ensure availability, confidentiality, and integrity.&lt;/p&gt;
+
+&lt;h3 id=&quot;lifecycle-models-in-detail&quot;&gt;Lifecycle Models in Detail&lt;/h3&gt;
+
+&lt;p&gt;In the following sections, we’ll take a look at several specific software development lifecycles. All these frameworks are meant to improve the resulting products.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Waterfall Model&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Developed in the 1970s this model seeks to view the development lifecycle as a series of sequential activities. Traditionally the framework has six stages of development.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;System Requirements &amp;amp; Software Requirements -&amp;gt; Analysis -&amp;gt; Design -&amp;gt; Code &amp;amp; Debug -&amp;gt; Testing -&amp;gt; Operations &amp;amp; Maintenance&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The modern approach of the waterfall model also allows returning to previous phases to correct defects. This framework was one of the first comprehensive attempts to structure the development process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/d/de/1970_Royce_Managing_the_Development_of_Large_Software_Systems_Fig10.PNG&quot; alt=&quot;Waterfall Summary&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spiral Model&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This alternative lifecycle model allows for multiple iterations of the waterfall process. Each loop of the spiral results in the development of a new system prototype. This metamodel provides a solution for the major criticism of the waterfall model - it allows developers to return to the planning stages as requirements change.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Spiral_model_%28Boehm%2C_1988%29.svg/1024px-Spiral_model_%28Boehm%2C_1988%29.svg.png&quot; alt=&quot;Spiral Summary&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Agile Software Development&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Agile software development has seen increasing adoption in the last years. The framework is not built on a rigid model but rather emphasizes certain principles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Individuals and interaction&lt;/strong&gt; over processes and tools&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Working software&lt;/strong&gt; over comprehensive documentation&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Customer collaboration&lt;/strong&gt; over contract negotiation&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Responding to change&lt;/strong&gt; over following a plan&lt;/p&gt;
+
+&lt;p&gt;Agile software development was initially seen as best suitable for non-critical product development and excluded from use in domains such as medical devices, financial, nuclear systems, and avionics, etc.&lt;/p&gt;
+
+&lt;p&gt;However, there have been initiatives to adopt agile to match key concerns in the following areas:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quality Assurance&lt;/strong&gt; Systematic and inherent quality management underpinning a controlled professional process and reliability and correctness of product&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Safety and security&lt;/strong&gt; Formal planning and risk management to mitigate safety risks for users and securely protecting users from unintentional and malicious misuse&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Traceability&lt;/strong&gt; Documentation providing auditable evidence of regulatory compliance and facilitating traceability and investigation of problems&lt;/p&gt;
+
+&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;Management models in application development support the software industry to mature and close the gap with established engineering disciplines. It’s important to constantly verify the adequacy of a framework to prevent failure in meeting business requirements.&lt;/p&gt;
+
+&lt;p&gt;The involvement of security experts into the development work at certain phases of the lifecycle will support the creation of a product that has security embedded.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2021/secure-development-lifecycle/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2021/secure-development-lifecycle/</guid>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        <category>devsec</category>
+        
+        
+      </item>
     
       <item>
         <title>Secure Development - Basic Principles</title>
@@ -120,6 +255,8 @@
         
         <category>security</category>
         
+        <category>devsec</category>
+        
         
       </item>
     
@@ -199,6 +336,8 @@
         <category>technology</category>
         
         <category>security</category>
+        
+        <category>devsec</category>
         
         
       </item>
@@ -706,111 +845,6 @@
         <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2020/security-culture/</link>
         <guid isPermaLink="true">https://inversegravity.net/2020/security-culture/</guid>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Security Awareness - Threat Landscape</title>
-        <description>&lt;h5 id=&quot;information-security-awareness-focuses-on-raising-consciousness-regarding-risks-from-the-continuous-evolving-threats-to-organizations-businesses-and-individuals&quot;&gt;Information security awareness focuses on raising consciousness regarding risks from the continuous evolving threats to organizations, businesses, and individuals.&lt;/h5&gt;
-
-&lt;h5 id=&quot;attackers-evolve-their-capabilities-and-develop-more-technically-advanced-attack-methods-and-are-acting-on-more-diverse-motives&quot;&gt;Attackers evolve their capabilities and develop more technically advanced attack methods, and are acting on more diverse motives.&lt;/h5&gt;
-
-&lt;p&gt;The goals of security awareness is to raise conscious with everyone that they are vulnerable to the challenges in today’s threat landscape, change human risk behaviors, and implement a security culture.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/hacker_3.png&quot; alt=&quot;picture of ants&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In this post, we take a look at threat actors and attacks to provide an overview of the current threat landscape.&lt;/p&gt;
-
-&lt;h3 id=&quot;threat-actors&quot;&gt;Threat Actors&lt;/h3&gt;
-
-&lt;p&gt;A threat actor is a person or entity that is responsible for an event that impacts the safety or security of another entity. The term is used to describe the individuals and groups that perform malicious attacks against organizations of various types and sizes. Actors are categorized as external or internal an can be intentional or unintentional.&lt;/p&gt;
-
-&lt;p&gt;The following categories are a general overview. Threat actors are in reality more complex in their motivation and backgrounds.&lt;/p&gt;
-
-&lt;h5 id=&quot;hacktivists&quot;&gt;Hacktivists&lt;/h5&gt;
-
-&lt;p&gt;Hacktivism is mainly portrayed as the evolution of meatspace civil disobedience into cyberspace.&lt;/p&gt;
-
-&lt;p&gt;The common motivation is the fight against censorship and the support for the freedom of information but some hacktivists work for personal and or political gains.&lt;/p&gt;
-
-&lt;p&gt;Typically hacktivists see themselves as vigilantes who use hacking to enact social justice and policy change.&lt;/p&gt;
-
-&lt;h5 id=&quot;industrial-espionage&quot;&gt;Industrial Espionage&lt;/h5&gt;
-
-&lt;p&gt;Industrial espionage aims at stealing intellectual property, data, and secrets to use them for a competitive advantage.&lt;/p&gt;
-
-&lt;p&gt;Actors in this category are usually well-financed and use a mix of cyber and physical actions to achieve their goals.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/hacker_2.png&quot; alt=&quot;picture of a hacker building tool&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;organized-crime&quot;&gt;Organized Crime&lt;/h5&gt;
-
-&lt;p&gt;Criminals are motivated by making money. The digital equivalent of kidnapping or robbery offers greater scalability and much lower risks.&lt;/p&gt;
-
-&lt;p&gt;The organized crime has been quick in adapting themselves to the opportunities of making money with online activities. &lt;a href=&quot;https://en.wikipedia.org/wiki/Ransomware&quot;&gt;Ransomeware&lt;/a&gt; and cryptojacking allow criminals to hide their identity and digital currencies make the laundering of money risk free.&lt;/p&gt;
-
-&lt;h5 id=&quot;insider-threats&quot;&gt;Insider Threats&lt;/h5&gt;
-
-&lt;p&gt;The malicious intent of employees can have a devastating impact on the security posture of an organization. Valid accounts and knowledge of applied controls make it difficult to detect harmful actions or distinguish them from regular work.&lt;/p&gt;
-
-&lt;p&gt;Insider threats can be motivated by revenge, competition, money, or just by opportunity. Negligence or incompetence of employees can cause similar outcomes to the actions of a malicious actor inside the organization.&lt;/p&gt;
-
-&lt;h5 id=&quot;nation-states&quot;&gt;Nation States&lt;/h5&gt;
-
-&lt;p&gt;State-backed hackers are not exclusively focused on hacking into military systems. Nation-state attacks have been documented against critical infrastructures like financial institutes or energy providers with the intent to destabilize another country.&lt;/p&gt;
-
-&lt;p&gt;With almost unlimited financial potential these attackers use sophisticated techniques to disrupt organizations by leaking confidential information or attacking the availability of critical systems.&lt;/p&gt;
-
-&lt;h3 id=&quot;common-attacks&quot;&gt;Common Attacks&lt;/h3&gt;
-
-&lt;p&gt;The following is a list of attack methods that are a threat to organizations and individuals working in both public and private sectors.&lt;/p&gt;
-
-&lt;h5 id=&quot;distributed-denial-of-service-ddos&quot;&gt;Distributed Denial of Service (DDoS)&lt;/h5&gt;
-
-&lt;p&gt;DDoS attacks target the availability of systems. Its effectiveness is based on the coordinated usage of many computer which act in sync to attack a single endpoint. DDoS attacks try to exhaust the resources of systems by flooding them with requests. As a result, legitimate requests can no longer be answered or at least the service becomes too slow to work with.&lt;/p&gt;
-
-&lt;p&gt;The attack is executed from many different IP addresses to prevent blacklisting and therefore distributed.&lt;/p&gt;
-
-&lt;h5 id=&quot;malware&quot;&gt;Malware&lt;/h5&gt;
-
-&lt;p&gt;Malware or malicious software is intentionally developed to cause damage to a computer, clients, or network. Malware comes in various types including worms, viruses, trojan horses, ransomware, adware, backdoors, and spyware.&lt;/p&gt;
-
-&lt;p&gt;Malware targets the weaknesses of other software systems or relies on users to install them by pretending to be regular software.&lt;/p&gt;
-
-&lt;p&gt;Advanced malware will try to conceal itself by using polymorphic approaches. This means that the signature of such software will mutate over time, making it difficult to detect.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/hacker_4.png&quot; alt=&quot;picture of a video game&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;advanced-persistent-threat-apt&quot;&gt;Advanced Persistent Threat (APT)&lt;/h5&gt;
-
-&lt;p&gt;This term describes a targeted attack against an organization or business with defined goals. Operators executing the attack have a full spectrum of techniques at their disposal.&lt;/p&gt;
-
-&lt;p&gt;These include open-source or commercial computer intrusion technologies, but can also extend to a state financed intelligence and intrusion program. APTs use continuous monitoring and interaction to achieve defined objectives.&lt;/p&gt;
-
-&lt;p&gt;APT attacks are coordinated human activities, rather than the execution of automated code. The operators have a specific objective and are organized, motivated, skilled, and potentially well funded.&lt;/p&gt;
-
-&lt;h5 id=&quot;phishing&quot;&gt;Phishing&lt;/h5&gt;
-
-&lt;p&gt;This is an attempt to gather sensitive information such as email addresses and passwords by disguising oneself as a entity of trust.&lt;/p&gt;
-
-&lt;p&gt;Phishing is a social engineering technique used to deceive users. Users are lured by communications purporting to be from trusted parties such as social web sites, auction sites, banks, online payment processors or IT administrators.&lt;/p&gt;
-
-&lt;p&gt;While phishing describes a broad and automated attack, the so called spear-phishing is a customized attack on a specific employee or organization.&lt;/p&gt;
-
-&lt;h3 id=&quot;gathering-threat-intelligence&quot;&gt;Gathering Threat Intelligence&lt;/h3&gt;
-
-&lt;p&gt;Security teams need to be proactive and improve their ability to properly defend themselves against current threats to the organization.&lt;/p&gt;
-
-&lt;p&gt;Developing a detailed threat profile helps organizations with a clear illustration of the threats that they might face and supports an appropriate and tailored security program.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/threat-landscape/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/threat-landscape/</guid>
         
         <category>technology</category>
         
