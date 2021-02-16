@@ -5,8 +5,8 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Feb 2021 20:40:28 +0000</pubDate>
-    <lastBuildDate>Mon, 15 Feb 2021 20:40:28 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Feb 2021 07:17:42 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2021 07:17:42 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,7 +25,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/wfh.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Development frameworks have several activities in common. The names are not necessarily consistent in each model, but the following core activities are essential to the sound development of secure systems:&lt;/p&gt;
+&lt;p&gt;Development frameworks have several activities in common. The names are not necessarily consistent in each model, but the following core activities are essential to the sound development of a system:&lt;/p&gt;
 
 &lt;h3 id=&quot;conceptual-definition&quot;&gt;Conceptual Definition&lt;/h3&gt;
 
@@ -47,11 +47,11 @@
 
 &lt;h3 id=&quot;security-requirements&quot;&gt;Security Requirements&lt;/h3&gt;
 
-&lt;p&gt;Organizations with security in mind ensure that adequate security controls are designed into every system. It’s therefore useful to have the definition of such control specifications in the product development lifecycle.&lt;/p&gt;
+&lt;p&gt;Organizations have to ensure that adequate security controls are designed into every system. It’s therefore important to have the definition of such control specifications in the product development lifecycle.&lt;/p&gt;
 
-&lt;p&gt;With the conceptual definition and the functional requirements, the security engineers can analyze the system from a security perspective.&lt;/p&gt;
+&lt;p&gt;With the conceptual definition and the functional requirements, the security engineers can analyze the system from a their perspective.&lt;/p&gt;
 
-&lt;p&gt;Threat modeling on the public entry points and the trust boundaries is a great practice to surface the risks to the system. The product team can then mitigate those threats by implementing appropriate measures.&lt;/p&gt;
+&lt;p&gt;Threat modeling on public entry points and the trust boundaries is a great practice to surface the risks to the system. The product team can then mitigate those threats by implementing appropriate measures.&lt;/p&gt;
 
 &lt;p&gt;All too often, systems are designed without security planning, and then developers try to retrofit the system with security enhancements. These afterthought improvements do often not fully integrate with the system’s design and can leave gaping vulnerabilities.&lt;/p&gt;
 
