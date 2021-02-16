@@ -5,8 +5,8 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Feb 2021 07:24:43 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Feb 2021 07:24:43 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Feb 2021 20:39:36 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2021 20:39:36 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -19,7 +19,7 @@
 
 &lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Established engineering disciplines (such as electrical or mechanical) often complain that software engineering is not an engineering discipline at all.&lt;/p&gt;
+&lt;p&gt;Established engineering disciplines (such as electrical or mechanical) often state that software engineering is not an engineering discipline at all.&lt;/p&gt;
 
 &lt;p&gt;They contend that software engineering is a combination of chaotic processes that sometimes manages to create a workable solution. It might not be fair to compare age-old disciplines to those of an industry that’s only a few decades old.&lt;/p&gt;
 
@@ -73,7 +73,7 @@
 
 &lt;h3 id=&quot;acceptance-testing&quot;&gt;Acceptance Testing&lt;/h3&gt;
 
-&lt;p&gt;Once the developer puts in the final pieces of code and declares the system as complete (is a system ever complete?), it’s time to begin the acceptance testing phase.&lt;/p&gt;
+&lt;p&gt;Once the developer wrote the final lines of code and declares the system as complete (is a system ever complete?), it’s time to begin the acceptance testing phase.&lt;/p&gt;
 
 &lt;p&gt;Initial testing should seek for obvious errors and as the testing progresses more detailed input is provided to simulate predefined scenarios. A copy of the test plan and the results has to be kept for future review.&lt;/p&gt;
 
