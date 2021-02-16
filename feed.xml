@@ -5,8 +5,8 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Feb 2021 07:17:42 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Feb 2021 07:17:42 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Feb 2021 07:24:43 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2021 07:24:43 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -16,6 +16,8 @@
 &lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Established engineering disciplines (such as electrical or mechanical) often complain that software engineering is not an engineering discipline at all.&lt;/p&gt;
 
@@ -154,6 +156,8 @@
 
 &lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;Secure software is the result of a security-aware software development process.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/risk_1.jpg&quot; alt=&quot;picture of a mountaineer&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
@@ -269,6 +273,8 @@
 &lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;An in-house development team supports unique objectives in many organizations, tailored software is a competitive advantage and can ultimately decide on the success of a business.&lt;/p&gt;
 
