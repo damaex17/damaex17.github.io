@@ -5,15 +5,15 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Dec 2021 11:46:59 +0000</pubDate>
-    <lastBuildDate>Wed, 01 Dec 2021 11:46:59 +0000</lastBuildDate>
+    <pubDate>Wed, 01 Dec 2021 20:35:09 +0000</pubDate>
+    <lastBuildDate>Wed, 01 Dec 2021 20:35:09 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
         <title>The Scalability Problem Of Bitcoin</title>
-        <description>&lt;h5 id=&quot;bitcoin-is-the-best-known-cryptocurrency-of-all-and-by-far-the-most-important-it-is-ahead-of-the-competition-when-it-comes-to-market-capitalization-and-no-other-digital-currency-can-hold-a-candle-to-it-in-terms-of-transaction-volume-but-can-btc-become-the-global-currency-of-the-future&quot;&gt;Bitcoin is the best-known cryptocurrency of all and by far the most important. It is ahead of the competition when it comes to market capitalization and no other digital currency can hold a candle to it in terms of transaction volume. But can BTC become the global currency of the future?&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;bitcoin-is-the-best-known-cryptocurrency-of-all-and-by-far-the-most-important-one-it-is-ahead-of-the-competition-in-market-capitalization-and-no-other-digital-currency-can-hold-a-candle-to-it-in-terms-of-transaction-volume-but-can-btc-become-the-global-currency-of-the-future&quot;&gt;Bitcoin is the best-known cryptocurrency of all and by far the most important one. It is ahead of the competition in market capitalization and no other digital currency can hold a candle to it in terms of transaction volume. But can BTC become the global currency of the future?&lt;/h5&gt;
 
-&lt;p&gt;Bitcoin was committed to making electronic transactions viable for everyone. Without relying on centralized control by financial institutes, but rather on a peer-to-peer consensus mechanism.&lt;/p&gt;
+&lt;p&gt;Bitcoin was committed to making electronic transactions viable for everyone. Without relying on the centralized control by financial institutes, but rather with a peer-to-peer consensus mechanism.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/2019/crypto-hash-digital-signature/&quot; target=&quot;_blank&quot;&gt;Hashed and digitally signed&lt;/a&gt; transactions and a public ledger based on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Blockchain&quot; target=&quot;_blank&quot;&gt;blockchain&lt;/a&gt; made the design revolutionary. Satoshi Nakamoto, the mysterious inventor of BTC, had solved the double-spending problem of digital currencies and mined the &lt;a href=&quot;https://en.bitcoin.it/wiki/Genesis_block&quot; target=&quot;_blank&quot;&gt;genesis block&lt;/a&gt; on the 3rd of January in 2009.&lt;/p&gt;
 
@@ -23,13 +23,13 @@
 
 &lt;h3 id=&quot;transactions-tx&quot;&gt;Transactions (TX)&lt;/h3&gt;
 
-&lt;p&gt;One of the most important concepts in Bitcoin is transactions. These “transfer” value, in form of Bitcoins, from one wallet to another wallet on the network. Transactions contain the number of Satoshis (the smalles Bitcoin unit), the wallet addresses of the sender and the receiver.&lt;/p&gt;
+&lt;p&gt;One of the most important concepts in Bitcoin is transactions. These “transfer” value, in form of Bitcoins, from one wallet to another on the network. Transactions contain the number of Satoshis (the smallest Bitcoin unit), the wallet addresses of the sender and the receiver.&lt;/p&gt;
 
-&lt;p&gt;The TX is broadcasted to the network, awaiting verification, and is then added to the distributed ledger (blockchain) by a node. Transactions transfer the property rights on BTC between people.&lt;/p&gt;
+&lt;p&gt;The TX is broadcasted to the network, awaiting verification, and is then added to the distributed ledger (blockchain) by a node. Transactions transfer the property rights on Bitcoins between people.&lt;/p&gt;
 
 &lt;h3 id=&quot;nodes&quot;&gt;Nodes&lt;/h3&gt;
 
-&lt;p&gt;In his Bitcoin &lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot; target=&quot;_blank&quot;&gt;whitepaper&lt;/a&gt;, Satoshi used the term node synonymously with a miner. Generally speaking, nodes verify transactions and then add them to the blockchain.&lt;/p&gt;
+&lt;p&gt;In his &lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot; target=&quot;_blank&quot;&gt;whitepaper&lt;/a&gt;, Satoshi used the term node synonymously with a miner. Generally speaking, nodes verify transactions and then add them to the blockchain.&lt;/p&gt;
 
 &lt;p&gt;For the verification of a TX, the node will double-check that each coin sent in a transaction also refers to a previously received coin. Nodes have to solve complex cryptographic computational tasks (mining) to create a new block before the verified TX can be added to the blockchain.&lt;/p&gt;
 
@@ -46,13 +46,15 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The Bitcoin system takes situations into account where the amount of transactions exceeds the limit of the network.  The mempool is a buffer or waiting room for transactions. Here, the TX sits until being inserted in a newly created block.&lt;/p&gt;
+&lt;p&gt;The Bitcoin network takes bandwidth limitations into account. In situations where there are more transactions than bandwidth, the mempool of nodes is acting as a buffer or waiting room for transactions. Here, the TX sits until being inserted in a newly created block.&lt;/p&gt;
 
 &lt;h3 id=&quot;prioritization-of-transactions&quot;&gt;Prioritization of Transactions&lt;/h3&gt;
 
-&lt;p&gt;In times of high congestion of the network, there are many more transactions than there is space in the blockchain. It is then the transaction fee that decides who will be served first.&lt;/p&gt;
+&lt;p&gt;In times of high congestion of the network, there are many more transactions than there is space in the blockchain. It is then the transaction fee that decides the priority (who will be served first).&lt;/p&gt;
 
 &lt;p&gt;The higher the fee, the more likely it is that the node chooses a transaction to be part of the next block in the chain. Transactions with low fees can end up not being written to the blockchain for days, weeks, or even months.&lt;/p&gt;
+
+&lt;p&gt;This is a not preferred situation when you want to pay your goods. You either have to pay a high fee on top of the price of the good or the vendor will wait for your payment until your cappuccino is cold.&lt;/p&gt;
 
 &lt;h3 id=&quot;protocol-issues&quot;&gt;Protocol Issues&lt;/h3&gt;
 
@@ -70,7 +72,9 @@
 
 &lt;h3 id=&quot;outlook&quot;&gt;Outlook&lt;/h3&gt;
 
-&lt;p&gt;Recent updates to the BTC protocol have increased the transaction volume of the network. Nevertheless, Bitcoin is no longer focused on “Fast Money” or usability in commerce anymore but rather has become a digital asset to store value.&lt;/p&gt;
+&lt;p&gt;Recent updates to the BTC protocol have increased the transaction volume of the network. Nevertheless, Bitcoin is no longer focused on “Fast Money” or usability in commerce but rather has become a digital asset to store value.&lt;/p&gt;
+
+&lt;p&gt;Other cryptocurrencies have emerged and might become a way to pay your cappuccino.&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2021/bitcoin-scale/</link>
