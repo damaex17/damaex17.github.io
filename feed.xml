@@ -5,19 +5,93 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Feb 2021 20:39:36 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Feb 2021 20:39:36 +0000</lastBuildDate>
+    <pubDate>Wed, 01 Dec 2021 09:31:46 +0000</pubDate>
+    <lastBuildDate>Wed, 01 Dec 2021 09:31:46 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>The Scalability Problem Of Bitcoin</title>
+        <description>&lt;h5 id=&quot;bitcoin-is-the-best-known-cryptocurrency-of-all-and-by-far-the-most-important-it-is-ahead-of-the-competition-when-it-comes-to-market-capitalization-and-no-other-digital-currency-can-hold-a-candle-to-it-in-terms-of-transaction-volume-but-can-btc-become-the-global-currency-of-the-future&quot;&gt;Bitcoin is the best-known cryptocurrency of all and by far the most important. It is ahead of the competition when it comes to market capitalization and no other digital currency can hold a candle to it in terms of transaction volume. But can BTC become the global currency of the future?&lt;/h5&gt;
+
+&lt;p&gt;Bitcoin was committed to making electronic transactions viable for everyone. Without relying on centralized control by financial institutes, but rather on a peer-to-peer consensus mechanism.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2019/crypto-hash-digital-signature/&quot; target=&quot;_blank&quot;&gt;Hashed and digitally signed&lt;/a&gt; transactions and a public ledger based on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Blockchain&quot; target=&quot;_blank&quot;&gt;blockchain&lt;/a&gt; made the design revolutionary. Satoshi Nakamoto, the mysterious inventor of BTC, had solved the double-spending problem of digital currencies and mined the &lt;a href=&quot;https://en.bitcoin.it/wiki/Genesis_block&quot; target=&quot;_blank&quot;&gt;genesis block&lt;/a&gt; on the 3rd of January in 2009.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/crypto.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The increasing popularity of bitcoin didn’t only bring a higher value to the digital currency but has also surfaced the inevitable problem. No system or decentralized system is built for acle to infinity.&lt;/p&gt;
+
+&lt;p&gt;To better understand the issue we have to get a bit technical.&lt;/p&gt;
+
+&lt;h3 id=&quot;transactions-tx&quot;&gt;Transactions (TX)&lt;/h3&gt;
+
+&lt;p&gt;One of the most important concepts in Bitcoin is transactions. These “transfer” value, in form of Bitcoins, from one wallet to another wallet on the network. Transactions contain the number of Satoshis (the smalles Bitcoin unit), the wallet addresses of the sender and the receiver.&lt;/p&gt;
+
+&lt;p&gt;The TX is broadcasted to the network, awaiting verification, and is then added to the distributed ledger (blockchain) by a node. Transactions transfer the property rights on BTC between people.&lt;/p&gt;
+
+&lt;h3 id=&quot;nodes&quot;&gt;Nodes&lt;/h3&gt;
+
+&lt;p&gt;In his Bitcoin &lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot; target=&quot;_blank&quot;&gt;whitepaper&lt;/a&gt;, Satoshi used the term node synonymously with a miner. Generally speaking, nodes verify transactions and then add them to the blockchain.&lt;/p&gt;
+
+&lt;p&gt;For the verification of a TX, the node will double-check that each coin sent in a transaction also refers to a previously received coin. Nodes have to solve complex cryptographic computational tasks (mining) to create a new block before the verified TX can be added to the blockchain.&lt;/p&gt;
+
+&lt;h3 id=&quot;throughput-of-btc&quot;&gt;Throughput of BTC&lt;/h3&gt;
+
+&lt;p&gt;The current Bitcoin network creates one new block every 10 minutes. This block has a size limit of 1 megabyte and 4000 transactions. This results in the following limitations of the BTC system:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;max. 7 transactions/sec&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;min. 10 minutes for a transaction confirmation&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Bitcoin system takes situations into account where the amount of transactions exceeds the limit of the network.  The mempool is a buffer or waiting room for transactions. Here, the TX sits until being inserted in a newly created block.&lt;/p&gt;
+
+&lt;h3 id=&quot;prioritization-of-transactions&quot;&gt;Prioritization of Transactions&lt;/h3&gt;
+
+&lt;p&gt;In times of high congestion of the network, there are many more transactions than there is space in the blockchain. It is then the transaction fee that decides who will be served first.&lt;/p&gt;
+
+&lt;p&gt;The higher the fee, the more likely it is that the node chooses a transaction to be part of the next block in the chain. Transactions with low fees can end up not being written to the blockchain for days, weeks, or even months.&lt;/p&gt;
+
+&lt;h3 id=&quot;protocol-issues&quot;&gt;Protocol Issues&lt;/h3&gt;
+
+&lt;p&gt;Bitcoin won’t be able to become a meaningful digital currency without technical changes to the protocol. The throughput is just too low for this purpose. Any medium-sized bank exceeds the limit of 24,000 transactions per hour.&lt;/p&gt;
+
+&lt;p&gt;The increasing amount of fees necessary to guarantee a timely transaction is a result of the scalability issues.&lt;/p&gt;
+
+&lt;h3 id=&quot;protocol-changes&quot;&gt;Protocol Changes&lt;/h3&gt;
+
+&lt;p&gt;Making changes to the protocol of bitcoin is the only way to improve the transaction speed of the network and build a more sustainable system. But changes have their challenges as we have seen in 2017 when an upgrade called &lt;a href=&quot;https://en.wikipedia.org/wiki/SegWit&quot; target=&quot;_blank&quot;&gt;SegWit&lt;/a&gt; was introduced to the bitcoin network.&lt;/p&gt;
+
+&lt;p&gt;The update increased the effective blocksize by a factor of 1.8 by redesigning the content in each block. This change was controversial and lead to the hard-fork &lt;a href=&quot;https://en.wikipedia.org/wiki/Bitcoin_Cash&quot; target=&quot;_blank&quot;&gt;Bitcoin Cash&lt;/a&gt;. The community was stuck in a discussion on who controls the changes to the protocol. As a result of the debate, Bitcoin did not receive any major protocol upgrade since 2017.&lt;/p&gt;
+
+&lt;p&gt;Now in 2021, the network introduced &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_bitcoin_forks&quot; target=&quot;_blank&quot;&gt;Taproot&lt;/a&gt; which is a soft-fork and features the new Pay-to-Taproot (P2TR) transaction type, which combines the concepts of &lt;a href=&quot;https://en.wikipedia.org/wiki/Schnorr_signature&quot; target=&quot;_blank&quot;&gt;Schnorr signatures&lt;/a&gt; and Merklized Alternative Script Trees (MAST); it increases transaction privacy and requires significantly less storage for complex output conditions.&lt;/p&gt;
+
+&lt;h3 id=&quot;outlook&quot;&gt;Outlook&lt;/h3&gt;
+
+&lt;p&gt;Recent updates to the BTC protocol have increased the transaction volume of the network. Nevertheless, Bitcoin is no longer focused on “Fast Money” or usability in commerce anymore but rather has become a digital asset to store value.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2021/bitcoin-death/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2021/bitcoin-death/</guid>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>Secure Development - Lifecycle Models</title>
         <description>&lt;h5 id=&quot;in-this-article-we-cover-the-lifecycle-models-used-by-project-management-to-direct-the-development-process&quot;&gt;In this article, we cover the lifecycle models used by project management to direct the development process.&lt;/h5&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot; target=&quot;_blank&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot; target=&quot;_blank&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot; target=&quot;_blank&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Established engineering disciplines (such as electrical or mechanical) often state that software engineering is not an engineering discipline at all.&lt;/p&gt;
 
@@ -31,7 +105,7 @@
 
 &lt;h3 id=&quot;conceptual-definition&quot;&gt;Conceptual Definition&lt;/h3&gt;
 
-&lt;p&gt;This phase of development involves creating the basic concept statement for a system or application. In this very high-level contract that all interested stakeholders agree to the purpose of a project as well as the general requirements.&lt;/p&gt;
+&lt;p&gt;This phase of development involves creating the basic concept statement for a system or application. In this very high-level contract, all interested stakeholders agree to the purpose of a project as well as the general requirements.&lt;/p&gt;
 
 &lt;p&gt;During all phases of the development process, the concept statement should be referred to in order to avoid getting lost in the details.&lt;/p&gt;
 
@@ -49,9 +123,9 @@
 
 &lt;h3 id=&quot;security-requirements&quot;&gt;Security Requirements&lt;/h3&gt;
 
-&lt;p&gt;Organizations have to ensure that adequate security controls are designed into every system. It’s therefore important to have the definition of such control specifications in the product development lifecycle.&lt;/p&gt;
+&lt;p&gt;Organizations have to ensure that adequate security controls are designed into every system. It’s therefore essential to have the definition of such control specifications in the product development lifecycle.&lt;/p&gt;
 
-&lt;p&gt;With the conceptual definition and the functional requirements, the security engineers can analyze the system from a their perspective.&lt;/p&gt;
+&lt;p&gt;With the conceptual definition and the functional requirements, the security engineers can analyze the system from their perspective.&lt;/p&gt;
 
 &lt;p&gt;Threat modeling on public entry points and the trust boundaries is a great practice to surface the risks to the system. The product team can then mitigate those threats by implementing appropriate measures.&lt;/p&gt;
 
@@ -63,7 +137,7 @@
 
 &lt;p&gt;With the functional and security specifications, the system designers can start doing their thing. The designers determine exactly how the various parts of the system will interoperate and how the system structure will be laid out.&lt;/p&gt;
 
-&lt;p&gt;Once the formal design document is finished, a review meeting will usually be held where all stakeholders ensure that everyone is in agrees with the desired functionality and security.&lt;/p&gt;
+&lt;p&gt;Once the formal design document is finished, a review meeting will usually be held where all stakeholders ensure that everyone is in agreement with the desired functionality and security.&lt;/p&gt;
 
 &lt;h3 id=&quot;code-review&quot;&gt;Code Review&lt;/h3&gt;
 
@@ -152,11 +226,11 @@
 
 &lt;h5 id=&quot;this-time-we-focus-on-the-baseline-for-secure-development-we-will-cover-the-most-basic-principles-that-apply-independently-of-the-creation-of-a-more-specific-application&quot;&gt;This time, we focus on the baseline for secure development. We will cover the most basic principles that apply independently of the creation of a more specific application.&lt;/h5&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot; target=&quot;_blank&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot; target=&quot;_blank&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot; target=&quot;_blank&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Secure software is the result of a security-aware software development process.&lt;/p&gt;
 
@@ -213,7 +287,7 @@
 
 &lt;p&gt;Therefore, applications should be sending detailed logging messages to a centralized log repository.&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href=&quot;https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf&quot;&gt;OWASP Secure Coding Guidelines&lt;/a&gt; suggest logging the following events.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf&quot; target=&quot;_blank&quot;&gt;OWASP Secure Coding Guidelines&lt;/a&gt; suggest logging the following events.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -270,11 +344,11 @@
 
 &lt;h5 id=&quot;this-can-present-a-serious-risk-to-organizations---security-teams-must-understand-these-risks-balance-them-with-business-requirements-and-enforce-appropriate-mitigation-mechanisms&quot;&gt;This can present a serious risk to organizations - security teams must understand these risks, balance them with business requirements and enforce appropriate mitigation mechanisms.&lt;/h5&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot; target=&quot;_blank&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot; target=&quot;_blank&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot; target=&quot;_blank&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;An in-house development team supports unique objectives in many organizations, tailored software is a competitive advantage and can ultimately decide on the success of a business.&lt;/p&gt;
 
@@ -290,11 +364,11 @@
 
 &lt;p&gt;Software Developers use programming languages to develop software. This chapter takes a look at the different types of languages and the security implications.&lt;/p&gt;
 
-&lt;p&gt;The instructions that a computer processes are a long series of binary digits in a language known as &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Machine_code&quot;&gt;machine code&lt;/a&gt;&lt;/em&gt;. It’s a language of 0s and 1s and no human can understand anything but the simplest instructions without the assistance of specialized software.&lt;/p&gt;
+&lt;p&gt;The instructions that a computer processes are a long series of binary digits in a language known as &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Machine_code&quot; target=&quot;_blank&quot;&gt;machine code&lt;/a&gt;&lt;/em&gt;. It’s a language of 0s and 1s and no human can understand anything but the simplest instructions without the assistance of specialized software.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Assembly_language&quot;&gt;Assembler&lt;/a&gt;&lt;/em&gt; is a higher-level language to represent the machine code. It’s still a complex and obscure way of programming and requires specific knowledge about the hardware it will interact with.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Assembly_language&quot; target=&quot;_blank&quot;&gt;Assembler&lt;/a&gt;&lt;/em&gt; is a higher-level language to represent the machine code. It’s still a complex and obscure way of programming and requires specific knowledge about the hardware it will interact with.&lt;/p&gt;
 
-&lt;p&gt;While there are some &lt;a href=&quot;https://en.wikipedia.org/wiki/Assembly_language#Current_usage&quot;&gt;situations&lt;/a&gt; in which developers might choose to use assembly language, the preference is to use &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/High-level_programming_language&quot;&gt;high-level languages&lt;/a&gt;&lt;/em&gt;, such as Java, Ruby, Python, R, and C++.&lt;/p&gt;
+&lt;p&gt;While there are some &lt;a href=&quot;https://en.wikipedia.org/wiki/Assembly_language#Current_usage&quot; target=&quot;_blank&quot;&gt;situations&lt;/a&gt; in which developers might choose to use assembly language, the preference is to use &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/High-level_programming_language&quot; target=&quot;_blank&quot;&gt;high-level languages&lt;/a&gt;&lt;/em&gt;, such as Java, Ruby, Python, R, and C++.&lt;/p&gt;
 
 &lt;p&gt;These languages are feature-rich and provide standards for common tasks, permit debugging, and maintain architectural agnosticism.&lt;/p&gt;
 
@@ -392,7 +466,7 @@
 
 &lt;p&gt;Outrage from politicians and calls for regulation accompany many of these stories.&lt;/p&gt;
 
-&lt;p&gt;Though, a recent &lt;a href=&quot;https://www.pnas.org/content/early/2020/11/24/2011893117/tab-article-info&quot;&gt;research article&lt;/a&gt; has shown that only ~6.7% of all Tor users are actually accessing Onion services for potentially illegal purposes.&lt;/p&gt;
+&lt;p&gt;Though, a recent &lt;a href=&quot;https://www.pnas.org/content/early/2020/11/24/2011893117/tab-article-info&quot; target=&quot;_blank&quot;&gt;research article&lt;/a&gt; has shown that only ~6.7% of all Tor users are actually accessing Onion services for potentially illegal purposes.&lt;/p&gt;
 
 &lt;p&gt;The vast majority uses it as a privacy-enhancing tool to circumvent censorship or stay anonymous on the regular internet. Ultimately Tor is by its very nature dual-use and the question is if the benefits outweigh the costs.&lt;/p&gt;
 
@@ -415,7 +489,7 @@
         <title>CVE - Common Vulnerabilities and Exposures System</title>
         <description>&lt;h5 id=&quot;the-common-vulnerabilities-and-exposures-system-provides-a-reference-method-for-publicly-known-information-security-vulnerabilities-and-exposures&quot;&gt;The Common Vulnerabilities and Exposures system provides a reference-method for publicly known information-security vulnerabilities and exposures.&lt;/h5&gt;
 
-&lt;p&gt;The system is maintained by the nonprofit organization &lt;a href=&quot;https://en.wikipedia.org/wiki/The_MITRE_Corporation&quot;&gt;MITRE&lt;/a&gt;, funded by &lt;a href=&quot;https://en.wikipedia.org/wiki/National_Cyber_Security_Division&quot;&gt;NCSD&lt;/a&gt;, and was officially launched in 1999. In this article, we explain what it is all about.&lt;/p&gt;
+&lt;p&gt;The system is maintained by the nonprofit organization &lt;a href=&quot;https://en.wikipedia.org/wiki/The_MITRE_Corporation&quot; target=&quot;_blank&quot;&gt;MITRE&lt;/a&gt;, funded by &lt;a href=&quot;https://en.wikipedia.org/wiki/National_Cyber_Security_Division&quot; target=&quot;_blank&quot;&gt;NCSD&lt;/a&gt;, and was officially launched in 1999. In this article, we explain what it is all about.&lt;/p&gt;
 
 &lt;p&gt;Before the CVE system, communication about security vulnerabilities was difficult. “The security issue in Windows” could refer to hundreds of individual bugs. Trying to narrow down the exact bug by adding the subsystem was not sufficient.&lt;/p&gt;
 
@@ -448,17 +522,17 @@
   &lt;li&gt;Third-party coordinators such as CERT may assign CVE numbers for products not covered by other CNAs&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Independent researchers who discover a vulnerability and want to report it will find the relevant contact point in the &lt;a href=&quot;https://cve.mitre.org/cve/request_id.html&quot;&gt;CNA overview&lt;/a&gt; on MITRE’s website.&lt;/p&gt;
+&lt;p&gt;Independent researchers who discover a vulnerability and want to report it will find the relevant contact point in the &lt;a href=&quot;https://cve.mitre.org/cve/request_id.html&quot; target=&quot;_blank&quot;&gt;CNA overview&lt;/a&gt; on MITRE’s website.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/cvebanner.png&quot; alt=&quot;a server rack&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Once a new vulnerability is reported, the CNA will reserve an ID and enter it into the MITRE maintained &lt;a href=&quot;https://cve.mitre.org/cve/&quot;&gt;CVE list&lt;/a&gt;. Once the vulnerability is confirmed and a detailed description is provided, the CVE is officially assigned.&lt;/p&gt;
+&lt;p&gt;Once a new vulnerability is reported, the CNA will reserve an ID and enter it into the MITRE maintained &lt;a href=&quot;https://cve.mitre.org/cve/&quot; target=&quot;_blank&quot;&gt;CVE list&lt;/a&gt;. Once the vulnerability is confirmed and a detailed description is provided, the CVE is officially assigned.&lt;/p&gt;
 
 &lt;h3 id=&quot;additional-information-and-scoring&quot;&gt;Additional Information and Scoring&lt;/h3&gt;
 
-&lt;p&gt;The National Vulnerability Database (&lt;a href=&quot;https://nvd.nist.gov/&quot;&gt;NVD&lt;/a&gt;) is an independent project launched in 2005 by the National Institute of Standards and Technology (&lt;a href=&quot;https://www.nist.gov/&quot;&gt;NIST&lt;/a&gt;) and uses MITRE’s CVE list, but adds additional information to the rather brief descriptions, such as security risks or available updates.&lt;/p&gt;
+&lt;p&gt;The National Vulnerability Database (&lt;a href=&quot;https://nvd.nist.gov/&quot; target=&quot;_blank&quot;&gt;NVD&lt;/a&gt;) is an independent project launched in 2005 by the National Institute of Standards and Technology (&lt;a href=&quot;https://www.nist.gov/&quot; target=&quot;_blank&quot;&gt;NIST&lt;/a&gt;) and uses MITRE’s CVE list, but adds additional information to the rather brief descriptions, such as security risks or available updates.&lt;/p&gt;
 
-&lt;p&gt;For the infamous &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160&quot;&gt;Heartbleed CVE&lt;/a&gt; for example, the &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2014-0160&quot;&gt;NVD description&lt;/a&gt; provides information on how to fix it and a list of affected software versions.&lt;/p&gt;
+&lt;p&gt;For the infamous &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160&quot; target=&quot;_blank&quot;&gt;Heartbleed CVE&lt;/a&gt; for example, the &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2014-0160&quot; target=&quot;_blank&quot;&gt;NVD description&lt;/a&gt; provides information on how to fix it and a list of affected software versions.&lt;/p&gt;
 
 &lt;p&gt;One of the most important data the NVD provides is the so-called Common Vulnerability Scoring System (CVSS). Based on the path of attack and the complexity of the exploit, a scoring level from “Low” to “Critical” is assigned to each CVE.&lt;/p&gt;
 
@@ -503,7 +577,7 @@
 
 &lt;h3 id=&quot;principle-of-least-privilege&quot;&gt;Principle Of Least Privilege&lt;/h3&gt;
 
-&lt;p&gt;Authentication within a zero-trust philosophy is based on the Principle of Least Privilege (PoLP). Meaningi, people and processes receive only the amount of access rights they need to carry out their duty.&lt;/p&gt;
+&lt;p&gt;Authentication within a zero-trust philosophy is based on the Principle of Least Privilege (PoLP). Meaning, people and processes receive only the amount of access rights they need to carry out their duty.&lt;/p&gt;
 
 &lt;p&gt;The framework of policies and technologies for enabling this appropriate access to resources is called Identity and Access Management (IAM) and in conjunction with PoLP, it minimizes the exposure of services to malicious login attempts with valid accounts.&lt;/p&gt;
 
@@ -511,7 +585,7 @@
 
 &lt;p&gt;In zero-trust security, knowledge of a password is not enough evidence for authentication. Multi-factor authentication is the recommended method in which a user is granted access only after successfully presenting two or more pieces of evidence to an authentication mechanism.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/2019/universal-2nd-factor/&quot;&gt;2FA&lt;/a&gt; as a subset of multi-factor authentication confirms identities by combining two different factors: something they know and something they have.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2019/universal-2nd-factor/&quot; target=&quot;_blank&quot;&gt;2FA&lt;/a&gt; as a subset of multi-factor authentication confirms identities by combining two different factors: something they know and something they have.&lt;/p&gt;
 
 &lt;p&gt;Utilizing MFA dramatically improves the security of the authentication process and prevents attacks with well-known or easy to brute-force passwords.&lt;/p&gt;
 
@@ -562,17 +636,17 @@
 
 &lt;p&gt;Progressive web applications on the other hand are a great way to have just that, a single app to rule them all and users might not even know that they are using a web-based app instead of a native one.&lt;/p&gt;
 
-&lt;p&gt;According to the Google &lt;a href=&quot;https://web.dev/what-are-pwas/&quot;&gt;web.dev&lt;/a&gt; blog, the characteristics of a PWA are: capable, reliable, installable, and safe. The experience requires speed, network independence, and security from the web-based application.&lt;/p&gt;
+&lt;p&gt;According to the Google &lt;a href=&quot;https://web.dev/what-are-pwas/&quot; target=&quot;_blank&quot;&gt;web.dev&lt;/a&gt; blog, the characteristics of a PWA are: capable, reliable, installable, and safe. The experience requires speed, network independence, and security from the web-based application.&lt;/p&gt;
 
 &lt;p&gt;The building blocks are:&lt;/p&gt;
 
-&lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/serviceworker&quot;&gt;&lt;strong&gt;service worker&lt;/strong&gt;&lt;/a&gt; that handles network requests and the caching of assets to support an offline experience with the web application.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/serviceworker&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;service worker&lt;/strong&gt;&lt;/a&gt; that handles network requests and the caching of assets to support an offline experience with the web application.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://letsencrypt.org/&quot;&gt;&lt;strong&gt;Transport encryption&lt;/strong&gt;&lt;/a&gt; for the network connection via TLS/HTTPS for all components of the website, which should be a standard today.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://letsencrypt.org/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Transport encryption&lt;/strong&gt;&lt;/a&gt; for the network connection via TLS/HTTPS for all components of the website, which should be a standard today.&lt;/p&gt;
 
-&lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/generate&quot;&gt;&lt;strong&gt;manifest&lt;/strong&gt;&lt;/a&gt; file in JSON format to control the app appearance.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/generate&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;manifest&lt;/strong&gt;&lt;/a&gt; file in JSON format to control the app appearance.&lt;/p&gt;
 
-&lt;p&gt;Any website can become a PWA by satisfying the &lt;a href=&quot;https://www.pwabuilder.com&quot;&gt;PWA checklist&lt;/a&gt;. Once all the requirements are met, the app can be downloaded to devices and mimics a native application.&lt;/p&gt;
+&lt;p&gt;Any website can become a PWA by satisfying the &lt;a href=&quot;https://www.pwabuilder.com&quot; target=&quot;_blank&quot;&gt;PWA checklist&lt;/a&gt;. Once all the requirements are met, the app can be downloaded to devices and mimics a native application.&lt;/p&gt;
 
 &lt;p&gt;Not having to maintain separate native applications makes PWA especially interesting for small organizations. Major web frameworks like Angular, React or Jekyll enable developers to easily create a PWA, and all major mobile and non-mobile operating systems support the technology.&lt;/p&gt;
 
@@ -591,9 +665,9 @@
         <title>Data Anonymization</title>
         <description>&lt;h5 id=&quot;companies-use-data-science-and-analytics-to-improve-their-services-and-products-it-makes-a-lot-of-sense-to-measure-what-users-like-and-only-build-what-people-want-to-use&quot;&gt;Companies use data science and analytics to improve their services and products. It makes a lot of sense to measure what users like and only build what people want to use.&lt;/h5&gt;
 
-&lt;p&gt;But the collected data can be very sensitive and undermine the rights of users if a data loss occurs. Data privacy laws, therefore, &lt;a href=&quot;https://gdpr-info.eu/art-32-gdpr/&quot;&gt;dictate&lt;/a&gt; appropriate technical and organizational measures to ensure a level of security appropriate to the risk.&lt;/p&gt;
+&lt;p&gt;But the collected data can be very sensitive and undermine the rights of users if a data loss occurs. Data privacy laws, therefore, &lt;a href=&quot;https://gdpr-info.eu/art-32-gdpr/&quot; target=&quot;_blank&quot;&gt;dictate&lt;/a&gt; appropriate technical and organizational measures to ensure a level of security appropriate to the risk.&lt;/p&gt;
 
-&lt;p&gt;Many organizations can’t afford highly restricted environments and are left with either limited data analytics or the risk of a data leak and resulting &lt;a href=&quot;https://gdpr-info.eu/issues/fines-penalties/&quot;&gt;penalties&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Many organizations can’t afford highly restricted environments and are left with either limited data analytics or the risk of a data leak and resulting &lt;a href=&quot;https://gdpr-info.eu/issues/fines-penalties/&quot; target=&quot;_blank&quot;&gt;penalties&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;One way to protect data subjects and combine business needs with user rights is anonymization and in this article, we’ll gonna take a look at it.&lt;/p&gt;
 
@@ -605,9 +679,9 @@
 
 &lt;p&gt;Until 1997, the resulting dataset was considered more or less anonymized and hospitals in the US, for example, released such data to the public.&lt;/p&gt;
 
-&lt;p&gt;But then &lt;a href=&quot;https://en.wikipedia.org/wiki/Latanya_Sweeney&quot;&gt;Latanya Sweeney&lt;/a&gt; entered the stage and conducted a re-identification experiment.&lt;/p&gt;
+&lt;p&gt;But then &lt;a href=&quot;https://en.wikipedia.org/wiki/Latanya_Sweeney&quot; target=&quot;_blank&quot;&gt;Latanya Sweeney&lt;/a&gt; entered the stage and conducted a re-identification experiment.&lt;/p&gt;
 
-&lt;p&gt;She &lt;a href=&quot;https://dataprivacylab.org/projects/identifiability/paper1.pdf&quot;&gt;successfully&lt;/a&gt; re-identified individuals by combining public medical records with other accessible records.&lt;/p&gt;
+&lt;p&gt;She &lt;a href=&quot;https://dataprivacylab.org/projects/identifiability/paper1.pdf&quot; target=&quot;_blank&quot;&gt;successfully&lt;/a&gt; re-identified individuals by combining public medical records with other accessible records.&lt;/p&gt;
 
 &lt;p&gt;The “linkage attack” was born, where adversaries collect information from multiple data sources and then combine that data to re-create personally identifiable information.&lt;/p&gt;
 
@@ -627,7 +701,7 @@
 
 &lt;h3 id=&quot;k-anonymity-protection-model&quot;&gt;K-Anonymity protection model&lt;/h3&gt;
 
-&lt;p&gt;The concept of k-anonymity was first introduced by Latanya Sweeney and Pierangela Samarati in a &lt;a href=&quot;https://dataprivacylab.org/dataprivacy/projects/kanonymity/kanonymity.pdf&quot;&gt;paper&lt;/a&gt; published in 1998.&lt;/p&gt;
+&lt;p&gt;The concept of k-anonymity was first introduced by Latanya Sweeney and Pierangela Samarati in a &lt;a href=&quot;https://dataprivacylab.org/dataprivacy/projects/kanonymity/kanonymity.pdf&quot; target=&quot;_blank&quot;&gt;paper&lt;/a&gt; published in 1998.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Data is said to have the k-anonymity property if the information for each person contained in the release cannot be distinguished from at least k - 1 individuals whose information also appear in the release.&lt;/em&gt;&lt;/p&gt;
 
@@ -661,11 +735,11 @@
 
 &lt;p&gt;First, an algorithm injects random noise into a data set to protect the privacy of an individual. The noise is small enough to enable analysts and researchers to provide useful insights.&lt;/p&gt;
 
-&lt;p&gt;Secondly, the amount of information revealed is calculated and deducted from a so-called privacy-loss budget. The reference book for differential privacy is “&lt;a href=&quot;https://www.amazon.de/Algorithmic-Foundations-Differential-Theoretical-Computer/dp/1601988184/ref=sr_1_1?dchild=1&amp;amp;keywords=Algorithmic+Foundations+of+Differential+Privacy%22&amp;amp;qid=1596537123&amp;amp;sr=8-1&quot;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;” by Aaron Roth.&lt;/p&gt;
+&lt;p&gt;Secondly, the amount of information revealed is calculated and deducted from a so-called privacy-loss budget. The reference book for differential privacy is “&lt;a href=&quot;https://www.amazon.de/Algorithmic-Foundations-Differential-Theoretical-Computer/dp/1601988184/ref=sr_1_1?dchild=1&amp;amp;keywords=Algorithmic+Foundations+of+Differential+Privacy%22&amp;amp;qid=1596537123&amp;amp;sr=8-1&quot; target=&quot;_blank&quot;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;” by Aaron Roth.&lt;/p&gt;
 
-&lt;p&gt;Apple has released a &lt;a href=&quot;https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf&quot;&gt;whitepaper&lt;/a&gt; describing &lt;em&gt;local differential privacy&lt;/em&gt;. The interesting twist here is that the noise is added on the users’ smartphone even before the data is sent to the Apple backend servers.&lt;/p&gt;
+&lt;p&gt;Apple has released a &lt;a href=&quot;https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf&quot; target=&quot;_blank&quot;&gt;whitepaper&lt;/a&gt; describing &lt;em&gt;local differential privacy&lt;/em&gt;. The interesting twist here is that the noise is added on the users’ smartphone even before the data is sent to the Apple backend servers.&lt;/p&gt;
 
-&lt;p&gt;An interesting approach we have been discussing in the posting &lt;a href=&quot;/2020/privacy-client-shift/&quot;&gt;System Architecture - Shift To The Client&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;An interesting approach we have been discussing in the posting &lt;a href=&quot;/2020/privacy-client-shift/&quot; target=&quot;_blank&quot;&gt;System Architecture - Shift To The Client&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
 
@@ -718,15 +792,15 @@
 
 &lt;h3 id=&quot;tsunami---a-open-source-network-security-scanner&quot;&gt;Tsunami - a open-source network security scanner&lt;/h3&gt;
 
-&lt;p&gt;Google has released a general-purpose network security scanner for detecting vulnerabilities. The project is called &lt;a href=&quot;https://github.com/google/tsunami-security-scanner/blob/master/docs/index.md&quot;&gt;Tsunami&lt;/a&gt; and is maintained by the open-source community on &lt;a href=&quot;https://github.com/google/tsunami-security-scanner&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Google has released a general-purpose network security scanner for detecting vulnerabilities. The project is called &lt;a href=&quot;https://github.com/google/tsunami-security-scanner/blob/master/docs/index.md&quot; target=&quot;_blank&quot;&gt;Tsunami&lt;/a&gt; and is maintained by the open-source community on &lt;a href=&quot;https://github.com/google/tsunami-security-scanner&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/tsunami.jpg&quot; alt=&quot;Tsunami by hokusai 19th century&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;It uses &lt;a href=&quot;https://nmap.org/&quot;&gt;nmap&lt;/a&gt; for the reconnaissance phase and tests for known passwords with &lt;a href=&quot;https://nmap.org/ncrack/&quot;&gt;ncrack&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It uses &lt;a href=&quot;https://nmap.org/&quot; target=&quot;_blank&quot;&gt;nmap&lt;/a&gt; for the reconnaissance phase and tests for known passwords with &lt;a href=&quot;https://nmap.org/ncrack/&quot; target=&quot;_blank&quot;&gt;ncrack&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Currently, the &lt;a href=&quot;https://github.com/google/tsunami-security-scanner-plugins&quot;&gt;plugins&lt;/a&gt; for the exploitation of vulnerabilities are rather limited but this is expected to change in the coming months.&lt;/p&gt;
+&lt;p&gt;Currently, the &lt;a href=&quot;https://github.com/google/tsunami-security-scanner-plugins&quot; target=&quot;_blank&quot;&gt;plugins&lt;/a&gt; for the exploitation of vulnerabilities are rather limited but this is expected to change in the coming months.&lt;/p&gt;
 
-&lt;p&gt;Tsunami is a great way to get started with scanning networks for vulnerabilities. The project encourages collaboration and anyone can support it by adding &lt;a href=&quot;https://github.com/google/tsunami-security-scanner/blob/master/docs/howto.md#create_plugins&quot;&gt;detectors&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tsunami is a great way to get started with scanning networks for vulnerabilities. The project encourages collaboration and anyone can support it by adding &lt;a href=&quot;https://github.com/google/tsunami-security-scanner/blob/master/docs/howto.md#create_plugins&quot; target=&quot;_blank&quot;&gt;detectors&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;other-network-security-measures&quot;&gt;Other network security measures&lt;/h3&gt;
 
@@ -740,7 +814,7 @@
 
 &lt;h5 id=&quot;application-security-test&quot;&gt;Application Security Test&lt;/h5&gt;
 
-&lt;p&gt;A specialized vulnerability test for applications that include the analysis of the source code. Application security testing is effective in detecting known security issues with &lt;a href=&quot;/2019/software-supply-chain-security/&quot;&gt;software-components&lt;/a&gt; or hardcoded passwords.&lt;/p&gt;
+&lt;p&gt;A specialized vulnerability test for applications that include the analysis of the source code. Application security testing is effective in detecting known security issues with &lt;a href=&quot;/2019/software-supply-chain-security/&quot; target=&quot;_blank&quot;&gt;software-components&lt;/a&gt; or hardcoded passwords.&lt;/p&gt;
 
 &lt;p&gt;There is static security testing (SAST) which aims in testing code before compilation and dynamic security testing (DAST) which examines the application during run-time.&lt;/p&gt;
 
@@ -748,7 +822,7 @@
 
 &lt;p&gt;The goal of this activity is the detection of malicious activities in the network. It includes the search for compromised systems, discovering the exfiltration of data, and the unmasking of malicious user behavior.&lt;/p&gt;
 
-&lt;p&gt;The tools of the trade are a sophisticated &lt;a href=&quot;https://en.wikipedia.org/wiki/Security_information_and_event_management&quot;&gt;SIEM&lt;/a&gt; system, the monitoring of indicators and adaptive scanning for changes in the network.&lt;/p&gt;
+&lt;p&gt;The tools of the trade are a sophisticated &lt;a href=&quot;https://en.wikipedia.org/wiki/Security_information_and_event_management&quot; target=&quot;_blank&quot;&gt;SIEM&lt;/a&gt; system, the monitoring of indicators and adaptive scanning for changes in the network.&lt;/p&gt;
 
 &lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
 
@@ -759,98 +833,6 @@
         <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2020/vulnerability-scanner/</link>
         <guid isPermaLink="true">https://inversegravity.net/2020/vulnerability-scanner/</guid>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Security Awareness - Security Culture</title>
-        <description>&lt;h5 id=&quot;many-organizations-incorrectly-assume-that-a-team-of-security-experts-can-protect-the-other-99-of-the-companys-workforce&quot;&gt;Many organizations incorrectly assume that a team of security experts can protect the other 99% of the company’s workforce.&lt;/h5&gt;
-
-&lt;h5 id=&quot;this-dangerous-mindset-persists-in-many-technical-product-and-development-teams-too-and-members-take-it-for-granted-that-the-security-team-will-keep-them-out-of-trouble&quot;&gt;This dangerous mindset persists in many technical product and development teams too, and members take it for granted that the security team will keep them out of trouble.&lt;/h5&gt;
-
-&lt;p&gt;But in reality, it’s the daily informed decision making of all employees that makes the security posture of an enterprise.&lt;/p&gt;
-
-&lt;p&gt;Awareness as a concept aims at employees knowing about procedures, rules, and touchpoints with the security experts.&lt;/p&gt;
-
-&lt;p&gt;Security culture, however, goes beyond that and emphasizes a healthy mix of knowledge and follow-through by all members of an organization.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/culture_1.jpg&quot; alt=&quot;artistic picture of a hackers hiding&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In this article, we want to take a look at some examples of how to increase awareness and, more specifically, create an impactful cybersecurity culture.&lt;/p&gt;
-
-&lt;h3 id=&quot;leadership---top-down-approach&quot;&gt;Leadership - Top-Down Approach&lt;/h3&gt;
-
-&lt;p&gt;Significant shifts in an organization start at the highest level; the support of the executive team is, therefore, essential in building a security culture. The top management has to communicate cybersecurity as an organization-wide priority.&lt;/p&gt;
-
-&lt;p&gt;Regular reporting regarding the security situation of the organization and clear communication about the benefits of initiatives will help to build trust between the security team and management.&lt;/p&gt;
-
-&lt;p&gt;Middle managers work directly with employees and are therefore naturally an essential driver of security culture. By properly explaining requirements to their team and leading by example, team leads will get the security mindset transported to all departments. Getting middle management on board with security has a significant effect on cultural change. They are the multipliers of the program.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I’ve seen a lot of incidents where the management says that cybersecurity is important, but then they turn around and ask for exceptions—and that is the death knell of any cybersecurity program.”
-    —Rob Clyde&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;An “we are in this together” security mentality is achieved by embedding a vision and mission with leaders. This gives all employees direction on what they need to focus on.&lt;/p&gt;
-
-&lt;h3 id=&quot;training-and-awareness&quot;&gt;Training and Awareness&lt;/h3&gt;
-
-&lt;p&gt;Security training is labor-intensive but a key effort for growing and maintaining security culture.&lt;/p&gt;
-
-&lt;p&gt;Educating the work-force requires different approaches depending on the specific needs of the target group. For example, it makes sense to run all newcomers through a basic security program with information on common social engineering attacks like phishing or malware, introducing them to secure behavior expectations, and how to report an incident.&lt;/p&gt;
-
-&lt;p&gt;More tailored training for development teams can be, for example, introducing them to the &lt;a href=&quot;/2020/threat-landscape/&quot;&gt;Threat Landscape&lt;/a&gt;, the &lt;a href=&quot;/2019/owasp-top-10/&quot;&gt;OWASP Top 10 Application Security Risks&lt;/a&gt;, or maybe refresh some &lt;a href=&quot;/2019/crypto-history-basics/&quot;&gt;crypto&lt;/a&gt; knowledge.&lt;/p&gt;
-
-&lt;p&gt;Departments, like Human Ressources, on the other hand, require awareness of the importance of &lt;a href=&quot;/2019/personnel-security/&quot;&gt;Personnel Security&lt;/a&gt; and how they can help with keeping the workplace safe.&lt;/p&gt;
-
-&lt;p&gt;Knowledge transfer can take place in workshops, via videos or, maybe by introducing a &lt;a href=&quot;https://www.csoonline.com/article/3444488/equifax-data-breach-faq-what-happened-who-was-affected-what-was-the-impact.html&quot;&gt;famous data-leak case&lt;/a&gt; to a broader group in the organization and how it could have prevented by aligning with the policy framework. Showing that threats are close is an excellent way to encourage employees to follow security policies and best practices.&lt;/p&gt;
-
-&lt;p&gt;Security teams should also consider collecting feedback after a training to ensure the continuous improvement of the education program.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/culture_4.jpg&quot; alt=&quot;artistic picture with data privacy message &quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;secure-development-lifecycle&quot;&gt;Secure Development Lifecycle&lt;/h3&gt;
-
-&lt;p&gt;Secure from the start to the end and repeat. SDL is elemental to a sustainable security culture since it enables security to be integrated from the early stages of the development processes, and not as an afterthought at the very end of the delivery pipeline.&lt;/p&gt;
-
-&lt;p&gt;Running a product through SDL will build trustworthy solutions that have fewer security vulnerabilities.&lt;/p&gt;
-
-&lt;p&gt;The origin of most industry SDL implementations is the &lt;a href=&quot;https://www.microsoft.com/en-us/securityengineering/sdl/practices&quot;&gt;Microsoft program&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;SDL is sustainable security culture in action and answers how to embed security culture in development and product teams.&lt;/p&gt;
-
-&lt;h3 id=&quot;rewards&quot;&gt;Rewards&lt;/h3&gt;
-
-&lt;p&gt;Celebrate success and recognize the people that do the right thing for security. Positive reinforcement is an excellent practice to support the effort to build a community of security-aware employees.&lt;/p&gt;
-
-&lt;p&gt;Adding security-related goals to performance reviews will make reasonable security practices mandatory to employees.&lt;/p&gt;
-
-&lt;p&gt;A positive message to the entire organization is sent by giving employees with good risk awareness more freedom when making decisions. Distributing the responsibility for security is a significant goal of security culture and therefore has to be embedded in the program.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/culture_2.jpg&quot; alt=&quot;artistic picture with data privacy message &quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;automation&quot;&gt;Automation&lt;/h3&gt;
-
-&lt;p&gt;Organizations can support employees by adding security automation to software development and daily processes. This will not only make the employee’s job more comfortable but can also significantly improve the security posture.&lt;/p&gt;
-
-&lt;p&gt;Examples of good automation are security scanners, static code analysis, or automatically generated governance documents. Providing security plugins for the &lt;a href=&quot;https://en.wikipedia.org/wiki/Integrated_development_environment&quot;&gt;IDE&lt;/a&gt; of developers shifts the feedback to the left, and takes the frustration out of a later deployment process.&lt;/p&gt;
-
-&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
-
-&lt;p&gt;Security culture is an integral part of a corporate culture that encourages people to make decisions in alignment with the organization’s best interest.&lt;/p&gt;
-
-&lt;p&gt;It’s a long-term and never-ending endeavor to break down silo thinking and create a sense of companywide ownership for security.&lt;/p&gt;
-
-&lt;p&gt;Employees have to be seen as assets in this approach; they are the first line of defense.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/security-culture/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/security-culture/</guid>
         
         <category>technology</category>
         
