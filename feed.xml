@@ -5,8 +5,8 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Dec 2021 09:37:44 +0000</pubDate>
-    <lastBuildDate>Wed, 01 Dec 2021 09:37:44 +0000</lastBuildDate>
+    <pubDate>Wed, 01 Dec 2021 11:43:00 +0000</pubDate>
+    <lastBuildDate>Wed, 01 Dec 2021 11:43:00 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -19,7 +19,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/crypto.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The increasing popularity of bitcoin didn’t only bring a higher value to the digital currency but has also surfaced the inevitable problem. No system or decentralized system is built for acle to infinity.&lt;/p&gt;
+&lt;p&gt;The increasing popularity of bitcoin didn’t only bring a higher value to the digital currency but has also surfaced the inevitable problem. No system or decentralized system is built for scale in the beginning.&lt;/p&gt;
 
 &lt;p&gt;To better understand the issue we have to get a bit technical.&lt;/p&gt;
 
