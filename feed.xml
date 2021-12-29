@@ -5,9 +5,57 @@
     <description>technology, security, privacy and gear</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Dec 2021 20:35:09 +0000</pubDate>
-    <lastBuildDate>Wed, 01 Dec 2021 20:35:09 +0000</lastBuildDate>
+    <pubDate>Wed, 29 Dec 2021 11:14:05 +0000</pubDate>
+    <lastBuildDate>Wed, 29 Dec 2021 11:14:05 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Roundup - December 2021</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/inversegravity_og.png&quot; alt=&quot;logo&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;another-year-is-coming-to-an-end-and-we-start-a-new-format-here-on-inversegravity-kick-back-with-us-and-dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month-we-wish-you-all-the-best-for-2022&quot;&gt;Another year is coming to an end and we start a new format here on inversegravity. Kick back with us and dig into a selection of the best articles, code, and projects we found this past month. We wish you all the best for 2022!&lt;/h5&gt;
+
+&lt;h4 id=&quot;a-cisos-practical-advice-on-log4j&quot;&gt;A CISO’s Practical Advice on log4j&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/lamont-orange-99540a/&quot; target=&quot;_blank&quot;&gt;Lamont Orange&lt;/a&gt; gives some great advice on darkreading.com. He writes: “it’s easy to get weighed down in hype, marketing, and speculation and forget that there are important things we need to do, right now, to improve our posture, strengthen our team, and put us in a better position for the next Log4j.” Well-spoken, sir!
+&lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/log4j-a-ciso-s-practical-advice&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;ms-teams-1-feature-4-vulnerabilities&quot;&gt;MS Teams: 1 feature, 4 vulnerabilities&lt;/h4&gt;
+
+&lt;p&gt;Fabian Bräunlein and his team from &lt;a href=&quot;https://positive.security/&quot; target=&quot;_blank&quot;&gt;Positive Security&lt;/a&gt; stumbled upon 4 vulnerabilities in Microsoft Team’s link preview feature. The vulnerabilities allow accessing internal Microsoft services, spoofing the link preview, and, for Android users, leaking their IP address and running a DoS attack.
+&lt;a href=&quot;https://positive.security/blog/ms-teams-1-feature-4-vulns&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;cloud-security-breaches-and-vulnerabilities-2021-in-review&quot;&gt;Cloud Security Breaches and Vulnerabilities: 2021 in Review&lt;/h4&gt;
+
+&lt;p&gt;Christophe Tafani-Dereeper has written a great summary of common cloud security incidents. We especially appreciate his insight into the prevention and detection of these common misconfigurations.
+&lt;a href=&quot;https://blog.christophetd.fr/cloud-security-breaches-and-vulnerabilities-2021-in-review/&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;rc3-nowhere-2021---chaos-communication-congress&quot;&gt;rc3 Nowhere 2021 - Chaos Communication Congress&lt;/h4&gt;
+
+&lt;p&gt;The Chaos Communication Congress is the largest gathering of the hacker community in Europe. For the second time, the annual event was replaced by a virtual one due to COVID-19 restrictions. You can find the videos of the 2021 talks &lt;a href=&quot;https://media.ccc.de/c/rc3-2021&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. All the German language presentations are translated and some are held in English. We hope for the CCC folks (and us) that everything will be back to normal in 2022. &lt;a href=&quot;https://media.ccc.de/c/rc3-2021&quot; target=&quot;_blank&quot;&gt;&amp;gt;streaming link&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;fun-with-speckle-patterns-and-lasers&quot;&gt;Fun with speckle patterns (and lasers)&lt;/h4&gt;
+
+&lt;p&gt;Anfractuosity has an exciting project with lasers, a calculator, and a vice. He writes “The approach takes advantage of the fact that tiny surface deformations cause phase changes in reflected coherent light which alter the speckle pattern visible under laser illumination.” &lt;a href=&quot;https://www.anfractuosity.com/projects/fun-with-speckle-patterns/&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;that-toy-you-got-for-christmas-could-be-spying-on-you&quot;&gt;That Toy You Got for Christmas Could Be Spying on You&lt;/h4&gt;
+
+&lt;p&gt;Elizabeth Montalbano has written an interesting article about security flaws in the recently released Fisher-Price Chatter Bluetooth telephone. Keeping those kids protected! &lt;a href=&quot;https://threatpost.com/toy-christmas-spying/177288/&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;make-your-pc-notify-your-phone-whenever-there-is-movement-around-it&quot;&gt;Make Your PC Notify Your Phone Whenever There is Movement Around it&lt;/h4&gt;
+
+&lt;p&gt;Another great holiday project comes from c0d3x27. In the article, he/she describes how to use the camera of a computer with OpenCV to capture images and detect motion. &lt;a href=&quot;https://blog.devgenius.io/make-your-pc-notify-your-phone-whenever-there-is-movement-around-it-c6c4ccd734b7&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2021/roundup-122021/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2021/roundup-122021/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>The Scalability Problem Of Bitcoin</title>
@@ -524,17 +572,17 @@
   &lt;li&gt;Third-party coordinators such as CERT may assign CVE numbers for products not covered by other CNAs&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Independent researchers who discover a vulnerability and want to report it will find the relevant contact point in the &lt;a href=&quot;https://cve.mitre.org/cve/request_id.html&quot; target=&quot;_blank&quot;&gt;CNA overview&lt;/a&gt; on MITRE’s website.&lt;/p&gt;
+&lt;p&gt;Independent researchers who discover a vulnerability and want to report it will find the relevant contact point in the &lt;a href=&quot;https://www.cve.org/About/Process#CVERecordLifecycle&quot; target=&quot;_blank&quot;&gt;CNA overview&lt;/a&gt; on MITRE’s website.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/cvebanner.png&quot; alt=&quot;a server rack&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Once a new vulnerability is reported, the CNA will reserve an ID and enter it into the MITRE maintained &lt;a href=&quot;https://cve.mitre.org/cve/&quot; target=&quot;_blank&quot;&gt;CVE list&lt;/a&gt;. Once the vulnerability is confirmed and a detailed description is provided, the CVE is officially assigned.&lt;/p&gt;
+&lt;p&gt;Once a new vulnerability is reported, the CNA will reserve an ID and enter it into the MITRE maintained &lt;a href=&quot;https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEList#&quot; target=&quot;_blank&quot;&gt;CVE list&lt;/a&gt;. Once the vulnerability is confirmed and a detailed description is provided, the CVE is officially assigned.&lt;/p&gt;
 
 &lt;h3 id=&quot;additional-information-and-scoring&quot;&gt;Additional Information and Scoring&lt;/h3&gt;
 
 &lt;p&gt;The National Vulnerability Database (&lt;a href=&quot;https://nvd.nist.gov/&quot; target=&quot;_blank&quot;&gt;NVD&lt;/a&gt;) is an independent project launched in 2005 by the National Institute of Standards and Technology (&lt;a href=&quot;https://www.nist.gov/&quot; target=&quot;_blank&quot;&gt;NIST&lt;/a&gt;) and uses MITRE’s CVE list, but adds additional information to the rather brief descriptions, such as security risks or available updates.&lt;/p&gt;
 
-&lt;p&gt;For the infamous &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160&quot; target=&quot;_blank&quot;&gt;Heartbleed CVE&lt;/a&gt; for example, the &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2014-0160&quot; target=&quot;_blank&quot;&gt;NVD description&lt;/a&gt; provides information on how to fix it and a list of affected software versions.&lt;/p&gt;
+&lt;p&gt;For the infamous &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2014-0160&quot; target=&quot;_blank&quot;&gt;Heartbleed CVE&lt;/a&gt; for example, the &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2014-0160&quot; target=&quot;_blank&quot;&gt;NVD description&lt;/a&gt; provides information on how to fix it and a list of affected software versions.&lt;/p&gt;
 
 &lt;p&gt;One of the most important data the NVD provides is the so-called Common Vulnerability Scoring System (CVSS). Based on the path of attack and the complexity of the exploit, a scoring level from “Low” to “Critical” is assigned to each CVE.&lt;/p&gt;
 
@@ -758,87 +806,6 @@
         <category>security</category>
         
         <category>privacy</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Network Vulnerability Scanner</title>
-        <description>&lt;h5 id=&quot;networks-are-the-enabler-of-organizations-in-the-digital-age-the-dynamic-nature-of-on-premises-and-cloud-network-environments-requires-continuous-vulnerability-management-to-defend-against-the-ever-evolving-threat-landscape&quot;&gt;Networks are the enabler of organizations in the digital age. The dynamic nature of on-premises and cloud network environments requires continuous vulnerability management to defend against the ever evolving threat landscape.&lt;/h5&gt;
-
-&lt;p&gt;In this article, we’ll look at network scanning which is the process to identify and classify weaknesses in the network. It is a prerequisite for the successful mitigation of known vulnerabilities.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/radar.jpg&quot; alt=&quot;picture of a radar screen&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-a-vulnerability-scanner&quot;&gt;What is a vulnerability scanner?&lt;/h3&gt;
-
-&lt;p&gt;A vulnerability scanner is an application that detects the hosts in a network and attempts to identify the services that are exposed by those systems. This is often considered the reconnaissance phase of a scan.&lt;/p&gt;
-
-&lt;p&gt;It then tries to catalog the software version of detected services and checks them against databases of vulnerabilities to identify security weaknesses.&lt;/p&gt;
-
-&lt;p&gt;Some scanners will also attempt to exploit services by using default or well-known credentials and or test for other &lt;a href=&quot;/2019/owasp-top-10/&quot;&gt;common security risks&lt;/a&gt;. This step is the vulnerability verification phase.&lt;/p&gt;
-
-&lt;p&gt;All network hosts and their vulnerabilities are stored in an inventory and once the scan is finished a report is created which can be used to improve the security posture of the organization.&lt;/p&gt;
-
-&lt;p&gt;There is a large number of commercial and open-source scanners available. Each comes with individual strengths and weaknesses and some companies run multiple scanners to protect their network.&lt;/p&gt;
-
-&lt;h3 id=&quot;external-and-internal&quot;&gt;External and internal&lt;/h3&gt;
-
-&lt;p&gt;A network scan for vulnerabilities can be performed from inside a network or from outside the protected perimeters. Both approaches aim to identify flaws that an attack can exploit.&lt;/p&gt;
-
-&lt;p&gt;The scan from external will document the services and potential vulnerabilities that are accessible directly from the internet.&lt;/p&gt;
-
-&lt;p&gt;With the common occurrence of insecure cloud-based configurations, the external scans are especially important to gain confidence in the security posture of the setup.&lt;/p&gt;
-
-&lt;p&gt;Internal scans, on the other hand, aim to identify weaknesses inside the network and support a defense in depth security approach. These scans protect against threat actors or hackers that have already gained access to the local networki and try to exploit more systems.&lt;/p&gt;
-
-&lt;h3 id=&quot;tsunami---a-open-source-network-security-scanner&quot;&gt;Tsunami - a open-source network security scanner&lt;/h3&gt;
-
-&lt;p&gt;Google has released a general-purpose network security scanner for detecting vulnerabilities. The project is called &lt;a href=&quot;https://github.com/google/tsunami-security-scanner/blob/master/docs/index.md&quot; target=&quot;_blank&quot;&gt;Tsunami&lt;/a&gt; and is maintained by the open-source community on &lt;a href=&quot;https://github.com/google/tsunami-security-scanner&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tsunami.jpg&quot; alt=&quot;Tsunami by hokusai 19th century&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It uses &lt;a href=&quot;https://nmap.org/&quot; target=&quot;_blank&quot;&gt;nmap&lt;/a&gt; for the reconnaissance phase and tests for known passwords with &lt;a href=&quot;https://nmap.org/ncrack/&quot; target=&quot;_blank&quot;&gt;ncrack&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Currently, the &lt;a href=&quot;https://github.com/google/tsunami-security-scanner-plugins&quot; target=&quot;_blank&quot;&gt;plugins&lt;/a&gt; for the exploitation of vulnerabilities are rather limited but this is expected to change in the coming months.&lt;/p&gt;
-
-&lt;p&gt;Tsunami is a great way to get started with scanning networks for vulnerabilities. The project encourages collaboration and anyone can support it by adding &lt;a href=&quot;https://github.com/google/tsunami-security-scanner/blob/master/docs/howto.md#create_plugins&quot; target=&quot;_blank&quot;&gt;detectors&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;other-network-security-measures&quot;&gt;Other network security measures&lt;/h3&gt;
-
-&lt;p&gt;Scanning for known vulnerabilities is sometimes confused with other security measures. It is worthwhile to understand the different procedures and their purpose.&lt;/p&gt;
-
-&lt;h5 id=&quot;penetration-test&quot;&gt;Penetration Test&lt;/h5&gt;
-
-&lt;p&gt;It depends on the scope but in general a penetration test is a simulated cyberattack on computer systems, processes, and employees to evaluate the overall security posture of an organization. The tools and techniques used in such a pentest are the same a hacker would use.&lt;/p&gt;
-
-&lt;p&gt;Penetration tests can surface complex security weaknesses that require coordinated human activities, rather than the execution of automated code.&lt;/p&gt;
-
-&lt;h5 id=&quot;application-security-test&quot;&gt;Application Security Test&lt;/h5&gt;
-
-&lt;p&gt;A specialized vulnerability test for applications that include the analysis of the source code. Application security testing is effective in detecting known security issues with &lt;a href=&quot;/2019/software-supply-chain-security/&quot; target=&quot;_blank&quot;&gt;software-components&lt;/a&gt; or hardcoded passwords.&lt;/p&gt;
-
-&lt;p&gt;There is static security testing (SAST) which aims in testing code before compilation and dynamic security testing (DAST) which examines the application during run-time.&lt;/p&gt;
-
-&lt;h5 id=&quot;threat-detection&quot;&gt;Threat Detection&lt;/h5&gt;
-
-&lt;p&gt;The goal of this activity is the detection of malicious activities in the network. It includes the search for compromised systems, discovering the exfiltration of data, and the unmasking of malicious user behavior.&lt;/p&gt;
-
-&lt;p&gt;The tools of the trade are a sophisticated &lt;a href=&quot;https://en.wikipedia.org/wiki/Security_information_and_event_management&quot; target=&quot;_blank&quot;&gt;SIEM&lt;/a&gt; system, the monitoring of indicators and adaptive scanning for changes in the network.&lt;/p&gt;
-
-&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
-
-&lt;p&gt;Misconfigurations and security vulnerabilities are actively exploited by attackers. Knowledge about the weaknesses in a network is the first step in a successful mitigation.&lt;/p&gt;
-
-&lt;p&gt;Vulnerability scanning is therefore an important activity to improve the security of an organization’s network.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/vulnerability-scanner/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/vulnerability-scanner/</guid>
-        
-        <category>technology</category>
-        
-        <category>security</category>
         
         
       </item>
