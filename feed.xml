@@ -2,15 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>technology, security, privacy and gear</description>
+    <description>blog about the field of security</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Dec 2021 16:18:56 +0000</pubDate>
-    <lastBuildDate>Wed, 29 Dec 2021 16:18:56 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Jan 2022 18:41:04 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Jan 2022 18:41:04 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
-        <title>Roundup - December 2021</title>
+        <title>January 2022 Roundup</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/inversegravity.png&quot; alt=&quot;logo&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
+
+&lt;h4 id=&quot;log4j-newest-vulnerability-in-log4j-2170-more-hype-than-substance&quot;&gt;Log4j: Newest Vulnerability in Log4j 2.17.0 more hype than substance&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/breadchris&quot; target=&quot;_blank&quot;&gt;Chris Thompson&lt;/a&gt; has an insightful article about the current hype on log4j. With as much attention as there is now on the Log4j project, it can be difficult to truly understand the impact of the recently disclosed vulnerabilities when they are being compared against the original Log4Shell vulnerability, a perfect 10/10 severity. The latest vulnerabilities found in log4j 2.17.0 are much less serious. 
+&lt;a href=&quot;https://www.lunasec.io/docs/blog/log4j-hype-train/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;vulcano-breaks-communication-with-the-archipelago-tonga&quot;&gt;Vulcano breaks communication with the archipelago Tonga&lt;/h4&gt;
+
+&lt;p&gt;The massive eruption of the Hunga Tonga-Hunga Haʻapai volcano in Tonga in the Pacific damaged several submarine cables. This is reported by New Zealand media referencing to various operators of submarine cables in the South Pacific. It is feared that the island state of Tonga will remain largely cut off from the Internet for at least several weeks.
+&lt;a href=&quot;https://www.stuff.co.nz/world/south-pacific/127517682/cable-repair-ship-to-set-sail-from-png-to-restore-communications-to-tonga&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;never-before-seen-cross-platform-rat-discovered&quot;&gt;Never-before-seen cross-platform RAT discovered&lt;/h4&gt;
+
+&lt;p&gt;Researchers have uncovered a remote access trojan (RAT) written from scratch for systems running Windows, macOS, or Linux that remained undetected by virtually all malware scanning engines. The discovery is significant for several reasons and is described in detail in the following article.
+&lt;a href=&quot;https://arstechnica.com/information-technology/2022/01/backdoor-for-windows-macos-and-linux-went-undetected-until-now/1&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;10-real-world-stories-of-compromised-cicd-pipelines&quot;&gt;10 real-world stories of compromised CI/CD pipelines&lt;/h4&gt;
+
+&lt;p&gt;Build pipelines are highly-privileged targets with a substantial attack surface. Not only does this article by nccgroup detail the exploits and deficiencies, but lays out clear actionable steps to remedy them. &lt;a href=&quot;https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;patchmanagement---a-comprehensive-series&quot;&gt;Patchmanagement - a comprehensive series&lt;/h4&gt;
+
+&lt;p&gt;Unpatched known vulnerabilities remain one of the most common attack vectors in today’s cyberattacks. The insightful series of articles on darkreading covers the evolution of patchmanagement, the risk-based approach we are all used to today, and an outlook to the future development of keeping systems updated. &lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/the-evolution-of-patch-management-how-and-when-it-got-so-complicated&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;threat-intelligence---free-and-open-source&quot;&gt;Threat intelligence - free and open-source&lt;/h4&gt;
+
+&lt;p&gt;Matthew Sullivan has created a community-driven alerting system for high-impact vulnerabilities. We think this is an amazing alternative to commercial threat intelligence systems and worth supporting. &lt;a href=&quot;https://mattslifebytes.com/2022/01/04/bugalert-org/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;we-purchased-a-machine-from-china-and-it-came-with-malware-preinstalled&quot;&gt;We purchased a machine from China and it came with malware preinstalled&lt;/h4&gt;
+
+&lt;p&gt;We want to end this roundup with a hilarious and informative story from the folks at rmcybernetics. They ordered a small Pick and Place machine from AliExpress and found malware preinstalled.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.rmcybernetics.com/general/zhengbang-zb3245tss-pick-place-machine&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/roundup-012022/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-012022/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>December 2021 Roundup</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/images/inversegravity.png&quot; alt=&quot;logo&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;another-year-is-coming-to-an-end-and-we-start-a-new-format-here-on-inversegravity-kick-back-with-us-and-dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month-we-wish-you-all-the-best-for-2022&quot;&gt;Another year is coming to an end and we start a new format here on inversegravity. Kick back with us and dig into a selection of the best articles, code, and projects we found this past month. We wish you all the best for 2022!&lt;/h5&gt;
@@ -18,17 +68,17 @@
 &lt;h4 id=&quot;a-cisos-practical-advice-on-log4j&quot;&gt;A CISO’s Practical Advice on log4j&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/lamont-orange-99540a/&quot; target=&quot;_blank&quot;&gt;Lamont Orange&lt;/a&gt; gives some great advice on darkreading.com. He writes: “it’s easy to get weighed down in hype, marketing, and speculation and forget that there are important things we need to do, right now, to improve our posture, strengthen our team, and put us in a better position for the next Log4j.” Well-spoken, sir!
-&lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/log4j-a-ciso-s-practical-advice&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/log4j-a-ciso-s-practical-advice&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;ms-teams-1-feature-4-vulnerabilities&quot;&gt;MS Teams: 1 feature, 4 vulnerabilities&lt;/h4&gt;
 
 &lt;p&gt;Fabian Bräunlein and his team from &lt;a href=&quot;https://positive.security/&quot; target=&quot;_blank&quot;&gt;Positive Security&lt;/a&gt; stumbled upon 4 vulnerabilities in Microsoft Team’s link preview feature. The vulnerabilities allow accessing internal Microsoft services, spoofing the link preview, and, for Android users, leaking their IP address and running a DoS attack.
-&lt;a href=&quot;https://positive.security/blog/ms-teams-1-feature-4-vulns&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://positive.security/blog/ms-teams-1-feature-4-vulns&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;cloud-security-breaches-and-vulnerabilities-2021-in-review&quot;&gt;Cloud Security Breaches and Vulnerabilities: 2021 in Review&lt;/h4&gt;
 
 &lt;p&gt;Christophe Tafani-Dereeper has written a great summary of common cloud security incidents. We especially appreciate his insight into the prevention and detection of these common misconfigurations.
-&lt;a href=&quot;https://blog.christophetd.fr/cloud-security-breaches-and-vulnerabilities-2021-in-review/&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://blog.christophetd.fr/cloud-security-breaches-and-vulnerabilities-2021-in-review/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;ccc-rc3-nowhere-2021&quot;&gt;CCC rc3 Nowhere 2021&lt;/h4&gt;
 
@@ -36,15 +86,15 @@
 
 &lt;h4 id=&quot;fun-with-speckle-patterns-and-lasers&quot;&gt;Fun with speckle patterns (and lasers)&lt;/h4&gt;
 
-&lt;p&gt;Anfractuosity has an exciting project with lasers, a calculator, and a vice. He writes “The approach takes advantage of the fact that tiny surface deformations cause phase changes in reflected coherent light which alter the speckle pattern visible under laser illumination.” &lt;a href=&quot;https://www.anfractuosity.com/projects/fun-with-speckle-patterns/&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anfractuosity has an exciting project with lasers, a calculator, and a vice. He writes “The approach takes advantage of the fact that tiny surface deformations cause phase changes in reflected coherent light which alter the speckle pattern visible under laser illumination.” &lt;a href=&quot;https://www.anfractuosity.com/projects/fun-with-speckle-patterns/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;that-toy-you-got-for-christmas-could-be-spying-on-you&quot;&gt;That Toy You Got for Christmas Could Be Spying on You&lt;/h4&gt;
 
-&lt;p&gt;Elizabeth Montalbano has written an interesting article about security flaws in the recently released Fisher-Price Chatter Bluetooth telephone. Keeping those kids protected! &lt;a href=&quot;https://threatpost.com/toy-christmas-spying/177288/&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Elizabeth Montalbano has written an interesting article about security flaws in the recently released Fisher-Price Chatter Bluetooth telephone. Keeping those kids protected! &lt;a href=&quot;https://threatpost.com/toy-christmas-spying/177288/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;make-your-pc-notify-your-phone-whenever-there-is-movement-around-it&quot;&gt;Make Your PC Notify Your Phone Whenever There is Movement Around it&lt;/h4&gt;
 
-&lt;p&gt;Another great holiday project comes from c0d3x27. In the article, he/she describes how to use the camera of a computer with OpenCV to capture images and detect motion. &lt;a href=&quot;https://blog.devgenius.io/make-your-pc-notify-your-phone-whenever-there-is-movement-around-it-c6c4ccd734b7&quot; target=&quot;_blank&quot;&gt;&amp;gt;full article&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Another great holiday project comes from c0d3x27. In the article, he/she describes how to use the camera of a computer with OpenCV to capture images and detect motion. &lt;a href=&quot;https://blog.devgenius.io/make-your-pc-notify-your-phone-whenever-there-is-movement-around-it-c6c4ccd734b7&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2021/roundup-122021/</link>
@@ -707,105 +757,6 @@
         <guid isPermaLink="true">https://inversegravity.net/2020/progressive-web-app/</guid>
         
         <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Data Anonymization</title>
-        <description>&lt;h5 id=&quot;companies-use-data-science-and-analytics-to-improve-their-services-and-products-it-makes-a-lot-of-sense-to-measure-what-users-like-and-only-build-what-people-want-to-use&quot;&gt;Companies use data science and analytics to improve their services and products. It makes a lot of sense to measure what users like and only build what people want to use.&lt;/h5&gt;
-
-&lt;p&gt;But the collected data can be very sensitive and undermine the rights of users if a data loss occurs. Data privacy laws, therefore, &lt;a href=&quot;https://gdpr-info.eu/art-32-gdpr/&quot; target=&quot;_blank&quot;&gt;dictate&lt;/a&gt; appropriate technical and organizational measures to ensure a level of security appropriate to the risk.&lt;/p&gt;
-
-&lt;p&gt;Many organizations can’t afford highly restricted environments and are left with either limited data analytics or the risk of a data leak and resulting &lt;a href=&quot;https://gdpr-info.eu/issues/fines-penalties/&quot; target=&quot;_blank&quot;&gt;penalties&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;One way to protect data subjects and combine business needs with user rights is anonymization and in this article, we’ll gonna take a look at it.&lt;/p&gt;
-
-&lt;h3 id=&quot;history&quot;&gt;History&lt;/h3&gt;
-
-&lt;p&gt;One of the oldest methods of anonymization is the removal (suppression) of direct personal identifiers from the data such as names or phone numbers.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/anon_1.png&quot; alt=&quot;anonymization by removing the name&quot; style=&quot;float: left; width:60%; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Until 1997, the resulting dataset was considered more or less anonymized and hospitals in the US, for example, released such data to the public.&lt;/p&gt;
-
-&lt;p&gt;But then &lt;a href=&quot;https://en.wikipedia.org/wiki/Latanya_Sweeney&quot; target=&quot;_blank&quot;&gt;Latanya Sweeney&lt;/a&gt; entered the stage and conducted a re-identification experiment.&lt;/p&gt;
-
-&lt;p&gt;She &lt;a href=&quot;https://dataprivacylab.org/projects/identifiability/paper1.pdf&quot; target=&quot;_blank&quot;&gt;successfully&lt;/a&gt; re-identified individuals by combining public medical records with other accessible records.&lt;/p&gt;
-
-&lt;p&gt;The “linkage attack” was born, where adversaries collect information from multiple data sources and then combine that data to re-create personally identifiable information.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/anon_2.png&quot; alt=&quot;linkage attack&quot; style=&quot;float: left; width:45%; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Latanya Sweeney conducted more research on re-identification and was met with publication challenges. The fear was that she is publicly exposing a serious issue with no known solution.&lt;/p&gt;
-
-&lt;p&gt;In 2017, Forbes named Sweeney one of the most influential women in technology.&lt;/p&gt;
-
-&lt;p&gt;The concept of removing names and direct identifiers is considered pseudonymization if at all. Working with this data requires organizations to control the risk of a data breach since disclosure would affect the users rights.&lt;/p&gt;
-
-&lt;h3 id=&quot;anonymization&quot;&gt;Anonymization&lt;/h3&gt;
-
-&lt;p&gt;Today, organizations have to provide evidence for anonymization since it exempts the business from strict data-privacy requirements. It has to be clearly documented why data subjects can no longer be identified directly or indirectly from the dataset.&lt;/p&gt;
-
-&lt;p&gt;Most successful anonymization efforts involve the application of multiple techniques.&lt;/p&gt;
-
-&lt;h3 id=&quot;k-anonymity-protection-model&quot;&gt;K-Anonymity protection model&lt;/h3&gt;
-
-&lt;p&gt;The concept of k-anonymity was first introduced by Latanya Sweeney and Pierangela Samarati in a &lt;a href=&quot;https://dataprivacylab.org/dataprivacy/projects/kanonymity/kanonymity.pdf&quot; target=&quot;_blank&quot;&gt;paper&lt;/a&gt; published in 1998.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Data is said to have the k-anonymity property if the information for each person contained in the release cannot be distinguished from at least k - 1 individuals whose information also appear in the release.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The more personal attributes in a dataset, the harder it is to accomplish k-anonymity over all the attributes combined. Let’s consider this table of fictitious patient records.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/anon_3.png&quot; alt=&quot;fictitious nonanonymized patient records&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The two common methods to support k-anonymity are:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Suppression&lt;/strong&gt; means that the values of attributes are replaced by a wildcard.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Generalization&lt;/strong&gt; describes the replacement of individual values of attributes to a broader category.&lt;/p&gt;
-
-&lt;p&gt;In the following table we accomplished a 2-anonymity with respect to ‘Age’ and “Gender’ since for any combination of these attributes there are always at least 2 rows with the same value.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/anon_4.png&quot; alt=&quot;patient records with 2-anonymity&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The attributes ‘Age’ and ‘Gender’ are quasi-identifiers and when combined, can support re-identification to yield personally-identifying information. Each tuple of quasi-identifiers has to occur at least in k records of a dataset to accomplish k-anonymity.&lt;/p&gt;
-
-&lt;p&gt;K-anonymity is a promising approach for group-based anonymization given its simplicity, it is however susceptible to attacks. When background knowledge is available an attacker can use it to re-identify people. In the above example, background knowledge about the disease can support an attack on the anonymity of individuals.&lt;/p&gt;
-
-&lt;p&gt;Given the existence of such attacks where sensitive attributes may be inferred from k-anonymity data, the following methods have been created to further k-anonymity by additionally maintaining the diversity and closeness of sensitive fields.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The l-diversity Principle&lt;/strong&gt; An equivalence class is said to have l-diversity if there are at least l “well-represented” values for the sensitive attribute. A table is said to have l-diversity if every equivalence class of the table has l-diversity.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The t-closeness Principle&lt;/strong&gt; An equivalence class is said to have t-closeness if the distance between the distribution of a sensitive attribute in this class and the distribution of the attribute in the whole table is no more than a threshold t. A table is said to have t-closeness if all equivalence classes have t-closeness.&lt;/p&gt;
-
-&lt;h3 id=&quot;differential-privacy&quot;&gt;Differential Privacy&lt;/h3&gt;
-
-&lt;p&gt;This technique was developed by cryptographers and draws much of its language from cryptography. Simply put differential privacy introduces two methods to balance data usefulness and privacy protection.&lt;/p&gt;
-
-&lt;p&gt;First, an algorithm injects random noise into a data set to protect the privacy of an individual. The noise is small enough to enable analysts and researchers to provide useful insights.&lt;/p&gt;
-
-&lt;p&gt;Secondly, the amount of information revealed is calculated and deducted from a so-called privacy-loss budget. The reference book for differential privacy is “&lt;a href=&quot;https://www.amazon.de/Algorithmic-Foundations-Differential-Theoretical-Computer/dp/1601988184/ref=sr_1_1?dchild=1&amp;amp;keywords=Algorithmic+Foundations+of+Differential+Privacy%22&amp;amp;qid=1596537123&amp;amp;sr=8-1&quot; target=&quot;_blank&quot;&gt;The Algorithmic Foundations of Differential Privacy&lt;/a&gt;” by Aaron Roth.&lt;/p&gt;
-
-&lt;p&gt;Apple has released a &lt;a href=&quot;https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf&quot; target=&quot;_blank&quot;&gt;whitepaper&lt;/a&gt; describing &lt;em&gt;local differential privacy&lt;/em&gt;. The interesting twist here is that the noise is added on the users’ smartphone even before the data is sent to the Apple backend servers.&lt;/p&gt;
-
-&lt;p&gt;An interesting approach we have been discussing in the posting &lt;a href=&quot;/2020/privacy-client-shift/&quot; target=&quot;_blank&quot;&gt;System Architecture - Shift To The Client&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
-
-&lt;p&gt;The challenge of privacy-preserving data analysis has a long history. As data about individuals is more detailed than ever, the need for a robust approach to data anonymization is no longer optional.&lt;/p&gt;
-
-&lt;p&gt;The clever matching of different data collections and resulting de-anonymization threatens any approach. Organizations have to innovate and underline how they handle the obtained user data responsibly.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/data-anonymization/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/data-anonymization/</guid>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        <category>privacy</category>
         
         
       </item>
