@@ -5,9 +5,91 @@
     <description>blog about the field of security</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Jan 2022 13:26:35 +0000</pubDate>
-    <lastBuildDate>Fri, 28 Jan 2022 13:26:35 +0000</lastBuildDate>
+    <pubDate>Mon, 31 Jan 2022 07:30:38 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Jan 2022 07:30:38 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Cloud &amp; Schrems II: What now?</title>
+        <description>&lt;h5 id=&quot;cloud-computing-has-been-one-of-the-most-disruptive-technologies-in-the-last-decade-unprecedented-flexibility-scalability-and-cost-effectiveness-seduced-organizations-to-equate-digital-transformation-with-cloud-migration&quot;&gt;Cloud computing has been one of the most disruptive technologies in the last decade. Unprecedented flexibility, scalability, and cost-effectiveness seduced organizations to equate digital transformation with cloud migration.&lt;/h5&gt;
+
+&lt;h5 id=&quot;but-in-2020-the-bright-future-of-cloud-computing-darkened-when-the-eu-court-of-justice-cjeu-invalidated-the-transfer-deal-privacy-shield-the-legal-foundation-on-which-eu-companies-outsourced-to-us-cloud-providers&quot;&gt;But in 2020, the bright future of cloud computing darkened when the EU Court of Justice (CJEU) invalidated the transfer deal “Privacy Shield”, the legal foundation on which EU companies outsourced to US cloud providers.&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/schrems2.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;this-so-called-schrems-ii-ruling-leaves-many-companies-in-an-awkward-situation-us-cloud-providers-are-mostly-no-help-and-retreat-to-mere-lip-services&quot;&gt;This so-called Schrems II ruling leaves many companies in an awkward situation. US cloud providers are mostly no help and retreat to mere lip services.&lt;/h5&gt;
+
+&lt;p&gt;No false conclusions should be drawn from the supposed inaction of the data protection authorities. In the case of the USA in particular, the CJEU’s ruling has given the supervisory authorities clear guidelines that leave little room for discretion.&lt;/p&gt;
+
+&lt;p&gt;In this article, we describe technical measures that organizations can take to continue the use of US cloud providers post-Schrems II.&lt;/p&gt;
+
+&lt;h3 id=&quot;tldr-schrems-ii--us-cloud-act&quot;&gt;TL;DR Schrems II &amp;amp; US Cloud Act&lt;/h3&gt;
+
+&lt;p&gt;Large US companies, such as Microsoft, Amazon, or Google, advertise that they have an EU subsidiary with server locations in Europe, which means that no transfer to the USA would take place.&lt;/p&gt;
+
+&lt;p&gt;However, the Schrems II ruling states that a server located in the EU does not protect against US laws: The &lt;a href=&quot;https://en.wikipedia.org/wiki/CLOUD_Act&quot; target=&quot;_blank&quot;&gt;CLOUD Act&lt;/a&gt; authorizes US authorities to access data stored by US service providers and their subsidiaries outside the USA - even if this represents a conflict with local national law.&lt;/p&gt;
+
+&lt;p&gt;The CJEU notes that data protection standards, in general, cannot be guaranteed when outsourcing to US providers. US law is incompatible with the requirements of EU consumer rights..&lt;/p&gt;
+
+&lt;p&gt;Under the GDPR, EU businesses have to prevent unauthorized access to personal data. What’s new about Schrems II, however, is that this time we do not have to fear hackers or human error, but American law enforcement. The cloud environment has become hostile territory.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at some technical safeguards for the post Schrems II era.&lt;/p&gt;
+
+&lt;h3 id=&quot;assessment-and-classification&quot;&gt;Assessment And Classification&lt;/h3&gt;
+
+&lt;p&gt;The first task, in any case, is an honest evaluation of the situation to plan for supplementary measures.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What cloud providers are used?&lt;/li&gt;
+  &lt;li&gt;What processes are outsourced to the provider?&lt;/li&gt;
+  &lt;li&gt;Which laws apply to the service provider?&lt;/li&gt;
+  &lt;li&gt;Is the privacy and security policy appropriate?&lt;/li&gt;
+  &lt;li&gt;What type of data is transferred?&lt;/li&gt;
+  &lt;li&gt;Do we need a data processing agreement?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Organizations are well-advised to maintain a detailed list of suppliers and sub-suppliers. The full outsourcing chain has to be considered. For example, an EU-based HR software provider can potentially run on a US infrastructure service (IaaS).&lt;/p&gt;
+
+&lt;h3 id=&quot;anonymization&quot;&gt;Anonymization&lt;/h3&gt;
+
+&lt;p&gt;Completely anonymized data is not protected by the GDPR and can consequently be transferred to US cloud providers. The challenge is to preserve the usability of such anonymized data.&lt;/p&gt;
+
+&lt;p&gt;OpenSource tools such as &lt;a href=&quot;https://arx.deidentifier.org/&quot; target=&quot;_blank&quot;&gt;ARX&lt;/a&gt; are very helpful in building proper documentation and help businesses to strike the right balance between anonymization and data usability. Proof for the anonymization must be defendable against objections from data authorities.&lt;/p&gt;
+
+&lt;h3 id=&quot;smart-clients&quot;&gt;Smart Clients&lt;/h3&gt;
+
+&lt;p&gt;We have written a whole article on this topic here: &lt;a href=&quot;/2020/privacy-client-shift/&quot; target=&quot;_blank&quot;&gt;Shift To The Client&lt;/a&gt;. Smart Client architecture emphasizes the client over the backend when it comes to the processing and storage of personal data.&lt;/p&gt;
+
+&lt;p&gt;This approach has, for example, been chosen for the official German &lt;a href=&quot;https://en.wikipedia.org/wiki/Corona-Warn-App&quot; target=&quot;_blank&quot;&gt;COVID-19 contact tracing app&lt;/a&gt;. The app is not supported by a centralized storage system and anonymized data is only shared when a warning to other users is initiated.&lt;/p&gt;
+
+&lt;p&gt;Decentralized architecture and smart clients are a much too rarely considered possibility when planning for a business case. With Schrems II, however, the traditional client-server architecture will be a challenge in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;provider-independent-encryption&quot;&gt;Provider Independent Encryption&lt;/h3&gt;
+
+&lt;p&gt;Cloud providers make key management easy to use with integrated services. But this doesn’t address the underlying issue of Schrems II since the key ownership stays with the cloud provider and therefore enables the provider to decrypt any sensitive data in transit or storage.&lt;/p&gt;
+
+&lt;p&gt;Provider independent encryption (or key management) on the other hand is a suitable approach to prevent unauthorized access. Organizations with such a system can effectively block cloud providers from reading sensitive data.&lt;/p&gt;
+
+&lt;p&gt;A great solution for cloud storage solutions like Google Drive or Dropbox is the usage of key management services like &lt;a href=&quot;https://cryptomator.org/&quot; target=&quot;_blank&quot;&gt;Cryptomator&lt;/a&gt; or &lt;a href=&quot;https://www.boxcryptor.com/en/&quot; target=&quot;_blank&quot;&gt;Boxcryptor&lt;/a&gt;. These tools hide the content of files from the storage provider by implementing full end-to-end encryption (e2ee).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cryptomator.org/img/home/split-screenshots.png&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;We have highlighted some technical ideas that can serve as a starting point for a cloud outsourcing approach in line with the GDPR. However, the most important question is if every single outsourcing project needs to be done with a US provider or whether there is not a suitable EU solution.&lt;/p&gt;
+
+&lt;p&gt;Choose your battles carefully. The days of pragmatically transferring data to vendors and configuring something that somehow worked are over.&lt;/p&gt;
+
+&lt;p&gt;The future of outsourcing to the cloud lies in the deliberate planning of processing activities and supplementary measures to secure a run-of-the-mill cloud service.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/cloud-post-schrems2/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/cloud-post-schrems2/</guid>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>January 2022 Roundup</title>
@@ -716,47 +798,6 @@
         <category>technology</category>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Progressive Web Application</title>
-        <description>&lt;h5 id=&quot;we-are-living-in-the-age-of-the-smartphone-and-native-apps-are-often-built-in-a-programming-language-specific-to-the-mobile-operating-system-a-progressive-web-application-pwa-on-the-other-hand-is-delivered-through-the-web-and-based-on-common-web-technologies&quot;&gt;We are living in the age of the smartphone and native apps are often built in a programming language specific to the mobile operating system. A Progressive Web Application (PWA), on the other hand, is delivered through the web and based on common web technologies.&lt;/h5&gt;
-
-&lt;p&gt;PWA is intended to work on any platform and with any browser. The functionality includes working offline, push notifications, and even hardware access thus enabling user experiences similar to native applications on desktop and mobile devices.&lt;/p&gt;
-
-&lt;p&gt;There is no need for developers or users to install a PWA via proprietary distribution systems like Google Play or Apple App Store.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-and-how-to-pwa&quot;&gt;Why And How To PWA&lt;/h3&gt;
-
-&lt;p&gt;Native apps on Apple iOS use Swift and Android apps are based on Java. Organizations that want to support both platforms are quickly confronted with having to build two expensive teams. Keeping both applications aligned is a neverending endeavor. There is no easy way to build one application and publish it to all the stores.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/iphone.png&quot; alt=&quot;screenshot iOS screen&quot; style=&quot;float: left; width:45%; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Progressive web applications on the other hand are a great way to have just that, a single app to rule them all and users might not even know that they are using a web-based app instead of a native one.&lt;/p&gt;
-
-&lt;p&gt;According to the Google &lt;a href=&quot;https://web.dev/what-are-pwas/&quot; target=&quot;_blank&quot;&gt;web.dev&lt;/a&gt; blog, the characteristics of a PWA are: capable, reliable, installable, and safe. The experience requires speed, network independence, and security from the web-based application.&lt;/p&gt;
-
-&lt;p&gt;The building blocks are:&lt;/p&gt;
-
-&lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/serviceworker&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;service worker&lt;/strong&gt;&lt;/a&gt; that handles network requests and the caching of assets to support an offline experience with the web application.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://letsencrypt.org/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Transport encryption&lt;/strong&gt;&lt;/a&gt; for the network connection via TLS/HTTPS for all components of the website, which should be a standard today.&lt;/p&gt;
-
-&lt;p&gt;A &lt;a href=&quot;https://www.pwabuilder.com/generate&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;manifest&lt;/strong&gt;&lt;/a&gt; file in JSON format to control the app appearance.&lt;/p&gt;
-
-&lt;p&gt;Any website can become a PWA by satisfying the &lt;a href=&quot;https://www.pwabuilder.com&quot; target=&quot;_blank&quot;&gt;PWA checklist&lt;/a&gt;. Once all the requirements are met, the app can be downloaded to devices and mimics a native application.&lt;/p&gt;
-
-&lt;p&gt;Not having to maintain separate native applications makes PWA especially interesting for small organizations. Major web frameworks like Angular, React or Jekyll enable developers to easily create a PWA, and all major mobile and non-mobile operating systems support the technology.&lt;/p&gt;
-
-&lt;p&gt;Inversegravity is now available as a PWA. We support web-applications and like to evade any iOS vs. Android rivalry.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/progressive-web-app/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/progressive-web-app/</guid>
-        
-        <category>technology</category>
         
         
       </item>
