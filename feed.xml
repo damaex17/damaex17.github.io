@@ -5,8 +5,8 @@
     <description>blog about the field of security</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Jan 2022 07:30:38 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Jan 2022 07:30:38 +0000</lastBuildDate>
+    <pubDate>Mon, 31 Jan 2022 08:49:08 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Jan 2022 08:49:08 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -29,7 +29,7 @@
 
 &lt;p&gt;However, the Schrems II ruling states that a server located in the EU does not protect against US laws: The &lt;a href=&quot;https://en.wikipedia.org/wiki/CLOUD_Act&quot; target=&quot;_blank&quot;&gt;CLOUD Act&lt;/a&gt; authorizes US authorities to access data stored by US service providers and their subsidiaries outside the USA - even if this represents a conflict with local national law.&lt;/p&gt;
 
-&lt;p&gt;The CJEU notes that data protection standards, in general, cannot be guaranteed when outsourcing to US providers. US law is incompatible with the requirements of EU consumer rights..&lt;/p&gt;
+&lt;p&gt;The CJEU notes that data protection standards, in general, cannot be guaranteed when outsourcing to US providers. US law is incompatible with the requirements of EU consumer rights.&lt;/p&gt;
 
 &lt;p&gt;Under the GDPR, EU businesses have to prevent unauthorized access to personal data. What’s new about Schrems II, however, is that this time we do not have to fear hackers or human error, but American law enforcement. The cloud environment has become hostile territory.&lt;/p&gt;
 
