@@ -2,12 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>blog about the field of security</description>
+    <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Jan 2022 08:49:08 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Jan 2022 08:49:08 +0000</lastBuildDate>
+    <pubDate>Mon, 21 Feb 2022 17:12:56 +0000</pubDate>
+    <lastBuildDate>Mon, 21 Feb 2022 17:12:56 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>February 2022 Roundup</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/inversegravity.png&quot; alt=&quot;logo&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;cybersecurity-has-always-been-about-recognizing-and-responding-to-new-developments-each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Cybersecurity has always been about recognizing and responding to new developments. Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
+
+&lt;h4 id=&quot;stop-storing-secrets-in-environment-variables&quot;&gt;Stop Storing Secrets In Environment Variables!&lt;/h4&gt;
+
+&lt;p&gt;Matt Hamilton argues that an application is the most trustworthy at initialization before the execution of business logic. He suggests utilizing ephemeral filesystems to provide secrets to an application. A very interesting article that got a lot of attention. &lt;a href=&quot;https://blog.forcesunseen.com/stop-storing-secrets-in-environment-variables&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-beautiful-complexity-of-the-sha256-algorithm&quot;&gt;The beautiful complexity of the SHA256 Algorithm&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/manceraio&quot; target=&quot;_blank&quot;&gt;Domingo Martin&lt;/a&gt; presents on his website the inner workings of the SHA256 hashing algorithm. Knowing the theory is one thing but having such an engaging graphical representation is quite a treat!
+&lt;a href=&quot;https://sha256algorithm.com/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;how-i-hacked-a-hardware-crypto-wallet-and-recovered-2-million&quot;&gt;How I hacked a hardware crypto wallet and recovered $2 million&lt;/h4&gt;
+
+&lt;p&gt;A very entertaining video reached us from &lt;a href=&quot;https://twitter.com/joegrand&quot; target=&quot;_blank&quot;&gt;Joe Grand&lt;/a&gt; aka Kingpin. The video is running us through the hack of a Trezor One hardware wallet to recover $2 million in cryptocurrency (THETA). Joe uses a technique called fault-injection - also known as glitching — to undermine the security protection of the wallet. &lt;a href=&quot;https://www.youtube.com/watch?v=dT9y-KQbqi4&quot; target=&quot;_blank&quot;&gt;&amp;gt;watch&amp;lt;&lt;/a&gt;&lt;a href=&quot;https://www.theverge.com/2022/1/24/22898712/crypto-hardware-wallet-hacking-lost-bitcoin-ethereum-nft&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.vox-cdn.com/thumbor/vQqFr3C363AsxquC-9oLwOdpNDU=/0x0:3360x1632/1920x0/filters:focal(0x0:3360x1632):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/23191888/Screen_Shot_2022_01_24_at_2.53.21_PM.png&quot; alt=&quot;hack&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;father-accidentally-knocks-out-mobile-network&quot;&gt;Father accidentally knocks out mobile network&lt;/h4&gt;
+
+&lt;p&gt;Between midnight and 3 AM every day of the week, the mobile network in the French municipality of Messanges did not work. Turns out a father wanted to prevent his children from surfing the Internet with a jammer - and as a side effect shut down the mobile network of a municipality in France. &lt;a href=&quot;https://www.bleepingcomputer.com/news/technology/dad-takes-down-towns-internet-by-mistake-to-get-his-kids-offline/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;open-source-tool-unredacter-makes-pixelated-text-readable-again&quot;&gt;Open-source tool Unredacter makes pixelated text readable again&lt;/h4&gt;
+
+&lt;p&gt;Pixelation is not a secure way to make text passages unreadable. The software “Unredacter”, developed by Dan Petro, a senior researcher at security provider Bishop Fox, takes redacted pixelized text and reverses it back into its readable form. We recommend a black bar to securely redact text. &lt;a href=&quot;https://bishopfox.com/blog/unredacter-tool-never-pixelation&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;little-improvements-in-vulnerability-management&quot;&gt;Little improvements in vulnerability management&lt;/h4&gt;
+
+&lt;p&gt;Most organizations appear to be making little progress in addressing application security issues despite all of the heightened concerns around the topic. A study, by researchers at NTT Application Security, shows that organizations left more than half (53%) of known critical flaws nonremediated. &lt;a href=&quot;https://www.darkreading.com/application-security/key-application-security-metrics-show-little-sign-of-improvement&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;advisory-western-digital-my-cloud-pro-series&quot;&gt;Advisory: Western Digital My Cloud Pro Series&lt;/h4&gt;
+
+&lt;p&gt;The wonderful world of IOT provides us with a dead simple command injection and execution for the WD PR4100. Turns out the device sends a HTTP (not HTTPS) based healthcheck to the WD remote cloud service every 300 seconds. This can be hijacked and untrusted data can be injected. The lack of input validation leads to the execution of said untrusted data.&lt;a href=&quot;https://www.iot-inspector.com/blog/advisory-western-digital-my-cloud-pro-series-pr4100-rce/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/roundup-022022/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-022022/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>Cloud &amp; Schrems II: What now?</title>
@@ -727,73 +775,6 @@
         <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2020/cve-system/</link>
         <guid isPermaLink="true">https://inversegravity.net/2020/cve-system/</guid>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Zero Trust Security</title>
-        <description>&lt;h5 id=&quot;zero-trust-is-a-model-that-is-based-on-the-idea-that-nothing-should-be-trusted-without-verification&quot;&gt;Zero Trust is a model that is based on the idea that nothing should be trusted without verification.&lt;/h5&gt;
-
-&lt;p&gt;In traditional networks, security is based on perimeter defenses, a concept that can be best described with the metaphor of a medieval castle. It is hard to gain access from the outside, but everyone inside is trusted.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;old computer&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The problem with this perimeter defense approach is that once attackers have overcome the initial boundary of the network, they can freely act on all systems. This is intensified by today’s world of complex interconnected networks, cloud-based environments, working from home (WFH), and bring your own device (BYOD).&lt;/p&gt;
-
-&lt;p&gt;Consequently, the concept of barricading your castle with a single (fire)wall alone is an inadequate security model.&lt;/p&gt;
-
-&lt;p&gt;Enter zero trust; a new way of thinking, driven by the assumption that threats are everywhere. Let’s take a look at some of the guiding principles.&lt;/p&gt;
-
-&lt;h3 id=&quot;microperimeter&quot;&gt;Microperimeter&lt;/h3&gt;
-
-&lt;p&gt;The zero trust model extends identity controls to all processes, systems, and people regardless of their group membership or by the location in the network.&lt;/p&gt;
-
-&lt;p&gt;Networks are therefore segmented into small zones and a person or program can’t access the resources in such a zone without prior authorization.&lt;/p&gt;
-
-&lt;p&gt;The resulting micro perimeter allows granular authentication that is tailored to an individual user/process/system combination.&lt;/p&gt;
-
-&lt;h3 id=&quot;principle-of-least-privilege&quot;&gt;Principle Of Least Privilege&lt;/h3&gt;
-
-&lt;p&gt;Authentication within a zero-trust philosophy is based on the Principle of Least Privilege (PoLP). Meaning, people and processes receive only the amount of access rights they need to carry out their duty.&lt;/p&gt;
-
-&lt;p&gt;The framework of policies and technologies for enabling this appropriate access to resources is called Identity and Access Management (IAM) and in conjunction with PoLP, it minimizes the exposure of services to malicious login attempts with valid accounts.&lt;/p&gt;
-
-&lt;h3 id=&quot;multi-factor-authentication&quot;&gt;Multi-Factor Authentication&lt;/h3&gt;
-
-&lt;p&gt;In zero-trust security, knowledge of a password is not enough evidence for authentication. Multi-factor authentication is the recommended method in which a user is granted access only after successfully presenting two or more pieces of evidence to an authentication mechanism.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2019/universal-2nd-factor/&quot; target=&quot;_blank&quot;&gt;2FA&lt;/a&gt; as a subset of multi-factor authentication confirms identities by combining two different factors: something they know and something they have.&lt;/p&gt;
-
-&lt;p&gt;Utilizing MFA dramatically improves the security of the authentication process and prevents attacks with well-known or easy to brute-force passwords.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tcp_02.jpg&quot; alt=&quot;a server rack&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;encryption-everywhere&quot;&gt;Encryption Everywhere&lt;/h3&gt;
-
-&lt;p&gt;Data in public networks is by default encrypted in today’s world. Zero-trust additionally requires the consistent usage of transport layer security (TLS) in internal networks and the cryptographic protection of data in storage.&lt;/p&gt;
-
-&lt;p&gt;Encryption algorithms and secure key sizes have to be assessed regular whether they remain sate of the art. But this effort is quickly compensated by the liberating knowledge that an attacker will have a harder time to move inside the network.&lt;/p&gt;
-
-&lt;h3 id=&quot;observability&quot;&gt;Observability&lt;/h3&gt;
-
-&lt;p&gt;Behavioral analytics, efficient incident response, and forensics are important building blocks to support a zero-trust environment. The ability to develop such a cohesive overview requires observability for all services and events.&lt;/p&gt;
-
-&lt;p&gt;Usually, logging and metrics come to mind first, but observability involves other processes like monitoring, tracing, analytics, and alerting. Good observability enables the organization to compile meaningful information from all systems.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Zero Trust can only function within the framework of an overall security concept. It is not an off-the-shelf product or tool but rather a vendor-neutral principle for approaching security in an organization.&lt;/p&gt;
-
-&lt;p&gt;It requires a cultural shift and flexible solutions to change the paradigms by which organizations secure their resources.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/zero-trust/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/zero-trust/</guid>
         
         <category>technology</category>
         
