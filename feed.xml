@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Feb 2022 17:12:56 +0000</pubDate>
-    <lastBuildDate>Mon, 21 Feb 2022 17:12:56 +0000</lastBuildDate>
+    <pubDate>Tue, 22 Feb 2022 07:10:07 +0000</pubDate>
+    <lastBuildDate>Tue, 22 Feb 2022 07:10:07 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -46,7 +46,7 @@
 
 &lt;p&gt;The wonderful world of IOT provides us with a dead simple command injection and execution for the WD PR4100. Turns out the device sends a HTTP (not HTTPS) based healthcheck to the WD remote cloud service every 300 seconds. This can be hijacked and untrusted data can be injected. The lack of input validation leads to the execution of said untrusted data.&lt;a href=&quot;https://www.iot-inspector.com/blog/advisory-western-digital-my-cloud-pro-series-pr4100-rce/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/roundup-022022/</link>
         <guid isPermaLink="true">https://inversegravity.net/2022/roundup-022022/</guid>
         
