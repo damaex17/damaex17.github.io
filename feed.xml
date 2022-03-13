@@ -5,9 +5,59 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Feb 2022 07:10:07 +0000</pubDate>
-    <lastBuildDate>Tue, 22 Feb 2022 07:10:07 +0000</lastBuildDate>
+    <pubDate>Sun, 13 Mar 2022 18:14:08 +0000</pubDate>
+    <lastBuildDate>Sun, 13 Mar 2022 18:14:08 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Raspberry PI - 10 Years of hacking</title>
+        <description>&lt;h5 id=&quot;the-raspberry-pi-is-one-of-those-things-that-has-become-so-commonplace-that-you-wonder-how-we-ever-got-along-without-it-before-whenever-a-cheap-small-and-low-power-consuming-computer-is-required-the-pi-is-ready&quot;&gt;The Raspberry Pi is one of those things that has become so commonplace that you wonder how we ever got along without it before. Whenever a cheap, small, and low-power-consuming computer is required, the Pi is ready.&lt;/h5&gt;
+
+&lt;h5 id=&quot;originally-the-device-was-intended-for-classrooms-since-the-number-of-computer-science-students-in-the-uk-dropped-in-the-2000s-and-british-schoolchildren-were-to-be-inspired-by-the-single-board-computer&quot;&gt;Originally the device was intended for classrooms since the number of computer science students in the UK dropped in the 2000s, and British schoolchildren were to be inspired by the single-board computer.&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Raspberry_Pi_4_Model_B_-_Side.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;the-low-price-and-accessible-os-a-full-fledged-linux-runs-on-the-minicomputer-made-it-attractive-to-hackers-and-tinkerers-worldwide&quot;&gt;The low price and accessible OS, a full-fledged Linux runs on the minicomputer, made it attractive to hackers and tinkerers worldwide.&lt;/h5&gt;
+
+&lt;p&gt;The first model had a CPU with only one core clocked at 700 MHz and 256 MB of RAM, which was completely undersized for a PC or even smartphone of the time.&lt;/p&gt;
+
+&lt;p&gt;Ten years and 40 million units sold later, a rich ecosystem has formed around all iterations of the little computer. There is a huge developer community that has developed open-source software for many applications.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications-and-projects&quot;&gt;Applications And Projects&lt;/h3&gt;
+
+&lt;p&gt;There is hardly anything that can’t be monitored or controlled with the Raspberry Pi. Home automation is a big field of application: From &lt;a href=&quot;https://iotdesignpro.com/projects/iot-based-solenoid-door-lock-using-raspberry-pi-4&quot; target=&quot;_blank&quot;&gt;door locks&lt;/a&gt; over &lt;a href=&quot;https://projects-raspberry.com/home-alarm-system-with-raspberry-pi/&quot; target=&quot;_blank&quot;&gt;alarm systems&lt;/a&gt; to &lt;a href=&quot;https://hackaday.com/2020/07/24/a-complete-raspberry-pi-power-monitoring-system/&quot; target=&quot;_blank&quot;&gt;solar panels&lt;/a&gt;, &lt;a href=&quot;https://www.magicmirrorcentral.com/complete-raspberry-pi-magic-mirror-tutorial/&quot; target=&quot;_blank&quot;&gt;smart mirrors&lt;/a&gt;, or &lt;a href=&quot;https://dordnung.de/raspberrypi-ledstrip/&quot; target=&quot;_blank&quot;&gt;lighting&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Pi is also widely used for home entertainment. The microcomputer reliably provides &lt;a href=&quot;https://darko.audio/2020/01/raspberry-pi-audio-streaming-101/&quot; target=&quot;_blank&quot;&gt;audio&lt;/a&gt; and &lt;a href=&quot;https://pimylifeup.com/raspberry-pi-plex-server/&quot; target=&quot;_blank&quot;&gt;video streams&lt;/a&gt; to various devices in a home network.&lt;/p&gt;
+
+&lt;p&gt;Interestingly, one of the most frequently used applications is &lt;a href=&quot;https://pi-hole.net/&quot; target=&quot;_blank&quot;&gt;Pi-Hole&lt;/a&gt;, a network-wide adblocker that uses a DNS filtering to block online advertising for all devices.&lt;/p&gt;
+
+&lt;h3 id=&quot;mission-accomplished&quot;&gt;Mission Accomplished?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Eben_Upton&quot; target=&quot;_blank&quot;&gt;Eden Upton&lt;/a&gt; and his team had set out to create a classroom computer that is both inexpensive and very low-threshold to program and use. Even though it is used for teaching purposes in schools and universities, it is mainly utilized by tech-savvy people to automate their homes.&lt;/p&gt;
+
+&lt;p&gt;As trivial as it may seem to technical users writing a Linux image to an SD card to boot the Raspberry Pi, this hurdle is too high for many people who are otherwise only used to their smartphone. Ultimately, Pi has not quite become what it was supposed to be.&lt;/p&gt;
+
+&lt;h3 id=&quot;against-consumerism&quot;&gt;Against Consumerism&lt;/h3&gt;
+
+&lt;p&gt;But not all is lost as the Pi plays an important role in shaping our consumer culture. The industry has been designing smartphones and tablets so that they can largely only be operated in a consuming manner. Writing code yourself, intervening in the system, exchanging hardware components - has all become increasingly difficult.&lt;/p&gt;
+
+&lt;p&gt;At the same time, devices and apps are collecting more data than ever and sending them to manufacturers, for mostly no consumer benefit.&lt;/p&gt;
+
+&lt;p&gt;The Raspberry Pi has formed a countermovement to this development. The operating system and most major software projects are open-source. Not only is it possible to add or swap hardware components but the system has to be assembled in the first place. The device triggers the creativity of users and motivates them to experiment.&lt;/p&gt;
+
+&lt;h3 id=&quot;outlook&quot;&gt;Outlook&lt;/h3&gt;
+
+&lt;p&gt;The Pi hit a nerve with its features: sufficiently powerful, many connectors, cheap - but not too complicated, especially thanks to good Linux support and an active community. It has spawned a whole ecosystem and we hope the little microcomputer will continue to push the boundaries and provide users with an opportunity to tinker with technology.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/raspberry-pi-anniversary/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/raspberry-pi-anniversary/</guid>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>February 2022 Roundup</title>
@@ -707,74 +757,6 @@
         <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2020/tor-onion-anniversary/</link>
         <guid isPermaLink="true">https://inversegravity.net/2020/tor-onion-anniversary/</guid>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>CVE - Common Vulnerabilities and Exposures System</title>
-        <description>&lt;h5 id=&quot;the-common-vulnerabilities-and-exposures-system-provides-a-reference-method-for-publicly-known-information-security-vulnerabilities-and-exposures&quot;&gt;The Common Vulnerabilities and Exposures system provides a reference-method for publicly known information-security vulnerabilities and exposures.&lt;/h5&gt;
-
-&lt;p&gt;The system is maintained by the nonprofit organization &lt;a href=&quot;https://en.wikipedia.org/wiki/The_MITRE_Corporation&quot; target=&quot;_blank&quot;&gt;MITRE&lt;/a&gt;, funded by &lt;a href=&quot;https://en.wikipedia.org/wiki/National_Cyber_Security_Division&quot; target=&quot;_blank&quot;&gt;NCSD&lt;/a&gt;, and was officially launched in 1999. In this article, we explain what it is all about.&lt;/p&gt;
-
-&lt;p&gt;Before the CVE system, communication about security vulnerabilities was difficult. “The security issue in Windows” could refer to hundreds of individual bugs. Trying to narrow down the exact bug by adding the subsystem was not sufficient.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/digisign.jpg&quot; alt=&quot;picture of a city&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To improve communication and avoid misunderstandings a vendor-neutral and uniform system for the management of vulnerabilities was required.&lt;/p&gt;
-
-&lt;p&gt;In 1999, this consistent numbering system for vulnerabilities was introduced: the CVE (Common Vulnerabilities and Exposures) system, which has since become the industry standard.&lt;/p&gt;
-
-&lt;h3 id=&quot;vulnerabilities-and-exposures&quot;&gt;Vulnerabilities and Exposures&lt;/h3&gt;
-
-&lt;p&gt;Vulnerabilities are weaknesses in a software or system that can be used to gain unauthorized access or perform unauthorized actions on a computer system. Exposures are caused by vulnerabilities and misconfiguration and can be actively exploited in cyber attacks.&lt;/p&gt;
-
-&lt;h3 id=&quot;naming-scheme&quot;&gt;Naming Scheme&lt;/h3&gt;
-
-&lt;p&gt;The IDs in the CVE system follow the format &lt;strong&gt;CVE-YYYY-NNNNN&lt;/strong&gt;. The pattern is familiar to everyone who has dealt with vulnerabilities and describe the specific issue with a software. Software updates refer to the CVE number to explain what is addressed in the update.&lt;/p&gt;
-
-&lt;p&gt;The initial &lt;strong&gt;CVE&lt;/strong&gt; is always followed by the year &lt;strong&gt;YYYY&lt;/strong&gt; in which the number was assigned to the vulnerability.&lt;/p&gt;
-
-&lt;p&gt;The last part of the ID was limited to four digits when the system was introduced but the 9999 unique IDs per year were insufficient. Since 2014 there is no limit and the length is defined by the demand of the respective calendar year.&lt;/p&gt;
-
-&lt;h3 id=&quot;allocation&quot;&gt;Allocation&lt;/h3&gt;
-
-&lt;p&gt;The uniform syntax of the CVE system was the first step to find a common ground for vulnerabilities. But to prevent IDs from being created and assigned in an uncontrolled manner, only certain organizations and persons, so-called CVE Numbering Authorities (CNAs), have the authority to assign an ID to a specific vulnerability.&lt;/p&gt;
-
-&lt;p&gt;There are three types of CNA entities:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;The MITRE itself functions as the primary CNA&lt;/li&gt;
-  &lt;li&gt;Various vendors assign CVE numbers for their products (e.g. Microsoft, Oracle, Google, etc.)&lt;/li&gt;
-  &lt;li&gt;Third-party coordinators such as CERT may assign CVE numbers for products not covered by other CNAs&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Independent researchers who discover a vulnerability and want to report it will find the relevant contact point in the &lt;a href=&quot;https://www.cve.org/About/Process#CVERecordLifecycle&quot; target=&quot;_blank&quot;&gt;CNA overview&lt;/a&gt; on MITRE’s website.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/cvebanner.png&quot; alt=&quot;a server rack&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once a new vulnerability is reported, the CNA will reserve an ID and enter it into the MITRE maintained &lt;a href=&quot;https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryCVEList#&quot; target=&quot;_blank&quot;&gt;CVE list&lt;/a&gt;. Once the vulnerability is confirmed and a detailed description is provided, the CVE is officially assigned.&lt;/p&gt;
-
-&lt;h3 id=&quot;additional-information-and-scoring&quot;&gt;Additional Information and Scoring&lt;/h3&gt;
-
-&lt;p&gt;The National Vulnerability Database (&lt;a href=&quot;https://nvd.nist.gov/&quot; target=&quot;_blank&quot;&gt;NVD&lt;/a&gt;) is an independent project launched in 2005 by the National Institute of Standards and Technology (&lt;a href=&quot;https://www.nist.gov/&quot; target=&quot;_blank&quot;&gt;NIST&lt;/a&gt;) and uses MITRE’s CVE list, but adds additional information to the rather brief descriptions, such as security risks or available updates.&lt;/p&gt;
-
-&lt;p&gt;For the infamous &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2014-0160&quot; target=&quot;_blank&quot;&gt;Heartbleed CVE&lt;/a&gt; for example, the &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2014-0160&quot; target=&quot;_blank&quot;&gt;NVD description&lt;/a&gt; provides information on how to fix it and a list of affected software versions.&lt;/p&gt;
-
-&lt;p&gt;One of the most important data the NVD provides is the so-called Common Vulnerability Scoring System (CVSS). Based on the path of attack and the complexity of the exploit, a scoring level from “Low” to “Critical” is assigned to each CVE.&lt;/p&gt;
-
-&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
-
-&lt;p&gt;CVE is free to use and publicly available to anyone interested in correlating data between different vulnerability or security tools, repositories, and services. Attackers only need to find a single vulnerability to gain unauthorized access to a system. Therefore, organizations need to protect themselves by swiftly addressing known vulnerabilities and exposures.&lt;/p&gt;
-
-&lt;p&gt;The CVE system provides the necessary infrastructure to match any software inventory against known weaknesses and the ID serves as the consistent identification characteristic for such vulnerability.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/cve-system/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/cve-system/</guid>
         
         <category>technology</category>
         
