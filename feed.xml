@@ -5,9 +5,58 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Mar 2022 07:05:21 +0000</pubDate>
-    <lastBuildDate>Mon, 14 Mar 2022 07:05:21 +0000</lastBuildDate>
+    <pubDate>Tue, 22 Mar 2022 13:19:36 +0000</pubDate>
+    <lastBuildDate>Tue, 22 Mar 2022 13:19:36 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>March 2022 Roundup</title>
+        <description>&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
+
+&lt;h4 id=&quot;github-shares-vulnerability-database-with-community&quot;&gt;GitHub shares vulnerability database with community&lt;/h4&gt;
+
+&lt;p&gt;The GitHub Advisory Database is the world’s largest database for recording security vulnerabilities in open-source software. A team maintains this data full-time. The database is used, among other things, for security checks of the package managers npm and NuGet as well as for GitHub’s Dependabot warnings. &lt;a href=&quot;https://github.blog/2022-02-22-github-advisory-database-now-open-to-community-contributions/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;satcom-terminals-under-attack&quot;&gt;SATCOM terminals under attack&lt;/h4&gt;
+
+&lt;p&gt;In parallel to the Russian invasion of Ukraine, thousands of KA-SAT terminals stopped working in several European countries. Remotely operated wind turbines, connected via SATCOM link, lost contact with their servers as a result. &lt;a href=&quot;https://www.linkedin.com/in/rubensantamarta/&quot; target=&quot;_blank&quot;&gt;Ruben Santamarta&lt;/a&gt; analyses the publicly available information in his interesting article. &lt;a href=&quot;https://www.reversemode.com/2022/03/satcom-terminals-under-attack-in-europe.html&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/IP-SATCOM.svg/1920px-IP-SATCOM.svg.png&quot; alt=&quot;SATCOM&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;critical-vulnerabilities-in-apc-uninterruptible-power-supply&quot;&gt;Critical vulnerabilities in APC Uninterruptible Power Supply&lt;/h4&gt;
+
+&lt;p&gt;Armis has discovered three critical vulnerabilities in APC Smart-UPS devices. These are of course controlled through an internet connection nowadays. A malicious actor can use TLS bypass and TLS overflow to gain unauthenticated access to the UPS and use the device for further lateral movement in the network.
+&lt;a href=&quot;https://www.armis.com/research/tlstorm/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;pro-tips-for-burpsuite&quot;&gt;Pro-tips for BurpSuite&lt;/h4&gt;
+
+&lt;p&gt;Burp Suite is a network analysis toolbox for testing web applications. It includes a proxy, which intercepts HTTP/HTTPS traffic and modifies the HTTP headers before sending the data to the server. The article by N00PY gives great tips for the powerful software. &lt;a href=&quot;https://www.n00py.io/2017/10/how-to-burp-good/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;famous-npm-package-deletes-files-to-protest-ukraine-war&quot;&gt;Famous npm package deletes files to protest Ukraine war&lt;/h4&gt;
+
+&lt;p&gt;The importance of supply chain security for open source components in business code has been highlighted once again this month. The developer of the npm module node-ipc.js added malicious code to it that deletes files if the software thinks it is on a Russian or Belarusian system based on a geo-location IP determination. The incident has drawn sharp criticism from the open-source community for actively deploying destructive payloads in a popular library without any warning to honest users. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/big-sabotage-famous-npm-package-deletes-files-to-protest-ukraine-war/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;nsa-hardening-guide-for-kubernetes&quot;&gt;NSA hardening guide for Kubernetes&lt;/h4&gt;
+
+&lt;p&gt;The biggest sources of compromise in Kubernetes are supply chain risks, malicious
+threat actors, and insider threats. The NSA guide describes the security challenges associated with setting up and securing a Kubernetes cluster and provides strategies to avoid common misconfiguration and implement hardening measures. &lt;a href=&quot;https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/0/CTR_Kubernetes_Hardening_Guidance_1.1_20220315.PDF&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;escaping-privileged-containers-for-fun&quot;&gt;Escaping privileged containers for fun&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twitter.com/pwningsystems&quot; target=&quot;_blank&quot;&gt;Jordy&lt;/a&gt; writes on his blog about discovering an escape from a privileged container via the kernel’s coredump handling code. Interesting read and let’s all agree to not run privileged containers, not even for fun! &lt;a href=&quot;https://pwning.systems/posts/escaping-containers-for-fun/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/roundup-032022/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-032022/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Raspberry PI - 10 Years of hacking</title>
@@ -21,7 +70,7 @@
 
 &lt;p&gt;The first model had a CPU with only one core clocked at 700 MHz and 256 MB of RAM, which was completely undersized for a PC or even smartphone of the time.&lt;/p&gt;
 
-&lt;p&gt;Ten years and 40 million units sold later, a rich ecosystem has formed around all iterations of the little computer. There is an active community that has developed open-source software for many applications.&lt;/p&gt;
+&lt;p&gt;Ten years and 40 million units sold later, a rich ecosystem has formed around all iterations of the little computer. There is also an active community that has developed open-source software for many applications.&lt;/p&gt;
 
 &lt;h3 id=&quot;applications-and-projects&quot;&gt;Applications And Projects&lt;/h3&gt;
 
@@ -61,9 +110,7 @@
     
       <item>
         <title>February 2022 Roundup</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/inversegravity.png&quot; alt=&quot;logo&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;cybersecurity-has-always-been-about-recognizing-and-responding-to-new-developments-each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Cybersecurity has always been about recognizing and responding to new developments. Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;cybersecurity-has-always-been-about-recognizing-and-responding-to-new-developments-each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Cybersecurity has always been about recognizing and responding to new developments. Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
 
 &lt;h4 id=&quot;stop-storing-secrets-in-environment-variables&quot;&gt;Stop Storing Secrets In Environment Variables!&lt;/h4&gt;
 
@@ -191,9 +238,7 @@
     
       <item>
         <title>January 2022 Roundup</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/inversegravity.png&quot; alt=&quot;logo&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
 
 &lt;h4 id=&quot;log4j-newest-vulnerability-in-log4j-2170-more-hype-than-substance&quot;&gt;Log4j: Newest Vulnerability in Log4j 2.17.0 more hype than substance&lt;/h4&gt;
 
@@ -241,9 +286,7 @@
     
       <item>
         <title>December 2021 Roundup</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/inversegravity.png&quot; alt=&quot;logo&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;another-year-is-coming-to-an-end-and-we-start-a-new-format-here-on-inversegravity-kick-back-with-us-and-dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month-we-wish-you-all-the-best-for-2022&quot;&gt;Another year is coming to an end and we start a new format here on inversegravity. Kick back with us and dig into a selection of the best articles, code, and projects we found this past month. We wish you all the best for 2022!&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;another-year-is-coming-to-an-end-and-we-start-a-new-format-here-on-inversegravity-kick-back-with-us-and-dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month-we-wish-you-all-the-best-for-2022&quot;&gt;Another year is coming to an end and we start a new format here on inversegravity. Kick back with us and dig into a selection of the best articles, code, and projects we found this past month. We wish you all the best for 2022!&lt;/h5&gt;
 
 &lt;h4 id=&quot;a-cisos-practical-advice-on-log4j&quot;&gt;A CISO’s Practical Advice on log4j&lt;/h4&gt;
 
@@ -698,69 +741,6 @@
         <category>security</category>
         
         <category>devsec</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tor - 25 Years of Anonymization</title>
-        <description>&lt;h5 id=&quot;anonymization-technology-is-at-the-core-of-self-defense-in-the-digital-world-in-this-article-we-take-a-look-at-the-great-anonymization-project&quot;&gt;Anonymization technology is at the core of self-defense in the digital world. In this article, we take a look at the great anonymization project.&lt;/h5&gt;
-
-&lt;p&gt;The underlying principle of Tor was developed in the mid-1990s by the United States to protect U.S. intelligence communications online.&lt;/p&gt;
-
-&lt;p&gt;25 years after its inception as a state-funded project, Tor is the most important adversary of state surveillance and the leader in distributed anonymization technologies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tor-logo.png&quot; alt=&quot;the logo of the Tor project&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It allows users to protect their privacy and circumvent censorship but also allows selling or buying illicit drugs. The Tor Project has been full of contradictions since the beginning.&lt;/p&gt;
-
-&lt;h3 id=&quot;onion-routing&quot;&gt;Onion Routing&lt;/h3&gt;
-
-&lt;p&gt;Tor aims to conceal its users’ identities and their online activity from surveillance and traffic analysis by separating identification and routing. It is an implementation of a technique called onion routing.&lt;/p&gt;
-
-&lt;p&gt;In an onion network, messages are encapsulated in layers of encryption, analogous to several peels of an onion. The encrypted data is transmitted through a randomly selected series of network nodes called onion routers, each of which “peels” away a single layer, uncovering the data’s next destination.&lt;/p&gt;
-
-&lt;p&gt;When the final layer is decrypted, the message arrives at its destination. The user remains anonymous to the service provider because each intermediary knows only the location of the immediately preceding and following nodes.&lt;/p&gt;
-
-&lt;h3 id=&quot;deep-and-dark-onion&quot;&gt;Deep and Dark Onion&lt;/h3&gt;
-
-&lt;p&gt;The Tor software can be used in two ways: either as an anonymization service to accesses the regular internet or to access services in the virtual top-level domain “.onion”.&lt;/p&gt;
-
-&lt;p&gt;There are many misunderstandings and generalizations regarding the “.onion”. Let’s look at some subsets of the web and the naming first.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tor_users.png&quot; alt=&quot;tor users per day&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;SurfaceWeb&lt;/strong&gt; is everything publicly available and accessible through search engines. This is where we find news sites, blogs like inversegravity, or shopping sites. The &lt;strong&gt;DeepWeb&lt;/strong&gt; describes the parts of the internet that are hidden behind a login and therefore not publicly accessible. Examples are online banking sites or content behind a paywall.&lt;/p&gt;
-
-&lt;p&gt;The term &lt;strong&gt;DarkWeb&lt;/strong&gt; describes services that require specific software to access them. Tor is such software and the TLD “.onion” is a major player in the so-called DarkWeb.&lt;/p&gt;
-
-&lt;p&gt;The hostnames under “.onion” are not actual DNS names, and the TLD is not registered in the root of the regular internet domain services. The purpose of the network is to hide both the identity of the service provider and the person accessing the service.&lt;/p&gt;
-
-&lt;p&gt;The mutual anonymity and the emergence of anonymous digital currencies created the possibility to buy and sell services and goods in complete anonymity.&lt;/p&gt;
-
-&lt;h3 id=&quot;benefits-worth-the-costs&quot;&gt;Benefits worth the costs?&lt;/h3&gt;
-
-&lt;p&gt;It is not without reason that stories about the Darkweb are popular in the media. There is everything that makes a good story, anonymous criminals engaging in illegal activities including sex and drugs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tor_users_country.png&quot; alt=&quot;tor users per country&quot; style=&quot;float: left; margin: 0px 15px 0px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Outrage from politicians and calls for regulation accompany many of these stories.&lt;/p&gt;
-
-&lt;p&gt;Though, a recent &lt;a href=&quot;https://www.pnas.org/content/early/2020/11/24/2011893117/tab-article-info&quot; target=&quot;_blank&quot;&gt;research article&lt;/a&gt; has shown that only ~6.7% of all Tor users are actually accessing Onion services for potentially illegal purposes.&lt;/p&gt;
-
-&lt;p&gt;The vast majority uses it as a privacy-enhancing tool to circumvent censorship or stay anonymous on the regular internet. Ultimately Tor is by its very nature dual-use and the question is if the benefits outweigh the costs.&lt;/p&gt;
-
-&lt;p&gt;On the 25th anniversary of Tor, there is no clear answer. The internet is a very young technology and we are grappling with the implications to personal freedom, censorship, human nature, social evil, and government policies.&lt;/p&gt;
-
-&lt;p&gt;Happy birthday Tor!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2020/tor-onion-anniversary/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2020/tor-onion-anniversary/</guid>
-        
-        <category>technology</category>
-        
-        <category>security</category>
         
         
       </item>
