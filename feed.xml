@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Mar 2022 13:19:36 +0000</pubDate>
-    <lastBuildDate>Tue, 22 Mar 2022 13:19:36 +0000</lastBuildDate>
+    <pubDate>Tue, 22 Mar 2022 13:23:18 +0000</pubDate>
+    <lastBuildDate>Tue, 22 Mar 2022 13:23:18 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -45,7 +45,7 @@ threat actors, and insider threats. The NSA guide describes the security challen
 
 &lt;p&gt;&lt;a href=&quot;http://twitter.com/pwningsystems&quot; target=&quot;_blank&quot;&gt;Jordy&lt;/a&gt; writes on his blog about discovering an escape from a privileged container via the kernel’s coredump handling code. Interesting read and let’s all agree to not run privileged containers, not even for fun! &lt;a href=&quot;https://pwning.systems/posts/escaping-containers-for-fun/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/roundup-032022/</link>
         <guid isPermaLink="true">https://inversegravity.net/2022/roundup-032022/</guid>
         
