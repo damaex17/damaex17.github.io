@@ -5,13 +5,149 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Mar 2022 11:21:51 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Mar 2022 11:21:51 +0000</lastBuildDate>
+    <pubDate>Sun, 24 Apr 2022 15:57:12 +0000</pubDate>
+    <lastBuildDate>Sun, 24 Apr 2022 15:57:12 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
+        <title>Setting Up the Ledger Nano S Wallet</title>
+        <description>&lt;h5 id=&quot;key-management-is-the-most-important-aspect-of-your-crypto-journey-whoever-controls-your-keys-controls-the-assets-there-are-a-variety-of-options-for-key-management-including-online-services-smartphone-apps-or-hardware-devices&quot;&gt;Key management is the most important aspect of your crypto journey. Whoever controls your keys controls the assets. There are a variety of options for key management, including online services, smartphone apps or hardware devices.&lt;/h5&gt;
+
+&lt;h5 id=&quot;each-of-these-options-has-its-pros-and-cons-some-are-complicated-to-setup-while-others-leave-your-private-keys-in-the-hands-of-a-service-provider&quot;&gt;Each of these options has its pros and cons. Some are complicated to setup, while others leave your private keys in the hands of a service provider.&lt;/h5&gt;
+
+&lt;p&gt;We recommend a hardware wallet to access the full potential of crypto assets and limiting the exposure of your private keys to others.&lt;/p&gt;
+
+&lt;p&gt;This tutorial explains how to set up the hardware wallet &lt;a href=&quot;https://shop.ledger.com/products/ledger-nano-s&quot; target=&quot;_blank&quot;&gt;Ledger Nano S&lt;/a&gt; with &lt;a href=&quot;https://www.virtualbox.org/&quot; target=&quot;_blank&quot;&gt;VirtualBox&lt;/a&gt; running &lt;a href=&quot;https://ubuntu.com/&quot; target=&quot;_blank&quot;&gt;Ubuntu 20.04&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/assets/images/NanoS_PROD_CAM06.png&quot; height=&quot;500&quot; alt=&quot;Ledger Nano S&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Ledger Nano S&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;buy-the-hardware-wallet&quot;&gt;Buy The Hardware Wallet&lt;/h3&gt;
+
+&lt;p&gt;The Ledger Nano S (or any other hardware wallet) should not be purchased from Amazon, eBay, or other online sellers. There is a risk of receiving a tampered or used device that may result in the loss of your crypto assets.&lt;/p&gt;
+
+&lt;p&gt;Better purchase a legitimate, unopened, and brand new device from the &lt;a href=&quot;https://www.ledger.com/&quot;&gt;Official Ledger Website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;ledger-nano-s---initial-setup&quot;&gt;Ledger Nano S - Initial SetUp&lt;/h3&gt;
+
+&lt;p&gt;With the included USB cable, connect the Ledger device to your computer and watch it come to life. Navigate with the two buttons on the top of the device and follow the on-screen instructions. Press both buttons simultaneously to accept.&lt;/p&gt;
+
+&lt;p&gt;Choosing your device’s PIN code is the first step in the setup process. We recommend to use a 6-digit code. The next step is the documentation of the recovery phrase. The 24 random words will appear one by one on the device’s screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This is the only backup of the private keys and the words will only be displayed once&lt;/strong&gt;. Write them down on the provided paper recovery sheet or use an even more secure &lt;a href=&quot;https://www.amazon.de/-/en/Bitcoin-Cryptocurrency-Hardware-Storage-Compatible/dp/B097CZY65D/ref=pd_lpo_1?pd_rd_i=B097CZY65D&amp;amp;psc=1&quot; target=&quot;_blank&quot;&gt;steel recovery sheet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;virtualbox-and-guest-system-installation&quot;&gt;VirtualBox And Guest System Installation&lt;/h3&gt;
+
+&lt;p&gt;The virtualization software VirtualBox is open source and can be downloaded &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. We also require the ISO image for &lt;a href=&quot;http://releases.ubuntu.com/20.04/&quot; target=&quot;_blank&quot;&gt;Ubuntu 20.04&lt;/a&gt;. The “Desktop image” is sufficient for our purpose.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/assets/images/Ubuntu20.04.png&quot; alt=&quot;Ledger Nano S&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Ubuntu 20.04 in VirtualBox&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A thorough step-by-step guide for the installation of virtual machines on VirtualBox can be found on the &lt;a href=&quot;https://linuxhint.com/install_ubuntu_virtualbox_2004/&quot; target=&quot;_blank&quot;&gt;linuxhint blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;setup-the-udev-devices-on-host-and-guest&quot;&gt;Setup the udev devices on host and guest&lt;/h3&gt;
+
+&lt;p&gt;Next, we need to setup the Linux sub-sytem for dynamic device detection and management aka udev. It creates or removes device nodes dynamically.&lt;/p&gt;
+
+&lt;p&gt;The following command will execute the configuration of Ledger devices and has to be executed on both, the host &lt;strong&gt;and&lt;/strong&gt; the guest system.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;After the installation of the rules, you must either restart the computer or reload the udev ruleset with:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo udevadm control --reload-rules &amp;amp;&amp;amp; udevadm trigger&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now connect the Ledger device to the host computer and execute the &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; command. The device should show up in the list of devices.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/assets/images/lsusb.png&quot; alt=&quot;lsusb&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Output of the lsusb command&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Take note of the device ID &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;VendorID&amp;gt;:&amp;lt;ProductID&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;configure-the-usb-device-in-the-virtualbox-guest&quot;&gt;Configure the USB device in the VirtualBox guest&lt;/h3&gt;
+
+&lt;p&gt;Now that the USB device is available on the host system, we need to map it to the guest system.
+In VirtualBox go to Machine &amp;gt; Settings &amp;gt; USB and add an empty Filter.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/assets/images/VBoxUSBFilter.png&quot; alt=&quot;Create an empty USB Filter&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Create an empty USB Filter&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Update the entry with the exact data we received from the output of the &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; command. The &lt;strong&gt;Vendor ID is 2c97&lt;/strong&gt; and the &lt;strong&gt;Product ID is 1011&lt;/strong&gt;. The &lt;a href=&quot;https://devicehunt.com/view/type/usb/vendor/2C97&quot; target=&quot;_blank&quot;&gt;Vendor ID&lt;/a&gt; is a fixed value while the Product ID can vary. So make sure you use the correct one for your device.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/assets/images/USBFilter.png&quot; alt=&quot;Configure the Filter&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Configure the Filter&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You are now ready to start the VirtualBox Guest system and check for the availability of the USB device with the &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-the-ledger-live-software-on-the-guest&quot;&gt;Install the Ledger Live Software on the guest&lt;/h3&gt;
+
+&lt;p&gt;With the device available on the guest system we can now install the ledger-live software. Download the image from the &lt;a href=&quot;https://www.ledger.com/ledger-live/download&quot; target=&quot;_blank&quot;&gt;official website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Make the file executable by issuing the following command in the terminal:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chmod +x ledger-live-*.AppImage&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Launch the application with the following command from the terminal:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;./ledger-live-desktop-*.AppImage&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The software will detect your USB hardware wallet and you can now install the desired accounts for the cryptocurrencies you’d like to secure with the wallet.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/assets/images/LedgerinVBox.png&quot; alt=&quot;Ledger Software in a VirtualBox&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Ledger Software in a VirtualBox&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Congratulations, you are now ready to receive and send crypto assets with your hardware wallet. Please make sure you always confirm the wallet ID on you device.&lt;/p&gt;
+
+&lt;h3 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;No USB Device found in the VirtualBox Software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure you have the &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot;&gt;VirtualBox Extension Pack&lt;/a&gt; installed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wallet not detected by Ledger Software when installing Accounts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This happened to me when I added the Etherium account on the wallet. The Bitcoin account worked  without an issue.&lt;/p&gt;
+
+&lt;p&gt;It turns out that the Ledger S changes the Device ID for some accounts. I noticed this by monitoring the &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; output on the host system.&lt;/p&gt;
+
+&lt;p&gt;Just add a second Filter in VirtualBox for the other Device ID. My wallet has &lt;strong&gt;Device ID 1011 for Bitcoin and 1015 for Etherium&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;Digital crypto assets enable us to have independent ownership without the involvement of any third party. Having assets sitting in an exchange broker or with a wallet service provider puts us at the mercy of said companies’ resilience to outside interference.&lt;/p&gt;
+
+&lt;p&gt;Owning the private key is vital to unleashing the full potential of self-custody. By using a hardware wallet we exercise self-custody. We are responsible for the safety of our keys and in exchange for this effort, we prevent any state, bank, or hacker to take our assets.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/ledger-hardware-wallet/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/ledger-hardware-wallet/</guid>
+        
+        <category>technology</category>
+        
+        
+      </item>
+    
+      <item>
         <title>March 2022 Roundup</title>
-        <description>&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
 
 &lt;h4 id=&quot;github-shares-vulnerability-database-with-community&quot;&gt;GitHub shares vulnerability database with community&lt;/h4&gt;
 
@@ -110,7 +246,7 @@ threat actors, and insider threats. The NSA guide describes the security challen
     
       <item>
         <title>February 2022 Roundup</title>
-        <description>&lt;h5 id=&quot;cybersecurity-has-always-been-about-recognizing-and-responding-to-new-developments-each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Cybersecurity has always been about recognizing and responding to new developments. Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;cybersecurity-has-always-been-about-recognizing-and-responding-to-new-developments-each-month-we-gather-our-favorite-finds-from-around-the-internet-and-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Cybersecurity has always been about recognizing and responding to new developments. Each month we gather our favorite finds from around the internet and recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
 
 &lt;h4 id=&quot;stop-storing-secrets-in-environment-variables&quot;&gt;Stop Storing Secrets In Environment Variables!&lt;/h4&gt;
 
@@ -269,9 +405,7 @@ threat actors, and insider threats. The NSA guide describes the security challen
 
 &lt;h4 id=&quot;we-purchased-a-machine-from-china-and-it-came-with-malware-preinstalled&quot;&gt;We purchased a machine from China and it came with malware preinstalled&lt;/h4&gt;
 
-&lt;p&gt;We want to end this roundup with a hilarious and informative story from the folks at rmcybernetics. They ordered a small Pick and Place machine from AliExpress and found malware preinstalled.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.rmcybernetics.com/general/zhengbang-zb3245tss-pick-place-machine&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We want to end this roundup with a hilarious and informative story from the folks at rmcybernetics. They ordered a small Pick and Place machine from AliExpress and found malware preinstalled. &lt;a href=&quot;https://www.rmcybernetics.com/general/zhengbang-zb3245tss-pick-place-machine&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/roundup-012022/</link>
@@ -651,90 +785,6 @@ threat actors, and insider threats. The NSA guide describes the security challen
         <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2021/secure-development-baseline/</link>
         <guid isPermaLink="true">https://inversegravity.net/2021/secure-development-baseline/</guid>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        <category>devsec</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Secure Development - Programming Languages</title>
-        <description>&lt;h5 id=&quot;software-and-system-development-is-a-complex-and-demanding-activity-undertaken-by-people-with-different-skill-levels-and-varying-security-awareness&quot;&gt;Software and System development is a complex and demanding activity undertaken by people with different skill levels and varying security awareness.&lt;/h5&gt;
-
-&lt;h5 id=&quot;this-can-present-a-serious-risk-to-organizations---security-teams-must-understand-these-risks-balance-them-with-business-requirements-and-enforce-appropriate-mitigation-mechanisms&quot;&gt;This can present a serious risk to organizations - security teams must understand these risks, balance them with business requirements and enforce appropriate mitigation mechanisms.&lt;/h5&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot; target=&quot;_blank&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot; target=&quot;_blank&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot; target=&quot;_blank&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;An in-house development team supports unique objectives in many organizations, tailored software is a competitive advantage and can ultimately decide on the success of a business.&lt;/p&gt;
-
-&lt;p&gt;Careless or even malicious development on the other hand can introduce vulnerabilities and backdoors to such software and leave the organization open to exploitation by &lt;a href=&quot;/2020/threat-landscape/&quot;&gt;malicious actors&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It’s, therefore, crucial to introduce controls and a structured process to the entire development process to protect against vulnerabilities.&lt;/p&gt;
-
-&lt;p&gt;This blog is the first in a series about security in software and system development.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/computer.jpg&quot; alt=&quot;picture of an old control pannel&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;programming-languages&quot;&gt;Programming Languages&lt;/h3&gt;
-
-&lt;p&gt;Software Developers use programming languages to develop software. This chapter takes a look at the different types of languages and the security implications.&lt;/p&gt;
-
-&lt;p&gt;The instructions that a computer processes are a long series of binary digits in a language known as &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Machine_code&quot; target=&quot;_blank&quot;&gt;machine code&lt;/a&gt;&lt;/em&gt;. It’s a language of 0s and 1s and no human can understand anything but the simplest instructions without the assistance of specialized software.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Assembly_language&quot; target=&quot;_blank&quot;&gt;Assembler&lt;/a&gt;&lt;/em&gt; is a higher-level language to represent the machine code. It’s still a complex and obscure way of programming and requires specific knowledge about the hardware it will interact with.&lt;/p&gt;
-
-&lt;p&gt;While there are some &lt;a href=&quot;https://en.wikipedia.org/wiki/Assembly_language#Current_usage&quot; target=&quot;_blank&quot;&gt;situations&lt;/a&gt; in which developers might choose to use assembly language, the preference is to use &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/High-level_programming_language&quot; target=&quot;_blank&quot;&gt;high-level languages&lt;/a&gt;&lt;/em&gt;, such as Java, Ruby, Python, R, and C++.&lt;/p&gt;
-
-&lt;p&gt;These languages are feature-rich and provide standards for common tasks, permit debugging, and maintain architectural agnosticism.&lt;/p&gt;
-
-&lt;h3 id=&quot;compiled-vs-interpreted&quot;&gt;Compiled vs. Interpreted&lt;/h3&gt;
-
-&lt;p&gt;When using a &lt;em&gt;compiled language&lt;/em&gt; like C or Java, a tool known as a compiler converts the higher-level language into an executable file that is distributed and designed to be used on a specific operating system. It is not possible to directly view or modify the software instructions in such a compiled executable.&lt;/p&gt;
-
-&lt;p&gt;Reconstructing the source code from an executable with a decompiler is described with the term reverse engineering. This is useful for malware analysis or intelligence gathering, where access to the original source code is not available.&lt;/p&gt;
-
-&lt;p&gt;Languages like Python, R, and JavaScript are &lt;em&gt;interpreted languages&lt;/em&gt;. Developers distribute these programs by sharing the source code with all instructions. End-users use an interpreter to execute the source code on their system.&lt;/p&gt;
-
-&lt;p&gt;Compiled and interpreted languages both have advantages and disadvantages from a security perspective. Compiled code is less likely to be manipulated by a third party, but security flaws or backdoors in the source code are harder to detect since the original instructions can’t be accessed by the end-user.&lt;/p&gt;
-
-&lt;p&gt;Interpreted code on the other hand is very transparent because the end-user can read the code before executing it in an interpreter. The disadvantage is that everyone who touches the software can introduce malicious instructions.&lt;/p&gt;
-
-&lt;h3 id=&quot;object-oriented-programming&quot;&gt;Object-Oriented Programming&lt;/h3&gt;
-
-&lt;p&gt;OOP is a standard based on the concept of “objects” and focuses on the interaction of such objects rather than on a series of steps as seen in &lt;a href=&quot;https://en.wikipedia.org/wiki/Functional_programming&quot;&gt;functional programming&lt;/a&gt;. Many modern programming languages (such as Java, Python, etc.) are multi-paradigm and support OOP.&lt;/p&gt;
-
-&lt;p&gt;Object-Oriented programming is generally speaking more reliable and reduces the propagation of errors in a system. From a security perspective, OOP is a black-box abstraction because users don’t need to know the inner working of an object but rather the details and abilities of the interface to an object.&lt;/p&gt;
-
-&lt;p&gt;The desired characteristic in OOP is the self-containment of an object or in other works the encapsulation. Below are some core concepts of object-oriented programming.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Message&lt;/strong&gt; is commonly used in OOP to describe the input of an object.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Method&lt;/strong&gt; this is the name for the instructions (or code) of an object. It specifies the actions in response to a message.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Class&lt;/strong&gt; is a collection of methods and acts as a template for the creation of objects.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Delegation&lt;/strong&gt; describes the forwarding of a request an object receives to another object. Objects delegate if they don’t have a method to handle certain requests.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Polymorphism&lt;/strong&gt; is the characteristic of an object to respond differently to the same message because of changes in external parameters. This can be static polymorphism during compile time or dynamic polymorphism during runtime (JVM).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cohesion&lt;/strong&gt; is the degree of focus of a method (or class). Low cohesion means an unfocused variety of actions and low specialization.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Coupling&lt;/strong&gt; describes the level of interaction between objects. High coupling of objects means low independence.&lt;/p&gt;
-
-&lt;p&gt;High cohesion and loose coupling is an important principle in software engineering. It results in strong focus and high independence and is desired for objects (and development teams).&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2021/secure-development/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2021/secure-development/</guid>
         
         <category>technology</category>
         
