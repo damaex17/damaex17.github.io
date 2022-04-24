@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Apr 2022 15:57:12 +0000</pubDate>
-    <lastBuildDate>Sun, 24 Apr 2022 15:57:12 +0000</lastBuildDate>
+    <pubDate>Sun, 24 Apr 2022 16:02:05 +0000</pubDate>
+    <lastBuildDate>Sun, 24 Apr 2022 16:02:05 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -124,11 +124,11 @@ In VirtualBox go to Machine &amp;gt; Settings &amp;gt; USB and add an empty Filt
 
 &lt;p&gt;&lt;strong&gt;Wallet not detected by Ledger Software when installing Accounts&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;This happened to me when I added the Etherium account on the wallet. The Bitcoin account worked  without an issue.&lt;/p&gt;
+&lt;p&gt;This happened to me when I added the Ethereum account on the wallet. The Bitcoin account worked  without an issue.&lt;/p&gt;
 
 &lt;p&gt;It turns out that the Ledger S changes the Device ID for some accounts. I noticed this by monitoring the &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; output on the host system.&lt;/p&gt;
 
-&lt;p&gt;Just add a second Filter in VirtualBox for the other Device ID. My wallet has &lt;strong&gt;Device ID 1011 for Bitcoin and 1015 for Etherium&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Just add a second Filter in VirtualBox for the other Device ID. My wallet has &lt;strong&gt;Device ID 1011 for Bitcoin and 1015 for Ethereum&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
 
