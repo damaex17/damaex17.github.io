@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Apr 2022 16:02:05 +0000</pubDate>
-    <lastBuildDate>Sun, 24 Apr 2022 16:02:05 +0000</lastBuildDate>
+    <pubDate>Sun, 24 Apr 2022 20:15:56 +0000</pubDate>
+    <lastBuildDate>Sun, 24 Apr 2022 20:15:56 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -114,7 +114,7 @@ In VirtualBox go to Machine &amp;gt; Settings &amp;gt; USB and add an empty Filt
 &lt;em&gt;Ledger Software in a VirtualBox&lt;/em&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Congratulations, you are now ready to receive and send crypto assets with your hardware wallet. Please make sure you always confirm the wallet ID on you device.&lt;/p&gt;
+&lt;p&gt;Congratulations, you are now ready to receive and send crypto assets with your hardware wallet. Please make sure you always confirm the wallet address displayed on your device.&lt;/p&gt;
 
 &lt;h3 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h3&gt;
 
