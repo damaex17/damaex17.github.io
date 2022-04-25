@@ -5,9 +5,66 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Apr 2022 20:15:56 +0000</pubDate>
-    <lastBuildDate>Sun, 24 Apr 2022 20:15:56 +0000</lastBuildDate>
+    <pubDate>Mon, 25 Apr 2022 14:24:18 +0000</pubDate>
+    <lastBuildDate>Mon, 25 Apr 2022 14:24:18 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>April 2022 Roundup</title>
+        <description>&lt;h5 id=&quot;kick-back-with-us-and-dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Kick back with us and dig into a selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
+
+&lt;h4 id=&quot;spring4shell-the-internet-security-disaster-that-wasnt&quot;&gt;Spring4Shell: The Internet security disaster that wasn’t&lt;/h4&gt;
+
+&lt;p&gt;People were naturally concerned when a researcher published a proof-of-concept exploit that could remotely exploit the popular Spring framework. Without much information available and no CVE assigned, people were unable to determine their exposure. Some security companies jumped on the hype train and warned of imminent danger that “could ruin the internet” to sell their snake oil. A great write-up on the worst side of the security industry, selling services through fear, comes from Arstechnica. &lt;a href=&quot;https://arstechnica.com/information-technology/2022/04/explaining-spring4shell-the-internet-security-disaster-that-wasnt/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;ka-sat-network-cyber-attack-overview&quot;&gt;KA-SAT Network cyber-attack overview&lt;/h4&gt;
+
+&lt;p&gt;In our &lt;a href=&quot;/2022/roundup-032022/&quot; target=&quot;_blank&quot;&gt;March Roundup&lt;/a&gt; we had an article about thousands of KA-SAT terminals that stopped working for an unknown reason. The provider VIASAT has now released an incident report on the cyber-attack against the network. Spoiler alert, the misconfiguration in a VPN appliance was used to gain the initial foothold into the system. &lt;a href=&quot;https://www.viasat.com/about/newsroom/blog/ka-sat-network-cyber-attack-overview/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;graph-based-firewall-analysis&quot;&gt;Graph-based firewall analysis&lt;/h4&gt;
+
+&lt;p&gt;It is good practice to review firewall rules after changes to identify potential attack paths that have been missed. The use of a graph-based approach can help tremendously to visualize the rules and find gaps in the configuration. &lt;a href=&quot;https://diablohorn.com/2022/04/09/firewall-analysis-a-portable-graph-based-approach/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://diablohorn.files.wordpress.com/2022/04/yed-layout-radial.png?w=628&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; alt=&quot;Firewall analysis with graphs&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Display of data using yEd&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;distributed-tcpdump-for-kubernetes&quot;&gt;Distributed tcpdump for Kubernetes&lt;/h4&gt;
+
+&lt;p&gt;The toolbox of any security professional includes capturing network traffic with tcpdump or Wireshark. Gathering the network traffic of distriubuted workloads in cloud environments has been a challenge for forensic analysis. &lt;a href=&quot;https://github.com/deepfence/PacketStreamer&quot; target=&quot;_blank&quot;&gt;PacketStreamer (GitHub)&lt;/a&gt; utilizes sensors to collect network packets on remote hosts and enables the collection of traffic activities on a large number of target systems. &lt;a href=&quot;https://medium.com/deepfence-cloud-native-security/introducing-packetstreamer-distributed-packet-capture-for-cloud-native-platforms-3e7f9ac57ab1&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;authorization-in-a-microservices-world&quot;&gt;Authorization in a microservices world&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/alolis&quot; target=&quot;_blank&quot;&gt;Alexander Lolis&lt;/a&gt; wrote a great blog post about different authorization approaches and what a flexible mechanism could look like. &lt;a href=&quot;https://www.alexanderlolis.com/authorization-in-a-microservices-world#authorization-flow-overview&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://www.alexanderlolis.com/assets/images/authorization_architecture_overview-a7f2e4f08870034de08c831e81aae323.jpg&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; alt=&quot;Authorization mechanism&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Authorization mechanism&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;aws-patch-against-log4j-introduces-new-security-holes&quot;&gt;AWS patch against Log4j introduces new security holes&lt;/h4&gt;
+
+&lt;p&gt;We are still seeing the fallout from the worst Christmas present in years, Log4Shell. A hot patch system introduced to address Log4Shell has been exploited to escape containers and take over the underlying host in AWS. Unit 42 (Paloalto networks) researchers identified the severe security issues within the AWS patching solution. &lt;a href=&quot;https://unit42.paloaltonetworks.com/aws-log4shell-hot-patch-vulnerabilities/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;introduction-to-csrf-how-can-a-cookie-get-you-hacked&quot;&gt;Introduction to CSRF: How can a cookie get you hacked?&lt;/h4&gt;
+
+&lt;p&gt;Cookies serve three purposes: session management, personalization, and tracking. They are assistants to webservers that work in conjunction with the browser to make your life easier. If, however, the web application relies only on cookies to manage sessions, the attacker can perform the infamous CSRF attack. Check out the following article for an introduction to CSRF attacks &lt;a href=&quot;https://systemweakness.com/introduction-to-csrf-how-can-a-cookie-get-you-hacked-1-2-d34e0a0e6319&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/roundup-042022/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-042022/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Setting Up the Ledger Nano S Wallet</title>
@@ -667,124 +724,6 @@ threat actors, and insider threats. The NSA guide describes the security challen
         <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2021/secure-development-lifecycle/</link>
         <guid isPermaLink="true">https://inversegravity.net/2021/secure-development-lifecycle/</guid>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        <category>devsec</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Secure Development - Basic Principles</title>
-        <description>&lt;h5 id=&quot;in-the-first-part-of-this-series-we-have-been-taking-a-look-at-several-types-of-languages-and-the-resulting-security-implications&quot;&gt;In the first part of this series, we have been taking a look at several types of languages and the resulting security implications.&lt;/h5&gt;
-
-&lt;h5 id=&quot;this-time-we-focus-on-the-baseline-for-secure-development-we-will-cover-the-most-basic-principles-that-apply-independently-of-the-creation-of-a-more-specific-application&quot;&gt;This time, we focus on the baseline for secure development. We will cover the most basic principles that apply independently of the creation of a more specific application.&lt;/h5&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development/&quot; target=&quot;_blank&quot;&gt;Secure Development - Programming Languages&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-baseline/&quot; target=&quot;_blank&quot;&gt;Secure Development - Basic Principles&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2021/secure-development-lifecycle/&quot; target=&quot;_blank&quot;&gt;Secure Development - Lifecycle Models&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Secure software is the result of a security-aware software development process.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/risk_1.jpg&quot; alt=&quot;picture of a mountaineer&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;failure-management&quot;&gt;Failure Management&lt;/h3&gt;
-
-&lt;p&gt;Applications will fail at some point in time, no matter how cutting-edge and security-aware programmers, project managers, and product designers are.&lt;/p&gt;
-
-&lt;p&gt;A sense of how to handle failures is essential to stay in control of unpredictable situations for an application or system.&lt;/p&gt;
-
-&lt;p&gt;There are two general practices when planning for failure:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The &lt;strong&gt;fail-open state&lt;/strong&gt; allows a system to continue operations when failure conditions occur. This approach should only be taken in limited circumstances. It might be appropriate on the lower-layers of multilayered security concepts. A good example is an electronic locking door that unlocks in case of failure to ensure the exit in the event of a natural disaster.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The &lt;strong&gt;fail-closed state&lt;/strong&gt; puts a system into a high level of security or even shuts down a failing system. This strategy should be the default where there are security concerns. An example is when a forgotten password results in the denied entry to an account and multiple wrong password entries result in the lock of the account.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;authentication-and-session-management&quot;&gt;Authentication and Session Management&lt;/h3&gt;
-
-&lt;p&gt;Many applications require that users authenticate before accessing sensitive information or modify the data in an application. One of the most basic security tasks developers are facing is to ensure that those users are properly authenticated, that they perform only authorized activities, and that their sessions are securely tracked.&lt;/p&gt;
-
-&lt;p&gt;It is generally more secure to use an existing and hardened authentication system than to try to develop a system for a specific application.&lt;/p&gt;
-
-&lt;p&gt;Similarly, programmers should be encouraged to use established methods for session management. This includes the usage of encrypted channels and that identifiers used in sessions are long and randomly generated. Session tokens have to expire after a specific time and require reauthentication.&lt;/p&gt;
-
-&lt;h3 id=&quot;input-validation&quot;&gt;Input Validation&lt;/h3&gt;
-
-&lt;p&gt;Many applications receive data from potentially untrusted sources. This includes user input on internet-facing web applications or API communication with suppliers, partners, or other applications in the backend.&lt;/p&gt;
-
-&lt;p&gt;Developers often expect these values to fall within certain parameters. For example, if the programmer asks the user to enter a telephone number, the program may expect to see a chain of integer values. If the user enters a value outside the range or character set, a poorly written program may crash or even allow the user to gain control of the underlying system.&lt;/p&gt;
-
-&lt;p&gt;Input validation verifies that the values match the programmer’s expectation before allowing further processing.&lt;/p&gt;
-
-&lt;p&gt;Input escaping describes a check for unusual characters, such as quotation marks within a text field, which may indicate an attack. Escaping can be performed with a blacklisting or better whitelisting approach.&lt;/p&gt;
-
-&lt;p&gt;All input validation efforts should be performed on the server-side of a transaction and as early as possible in the processing of a request.&lt;/p&gt;
-
-&lt;h3 id=&quot;error-handling&quot;&gt;Error Handling&lt;/h3&gt;
-
-&lt;p&gt;Detailed error messages with in-depth information are crucial to debugging code and make it easier for developers to diagnose a problem.&lt;/p&gt;
-
-&lt;p&gt;However, those errors are exposing potentially sensitive information to attackers, including the address of internal servers, database schemas, and other data that may be useful in preparing an attack.&lt;/p&gt;
-
-&lt;p&gt;Therefore, developers have to disable detailed error messages on any publicly available application.&lt;/p&gt;
-
-&lt;h3 id=&quot;logging&quot;&gt;Logging&lt;/h3&gt;
-
-&lt;p&gt;While user-facing error messages may present a security threat, the information that those messages contain is quite useful. Not only to developers but also to security analysts.&lt;/p&gt;
-
-&lt;p&gt;Therefore, applications should be sending detailed logging messages to a centralized log repository.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf&quot; target=&quot;_blank&quot;&gt;OWASP Secure Coding Guidelines&lt;/a&gt; suggest logging the following events.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Input validation failures&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Authentication events, especially failures&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Access control failures&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Apparent tampering events&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Attempts to connect with invalid or expired session tokens&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Exceptions by systems and applications&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Use of administrative privileges&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;TLS connections failures&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Cryptographic errors&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
-
-&lt;p&gt;The above topics are the most basic principles to guide stakeholders in creating secure software.&lt;/p&gt;
-
-&lt;p&gt;In the next article, we’ll take a look at several specific activities of a development process and how security can be applied in each of these.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2021/secure-development-baseline/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2021/secure-development-baseline/</guid>
         
         <category>technology</category>
         
