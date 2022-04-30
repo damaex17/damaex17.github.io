@@ -5,15 +5,15 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Apr 2022 12:41:05 +0000</pubDate>
-    <lastBuildDate>Fri, 29 Apr 2022 12:41:05 +0000</lastBuildDate>
+    <pubDate>Sat, 30 Apr 2022 07:34:03 +0000</pubDate>
+    <lastBuildDate>Sat, 30 Apr 2022 07:34:03 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
         <title>OWASP Software Assurance Maturity Model</title>
-        <description>&lt;h5 id=&quot;security-is-a-major-concern-for-software-products-as-a-result-security-has-to-be-a-concern-of-the-whole-application-lifecycle&quot;&gt;Security is a major concern for software products. As a result, security has to be a concern of the whole application lifecycle.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;security-is-a-major-concern-for-all-software-products-in-order-to-achieve-the-best-results-application-development-has-to-include-security-along-the-whole-lifecycle&quot;&gt;Security is a major concern for all software products. In order to achieve the best results, application development has to include security along the whole lifecycle&lt;/h5&gt;
 
-&lt;h5 id=&quot;but-introducing-security-activities-into-the-software-development-process-is-a-challenging-task-to-be-successful-close-integration-with-existing-processes-is-essential-to-embed-the-new-tasks-smoothly-into-the-tried-and-tested-processes&quot;&gt;But introducing security activities into the software development process is a challenging task. To be successful, close integration with existing processes is essential to embed the new tasks smoothly into the tried and tested processes.&lt;/h5&gt;
+&lt;h5 id=&quot;introducing-security-activities-into-the-software-development-process-can-be-a-challenging-task-to-be-successful-close-integration-with-existing-processes-is-essential-to-embed-the-new-tasks-seamlessly-into-the-tried-and-tested-processes&quot;&gt;Introducing security activities into the software development process can be a challenging task. To be successful, close integration with existing processes is essential to embed the new tasks seamlessly into the tried and tested processes.&lt;/h5&gt;
 
 &lt;p&gt;The Open Web Application Security Project (OWASP) has developed a useful framework for this purpose in the form of the Software Assurance Maturity Model &lt;a href=&quot;https://owaspsamm.org/&quot; target=&quot;_blank&quot;&gt;SAMM&lt;/a&gt;. It enables companies not only to measure the maturity of their software development processes in terms of security but also to iteratively improve.&lt;/p&gt;
 
