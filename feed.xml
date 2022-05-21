@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 May 2022 18:43:38 +0000</pubDate>
-    <lastBuildDate>Sat, 21 May 2022 18:43:38 +0000</lastBuildDate>
+    <pubDate>Sat, 21 May 2022 18:51:56 +0000</pubDate>
+    <lastBuildDate>Sat, 21 May 2022 18:51:56 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -22,7 +22,7 @@
 &lt;p&gt;In vulnerability scoring systems, predefined factors are used to help quantify the degree and probability of damage as objectively as possible. The Common Vulnerability Scoring System (CVSS) describes vulnerability characteristics and determines the severity.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://www.first.org/cvss/identity/cvss_4clr.jpg&quot; height=&quot;200&quot; alt=&quot;The CVSS metrics are divided into three groups&quot; /&gt;
+&lt;img src=&quot;https://www.first.org/cvss/identity/cvss_web.png&quot; alt=&quot;CVSS logo&quot; /&gt;
 &lt;br /&gt;
 &lt;em&gt;CVSS logo&lt;/em&gt;
 &lt;/p&gt;
