@@ -5,9 +5,108 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 May 2022 07:55:45 +0000</pubDate>
-    <lastBuildDate>Sun, 01 May 2022 07:55:45 +0000</lastBuildDate>
+    <pubDate>Sat, 21 May 2022 16:55:21 +0000</pubDate>
+    <lastBuildDate>Sat, 21 May 2022 16:55:21 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>CVSS - The Vulnerability Scoring System</title>
+        <description>&lt;h5 id=&quot;the-common-vulnerability-scoring-system-cvss-is-an-industry-standard-for-assessing-the-severity-of-potential-or-actual-vulnerabilities-in-computer-systems-we-explain-how-the-system-works-and-its-limitations&quot;&gt;The Common Vulnerability Scoring System (CVSS) is an industry-standard for assessing the severity of potential or actual vulnerabilities in computer systems. We explain how the system works and its limitations.&lt;/h5&gt;
+
+&lt;p&gt;A scoring system is mainly concerned with assessing the threat posed by a security vulnerability. In some cases, this is easy, but the facts are not always clear and the question is how can the severity of a vulnerability be quantified systematically?&lt;/p&gt;
+
+&lt;h3 id=&quot;vulnerability-risk-analysis&quot;&gt;Vulnerability Risk Analysis&lt;/h3&gt;
+
+&lt;p&gt;Vulnerabilities are usually assessed using the method of risk analysis. In this process, the probability of exploits occurring and the possible damage they may cause are estimated. Assessments can, however, always be interpreted in different ways.&lt;/p&gt;
+
+&lt;p&gt;In vulnerability scoring systems, predefined factors are used to help quantify the degree and probability of damage as objectively as possible. The Common Vulnerability Scoring System (CVSS) describes vulnerability characteristics and determines the severity.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://www.first.org/cvss/identity/cvss_4clr.jpg&quot; height=&quot;200&quot; alt=&quot;The CVSS metrics are divided into three groups&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;CVSS logo&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;cvss-metrics&quot;&gt;CVSS Metrics&lt;/h3&gt;
+
+&lt;p&gt;With CVSS, vulnerabilities are assessed based on so-called metrics. There are predefined options for each category and these are used to calculate a severity level from 0.0 to 10.0, with 10.0 corresponding to the highest possible severity level.&lt;/p&gt;
+
+&lt;p&gt;Based on these numerical values, qualitative categories are then assigned (None, Low, Medium, High, and Critical), which are also familiar from vulnerability reports.&lt;/p&gt;
+
+&lt;p&gt;The metrics are divided into three groups: Base Metrics, Temporal Metrics, and Environmental Metrics. Base metrics describe the essential technical and unchanging characteristics of a vulnerability. From these, a so-called “base score” can be calculated, which represents the technical severity of a vulnerability.&lt;/p&gt;
+
+&lt;p&gt;It can be readjusted later and adapted to changes over time (temporal metrics) or the environment of the affected system (environmental metrics).&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://www.first.org/cvss/v3-1/media/MetricGroups.svg&quot; alt=&quot;The CVSS metrics are divided into three groups&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;The CVSS metrics are divided into three groups&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For vulnerabilities, a CVE ID is usually assigned as a unique vulnerability identifier in the format CVE-YYYY-NNNN. We have a separate detailed article on the &lt;a href=&quot;/2020/cve-system/&quot; target=&quot;_blank&quot;&gt;CVE System&lt;/a&gt; if you want to delve deeper into the topic.&lt;/p&gt;
+
+&lt;p&gt;CVSS assigns a severity level to vulnerabilities and CVE assigns a unique identifier.&lt;/p&gt;
+
+&lt;h3 id=&quot;base-score&quot;&gt;Base Score&lt;/h3&gt;
+
+&lt;p&gt;Basic metrics are used to calculate the probability of an attack (exploitability metrics) and the consequences of exploitation (impact metrics).&lt;/p&gt;
+
+&lt;p&gt;The prerequisites include, among others, if an attack can be carried out via the Internet or whether physical access to a system is required (attack vector).&lt;/p&gt;
+
+&lt;p&gt;It is also assessed if an attack can be carried out unauthenticated or if an attacker must have a valid user account with certain privileges (privileges required).&lt;/p&gt;
+
+&lt;p&gt;The most critical determinant of the consequences of a successful attack is whether data can be extracted from the affected system, changed on the system, or if its availability can be restricted.&lt;/p&gt;
+
+&lt;p&gt;In other words, it is determined to what extent the protection goals of confidentiality, integrity, and availability (&lt;a href=&quot;/2019/cia-triad/&quot; target=&quot;_blank&quot;&gt;CIA&lt;/a&gt;) are compromised by successful exploitation.&lt;/p&gt;
+
+&lt;p&gt;To calculate the base score, the metrics are offset against each other. Most CVSS assessments on the Internet use this score.&lt;/p&gt;
+
+&lt;h3 id=&quot;adjustments&quot;&gt;Adjustments&lt;/h3&gt;
+
+&lt;p&gt;The base score can later be adapted to temporal changes (Temporal Metrics) or adjusted to the respective environment of the affected system (Environmental Metrics).&lt;/p&gt;
+
+&lt;p&gt;For example, temporal changes occur when there is no longer just a possible description of an abstract vulnerability, but a fully functional exploit appears in the wild (exploit code maturity).&lt;/p&gt;
+
+&lt;p&gt;The criticality can also decrease if a workaround or an official manufacturer fix is available for the vulnerability (remediation level).&lt;/p&gt;
+
+&lt;p&gt;The Environmental metrics allow the score to be adapted to the specific IT environment within an organization. Depending on the importance of a system, the base score is upgraded or downgraded.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://www.first.org/cvss/v3-1/media/EquationsDiagram.svg&quot; alt=&quot;CVSS Metrics and Equations&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;CVSS Metrics and Equations&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;severity&quot;&gt;Severity&lt;/h3&gt;
+
+&lt;p&gt;Base Score, Temporal Score, and Environmental Score are added up to a total score in the end. For each individual score as well as for the total score, a numerical value is obtained.&lt;/p&gt;
+
+&lt;p&gt;These values are categorized in severity levels from “None” to “Critical”. This qualitative assignment is optional and primarily intended to support companies in prioritization when doing vulnerability management.&lt;/p&gt;
+
+&lt;p&gt;An overview of the CVSS vector structure is provided by the &lt;a href=&quot;https://www.first.org/cvss/calculator/3.1&quot; target=&quot;_blank&quot;&gt;CVSS Calculator&lt;/a&gt;. Metrics can easily be calculated via a web interface and scores and vectors are automatically calculated.&lt;/p&gt;
+
+&lt;h3 id=&quot;assessment-bias&quot;&gt;Assessment Bias&lt;/h3&gt;
+
+&lt;p&gt;Vulnerabilities should be assessed as unbiased as possible. The interests of the person doing the assessment are likely to play a role. Manufacturers argue that they have a better basis of information and sometimes talk down vulnerabilities to avoid bad press. Researchers might benefit from a high rating of a finding.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, discussions within the security community usually have a correcting effect on such bias.&lt;/p&gt;
+
+&lt;h3 id=&quot;outlook&quot;&gt;Outlook&lt;/h3&gt;
+
+&lt;p&gt;Version 4.0 of CVSS is already being actively &lt;a href=&quot;https://docs.google.com/document/d/1qmmk9TQulW9d1cuipu_ziXDX0pUswbZ1WSQyynHbvKU/edit&quot; target=&quot;_blank&quot;&gt;discussed&lt;/a&gt;. The Temporale Metrics are to be improved and the introduction of supplemental metrics like “Mitigation Effort” or “Provider-Specific Urgency” is discussed.&lt;/p&gt;
+
+&lt;p&gt;After almost two decades CVSS has become an indispensable part of vulnerability management and helps organizations to prioritize incidents with software and components.&lt;/p&gt;
+
+&lt;p&gt;All metrics, options, and formulas of CVSS are described in detail in the &lt;a href=&quot;https://www.first.org/cvss/specification-document&quot; target=&quot;_blank&quot;&gt;specifications&lt;/a&gt; and the &lt;a href=&quot;https://www.first.org/cvss/user-guide&quot; target=&quot;_blank&quot;&gt;user guide&lt;/a&gt; provides additional information on the usage of CVSS.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/cvss/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/cvss/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>OWASP Software Assurance Maturity Model</title>
@@ -105,7 +204,7 @@
       </item>
     
       <item>
-        <title>April 2022 Roundup</title>
+        <title>Roundup April 2022</title>
         <description>&lt;h5 id=&quot;kick-back-with-us-and-dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Kick back with us and dig into a selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
 
 &lt;h4 id=&quot;spring4shell-the-internet-security-disaster-that-wasnt&quot;&gt;Spring4Shell: The Internet security disaster that wasn’t&lt;/h4&gt;
@@ -114,7 +213,7 @@
 
 &lt;h4 id=&quot;ka-sat-network-cyber-attack-overview&quot;&gt;KA-SAT Network cyber-attack overview&lt;/h4&gt;
 
-&lt;p&gt;In our &lt;a href=&quot;/2022/roundup-032022/&quot; target=&quot;_blank&quot;&gt;March Roundup&lt;/a&gt; we had an article about thousands of KA-SAT terminals that stopped working for an unknown reason. The provider VIASAT has now released an incident report on the cyber-attack against the network. Spoiler alert, the misconfiguration in a VPN appliance was used to gain the initial foothold into the system. &lt;a href=&quot;https://www.viasat.com/about/newsroom/blog/ka-sat-network-cyber-attack-overview/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In our &lt;a href=&quot;/2022/roundup-032022/&quot; target=&quot;_blank&quot;&gt;March Roundup&lt;/a&gt; we had an article about thousands of KA-SAT terminals that stopped working for an unknown reason. The provider ViaSat has now released an incident report on the cyber-attack against the network. Spoiler alert, the misconfiguration in a VPN appliance was used to gain the initial foothold into the system. &lt;a href=&quot;https://www.viasat.com/about/newsroom/blog/ka-sat-network-cyber-attack-overview/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;graph-based-firewall-analysis&quot;&gt;Graph-based firewall analysis&lt;/h4&gt;
 
@@ -298,7 +397,7 @@ In VirtualBox go to Machine &amp;gt; Settings &amp;gt; USB and add an empty Filt
       </item>
     
       <item>
-        <title>March 2022 Roundup</title>
+        <title>Roundup March 2022</title>
         <description>&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
 
 &lt;h4 id=&quot;github-shares-vulnerability-database-with-community&quot;&gt;GitHub shares vulnerability database with community&lt;/h4&gt;
@@ -307,7 +406,7 @@ In VirtualBox go to Machine &amp;gt; Settings &amp;gt; USB and add an empty Filt
 
 &lt;h4 id=&quot;satcom-terminals-under-attack&quot;&gt;SATCOM terminals under attack&lt;/h4&gt;
 
-&lt;p&gt;In parallel to the Russian invasion of Ukraine, thousands of KA-SAT terminals stopped working in several European countries. Remotely operated wind turbines, connected via SATCOM link, lost contact with their servers as a result. &lt;a href=&quot;https://www.linkedin.com/in/rubensantamarta/&quot; target=&quot;_blank&quot;&gt;Ruben Santamarta&lt;/a&gt; analyses the publicly available information in his interesting article. &lt;a href=&quot;https://www.reversemode.com/2022/03/satcom-terminals-under-attack-in-europe.html&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Parallel to the Russian invasion of Ukraine, thousands of KA-SAT terminals stopped working in several European countries. Remotely operated wind turbines, connected via SATCOM link, lost contact with their servers as a result. &lt;a href=&quot;https://www.linkedin.com/in/rubensantamarta/&quot; target=&quot;_blank&quot;&gt;Ruben Santamarta&lt;/a&gt; analyses the publicly available information in his interesting article. &lt;a href=&quot;https://www.reversemode.com/2022/03/satcom-terminals-under-attack-in-europe.html&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/IP-SATCOM.svg/1920px-IP-SATCOM.svg.png&quot; alt=&quot;SATCOM&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
 
@@ -397,7 +496,7 @@ threat actors, and insider threats. The NSA guide describes the security challen
       </item>
     
       <item>
-        <title>February 2022 Roundup</title>
+        <title>Roundup February 2022</title>
         <description>&lt;h5 id=&quot;cybersecurity-has-always-been-about-recognizing-and-responding-to-new-developments-each-month-we-gather-our-favorite-finds-from-around-the-internet-and-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Cybersecurity has always been about recognizing and responding to new developments. Each month we gather our favorite finds from around the internet and recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
 
 &lt;h4 id=&quot;stop-storing-secrets-in-environment-variables&quot;&gt;Stop Storing Secrets In Environment Variables!&lt;/h4&gt;
@@ -525,7 +624,7 @@ threat actors, and insider threats. The NSA guide describes the security challen
       </item>
     
       <item>
-        <title>January 2022 Roundup</title>
+        <title>Roundup January 2022</title>
         <description>&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
 
 &lt;h4 id=&quot;log4j-newest-vulnerability-in-log4j-2170-more-hype-than-substance&quot;&gt;Log4j: Newest Vulnerability in Log4j 2.17.0 more hype than substance&lt;/h4&gt;
@@ -571,7 +670,7 @@ threat actors, and insider threats. The NSA guide describes the security challen
       </item>
     
       <item>
-        <title>December 2021 Roundup</title>
+        <title>Roundup December 2021</title>
         <description>&lt;h5 id=&quot;another-year-is-coming-to-an-end-and-we-start-a-new-format-here-on-inversegravity-kick-back-with-us-and-dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month-we-wish-you-all-the-best-for-2022&quot;&gt;Another year is coming to an end and we start a new format here on inversegravity. Kick back with us and dig into a selection of the best articles, code, and projects we found this past month. We wish you all the best for 2022!&lt;/h5&gt;
 
 &lt;h4 id=&quot;a-cisos-practical-advice-on-log4j&quot;&gt;A CISO’s Practical Advice on log4j&lt;/h4&gt;
@@ -610,82 +709,6 @@ threat actors, and insider threats. The NSA guide describes the security challen
         <guid isPermaLink="true">https://inversegravity.net/2021/roundup-122021/</guid>
         
         <category>roundup</category>
-        
-        <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Scalability Problem Of Bitcoin</title>
-        <description>&lt;h5 id=&quot;bitcoin-is-the-best-known-cryptocurrency-of-all-and-by-far-the-most-important-one-it-is-ahead-of-the-competition-in-market-capitalization-and-no-other-digital-currency-can-hold-a-candle-to-it-in-terms-of-transaction-volume-but-can-btc-become-the-global-currency-of-the-future&quot;&gt;Bitcoin is the best-known cryptocurrency of all and by far the most important one. It is ahead of the competition in market capitalization and no other digital currency can hold a candle to it in terms of transaction volume. But can BTC become the global currency of the future?&lt;/h5&gt;
-
-&lt;p&gt;Bitcoin was committed to making electronic transactions viable for everyone. Without relying on the centralized control by financial institutes, but rather with a peer-to-peer consensus mechanism.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/2019/crypto-hash-digital-signature/&quot; target=&quot;_blank&quot;&gt;Hashed and digitally signed&lt;/a&gt; transactions and a public ledger based on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Blockchain&quot; target=&quot;_blank&quot;&gt;blockchain&lt;/a&gt; made the design revolutionary. Satoshi Nakamoto, the mysterious inventor of BTC, had solved the double-spending problem of digital currencies and mined the &lt;a href=&quot;https://en.bitcoin.it/wiki/Genesis_block&quot; target=&quot;_blank&quot;&gt;genesis block&lt;/a&gt; on the 3rd of January in 2009.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/crypto.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The increasing popularity of bitcoin didn’t only result in a higher value for the digital asset but has also surfaced the inevitable problem: No system is built for endless scalability. To better understand the issue we have to get a bit technical.&lt;/p&gt;
-
-&lt;h3 id=&quot;transactions-tx&quot;&gt;Transactions (TX)&lt;/h3&gt;
-
-&lt;p&gt;One of the most important concepts in Bitcoin is transactions. These “transfer” value, in form of Bitcoins, from one wallet to another on the network. Transactions contain the number of Satoshis (the smallest Bitcoin unit), the wallet addresses of the sender and the receiver.&lt;/p&gt;
-
-&lt;p&gt;The TX is broadcasted to the network, awaiting verification, and is then added to the distributed ledger (blockchain) by a node. Transactions transfer the property rights on Bitcoins between people.&lt;/p&gt;
-
-&lt;h3 id=&quot;nodes&quot;&gt;Nodes&lt;/h3&gt;
-
-&lt;p&gt;In his &lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot; target=&quot;_blank&quot;&gt;whitepaper&lt;/a&gt;, Satoshi used the term node synonymously with a miner. Generally speaking, nodes verify transactions and then add them to the blockchain.&lt;/p&gt;
-
-&lt;p&gt;For the verification of a TX, the node will double-check that each coin sent in a transaction also refers to a previously received coin. Nodes have to solve complex cryptographic computational tasks (mining) to create a new block before the verified TX can be added to the blockchain.&lt;/p&gt;
-
-&lt;h3 id=&quot;throughput-of-btc&quot;&gt;Throughput of BTC&lt;/h3&gt;
-
-&lt;p&gt;The current Bitcoin network creates one new block every 10 minutes. This block has a size limit of 1 megabyte and 4000 transactions. This results in the following limitations of the BTC system:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;max. 7 transactions/sec&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;min. 10 minutes for a transaction confirmation&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The Bitcoin network takes bandwidth limitations into account. In situations where there are more transactions than bandwidth, the mempool of nodes is acting as a buffer or waiting room for transactions. Here, the TX sits until being inserted in a newly created block.&lt;/p&gt;
-
-&lt;h3 id=&quot;prioritization-of-transactions&quot;&gt;Prioritization of Transactions&lt;/h3&gt;
-
-&lt;p&gt;In times of high congestion of the network, there are many more transactions than there is space in the blockchain. It is then the transaction fee that decides the priority (who will be served first).&lt;/p&gt;
-
-&lt;p&gt;The higher the fee, the more likely it is that the node chooses a transaction to be part of the next block in the chain. Transactions with low fees can end up not being written to the blockchain for days, weeks, or even months.&lt;/p&gt;
-
-&lt;p&gt;This is a not preferred situation when you want to pay your goods. You either have to pay a high fee on top of the price of the good or the vendor will wait for your payment until your cappuccino is cold.&lt;/p&gt;
-
-&lt;h3 id=&quot;protocol-issues&quot;&gt;Protocol Issues&lt;/h3&gt;
-
-&lt;p&gt;Bitcoin won’t be able to become a meaningful digital currency without technical changes to the protocol. The throughput is just too low for this purpose. Any medium-sized bank exceeds the limit of 24,000 transactions per hour.&lt;/p&gt;
-
-&lt;p&gt;The increasing amount of fees necessary to guarantee a timely transaction is a result of the scalability issues.&lt;/p&gt;
-
-&lt;h3 id=&quot;protocol-changes&quot;&gt;Protocol Changes&lt;/h3&gt;
-
-&lt;p&gt;Making changes to the protocol of bitcoin is the only way to improve the transaction speed of the network and build a more sustainable system. But changes have their challenges as we have seen in 2017 when an upgrade called &lt;a href=&quot;https://en.wikipedia.org/wiki/SegWit&quot; target=&quot;_blank&quot;&gt;SegWit&lt;/a&gt; was introduced to the bitcoin network.&lt;/p&gt;
-
-&lt;p&gt;The update increased the effective blocksize by a factor of 1.8 by redesigning the content in each block. This change was controversial and lead to the hard-fork &lt;a href=&quot;https://en.wikipedia.org/wiki/Bitcoin_Cash&quot; target=&quot;_blank&quot;&gt;Bitcoin Cash&lt;/a&gt;. The community was stuck in a discussion on who controls the changes to the protocol. As a result of the debate, Bitcoin did not receive any major protocol upgrade since 2017.&lt;/p&gt;
-
-&lt;p&gt;Now in 2021, the network introduced &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_bitcoin_forks&quot; target=&quot;_blank&quot;&gt;Taproot&lt;/a&gt; which is a soft-fork and features the new Pay-to-Taproot (P2TR) transaction type, which combines the concepts of &lt;a href=&quot;https://en.wikipedia.org/wiki/Schnorr_signature&quot; target=&quot;_blank&quot;&gt;Schnorr signatures&lt;/a&gt; and Merklized Alternative Script Trees (MAST); it increases transaction privacy and requires significantly less storage for complex output conditions.&lt;/p&gt;
-
-&lt;h3 id=&quot;outlook&quot;&gt;Outlook&lt;/h3&gt;
-
-&lt;p&gt;Recent updates to the BTC protocol have increased the transaction volume of the network. Nevertheless, Bitcoin is no longer focused on “Fast Money” or usability in commerce but rather has become a digital asset to store value.&lt;/p&gt;
-
-&lt;p&gt;Other cryptocurrencies have emerged and might become a way to pay your cappuccino.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2021/bitcoin-scale/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2021/bitcoin-scale/</guid>
         
         <category>technology</category>
         
