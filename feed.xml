@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jun 2022 09:41:47 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Jun 2022 09:41:47 +0000</lastBuildDate>
+    <pubDate>Tue, 07 Jun 2022 10:29:29 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Jun 2022 10:29:29 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -23,7 +23,7 @@
 
 &lt;h3 id=&quot;shared-responsibility-model&quot;&gt;Shared Responsibility Model&lt;/h3&gt;
 
-&lt;p&gt;It is a misconception that cloud applications are more secure out of the box because the provider takes care of security. But security in the cloud remains a &lt;a href=&quot;https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/shared-responsibility-model.html&quot; target=&quot;_blank&quot;&gt;shared responsibility&lt;/a&gt; between the user and the provider.&lt;/p&gt;
+&lt;p&gt;It is a misconception that cloud applications are more secure out of the box because the provider takes care of security. Security in the cloud remains a &lt;a href=&quot;https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/shared-responsibility-model.html&quot; target=&quot;_blank&quot;&gt;shared responsibility&lt;/a&gt; between the user and the provider.&lt;/p&gt;
 
 &lt;p&gt;According to the shared responsibility model, the cloud provider is responsible, among other things, for the physical security of the hardware or the up-to-dateness of the drivers, for the underlying operating system, the runtime environments, and the physical protection of the network.&lt;/p&gt;
 
