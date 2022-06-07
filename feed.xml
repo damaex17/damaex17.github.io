@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jun 2022 09:40:30 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Jun 2022 09:40:30 +0000</lastBuildDate>
+    <pubDate>Tue, 07 Jun 2022 09:41:47 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Jun 2022 09:41:47 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -29,7 +29,7 @@
 
 &lt;p&gt;Cloud users, however, remain responsible for application security and the correct configuration of the cloud environment.&lt;/p&gt;
 
-&lt;p&gt;User overall responsibility varies from 8 to 52 percent, as estimated by &lt;a href=&quot;https://medium.com/@ory_51733/serverless-and-the-evolution-in-cloud-security-how-faas-differs-from-iaas-4ea8bc7b1dff&quot; target=&quot;_blank&quot;&gt;Ory Segal&lt;/a&gt;. In the following sections, we will outline best practices that specifically apply to the responsibilities of cloud customers.&lt;/p&gt;
+&lt;p&gt;User overall responsibility varies from 8 to 52 percent, as estimated by &lt;a href=&quot;https://medium.com/@ory_51733/serverless-and-the-evolution-in-cloud-security-how-faas-differs-from-iaas-4ea8bc7b1dff&quot; target=&quot;_blank&quot;&gt;Ory Segal&lt;/a&gt;. In the following sections, we will outline best practices and tools that specifically apply to the responsibilities of cloud customers.&lt;/p&gt;
 
 &lt;h3 id=&quot;application-security-with-sca&quot;&gt;Application Security with SCA&lt;/h3&gt;
 
