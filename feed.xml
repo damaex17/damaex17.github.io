@@ -5,9 +5,78 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 May 2022 12:23:46 +0000</pubDate>
-    <lastBuildDate>Mon, 30 May 2022 12:23:46 +0000</lastBuildDate>
+    <pubDate>Tue, 07 Jun 2022 09:40:30 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Jun 2022 09:40:30 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Cloud Security Toolkit</title>
+        <description>&lt;h5 id=&quot;technologies-such-as-kubernetes-and-terraform-have-revolutionized-the-way-how-scalable-applications-are-deployed-using-cloud-native-applications-companies-can-focus-on-implementing-the-business-logic-of-their-applications-rather-than-having-to-maintain-a-dedicated-it-infrastructure&quot;&gt;Technologies such as Kubernetes and Terraform have revolutionized the way how scalable applications are deployed. Using cloud-native applications, companies can focus on implementing the business logic of their applications rather than having to maintain a dedicated IT infrastructure.&lt;/h5&gt;
+
+&lt;p&gt;In such environments, cloud security requires special attention - but it must also keep pace with technological advancements. What are the right priorities?&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://cdn.pixabay.com/photo/2016/03/25/01/49/abstract-1278060_960_720.jpg&quot; alt=&quot;CVSS logo&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Picture: insspirito/pixabay.com&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;shared-responsibility-model&quot;&gt;Shared Responsibility Model&lt;/h3&gt;
+
+&lt;p&gt;It is a misconception that cloud applications are more secure out of the box because the provider takes care of security. But security in the cloud remains a &lt;a href=&quot;https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/shared-responsibility-model.html&quot; target=&quot;_blank&quot;&gt;shared responsibility&lt;/a&gt; between the user and the provider.&lt;/p&gt;
+
+&lt;p&gt;According to the shared responsibility model, the cloud provider is responsible, among other things, for the physical security of the hardware or the up-to-dateness of the drivers, for the underlying operating system, the runtime environments, and the physical protection of the network.&lt;/p&gt;
+
+&lt;p&gt;Cloud users, however, remain responsible for application security and the correct configuration of the cloud environment.&lt;/p&gt;
+
+&lt;p&gt;User overall responsibility varies from 8 to 52 percent, as estimated by &lt;a href=&quot;https://medium.com/@ory_51733/serverless-and-the-evolution-in-cloud-security-how-faas-differs-from-iaas-4ea8bc7b1dff&quot; target=&quot;_blank&quot;&gt;Ory Segal&lt;/a&gt;. In the following sections, we will outline best practices that specifically apply to the responsibilities of cloud customers.&lt;/p&gt;
+
+&lt;h3 id=&quot;application-security-with-sca&quot;&gt;Application Security with SCA&lt;/h3&gt;
+
+&lt;p&gt;Software Composition Analysis (SCA) examines which third-party libraries are contained in an application. This is necessary to detect existing security vulnerabilities in the third-party libraries, better known as &lt;a href=&quot;/2020/cve-system/&quot; target=&quot;_blank&quot;&gt;CVEs (Common Vulnerabilities and Exposures)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Such an analysis of the software composition also examines the application environment. For example, it looks at which applications and shared libraries are installed in a virtual machine or Docker container and whether they contain known security vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;SCA has become an inevitable tool for enforcing application security. This is mainly due to the fact that software nowadays makes extensive use of existing code in the form of libraries instead of reinventing the wheel for each project.&lt;/p&gt;
+
+&lt;h3 id=&quot;application-security-with-sast&quot;&gt;Application Security with SAST&lt;/h3&gt;
+
+&lt;p&gt;Static Application Security Testing (SAST) is essential in any well-structured Software Development Lifecycle (SDLC). It examines the source code of applications to identify security vulnerabilities and anti-patterns.&lt;/p&gt;
+
+&lt;p&gt;Many commercial and free tools exist on the market for performing static code analyses. Some can be integrated as plug-ins directly into the developer’s integrated development environment (IDE) so that developers already receive early feedback on potential security vulnerabilities. This “shift left” approach prevents surprises during the build and deployment process.&lt;/p&gt;
+
+&lt;h3 id=&quot;cloud-configuration-security-with-ciem&quot;&gt;Cloud Configuration Security with CIEM&lt;/h3&gt;
+
+&lt;p&gt;Access management is an essential security topic and is used to manage access to services and resources. In addition to the individual cloud resources such as databases, virtual machines, containers, functions, and S3 buckets that communicate with each other, it is also necessary to tightly manage user accounts in the cloud.&lt;/p&gt;
+
+&lt;p&gt;Cloud Infrastructure Entitlements Management (CIEM) is the right tool for this and provides a graphical representation of the access permissions within the cloud. From an organizational perspective, CIEM allows the access permissions to be kept to a minimum in line with the Principle of Least Privilege.&lt;/p&gt;
+
+&lt;h3 id=&quot;cloud-configuration-security-with-cspm&quot;&gt;Cloud Configuration Security with CSPM&lt;/h3&gt;
+
+&lt;p&gt;A Cloud Security Posture Management (CSPM) tool finds misconfigurations within a cloud account. It checks all resources for conformity with common rule sets such as the Service Organization Control 2 (SOC2), Payment Card Industry Data Security Standard (PCI DSS), or the benchmarks of the Center of Internet Security (CIS).&lt;/p&gt;
+
+&lt;p&gt;Common rules in the benchmarks include typical errors such as open ports for SSH, missing data encryption (“in transit” and “at rest”), or publicly exposed resources such as S3 buckets and databases.&lt;/p&gt;
+
+&lt;h3 id=&quot;context-and-prioritization&quot;&gt;Context and Prioritization&lt;/h3&gt;
+
+&lt;p&gt;The mentioned tools are essential to secure cloud environments. Errors in the cloud setup or vulnerabilities in the application can easily open doors for attackers.&lt;/p&gt;
+
+&lt;p&gt;In an ideal world, security teams close all vulnerabilities they find - but the reality is more complex. DevOps and Security teams are often understaffed in terms of personnel and available resources.&lt;/p&gt;
+
+&lt;p&gt;Teams need to focus on the most critical issues to keep up with the large number of alerts from various tools. Often, the severity that the tools assigned to alerts automatically define the priority.&lt;/p&gt;
+
+&lt;p&gt;But judging solely based on severity can easily lead to misjudgment. For example, an affected database server could be an unused test instance that cannot be reached from the internet and doesn’t have any critical data on it. The priority of such a vulnerable database would be low despite a high severity of a finding.&lt;/p&gt;
+
+&lt;p&gt;Security teams have to be cautious when prioritizing mitigation activities and can’t rely exclusively on severity scores. The full picture (context) of the application and environment is necessary to accurately assess the risk of a vulnerability.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/cloud-security/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/cloud-security/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Roundup May 2022</title>
@@ -15,7 +84,7 @@
 
 &lt;h4 id=&quot;update-on-the-viasat-satellite-network-cyberattack&quot;&gt;Update on the ViaSat satellite network cyberattack&lt;/h4&gt;
 
-&lt;p&gt;We start this months news with an update on the ViaSat attack. We have been tracking this story in our news updates from &lt;a href=&quot;/2022/roundup-032022/&quot; target=&quot;_blank&quot;&gt;March&lt;/a&gt; and &lt;a href=&quot;/2022/roundup-042022/&quot; target=&quot;_blank&quot;&gt;April&lt;/a&gt;. One of the first signs of the hack occurred when more than 5,800 wind turbines belonging to the German energy company Enercon were knocked offline. Russia is now accused of being responsible for the mysterious satellite hack - Ukraine’s military was the primary target and EU countries were collateral damage the article explains. &lt;a href=&quot;https://arstechnica.com/information-technology/2022/05/us-and-its-allies-say-russia-waged-cyberattack-that-took-out-satellite-network/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We start this months news with an update on the ViaSat attack. We have been tracking this story in our updates from &lt;a href=&quot;/2022/roundup-032022/&quot; target=&quot;_blank&quot;&gt;March&lt;/a&gt; and &lt;a href=&quot;/2022/roundup-042022/&quot; target=&quot;_blank&quot;&gt;April&lt;/a&gt;. One of the first signs of the hack occurred when more than 5,800 wind turbines belonging to the German energy company Enercon were knocked offline. Russia is now accused of being responsible for the mysterious satellite hack - Ukraine’s military was the primary target and EU countries were collateral damage the article explains. &lt;a href=&quot;https://arstechnica.com/information-technology/2022/05/us-and-its-allies-say-russia-waged-cyberattack-that-took-out-satellite-network/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;interactive-kubernetes-security-learning-playground&quot;&gt;Interactive Kubernetes Security Learning Playground&lt;/h4&gt;
 
@@ -686,52 +755,6 @@ threat actors, and insider threats. The NSA guide describes the security challen
         <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/cloud-post-schrems2/</link>
         <guid isPermaLink="true">https://inversegravity.net/2022/cloud-post-schrems2/</guid>
-        
-        <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Roundup January 2022</title>
-        <description>&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-we-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and we recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
-
-&lt;h4 id=&quot;log4j-newest-vulnerability-in-log4j-2170-more-hype-than-substance&quot;&gt;Log4j: Newest Vulnerability in Log4j 2.17.0 more hype than substance&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/breadchris&quot; target=&quot;_blank&quot;&gt;Chris Thompson&lt;/a&gt; has an insightful article about the current hype on log4j. With as much attention as there is now on the Log4j project, it can be difficult to truly understand the impact of the recently disclosed vulnerabilities when they are being compared against the original Log4Shell vulnerability, a perfect 10/10 severity. The latest vulnerabilities found in log4j 2.17.0 are much less serious. 
-&lt;a href=&quot;https://www.lunasec.io/docs/blog/log4j-hype-train/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;vulcano-breaks-communication-with-the-archipelago-tonga&quot;&gt;Vulcano breaks communication with the archipelago Tonga&lt;/h4&gt;
-
-&lt;p&gt;The massive eruption of the Hunga Tonga-Hunga Haʻapai volcano in Tonga in the Pacific damaged several submarine cables. This is reported by New Zealand media referencing to various operators of submarine cables in the South Pacific. It is feared that the island state of Tonga will remain largely cut off from the Internet for at least several weeks.
-&lt;a href=&quot;https://www.stuff.co.nz/world/south-pacific/127517682/cable-repair-ship-to-set-sail-from-png-to-restore-communications-to-tonga&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;never-before-seen-cross-platform-rat-discovered&quot;&gt;Never-before-seen cross-platform RAT discovered&lt;/h4&gt;
-
-&lt;p&gt;Researchers have uncovered a remote access trojan (RAT) written from scratch for systems running Windows, macOS, or Linux that remained undetected by virtually all malware scanning engines. The discovery is significant for several reasons and is described in detail in the following article.
-&lt;a href=&quot;https://arstechnica.com/information-technology/2022/01/backdoor-for-windows-macos-and-linux-went-undetected-until-now/1&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;10-real-world-stories-of-compromised-cicd-pipelines&quot;&gt;10 real-world stories of compromised CI/CD pipelines&lt;/h4&gt;
-
-&lt;p&gt;Build pipelines are highly-privileged targets with a substantial attack surface. Not only does this article by nccgroup detail the exploits and deficiencies, but lays out clear actionable steps to remedy them. &lt;a href=&quot;https://research.nccgroup.com/2022/01/13/10-real-world-stories-of-how-weve-compromised-ci-cd-pipelines/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;patchmanagement---a-comprehensive-series&quot;&gt;Patchmanagement - a comprehensive series&lt;/h4&gt;
-
-&lt;p&gt;Unpatched known vulnerabilities remain one of the most common attack vectors in today’s cyberattacks. The insightful series of articles on darkreading covers the evolution of patchmanagement, the risk-based approach we are all used to today, and an outlook to the future development of keeping systems updated. &lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/the-evolution-of-patch-management-how-and-when-it-got-so-complicated&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;threat-intelligence---free-and-open-source&quot;&gt;Threat intelligence - free and open-source&lt;/h4&gt;
-
-&lt;p&gt;Matthew Sullivan has created a community-driven alerting system for high-impact vulnerabilities. We think this is an amazing alternative to commercial threat intelligence systems and worth supporting. &lt;a href=&quot;https://mattslifebytes.com/2022/01/04/bugalert-org/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;we-purchased-a-machine-from-china-and-it-came-with-malware-preinstalled&quot;&gt;We purchased a machine from China and it came with malware preinstalled&lt;/h4&gt;
-
-&lt;p&gt;We want to end this roundup with a hilarious and informative story from the folks at rmcybernetics. They ordered a small Pick and Place machine from AliExpress and found malware preinstalled. &lt;a href=&quot;https://www.rmcybernetics.com/general/zhengbang-zb3245tss-pick-place-machine&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/roundup-012022/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-012022/</guid>
-        
-        <category>roundup</category>
         
         <category>technology</category>
         
