@@ -5,9 +5,66 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jun 2022 10:29:29 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Jun 2022 10:29:29 +0000</lastBuildDate>
+    <pubDate>Sun, 26 Jun 2022 10:55:25 +0000</pubDate>
+    <lastBuildDate>Sun, 26 Jun 2022 10:55:25 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Roundup June 2022</title>
+        <description>&lt;h5 id=&quot;dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Dig into a selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
+
+&lt;h4 id=&quot;steampipe-cli&quot;&gt;Steampipe CLI&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://steampipe.io/&quot; target=&quot;_blank&quot;&gt;Steampipe&lt;/a&gt; is an open-source CLI to instantly query cloud APIs using SQL-based queries to explore dynamic data. Mods extend Steampipe’s capabilities with dashboards, reports, and controls. One of our favorite modes is the AWS compliance mode which includes 120+ controls for cloud environments. &lt;a href=&quot;https://hub.steampipe.io/mods/turbot/aws_compliance/dashboards&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/turbot/steampipe-mod-aws-compliance/main/docs/aws_cis_v140_console.png&quot; alt=&quot;Steampipe CIS Dashboard&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Steampipe CIS Dashboard&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;code-execution-vulnerability-in-ms-office---follina&quot;&gt;Code Execution Vulnerability In MS Office - Follina&lt;/h4&gt;
+
+&lt;p&gt;The Follina 0-day vulnerability &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30190&quot; target=&quot;_blank&quot;&gt;(CVE-2022-30190)&lt;/a&gt; was made public when &lt;a href=&quot;https://twitter.com/nao_sec/status/1530196847679401984&quot; target=&quot;_blank&quot;&gt;nao_sec&lt;/a&gt; reported a malicious Word document on VirusTotal submitted from an IP Address in Belarus. The document performs command execution on a target even though the document is a .docx and does not contain the usual way of exploitation namely macros. &lt;a href=&quot;https://fourcore.io/blogs/follina-ms-office-msdt-code-execution-zero-day-vulnerability&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;atlassian-injection-observed-in-the-wild&quot;&gt;Atlassian Injection Observed In The Wild&lt;/h4&gt;
+
+&lt;p&gt;In a security advisory published on the 2nd of June, Atlassian addressed a remote code execution vulnerability &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-26134&quot; target=&quot;_blank&quot;&gt;(CVE-2022-26134)&lt;/a&gt; affecting all supported versions of its Confluence Server and Data Center products. This vulnerability allows an unauthenticated remote attacker to execute code. Greynoise documents the details of how quickly this vulnerability was exploited. &lt;a href=&quot;https://www.greynoise.io/blog/observed-in-the-wild-atlassian-confluence-server-cve-2022-26134&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;analysis-of-the-wizard-spider-hacking-group&quot;&gt;Analysis Of The Wizard Spider Hacking Group&lt;/h4&gt;
+
+&lt;p&gt;Wizard Spider is a highly profitable cybercrime group that operates a number of sophisticated malware variants in its attacks. This report contains a technical analysis of Wizard Spider’s capabilities and its command structure, which includes a complex set of sub-teams divided into software-specific groups. This information can help organizations prepare for highly coordinated cyberattacks that use distributed command structures to exploit high-value targets. &lt;a href=&quot;https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;threat-intelligence-conti-logs&quot;&gt;Threat Intelligence: Conti Logs&lt;/h4&gt;
+
+&lt;p&gt;The following blog from Microsoft explains a workflow for deeper data analysis and visualization as well as extraction and analysis of indicators of compromise (IOCs). Data sets from the February 2022 leak of data from the ransomware-as-a-service (RaaS) coordinated operation called “Conti” is used as a case study. The slang translation dictionary is hilarious. &lt;a href=&quot;https://www.microsoft.com/security/blog/2022/06/01/using-python-to-unearth-a-goldmine-of-threat-intelligence-from-leaked-chat-logs/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://www.microsoft.com/security/blog/uploads/securityprod/2022/05/fig-10-connections-to-user-Stern.png&quot; alt=&quot;Graph Connections&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Graph of the connections of a single user&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;vulnerability-management---consider-attackability&quot;&gt;Vulnerability Management - Consider “Attackability”&lt;/h4&gt;
+
+&lt;p&gt;As vulnerability-management workloads surge in the face of heightened software supply chain security risks, a study reports only 3% of flaws can actually be exploited. The study also explores how to find and fix the critical 3%. It is suggested to execute a simplified threat analysis for open-source vulnerabilities resulting in a “attackability” and “reachability” score. While seeking a prioritization model like this is nothing new, the article provides a great perspective. &lt;a href=&quot;https://www.darkreading.com/application-security/open-source-software-bugs--attackability&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;7-steps-to-stronger-saas-security&quot;&gt;7 Steps to Stronger SaaS Security&lt;/h4&gt;
+
+&lt;p&gt;Software-as-a-service (SaaS) application security is often a blind spot, so give your SaaS ecosystem some extra attention with the suggested 7 basic steps. SaaS is ubiquitous, highly configurable, and continuously updated, leaving many organizations vulnerable if they aren’t closely monitoring for security gaps and changes. &lt;a href=&quot;https://www.darkreading.com/cloud/7-steps-to-stronger-saas-security&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/roundup-062022/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-062022/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Cloud Security Toolkit</title>
@@ -55,7 +112,7 @@
 
 &lt;p&gt;A Cloud Security Posture Management (CSPM) tool finds misconfigurations within a cloud account. It checks all resources for conformity with common rule sets such as the Service Organization Control 2 (SOC2), Payment Card Industry Data Security Standard (PCI DSS), or the benchmarks of the Center of Internet Security (CIS).&lt;/p&gt;
 
-&lt;p&gt;Common rules in the benchmarks include typical errors such as open ports for SSH, missing data encryption (“in transit” and “at rest”), or publicly exposed resources such as S3 buckets and databases.&lt;/p&gt;
+&lt;p&gt;Common rules in the benchmarks include typical errors such as open ports for SSH, missing data encryption in transit or at rest, or publicly exposed resources such as S3 buckets and databases.&lt;/p&gt;
 
 &lt;h3 id=&quot;context-and-prioritization&quot;&gt;Context and Prioritization&lt;/h3&gt;
 
@@ -673,88 +730,6 @@ threat actors, and insider threats. The NSA guide describes the security challen
         <guid isPermaLink="true">https://inversegravity.net/2022/roundup-022022/</guid>
         
         <category>roundup</category>
-        
-        <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cloud &amp; Schrems II: What now?</title>
-        <description>&lt;h5 id=&quot;cloud-computing-has-been-one-of-the-most-disruptive-technologies-in-the-last-decade-unprecedented-flexibility-scalability-and-cost-effectiveness-seduced-organizations-to-equate-digital-transformation-with-cloud-migration&quot;&gt;Cloud computing has been one of the most disruptive technologies in the last decade. Unprecedented flexibility, scalability, and cost-effectiveness seduced organizations to equate digital transformation with cloud migration.&lt;/h5&gt;
-
-&lt;h5 id=&quot;but-in-2020-the-bright-future-of-cloud-computing-darkened-when-the-eu-court-of-justice-cjeu-invalidated-the-transfer-deal-privacy-shield-the-legal-foundation-on-which-eu-companies-outsourced-to-us-cloud-providers&quot;&gt;But in 2020, the bright future of cloud computing darkened when the EU Court of Justice (CJEU) invalidated the transfer deal “Privacy Shield”, the legal foundation on which EU companies outsourced to US cloud providers.&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/schrems2.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;this-so-called-schrems-ii-ruling-leaves-many-companies-in-an-awkward-situation-us-cloud-providers-are-mostly-no-help-and-retreat-to-mere-lip-services&quot;&gt;This so-called Schrems II ruling leaves many companies in an awkward situation. US cloud providers are mostly no help and retreat to mere lip services.&lt;/h5&gt;
-
-&lt;p&gt;No false conclusions should be drawn from the supposed inaction of the data protection authorities. In the case of the USA in particular, the CJEU’s ruling has given the supervisory authorities clear guidelines that leave little room for discretion.&lt;/p&gt;
-
-&lt;p&gt;In this article, we describe technical measures that organizations can take to continue the use of US cloud providers post-Schrems II.&lt;/p&gt;
-
-&lt;h3 id=&quot;tldr-schrems-ii--us-cloud-act&quot;&gt;TL;DR Schrems II &amp;amp; US Cloud Act&lt;/h3&gt;
-
-&lt;p&gt;Large US companies, such as Microsoft, Amazon, or Google, advertise that they have an EU subsidiary with server locations in Europe, which means that no transfer to the USA would take place.&lt;/p&gt;
-
-&lt;p&gt;However, the Schrems II ruling states that a server located in the EU does not protect against US laws: The &lt;a href=&quot;https://en.wikipedia.org/wiki/CLOUD_Act&quot; target=&quot;_blank&quot;&gt;CLOUD Act&lt;/a&gt; authorizes US authorities to access data stored by US service providers and their subsidiaries outside the USA - even if this represents a conflict with local national law.&lt;/p&gt;
-
-&lt;p&gt;The CJEU notes that data protection standards, in general, cannot be guaranteed when outsourcing to US providers. US law is incompatible with the requirements of EU consumer rights.&lt;/p&gt;
-
-&lt;p&gt;Under the GDPR, EU businesses have to prevent unauthorized access to personal data. What’s new about Schrems II, however, is that this time we do not have to fear hackers or human error, but American law enforcement. The cloud environment has become hostile territory.&lt;/p&gt;
-
-&lt;p&gt;Let’s look at some technical safeguards for the post Schrems II era.&lt;/p&gt;
-
-&lt;h3 id=&quot;assessment-and-classification&quot;&gt;Assessment And Classification&lt;/h3&gt;
-
-&lt;p&gt;The first task, in any case, is an honest evaluation of the situation to plan for supplementary measures.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What cloud providers are used?&lt;/li&gt;
-  &lt;li&gt;What processes are outsourced to the provider?&lt;/li&gt;
-  &lt;li&gt;Which laws apply to the service provider?&lt;/li&gt;
-  &lt;li&gt;Is the privacy and security policy appropriate?&lt;/li&gt;
-  &lt;li&gt;What type of data is transferred?&lt;/li&gt;
-  &lt;li&gt;Do we need a data processing agreement?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Organizations are well-advised to maintain a detailed list of suppliers and sub-suppliers. The full outsourcing chain has to be considered. For example, an EU-based HR software provider can potentially run on a US infrastructure service (IaaS).&lt;/p&gt;
-
-&lt;h3 id=&quot;anonymization&quot;&gt;Anonymization&lt;/h3&gt;
-
-&lt;p&gt;Completely anonymized data is not protected by the GDPR and can consequently be transferred to US cloud providers. The challenge is to preserve the usability of such anonymized data.&lt;/p&gt;
-
-&lt;p&gt;OpenSource tools such as &lt;a href=&quot;https://arx.deidentifier.org/&quot; target=&quot;_blank&quot;&gt;ARX&lt;/a&gt; are very helpful in building proper documentation and help businesses to strike the right balance between anonymization and data usability. Proof for the anonymization must be defendable against objections from data authorities.&lt;/p&gt;
-
-&lt;h3 id=&quot;smart-clients&quot;&gt;Smart Clients&lt;/h3&gt;
-
-&lt;p&gt;We have written a whole article on this topic here: &lt;a href=&quot;/2020/privacy-client-shift/&quot; target=&quot;_blank&quot;&gt;Shift To The Client&lt;/a&gt;. Smart Client architecture emphasizes the client over the backend when it comes to the processing and storage of personal data.&lt;/p&gt;
-
-&lt;p&gt;This approach has, for example, been chosen for the official German &lt;a href=&quot;https://en.wikipedia.org/wiki/Corona-Warn-App&quot; target=&quot;_blank&quot;&gt;COVID-19 contact tracing app&lt;/a&gt;. The app is not supported by a centralized storage system and anonymized data is only shared when a warning to other users is initiated.&lt;/p&gt;
-
-&lt;p&gt;Decentralized architecture and smart clients are a much too rarely considered possibility when planning for a business case. With Schrems II, however, the traditional client-server architecture will be a challenge in the future.&lt;/p&gt;
-
-&lt;h3 id=&quot;provider-independent-encryption&quot;&gt;Provider Independent Encryption&lt;/h3&gt;
-
-&lt;p&gt;Cloud providers make key management easy to use with integrated services. But this doesn’t address the underlying issue of Schrems II since the key ownership stays with the cloud provider and therefore enables the provider to decrypt any sensitive data in transit or storage.&lt;/p&gt;
-
-&lt;p&gt;Provider independent encryption (or key management) on the other hand is a suitable approach to prevent unauthorized access. Organizations with such a system can effectively block cloud providers from reading sensitive data.&lt;/p&gt;
-
-&lt;p&gt;A great solution for cloud storage solutions like Google Drive or Dropbox is the usage of key management services like &lt;a href=&quot;https://cryptomator.org/&quot; target=&quot;_blank&quot;&gt;Cryptomator&lt;/a&gt; or &lt;a href=&quot;https://www.boxcryptor.com/en/&quot; target=&quot;_blank&quot;&gt;Boxcryptor&lt;/a&gt;. These tools hide the content of files from the storage provider by implementing full end-to-end encryption (e2ee).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cryptomator.org/img/home/split-screenshots.png&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;We have highlighted some technical ideas that can serve as a starting point for a cloud outsourcing approach in line with the GDPR. However, the most important question is if every single outsourcing project needs to be done with a US provider or whether there is not a suitable EU solution.&lt;/p&gt;
-
-&lt;p&gt;Choose your battles carefully. The days of pragmatically transferring data to vendors and configuring something that somehow worked are over.&lt;/p&gt;
-
-&lt;p&gt;The future of outsourcing to the cloud lies in the deliberate planning of processing activities and supplementary measures to secure a run-of-the-mill cloud service.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/cloud-post-schrems2/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/cloud-post-schrems2/</guid>
         
         <category>technology</category>
         
