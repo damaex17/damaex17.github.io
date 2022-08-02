@@ -5,9 +5,70 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 Jun 2022 10:55:25 +0000</pubDate>
-    <lastBuildDate>Sun, 26 Jun 2022 10:55:25 +0000</lastBuildDate>
+    <pubDate>Tue, 02 Aug 2022 19:24:31 +0000</pubDate>
+    <lastBuildDate>Tue, 02 Aug 2022 19:24:31 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Roundup July 2022</title>
+        <description>&lt;h5 id=&quot;dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Dig into a selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
+
+&lt;h4 id=&quot;massive-data-breach-in-china&quot;&gt;Massive Data Breach in China&lt;/h4&gt;
+
+&lt;p&gt;The personally identifiable information (PII) of one billion people in China has been put up for sale on the darknet. The dataset was reportedly extracted from an unsecured Shanghai police database hosted on Alibaba’s cloud hosting platform. There have been countless instances where organizations have similarly exposed sensitive data by leaving it poorly secured. What makes the Shanghai breach notable is its sheer scale. By most accounts, it is one of the largest ever known compromises of PII. &lt;a href=&quot;https://www.darkreading.com/cloud/questions-massive-shanghai-police-data-breach&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;threat-modeling-field-guide&quot;&gt;Threat Modeling Field Guide&lt;/h4&gt;
+
+&lt;p&gt;A solid guide to a multitude of threat modeling methodologies has been published on &lt;a href=&quot;https://twitter.com/shellsharks&quot; target=&quot;_blank&quot;&gt;shellsharks&lt;/a&gt;. Each of the methods comes with a solid description and visualizations. The Appendix goes into data flow diagrams and tooling to perform the perfect threat modeling session for your use case. &lt;a href=&quot;https://shellsharks.com/threat-modeling&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://shellsharks-images.s3.amazonaws.com/2022/threatmodel/data-flow-diagram.png&quot; alt=&quot;Hackers hacking&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Data Flow Diagram&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;binary-vulnerability-toolset-with-ghidra-and-semgrep&quot;&gt;Binary Vulnerability Toolset With Ghidra and Semgrep&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/0xdea&quot; target=&quot;_blank&quot;&gt;Marco Ivaldi&lt;/a&gt; released a technical article about automated vulnerability discovery via static analysis techniques. The walkthrough covers custom scripts for &lt;a href=&quot;https://semgrep.dev/&quot; target=&quot;_blank&quot;&gt;semgrep&lt;/a&gt; and &lt;a href=&quot;https://ghidra-sre.org/&quot; target=&quot;_blank&quot;&gt;ghidra&lt;/a&gt; to build a toolset for binary bug hunting.  &lt;a href=&quot;https://security.humanativaspa.it/automating-binary-vulnerability-discovery-with-ghidra-and-semgrep/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;hackerone-employee-steals-vulnerability-reports-for-personal-gains&quot;&gt;HackerOne Employee Steals Vulnerability Reports for Personal Gains&lt;/h4&gt;
+
+&lt;p&gt;A HackerOne employee has been fired for collecting bug bounties from its customers after alerting them to vulnerabilities that were found by other researchers and shared privately with HackerOne through its vulnerability disclosure program. &lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/hackerone-employee-fired-for-stealing-and-selling-bug-reports-for-personal-gain&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://inversegravity.net/assets/images/culture_1.jpg&quot; alt=&quot;Hackers hacking&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Hackers&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;nist-announces-first-four-quantum-resistant-cryptographic-algorithms&quot;&gt;NIST Announces First Four Quantum-Resistant Cryptographic Algorithms&lt;/h4&gt;
+
+&lt;p&gt;Security experts have warned that practical quantum computers could break many of today’s popular encryption algorithms, such as RSA and elliptic curve cryptography. On July 5, the National Institute of Standards and Technology (NIST) announced the selection of four candidates to form the basis of future data-protection technologies able to withstand attacks from quantum computers. &lt;a href=&quot;https://www.nist.gov/news-events/news/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;most-of-australian-domains-have-security-issue-with-their-spf-and-dmarc-configuration&quot;&gt;Most Of Australian Domains Have Security Issue With Their SPF And DMARC Configuration&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/sebastian-salla/&quot; target=&quot;_blank&quot;&gt;Sebastian Salla&lt;/a&gt; scanned 1.7 million Australian domains and checked for various types of SPF &amp;amp; DMARC-related issues. His interesting writeup describes how he ran 400 concurrent lambda functions for 24 hours and reveals the less than optimal results from his scan. &lt;a href=&quot;https://caniphish.com/phishing-resources/blog/australian-spf-scan&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;unlock-honda-cars-remotely&quot;&gt;Unlock Honda cars remotely&lt;/h4&gt;
+
+&lt;p&gt;A team of security researchers found that several modern Honda car models have a vulnerable rolling code mechanism that allows unlocking the cars or even starting the engine remotely. Called Rolling-PWN, the weakness enables replay attacks where a threat actor intercepts the codes from the keyfob to the car and uses them to unlock or start the vehicle. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/hackers-can-unlock-honda-cars-remotely-in-rolling-pwn-attacks/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;time-to-patch-before-scan-15-minutes&quot;&gt;Time To Patch Before Scan: 15 Minutes&lt;/h4&gt;
+
+&lt;p&gt;There is less time to patch disclosed security vulnerabilities than previously thought, as a new report from Palo Alto’s Unit 42 shows. Threat actors scan for vulnerable endpoints within 15 minutes of a new CVE being publicly disclosed. The speed at which actors target devices and systems only adds additional pressure on security teams that already struggle to get vulnerabilities managed. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/hackers-scan-for-vulnerabilities-within-15-minutes-of-disclosure/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/roundup-072022/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-072022/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Roundup June 2022</title>
@@ -45,7 +106,7 @@
 &lt;em&gt;Graph of the connections of a single user&lt;/em&gt;
 &lt;/p&gt;
 
-&lt;h4 id=&quot;vulnerability-management---consider-attackability&quot;&gt;Vulnerability Management - Consider “Attackability”&lt;/h4&gt;
+&lt;h4 id=&quot;consider-attackability-for-vulnerability-management&quot;&gt;Consider “Attackability” for Vulnerability Management&lt;/h4&gt;
 
 &lt;p&gt;As vulnerability-management workloads surge in the face of heightened software supply chain security risks, a study reports only 3% of flaws can actually be exploited. The study also explores how to find and fix the critical 3%. It is suggested to execute a simplified threat analysis for open-source vulnerabilities resulting in a “attackability” and “reachability” score. While seeking a prioritization model like this is nothing new, the article provides a great perspective. &lt;a href=&quot;https://www.darkreading.com/application-security/open-source-software-bugs--attackability&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
@@ -116,15 +177,15 @@
 
 &lt;h3 id=&quot;context-and-prioritization&quot;&gt;Context and Prioritization&lt;/h3&gt;
 
-&lt;p&gt;The mentioned tools are essential to secure cloud environments. Errors in the cloud setup or vulnerabilities in the application can easily open doors for attackers.&lt;/p&gt;
+&lt;p&gt;The mentioned tools are essential to secure cloud environments. Errors in the cloud setup or vulnerabilities in the application can easily open a door for attackers.&lt;/p&gt;
 
-&lt;p&gt;In an ideal world, security teams close all vulnerabilities they find - but the reality is more complex. DevOps and Security teams are often understaffed in terms of personnel and available resources.&lt;/p&gt;
+&lt;p&gt;In an ideal world, security teams would close all vulnerabilities as soon as they appear - but the reality is more complex. DevOps and Security teams are often understaffed in terms of personnel and available resources.&lt;/p&gt;
 
-&lt;p&gt;Teams need to focus on the most critical issues to keep up with the large number of alerts from various tools. Often, the severity that the tools assigned to alerts automatically define the priority.&lt;/p&gt;
+&lt;p&gt;Teams need to focus on the most critical issues to keep up with the large number of alerts from various tools. Often, the severity assigned to vulnerabilities automatically define the priority.&lt;/p&gt;
 
 &lt;p&gt;But judging solely based on severity can easily lead to misjudgment. For example, an affected database server could be an unused test instance that cannot be reached from the internet and doesn’t have any critical data on it. The priority of such a vulnerable database would be low despite a high severity of a finding.&lt;/p&gt;
 
-&lt;p&gt;Security teams have to be cautious when prioritizing mitigation activities and can’t rely exclusively on severity scores. The full picture (context) of the application and environment is necessary to accurately assess the risk of a vulnerability.&lt;/p&gt;
+&lt;p&gt;Security teams have to be cautious when prioritizing mitigation activities and can’t exclusively rely on severity scores. The full picture (context) of the application and environment is necessary to accurately assess the risk of a vulnerability.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/cloud-security/</link>
@@ -684,52 +745,6 @@ threat actors, and insider threats. The NSA guide describes the security challen
         <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/raspberry-pi-anniversary/</link>
         <guid isPermaLink="true">https://inversegravity.net/2022/raspberry-pi-anniversary/</guid>
-        
-        <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Roundup February 2022</title>
-        <description>&lt;h5 id=&quot;cybersecurity-has-always-been-about-recognizing-and-responding-to-new-developments-each-month-we-gather-our-favorite-finds-from-around-the-internet-and-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Cybersecurity has always been about recognizing and responding to new developments. Each month we gather our favorite finds from around the internet and recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
-
-&lt;h4 id=&quot;stop-storing-secrets-in-environment-variables&quot;&gt;Stop Storing Secrets In Environment Variables!&lt;/h4&gt;
-
-&lt;p&gt;Matt Hamilton argues that an application is the most trustworthy at initialization before the execution of business logic. He suggests utilizing ephemeral filesystems to provide secrets to an application. A very interesting article that got a lot of attention. &lt;a href=&quot;https://blog.forcesunseen.com/stop-storing-secrets-in-environment-variables&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;the-beautiful-complexity-of-the-sha256-algorithm&quot;&gt;The beautiful complexity of the SHA256 Algorithm&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/manceraio&quot; target=&quot;_blank&quot;&gt;Domingo Martin&lt;/a&gt; presents on his website the inner workings of the SHA256 hashing algorithm. Knowing the theory is one thing but having such an engaging graphical representation is quite a treat!
-&lt;a href=&quot;https://sha256algorithm.com/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;how-i-hacked-a-hardware-crypto-wallet-and-recovered-2-million&quot;&gt;How I hacked a hardware crypto wallet and recovered $2 million&lt;/h4&gt;
-
-&lt;p&gt;A very entertaining video reached us from &lt;a href=&quot;https://twitter.com/joegrand&quot; target=&quot;_blank&quot;&gt;Joe Grand&lt;/a&gt; aka Kingpin. The video is running us through the hack of a Trezor One hardware wallet to recover $2 million in cryptocurrency (THETA). Joe uses a technique called fault-injection - also known as glitching — to undermine the security protection of the wallet. &lt;a href=&quot;https://www.youtube.com/watch?v=dT9y-KQbqi4&quot; target=&quot;_blank&quot;&gt;&amp;gt;watch&amp;lt;&lt;/a&gt;&lt;a href=&quot;https://www.theverge.com/2022/1/24/22898712/crypto-hardware-wallet-hacking-lost-bitcoin-ethereum-nft&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn.vox-cdn.com/thumbor/vQqFr3C363AsxquC-9oLwOdpNDU=/0x0:3360x1632/1920x0/filters:focal(0x0:3360x1632):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/23191888/Screen_Shot_2022_01_24_at_2.53.21_PM.png&quot; alt=&quot;hack&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;father-accidentally-knocks-out-mobile-network&quot;&gt;Father accidentally knocks out mobile network&lt;/h4&gt;
-
-&lt;p&gt;Between midnight and 3 AM every day of the week, the mobile network in the French municipality of Messanges did not work. Turns out a father wanted to prevent his children from surfing the Internet with a jammer - and as a side effect shut down the mobile network of a municipality in France. &lt;a href=&quot;https://www.bleepingcomputer.com/news/technology/dad-takes-down-towns-internet-by-mistake-to-get-his-kids-offline/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;open-source-tool-unredacter-makes-pixelated-text-readable-again&quot;&gt;Open-source tool Unredacter makes pixelated text readable again&lt;/h4&gt;
-
-&lt;p&gt;Pixelation is not a secure way to make text passages unreadable. The software “Unredacter”, developed by Dan Petro, a senior researcher at security provider Bishop Fox, takes redacted pixelized text and reverses it back into its readable form. We recommend a black bar to securely redact text. &lt;a href=&quot;https://bishopfox.com/blog/unredacter-tool-never-pixelation&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;little-improvements-in-vulnerability-management&quot;&gt;Little improvements in vulnerability management&lt;/h4&gt;
-
-&lt;p&gt;Most organizations appear to be making little progress in addressing application security issues despite all of the heightened concerns around the topic. A study, by researchers at NTT Application Security, shows that organizations left more than half (53%) of known critical flaws nonremediated. &lt;a href=&quot;https://www.darkreading.com/application-security/key-application-security-metrics-show-little-sign-of-improvement&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;advisory-western-digital-my-cloud-pro-series&quot;&gt;Advisory: Western Digital My Cloud Pro Series&lt;/h4&gt;
-
-&lt;p&gt;The wonderful world of IOT provides us with a dead simple command injection and execution for the WD PR4100. Turns out the device sends a HTTP (not HTTPS) based healthcheck to the WD remote cloud service every 300 seconds. This can be hijacked and untrusted data can be injected. The lack of input validation leads to the execution of said untrusted data.&lt;a href=&quot;https://www.iot-inspector.com/blog/advisory-western-digital-my-cloud-pro-series-pr4100-rce/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/roundup-022022/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-022022/</guid>
-        
-        <category>roundup</category>
         
         <category>technology</category>
         
