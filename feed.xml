@@ -5,9 +5,76 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Aug 2022 19:24:31 +0000</pubDate>
-    <lastBuildDate>Tue, 02 Aug 2022 19:24:31 +0000</lastBuildDate>
+    <pubDate>Tue, 30 Aug 2022 11:27:29 +0000</pubDate>
+    <lastBuildDate>Tue, 30 Aug 2022 11:27:29 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Roundup August 2022</title>
+        <description>&lt;h5 id=&quot;our-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Our selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
+
+&lt;h4 id=&quot;consequences-of-inadequate-identity-management-in-github&quot;&gt;Consequences of Inadequate Identity Management in GitHub&lt;/h4&gt;
+
+&lt;p&gt;Identity and Access Management is a major area of concern for security teams, including source control management like GitHub. The blog article raises three major risks people should be aware of. In addition, we suggest taking a good look at the CI/CD system and the service accounts controlling production environments. &lt;a href=&quot;https://www.cidersecurity.io/blog/research/the-consequences-of-inadequate-identity-management-in-your-github-organization/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;building-a-product-security-program&quot;&gt;Building A Product Security Program&lt;/h4&gt;
+
+&lt;p&gt;Anshuman Bhartiya writes on his blog about the different aspects of building a product security program from scratch. He writes about the essential topics of risk appetite, prioritization, relationships, and empathy. This article is a great start for anyone who has to implement a secure development approach in an organization. &lt;a href=&quot;https://www.anshumanbhartiya.com/posts/building-product-security-program&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;get-a-headstart-on-post-quantum-cryptography&quot;&gt;Get A Headstart On Post-Quantum Cryptography&lt;/h4&gt;
+
+&lt;p&gt;The topic of post-quantum (PQ) cryptography describes the fact practically all data sent over the Internet today is at risk in the future if a stable quantum computer is created. Cloudflare has released open-source software and experimental services to test post-quantum key agreements. &lt;a href=&quot;https://blog.cloudflare.com/experiment-with-pq/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://cdn.pixabay.com/photo/2016/07/18/07/39/quantum-mechanics-1525470_960_720.jpg&quot; alt=&quot;Quantum Mechanics&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Quantum Mechanics / Credit: pixabay.com&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;cisco-data-breach&quot;&gt;Cisco Data Breach&lt;/h4&gt;
+
+&lt;p&gt;Cisco has confirmed a breach of its network, the attacker used voice phishing to convince an employee to accept a malicious multifactor authentication (MFA). With access established, the attacker then moved through the network by escalating privileges and logging into multiple systems. Cisco believes the threat actor is an initial access broker - an adversary that gains unauthorized access to networks and then sells that access on the Dark Web. &lt;a href=&quot;https://www.darkreading.com/attacks-breaches/cisco-confirms-data-breach-hacked-files-leaked&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cisco Talos did a great write-up with all the details related to the cyber attack. &lt;a href=&quot;https://blog.talosintelligence.com/2022/08/recent-cyber-attack.html&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;lastpass-data-breach&quot;&gt;LastPass Data Breach&lt;/h4&gt;
+
+&lt;p&gt;Cyberattackers have compromised the internal systems of the password management company LastPass, stealing source code and intellectual property. LastPass said it detected anomalous activity in its development environment. After a forensic investigation, it was determined that the attacker compromised a developer account to gain access to the network, taking intellectual property from the company. The adversaries weren’t able to access customer data or encrypted password vaults according to LastPass. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/lastpass-developer-systems-hacked-to-steal-source-code/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;record-ddos-layer7-attack&quot;&gt;Record DDoS Layer7 Attack&lt;/h4&gt;
+
+&lt;p&gt;Google reports a new record for DDoS on Layer 7: The Mēris botnet is believed to have sent a total of up to 46 million requests for HTTPS connections per second to the Google Cloud from 132 countries. The company compares the flood of data packets with all Wikipedia calls in an entire day, concentrated into ten seconds. According to its information, Google was able to fend off the attack. &lt;a href=&quot;https://cloud.google.com/blog/products/identity-security/how-google-cloud-blocked-largest-layer-7-ddos-attack-at-46-million-rps&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://storage.googleapis.com/gweb-cloudblog-publish/images/DDoS_Attack_Graphic_-_pretty.max-2200x2200.jpg&quot; alt=&quot;DDoS attack graph peaking at 46M requests per second&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;DDoS attack graph peaking at 46M requests per second / Credit: Google&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;prioritize-vulnerability-management-with-ml&quot;&gt;Prioritize Vulnerability Management With ML&lt;/h4&gt;
+
+&lt;p&gt;We get a little suspicious of marketing fluff whenever we see machine learning and security mentioned in the same sentence, but researchers have now created a model for predicting which vulnerabilities will likely result in a functional exploit, an interesting tool for prioritizing patches and estimating risk. &lt;a href=&quot;https://www.darkreading.com/application-security/security-bugs-exploited-model-machine-learning&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;ssh-commit-verification-on-github&quot;&gt;SSH Commit Verification On GitHub&lt;/h4&gt;
+
+&lt;p&gt;The biggest service provider for git repositories is now supporting commit verification with self-generated SSH keys. While GPG keys have been supported for a long time, we are now able to use SSH to give others confidence about the origin of a change. &lt;a href=&quot;https://github.blog/changelog/2022-08-23-ssh-commit-verification-now-supported/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;cloud-isolation-problem-postgresql&quot;&gt;Cloud Isolation Problem: PostgreSQL&lt;/h4&gt;
+
+&lt;p&gt;Tenant separation is a fundamental premise of the cloud and is at the core of trusting your cloud provider. The team of Wiz Research examined how effectively the environments of customers are isolated from each other across different cloud service providers and discovered multiple vulnerabilities in the PostgreSQL offerings of major cloud providers. &lt;a href=&quot;https://www.wiz.io/blog/the-cloud-has-an-isolation-problem-postgresql-vulnerabilities&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/roundup-082022/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-082022/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Roundup July 2022</title>
@@ -45,7 +112,7 @@
 
 &lt;p&gt;Security experts have warned that practical quantum computers could break many of today’s popular encryption algorithms, such as RSA and elliptic curve cryptography. On July 5, the National Institute of Standards and Technology (NIST) announced the selection of four candidates to form the basis of future data-protection technologies able to withstand attacks from quantum computers. &lt;a href=&quot;https://www.nist.gov/news-events/news/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;most-of-australian-domains-have-security-issue-with-their-spf-and-dmarc-configuration&quot;&gt;Most Of Australian Domains Have Security Issue With Their SPF And DMARC Configuration&lt;/h4&gt;
+&lt;h4 id=&quot;most-of-the-domains-in-australia-have-security-issue-with-their-spf-and-dmarc-configuration&quot;&gt;Most Of The Domains in Australia Have Security Issue With Their SPF And DMARC Configuration&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/sebastian-salla/&quot; target=&quot;_blank&quot;&gt;Sebastian Salla&lt;/a&gt; scanned 1.7 million Australian domains and checked for various types of SPF &amp;amp; DMARC-related issues. His interesting writeup describes how he ran 400 concurrent lambda functions for 24 hours and reveals the less than optimal results from his scan. &lt;a href=&quot;https://caniphish.com/phishing-resources/blog/australian-spf-scan&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
 
@@ -697,56 +764,6 @@ threat actors, and insider threats. The NSA guide describes the security challen
         <category>technology</category>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Raspberry PI - 10 Years of hacking</title>
-        <description>&lt;h5 id=&quot;the-raspberry-pi-is-one-of-those-things-that-has-become-so-commonplace-that-you-wonder-how-we-ever-got-along-without-it-before-whenever-a-cheap-small-and-low-power-consuming-computer-is-required-the-pi-is-ready&quot;&gt;The Raspberry Pi is one of those things that has become so commonplace that you wonder how we ever got along without it before. Whenever a cheap, small, and low-power-consuming computer is required, the Pi is ready.&lt;/h5&gt;
-
-&lt;h5 id=&quot;originally-the-device-was-intended-for-classrooms-since-the-number-of-computer-science-students-in-the-uk-dropped-in-the-2000s-and-british-schoolchildren-were-to-be-inspired-by-the-single-board-computer&quot;&gt;Originally the device was intended for classrooms since the number of computer science students in the UK dropped in the 2000s, and British schoolchildren were to be inspired by the single-board computer.&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Raspberry_Pi_4_Model_B_-_Side.jpg&quot; alt=&quot;workplace&quot; style=&quot;left; margin: 5px 0px 5px 0px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;the-low-price-and-accessible-os-a-full-fledged-linux-runs-on-the-minicomputer-made-it-attractive-to-hackers-and-tinkerers-worldwide&quot;&gt;The low price and accessible OS, a full-fledged Linux runs on the minicomputer, made it attractive to hackers and tinkerers worldwide.&lt;/h5&gt;
-
-&lt;p&gt;The first model had a CPU with only one core clocked at 700 MHz and 256 MB of RAM, which was completely undersized for a PC or even smartphone of the time.&lt;/p&gt;
-
-&lt;p&gt;Ten years and 40 million units sold later, a rich ecosystem has formed around all iterations of the little computer. There is also an active community that has developed open-source software for many applications.&lt;/p&gt;
-
-&lt;h3 id=&quot;applications-and-projects&quot;&gt;Applications And Projects&lt;/h3&gt;
-
-&lt;p&gt;There is hardly anything that can’t be monitored or controlled with the Raspberry Pi. Home automation is a big field of application: From &lt;a href=&quot;https://iotdesignpro.com/projects/iot-based-solenoid-door-lock-using-raspberry-pi-4&quot; target=&quot;_blank&quot;&gt;door locks&lt;/a&gt; over &lt;a href=&quot;https://projects-raspberry.com/home-alarm-system-with-raspberry-pi/&quot; target=&quot;_blank&quot;&gt;alarm systems&lt;/a&gt; to &lt;a href=&quot;https://hackaday.com/2020/07/24/a-complete-raspberry-pi-power-monitoring-system/&quot; target=&quot;_blank&quot;&gt;solar panels&lt;/a&gt;, &lt;a href=&quot;https://www.magicmirrorcentral.com/complete-raspberry-pi-magic-mirror-tutorial/&quot; target=&quot;_blank&quot;&gt;smart mirrors&lt;/a&gt;, or &lt;a href=&quot;https://dordnung.de/raspberrypi-ledstrip/&quot; target=&quot;_blank&quot;&gt;lighting&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Pi is also widely used for home entertainment. The microcomputer reliably provides &lt;a href=&quot;https://darko.audio/2020/01/raspberry-pi-audio-streaming-101/&quot; target=&quot;_blank&quot;&gt;audio&lt;/a&gt; and &lt;a href=&quot;https://pimylifeup.com/raspberry-pi-plex-server/&quot; target=&quot;_blank&quot;&gt;video streams&lt;/a&gt; to various devices in a home network.&lt;/p&gt;
-
-&lt;p&gt;Interestingly, one of the most frequently used applications is &lt;a href=&quot;https://pi-hole.net/&quot; target=&quot;_blank&quot;&gt;Pi-Hole&lt;/a&gt;, a network-wide adblocker that uses a DNS filtering to block online advertising for all devices.&lt;/p&gt;
-
-&lt;h3 id=&quot;mission-accomplished&quot;&gt;Mission Accomplished?&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Eben_Upton&quot; target=&quot;_blank&quot;&gt;Eden Upton&lt;/a&gt; and his team had set out to create a classroom computer that is both inexpensive and very low-threshold to program and use. Even though it is used for teaching purposes in schools and universities, it is mainly utilized by tech-savvy people to automate their homes.&lt;/p&gt;
-
-&lt;p&gt;As trivial as it may seem to technical users writing a Linux image to an SD card to boot the Raspberry Pi, this hurdle is too high for many people who are otherwise only used to their smartphone. Ultimately, Pi has not quite become what it was supposed to be.&lt;/p&gt;
-
-&lt;h3 id=&quot;against-consumerism&quot;&gt;Against Consumerism&lt;/h3&gt;
-
-&lt;p&gt;But not all is lost as the Pi plays an important role in shaping our consumer culture. The industry has been designing smartphones and tablets so that they can largely only be operated in a consuming manner. Writing code yourself, intervening in the system, exchanging hardware components - has all become increasingly difficult.&lt;/p&gt;
-
-&lt;p&gt;At the same time, devices and apps are collecting more data than ever and sending them to manufacturers, for mostly no consumer benefit.&lt;/p&gt;
-
-&lt;p&gt;The Raspberry Pi has formed a countermovement to this development. The operating system and most major software projects are open-source. Not only is it possible to add or swap hardware components but the system has to be assembled in the first place. The device triggers the creativity of users and motivates them to experiment.&lt;/p&gt;
-
-&lt;h3 id=&quot;outlook&quot;&gt;Outlook&lt;/h3&gt;
-
-&lt;p&gt;The Pi hit a nerve with its features: sufficiently powerful, many connectors, cheap - but not too complicated, especially thanks to good Linux support and an active community. It has spawned a whole ecosystem and we hope the little microcomputer will continue to push the boundaries and provide users with an opportunity to tinker with technology.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/raspberry-pi-anniversary/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/raspberry-pi-anniversary/</guid>
-        
-        <category>technology</category>
         
         
       </item>
