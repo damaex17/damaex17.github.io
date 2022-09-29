@@ -5,9 +5,67 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Sep 2022 09:15:02 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Sep 2022 09:15:02 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Sep 2022 07:54:49 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2022 07:54:49 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Roundup September 2022</title>
+        <description>&lt;h5 id=&quot;multiple-hacks-this-month-show-that-mfa-is-becoming-the-weak-link-in-many-organizations-authentication-processes-a-stark-reminder-to-replace-time-based-one-time-passwords-totp-with-man-in-the-middle-resistant-forms-of-mfa-like-u2f&quot;&gt;Multiple hacks this month show that MFA is becoming the weak link in many organizations’ authentication processes. A stark reminder to replace time-based one-time passwords (TOTP) with man-in-the-middle resistant forms of MFA like &lt;a href=&quot;/2019/universal-2nd-factor/&quot; target=&quot;_blank&quot;&gt;U2F&lt;/a&gt;.&lt;/h5&gt;
+
+&lt;h4 id=&quot;uber-hacked---mfa-weakness-i&quot;&gt;Uber Hacked - MFA Weakness I&lt;/h4&gt;
+
+&lt;p&gt;Ride-sharing giant Uber took some of its operations offline after it discovered that its internal systems have been compromised. An attacker was able to social-engineer his way into an employee’s VPN account before moving deeper into the network. “They pretty much have full access to Uber,” Sam Curry, a security engineer at Yuga Labs. &lt;a href=&quot;https://www.darkreading.com/attacks-breaches/uber-breach-external-contractor-mfa-bombing-attack&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;rockstar-games-hacked---mfa-weakness-ii&quot;&gt;Rockstar Games Hacked - MFA Weakness II&lt;/h4&gt;
+
+&lt;p&gt;The video game publisher Rockstar Games released a &lt;a href=&quot;https://twitter.com/RockstarGames/status/1571849091860029455&quot; target=&quot;_blank&quot;&gt;statement&lt;/a&gt; revealing a network intrusion and informing fans that details about their new Grand Theft Auto game had been leaked. Reliable details of the hack are not available yet. It is rumored the attack was performed by the same threat actor that is behind the Uber breach. &lt;a href=&quot;https://www.darkreading.com/attacks-breaches/rockstar-games-confirms-grand-theft-auto-6-breach&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://www.bleepstatic.com/content/hl-images/2022/09/18/GTA_headpic.jpg&quot; alt=&quot;Rockstar Games Hacked&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Grand Theft Auto / Credit: Rockstar Games&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;transitioning-to-multiple-aws-accounts&quot;&gt;Transitioning to multiple AWS accounts&lt;/h4&gt;
+
+&lt;p&gt;Many companies struggle with applying the least-privilege principle to their existing single-account AWS environment. Justin Plock discusses transitioning from a single-account environment to a multi-account environment, including decisions you need to make about network, user management, security, access control, and architecture. &lt;a href=&quot;https://docs.aws.amazon.com/prescriptive-guidance/latest/transitioning-to-multiple-aws-accounts/welcome.html&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;russian-official-says-civilian-satellites-may-be-a-legitimate-military-target&quot;&gt;Russian official says civilian satellites may be a legitimate military target&lt;/h4&gt;
+
+&lt;p&gt;while SpaceX’s Starlink satellite Internet has proved valuable in Ukraine, new threats are coming from Russia. Without mentioning Starlink by name, Russia’s representative at a United Nations meeting on threats from space and possible countermeasures spoke of an “extremely dangerous trend”. He was referring to the use of civilian or commercial infrastructure in space for military purposes by “the United States and its allies.” Quasi-civilian infrastructure can thus become a legitimate target for retaliation”, he said. &lt;a href=&quot;https://arstechnica.com/tech-policy/2022/09/russian-diplomat-suggests-attacks-on-satellites-in-possible-reference-to-starlink/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;microsoft-investigates-iranian-attacks-against-the-albanian-government&quot;&gt;Microsoft investigates Iranian attacks against the Albanian government&lt;/h4&gt;
+
+&lt;p&gt;The Microsoft Detection and Response Team (DART) has released an in-depth analysis after being engaged by the Albanian government to lead an investigation into the attacks. According to the report, Microsoft assumes that “with a high degree of probability” several Iranian actors were involved in the attack, which was carried out in several phases. Tools and a digital certificate that had previously been used by actors from Iran were seen in action against the Albanian government. &lt;a href=&quot;https://www.microsoft.com/security/blog/2022/09/08/microsoft-investigates-iranian-attacks-against-the-albanian-government/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;san-franciscos-subway-only-runs-thanks-to-windows-98-and-dos&quot;&gt;San Francisco’s subway only runs thanks to Windows 98 and DOS&lt;/h4&gt;
+
+&lt;p&gt;The newspaper The Mercury News reports on the 50th anniversary of the Bart (Bay Area Rapid Transport) subway and the numerous technical difficulties in keeping the old trains running. According to the report, some of the problems are due to completely outdated technology. This apparently includes Windows 98. &lt;a href=&quot;https://www.mercurynews.com/2022/09/17/how-clever-mechanics-keep-50-year-old-bart-trains-running-windows-98-ebay-and-scraps/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://www.mercurynews.com/wp-content/uploads/2022/09/EBT-L-BART-XXXX-03.jpg&quot; alt=&quot;BART&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;BART trains / Credit: Jose Carlos Fajardo/Bay Area News Group&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;the-most-damning-allegation-in-the-twitter-whistleblowers-report&quot;&gt;The Most Damning Allegation in the Twitter Whistleblower’s Report&lt;/h4&gt;
+
+&lt;p&gt;The claimed lax security at Twitter is bad news. But one clearly captures the extent of systemic issues. Engineers had extensive access to the social network’s live, deployed software platform with minimal logging and monitoring. &lt;a href=&quot;https://www.wired.com/story/mudge-twitter-whistleblower-security/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/roundup-092022/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-092022/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>Roundup August 2022</title>
@@ -715,55 +773,6 @@ In VirtualBox go to Machine &amp;gt; Settings &amp;gt; USB and add an empty Filt
         <guid isPermaLink="true">https://inversegravity.net/2022/ledger-hardware-wallet/</guid>
         
         <category>technology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Roundup March 2022</title>
-        <description>&lt;h5 id=&quot;each-month-we-gather-our-favorite-finds-from-around-the-internet-and-recommend-them-to-you-right-here-so-go-ahead-pour-yourself-a-cup-of-coffee-or-tea-and-settle-in&quot;&gt;Each month we gather our favorite finds from around the internet and recommend them to you right here. So go ahead, pour yourself a cup of coffee, or tea, and settle in.&lt;/h5&gt;
-
-&lt;h4 id=&quot;github-shares-vulnerability-database-with-community&quot;&gt;GitHub shares vulnerability database with community&lt;/h4&gt;
-
-&lt;p&gt;The GitHub Advisory Database is the world’s largest database for recording security vulnerabilities in open-source software. A team maintains this data full-time. The database is used, among other things, for security checks of the package managers npm and NuGet as well as for GitHub’s Dependabot warnings. &lt;a href=&quot;https://github.blog/2022-02-22-github-advisory-database-now-open-to-community-contributions/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;satcom-terminals-under-attack&quot;&gt;SATCOM terminals under attack&lt;/h4&gt;
-
-&lt;p&gt;Parallel to the Russian invasion of Ukraine, thousands of KA-SAT terminals stopped working in several European countries. Remotely operated wind turbines, connected via SATCOM link, lost contact with their servers as a result. &lt;a href=&quot;https://www.linkedin.com/in/rubensantamarta/&quot; target=&quot;_blank&quot;&gt;Ruben Santamarta&lt;/a&gt; analyses the publicly available information in his interesting article. &lt;a href=&quot;https://www.reversemode.com/2022/03/satcom-terminals-under-attack-in-europe.html&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/IP-SATCOM.svg/1920px-IP-SATCOM.svg.png&quot; alt=&quot;SATCOM&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;critical-vulnerabilities-in-apc-uninterruptible-power-supply&quot;&gt;Critical vulnerabilities in APC Uninterruptible Power Supply&lt;/h4&gt;
-
-&lt;p&gt;Armis has discovered three critical vulnerabilities in APC Smart-UPS devices. These are of course controlled through an internet connection nowadays. A malicious actor can use TLS bypass and TLS overflow to gain unauthenticated access to the UPS and use the device for further lateral movement in the network.
-&lt;a href=&quot;https://www.armis.com/research/tlstorm/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;pro-tips-for-burpsuite&quot;&gt;Pro-tips for BurpSuite&lt;/h4&gt;
-
-&lt;p&gt;Burp Suite is a network analysis toolbox for testing web applications. It includes a proxy, which intercepts HTTP/HTTPS traffic and modifies the HTTP headers before sending the data to the server. The article by N00PY gives great tips for the powerful software. &lt;a href=&quot;https://www.n00py.io/2017/10/how-to-burp-good/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;famous-npm-package-deletes-files-to-protest-ukraine-war&quot;&gt;Famous npm package deletes files to protest Ukraine war&lt;/h4&gt;
-
-&lt;p&gt;The importance of supply chain security for open source components in business code has been highlighted once again this month. The developer of the npm module node-ipc.js added malicious code to it that deletes files if the software thinks it is on a Russian or Belarusian system based on a geo-location IP determination. The incident has drawn sharp criticism from the open-source community for actively deploying destructive payloads in a popular library without any warning to honest users. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/big-sabotage-famous-npm-package-deletes-files-to-protest-ukraine-war/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;nsa-hardening-guide-for-kubernetes&quot;&gt;NSA hardening guide for Kubernetes&lt;/h4&gt;
-
-&lt;p&gt;The biggest sources of compromise in Kubernetes are supply chain risks, malicious
-threat actors, and insider threats. The NSA guide describes the security challenges associated with setting up and securing a Kubernetes cluster and provides strategies to avoid common misconfiguration and implement hardening measures. &lt;a href=&quot;https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/0/CTR_Kubernetes_Hardening_Guidance_1.1_20220315.PDF&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;escaping-privileged-containers-for-fun&quot;&gt;Escaping privileged containers for fun&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://twitter.com/pwningsystems&quot; target=&quot;_blank&quot;&gt;Jordy&lt;/a&gt; writes on his blog about discovering an escape from a privileged container via the kernel’s coredump handling code. Interesting read and let’s all agree to not run privileged containers, not even for fun! &lt;a href=&quot;https://pwning.systems/posts/escaping-containers-for-fun/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/roundup-032022/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-032022/</guid>
-        
-        <category>roundup</category>
-        
-        <category>technology</category>
-        
-        <category>security</category>
         
         
       </item>
