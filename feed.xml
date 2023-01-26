@@ -5,13 +5,123 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Sep 2022 07:54:49 +0000</pubDate>
-    <lastBuildDate>Thu, 29 Sep 2022 07:54:49 +0000</lastBuildDate>
+    <pubDate>Thu, 26 Jan 2023 13:43:16 +0000</pubDate>
+    <lastBuildDate>Thu, 26 Jan 2023 13:43:16 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
+        <title>SAST With Semgrep</title>
+        <description>&lt;h5 id=&quot;static-application-security-testing-or-sast-is-a-testing-methodology-that-analyses-application-source-code-to-identify-security-vulnerabilities&quot;&gt;Static Application Security Testing or SAST is a testing methodology that analyses application source code to identify security vulnerabilities.&lt;/h5&gt;
+
+&lt;p&gt;Many compliance frameworks require organizations to perform security testing prior to pushing code into production environments.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/returntocorp/semgrep/develop/semgrep.svg&quot; alt=&quot;Semgrep logo&quot; /&gt;
+&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;semgrep&quot;&gt;Semgrep&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/returntocorp/semgrep&quot; target=&quot;_blank&quot;&gt;Semgrep&lt;/a&gt; is a free open-source static code analysis tool developed by &lt;a href=&quot;https://r2c.dev/&quot; target=&quot;_blank&quot;&gt;r2c&lt;/a&gt; and the open-source community. It has stable support for Go, Java, JavaScript, JSON, Python, and Ruby and experimental support for many other languages.&lt;/p&gt;
+
+&lt;p&gt;To complement the native semgrep tool, r2c also provides a continuous integration service (called Semgrep CI) and maintains a rule library (called Semgrep Registry). Basic individual use of these services are offered for free while paid tiers cover team and commercial use-cases.&lt;/p&gt;
+
+&lt;p&gt;It can be a bit confusing at the beginning but there are three ways of running semgrep:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Semgrep CLI&lt;/strong&gt; is the command line interface for semgrep and can be easily installed via &lt;em&gt;brew&lt;/em&gt; or &lt;em&gt;pip&lt;/em&gt; and executed in a source code directory with &lt;code class=&quot;highlighter-rouge&quot;&gt;semgrep --config=auto&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Semgrep App&lt;/strong&gt; is esentially Semgrep CLI but can be integrated in GitHub or GiLab and now the scans are configurable in repositories via &lt;code class=&quot;highlighter-rouge&quot;&gt;semgrep.yml&lt;/code&gt;. After &lt;a href=&quot;https://semgrep.dev/docs/semgrep-app/getting-started-with-semgrep-app/&quot; target=&quot;_blank&quot;&gt;setting everything up&lt;/a&gt;, Semgrep can be executed daily or weekly or on a PR (pull request) or MR (merge request).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Semgrep CI&lt;/strong&gt; is the approach where Semgrep is integrated in you CI (continuous integration) environment. When connecting it to Semgrep App you can now do things like bulk triage for false positives, notifications via Slack and email and PR/MR review comments.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We suggest to start with Semgrep CLI or a plugin for your preferred IDE.&lt;/p&gt;
+
+&lt;h3 id=&quot;rules&quot;&gt;Rules&lt;/h3&gt;
+
+&lt;p&gt;Rules are at the core of a software like semgrep. These instructions describe patterns in the source code. A code finding is when the mentioned rules detect a match in the code. Semgrep matches the code using rules to report a finding.&lt;/p&gt;
+
+&lt;p&gt;Semgrep support developers by catching issues of security, performance, correctness, and enforce best practices. Rules are either created by the community or can be customly defined.&lt;/p&gt;
+
+&lt;h3 id=&quot;finding-noise&quot;&gt;Finding Noise&lt;/h3&gt;
+
+&lt;p&gt;Static analysis has a reputation for being “noisy”, reporting hundreds or even thousands of rule violations just when you thought you were ready to release. Fortunately, semgrep provides strategies for dealing with those false positives.&lt;/p&gt;
+
+&lt;h3 id=&quot;states&quot;&gt;States&lt;/h3&gt;
+
+&lt;p&gt;Semgrep CI can track the lifetime of an individual finding in a 4-tuple: &lt;code class=&quot;highlighter-rouge&quot;&gt;(rule ID, file path, syntactic context, index)&lt;/code&gt;. These are hashed and returned as the uniqye identifier of a finding aka the &lt;code class=&quot;highlighter-rouge&quot;&gt;syntactic_id&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Semgrep App provides the most flexibility in managing findings. Here, the finding can move between states according to the unique &lt;code class=&quot;highlighter-rouge&quot;&gt;syntactic_id&lt;/code&gt; from Semgrep CI. The four states are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;OPEN&lt;/code&gt;: the finding exists in the code&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;FIXED&lt;/code&gt;: the finding existed in the code but is no longer found&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;MUTED&lt;/code&gt;: the finding has been ignored&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;REMOVED&lt;/code&gt;: the finding’s rule isn’t enabled anymore&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;shift-left&quot;&gt;Shift Left&lt;/h3&gt;
+
+&lt;p&gt;Traditionally, the application testing is executed before code is compiled into an artifact and pushed into production (testing/staging). If code doesn’t meet the quality gates, the test fails and the deployment is stopped. This gatekeeper approach causes significant bottlenecks in the development lifecycle and isn’t compatible with agile methodologies, which emphasize early feedback and development velocity.&lt;/p&gt;
+
+&lt;p&gt;Shifting the static application security testing to the left enables developers to identify and fix issues much earlier in the development lifecycle. This make the software development more efficient, improves quality, and enables faster deployments.&lt;/p&gt;
+
+&lt;p&gt;Semgrep can be integrated in most editors like &lt;a href=&quot;https://visualstudio.microsoft.com/&quot; target=&quot;_blank&quot;&gt;Visual Studio&lt;/a&gt; or &lt;a href=&quot;https://www.jetbrains.com/idea/&quot; target=&quot;_blank&quot;&gt;IntelliJ&lt;/a&gt;. By doing this developers get direct feedback from semgrep while they write code.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2023/semgrep/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2023/semgrep/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Roundup October 2022</title>
+        <description>&lt;h5 id=&quot;our-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Our selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
+
+&lt;h4 id=&quot;toyota-hacked---leaked-credentials&quot;&gt;Toyota Hacked - Leaked Credentials&lt;/h4&gt;
+
+&lt;p&gt;Toyota official connectivity app allows owners to link their smartphone with the vehicle’s infotainment system. Toyota discovered recently that a portion of the T-Connect site source code was mistakenly published on GitHub and contained an access key. This made it possible for an unauthorized third party to access the details of 296,019 customers. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/toyota-discloses-data-leak-after-access-key-exposed-on-github/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;github-actions-are-being-abused-to-run-mining-operations&quot;&gt;GitHub Actions are being abused to run mining operations&lt;/h4&gt;
+
+&lt;p&gt;The Sysdig Threat Research Team (Sysdig TRT) recently uncovered an extensive and sophisticated active cryptomining operation in which a threat actor is using some of the largest cloud and continuous integration and deployment (CI/CD) service providers. The activity observed is known as “freejacking,” which is the abuse of compute allocated for free trial accounts on SaaS platforms. &lt;a href=&quot;https://sysdig.com/blog/massive-cryptomining-operation-github-actions/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://sysdig.com/wp-content/uploads/image2-22-1170x786.png&quot; alt=&quot;High-level overview of PURPLEURCHIN operation&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;High-level overview of PURPLEURCHIN operation / Credit: sysdig.com&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;list-of-common-passwords-accounts-for-nearly-all-cyberattacks&quot;&gt;List of Common Passwords Accounts for Nearly All Cyberattacks&lt;/h4&gt;
+
+&lt;p&gt;Vulnerability management firm Rapid7 recorded every attempt to compromise their honeypot servers over a 12-month period, finding that the attempted credential attacks resulted in 512,000 permutations. Almost all of those passwords (99.997%) are included in a common password list - the RockYou2021 file. It seems like attackers are just taking the easy road. &lt;a href=&quot;https://www.darkreading.com/endpoint/a-common-password-list-accounts-for-nearly-all-cyberattacks&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2022/roundup-102022/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-102022/</guid>
+        
+        <category>roundup</category>
+        
+        <category>technology</category>
+        
+        <category>security</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Roundup September 2022</title>
-        <description>&lt;h5 id=&quot;multiple-hacks-this-month-show-that-mfa-is-becoming-the-weak-link-in-many-organizations-authentication-processes-a-stark-reminder-to-replace-time-based-one-time-passwords-totp-with-man-in-the-middle-resistant-forms-of-mfa-like-u2f&quot;&gt;Multiple hacks this month show that MFA is becoming the weak link in many organizations’ authentication processes. A stark reminder to replace time-based one-time passwords (TOTP) with man-in-the-middle resistant forms of MFA like &lt;a href=&quot;/2019/universal-2nd-factor/&quot; target=&quot;_blank&quot;&gt;U2F&lt;/a&gt;.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;this-month-multiple-hacks-have-show-that-mfa-is-becoming-a-main-target-for-attacks-in-many-organizations-authentication-processes-a-stark-reminder-to-replace-time-based-one-time-passwords-totp-with-man-in-the-middle-resistant-forms-of-mfa-like-u2f&quot;&gt;This month, multiple hacks have show that MFA is becoming a main target for attacks in many organizations’ authentication processes. A stark reminder to replace time-based one-time passwords (TOTP) with man-in-the-middle resistant forms of MFA like &lt;a href=&quot;/2019/universal-2nd-factor/&quot; target=&quot;_blank&quot;&gt;U2F&lt;/a&gt;.&lt;/h5&gt;
 
 &lt;h4 id=&quot;uber-hacked---mfa-weakness-i&quot;&gt;Uber Hacked - MFA Weakness I&lt;/h4&gt;
 
@@ -52,7 +162,6 @@
 &lt;h4 id=&quot;the-most-damning-allegation-in-the-twitter-whistleblowers-report&quot;&gt;The Most Damning Allegation in the Twitter Whistleblower’s Report&lt;/h4&gt;
 
 &lt;p&gt;The claimed lax security at Twitter is bad news. But one clearly captures the extent of systemic issues. Engineers had extensive access to the social network’s live, deployed software platform with minimal logging and monitoring. &lt;a href=&quot;https://www.wired.com/story/mudge-twitter-whistleblower-security/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
 </description>
         <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/roundup-092022/</link>
@@ -254,7 +363,7 @@
     
       <item>
         <title>Cloud Security Toolkit</title>
-        <description>&lt;h5 id=&quot;technologies-such-as-kubernetes-and-terraform-have-revolutionized-the-way-how-scalable-applications-are-deployed-using-cloud-native-applications-companies-can-focus-on-implementing-the-business-logic-of-their-applications-rather-than-having-to-maintain-a-dedicated-it-infrastructure&quot;&gt;Technologies such as Kubernetes and Terraform have revolutionized the way how scalable applications are deployed. Using cloud-native applications, companies can focus on implementing the business logic of their applications rather than having to maintain a dedicated IT infrastructure.&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;technologies-such-as-kubernetes-and-terraform-have-revolutionized-the-way-how-scalable-applications-are-deployed-by-using-cloud-native-tools-companies-can-focus-on-implementing-the-business-logic-of-their-applications-rather-than-having-to-maintain-a-dedicated-it-infrastructure&quot;&gt;Technologies such as Kubernetes and Terraform have revolutionized the way how scalable applications are deployed. By using cloud-native tools, companies can focus on implementing the business logic of their applications rather than having to maintain a dedicated IT infrastructure.&lt;/h5&gt;
 
 &lt;p&gt;In such environments, cloud security requires special attention - but it must also keep pace with technological advancements. What are the right priorities?&lt;/p&gt;
 
@@ -580,199 +689,6 @@
         <guid isPermaLink="true">https://inversegravity.net/2022/owasp-samm/</guid>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Roundup April 2022</title>
-        <description>&lt;h5 id=&quot;kick-back-with-us-and-dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Kick back with us and dig into a selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
-
-&lt;h4 id=&quot;spring4shell-the-internet-security-disaster-that-wasnt&quot;&gt;Spring4Shell: The Internet security disaster that wasn’t&lt;/h4&gt;
-
-&lt;p&gt;People were naturally concerned when a researcher published a proof-of-concept exploit that could remotely exploit the popular Spring framework. Without much information available and no CVE assigned, people were unable to determine their exposure. Some security companies jumped on the hype train and warned of imminent danger that “could ruin the internet” to sell their snake oil. A great write-up on the worst side of the security industry, selling services through fear, comes from Arstechnica. &lt;a href=&quot;https://arstechnica.com/information-technology/2022/04/explaining-spring4shell-the-internet-security-disaster-that-wasnt/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;ka-sat-network-cyber-attack-overview&quot;&gt;KA-SAT Network cyber-attack overview&lt;/h4&gt;
-
-&lt;p&gt;In our &lt;a href=&quot;/2022/roundup-032022/&quot; target=&quot;_blank&quot;&gt;March Roundup&lt;/a&gt; we had an article about thousands of KA-SAT terminals that stopped working for an unknown reason. The provider ViaSat has now released an incident report on the cyber-attack against the network. Spoiler alert, the misconfiguration in a VPN appliance was used to gain the initial foothold into the system. &lt;a href=&quot;https://www.viasat.com/about/newsroom/blog/ka-sat-network-cyber-attack-overview/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;graph-based-firewall-analysis&quot;&gt;Graph-based firewall analysis&lt;/h4&gt;
-
-&lt;p&gt;It is good practice to review firewall rules after changes to identify potential attack paths that have been missed. The use of a graph-based approach can help tremendously to visualize the rules and find gaps in the configuration. &lt;a href=&quot;https://diablohorn.com/2022/04/09/firewall-analysis-a-portable-graph-based-approach/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://diablohorn.files.wordpress.com/2022/04/yed-layout-radial.png?w=628&quot; alt=&quot;Firewall analysis with graphs&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Display of data using yEd&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h4 id=&quot;distributed-tcpdump-for-kubernetes&quot;&gt;Distributed tcpdump for Kubernetes&lt;/h4&gt;
-
-&lt;p&gt;The toolbox of any security professional includes capturing network traffic with tcpdump or Wireshark. Gathering the network traffic of distriubuted workloads in cloud environments has been a challenge for forensic analysis. &lt;a href=&quot;https://github.com/deepfence/PacketStreamer&quot; target=&quot;_blank&quot;&gt;PacketStreamer (GitHub)&lt;/a&gt; utilizes sensors to collect network packets on remote hosts and enables the collection of traffic activities on a large number of target systems. &lt;a href=&quot;https://medium.com/deepfence-cloud-native-security/introducing-packetstreamer-distributed-packet-capture-for-cloud-native-platforms-3e7f9ac57ab1&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;authorization-in-a-microservices-world&quot;&gt;Authorization in a microservices world&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/alolis&quot; target=&quot;_blank&quot;&gt;Alexander Lolis&lt;/a&gt; wrote a great blog post about different authorization approaches and what a flexible mechanism could look like. &lt;a href=&quot;https://www.alexanderlolis.com/authorization-in-a-microservices-world#authorization-flow-overview&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://www.alexanderlolis.com/assets/images/authorization_architecture_overview-a7f2e4f08870034de08c831e81aae323.jpg&quot; alt=&quot;Authorization mechanism&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Authorization mechanism&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h4 id=&quot;aws-patch-against-log4j-introduces-new-security-holes&quot;&gt;AWS patch against Log4j introduces new security holes&lt;/h4&gt;
-
-&lt;p&gt;We are still seeing the fallout from the worst Christmas present in years, Log4Shell. A hot patch system introduced to address Log4Shell has been exploited to escape containers and take over the underlying host in AWS. Unit 42 (Paloalto networks) researchers identified the severe security issues within the AWS patching solution. &lt;a href=&quot;https://unit42.paloaltonetworks.com/aws-log4shell-hot-patch-vulnerabilities/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;introduction-to-csrf-how-can-a-cookie-get-you-hacked&quot;&gt;Introduction to CSRF: How can a cookie get you hacked?&lt;/h4&gt;
-
-&lt;p&gt;Cookies serve three purposes: session management, personalization, and tracking. They are assistants to webservers that work in conjunction with the browser to make your life easier. If, however, the web application relies only on cookies to manage sessions, the attacker can perform the infamous CSRF attack. Check out the following article for an introduction to CSRF attacks &lt;a href=&quot;https://systemweakness.com/introduction-to-csrf-how-can-a-cookie-get-you-hacked-1-2-d34e0a0e6319&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/roundup-042022/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-042022/</guid>
-        
-        <category>roundup</category>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Setting Up the Ledger Nano S Wallet</title>
-        <description>&lt;h5 id=&quot;key-management-is-the-most-important-aspect-of-your-crypto-journey-whoever-controls-your-keys-controls-the-assets-there-are-a-variety-of-options-for-key-management-including-online-services-smartphone-apps-or-hardware-devices&quot;&gt;Key management is the most important aspect of your crypto journey. Whoever controls your keys controls the assets. There are a variety of options for key management, including online services, smartphone apps or hardware devices.&lt;/h5&gt;
-
-&lt;h5 id=&quot;each-of-these-options-has-its-pros-and-cons-some-are-complicated-to-setup-while-others-leave-your-private-keys-in-the-hands-of-a-service-provider&quot;&gt;Each of these options has its pros and cons. Some are complicated to setup, while others leave your private keys in the hands of a service provider.&lt;/h5&gt;
-
-&lt;p&gt;We recommend a hardware wallet to access the full potential of crypto assets and limiting the exposure of your private keys to others.&lt;/p&gt;
-
-&lt;p&gt;This tutorial explains how to set up the hardware wallet &lt;a href=&quot;https://shop.ledger.com/products/ledger-nano-s&quot; target=&quot;_blank&quot;&gt;Ledger Nano S&lt;/a&gt; with &lt;a href=&quot;https://www.virtualbox.org/&quot; target=&quot;_blank&quot;&gt;VirtualBox&lt;/a&gt; running &lt;a href=&quot;https://ubuntu.com/&quot; target=&quot;_blank&quot;&gt;Ubuntu 20.04&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/NanoS_PROD_CAM06.png&quot; height=&quot;500&quot; alt=&quot;Ledger Nano S&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Ledger Nano S&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&quot;buy-the-hardware-wallet&quot;&gt;Buy The Hardware Wallet&lt;/h3&gt;
-
-&lt;p&gt;The Ledger Nano S (or any other hardware wallet) should not be purchased from Amazon, eBay, or other online sellers. There is a risk of receiving a tampered or used device that may result in the loss of your crypto assets.&lt;/p&gt;
-
-&lt;p&gt;Better purchase a legitimate, unopened, and brand new device from the &lt;a href=&quot;https://www.ledger.com/&quot;&gt;Official Ledger Website&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;ledger-nano-s---initial-setup&quot;&gt;Ledger Nano S - Initial SetUp&lt;/h3&gt;
-
-&lt;p&gt;With the included USB cable, connect the Ledger device to your computer and watch it come to life. Navigate with the two buttons on the top of the device and follow the on-screen instructions. Press both buttons simultaneously to accept.&lt;/p&gt;
-
-&lt;p&gt;Choosing your device’s PIN code is the first step in the setup process. We recommend to use a 6-digit code. The next step is the documentation of the recovery phrase. The 24 random words will appear one by one on the device’s screen.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;This is the only backup of the private keys and the words will only be displayed once&lt;/strong&gt;. Write them down on the provided paper recovery sheet or use an even more secure &lt;a href=&quot;https://www.amazon.de/-/en/Bitcoin-Cryptocurrency-Hardware-Storage-Compatible/dp/B097CZY65D/ref=pd_lpo_1?pd_rd_i=B097CZY65D&amp;amp;psc=1&quot; target=&quot;_blank&quot;&gt;steel recovery sheet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;virtualbox-and-guest-system-installation&quot;&gt;VirtualBox And Guest System Installation&lt;/h3&gt;
-
-&lt;p&gt;The virtualization software VirtualBox is open source and can be downloaded &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. We also require the ISO image for &lt;a href=&quot;http://releases.ubuntu.com/20.04/&quot; target=&quot;_blank&quot;&gt;Ubuntu 20.04&lt;/a&gt;. The “Desktop image” is sufficient for our purpose.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/Ubuntu20.04.png&quot; alt=&quot;Ledger Nano S&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Ubuntu 20.04 in VirtualBox&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p&gt;A thorough step-by-step guide for the installation of virtual machines on VirtualBox can be found on the &lt;a href=&quot;https://linuxhint.com/install_ubuntu_virtualbox_2004/&quot; target=&quot;_blank&quot;&gt;linuxhint blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;setup-the-udev-devices-on-host-and-guest&quot;&gt;Setup the udev devices on host and guest&lt;/h3&gt;
-
-&lt;p&gt;Next, we need to setup the Linux sub-sytem for dynamic device detection and management aka udev. It creates or removes device nodes dynamically.&lt;/p&gt;
-
-&lt;p&gt;The following command will execute the configuration of Ledger devices and has to be executed on both, the host &lt;strong&gt;and&lt;/strong&gt; the guest system.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;After the installation of the rules, you must either restart the computer or reload the udev ruleset with:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo udevadm control --reload-rules &amp;amp;&amp;amp; udevadm trigger&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Now connect the Ledger device to the host computer and execute the &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; command. The device should show up in the list of devices.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/lsusb.png&quot; alt=&quot;lsusb&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Output of the lsusb command&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Take note of the device ID &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;VendorID&amp;gt;:&amp;lt;ProductID&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;configure-the-usb-device-in-the-virtualbox-guest&quot;&gt;Configure the USB device in the VirtualBox guest&lt;/h3&gt;
-
-&lt;p&gt;Now that the USB device is available on the host system, we need to map it to the guest system.
-In VirtualBox go to Machine &amp;gt; Settings &amp;gt; USB and add an empty Filter.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/VBoxUSBFilter.png&quot; alt=&quot;Create an empty USB Filter&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Create an empty USB Filter&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Update the entry with the exact data we received from the output of the &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; command. The &lt;strong&gt;Vendor ID is 2c97&lt;/strong&gt; and the &lt;strong&gt;Product ID is 1011&lt;/strong&gt;. The &lt;a href=&quot;https://devicehunt.com/view/type/usb/vendor/2C97&quot; target=&quot;_blank&quot;&gt;Vendor ID&lt;/a&gt; is a fixed value while the Product ID can vary. So make sure you use the correct one for your device.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/USBFilter.png&quot; alt=&quot;Configure the Filter&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Configure the Filter&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p&gt;You are now ready to start the VirtualBox Guest system and check for the availability of the USB device with the &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; command.&lt;/p&gt;
-
-&lt;h3 id=&quot;install-the-ledger-live-software-on-the-guest&quot;&gt;Install the Ledger Live Software on the guest&lt;/h3&gt;
-
-&lt;p&gt;With the device available on the guest system we can now install the ledger-live software. Download the image from the &lt;a href=&quot;https://www.ledger.com/ledger-live/download&quot; target=&quot;_blank&quot;&gt;official website&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Make the file executable by issuing the following command in the terminal:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chmod +x ledger-live-*.AppImage&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Launch the application with the following command from the terminal:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;./ledger-live-desktop-*.AppImage&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The software will detect your USB hardware wallet and you can now install the desired accounts for the cryptocurrencies you’d like to secure with the wallet.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/LedgerinVBox.png&quot; alt=&quot;Ledger Software in a VirtualBox&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Ledger Software in a VirtualBox&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Congratulations, you are now ready to receive and send crypto assets with your hardware wallet. Please make sure you always confirm the wallet address displayed on your device.&lt;/p&gt;
-
-&lt;h3 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;No USB Device found in the VirtualBox Software&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Make sure you have the &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot;&gt;VirtualBox Extension Pack&lt;/a&gt; installed.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wallet not detected by Ledger Software when installing Accounts&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This happened to me when I added the Ethereum account on the wallet. The Bitcoin account worked  without an issue.&lt;/p&gt;
-
-&lt;p&gt;It turns out that the Ledger S changes the Device ID for some accounts. I noticed this by monitoring the &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt; output on the host system.&lt;/p&gt;
-
-&lt;p&gt;Just add a second Filter in VirtualBox for the other Device ID. My wallet has &lt;strong&gt;Device ID 1011 for Bitcoin and 1015 for Ethereum&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;recap&quot;&gt;Recap&lt;/h3&gt;
-
-&lt;p&gt;Digital crypto assets enable us to have independent ownership without the involvement of any third party. Having assets sitting in an exchange broker or with a wallet service provider puts us at the mercy of said companies’ resilience to outside interference.&lt;/p&gt;
-
-&lt;p&gt;Owning the private key is vital to unleashing the full potential of self-custody. By using a hardware wallet we exercise self-custody. We are responsible for the safety of our keys and in exchange for this effort, we prevent any state, bank, or hacker to take our assets.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/ledger-hardware-wallet/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/ledger-hardware-wallet/</guid>
-        
-        <category>technology</category>
         
         
       </item>
