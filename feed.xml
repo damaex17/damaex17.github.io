@@ -5,9 +5,52 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Feb 2023 10:51:29 +0000</pubDate>
-    <lastBuildDate>Wed, 01 Feb 2023 10:51:29 +0000</lastBuildDate>
+    <pubDate>Sun, 02 Apr 2023 10:44:18 +0000</pubDate>
+    <lastBuildDate>Sun, 02 Apr 2023 10:44:18 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Lightning Network</title>
+        <description>&lt;h5 id=&quot;bitcoin-is-the-worlds-first-decentralized-cryptocurrency-that-operates-without-the-need-for-a-central-authority-it-has-gained-immense-popularity-due-to-its-ability-to-facilitate-secure-fast-and-low-cost-transactions-across-borders-however-as-the-popularity-of-bitcoin-has-grown-so-have-the-challenges-it-faces-one-of-the-most-significant-challenges-has-been-scalability-leading-to-the-development-of-the-lightning-network&quot;&gt;Bitcoin is the world’s first decentralized cryptocurrency that operates without the need for a central authority. It has gained immense popularity due to its ability to facilitate secure, fast, and low-cost transactions across borders. However, as the popularity of Bitcoin has grown, so have the &lt;a href=&quot;/2021/bitcoin-scale/&quot; target=&quot;_blank&quot;&gt;challenges it faces&lt;/a&gt;. One of the most significant challenges has been scalability, leading to the development of the Lightning Network.&lt;/h5&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://documentation.zebedee.io/img/v1/btc-ln.png&quot; alt=&quot;lightning network logo&quot; /&gt;
+&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;bitcoins-scalability-issues&quot;&gt;Bitcoin’s Scalability Issues&lt;/h3&gt;
+
+&lt;p&gt;Bitcoin’s scalability issues arise from the limited number of transactions that can be processed by the network at any given time. Currently, the Bitcoin network can only handle about 7 transactions per second. This limitation has resulted in slow transaction processing times, higher transaction fees, and network congestion during periods of high demand.&lt;/p&gt;
+
+&lt;p&gt;The Lightning Network:&lt;/p&gt;
+
+&lt;p&gt;The Lightning Network is a second-layer protocol that operates on top of the Bitcoin blockchain. It was designed to solve the scalability issues faced by Bitcoin by enabling fast, low-cost transactions between parties without the need for third-party intermediaries.&lt;/p&gt;
+
+&lt;p&gt;The Lightning Network operates by setting up a network of payment channels between users. These payment channels enable users to conduct transactions off-chain, meaning that they are not recorded on the Bitcoin blockchain. Instead, transactions are recorded in a separate layer of the Lightning Network, which is only settled on the Bitcoin blockchain once the payment channel is closed.&lt;/p&gt;
+
+&lt;p&gt;To use the Lightning Network, users first need to set up a payment channel with a counterparty. This is done by opening a channel on the Lightning Network and depositing an amount of Bitcoin into the channel. Once the channel is open, users can conduct transactions between each other instantly and with minimal fees.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-benefits-of-the-lightning-network&quot;&gt;The Benefits of the Lightning Network&lt;/h3&gt;
+
+&lt;p&gt;The Lightning Network offers several benefits over traditional on-chain Bitcoin transactions. Firstly, it enables instant transactions between parties without the need for third-party intermediaries. This means that transactions are settled within seconds, compared to traditional Bitcoin transactions that can take several minutes to be processed.&lt;/p&gt;
+
+&lt;p&gt;Secondly, the Lightning Network significantly reduces transaction fees. Traditional Bitcoin transactions require users to pay a fee to miners to process the transaction, which can be significant during periods of high demand. However, Lightning Network transactions are processed off-chain, meaning that transaction fees are significantly lower.&lt;/p&gt;
+
+&lt;p&gt;Finally, the Lightning Network also provides greater privacy for users. Traditional Bitcoin transactions are publicly visible on the blockchain, meaning that anyone can track the flow of funds between Bitcoin addresses. However, the Lightning Network operates off-chain, meaning that transactions are not publicly visible on the blockchain, providing greater privacy for users.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;The Lightning Network is a promising solution to the scalability issues faced by Bitcoin. By enabling fast, low-cost transactions between parties without the need for third-party intermediaries, it has the potential to significantly improve the usability and adoption of Bitcoin. With continued development and adoption, the Lightning Network could become a vital component of the Bitcoin ecosystem, enabling it to scale to meet the demands of a growing user base.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2023/lightning-network/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2023/lightning-network/</guid>
+        
+        <category>security</category>
+        
+        
+      </item>
     
       <item>
         <title>ATT&amp;CK - Threat Intelligence</title>
@@ -568,105 +611,6 @@
         <category>roundup</category>
         
         <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>CVSS - The Vulnerability Scoring System</title>
-        <description>&lt;h5 id=&quot;the-common-vulnerability-scoring-system-cvss-is-an-industry-standard-for-assessing-the-severity-of-potential-or-actual-vulnerabilities-in-computer-systems-we-explain-how-the-system-works-and-its-limitations&quot;&gt;The Common Vulnerability Scoring System (CVSS) is an industry-standard for assessing the severity of potential or actual vulnerabilities in computer systems. We explain how the system works and its limitations.&lt;/h5&gt;
-
-&lt;p&gt;A scoring system is mainly concerned with assessing the threat posed by a security vulnerability. In some cases, this is easy, but the facts are not always clear and the question is how can the severity of a vulnerability be quantified systematically?&lt;/p&gt;
-
-&lt;h3 id=&quot;vulnerability-risk-analysis&quot;&gt;Vulnerability Risk Analysis&lt;/h3&gt;
-
-&lt;p&gt;Vulnerabilities are usually assessed using the method of risk analysis. In this process, the probability of exploits occurring and the possible damage they may cause are estimated. Assessments can, however, always be interpreted in different ways.&lt;/p&gt;
-
-&lt;p&gt;In vulnerability scoring systems, predefined factors are used to help quantify the degree and probability of damage as objectively as possible. The Common Vulnerability Scoring System (CVSS) describes vulnerability characteristics and determines the severity.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://www.first.org/cvss/identity/cvss_web.png&quot; alt=&quot;CVSS logo&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;CVSS logo&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&quot;cvss-metrics&quot;&gt;CVSS Metrics&lt;/h3&gt;
-
-&lt;p&gt;With CVSS, vulnerabilities are assessed based on so-called metrics. There are predefined options for each category and these are used to calculate a severity level from 0.0 to 10.0, with 10.0 corresponding to the highest possible severity level.&lt;/p&gt;
-
-&lt;p&gt;Based on these numerical values, qualitative categories are then assigned (None, Low, Medium, High, and Critical), which are also familiar from vulnerability reports.&lt;/p&gt;
-
-&lt;p&gt;The metrics are divided into three groups: Base Metrics, Temporal Metrics, and Environmental Metrics. Base metrics describe the essential technical and unchanging characteristics of a vulnerability. From these, a so-called “base score” can be calculated, which represents the technical severity of a vulnerability.&lt;/p&gt;
-
-&lt;p&gt;It can be readjusted later and adapted to changes over time (temporal metrics) or the environment of the affected system (environmental metrics).&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://www.first.org/cvss/v3-1/media/MetricGroups.svg&quot; alt=&quot;The CVSS metrics are divided into three groups&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;The CVSS metrics are divided into three groups&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p&gt;For vulnerabilities, a CVE ID is usually assigned as a unique vulnerability identifier in the format CVE-YYYY-NNNN. We have a separate detailed article on the &lt;a href=&quot;/2020/cve-system/&quot; target=&quot;_blank&quot;&gt;CVE System&lt;/a&gt; if you want to delve deeper into the topic.&lt;/p&gt;
-
-&lt;p&gt;CVSS assigns a severity level to vulnerabilities and CVE assigns a unique identifier.&lt;/p&gt;
-
-&lt;h3 id=&quot;base-score&quot;&gt;Base Score&lt;/h3&gt;
-
-&lt;p&gt;Basic metrics are used to calculate the probability of an attack (exploitability metrics) and the consequences of exploitation (impact metrics).&lt;/p&gt;
-
-&lt;p&gt;The prerequisites include, among others, if an attack can be carried out via the Internet or whether physical access to a system is required (attack vector).&lt;/p&gt;
-
-&lt;p&gt;It is also assessed if an attack can be carried out unauthenticated or if an attacker must have a valid user account with certain privileges (privileges required).&lt;/p&gt;
-
-&lt;p&gt;The most critical determinant of the consequences of a successful attack is whether data can be extracted from the affected system, changed on the system, or if its availability can be restricted.&lt;/p&gt;
-
-&lt;p&gt;In other words, it is determined to what extent the protection goals of confidentiality, integrity, and availability (&lt;a href=&quot;/2019/cia-triad/&quot; target=&quot;_blank&quot;&gt;CIA&lt;/a&gt;) are compromised by successful exploitation.&lt;/p&gt;
-
-&lt;p&gt;To calculate the base score, the metrics are offset against each other. Most CVSS assessments on the Internet use this score.&lt;/p&gt;
-
-&lt;h3 id=&quot;adjustments&quot;&gt;Adjustments&lt;/h3&gt;
-
-&lt;p&gt;The base score can later be adapted to temporal changes (Temporal Metrics) or adjusted to the respective environment of the affected system (Environmental Metrics).&lt;/p&gt;
-
-&lt;p&gt;For example, temporal changes occur when there is no longer just a possible description of an abstract vulnerability, but a fully functional exploit appears in the wild (exploit code maturity).&lt;/p&gt;
-
-&lt;p&gt;The criticality can also decrease if a workaround or an official manufacturer fix is available for the vulnerability (remediation level).&lt;/p&gt;
-
-&lt;p&gt;The Environmental metrics allow the score to be adapted to the specific IT environment within an organization. Depending on the importance of a system, the base score is upgraded or downgraded.&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://www.first.org/cvss/v3-1/media/EquationsDiagram.svg&quot; alt=&quot;CVSS Metrics and Equations&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;CVSS Metrics and Equations&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&quot;severity&quot;&gt;Severity&lt;/h3&gt;
-
-&lt;p&gt;Base Score, Temporal Score, and Environmental Score are added up to a total score in the end. For each individual score as well as for the total score, a numerical value is obtained.&lt;/p&gt;
-
-&lt;p&gt;These values are categorized in severity levels from “None” to “Critical”. This qualitative assignment is optional and primarily intended to support companies in prioritization when doing vulnerability management.&lt;/p&gt;
-
-&lt;p&gt;An overview of the CVSS vector structure is provided by the &lt;a href=&quot;https://www.first.org/cvss/calculator/3.1&quot; target=&quot;_blank&quot;&gt;CVSS Calculator&lt;/a&gt;. Metrics can easily be calculated via a web interface and scores and vectors are automatically calculated.&lt;/p&gt;
-
-&lt;h3 id=&quot;assessment-bias&quot;&gt;Assessment Bias&lt;/h3&gt;
-
-&lt;p&gt;Vulnerabilities should be assessed as unbiased as possible. The interests of the person doing the assessment are likely to play a role. Manufacturers argue that they have a better basis of information and sometimes talk down vulnerabilities to avoid bad press. Researchers might benefit from a high rating of a finding.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, discussions within the security community usually have a correcting effect on such bias.&lt;/p&gt;
-
-&lt;h3 id=&quot;outlook&quot;&gt;Outlook&lt;/h3&gt;
-
-&lt;p&gt;Version 4.0 of CVSS is already being actively &lt;a href=&quot;https://docs.google.com/document/d/1qmmk9TQulW9d1cuipu_ziXDX0pUswbZ1WSQyynHbvKU/edit&quot; target=&quot;_blank&quot;&gt;discussed&lt;/a&gt;. The Temporale Metrics are to be improved and the introduction of supplemental metrics like “Mitigation Effort” or “Provider-Specific Urgency” is discussed.&lt;/p&gt;
-
-&lt;p&gt;After almost two decades CVSS has become an indispensable part of vulnerability management and helps organizations to prioritize incidents with software and components.&lt;/p&gt;
-
-&lt;p&gt;All metrics, options, and formulas of CVSS are described in detail in the &lt;a href=&quot;https://www.first.org/cvss/specification-document&quot; target=&quot;_blank&quot;&gt;specifications&lt;/a&gt; and the &lt;a href=&quot;https://www.first.org/cvss/user-guide&quot; target=&quot;_blank&quot;&gt;user guide&lt;/a&gt; provides additional information on the usage of CVSS.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/cvss/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/cvss/</guid>
         
         <category>security</category>
         
