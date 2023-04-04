@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Apr 2023 10:51:53 +0000</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2023 10:51:53 +0000</lastBuildDate>
+    <pubDate>Tue, 04 Apr 2023 14:51:21 +0000</pubDate>
+    <lastBuildDate>Tue, 04 Apr 2023 14:51:21 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -33,12 +33,6 @@
 
 &lt;p&gt;To use the Lightning Network, users first need to set up a payment channel with a counterparty. This is done by opening a channel on the Lightning Network and depositing an amount of Bitcoin into the channel. Once the channel is open, users can conduct transactions between each other instantly and with minimal fees.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://documentation.zebedee.io/img/v1/btc-ln.png&quot; alt=&quot;lightning network logo&quot; /&gt;
-&lt;br /&gt;
-&lt;/p&gt;
-
 &lt;h3 id=&quot;the-benefits-of-the-lightning-network&quot;&gt;The Benefits of the Lightning Network&lt;/h3&gt;
 
 &lt;p&gt;The Lightning Network offers several benefits over traditional on-chain Bitcoin transactions. Firstly, it enables instant transactions between parties without the need for third-party intermediaries. This means that transactions are settled within seconds, compared to traditional Bitcoin transactions that can take several minutes to be processed.&lt;/p&gt;
@@ -56,6 +50,8 @@
         <guid isPermaLink="true">https://inversegravity.net/2023/lightning-network/</guid>
         
         <category>security</category>
+        
+        <category>technology</category>
         
         
       </item>
