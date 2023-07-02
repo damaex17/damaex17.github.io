@@ -5,15 +5,83 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Apr 2023 15:06:56 +0000</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2023 15:06:56 +0000</lastBuildDate>
+    <pubDate>Sun, 02 Jul 2023 11:25:25 +0000</pubDate>
+    <lastBuildDate>Sun, 02 Jul 2023 11:25:25 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
-        <title>The Lightning Network - A Second Layer Protocol</title>
-        <description>&lt;h5 id=&quot;bitcoin-is-the-worlds-first-decentralized-cryptocurrency-that-operates-without-the-need-for-a-central-authority-it-has-gained-immense-popularity-due-to-its-ability-to-facilitate-secure-fast-and-low-cost-transactions-across-borders-however-as-the-popularity-of-bitcoin-has-grown-so-have-the-challenges-it-faces&quot;&gt;Bitcoin is the world’s first decentralized cryptocurrency that operates without the need for a central authority. It has gained immense popularity due to its ability to facilitate secure, fast, and low-cost transactions across borders. However, as the popularity of Bitcoin has grown, so have the &lt;a href=&quot;/2021/bitcoin-scale/&quot; target=&quot;_blank&quot;&gt;challenges&lt;/a&gt; it faces.&lt;/h5&gt;
+        <title>Dual-Use: How AI is Shaping the Future of Cybersecurity</title>
+        <description>&lt;h5 id=&quot;the-rapidly-evolving-landscape-of-artificial-intelligence-ai-is-transforming-the-dynamics-of-cybersecurity-as-both-attackers-and-defenders-adapt-to-the-digital-arms-race&quot;&gt;The rapidly evolving landscape of artificial intelligence (AI) is transforming the dynamics of cybersecurity, as both attackers and defenders adapt to the Digital Arms Race.&lt;/h5&gt;
 
-&lt;p&gt;One of the most significant challenges has been scalability, leading to the development of the Lightning Network.&lt;/p&gt;
+&lt;p&gt;In today’s increasingly interconnected world, the rapid evolution of technology has translated into a relentless escalation in the digital arms race. At the forefront of this conflict, Artificial Intelligence (AI) is emerging as a transformative force shaping the future landscape of cybersecurity.&lt;/p&gt;
+
+&lt;p&gt;Innovation in AI technology brings newfound capabilities to hackers, as well as promising solutions to counter those threats - making it a critical factor in shaping the future of digital security.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/assets/images/AI-cyber.png&quot; alt=&quot;GPT created image with prompt: Opportunities and threats of AI to cybersecurity&quot; /&gt;
+&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;the-rise-of-ai-powered-cyberattacks&quot;&gt;The rise of AI-powered cyberattacks&lt;/h3&gt;
+
+&lt;p&gt;The rise of AI-powered cyberattacks has led to a significant transformation in the threat landscape, posing new and severe challenges in the digital world.&lt;/p&gt;
+
+&lt;p&gt;One prominent example of these attacks is the use of automated techniques, where cybercriminals deploy AI algorithms to rapidly identify and exploit vulnerabilities in systems at an unprecedented scale, making it increasingly difficult for organizations to maintain their security posture.&lt;/p&gt;
+
+&lt;p&gt;Another unsettling instance is the advancement of deepfake technology, which leverages artificial neural networks to convincingly manipulate audio and visual content, thus facilitating the dissemination of misinformation. The integration of deepfake technology with AI-driven social engineering attacks further exacerbates the problem, as it enables malicious actors to easily impersonate individuals to manipulate employees.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the combination of AI and social engineering has led to more sophisticated spear-phishing campaigns, where personalized messages significantly increase the likelihood of a successful breach. Often, these messages are crafted by extracting personal information from social media or data breaches employing AI-powered analytics, thereby exploiting human vulnerabilities with remarkable precision.&lt;/p&gt;
+
+&lt;h3 id=&quot;ai-powered-cybersecurity-solutions&quot;&gt;AI-powered cybersecurity solutions&lt;/h3&gt;
+
+&lt;p&gt;To counter these sophisticated threats, organizations must not only rely on traditional methods but also leverage AI capabilities to enhance their security strategies. By integrating AI tools and techniques, organizations are not only mitigating risks but also staying one step ahead of the evolving cyber landscape.&lt;/p&gt;
+
+&lt;p&gt;Key innovations in AI-powered cybersecurity solutions include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Anomaly Detection: By utilizing machine learning algorithms, security teams can identify unusual patterns in network traffic, detect threats in real-time, and act swiftly to prevent potential breaches.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Predictive Analytics: AI-powered predictive analytics offer remarkable insights by anticipating attacks, forecasting vulnerabilities, and enabling proactive measures to minimize the risk of successful cyber offensives.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Incident Response Automation: AI-driven automation of incident response enables more efficient prioritization and triaging of security events. This increased efficiency allows security professionals to devote their resources to complex tasks and strategic planning.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data-driven Decision Making: Incorporating AI and machine learning into cybersecurity tools facilitates a comprehensive understanding of an organization’s risk landscape, leading to informed decision-making and more accurate risk management strategies.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Automated Scanning and Patching: Constant monitoring of software and systems keeps organizations ahead of emerging threats. AI-powered solutions detect vulnerabilities, enabling timely patching and reducing windows of opportunity for malicious actors.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Risk Assessment and Prioritization: AI-driven risk assessments quickly analyze factors that demand attention, enabling security teams to focus their efforts where they’re needed most, predict potential attack vectors, and model threat scenarios.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In conclusion, AI-powered cybersecurity solutions are paving the way for more robust and efficient defense mechanisms against constantly evolving cyber threats. By embracing these emerging technologies in areas such as anomaly detection organizations can better protect their digital assets and maintain a competitive advantage in a rapidly evolving landscape.&lt;/p&gt;
+
+&lt;h3 id=&quot;navigating-the-digital-frontier-the-future-of-cybersecurity&quot;&gt;Navigating the Digital Frontier: The Future of Cybersecurity&lt;/h3&gt;
+
+&lt;p&gt;The rapidly changing landscape of cyber threats necessitates a proactive and adaptive approach to cybersecurity. While AI technologies continue to alarmingly advance the capabilities of cybercriminals, they also hold immense potential for strengthening an organization’s security posture.&lt;/p&gt;
+
+&lt;p&gt;AI may not be the silver bullet for all cyber threats; a successful defense strategy requires a multi-layered approach. This encompasses the adoption of additional security tools and techniques, robust policies and governance models, and promoting a culture of cybersecurity awareness among employees. By embracing AI as part of their cybersecurity strategies, organizations can innovate and flourish in the face of challenges, securing their digital assets and maintaining a competitive edge in the Digital Arms Race.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2023/security-and-ai/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2023/security-and-ai/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Lightning Network - Revolutionizing Bitcoin Transactions</title>
+        <description>&lt;h5 id=&quot;bitcoin-the-worlds-pioneering-decentralized-cryptocurrency-eliminates-the-need-for-a-central-authority-and-has-garnered-massive-global-traction-due-to-its-secure-swift-and-inexpensive-cross-border-transactions-however-with-increased-popularity-comes-significant-challenges-with-scalability-being-the-most-critical-consequently-the-lightning-network-was-born-to-address-these-issues&quot;&gt;Bitcoin, the world’s pioneering decentralized cryptocurrency, eliminates the need for a central authority and has garnered massive global traction due to its secure, swift, and inexpensive cross-border transactions. However, with increased popularity comes significant &lt;a href=&quot;/2021/bitcoin-scale/&quot; target=&quot;_blank&quot;&gt;challenges&lt;/a&gt;, with scalability being the most critical. Consequently, the Lightning Network was born to address these issues.&lt;/h5&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
@@ -21,29 +89,29 @@
 &lt;br /&gt;
 &lt;/p&gt;
 
-&lt;h3 id=&quot;bitcoins-scalability-issues&quot;&gt;Bitcoin’s Scalability Issues&lt;/h3&gt;
+&lt;h3 id=&quot;bitcoins-scalability-dilemma&quot;&gt;Bitcoin’s Scalability Dilemma&lt;/h3&gt;
 
-&lt;p&gt;Bitcoin’s scalability issues arise from the limited number of transactions that can be processed by the network at any given time. Currently, the Bitcoin network can only handle about 7 transactions per second. This limitation has resulted in slow transaction processing times, higher transaction fees, and network congestion during periods of high demand.&lt;/p&gt;
+&lt;p&gt;Scalability is a major concern for Bitcoin, stemming from its finite transaction processing capacity. The current Bitcoin network can only process about 7 transactions per second, leading to slow-processing times, increased transaction fees, and network congestion during peak demands.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-lightning-network&quot;&gt;The Lightning Network&lt;/h3&gt;
 
-&lt;p&gt;The Lightning Network is a second-layer protocol that operates on top of the Bitcoin blockchain. It was designed to solve the scalability issues faced by Bitcoin by enabling fast, low-cost transactions between parties without the need for third-party intermediaries.&lt;/p&gt;
+&lt;p&gt;The Lightning Network is an ingenious second-layer protocol built atop the Bitcoin blockchain, designed to overcome Bitcoin’s scalability challenges by enabling rapid, low-cost transactions between parties without requiring third-party intermediaries.&lt;/p&gt;
 
-&lt;p&gt;The Lightning Network operates by setting up a network of payment channels between users. These payment channels enable users to conduct transactions off-chain, meaning that they are not recorded on the Bitcoin blockchain. Instead, transactions are recorded in a separate layer of the Lightning Network, which is only settled on the Bitcoin blockchain once the payment channel is closed.&lt;/p&gt;
+&lt;p&gt;Operating through a network of payment channels between users, the Lightning Network allows users to conduct off-chain transactions that don’t get recorded on the primary Bitcoin blockchain. Instead, these transactions exist within a separate layer of the Lightning Network and are only settled on the Bitcoin blockchain once the payment channel is closed.&lt;/p&gt;
 
-&lt;p&gt;To use the Lightning Network, users first need to set up a payment channel with a counterparty. This is done by opening a channel on the Lightning Network and depositing an amount of Bitcoin into the channel. Once the channel is open, users can conduct transactions between each other instantly and with minimal fees.&lt;/p&gt;
+&lt;p&gt;To leverage the Lightning Network, users must first establish a payment channel with a counterparty by opening a channel on the platform and depositing a specific amount of Bitcoin. Once the channel is open, users can instantly execute transactions with minimal fees&lt;/p&gt;
 
 &lt;h3 id=&quot;the-benefits-of-the-lightning-network&quot;&gt;The Benefits of the Lightning Network&lt;/h3&gt;
 
-&lt;p&gt;The Lightning Network offers several benefits over traditional on-chain Bitcoin transactions. Firstly, it enables instant transactions between parties without the need for third-party intermediaries. This means that transactions are settled within seconds, compared to traditional Bitcoin transactions that can take several minutes to be processed.&lt;/p&gt;
+&lt;p&gt;The Lightning Network presents numerous benefits over traditional on-chain Bitcoin transactions. First and foremost, it enables instantaneous transactions between parties without necessitating third-party intervention—settling transactions within seconds, as opposed to several minutes in conventional systems.&lt;/p&gt;
 
-&lt;p&gt;Secondly, the Lightning Network significantly reduces transaction fees. Traditional Bitcoin transactions require users to pay a fee to miners to process the transaction, which can be significant during periods of high demand. However, Lightning Network transactions are processed off-chain, meaning that transaction fees are significantly lower.&lt;/p&gt;
+&lt;p&gt;Second, the Lightning Network drastically curtails transaction fees. Traditional Bitcoin transactions mandate users to pay a fee to miners for transaction processing, which can escalate during high-demand periods. However, as off-chain transactions are processed within the Lightning Network, transaction fees are considerably reduced.&lt;/p&gt;
 
-&lt;p&gt;Finally, the Lightning Network also provides greater privacy for users. Traditional Bitcoin transactions are publicly visible on the blockchain, meaning that anyone can track the flow of funds between Bitcoin addresses. However, the Lightning Network operates off-chain, meaning that transactions are not publicly visible on the blockchain, providing greater privacy for users.&lt;/p&gt;
+&lt;p&gt;Lastly, the Lightning Network affords users enhanced privacy. Regular Bitcoin transactions are publicly visible on the blockchain, allowing anyone to trace fund movements between Bitcoin addresses. Conversely, the Lightning Network operates off-chain, concealing transactions from public view and providing users with greater privacy.&lt;/p&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;The Lightning Network is a promising solution to the scalability issues faced by Bitcoin. By enabling fast, low-cost transactions between parties without the need for third-party intermediaries, it has the potential to significantly improve the usability and adoption of Bitcoin. With continued development and adoption, the Lightning Network could become a vital component of the Bitcoin ecosystem, enabling it to scale to meet the demands of a growing user base.&lt;/p&gt;
+&lt;p&gt;The Lightning Network constitutes a promising solution for Bitcoin’s scalability conundrum. By facilitating fast, low-cost transactions between parties without the interference of third-party intermediaries, it holds the potential to significantly enhance the practicality and adoption of Bitcoin. As its development and adoption continue to progress, the Lightning Network may become an essential component of the ever-evolving Bitcoin ecosystem, primed to accommodate the growing needs of a burgeoning user base.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2023/lightning-network/</link>
@@ -546,75 +614,6 @@
         <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/cloud-security/</link>
         <guid isPermaLink="true">https://inversegravity.net/2022/cloud-security/</guid>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Roundup May 2022</title>
-        <description>&lt;h5 id=&quot;kick-back-with-us-and-dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Kick back with us and dig into a selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
-
-&lt;h4 id=&quot;update-on-the-viasat-satellite-network-cyberattack&quot;&gt;Update on the ViaSat satellite network cyberattack&lt;/h4&gt;
-
-&lt;p&gt;We start this months news with an update on the ViaSat attack. We have been tracking this story in our updates from &lt;a href=&quot;/2022/roundup-032022/&quot; target=&quot;_blank&quot;&gt;March&lt;/a&gt; and &lt;a href=&quot;/2022/roundup-042022/&quot; target=&quot;_blank&quot;&gt;April&lt;/a&gt;. One of the first signs of the hack occurred when more than 5,800 wind turbines belonging to the German energy company Enercon were knocked offline. Russia is now accused of being responsible for the mysterious satellite hack - Ukraine’s military was the primary target and EU countries were collateral damage the article explains. &lt;a href=&quot;https://arstechnica.com/information-technology/2022/05/us-and-its-allies-say-russia-waged-cyberattack-that-took-out-satellite-network/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;interactive-kubernetes-security-learning-playground&quot;&gt;Interactive Kubernetes Security Learning Playground&lt;/h4&gt;
-
-&lt;p&gt;Learning and understanding Kubernetes security in a safe, practical, and efficient way can be challenging. Kubernetes Goat may just have solved this problem not only for security researchers but also for DevOps teams, and anyone interested in learning Kubernetes security. &lt;a href=&quot;https://madhuakula.com/kubernetes-goat/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;aws-targeted-by-a-package-backfill-attack&quot;&gt;AWS Targeted by a Package Backfill Attack&lt;/h4&gt;
-
-&lt;p&gt;AWS is not only the largest provider of cloud infrastructure in the world but also a major contributor to open-source components. The folks at WhiteSource have identified a targeted attack on some discontinued AWS packages. The malicious actors use a method called backfill attack. &lt;a href=&quot;https://www.whitesourcesoftware.com/resources/blog/aws-targeted-by-a-package-backfill-attack/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;ransomware-as-a-service-understanding-the-cybercrime-gig-economy&quot;&gt;Ransomware-as-a-service: Understanding the cybercrime gig economy&lt;/h4&gt;
-
-&lt;p&gt;The cybercriminal economy - a network of players with a variety of skills, tools, and techniques - is evolving. The industrialization of attacks has progressed from malicious actors using off-the-shelf tools - to attackers being able to purchase network access and the payloads they deploy. Microsoft the RaaS affiliate model and how to protect yourself explains in this interesting article. &lt;a href=&quot;https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://www.microsoft.com/security/blog/uploads/securityprod/2022/05/Fig1-RaaS-affiliate-model-3-1024x496.png&quot; alt=&quot;How the RaaS affiliate model enables ransomware attacks&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;How the RaaS affiliate model enables ransomware attacks&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h4 id=&quot;five-eyes-issue-a-warning-to-managed-service-providers&quot;&gt;Five Eyes issue a warning to Managed Service Providers&lt;/h4&gt;
-
-&lt;p&gt;Members of the Five Eyes (FVEY) intelligence alliance issued a warning for managed service providers and their customers regarding supply chain attacks. The &lt;a href=&quot;https://www.cisa.gov/uscert/ncas/alerts/aa22-131a&quot; target=&quot;_blank&quot;&gt;advisory&lt;/a&gt; states that if an attacker can compromise a service provider, then the resulting malicious activity could affect the provider’s infrastructure, and its customers. While the document is specifically issued to service providers, it highlights proper security measures applicable for any business handling sensitive data. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/fbi-cisa-and-nsa-warn-of-hackers-increasingly-targeting-msps/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://pypi.org/static/images/logo-large.6bdbb439.svg&quot; alt=&quot;PyPI logo&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;PyPI logo&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h4 id=&quot;software-supply-chain-attack-i-typosquatting&quot;&gt;Software Supply Chain Attack I: Typosquatting&lt;/h4&gt;
-
-&lt;p&gt;Typosquatting occurs when an attacker takes a popular framework or library, adds malicious code, and publishes it in a package repository under a similar name to the original. And this is exactly what happened in the Python Package Index (PyPI). The linked article goes over the infection process and how to stay safe from such attacks. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/malicious-pypi-package-opens-backdoors-on-windows-linux-and-macs/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;software-supply-chain-attack-ii-malicious-code&quot;&gt;Software Supply Chain Attack II: Malicious Code&lt;/h4&gt;
-
-&lt;p&gt;The Python module “ctx” that gets downloaded over 20,000 times a week was replaced with a malicious version that stole the developer’s environment variables. This “new” version exfiltrates the developer’s environment variables, to collect secrets like Amazon AWS keys and credentials. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/popular-python-and-php-libraries-hijacked-to-steal-aws-keys/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;strategies-to-communicate-the-value-of-a-security-program&quot;&gt;Strategies to communicate the value of a security program&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/george-do-a473432/&quot; target=&quot;_blank&quot;&gt;George Do&lt;/a&gt;, CISO and former NASA security engineer, gave the keynote address at Black Hat Asia this week about his go-to model for measuring security effectiveness - and how to influence others in the organization. We appreciate the approach to winning hearts and minds as a security professional. &lt;a href=&quot;https://www.darkreading.com/operations/black-hat-asia-top-strategies-communicate-security-value-biz&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;aws-security-maturity-model&quot;&gt;AWS Security Maturity Model&lt;/h4&gt;
-
-&lt;p&gt;Good advice on how to improve the security maturity in AWS by breaking things down into the following phases: quick wins, foundational, efficient, and optimized. The website includes many videos and whitepapers. &lt;a href=&quot;https://maturitymodel.security.aws.dev/en/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;attackers-stole-login-details-of-100k-npm-users&quot;&gt;Attackers stole login details of 100K npm users&lt;/h4&gt;
-
-&lt;p&gt;GitHub reported that an attacker stole the login credentials of roughly 100,000 npm accounts in mid-April using stolen OAuth app tokens issued by Heroku and Travis-CI. The threat actor escalated their access using a compromised AWS access key, acquired after downloading multiple private npm repositories using the stolen OAuth user tokens in the initial stage of the attack. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/github-attackers-stole-login-details-of-100k-npm-user-accounts/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/roundup-052022/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-052022/</guid>
-        
-        <category>roundup</category>
-        
-        <category>technology</category>
         
         <category>security</category>
         
