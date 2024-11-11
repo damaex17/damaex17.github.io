@@ -5,12 +5,12 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Nov 2024 10:55:57 +0000</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2024 10:55:57 +0000</lastBuildDate>
+    <pubDate>Mon, 11 Nov 2024 11:00:35 +0000</pubDate>
+    <lastBuildDate>Mon, 11 Nov 2024 11:00:35 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
-        <title>Self-Signed Certificate</title>
+        <title>Self-Signed Certificates</title>
         <description>&lt;h5 id=&quot;encryption-remains-a-cornerstone-for-safeguarding-sensitive-information-while-commercial-certificate-authorities-cas-provide-trusted-ssl-certificates-for-public-facing-services-a-self-signed-certificate-can-be-a-practical-and-cost-effective-solution-for-internal-network-communications&quot;&gt;Encryption remains a cornerstone for safeguarding sensitive information. While commercial Certificate Authorities (CAs) provide trusted SSL certificates for public-facing services, a self-signed Certificate can be a practical and cost-effective solution for internal network communications.&lt;/h5&gt;
 
 &lt;p&gt;Although modern browsers typically reject self-signed certificates due to trust issues, these certificates are valuable for encrypting internal traffic.&lt;/p&gt;
