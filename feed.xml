@@ -5,9 +5,202 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Sep 2023 19:20:35 +0000</pubDate>
-    <lastBuildDate>Sat, 02 Sep 2023 19:20:35 +0000</lastBuildDate>
+    <pubDate>Mon, 11 Nov 2024 10:55:57 +0000</pubDate>
+    <lastBuildDate>Mon, 11 Nov 2024 10:55:57 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Self-Signed Certificate</title>
+        <description>&lt;h5 id=&quot;encryption-remains-a-cornerstone-for-safeguarding-sensitive-information-while-commercial-certificate-authorities-cas-provide-trusted-ssl-certificates-for-public-facing-services-a-self-signed-certificate-can-be-a-practical-and-cost-effective-solution-for-internal-network-communications&quot;&gt;Encryption remains a cornerstone for safeguarding sensitive information. While commercial Certificate Authorities (CAs) provide trusted SSL certificates for public-facing services, a self-signed Certificate can be a practical and cost-effective solution for internal network communications.&lt;/h5&gt;
+
+&lt;p&gt;Although modern browsers typically reject self-signed certificates due to trust issues, these certificates are valuable for encrypting internal traffic.&lt;/p&gt;
+
+&lt;p&gt;By creating your own self-signed certificate and using it to sign Certificate Signing Requests (CSRs), you can secure data transmission across your internal networks or implement mutual TLS (mTLS) for client and server authentication.&lt;/p&gt;
+
+&lt;p&gt;In this post, we explore the process of setting up a self-signed certificate and demonstrate how to sign CSRs, highlighting the benefits of this strategy for internal security resilience.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/assets/images/key.jpg&quot; alt=&quot;picture of a key&quot; /&gt;
+&lt;br /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;create-private-key&quot;&gt;Create Private Key&lt;/h3&gt;
+
+&lt;p&gt;The private key serves as the foundational element for creating a self-signed certificate because it is at the core of the cryptographic operations that underpin certificate signing and validation.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ openssl genrsa -aes256 -out CA.key 4096
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note that we use OpenSSL to generate a secure 4096-bit &lt;a href=&quot;/2019/public-key/&quot; target=&quot;_blank&quot;&gt;asymmetric&lt;/a&gt;
+RSA private key and secure it with the &lt;a href=&quot;/2019/crypto-symmetric/&quot; target=&quot;_blank&quot;&gt;symmetric&lt;/a&gt; AES algorithm. Other options for algorithms and key length can be found in the manpage of OpenSSL.&lt;/p&gt;
+
+&lt;p&gt;OpenSSL will ask for a passphrase. Protecting the private key is essential, as any compromise could allow malicious actors to issue fraudulent certificates, undermining trust and security within your internal environment.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;create-the-self-signed-root-certificate&quot;&gt;Create the Self-Signed Root Certificate&lt;/h3&gt;
+
+&lt;p&gt;We can now proceed to create our self-signed root certificate using the private key.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ openssl req -x509 -new -nodes -key CA.key -sha256 -days 1826 -out CA.crt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In this step, we use the sha256 &lt;a href=&quot;/2019/crypto-hash-digital-signature/&quot; target=&quot;_blank&quot;&gt;hashing algorithms&lt;/a&gt; and set the certificate’s validity to 1826 days or roughly 5 years. As always, alternative options are available in the man page of OpenSSL.&lt;/p&gt;
+
+&lt;p&gt;You will be asked to enter the passphrase for the private key you selected, as well as to answer several questions.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Enter pass phrase for CA.key:
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:DE
+State or Province Name (full name) [Some-State]:Bavaria
+Locality Name (eg, city) []:Munich
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:inversegravity    
+Organizational Unit Name (eg, section) []:InfoSec
+Common Name (e.g. server FQDN or YOUR name) []:inversegravity
+Email Address []:inversegravity.net@gmail.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;While the responses to these questions are not particularly critical, they do appear when viewing the certificate, a task you will seldom need to do. For the Common Name, I recommend choosing something easily identifiable as your root certificate among other certificates.&lt;/p&gt;
+
+&lt;p&gt;With the self-signed Root Certificate, our internal “CA” is now operational.&lt;/p&gt;
+
+&lt;h3 id=&quot;create-a-certificate-signing-request-csr&quot;&gt;Create a Certificate Signing Request (CSR)&lt;/h3&gt;
+
+&lt;p&gt;Let’s generate our Certificate Signing Request (CSR) for our first certificate, which could be used to secure internal network traffic. This process mirrors what customers typically submit to a trusted Certificate Authority (CA) for signing.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ openssl req -newkey rsa:2048 -keyout CSR.key -out CSR.csr
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Unlike with our root certificate, where the key was generated separately, we create the private key alongside the CSR and use the RSA algorithm with a shorter key length of 2048 bits.&lt;/p&gt;
+
+&lt;p&gt;We also employ the -nodes option to leave the private key unencrypted, avoiding the need to enter a password when restarting the service utilizing the certificate.&lt;/p&gt;
+
+&lt;p&gt;Lastly, we omit the x509 argument to signal to OpenSSL that we are creating a CSR instead of a self-signed certificate.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;..+................+............+..+.......+++++++++++++++++++++++++++++++++......
++++..........+++++++++++++++++++++++++++++++++++++++........+++++++++++++++++++...
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++......+++++++++..........+
+
+
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:DE
+State or Province Name (full name) [Some-State]:Bavaria
+Locality Name (eg, city) []:Munich
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:inversegravity
+Organizational Unit Name (eg, section) []:InfoSec
+Common Name (e.g. server FQDN or YOUR name) []:nas.internal.inversegravity.net
+Email Address []:inversegravity.net@gmail.com
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:
+An optional company name []:
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The dots (.) and plus signs (+) you see provide a visual indication that the process of generating randomness required for key creation is underway, ensuring that the key is as secure as possible.&lt;/p&gt;
+
+&lt;p&gt;The password from the ‘extra’ attributes is not used to encrypt the CSR. It’s only used by some trusted CAs for certificate revocation. The optional company name can be omitted as well for our use-case.&lt;/p&gt;
+
+&lt;h3 id=&quot;sign-the-csr&quot;&gt;Sign the CSR&lt;/h3&gt;
+
+&lt;p&gt;Now it’s time to sign the CSR with our self-signed root certificate. We essentially act as your own CA in this case.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ openssl x509 -req -days 365 -in CSRcsr -CA CA.crt -CAkey CA.key -out CSR.crt 
+-set_serial 01 -sha256
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Certificate request self-signature ok
+subject=C = DE, ST = Bavaria, L = Munich, O = inversegravity, OU = security, 
+CN = nas.internal.inversegravity.net, emailAddress = inversegravity@gmail.com
+Enter pass phrase for CA.key:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You have to enter the password of the private key of the self-signed root certificate to sign the CSR.&lt;/p&gt;
+
+&lt;h3 id=&quot;certificate-usage&quot;&gt;Certificate Usage&lt;/h3&gt;
+
+&lt;p&gt;Having generated a certificate, we can leverage it in various software development scenarios and internal network applications. However, it’s important to remember that web browsers do not inherently trust this certificate, as they typically require validation from a trusted Certificate Authority (CA) to establish authenticity.&lt;/p&gt;
+
+&lt;p&gt;Here are a few practical use cases where your certificate can be applied:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;VPN Authentication: Certificates can be used to authenticate clients and servers within virtual private networks (VPNs). This ensures that only authorized users and devices can access the network, enhancing security and privacy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mutual Transport Layer Security (mTLS): In mTLS, both the client and server authenticate each other using certificates. This bidirectional authentication process adds an extra layer of security, ensuring that both parties are verified before communication is established.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Transport Layer Security (TLS): TLS is used to encrypt data transmitted over networks, securing communication between clients and servers. By using your certificate, you can facilitate encrypted connections within internal applications or systems, protecting sensitive data from interception and tampering.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;certificate-confusion&quot;&gt;Certificate Confusion&lt;/h3&gt;
+
+&lt;p&gt;In this post we started by creating a self-signed root certificate, which, while not inherently trusted on the open internet, can serve as a trusted entity within our internal environments.&lt;/p&gt;
+
+&lt;p&gt;By using this root certificate, we’ve signed a Certificate Signing Request (CSR) to generate a “service” certificate. This certificate can be effectively used to secure an internal web server or protect our internal network, improving our security posture.&lt;/p&gt;
+
+&lt;p&gt;Although these service certificates are not automatically trusted by standard web browsers, they can be manually added for our internal services, ensuring smooth operations and heightened security within our controlled environments.&lt;/p&gt;
+
+&lt;p&gt;Utilizing self-signed certificates provides flexibility and control, allowing you to manage secure communications without the need for third-party Certificate Authorities (CAs).&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                +------------------+
+                                | Root Certificate |
+                                |    Self-Signed   |
+                                +------------------+
+                                          |
+                                +---------+--------+
+                                |                  |
+                         +-------------+    +-------------+
+                         | Certificate |    | Certificate |
+                         +-------------+    +-------------+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;why-try-self-signed-certificates&quot;&gt;Why Try Self-Signed Certificates?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cost-Effective Security: You can enhance security without incurring the cost of purchasing certificates from external CAs, making it an economical choice for development and internal applications.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Learning Experience: Implementing self-signed certificates is a valuable exercise in understanding cryptographic concepts, certificate management, and network security principles.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tailored Security: You can design security measures specifically tailored to your organization’s internal needs, ensuring that critical data and communications are protected.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I encourage everyone to explore and utilize self-signed certificates within your development and internal network environments. By doing so, you’ll gain practical insights into security management and discover how to effectively safeguard your systems and data.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2024/self-signed-root-certificate/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2024/self-signed-root-certificate/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        <category>cryptography</category>
+        
+        
+      </item>
     
       <item>
         <title>Dual-Use: How AI is Shaping the Future of Cybersecurity</title>
@@ -545,75 +738,6 @@
         <category>roundup</category>
         
         <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cloud Security Toolkit</title>
-        <description>&lt;h5 id=&quot;technologies-such-as-kubernetes-and-terraform-have-revolutionized-the-way-how-scalable-applications-are-deployed-by-using-cloud-native-tools-companies-can-focus-on-implementing-the-business-logic-of-their-applications-rather-than-having-to-maintain-a-dedicated-it-infrastructure&quot;&gt;Technologies such as Kubernetes and Terraform have revolutionized the way how scalable applications are deployed. By using cloud-native tools, companies can focus on implementing the business logic of their applications rather than having to maintain a dedicated IT infrastructure.&lt;/h5&gt;
-
-&lt;p&gt;In such environments, cloud security requires special attention - but it must also keep pace with technological advancements. What are the right priorities?&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://cdn.pixabay.com/photo/2016/03/25/01/49/abstract-1278060_960_720.jpg&quot; alt=&quot;CVSS logo&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Picture: insspirito/pixabay.com&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&quot;shared-responsibility-model&quot;&gt;Shared Responsibility Model&lt;/h3&gt;
-
-&lt;p&gt;It is a misconception that cloud applications are more secure out of the box because the provider takes care of security. Security in the cloud remains a &lt;a href=&quot;https://docs.aws.amazon.com/whitepapers/latest/aws-risk-and-compliance/shared-responsibility-model.html&quot; target=&quot;_blank&quot;&gt;shared responsibility&lt;/a&gt; between the user and the provider.&lt;/p&gt;
-
-&lt;p&gt;According to the shared responsibility model, the cloud provider is responsible, among other things, for the physical security of the hardware or the up-to-dateness of the drivers, for the underlying operating system, the runtime environments, and the physical protection of the network.&lt;/p&gt;
-
-&lt;p&gt;Cloud users, however, remain responsible for application security and the correct configuration of the cloud environment.&lt;/p&gt;
-
-&lt;p&gt;User overall responsibility varies from 8 to 52 percent, as estimated by &lt;a href=&quot;https://medium.com/@ory_51733/serverless-and-the-evolution-in-cloud-security-how-faas-differs-from-iaas-4ea8bc7b1dff&quot; target=&quot;_blank&quot;&gt;Ory Segal&lt;/a&gt;. In the following sections, we will outline best practices and tools that specifically apply to the responsibilities of cloud customers.&lt;/p&gt;
-
-&lt;h3 id=&quot;application-security-with-sca&quot;&gt;Application Security with SCA&lt;/h3&gt;
-
-&lt;p&gt;Software Composition Analysis (SCA) examines which third-party libraries are contained in an application. This is necessary to detect existing security vulnerabilities in the third-party libraries, better known as &lt;a href=&quot;/2020/cve-system/&quot; target=&quot;_blank&quot;&gt;CVEs (Common Vulnerabilities and Exposures)&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Such an analysis of the software composition also examines the application environment. For example, it looks at which applications and shared libraries are installed in a virtual machine or Docker container and whether they contain known security vulnerabilities.&lt;/p&gt;
-
-&lt;p&gt;SCA has become an inevitable tool for enforcing application security. This is mainly due to the fact that software nowadays makes extensive use of existing code in the form of libraries instead of reinventing the wheel for each project.&lt;/p&gt;
-
-&lt;h3 id=&quot;application-security-with-sast&quot;&gt;Application Security with SAST&lt;/h3&gt;
-
-&lt;p&gt;Static Application Security Testing (SAST) is essential in any well-structured Software Development Lifecycle (SDLC). It examines the source code of applications to identify security vulnerabilities and anti-patterns.&lt;/p&gt;
-
-&lt;p&gt;Many commercial and free tools exist on the market for performing static code analyses. Some can be integrated as plug-ins directly into the developer’s integrated development environment (IDE) so that developers already receive early feedback on potential security vulnerabilities. This “shift left” approach prevents surprises during the build and deployment process.&lt;/p&gt;
-
-&lt;h3 id=&quot;cloud-configuration-security-with-ciem&quot;&gt;Cloud Configuration Security with CIEM&lt;/h3&gt;
-
-&lt;p&gt;Access management is an essential security topic and is used to manage access to services and resources. In addition to the individual cloud resources such as databases, virtual machines, containers, functions, and S3 buckets that communicate with each other, it is also necessary to tightly manage user accounts in the cloud.&lt;/p&gt;
-
-&lt;p&gt;Cloud Infrastructure Entitlements Management (CIEM) is the right tool for this and provides a graphical representation of the access permissions within the cloud. From an organizational perspective, CIEM allows the access permissions to be kept to a minimum in line with the Principle of Least Privilege.&lt;/p&gt;
-
-&lt;h3 id=&quot;cloud-configuration-security-with-cspm&quot;&gt;Cloud Configuration Security with CSPM&lt;/h3&gt;
-
-&lt;p&gt;A Cloud Security Posture Management (CSPM) tool finds misconfigurations within a cloud account. It checks all resources for conformity with common rule sets such as the Service Organization Control 2 (SOC2), Payment Card Industry Data Security Standard (PCI DSS), or the benchmarks of the Center of Internet Security (CIS).&lt;/p&gt;
-
-&lt;p&gt;Common rules in the benchmarks include typical errors such as open ports for SSH, missing data encryption in transit or at rest, or publicly exposed resources such as S3 buckets and databases.&lt;/p&gt;
-
-&lt;h3 id=&quot;context-and-prioritization&quot;&gt;Context and Prioritization&lt;/h3&gt;
-
-&lt;p&gt;The mentioned tools are essential to secure cloud environments. Errors in the cloud setup or vulnerabilities in the application can easily open a door for attackers.&lt;/p&gt;
-
-&lt;p&gt;In an ideal world, security teams would close all vulnerabilities as soon as they appear - but the reality is more complex. DevOps and Security teams are often understaffed in terms of personnel and available resources.&lt;/p&gt;
-
-&lt;p&gt;Teams need to focus on the most critical issues to keep up with the large number of alerts from various tools. Often, the severity assigned to vulnerabilities automatically define the priority.&lt;/p&gt;
-
-&lt;p&gt;But judging solely based on severity can easily lead to misjudgment. For example, an affected database server could be an unused test instance that cannot be reached from the internet and doesn’t have any critical data on it. The priority of such a vulnerable database would be low despite a high severity of a finding.&lt;/p&gt;
-
-&lt;p&gt;Security teams have to be cautious when prioritizing mitigation activities and can’t exclusively rely on severity scores. The full picture (context) of the application and environment is necessary to accurately assess the risk of a vulnerability.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/cloud-security/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/cloud-security/</guid>
         
         <category>security</category>
         
