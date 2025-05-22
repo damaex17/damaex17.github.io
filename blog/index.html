@@ -1,0 +1,83 @@
+<!--
+This is the main website previously at /index.html, now moved to /blog/index.html
+-->
+---
+layout: default
+title: ""
+---
+
+{% include intro.html %}
+
+<section class="welcome">
+  <div class="container">
+    <div class="lang-toggle" style="text-align:right; margin-bottom:1em;">
+      <button id="de-btn" class="btn lang-btn" style="margin-right:0.5em;">DE</button>
+      <button id="en-btn" class="btn lang-btn">EN</button>
+    </div>
+    <div id="intro-de">
+      <h2>Intelligente Sicherheitslösungen für Ihr Unternehmen</h2>
+      <p></p>
+      <p>Ein erfolgreiches Unternehmen zu führen bedeutet, sich ständig an neue Herausforderungen anzupassen. Doch in der heutigen digitalen Welt kann Cybersicherheit wie eine komplexe und überwältigende Herausforderung erscheinen. Sie benötigen einen robusten Schutz, der mit Ihnen wächst, ohne Sie auszubremsen.</p>
+      <p>Ich helfe Unternehmen dabei, praxisnahe und effektive Sicherheitsprogramme aufzubauen, die Ihre Werte, Ihre Kunden und Ihren Ruf schützen. Mit über zwei Jahrzehnten praktischer Erfahrung bringe ich eine einzigartige Kombination aus tiefem technischem Wissen und strategischer Führung mit, um Sicherheit zu vereinfachen und für Sie nutzbar zu machen.</p>
+          <div class="responsive-img-wrapper" style="text-align:center; margin-bottom:1.5em;">
+      <img src="/assets/images/intro.webp" alt="Intro Bild" class="responsive-img">
+    </div>
+      <h3>Mein Angebot: Ein Maßgeschneidertes Sicherheitsprogramm</h3>
+      <p>Ich biete strategische Beratung und praktische Umsetzung, um eine robuste Sicherheitsstruktur zu schaffen, die wirklich zu Ihrem Unternehmen passt. Meine Leistungen umfassen:</p>
+      <ol>
+        <li>Sicherheitsprogramm aufbauen & weiterentwickeln: Aufbau oder Optimierung Ihres Informationssicherheits-Managementsystems (ISMS), Richtlinien und Governance für kontinuierliche Compliance.</li>
+        <li>Compliance erreichen & erhalten: Souverän durch komplexe Regularien wie ISO 27001, PCI DSS, GDPR navigieren und Audits sicher bestehen.</li>
+        <li>Cloud & Software absichern: Umsetzung von AWS-Sicherheitsstandards, Secure Development Lifecycles (SSDLC) und DevSecOps für integrierte Sicherheit von Anfang an.</li>
+        <li>Sicherheitsbewusstsein stärken: Aufbau einer proaktiven Sicherheitskultur im Team – machen Sie Ihre Mitarbeitenden zur stärksten Verteidigungslinie.</li>
+        <li>Strategische & Fractional CISO-Unterstützung: Profitieren Sie von Security-Leadership auf Executive-Level – ohne die Kosten einer Vollzeitstelle.</li>
+      </ol>
+    </div>
+    <div id="intro-en" style="display:none;">
+      <h2>Smart Security Solutions For Your Business</h2>
+      <p></p>
+      <p>Running a successful business means constantly innovating and adapting. But in today's digital world, cybersecurity can feel like a complex and overwhelming challenge. You need robust protection that grows with you, without slowing you down.</p>
+      <p>I help businesses build practical, effective security programs that protect your assets, your customers, and your reputation. With over two decades of hands-on experience, I bring a unique blend of deep technical knowledge and strategic leadership to simplify security and make it work for you.</p>
+                <div class="responsive-img-wrapper" style="text-align:center; margin-bottom:1.5em;">
+      <img src="/assets/images/intro.webp" alt="Intro Bild" class="responsive-img">
+    </div>
+      <h3>What I Offer: Tailored Security Program For You</h3>
+      <p>I provide strategic guidance and hands-on implementation to build a robust security posture that truly works for your business. My services are designed to:</p>
+      <ol>
+        <li>Build & Mature Your Security Program: Establish or enhance your Information Security Management System (ISMS), policies, and governance for continuous compliance.</li>
+        <li>Achieve & Maintain Compliance: Navigate complex regulations like ISO 27001, PCI DSS, GDPR, and prepare for audits with confidence.</li>
+        <li>Secure Your Cloud & Software: Implement AWS security best practices, Secure Development Lifecycles (SSDLC), and DevSecOps to embed security from the ground up.</li>
+        <li>Boost Security Awareness: Foster a proactive security culture within your team, turning employees into your strongest defense.</li>
+        <li>Strategic & Fractional CISO Support: Gain executive-level security leadership without the cost of a full-time hire.</li>
+      </ol>
+    </div>
+    <script>
+      function setLang(lang) {
+        localStorage.setItem('lang', lang);
+      }
+      function getLang() {
+        return localStorage.getItem('lang') || 'de';
+      }
+      function showIntroLang(lang) {
+        introDe.style.display = (lang === 'de') ? '' : 'none';
+        introEn.style.display = (lang === 'en') ? '' : 'none';
+        deBtn.classList.toggle('active', lang === 'de');
+        enBtn.classList.toggle('active', lang === 'en');
+      }
+      const deBtn = document.getElementById('de-btn');
+      const enBtn = document.getElementById('en-btn');
+      const introDe = document.getElementById('intro-de');
+      const introEn = document.getElementById('intro-en');
+      deBtn.onclick = function() {
+        setLang('de');
+        showIntroLang('de');
+      };
+      enBtn.onclick = function() {
+        setLang('en');
+        showIntroLang('en');
+      };
+      document.addEventListener('DOMContentLoaded', function() {
+        showIntroLang(getLang());
+      });
+    </script>
+  </div>
+</section>

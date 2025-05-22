@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://inversegravity.net/2019/the-expanse/</loc>
-<lastmod>2019-03-29T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://inversegravity.net/2019/rescue-party/</loc>
-<lastmod>2019-04-12T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://inversegravity.net/2019/old-mans-war/</loc>
-<lastmod>2019-04-14T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://inversegravity.net/2019/starship-troopers/</loc>
-<lastmod>2019-04-15T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://inversegravity.net/2019/public-key-infrastructure/</loc>
 <lastmod>2019-04-16T00:00:00+00:00</lastmod>
 </url>
@@ -261,7 +245,14 @@
 <lastmod>2024-11-10T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>https://inversegravity.net/2025/steps-secure-aws/</loc>
+<lastmod>2025-05-20T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://inversegravity.net/about/</loc>
+</url>
+<url>
+<loc>https://inversegravity.net/blog/</loc>
 </url>
 <url>
 <loc>https://inversegravity.net/tag/book/</loc>
@@ -271,6 +262,9 @@
 </url>
 <url>
 <loc>https://inversegravity.net/tag/devsec/</loc>
+</url>
+<url>
+<loc>https://inversegravity.net/work/</loc>
 </url>
 <url>
 <loc>https://inversegravity.net/</loc>
@@ -304,5 +298,9 @@
 </url>
 <url>
 <loc>https://inversegravity.net/tag/technology/</loc>
+</url>
+<url>
+<loc>https://inversegravity.net/blog/</loc>
+<lastmod>2025-05-22T12:18:15+00:00</lastmod>
 </url>
 </urlset>

@@ -5,13 +5,90 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Nov 2024 11:00:35 +0000</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2024 11:00:35 +0000</lastBuildDate>
+    <pubDate>Thu, 22 May 2025 14:56:35 +0000</pubDate>
+    <lastBuildDate>Thu, 22 May 2025 14:56:35 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
+        <title>5 Steps to Secure Your AWS Environment for Regulated Businesses</title>
+        <description>&lt;p&gt;&lt;strong&gt;Running a business on AWS gives you amazing speed and flexibility. But if you’re in a regulated industry – think finance, healthcare, or any sector dealing with sensitive customer data – keeping things secure isn’t just a good idea, it’s a must. And it can feel like a big puzzle.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Having spent years building and securing systems for cloud-first banks and other regulated companies, I know the challenges firsthand. The good news? You can absolutely build a strong, compliant AWS environment without slowing down your business. It’s about building security in, not bolting it on.&lt;/p&gt;
+
+&lt;p&gt;Here are 5 clear steps to help your medium-sized business secure its AWS environment for regulated operations:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-get-smart-about-who-can-access-what-identity-and-access-management---iam&quot;&gt;1: Get Smart About Who Can Access What (Identity and Access Management - IAM)&lt;/h3&gt;
+
+&lt;p&gt;This is the foundation of your security. Think of it like giving out keys to your house – you wouldn’t give everyone a master key. In AWS, this means:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Only Give Necessary Access: Make sure each person and every automated process only has the exact permissions they need to do their job, nothing more. This is called “least privilege.”&lt;/li&gt;
+  &lt;li&gt;Use Strong Locks (MFA): Everyone, especially those with important access, should use multi-factor authentication (MFA). That’s like needing both a key and a code to get in.&lt;/li&gt;
+  &lt;li&gt;Centralize Control: If you have many AWS accounts, use something like AWS Identity Center to manage everyone’s access from one place. This makes life easier and more secure.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-2-lock-down-your-data-encryption-and-control&quot;&gt;Step 2: Lock Down Your Data (Encryption and Control)&lt;/h3&gt;
+
+&lt;p&gt;Your data is your most valuable asset, especially if it’s sensitive customer information. Regulators demand you protect it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Encrypt Everything: Make sure all your data is scrambled (encrypted) both when it’s stored away (like in an S3 bucket or database) and when it’s moving around between systems. AWS has easy ways to do this using services like KMS.&lt;/li&gt;
+  &lt;li&gt;Know Your Data: Understand what kind of data you have (e.g., public, internal, highly confidential). This helps you decide how strictly to protect it.&lt;/li&gt;
+  &lt;li&gt;Guard Your Secrets: Don’t just put passwords and sensitive keys directly into your code. Use AWS Secrets Manager to store them safely and retrieve them securely.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-3-build-security-around-your-network-network-security&quot;&gt;Step 3: Build Security Around Your Network (Network Security)&lt;/h3&gt;
+
+&lt;p&gt;Make sure only authorized traffic gets in and out, and that different parts of your neighborhood are separated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Divide and Conquer (VPCs and Subnets): Use Amazon VPCs (Virtual Private Clouds) to create isolated sections for different parts of your business (e.g., customer-facing apps in one area, internal data processing in another).&lt;/li&gt;
+  &lt;li&gt;Control the Gates (Security Groups &amp;amp; NACLs): These are like firewalls that decide what network traffic is allowed. Be very specific about who can talk to whom.&lt;/li&gt;
+  &lt;li&gt;Protect Your Websites (WAF): If you have web applications, put an AWS WAF (Web Application Firewall) in front of them. This protects you from common web attacks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-4-keep-a-constant-eye-on-things-monitoring-and-incident-response&quot;&gt;Step 4: Keep a Constant Eye on Things (Monitoring and Incident Response)&lt;/h3&gt;
+
+&lt;p&gt;You need to know what’s happening in your AWS environment all the time, so you can spot problems early and act fast.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Log Everything That Matters: Collect all the important logs from your AWS services (like CloudTrail for user actions, VPC Flow Logs for network traffic). Store them securely so you have a clear record.&lt;/li&gt;
+  &lt;li&gt;Detect Threats Smartly: Use tools like AWS GuardDuty that use intelligence to automatically look for suspicious activity in your accounts.&lt;/li&gt;
+  &lt;li&gt;Check Your Setup Regularly: Use AWS Security Hub and AWS Config to constantly check if your AWS settings follow security best practices and compliance rules.&lt;/li&gt;
+  &lt;li&gt;Have a Plan: Even with all the best defenses, things can go wrong. Have a clear incident response plan for what to do if a security event happens – who does what, when, and how.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-5-build-security-into-everything-you-do-secure-development--automation&quot;&gt;Step 5: Build Security Into Everything You Do (Secure Development &amp;amp; Automation)&lt;/h3&gt;
+
+&lt;p&gt;Security isn’t just for after you’ve built something. It needs to be part of the whole process, from the very beginning.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Security from the Start (SSDLC): Make security a core part of how you design, build, and deploy your software. This is called a Secure Software Development Lifecycle (SSDLC).&lt;/li&gt;
+  &lt;li&gt;Automate Security Checks: Use tools to automatically check your code for security flaws as you write it. This “shifts left” security, catching issues early.&lt;/li&gt;
+  &lt;li&gt;Code Your Infrastructure Securely: Instead of manually setting up AWS services, use “Infrastructure as Code” tools like Terraform or CloudFormation. This makes your setup consistent, repeatable, and easier to secure.&lt;/li&gt;
+  &lt;li&gt;Train Your Teams: Regularly train your developers and operations teams on security best practices. Help them understand their role in keeping things safe.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;onwards&quot;&gt;Onwards&lt;/h3&gt;
+
+&lt;p&gt;Securing your AWS environment for regulated businesses isn’t a one-time project; it’s an ongoing journey. By following these steps and focusing on building security into your processes, you can protect your business, meet regulatory demands, and continue to innovate with confidence.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2025/steps-secure-aws/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2025/steps-secure-aws/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        <category>cryptography</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Self-Signed Certificates</title>
-        <description>&lt;h5 id=&quot;encryption-remains-a-cornerstone-for-safeguarding-sensitive-information-while-commercial-certificate-authorities-cas-provide-trusted-ssl-certificates-for-public-facing-services-a-self-signed-certificate-can-be-a-practical-and-cost-effective-solution-for-internal-network-communications&quot;&gt;Encryption remains a cornerstone for safeguarding sensitive information. While commercial Certificate Authorities (CAs) provide trusted SSL certificates for public-facing services, a self-signed Certificate can be a practical and cost-effective solution for internal network communications.&lt;/h5&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Encryption remains a cornerstone for safeguarding sensitive information. While commercial Certificate Authorities (CAs) provide trusted SSL certificates for public-facing services, a self-signed Certificate can be a practical and cost-effective solution for internal network communications.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Although modern browsers typically reject self-signed certificates due to trust issues, these certificates are valuable for encrypting internal traffic.&lt;/p&gt;
 
@@ -204,7 +281,7 @@ Enter pass phrase for CA.key:
     
       <item>
         <title>Dual-Use: How AI is Shaping the Future of Cybersecurity</title>
-        <description>&lt;h5 id=&quot;the-rapidly-evolving-landscape-of-artificial-intelligence-ai-is-transforming-the-dynamics-of-cybersecurity-as-both-attackers-and-defenders-adapt-to-the-digital-arms-race&quot;&gt;The rapidly evolving landscape of artificial intelligence (AI) is transforming the dynamics of cybersecurity, as both attackers and defenders adapt to the Digital Arms Race.&lt;/h5&gt;
+        <description>&lt;p&gt;&lt;strong&gt;The rapidly evolving landscape of artificial intelligence (AI) is transforming the dynamics of cybersecurity, as both attackers and defenders adapt to the Digital Arms Race.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;In today’s increasingly interconnected world, the rapid evolution of technology has translated into a relentless escalation in the digital arms race. At the forefront of this conflict, Artificial Intelligence (AI) is emerging as a transformative force shaping the future landscape of cybersecurity.&lt;/p&gt;
 
@@ -274,7 +351,7 @@ Enter pass phrase for CA.key:
     
       <item>
         <title>The Lightning Network - Revolutionizing Bitcoin Transactions</title>
-        <description>&lt;h5 id=&quot;bitcoin-the-worlds-pioneering-decentralized-cryptocurrency-eliminates-the-need-for-a-central-authority-and-has-garnered-massive-global-traction-due-to-its-secure-swift-and-inexpensive-cross-border-transactions-however-with-increased-popularity-comes-significant-challenges-with-scalability-being-the-most-critical-consequently-the-lightning-network-was-born-to-address-these-issues&quot;&gt;Bitcoin, the world’s pioneering decentralized cryptocurrency, eliminates the need for a central authority and has garnered massive global traction due to its secure, swift, and inexpensive cross-border transactions. However, with increased popularity comes significant &lt;a href=&quot;/2021/bitcoin-scale/&quot; target=&quot;_blank&quot;&gt;challenges&lt;/a&gt;, with scalability being the most critical. Consequently, the Lightning Network was born to address these issues.&lt;/h5&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Bitcoin, the world’s pioneering decentralized cryptocurrency, eliminates the need for a central authority and has garnered massive global traction due to its secure, swift, and inexpensive cross-border transactions. However, with increased popularity comes significant &lt;a href=&quot;/2021/bitcoin-scale/&quot; target=&quot;_blank&quot;&gt;challenges&lt;/a&gt;, with scalability being the most critical. Consequently, the Lightning Network was born to address these issues.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
@@ -319,7 +396,7 @@ Enter pass phrase for CA.key:
     
       <item>
         <title>ATT&amp;CK - Threat Intelligence</title>
-        <description>&lt;h5 id=&quot;the-attck-adversarial-techniques-tactics-and-common-knowledge-framework-is-an-open-source-threat-intelligence-knowledge-base-designed-to-equip-organizations-with-the-information-they-need-to-defend-their-networks-against-sophisticated-cyber-threats&quot;&gt;The ATT&amp;amp;CK (Adversarial Techniques, Tactics, and Common Knowledge) framework is an open-source threat intelligence knowledge base designed to equip organizations with the information they need to defend their networks against sophisticated cyber threats.&lt;/h5&gt;
+        <description>&lt;p&gt;&lt;strong&gt;The ATT&amp;amp;CK (Adversarial Techniques, Tactics, and Common Knowledge) framework is an open-source threat intelligence knowledge base designed to equip organizations with the information they need to defend their networks against sophisticated cyber threats.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Developed by MITRE Corporation and a community of security experts and practitioners, ATT&amp;amp;CK provides a comprehensive view of attack tactics and techniques across all stages of the adversary lifecycle.&lt;/p&gt;
 
@@ -394,7 +471,7 @@ Enter pass phrase for CA.key:
     
       <item>
         <title>Semgrep - Security Testing</title>
-        <description>&lt;h5 id=&quot;static-application-security-testing-or-sast-is-a-testing-methodology-to-analyse-application-source-code-and-to-identify-security-vulnerabilities&quot;&gt;Static Application Security Testing or SAST is a testing methodology to analyse application source code and to identify security vulnerabilities.&lt;/h5&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Static Application Security Testing or SAST is a testing methodology to analyse application source code and to identify security vulnerabilities.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Many compliance frameworks require organizations to perform security testing prior to pushing code into production environments.&lt;/p&gt;
 
@@ -468,7 +545,7 @@ Enter pass phrase for CA.key:
     
       <item>
         <title>Roundup October 2022</title>
-        <description>&lt;h5 id=&quot;our-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Our selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Our selection of the best articles, code, and projects we found this past month.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;toyota-hacked---leaked-credentials&quot;&gt;Toyota Hacked - Leaked Credentials&lt;/h4&gt;
 
@@ -504,7 +581,7 @@ Enter pass phrase for CA.key:
     
       <item>
         <title>Roundup September 2022</title>
-        <description>&lt;h5 id=&quot;this-month-multiple-hacks-have-show-that-mfa-is-becoming-a-main-target-for-attacks-in-many-organizations-authentication-processes-a-stark-reminder-to-replace-time-based-one-time-passwords-totp-with-man-in-the-middle-resistant-forms-of-mfa-like-u2f&quot;&gt;This month, multiple hacks have show that MFA is becoming a main target for attacks in many organizations’ authentication processes. A stark reminder to replace time-based one-time passwords (TOTP) with man-in-the-middle resistant forms of MFA like &lt;a href=&quot;/2019/universal-2nd-factor/&quot; target=&quot;_blank&quot;&gt;U2F&lt;/a&gt;.&lt;/h5&gt;
+        <description>&lt;p&gt;&lt;strong&gt;This month, multiple hacks have show that MFA is becoming a main target for attacks in many organizations’ authentication processes. A stark reminder to replace time-based one-time passwords (TOTP) with man-in-the-middle resistant forms of MFA like &lt;a href=&quot;/2019/universal-2nd-factor/&quot; target=&quot;_blank&quot;&gt;U2F&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;uber-hacked---mfa-weakness-i&quot;&gt;Uber Hacked - MFA Weakness I&lt;/h4&gt;
 
@@ -561,7 +638,7 @@ Enter pass phrase for CA.key:
     
       <item>
         <title>Roundup August 2022</title>
-        <description>&lt;h5 id=&quot;our-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Our selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Our selection of the best articles, code, and projects we found this past month.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;consequences-of-inadequate-identity-management-in-github&quot;&gt;Consequences of Inadequate Identity Management in GitHub&lt;/h4&gt;
 
@@ -628,7 +705,7 @@ Enter pass phrase for CA.key:
     
       <item>
         <title>Roundup July 2022</title>
-        <description>&lt;h5 id=&quot;dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Dig into a selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Dig into a selection of the best articles, code, and projects we found this past month.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;massive-data-breach-in-china&quot;&gt;Massive Data Breach in China&lt;/h4&gt;
 
@@ -677,63 +754,6 @@ Enter pass phrase for CA.key:
         <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/roundup-072022/</link>
         <guid isPermaLink="true">https://inversegravity.net/2022/roundup-072022/</guid>
-        
-        <category>roundup</category>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Roundup June 2022</title>
-        <description>&lt;h5 id=&quot;dig-into-a-selection-of-the-best-articles-code-and-projects-we-found-this-past-month&quot;&gt;Dig into a selection of the best articles, code, and projects we found this past month.&lt;/h5&gt;
-
-&lt;h4 id=&quot;steampipe-cli&quot;&gt;Steampipe CLI&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://steampipe.io/&quot; target=&quot;_blank&quot;&gt;Steampipe&lt;/a&gt; is an open-source CLI to instantly query cloud APIs using SQL-based queries to explore dynamic data. Mods extend Steampipe’s capabilities with dashboards, reports, and controls. One of our favorite modes is the AWS compliance mode which includes 120+ controls for cloud environments. &lt;a href=&quot;https://hub.steampipe.io/mods/turbot/aws_compliance/dashboards&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/turbot/steampipe-mod-aws-compliance/main/docs/aws_cis_v140_console.png&quot; alt=&quot;Steampipe CIS Dashboard&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Steampipe CIS Dashboard&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h4 id=&quot;code-execution-vulnerability-in-ms-office---follina&quot;&gt;Code Execution Vulnerability In MS Office - Follina&lt;/h4&gt;
-
-&lt;p&gt;The Follina 0-day vulnerability &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30190&quot; target=&quot;_blank&quot;&gt;(CVE-2022-30190)&lt;/a&gt; was made public when &lt;a href=&quot;https://twitter.com/nao_sec/status/1530196847679401984&quot; target=&quot;_blank&quot;&gt;nao_sec&lt;/a&gt; reported a malicious Word document on VirusTotal submitted from an IP Address in Belarus. The document performs command execution on a target even though the document is a .docx and does not contain the usual way of exploitation namely macros. &lt;a href=&quot;https://fourcore.io/blogs/follina-ms-office-msdt-code-execution-zero-day-vulnerability&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;atlassian-injection-observed-in-the-wild&quot;&gt;Atlassian Injection Observed In The Wild&lt;/h4&gt;
-
-&lt;p&gt;In a security advisory published on the 2nd of June, Atlassian addressed a remote code execution vulnerability &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-26134&quot; target=&quot;_blank&quot;&gt;(CVE-2022-26134)&lt;/a&gt; affecting all supported versions of its Confluence Server and Data Center products. This vulnerability allows an unauthenticated remote attacker to execute code. Greynoise documents the details of how quickly this vulnerability was exploited. &lt;a href=&quot;https://www.greynoise.io/blog/observed-in-the-wild-atlassian-confluence-server-cve-2022-26134&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;analysis-of-the-wizard-spider-hacking-group&quot;&gt;Analysis Of The Wizard Spider Hacking Group&lt;/h4&gt;
-
-&lt;p&gt;Wizard Spider is a highly profitable cybercrime group that operates a number of sophisticated malware variants in its attacks. This report contains a technical analysis of Wizard Spider’s capabilities and its command structure, which includes a complex set of sub-teams divided into software-specific groups. This information can help organizations prepare for highly coordinated cyberattacks that use distributed command structures to exploit high-value targets. &lt;a href=&quot;https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;threat-intelligence-conti-logs&quot;&gt;Threat Intelligence: Conti Logs&lt;/h4&gt;
-
-&lt;p&gt;The following blog from Microsoft explains a workflow for deeper data analysis and visualization as well as extraction and analysis of indicators of compromise (IOCs). Data sets from the February 2022 leak of data from the ransomware-as-a-service (RaaS) coordinated operation called “Conti” is used as a case study. The slang translation dictionary is hilarious. &lt;a href=&quot;https://www.microsoft.com/security/blog/2022/06/01/using-python-to-unearth-a-goldmine-of-threat-intelligence-from-leaked-chat-logs/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://www.microsoft.com/security/blog/uploads/securityprod/2022/05/fig-10-connections-to-user-Stern.png&quot; alt=&quot;Graph Connections&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Graph of the connections of a single user&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h4 id=&quot;consider-attackability-for-vulnerability-management&quot;&gt;Consider “Attackability” for Vulnerability Management&lt;/h4&gt;
-
-&lt;p&gt;As vulnerability-management workloads surge in the face of heightened software supply chain security risks, a study reports only 3% of flaws can actually be exploited. The study also explores how to find and fix the critical 3%. It is suggested to execute a simplified threat analysis for open-source vulnerabilities resulting in a “attackability” and “reachability” score. While seeking a prioritization model like this is nothing new, the article provides a great perspective. &lt;a href=&quot;https://www.darkreading.com/application-security/open-source-software-bugs--attackability&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;7-steps-to-stronger-saas-security&quot;&gt;7 Steps to Stronger SaaS Security&lt;/h4&gt;
-
-&lt;p&gt;Software-as-a-service (SaaS) application security is often a blind spot, so give your SaaS ecosystem some extra attention with the suggested 7 basic steps. SaaS is ubiquitous, highly configurable, and continuously updated, leaving many organizations vulnerable if they aren’t closely monitoring for security gaps and changes. &lt;a href=&quot;https://www.darkreading.com/cloud/7-steps-to-stronger-saas-security&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/roundup-062022/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-062022/</guid>
         
         <category>roundup</category>
         
