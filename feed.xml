@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 May 2025 14:56:35 +0000</pubDate>
-    <lastBuildDate>Thu, 22 May 2025 14:56:35 +0000</lastBuildDate>
+    <pubDate>Thu, 22 May 2025 15:13:01 +0000</pubDate>
+    <lastBuildDate>Thu, 22 May 2025 15:13:01 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;Here are 5 clear steps to help your medium-sized business secure its AWS environment for regulated operations:&lt;/p&gt;
 
-&lt;h3 id=&quot;1-get-smart-about-who-can-access-what-identity-and-access-management---iam&quot;&gt;1: Get Smart About Who Can Access What (Identity and Access Management - IAM)&lt;/h3&gt;
+&lt;h3 id=&quot;get-smart-about-who-can-access-what-identity-and-access-management---iam&quot;&gt;Get Smart About Who Can Access What (Identity and Access Management - IAM)&lt;/h3&gt;
 
 &lt;p&gt;This is the foundation of your security. Think of it like giving out keys to your house – you wouldn’t give everyone a master key. In AWS, this means:&lt;/p&gt;
 
@@ -27,7 +27,7 @@
   &lt;li&gt;Centralize Control: If you have many AWS accounts, use something like AWS Identity Center to manage everyone’s access from one place. This makes life easier and more secure.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;step-2-lock-down-your-data-encryption-and-control&quot;&gt;Step 2: Lock Down Your Data (Encryption and Control)&lt;/h3&gt;
+&lt;h3 id=&quot;lock-down-your-data-encryption-and-control&quot;&gt;Lock Down Your Data (Encryption and Control)&lt;/h3&gt;
 
 &lt;p&gt;Your data is your most valuable asset, especially if it’s sensitive customer information. Regulators demand you protect it.&lt;/p&gt;
 
@@ -37,7 +37,7 @@
   &lt;li&gt;Guard Your Secrets: Don’t just put passwords and sensitive keys directly into your code. Use AWS Secrets Manager to store them safely and retrieve them securely.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;step-3-build-security-around-your-network-network-security&quot;&gt;Step 3: Build Security Around Your Network (Network Security)&lt;/h3&gt;
+&lt;h3 id=&quot;build-security-around-your-network-network-security&quot;&gt;Build Security Around Your Network (Network Security)&lt;/h3&gt;
 
 &lt;p&gt;Make sure only authorized traffic gets in and out, and that different parts of your neighborhood are separated.&lt;/p&gt;
 
@@ -47,7 +47,7 @@
   &lt;li&gt;Protect Your Websites (WAF): If you have web applications, put an AWS WAF (Web Application Firewall) in front of them. This protects you from common web attacks.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;step-4-keep-a-constant-eye-on-things-monitoring-and-incident-response&quot;&gt;Step 4: Keep a Constant Eye on Things (Monitoring and Incident Response)&lt;/h3&gt;
+&lt;h3 id=&quot;keep-a-constant-eye-on-things-monitoring-and-incident-response&quot;&gt;Keep a Constant Eye on Things (Monitoring and Incident Response)&lt;/h3&gt;
 
 &lt;p&gt;You need to know what’s happening in your AWS environment all the time, so you can spot problems early and act fast.&lt;/p&gt;
 
@@ -58,7 +58,7 @@
   &lt;li&gt;Have a Plan: Even with all the best defenses, things can go wrong. Have a clear incident response plan for what to do if a security event happens – who does what, when, and how.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;step-5-build-security-into-everything-you-do-secure-development--automation&quot;&gt;Step 5: Build Security Into Everything You Do (Secure Development &amp;amp; Automation)&lt;/h3&gt;
+&lt;h3 id=&quot;build-security-into-everything-you-do-secure-development--automation&quot;&gt;Build Security Into Everything You Do (Secure Development &amp;amp; Automation)&lt;/h3&gt;
 
 &lt;p&gt;Security isn’t just for after you’ve built something. It needs to be part of the whole process, from the very beginning.&lt;/p&gt;
 
