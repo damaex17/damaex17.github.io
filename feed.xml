@@ -5,13 +5,13 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 May 2025 15:36:20 +0000</pubDate>
-    <lastBuildDate>Thu, 22 May 2025 15:36:20 +0000</lastBuildDate>
+    <pubDate>Thu, 22 May 2025 17:06:09 +0000</pubDate>
+    <lastBuildDate>Thu, 22 May 2025 17:06:09 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
         <title>5 Steps to Secure Your AWS Environment for Regulated Businesses</title>
-        <description>&lt;p&gt;&lt;strong&gt;Running a business on AWS gives you amazing speed and flexibility. But if you’re in a regulated industry – think finance, healthcare, or any sector dealing with sensitive customer data – keeping things secure isn’t just a good idea, it’s a must. And it can feel like a big puzzle.&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Running your platform on AWS gives you amazing speed and flexibility. But if you’re in a regulated industry – think finance, healthcare, or any sector dealing with sensitive customer data – keeping things secure isn’t just a good idea, it’s a must. And it can feel like a big challenge.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Having spent years building and securing systems for cloud-first banks and other regulated companies, I know the challenges firsthand. The good news? You can absolutely build a strong, compliant AWS environment without slowing down your business. It’s about building security in, not bolting it on.&lt;/p&gt;
 
@@ -19,11 +19,11 @@
 
 &lt;h3 id=&quot;get-smart-about-who-can-access-what-identity-and-access-management---iam&quot;&gt;Get Smart About Who Can Access What (Identity and Access Management - IAM)&lt;/h3&gt;
 
-&lt;p&gt;This is the foundation of your security. Think of it like giving out keys to your house – you wouldn’t give everyone a master key. In AWS, this means:&lt;/p&gt;
+&lt;p&gt;This is the foundation of your security. Think of it like giving out keys to your house – you wouldn’t give everyone the master key. In AWS, this means:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Only Give Necessary Access: Make sure each person and every automated process only has the exact permissions they need to do their job, nothing more. This is called “least privilege.”&lt;/li&gt;
-  &lt;li&gt;Use Strong Locks (MFA): Everyone, especially those with important access, should use multi-factor authentication (MFA). That’s like needing both a key and a code to get in.&lt;/li&gt;
+  &lt;li&gt;Use Strong Authentication (MFA): Everyone, especially those with important access, should use multi-factor authentication (MFA). That’s like needing both a key and a code to get in.&lt;/li&gt;
   &lt;li&gt;Centralize Control: If you have many AWS accounts, use something like AWS Identity Center to manage everyone’s access from one place. This makes life easier and more secure.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -32,19 +32,19 @@
 &lt;p&gt;Your data is your most valuable asset, especially if it’s sensitive customer information. Regulators demand you protect it.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Encrypt Everything: Make sure all your data is scrambled (encrypted) both when it’s stored away (like in an S3 bucket or database) and when it’s moving around between systems. AWS has easy ways to do this using services like KMS.&lt;/li&gt;
-  &lt;li&gt;Know Your Data: Understand what kind of data you have (e.g., public, internal, highly confidential). This helps you decide how strictly to protect it.&lt;/li&gt;
-  &lt;li&gt;Guard Your Secrets: Don’t just put passwords and sensitive keys directly into your code. Use AWS Secrets Manager to store them safely and retrieve them securely.&lt;/li&gt;
+  &lt;li&gt;Encrypt Everything: Make sure all your data is encrypted both when it’s stored away (like in an S3 bucket or database) and when it’s moving around between systems. AWS has easy ways to do this using services like KMS.&lt;/li&gt;
+  &lt;li&gt;Know Your Data: Understand what kind of data you have (e.g., public, internal, highly confidential). This helps you decide how much effort you invest to protect it.&lt;/li&gt;
+  &lt;li&gt;Guard Your Secrets: Don’t just put passwords and sensitive keys directly into your code. Use AWS Secrets Manager to store them safely and retrieve them securely when needed.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;build-security-around-your-network-network-security&quot;&gt;Build Security Around Your Network (Network Security)&lt;/h3&gt;
 
-&lt;p&gt;Make sure only authorized traffic gets in and out, and that different parts of your neighborhood are separated.&lt;/p&gt;
+&lt;p&gt;Make sure only authorized traffic gets in and out, and that different parts of your environment are separated.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Divide and Conquer (VPCs and Subnets): Use Amazon VPCs (Virtual Private Clouds) to create isolated sections for different parts of your business (e.g., customer-facing apps in one area, internal data processing in another).&lt;/li&gt;
   &lt;li&gt;Control the Gates (Security Groups &amp;amp; NACLs): These are like firewalls that decide what network traffic is allowed. Be very specific about who can talk to whom.&lt;/li&gt;
-  &lt;li&gt;Protect Your Websites (WAF): If you have web applications, put an AWS WAF (Web Application Firewall) in front of them. This protects you from common web attacks.&lt;/li&gt;
+  &lt;li&gt;Protect Your Public Applications (WAF): If you have web applications, put an WAF (Web Application Firewall) in front of them. This protects you from common web attacks.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;keep-a-constant-eye-on-things-monitoring-and-incident-response&quot;&gt;Keep a Constant Eye on Things (Monitoring and Incident Response)&lt;/h3&gt;
@@ -66,7 +66,7 @@
   &lt;li&gt;Security from the Start (SSDLC): Make security a core part of how you design, build, and deploy your software. This is called a Secure Software Development Lifecycle (SSDLC).&lt;/li&gt;
   &lt;li&gt;Automate Security Checks: Use tools to automatically check your code for security flaws as you write it. This “shifts left” security, catching issues early.&lt;/li&gt;
   &lt;li&gt;Code Your Infrastructure Securely: Instead of manually setting up AWS services, use “Infrastructure as Code” tools like Terraform or CloudFormation. This makes your setup consistent, repeatable, and easier to secure.&lt;/li&gt;
-  &lt;li&gt;Train Your Teams: Regularly train your developers and operations teams on security best practices. Help them understand their role in keeping things safe.&lt;/li&gt;
+  &lt;li&gt;Train Your Teams: Regularly train your developers and operations teams on security best practices. Help them understand their role in keeping things safe. Build a human firewall!&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;onwards&quot;&gt;Onwards&lt;/h3&gt;
@@ -80,8 +80,6 @@
         <category>security</category>
         
         <category>technology</category>
-        
-        <category>cryptography</category>
         
         
       </item>
