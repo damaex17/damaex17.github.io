@@ -5,9 +5,104 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 May 2025 17:06:09 +0000</pubDate>
-    <lastBuildDate>Thu, 22 May 2025 17:06:09 +0000</lastBuildDate>
+    <pubDate>Fri, 23 May 2025 11:50:03 +0000</pubDate>
+    <lastBuildDate>Fri, 23 May 2025 11:50:03 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>AI Is Here. Are You Ready? Security Must-Dos for Adoption</title>
+        <description>&lt;p&gt;&lt;strong&gt;Artificial Intelligence (AI) isn’t just hype – it’s a fundamental shift. From automating routine tasks to uncovering hidden opportunities, AI tools are quickly becoming essential for businesses looking to boost productivity and stay competitive. Waiting for the dust to settle simply isn’t an option; the opportunities are too massive to ignore.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But here’s the critical point: bringing new AI tools into your business isn’t like introducing just any new software. It comes with a unique set of security challenges that can be far more complex than anything you’ve dealt with before. As someone who’s helped companies navigate complex tech transitions, I’ve seen firsthand where the pitfalls lie.&lt;/p&gt;
+
+&lt;p&gt;Let’s break down the key areas you need to focus on to embrace AI safely:&lt;/p&gt;
+
+&lt;h2 id=&quot;guard-your-data-what-are-you-feeding-the-ai&quot;&gt;Guard Your Data: What Are You Feeding the AI?&lt;/h2&gt;
+
+&lt;p&gt;Imagine you’re entrusting a new employee with your most sensitive company secrets. That’s essentially what you’re doing when you give an AI tool access to your data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Risk:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;AI tools, especially those that process information, need data to work. But if you’re not careful, sensitive business plans, customer details, or proprietary ideas could end up where they shouldn’t. It’s like accidentally leaving your safe open.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Document Everything: Clearly document what kind of data each AI tool is allowed to see and process. No surprises!&lt;/li&gt;
+  &lt;li&gt;Need-to-Know Basis: Ensure people can’t use an AI tool to get information they wouldn’t normally have access to. If someone typically can’t see the company’s financial statements, an AI tool shouldn’t suddenly grant them that backdoor access.&lt;/li&gt;
+  &lt;li&gt;Limit External Connections: Be very careful about AI models accessing outside data sources. Unintended connections can lead to sensitive company information leaking out. Think of it as carefully controlling the flow of water so it doesn’t spill over the edges.&lt;/li&gt;
+  &lt;li&gt;Strict Access for Models: Even the AI model itself should only have access to the bare minimum data it needs to do its job.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-ai-supply-chain-know-your-partners&quot;&gt;The AI Supply Chain: Know Your Partners&lt;/h2&gt;
+
+&lt;p&gt;Just like any other software or service you bring into your company, AI tools come from vendors. And just like any vendor, you need to do your homework.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Risk:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Many AI tools learn from the data they process. This can be great for improving the tool, but disastrous if that data includes your confidential health records, financial data, or unique business strategies. You need to know if your data is being used to train their models.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vet Your Vendors: Treat AI tool providers like any other critical supplier. This includes both paid and free tools. Assess their security practices, their data handling, and their reputation.&lt;/li&gt;
+  &lt;li&gt;Read the Small Print: Dive deep into the Terms and Conditions. Do they claim the right to use your input data to further train their AI model? For sensitive information (like health data, financial reports) or intellectual property (like new product designs), this is usually a deal-breaker. If your data helps train their model, it’s no longer just your data.&lt;/li&gt;
+  &lt;li&gt;Understand Data Retention: How long do they keep your data? How is it deleted? These are crucial questions for compliance and privacy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;human-in-the-loop-verify-before-you-trust&quot;&gt;Human in the Loop: Verify Before You Trust&lt;/h2&gt;
+
+&lt;p&gt;Large Language Models (LLMs) are amazing at generating content, but what happens if that content is flawed or, worse, leads to unintended actions? Some AI systems can call other functions or interact with external systems. This “agency” or ability to take action requires careful oversight.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Risk:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;An LLM might generate code, instructions, or even links based on a simple prompt. If you don’t properly check, clean up, and control that output before it’s used by other systems, it’s like letting an unverified stranger write instructions for your critical machinery. This could potentially allow users to indirectly access or control functions they shouldn’t.&lt;/p&gt;
+
+&lt;p&gt;If an AI model suggests using an insecure or even non-existent code library, or provides incorrect legal or financial advice, trusting it without verification can introduce serious vulnerabilities, reputational damage, or even legal liabilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Validate Everything: Never blindly trust AI-generated output, especially if it’s going to be used by other parts of your system or by people making important decisions.&lt;/li&gt;
+  &lt;li&gt;Sanitize and Filter: Treat AI output like any other user input. Clean it up, remove anything suspicious, and ensure it won’t cause problems downstream. This is like checking for dangerous ingredients before baking.&lt;/li&gt;
+  &lt;li&gt;Define Clear Boundaries: Understand how the AI’s output might affect other systems. Make sure it can’t create a ripple effect that leads to security flaws or unauthorized actions.&lt;/li&gt;
+  &lt;li&gt;Always Verify AI-Generated Facts: Especially for critical information, code, or advice, cross-reference AI output with trusted, external sources.&lt;/li&gt;
+  &lt;li&gt;Require User Approval: For any high-impact actions that an AI tool might suggest (e.g., “Delete these 100 documents”), always require a human user to confirm the action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;educating-your-team-smart-interaction-with-ai&quot;&gt;Educating Your Team: Smart Interaction with AI&lt;/h2&gt;
+
+&lt;p&gt;Your employees are your greatest asset, and that includes how they interact with new AI tools. Knowledge is your first line of defense.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Risk:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Without proper guidance, employees might unknowingly feed sensitive company data into public AI models, or misinterpret AI outputs, leading to security breaches or bad decisions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No Sensitive Input: Provide clear guidance and training on never entering sensitive company information (customer data, internal strategies, unreleased product details) into general-purpose AI tools, especially public ones.&lt;/li&gt;
+  &lt;li&gt;Best Practices for Interaction: Train your team on how to formulate secure prompts, how to verify AI outputs, and what the acceptable use of AI tools is within your company.&lt;/li&gt;
+  &lt;li&gt;Clear Policies: Update your company’s policies to specifically address AI tool usage, data retention, and acceptable deletion practices. Make sure everyone understands these rules.&lt;/li&gt;
+  &lt;li&gt;Continuous Awareness: Keep the conversation going. Regular reminders and tips can help keep security top of mind.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;innovate-confidently&quot;&gt;Innovate Confidently&lt;/h2&gt;
+
+&lt;p&gt;Introducing AI into your business is not just an opportunity; it’s becoming a necessity. But it doesn’t have to be a leap of faith into the unknown. By proactively addressing critical security considerations – from data handling and supply chain vetting to intelligent output management and human oversight – you can harness the incredible power of AI to drive productivity and innovation, securely and responsibly.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/&quot;&gt;OWASP Top 10 for LLM Applications&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2025/ai-must-do-adoption/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2025/ai-must-do-adoption/</guid>
+        
+        <category>security</category>
+        
+        <category>technology</category>
+        
+        
+      </item>
     
       <item>
         <title>5 Steps to Secure Your AWS Environment for Regulated Businesses</title>
@@ -17,7 +112,7 @@
 
 &lt;p&gt;Here are 5 clear steps to help your medium-sized business secure its AWS environment for regulated operations:&lt;/p&gt;
 
-&lt;h3 id=&quot;get-smart-about-who-can-access-what-identity-and-access-management---iam&quot;&gt;Get Smart About Who Can Access What (Identity and Access Management - IAM)&lt;/h3&gt;
+&lt;h2 id=&quot;get-smart-about-who-can-access-what-identity-and-access-management---iam&quot;&gt;Get Smart About Who Can Access What (Identity and Access Management - IAM)&lt;/h2&gt;
 
 &lt;p&gt;This is the foundation of your security. Think of it like giving out keys to your house – you wouldn’t give everyone the master key. In AWS, this means:&lt;/p&gt;
 
@@ -27,7 +122,7 @@
   &lt;li&gt;Centralize Control: If you have many AWS accounts, use something like AWS Identity Center to manage everyone’s access from one place. This makes life easier and more secure.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;lock-down-your-data-encryption-and-control&quot;&gt;Lock Down Your Data (Encryption and Control)&lt;/h3&gt;
+&lt;h2 id=&quot;lock-down-your-data-encryption-and-control&quot;&gt;Lock Down Your Data (Encryption and Control)&lt;/h2&gt;
 
 &lt;p&gt;Your data is your most valuable asset, especially if it’s sensitive customer information. Regulators demand you protect it.&lt;/p&gt;
 
@@ -37,7 +132,7 @@
   &lt;li&gt;Guard Your Secrets: Don’t just put passwords and sensitive keys directly into your code. Use AWS Secrets Manager to store them safely and retrieve them securely when needed.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;build-security-around-your-network-network-security&quot;&gt;Build Security Around Your Network (Network Security)&lt;/h3&gt;
+&lt;h2 id=&quot;build-security-around-your-network-network-security&quot;&gt;Build Security Around Your Network (Network Security)&lt;/h2&gt;
 
 &lt;p&gt;Make sure only authorized traffic gets in and out, and that different parts of your environment are separated.&lt;/p&gt;
 
@@ -47,7 +142,7 @@
   &lt;li&gt;Protect Your Public Applications (WAF): If you have web applications, put an WAF (Web Application Firewall) in front of them. This protects you from common web attacks.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;keep-a-constant-eye-on-things-monitoring-and-incident-response&quot;&gt;Keep a Constant Eye on Things (Monitoring and Incident Response)&lt;/h3&gt;
+&lt;h2 id=&quot;keep-a-constant-eye-on-things-monitoring-and-incident-response&quot;&gt;Keep a Constant Eye on Things (Monitoring and Incident Response)&lt;/h2&gt;
 
 &lt;p&gt;You need to know what’s happening in your AWS environment all the time, so you can spot problems early and act fast.&lt;/p&gt;
 
@@ -58,7 +153,7 @@
   &lt;li&gt;Have a Plan: Even with all the best defenses, things can go wrong. Have a clear incident response plan for what to do if a security event happens – who does what, when, and how.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;build-security-into-everything-you-do-secure-development--automation&quot;&gt;Build Security Into Everything You Do (Secure Development &amp;amp; Automation)&lt;/h3&gt;
+&lt;h2 id=&quot;build-security-into-everything-you-do-secure-development--automation&quot;&gt;Build Security Into Everything You Do (Secure Development &amp;amp; Automation)&lt;/h2&gt;
 
 &lt;p&gt;Security isn’t just for after you’ve built something. It needs to be part of the whole process, from the very beginning.&lt;/p&gt;
 
@@ -69,7 +164,7 @@
   &lt;li&gt;Train Your Teams: Regularly train your developers and operations teams on security best practices. Help them understand their role in keeping things safe. Build a human firewall!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;onwards&quot;&gt;Onwards&lt;/h3&gt;
+&lt;h2 id=&quot;onwards&quot;&gt;Onwards&lt;/h2&gt;
 
 &lt;p&gt;Securing your AWS environment for regulated businesses isn’t a one-time project; it’s an ongoing journey. By following these steps and focusing on building security into your processes, you can protect your business, meet regulatory demands, and continue to innovate with confidence.&lt;/p&gt;
 </description>
@@ -691,67 +786,6 @@ Enter pass phrase for CA.key:
         <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
         <link>https://inversegravity.net/2022/roundup-082022/</link>
         <guid isPermaLink="true">https://inversegravity.net/2022/roundup-082022/</guid>
-        
-        <category>roundup</category>
-        
-        <category>technology</category>
-        
-        <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Roundup July 2022</title>
-        <description>&lt;p&gt;&lt;strong&gt;Dig into a selection of the best articles, code, and projects we found this past month.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;massive-data-breach-in-china&quot;&gt;Massive Data Breach in China&lt;/h4&gt;
-
-&lt;p&gt;The personally identifiable information (PII) of one billion people in China has been put up for sale on the darknet. The dataset was reportedly extracted from an unsecured Shanghai police database hosted on Alibaba’s cloud hosting platform. There have been countless instances where organizations have similarly exposed sensitive data by leaving it poorly secured. What makes the Shanghai breach notable is its sheer scale. By most accounts, it is one of the largest ever known compromises of PII. &lt;a href=&quot;https://www.darkreading.com/cloud/questions-massive-shanghai-police-data-breach&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;threat-modeling-field-guide&quot;&gt;Threat Modeling Field Guide&lt;/h4&gt;
-
-&lt;p&gt;A solid guide to a multitude of threat modeling methodologies has been published on &lt;a href=&quot;https://twitter.com/shellsharks&quot; target=&quot;_blank&quot;&gt;shellsharks&lt;/a&gt;. Each of the methods comes with a solid description and visualizations. The Appendix goes into data flow diagrams and tooling to perform the perfect threat modeling session for your use case. &lt;a href=&quot;https://shellsharks.com/threat-modeling&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://shellsharks-images.s3.amazonaws.com/2022/threatmodel/data-flow-diagram.png&quot; alt=&quot;Hackers hacking&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Data Flow Diagram&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h4 id=&quot;binary-vulnerability-toolset-with-ghidra-and-semgrep&quot;&gt;Binary Vulnerability Toolset With Ghidra and Semgrep&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/0xdea&quot; target=&quot;_blank&quot;&gt;Marco Ivaldi&lt;/a&gt; released a technical article about automated vulnerability discovery via static analysis techniques. The walkthrough covers custom scripts for &lt;a href=&quot;https://semgrep.dev/&quot; target=&quot;_blank&quot;&gt;semgrep&lt;/a&gt; and &lt;a href=&quot;https://ghidra-sre.org/&quot; target=&quot;_blank&quot;&gt;ghidra&lt;/a&gt; to build a toolset for binary bug hunting.  &lt;a href=&quot;https://security.humanativaspa.it/automating-binary-vulnerability-discovery-with-ghidra-and-semgrep/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;hackerone-employee-steals-vulnerability-reports-for-personal-gains&quot;&gt;HackerOne Employee Steals Vulnerability Reports for Personal Gains&lt;/h4&gt;
-
-&lt;p&gt;A HackerOne employee has been fired for collecting bug bounties from its customers after alerting them to vulnerabilities that were found by other researchers and shared privately with HackerOne through its vulnerability disclosure program. &lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/hackerone-employee-fired-for-stealing-and-selling-bug-reports-for-personal-gain&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://inversegravity.net/assets/images/culture_1.jpg&quot; alt=&quot;Hackers hacking&quot; /&gt;
-&lt;br /&gt;
-&lt;em&gt;Hackers&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;h4 id=&quot;nist-announces-first-four-quantum-resistant-cryptographic-algorithms&quot;&gt;NIST Announces First Four Quantum-Resistant Cryptographic Algorithms&lt;/h4&gt;
-
-&lt;p&gt;Security experts have warned that practical quantum computers could break many of today’s popular encryption algorithms, such as RSA and elliptic curve cryptography. On July 5, the National Institute of Standards and Technology (NIST) announced the selection of four candidates to form the basis of future data-protection technologies able to withstand attacks from quantum computers. &lt;a href=&quot;https://www.nist.gov/news-events/news/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;most-of-the-domains-in-australia-have-security-issue-with-their-spf-and-dmarc-configuration&quot;&gt;Most Of The Domains in Australia Have Security Issue With Their SPF And DMARC Configuration&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/sebastian-salla/&quot; target=&quot;_blank&quot;&gt;Sebastian Salla&lt;/a&gt; scanned 1.7 million Australian domains and checked for various types of SPF &amp;amp; DMARC-related issues. His interesting writeup describes how he ran 400 concurrent lambda functions for 24 hours and reveals the less than optimal results from his scan. &lt;a href=&quot;https://caniphish.com/phishing-resources/blog/australian-spf-scan&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;unlock-honda-cars-remotely&quot;&gt;Unlock Honda cars remotely&lt;/h4&gt;
-
-&lt;p&gt;A team of security researchers found that several modern Honda car models have a vulnerable rolling code mechanism that allows unlocking the cars or even starting the engine remotely. Called Rolling-PWN, the weakness enables replay attacks where a threat actor intercepts the codes from the keyfob to the car and uses them to unlock or start the vehicle. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/hackers-can-unlock-honda-cars-remotely-in-rolling-pwn-attacks/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;time-to-patch-before-scan-15-minutes&quot;&gt;Time To Patch Before Scan: 15 Minutes&lt;/h4&gt;
-
-&lt;p&gt;There is less time to patch disclosed security vulnerabilities than previously thought, as a new report from Palo Alto’s Unit 42 shows. Threat actors scan for vulnerable endpoints within 15 minutes of a new CVE being publicly disclosed. The speed at which actors target devices and systems only adds additional pressure on security teams that already struggle to get vulnerabilities managed. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/hackers-scan-for-vulnerabilities-within-15-minutes-of-disclosure/&quot; target=&quot;_blank&quot;&gt;&amp;gt;read&amp;lt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2022/roundup-072022/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2022/roundup-072022/</guid>
         
         <category>roundup</category>
         
