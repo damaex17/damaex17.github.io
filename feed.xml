@@ -5,8 +5,8 @@
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 May 2025 14:45:08 +0000</pubDate>
-    <lastBuildDate>Fri, 23 May 2025 14:45:08 +0000</lastBuildDate>
+    <pubDate>Fri, 23 May 2025 14:54:28 +0000</pubDate>
+    <lastBuildDate>Fri, 23 May 2025 14:54:28 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -33,6 +33,12 @@
   &lt;li&gt;Limit External Connections: Be very careful about AI models accessing outside data sources. Unintended connections can lead to sensitive company information leaking out.&lt;/li&gt;
   &lt;li&gt;Strict Access for Models: Even the AI model itself should only have access to the bare minimum data it needs to do its job.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://inversegravity.net/assets/images/AIshake.png&quot; alt=&quot;Shaking hands with a robot&quot; /&gt;
+&lt;br /&gt;
+&lt;/p&gt;
 
 &lt;h2 id=&quot;the-ai-supply-chain-know-your-partners&quot;&gt;The AI Supply Chain: Know Your Partners&lt;/h2&gt;
 
