@@ -61,12 +61,10 @@ main, .page, .post { flex: 1; }
 
 a {
   color: inherit;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
+  text-decoration: none;
 }
 
-a:hover { text-decoration-thickness: 2px; }
+a:hover { color: var(--muted); }
 
 :focus-visible {
   outline: 2px solid var(--fg);
@@ -281,8 +279,6 @@ html[data-lang="en"] body [lang="de"] { display: none !important; }
 }
 
 .post-item .date-label { flex: 0 0 4rem; }
-.post-item .article-title a { text-decoration: none; }
-.post-item .article-title a:hover { text-decoration: underline; }
 
 .share { margin-top: 2rem; color: var(--muted); font-size: 0.9rem; }
 
@@ -356,7 +352,6 @@ div.highlight pre, figure.highlight pre { margin: 0; }
 }
 
 sup { line-height: 0; }
-.footnote, .reversefootnote { text-decoration: none; }
 
 @media (max-width: 30rem) {
   body { font-size: 1rem; }

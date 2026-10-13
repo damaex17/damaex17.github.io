@@ -34,13 +34,21 @@
     });
   }
 
+  // First of the browser's preferred languages that we offer; English otherwise.
+  function browserLang() {
+    var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+    for (var i = 0; i < prefs.length; i++) {
+      var code = String(prefs[i]).slice(0, 2).toLowerCase();
+      if (code === 'de' || code === 'en') return code;
+    }
+    return 'en';
+  }
+
   var storedTheme = load('theme');
   if (storedTheme === 'light' || storedTheme === 'dark') root.dataset.theme = storedTheme;
 
   var storedLang = load('lang');
-  var lang = storedLang === 'de' || storedLang === 'en'
-    ? storedLang
-    : ((navigator.language || '').slice(0, 2).toLowerCase() === 'de' ? 'de' : 'en');
+  var lang = storedLang === 'de' || storedLang === 'en' ? storedLang : browserLang();
   applyLang(lang);
 
   document.addEventListener('DOMContentLoaded', function () {
