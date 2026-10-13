@@ -1,7 +1,7 @@
 {
   "short_name": "inversegravity.net",
   "name": "inversegravity.net",
-  "description": "blog about technology, security, data-privacy and gear",
+  "description": "Security engineering and consulting by Maximilian Weber",
   "icons": [
     {
       "src": "/assets/images/icons-192.png",
@@ -16,17 +16,8 @@
     }
   ],
   "start_url": "https://inversegravity.net",
-  "background_color": "#f5f5f5",
+  "background_color": "#ffffff",
   "display": "standalone",
   "scope": "./",
-  "theme_color": "#f5f5f5",
-  "shortcuts": [
-    {
-      "name": "inversegravity.net",
-      "short_name": "iv",
-      "description": "blog about technology, security, data-privacy and gear",
-      "url": "/",
-      "icons": [{ "src": "/assets/images/icons-192.png", "sizes": "192x192" }]
-    }
-  ]
+  "theme_color": "#ffffff"
 }
