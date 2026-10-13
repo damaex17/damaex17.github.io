@@ -284,6 +284,12 @@ html[data-lang="en"] body [lang="de"] { display: none !important; }
 
 .center { text-align: center; }
 
+/* definition lists */
+
+dl { margin: 0 0 1.2em; }
+dt { font-weight: 600; margin-top: 1em; }
+dd { margin: 0.2em 0 0; }
+
 /* tables */
 
 table {
