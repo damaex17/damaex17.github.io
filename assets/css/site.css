@@ -266,6 +266,12 @@ html[data-lang="en"] body [lang="de"] { display: none !important; }
 
 .home h1 span { font-weight: 400; color: var(--muted); }
 
+.home .home-lede {
+  margin: 0 0 0.75rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
 .home .tagline {
   margin: 0 0 2.5rem;
   color: var(--muted);
