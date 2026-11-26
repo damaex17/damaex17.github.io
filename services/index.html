@@ -49,42 +49,48 @@
       <article lang="de">
         <h1 class="page-title">Leistungen</h1>
         <p><strong>Informationssicherheit und KI-Sicherheit für regulierte, schnell wachsende Unternehmen.</strong></p>
-        <p>Zu meinen Kunden zählen vor allem Banken und Fintechs, Versicherungen, Unternehmen des Gesundheitswesens und SaaS-Anbieter. Die Ausgangslage ist häufig dieselbe: Aufsichtsbehörden, Prüfer oder Großkunden stellen hohe Anforderungen an die Informationssicherheit, doch im Unternehmen gibt es niemanden, der sich hauptberuflich darum kümmert.</p>
-        <p>Seit über 20 Jahren entwerfe, betreibe und sichere ich IT-Systeme, einen großen Teil davon bei Banken, deren Infrastruktur vollständig in der Cloud läuft. Ich weiß, welche Nachweise Prüfer erwarten und welche Maßnahmen ein Entwicklungsteam im Alltag tatsächlich mitträgt. Mein Ziel ist Sicherheit, die einer Prüfung standhält und zugleich in der Praxis funktioniert.</p>
+        <p>Ich arbeite vor allem mit Banken und Fintechs, Versicherungen, Unternehmen des Gesundheitswesens und SaaS-Anbietern: Unternehmen, an die Aufsicht, Prüfer oder Großkunden hohe Sicherheitsanforderungen stellen, ohne dass sich intern jemand hauptberuflich darum kümmert. Ich weiß, welche Nachweise Prüfer erwarten und was ein Entwicklungsteam im Alltag mitträgt. Mein Ziel ist Sicherheit, die einer Prüfung standhält und in der Praxis funktioniert.</p>
         <p>Einen schnellen Einstieg bietet die Übersicht, <a href="/services/requests/">womit Unternehmen typischerweise zu mir kommen</a>.</p>
 
         <h2>KI-Sicherheit</h2>
-        <p>In den meisten Unternehmen ist KI längst im Einsatz, oft ohne dass dies jemand bewusst entschieden hätte. Verbote helfen in dieser Lage selten weiter. Entscheidend ist, den Einsatz gezielt zu steuern und die KI-Systeme abzusichern, die Sie selbst entwickeln.</p>
-        <p>Ich entwickle KI-Systeme für die Sicherheitsarbeit und betreibe sie produktiv. Daraus ergibt sich mein Ausgangspunkt: Ein Sprachmodell kann Anweisungen nicht zuverlässig von Daten unterscheiden, und daran ändert weder ein System-Prompt noch ein Filter etwas. Sicherheit muss deshalb aus der Architektur rund um das Modell kommen. Was darf es lesen, welche Tools darf es aufrufen, mit wessen Berechtigungen, und was passiert, wenn es sich irrt?</p>
+        <p>Ich entwickle KI-Systeme für die Sicherheitsarbeit und betreibe sie produktiv. Ein Sprachmodell kann Anweisungen nicht zuverlässig von Daten unterscheiden. Sicherheit muss deshalb aus der Architektur rund um das Modell kommen.</p>
         <ul>
-          <li><strong>Agenten zur Überwachung Ihrer Lieferkette:</strong> Ich entwickle Agenten, die Paket-Registries, Sicherheitsmeldungen und Upstream-Repositories beobachten, neue Schwachstellen und manipulierte Releases mit Ihrem Software-Inventar (SBOM) abgleichen und prüfen, ob der betroffene Code bei Ihnen überhaupt erreichbar ist. Ihr Team erhält wenige Stunden nach Bekanntwerden eine bewertete Meldung mit Kontext, oft bevor eine CVE vergeben ist, und nicht erst Tage später einen Scanner-Treffer.</li>
-          <li><strong>Öffentlich erreichbare MCP-Server:</strong> Ich entwickle und prüfe MCP-Server, über die Ihr Produkt für KI-Agenten nutzbar wird. Dazu gehören OAuth mit Tokens, die an Ihren Server gebunden sind und nicht an nachgelagerte APIs weitergereicht werden, Berechtigungen pro Tool und pro Mandant, Tool-Beschreibungen, die als Angriffsfläche behandelt werden, Rate Limits und ein lückenloser Nachweis jedes Aufrufs, den ein Agent im Namen Ihrer Kunden ausführt.</li>
-          <li><strong>Schutz vor Prompt Injection:</strong> Ein Agent, der nicht vertrauenswürdige Inhalte liest, Zugriff auf sensible Daten hat und Daten nach außen senden kann, ist angreifbar, ganz gleich, wie leistungsfähig das Modell ist. Ich gestalte Agenten so, dass diese drei Eigenschaften nie im selben Kontext zusammenkommen: getrennte Berechtigungen, eng begrenzte und kurzlebige Zugangsdaten, isolierte Verarbeitung nicht vertrauenswürdiger Eingaben, keine offenen Kanäle für den Abfluss von Daten und eine menschliche Freigabe für Aktionen, die sich nicht rückgängig machen lassen.</li>
-          <li><strong>Evaluierung vor dem Produktivgang:</strong> Bevor ein KI-System in Produktion geht, wird es gegen einen Testsatz geprüft, der aus seinen realen Aufgaben und aus bekannten Angriffsmustern besteht, einschließlich indirekter Injection über Dokumente, Webseiten und Tool-Ergebnisse. Die Ergebnisse werden gemessen statt nach Augenmaß beurteilt, und die Tests laufen bei jeder Änderung an Modell, Prompt oder Tools erneut. So wird ein Modellwechsel zu einem regulären Release und nicht zu einer Überraschung.</li>
-          <li><strong>Kontrollen für KI-generierten Code:</strong> KI-generierter Code durchläuft dasselbe Review und dieselbe Pipeline wie jeder andere Code, und ein verantwortlicher Mensch gibt den Merge frei. Hinzu kommen Prüfungen auf erfundene oder frisch registrierte Abhängigkeiten, Secret Scanning und Coding-Agenten, die in einer Sandbox ohne produktive Zugangsdaten und mit eng begrenztem Netzwerkzugriff arbeiten.</li>
-          <li><strong>KI-gestützte Abwehr:</strong> Ich setze KI auf allen Ebenen Ihrer Verteidigung ein: am Perimeter, in der Tiefe über Systeme und Cloud hinweg und in der sicheren Softwareentwicklung, etwa für die Erkennung von Angriffen, die Vorsortierung von Alarmen und das Code-Review.</li>
-          <li><strong>KI-Governance und Regulierung:</strong> Klare Regeln, welche KI-Werkzeuge auf welche Daten zugreifen dürfen, eine Prüfung der Anbieterbedingungen, bevor Ihre Daten in das Training fremder Modelle einfließen, eine Richtlinie, die Ihre Mitarbeitenden tatsächlich lesen, und die Vorbereitung auf die KI-Verordnung, aufbauend auf Ihren bestehenden Sicherheits- und Compliance-Prozessen.</li>
+          <li><strong>Überwachung der Lieferkette:</strong> Agenten gleichen neue Schwachstellen und manipulierte Releases mit Ihrem Software-Inventar (SBOM) ab, prüfen, ob der betroffene Code erreichbar ist, und melden sich innerhalb weniger Stunden, oft bevor eine CVE vergeben ist.</li>
+          <li><strong>MCP-Server:</strong> Entwicklung und Prüfung von Servern, die Ihr Produkt für KI-Agenten öffnen, mit an Ihren Server gebundenen OAuth-Tokens, Berechtigungen pro Tool und Mandant, Rate Limits und lückenlosem Nachweis jedes Aufrufs.</li>
+          <li><strong>Schutz vor Prompt Injection:</strong> Agenten, bei denen nicht vertrauenswürdige Eingaben, sensible Daten und Kanäle nach außen nie zusammenkommen, mit eng begrenzten, kurzlebigen Zugangsdaten und menschlicher Freigabe für unumkehrbare Aktionen.</li>
+          <li><strong>Evaluierung vor dem Produktivgang:</strong> Messbare Tests aus realen Aufgaben und bekannten Angriffen, einschließlich indirekter Injection, die bei jeder Änderung an Modell, Prompt oder Tools erneut laufen.</li>
+          <li><strong>KI-generierter Code:</strong> Dasselbe Review und dieselbe Pipeline wie für jeden Code, Prüfungen auf erfundene Abhängigkeiten und Secrets sowie Coding-Agenten in einer Sandbox ohne produktive Zugangsdaten.</li>
+          <li><strong>KI-gestützte Abwehr:</strong> KI für Angriffserkennung, Vorsortierung von Alarmen und Code-Review, am Perimeter, über Systeme und Cloud hinweg und in der sicheren Softwareentwicklung.</li>
+          <li><strong>KI-Governance und EU AI Act:</strong> Regeln, welche KI-Werkzeuge auf welche Daten zugreifen dürfen, Prüfung der Anbieter, eine Richtlinie, die Mitarbeitende tatsächlich lesen, und Vorbereitung auf die KI-Verordnung auf Basis Ihrer bestehenden Prozesse.</li>
         </ul>
-        <p>Es geht nicht darum, KI auszubremsen. Es geht darum, sie dort einzusetzen, wo sie tatsächlich etwas bewirkt, mit Risiken, die Sie verstanden und bewusst akzeptiert haben. Mehr dazu lesen Sie in meinem Artikel <a href="/2025/ai-must-do-adoption/">„AI Is Here. Security Can’t Wait!“</a> (auf Englisch).</p>
+        <p>Es geht nicht darum, KI auszubremsen, sondern sie dort einzusetzen, wo sie etwas bewirkt, mit Risiken, die Sie bewusst akzeptiert haben. Mehr dazu in meinem Artikel <a href="/2025/ai-must-do-adoption/">„AI Is Here. Security Can’t Wait!“</a> (auf Englisch).</p>
 
         <h2>Informationssicherheit und Compliance</h2>
         <ul>
-          <li><strong>ISMS:</strong> Aufbau oder Neuausrichtung Ihres Informationssicherheits-Managementsystems mit Richtlinien, Risikomanagement und Abläufen, die auch nach dem Audit gelebt werden.</li>
-          <li><strong>Zertifizierung, Audits und Regulierung:</strong> Umsetzung der Anforderungen aus ISO 27001, PCI DSS, DSGVO, DORA und NIS2, Vorbereitung und Begleitung von Audits sowie Ansprechpartner für die Prüfer.</li>
-          <li><strong>Sicherheitsfragebögen:</strong> Beantwortung von Sicherheitsprüfungen durch Kunden und Partner, mit KI-Unterstützung für schnellere Antworten, und Schließen der Lücken, die dabei sichtbar werden.</li>
-          <li><strong>Cloud-Sicherheit in AWS:</strong> Kontenstruktur, Berechtigungskonzepte, Logging und sichere Entwicklungsprozesse (SSDLC, DevSecOps).</li>
-          <li><strong>Security Awareness und Phishing-Simulationen:</strong> Regelmäßige Phishing-Simulationen, die zeigen, wo Sie stehen, und Schulungen, die auf die Angriffe zugeschnitten sind, mit denen Ihre Mitarbeitenden am ehesten konfrontiert werden. So erreichen die Schulungen Ihre Mitarbeitenden, statt als lästige Pflichtübung abgehakt zu werden.</li>
-          <li><strong>Nach einem Sicherheitsvorfall:</strong> Unabhängige Bewertung nach einem Vorfall mit einem priorisierten Plan, um die Lücken zu schließen, und Untersuchung, wenn unklar ist, ob überhaupt etwas passiert ist.</li>
+          <li><strong>ISMS:</strong> Aufbau oder Neuausrichtung mit Richtlinien, Risikomanagement und Abläufen, die auch nach dem Audit gelebt werden.</li>
+          <li><strong>Zertifizierung, Audits und Regulierung:</strong> ISO 27001, PCI DSS, DSGVO, DORA und NIS2, von der Vorbereitung bis zur Begleitung des Audits, als Ansprechpartner für die Prüfer.</li>
+          <li><strong>Sicherheitsfragebögen:</strong> Beantwortung von Sicherheitsprüfungen durch Kunden und Partner, mit KI beschleunigt, und Schließen der Lücken, die dabei sichtbar werden.</li>
+          <li><strong>Cloud-Sicherheit in AWS:</strong> Kontenstruktur, Berechtigungen, Logging und sichere Entwicklungsprozesse (SSDLC, DevSecOps).</li>
+          <li><strong>Security Awareness und Phishing-Simulationen:</strong> Regelmäßige Simulationen und Schulungen, die auf die Angriffe zugeschnitten sind, mit denen Ihre Mitarbeitenden am ehesten konfrontiert werden.</li>
+          <li><strong>Nach einem Sicherheitsvorfall:</strong> Unabhängige Bewertung mit priorisiertem Plan, und Untersuchung, wenn unklar ist, ob überhaupt etwas passiert ist.</li>
         </ul>
+
+        <h2>Beispiele aus meiner Arbeit</h2>
+        <dl>
+          <dt>Sicherheitsbewertung nach einem Ransomware-Vorfall</dt>
+          <dd>Für ein mittelständisches Dienstleistungsunternehmen: Bewertung anhand einer anerkannten Sicherheits-Baseline, priorisierte Risiken und ein Bericht, der mit schnell umsetzbaren Maßnahmen beginnt und einen längerfristigen Plan aufzeigt, vorgestellt vor der Geschäftsführung.</dd>
+          <dt>Zugeschnittenes Phishing-Awareness-Training</dt>
+          <dd>Für die gesamte Belegschaft eines produzierenden Unternehmens: Der Phish-Prone-Prozentsatz (der Anteil der Mitarbeitenden, die auf einen simulierten Angriff hereinfallen) sank unter den Branchen-Benchmark der Fertigungsindustrie von 24&nbsp;%. Grundlage waren regelmäßige Phishing-Simulationen und ein Training, das sich an den Angriffen orientiert, mit denen die Belegschaft am ehesten konfrontiert ist, damit sie verdächtige Nachrichten im Arbeitsalltag erkennt und meldet.</dd>
+        </dl>
 
         <h2>Formen der Zusammenarbeit</h2>
         <dl>
           <dt>Externer CISO (Fractional CISO)</dt>
-          <dd>An einer fest vereinbarten Anzahl von Tagen pro Monat übernehme ich in Ihrem Unternehmen die Rolle des Sicherheitsverantwortlichen: Ich nehme an Sitzungen der Geschäftsführung teil, bin Ansprechpartner für Prüfer und Kunden und treibe Ihr Sicherheitsprogramm kontinuierlich voran.</dd>
+          <dd>An fest vereinbarten Tagen pro Monat bin ich Ihr Sicherheitsverantwortlicher: in Sitzungen der Geschäftsführung, als Ansprechpartner für Prüfer und Kunden und als treibende Kraft Ihres Sicherheitsprogramms.</dd>
           <dt>Projekte</dt>
-          <dd>Klar umrissene Vorhaben mit festem Ziel und Enddatum, etwa die Vorbereitung auf eine ISO-27001-Zertifizierung, ein Sicherheitsreview Ihrer AWS-Umgebung oder die Prüfung eines KI-Agenten vor dem Produktivgang.</dd>
+          <dd>Klar umrissene Vorhaben mit festem Ziel und Enddatum, etwa eine ISO-27001-Zertifizierung, ein Review Ihrer AWS-Umgebung oder die Prüfung eines KI-Agenten vor dem Produktivgang.</dd>
           <dt>Workshops und Veranstaltungen</dt>
-          <dd>Halb- oder ganztägige Workshops für Geschäftsführung und Entwicklungsteams, zur Informationssicherheit oder zum sicheren Einsatz von KI, sowie Beiträge zu Gründer-Sessions und Austauschrunden zu aktuellen Themen wie der Absicherung von KI-Produkten oder der Vorbereitung auf Sicherheitsprüfungen durch Großkunden.</dd>
+          <dd>Halb- oder ganztägige Workshops für Geschäftsführung und Entwicklungsteams sowie Beiträge zu Gründer-Sessions und Austauschrunden, etwa zur Absicherung von KI-Produkten oder zur Vorbereitung auf Sicherheitsprüfungen durch Großkunden.</dd>
           <dt>Due Diligence für Investoren</dt>
           <dd>Kurze Expertengespräche oder gezielte Prüfungen von Sicherheit, Compliance und KI-Risiken eines Zielunternehmens, mit klar benannten Warnsignalen und ihrer Tragweite.</dd>
           <dt>Begleitung von Portfoliounternehmen</dt>
@@ -100,42 +106,48 @@
       <article lang="en">
         <h1 class="page-title">Services</h1>
         <p><strong>Information security and AI security for regulated, fast-growing companies.</strong></p>
-        <p>I work mainly with banks and fintechs, insurers, healthcare companies and SaaS providers. The starting point is usually the same: regulators, auditors or enterprise customers have high expectations for security, but nobody in-house is responsible for it full-time.</p>
-        <p>For more than 20 years I have designed, run and secured IT systems, much of that time at banks running entirely in the cloud. I know what evidence auditors expect, and which measures an engineering team will actually adopt in its day-to-day work. My goal is security that stands up to an audit and works in practice.</p>
+        <p>I work mainly with banks and fintechs, insurers, healthcare companies and SaaS providers: companies where regulators, auditors or enterprise customers expect strong security, but nobody in-house owns it full-time. I know what evidence auditors expect and what an engineering team will actually adopt. My goal is security that stands up to an audit and works in practice.</p>
         <p>For a quick start, see <a href="/services/requests/">what companies typically ask me for</a>.</p>
 
         <h2>AI security</h2>
-        <p>Most companies already use AI, often without anyone having made a deliberate decision. Banning it rarely works at that point. What matters is steering how it is used, and securing the AI systems you build yourself.</p>
-        <p>I build AI systems for security work and run them in production. That shapes my starting point: a language model cannot reliably tell instructions apart from data, and no system prompt or filter changes that. Security has to come from the architecture around the model. What can it read, which tools may it call, with whose permissions, and what happens when it gets something wrong?</p>
+        <p>I build AI systems for security work and run them in production. A language model cannot reliably tell instructions apart from data, so security has to come from the architecture around it.</p>
         <ul>
-          <li><strong>Agents that watch your supply chain:</strong> I build agents that monitor package registries, security advisories and upstream repositories, match new vulnerabilities and compromised releases against your software inventory (SBOM), and check whether the affected code is actually reachable in your systems. Your team gets a triaged alert with context within hours of disclosure, often before a CVE has been assigned, instead of a scanner finding days later.</li>
-          <li><strong>Publicly exposed MCP servers:</strong> I build and review MCP servers that make your product available to AI agents. That means OAuth with tokens bound to your server rather than passed through to downstream APIs, authorization per tool and per tenant, tool descriptions treated as attack surface, rate limits, and a complete audit trail of every call an agent makes on your customers’ behalf.</li>
-          <li><strong>Defenses against prompt injection:</strong> An agent that reads untrusted content, has access to sensitive data and can send data out is exploitable, no matter how capable the model. I design agents so that these three properties never meet in the same context: separated privileges, narrowly scoped and short-lived credentials, isolated handling of untrusted input, no open channels for data to leave, and human approval for actions that cannot be undone.</li>
-          <li><strong>Evaluation before go-live:</strong> Before an AI system reaches production, it is tested against an evaluation set built from its real tasks and from known attack patterns, including indirect injection through documents, web pages and tool results. Results are measured, not judged by eye, and the tests run again with every change to the model, prompt or tools. A model upgrade then becomes a regular release instead of a surprise.</li>
-          <li><strong>Controls for AI-written code:</strong> AI-generated code goes through the same review and the same pipeline as any other code, and an accountable human approves the merge. On top of that come checks for hallucinated or newly registered dependencies, secret scanning, and coding agents that run in a sandbox with no production credentials and tightly limited network access.</li>
-          <li><strong>AI-powered defenses:</strong> I put AI to work at every layer of defense: at the perimeter, in depth across systems and cloud, and inside secure software development, for example AI-assisted threat detection, alert triage and code review.</li>
-          <li><strong>AI governance and regulation:</strong> clear rules on which AI tools may access which data, vendor review before your data ends up training someone else’s model, a policy your staff will actually read, and preparation for the AI Act built on the security and compliance processes you already have.</li>
+          <li><strong>Supply chain monitoring:</strong> agents that match new vulnerabilities and compromised releases against your software inventory (SBOM), check whether the affected code is reachable, and alert your team within hours, often before a CVE is assigned.</li>
+          <li><strong>MCP servers:</strong> building and reviewing servers that open your product to AI agents, with tokens bound to your server, authorization per tool and per tenant, rate limits and a complete audit trail.</li>
+          <li><strong>Defenses against prompt injection:</strong> agents in which untrusted input, sensitive data and outbound channels never meet, with narrowly scoped, short-lived credentials and human approval for actions that cannot be undone.</li>
+          <li><strong>Evaluation before go-live:</strong> measured tests built from real tasks and known attacks, including indirect injection, that run again with every change to the model, prompt or tools.</li>
+          <li><strong>Controls for AI-written code:</strong> the same review and pipeline as any other code, checks for hallucinated dependencies and secrets, and coding agents in a sandbox with no production credentials.</li>
+          <li><strong>AI-powered defenses:</strong> AI-assisted threat detection, alert triage and code review, at the perimeter, across systems and cloud, and in secure software development.</li>
+          <li><strong>AI governance and the EU AI Act:</strong> rules on which AI tools may access which data, vendor review, a policy your staff will actually read, and AI Act readiness built on the processes you already have.</li>
         </ul>
-        <p>The point is not to slow AI down. It is to let you use it where it makes a real difference, with risks you have understood and deliberately accepted. For more on this topic, read my article <a href="/2025/ai-must-do-adoption/">“AI Is Here. Security Can’t Wait!”</a></p>
+        <p>The point is not to slow AI down, but to use it where it makes a real difference, with risks you have deliberately accepted. More in my article <a href="/2025/ai-must-do-adoption/">“AI Is Here. Security Can’t Wait!”</a></p>
 
         <h2>Information security and compliance</h2>
         <ul>
-          <li><strong>ISMS:</strong> building or restructuring your information security management system, with policies, risk management and routines that keep running long after the audit.</li>
-          <li><strong>Certification, audits and regulation:</strong> meeting the requirements of ISO 27001, PCI DSS, the GDPR, DORA and NIS2, preparing for and supporting audits, and acting as the contact for auditors.</li>
+          <li><strong>ISMS:</strong> building or restructuring your information security management system, with policies, risk management and routines that keep running after the audit.</li>
+          <li><strong>Certification, audits and regulation:</strong> ISO 27001, PCI DSS, the GDPR, DORA and NIS2, from preparation to audit, with me as the contact for auditors.</li>
           <li><strong>Security questionnaires:</strong> answering customer and partner security reviews, using AI to speed up the answers, and fixing the gaps they uncover.</li>
           <li><strong>AWS cloud security:</strong> account structure, access management, logging and secure development processes (SSDLC, DevSecOps).</li>
-          <li><strong>Security awareness and phishing simulations:</strong> regular phishing simulations that show where you stand, and training built around the attacks your staff are most likely to face, so it resonates instead of feeling like a box-ticking exercise.</li>
-          <li><strong>Incident follow-up:</strong> an independent assessment after an incident, with a prioritized plan to close the gaps, and an investigation when you’re not sure whether something happened at all.</li>
+          <li><strong>Security awareness and phishing simulations:</strong> regular simulations and training built around the attacks your staff are most likely to face.</li>
+          <li><strong>Incident follow-up:</strong> an independent assessment with a prioritized plan, and an investigation when you’re not sure whether something happened at all.</li>
         </ul>
+
+        <h2>Examples of my work</h2>
+        <dl>
+          <dt>Security assessment after a ransomware incident</dt>
+          <dd>For a mid-sized services company: an assessment against a recognized security baseline, ranked risks, and a report that starts with quick wins and sets out a longer-term plan, walked through with management.</dd>
+          <dt>Tailored phishing awareness training</dt>
+          <dd>For the whole workforce of a manufacturing company: the phish-prone percentage (the share of employees who fall for a simulated attack) dropped below the manufacturing industry benchmark of 24%. The basis was regular phishing simulations and a training built around the attacks the employees are most likely to face, so they learn to recognize and report suspicious messages in their day-to-day work.</dd>
+        </dl>
 
         <h2>Ways to work together</h2>
         <dl>
           <dt>Fractional CISO</dt>
-          <dd>For a fixed number of days per month, I act as your security lead: I join management meetings, serve as the point of contact for auditors and customers, and keep your security program moving forward.</dd>
+          <dd>For a fixed number of days per month, I act as your security lead: in management meetings, as the contact for auditors and customers, and driving your security program forward.</dd>
           <dt>Projects</dt>
-          <dd>Well-defined engagements with a clear goal and an end date, such as preparing for ISO 27001 certification, reviewing the security of your AWS environment or assessing an AI agent before it goes live.</dd>
+          <dd>Well-defined engagements with a clear goal and an end date, such as ISO 27001 certification, a review of your AWS environment or assessing an AI agent before it goes live.</dd>
           <dt>Workshops and events</dt>
-          <dd>Half-day or full-day sessions for management or engineering teams, on information security or on using AI securely, and contributions to founder sessions and peer exchanges on current topics such as securing AI products or preparing for enterprise security reviews.</dd>
+          <dd>Half-day or full-day sessions for management or engineering teams, and contributions to founder sessions and peer exchanges, for example on securing AI products or preparing for enterprise security reviews.</dd>
           <dt>Due diligence for investors</dt>
           <dd>Short expert calls or focused reviews of a target’s security, compliance and AI risk, with clear red flags and how serious they are.</dd>
           <dt>Support for portfolio companies</dt>
