@@ -60,7 +60,7 @@
           <p>On November 19, the BSI published its annual report on the state of IT security in Germany and raised its overall assessment from “tense” to “tense to critical”. The main driver, according to the agency, is AI that finds vulnerabilities and hands over a working exploit along with them. The report also says many companies and consumers feel safer than they actually are. BSI president Claudia Plattner was blunt about what comes next: “In the next stage, we expect more and more attacks by autonomous AI agents.”</p>
           <p>Strictly speaking, that next stage has already started. The report covers the period up to mid-2026, and a lot has happened since. On November 13, the FBI issued a FLASH alert about ARTEX, an open-source framework originally built for penetration testing. According to the Bureau, malicious actors have been using it since at least August against financial institutions, government agencies and tech companies, and some intrusions reached privileged access in under three hours. CERT-EU, which looks after the security of the EU institutions, had warned about ARTEX-assisted attacks about a week earlier.</p>
           <p>The most visible case so far is the European Commission. On November 19 it confirmed that a campaign detected in October involved a publicly available AI tool, and Politico reported that CERT-EU had identified ARTEX. Systems for payroll, leave requests and medical reimbursements were disrupted for more than ten days, partly because the Commission took applications offline as a precaution.</p>
-          <p>Online retail has its own example. In September, Gambit Security described an operator who used a framework called Cairn, together with two other AI tools, against online stores. Later research put the number of affected organizations at more than a hundred. One detail from Gambit’s findings deserves more attention than it got: the attacker’s automated cleanup routine destroyed data at some of the victims. So even an intrusion that isn’t aimed at destruction can end with data gone.</p>
+          <p>Online retail has its own example. In September, Gambit Security described an operator who used a framework called Cairn, together with two other AI tools, against online stores. Gambit confirmed at least 27 compromised companies, and more than a hundred further websites were linked to the campaign. One detail from Gambit’s findings deserves more attention than it got: the attacker’s automated cleanup routine destroyed data at some of the victims. So even an intrusion that isn’t aimed at destruction can end with data gone.</p>
           <p>The names will change. ARTEX and Cairn are this year’s examples, and next year there will be others. What matters is the approach behind them.</p>
 
           <h2>How an attack runs when nobody is at the keyboard</h2>
@@ -85,6 +85,19 @@
 
           <h2>No new tricks</h2>
           <p>There’s no clever countermeasure on the horizon that makes this problem go away, and it’s worth being skeptical of anyone who promises one. What works against an automated attacker is what has always worked: a solid, hardened foundation with as little exposed as possible. What has changed is the grace period. Systems that were safe mainly because nobody would bother with them are now being checked by something that bothers with everything.</p>
+
+          <h2>Sources</h2>
+          <ul>
+            <li>BSI: <a href="https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261119_Lagebericht.html">BSI-Jahreslagebericht: Cybersicherheitslage in Deutschland ist angespannt bis kritisch</a>, press release, November 19, 2026 (in German). Threat level and quote from Claudia Plattner.</li>
+            <li>BSI: <a href="https://www.bsi.bund.de/DE/Service-Navi/Publikationen/Lagebericht/lagebericht_node.html">Die Lage der IT-Sicherheit in Deutschland 2026</a> (in German). Reporting period, ransomware share of small and midsize businesses.</li>
+            <li>FBI: <a href="https://www.ic3.gov/csa/2026/261113.pdf">FLASH alert on the ARTEX autonomous penetration testing framework</a>, November 13, 2026 (PDF).</li>
+            <li>The Register: <a href="https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103">European Commission scrambles to contain AI-assisted cyberattack</a>, November 19, 2026. Commission incident and earlier CERT-EU warning.</li>
+            <li>The Record: <a href="https://therecord.media/european-commission-confirms-cyberattack-using-ai">European Commission confirms cyberattack using AI</a>.</li>
+            <li>Cloud Security Alliance: <a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-agent-retail-skimming-campaign-20260924/">Autonomous AI agents breach 100+ retailers</a>, research note on Gambit Security’s findings, September 24, 2026.</li>
+            <li>Security.io: <a href="https://www.security.io/articles/2026/09/25/ai-agents-retail-skimmer-campaign">AI-orchestrated retail campaign pairs card theft with destructive cleanup</a>, September 25, 2026.</li>
+            <li>Rich Mogull, Cloud Security Alliance: <a href="https://cloudsecurityalliance.org/blog/2026/11/18/artex-and-autonomous-offensive-frameworks">ARTEX and autonomous offensive frameworks</a>, November 18, 2026.</li>
+            <li>Diagram “How Artex works”: Maximilian Weber.</li>
+          </ul>
         </div>
 
         <p class="center">[ <a href="/tag/security/"><code>security</code></a> <a href="/tag/technology/"><code>technology</code></a> ]</p>
