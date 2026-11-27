@@ -1,1 +1,34 @@
+# Content Signals (https://contentsignals.org/)
+# search:   building a search index and showing links and excerpts
+# ai-input: using content as input to AI answers (e.g. retrieval)
+# ai-train: training or fine-tuning AI models
+#
+# Policy: search and AI answers are welcome, AI training is not.
+
+# AI search and user-requested fetches: allowed
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Claude-Web
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+
+# AI training crawlers and opt-out tokens: disallowed
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: meta-externalagent
+User-agent: Bytespider
+Disallow: /
+
+# Everyone else, including regular search engines
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+
 Sitemap: https://inversegravity.net/sitemap.xml
