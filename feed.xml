@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>inversegravity.net</title>
     <description>cyber security and technology blog</description>
     <link>https://inversegravity.net/</link>
     <atom:link href="https://inversegravity.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 May 2025 14:58:43 +0000</pubDate>
-    <lastBuildDate>Fri, 23 May 2025 14:58:43 +0000</lastBuildDate>
+    <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
+      <item>
+        <title>AI as an attacker: the next break-in may barely involve a human</title>
+        <description>The BSI rates the threat level as “tense to critical” for the first time. Agentic offensive frameworks automate attacks, and the answer is defensive minimalism.</description>
+        <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+        <link>https://inversegravity.net/2026/ai-as-an-attacker/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2026/ai-as-an-attacker/</guid>
+      </item>
       <item>
         <title>AI Is Here. Security Can't Wait! Are You Ready?</title>
         <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -560,8 +567,8 @@ Enter pass phrase for CA.key:
 &lt;p&gt;MITRE has released a great series of getting started &lt;a href=&quot;https://medium.com/mitre-attack/getting-started/home&quot; target=&quot;_blank&quot;&gt;blog posts&lt;/a&gt;. Organizations can use ATT&amp;amp;CK to prioritize and validate detection logic by analyzing techniques used by adversaries in past attacks. With this knowledge, organizations can start developing rules and use cases to better protect their networks against sophisticated threats.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
-        <link>https://inversegravity.net/2023/MITRE-att&ck/</link>
-        <guid isPermaLink="true">https://inversegravity.net/2023/MITRE-att&ck/</guid>
+        <link>https://inversegravity.net/2023/MITRE-att&amp;ck/</link>
+        <guid isPermaLink="true">https://inversegravity.net/2023/MITRE-att&amp;ck/</guid>
         
         <category>security</category>
         
